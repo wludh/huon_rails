@@ -57,4 +57,6 @@ Rails.application.routes.draw do
   # Configures store endpoint in your app
 mount AnnotatorStore::Engine, at: '/annotator_store'
 
+get "/pages/:page" => "pages#show"
+
 end
