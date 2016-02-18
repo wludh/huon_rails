@@ -123,7 +123,7 @@ $(document).ready(function()
 
   app.start()
      .then(function () {
-         app.annotations.load({user: 'walshb'});
+         app.annotations.load();
      });
 
 });
