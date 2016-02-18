@@ -10,5 +10,6 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( base_scripts.js )
+Rails.application.config.assets.precompile += %w( jquery-2.2.0.min.js )
 Rails.application.config.assets.precompile += %w( annotator.min.js )
 Rails.application.config.assets.precompile += %w( annotator-deploy.js )
