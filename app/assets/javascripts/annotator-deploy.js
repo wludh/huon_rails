@@ -1,5 +1,5 @@
-$('body').annotator()
-             .annotator('setupPlugins');
+// $('body').annotator()
+//              .annotator('setupPlugins');
 
 var content = $('body').annotator();
     content.annotator('setupPlugins', {}, {
