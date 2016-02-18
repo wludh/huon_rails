@@ -99,8 +99,8 @@
 //      	app.annotations.load();
 // });
 	
-// $(document).ready(function()
-// {
+$(document).ready(function()
+{
   var pageUri = function () {
       return {
           beforeAnnotationCreated: function (ann) {
@@ -117,7 +117,8 @@
   		})
       .include(annotator.ui.filter.standalone)
       // .include(annotator.ui.tags.standalone)
-      .include(annotator.storage.http, {prefix: 'https://blooming-reef-34460.herokuapp.com/annotator_store'})
+      // .include(annotator.storage.http, {prefix: 'https://blooming-reef-34460.herokuapp.com/annotator_store'})
+      .include(annotator.storage.http, {prefix: '/annotator_store'})
       .include(pageUri);
 
   app.start()
@@ -125,4 +126,4 @@
          app.annotations.load({user: 'walshb'});
      });
 
-// });
+});

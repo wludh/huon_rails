@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Huon d'Auvergne | Bibliography</title>
-    <link rel="stylesheet" href="/build/css/base_styles.css" />
-    <link rel="stylesheet" href="/css/annotator.min.css" />
+
   </head>
   <body>
     <div>
@@ -169,21 +168,24 @@
     </section>
 
     <!--end main content-->
-    <div class="footer">
+<!--     <div class="footer">
       <a href="https://digitalhumanities.wlu.edu/"><img src="/img/wlu_blue.jpg"></a>
       <a href="https://www.neh.gov/"><img src="/img/neh_logo.png"></a>
     </div>
-    <script src="base_scripts"></script>
-
+ -->
 <%= javascript_include_tag "jquery-2.2.0.min" %>
+<%= javascript_include_tag "foundation.min" %>
+<script src="http://code.jquery.com/jquery-migrate-1.3.0.js"></script>
+
 <%= javascript_include_tag "annotator.min" %>
 <%= javascript_include_tag "annotator-deploy" %>
 
 <!-- m<script src="/js/annotator.min.js"></script> -->
 <!-- <script src="http://assets.annotateit.org/annotator/v1.1.0/annotator-full.min.js"></script> -->
 <!-- <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.1.0/annotator.min.css"> -->
-
-<link rel="stylesheet" src="/css/annotator.css">
+<%= stylesheet_link_tag 'base_styles' %>
+<%= stylesheet_link_tag 'annotator.min' %>
+<%= stylesheet_link_tag 'annotator' %>
 
     <div id="coins"></div>
     <script>
