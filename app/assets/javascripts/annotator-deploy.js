@@ -1,28 +1,28 @@
-// $('body').annotator()
-//              .annotator('setupPlugins');
+$('body').annotator()
+             .annotator('setupPlugins');
 
-// var content = $('body').annotator();
-//     content.annotator('setupPlugins', {}, {
-//     	Store: {
-//       // The endpoint of the store on your server.
-//      	// prefix: 'https://annotateit.org/api/search?user=walshb',
+var content = $('body').annotator();
+    content.annotator('setupPlugins', {}, {
+    	Store: {
+      // The endpoint of the store on your server.
+     	prefix: '/annotation_store',
   	
-//       // Attach the uri of the current page to all annotations to allow search.
-//       	// annotationData: {
-//        //  	'uri': 'https://huon-staging.herokuapp.com/bibliography.html'
-//       	// }
+      // Attach the uri of the current page to all annotations to allow search.
+      	annotationData: {
+        	'uri': 'https://huon-staging.herokuapp.com/bibliography.html'
+      	},
 
-//       // This will perform a "search" action when the plugin loads. Will
-//       // request the last 20 annotations for the current url.
-//       // eg. /store/endpoint/search?limit=20&uri=http://this/document/only
-//       // loadFromSearch: {
-//       // 	'limit': 0,
-//       //   'all_fields': 1,
-//       //   'uri': 'https://huon-staging.herokuapp.com/bibliography.html'
-//       // }
-//     }
-// }
-// );
+      // This will perform a "search" action when the plugin loads. Will
+      // request the last 20 annotations for the current url.
+      // eg. /store/endpoint/search?limit=20&uri=http://this/document/only
+      loadFromSearch: {
+      	'limit': 0,
+        'all_fields': 1,
+        'uri': 'https://huon-staging.herokuapp.com/bibliography.html'
+      }
+    }
+}
+);
 
 // "http://annotateit.org/api/search?user=walshb" will return all the 
 // annotations by a user. but then how do i load that into the annotator?
@@ -99,31 +99,32 @@
 //      	app.annotations.load();
 // });
 	
-$(document).ready(function()
-{
-  var pageUri = function () {
-      return {
-          beforeAnnotationCreated: function (ann) {
-              ann.uri = window.location.href;
-          }
-      };
-  };
+// version 2
+// $(document).ready(function()
+// {
+//   var pageUri = function () {
+//       return {
+//           beforeAnnotationCreated: function (ann) {
+//               ann.uri = window.location.href;
+//           }
+//       };
+//   };
 
-  var app = new annotator.App()
-      .include(annotator.ui.main, {
-      	element: document.body,
-      	editorExtensions: [annotator.ui.tags.editorExtension],
-     		viewerExtensions: [annotator.ui.tags.viewerExtension]
-  		})
-      .include(annotator.ui.filter.standalone)
-      // .include(annotator.ui.tags.standalone)
-      // .include(annotator.storage.http, {prefix: 'https://blooming-reef-34460.herokuapp.com/annotator_store'})
-      .include(annotator.storage.http, {prefix: '/annotator_store'})
-      .include(pageUri);
+//   var app = new annotator.App()
+//       .include(annotator.ui.main, {
+//       	element: document.body,
+//       	editorExtensions: [annotator.ui.tags.editorExtension],
+//      		viewerExtensions: [annotator.ui.tags.viewerExtension]
+//   		})
+//       .include(annotator.ui.filter.standalone)
+//       // .include(annotator.ui.tags.standalone)
+//       // .include(annotator.storage.http, {prefix: 'https://blooming-reef-34460.herokuapp.com/annotator_store'})
+//       .include(annotator.storage.http, {prefix: '/annotator_store'})
+//       .include(pageUri);
 
-  app.start()
-     .then(function () {
-         app.annotations.load();
-     });
+//   app.start()
+//      // .then(function () {
+//      //     app.annotations.load();
+//      // });
 
-});
+// });
