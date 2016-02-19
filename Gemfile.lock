@@ -36,9 +36,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    annotator_store (1.0.0)
-      jbuilder
-      rails (>= 4.0)
     arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -151,11 +148,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  annotator_store
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  nokogiri
   pg
   rails (= 4.2.5)
   rails_12factor
@@ -166,3 +163,6 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.11.2
