@@ -11,27 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160217205806) do
-
-  create_table "annotator_store_annotations", force: :cascade do |t|
-    t.string   "version"
-    t.text     "text"
-    t.text     "quote"
-    t.string   "uri"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "annotator_store_ranges", force: :cascade do |t|
-    t.integer  "annotation_id"
-    t.string   "start"
-    t.string   "end"
-    t.integer  "start_offset"
-    t.integer  "end_offset"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "annotator_store_ranges", ["annotation_id"], name: "index_annotator_store_ranges_on_annotation_id"
+ActiveRecord::Schema.define(version: 0) do
 
 end
