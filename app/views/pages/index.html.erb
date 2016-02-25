@@ -27,11 +27,11 @@
         <hr>
         <h4 id="sub-header">Critical Editions</h4>
         <div id="manuscript_list_index">
-          <a href="/b.html">Berlin (B)</a> |
-          <a href="/t.html">Turin (T)</a> |          
-          <a href="/content/p.xml">Padua (P)</a> |
-          <a href="/content/br.xml">Barbieri Fragment (Br)</a> |
-          <a href="/hell_scene.html">Hell Scene Comparison</a>
+          <%= link_to 'Berlin (B)', b_manuscript_path() %> |
+          <%= link_to 'Turin (T)', t_manuscript_path() %> |          
+          <%= link_to 'Padua (P)', p_manuscript_path() %> |
+          <%= link_to 'Barbieri Fragment (Br)', br_manuscript_path() %> |
+          <%= link_to 'Hell Scene Comparison', hell_scene_path() %>
         </div>
         <hr>
         <h4 id="sub-header">Huon d'Auvergne Project Team</h4>
@@ -65,10 +65,6 @@
       </div>
 
     </section>
-    <div class="footer">
-      <a href="https://digitalhumanities.wlu.edu/"><img src="/img/wlu_blue.jpg"></a>
-      <a href="https://www.neh.gov/"><img src="/img/neh_logo.png"></a>
-    </div>
     <script src="/build/js/base_scripts.js"></script>
     <script>
       $(document).foundation();

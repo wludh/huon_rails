@@ -24,30 +24,30 @@
         <div id="manuscript_list_editions">
                 <h4 id="sub-header">The Franco-Italian <em>Huon d'Auvergne</em></h4>  
           <p>
-            <a href="/b.html">Berlin</a> (B) | 
+            <%= link_to 'Berlin', b_manuscript_path() %> (B) | 
             Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)<br>
             Edited by Leslie Zarker Morgan; translated by Shira Schwam-Baird
           </p>
 
           <p>
-            <a href="/t.html">Turin</a> (T) | 
+            <%= link_to 'Turin', t_manuscript_path() %> (T) | 
             Turin, Biblioteca nazionale, N III 19<br>
             Edited by Leslie Zarker Morgan
           </p>
 
           <p>          
-            <a href="/content/p.xml">Padua</a> (P) | 
+            <%= link_to 'Padua', p_manuscript_path() %> (P) | 
               Padua, Biblioteca del Seminario Vescovile MS 32<br>
               Edited by Stephen P. McCormick
           </p>
           <p>          
-            <a href="/content/br.xml">Barbieri fragment</a> (Br) |  
+            <%= link_to 'Barbieri Fragment', br_manuscript_path() %> (Br) |  
             Bologna, Biblioteca dell'Archiginnasio B. 3489<br>
             Edited by Stephen P. McCormick and Michela Scattolini
           </p>
         
           
-          <a href="/hell_scene.html">Hell Scene Comparison</a>
+          <%= link_to 'Hell Scene Comparison', hell_scene_path() %>
         </div>
                <hr>
       </div>
