@@ -1,8 +1,10 @@
 class PagesController < ApplicationController
 	skip_before_action :verify_authenticity_token
+    
     def show
         render template: "pages/#{params[:page]}"
     end
+
     def parse_tei(tei_file)
         file = File.open( "./lib/assets/#{tei_file}" )
         doc = Nokogiri::XML(file)
@@ -15,21 +17,27 @@ class PagesController < ApplicationController
         @line_groups = doc.search('lg')
         return @title, @introduction, @text, @line_groups
     end
+    
     helper_method :parse_tei
+
+    def index
+        render template: 'pages/index'
+    end
+
     def bibliography
         render template: "pages/bibliography"
     end
 
     def editions
-        render template: "pages/editions"
+        render template: "pages/edition"
     end
 
     def b_manuscript
-        render template: "b"
+        render template: "pages/b"
     end
 
     def t_manuscript
-        render template: "t"
+        render template: "pages/t"
     end
 
     def p_manuscript
@@ -37,10 +45,10 @@ class PagesController < ApplicationController
     end
 
     def br_manuscript
-        render
+        render template: "pages/br"
     end
 
     def hell_scene
-        render
+        render template: "pages/hell_scene"
     end
 end  
