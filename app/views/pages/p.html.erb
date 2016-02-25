@@ -1,6 +1,8 @@
 <%= stylesheet_link_tag 'base_styles' %>
 <%= stylesheet_link_tag'tei_styles' %>
 <%= stylesheet_link_tag 'app' %>
+
+
 <% @title, @introduction, @text, @line_groups = parse_tei('p.xml') %>
                 <TEI>
                     <div id="hidden-title">

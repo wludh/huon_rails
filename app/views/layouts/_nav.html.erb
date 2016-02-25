@@ -12,19 +12,19 @@
         <section class="top-bar-section">
           <ul class="right">
             <li class="">
-              <a href="/bibliography.html">Bibliography</a>
+              <%= link_to 'Bibliography', bibliography_path() %>
             </li>
           </ul>
         </section>
         <section class="top-bar-section">
           <ul class="right">
-            <li><a href="/edition.html">Critical Editions</a>
+            <li><%= link_to 'Critical Editions', editions_path() %>
               <ul data-options="mobile_show_parent_link: true">
-                <li><a href="/b.html">Berlin (B)</a></li>
-                <li><a href="/t.html">Turin (T)</a></li>
-                <li><a href="/content/p.xml">Padua (P)</a></li>
-                <li><a href="/content/br.xml">Barbieri Fragment (Br)</a></li>
-                <li><a href="/hell_scene.html">Hell Scene Comparison</a></li>
+                <li> <%= link_to 'Berlin (B)', b_manuscript_path() %></li>
+                <li> <%= link_to 'Turin (T)', t_manuscript_path() %></li>
+                <li> <%= link_to 'Padua (P)', p_manuscript_path() %></li>
+                <li> <%= link_to 'Barbieri Fragment (Br)', br_manuscript_path() %></li>
+                <li><%= link_to 'Hell Scene Comparison', hell_scene_path() %></li>
               </ul>
             </li>
           </ul>

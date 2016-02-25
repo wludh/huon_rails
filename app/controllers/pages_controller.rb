@@ -16,4 +16,31 @@ class PagesController < ApplicationController
         return @title, @introduction, @text, @line_groups
     end
     helper_method :parse_tei
+    def bibliography
+        render template: "pages/bibliography"
+    end
+
+    def editions
+        render template: "pages/editions"
+    end
+
+    def b_manuscript
+        render template: "b"
+    end
+
+    def t_manuscript
+        render template: "t"
+    end
+
+    def p_manuscript
+        render template: "pages/p"
+    end
+
+    def br_manuscript
+        render
+    end
+
+    def hell_scene
+        render
+    end
 end  

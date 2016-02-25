@@ -58,5 +58,15 @@ Rails.application.routes.draw do
 # mount AnnotatorStore::Engine, at: '/annotator_store'
 
 get "/pages/:page" => "pages#show"
+# get "/pages/:page", to: "pages#show", as: ':page'
+
+match 'bibliography', to: 'pages#bibliography', via: [:get], as: :bibliography
+match 'editions', to: 'pages#editions', via: [:get], as: :editions
+
+match 'b_manuscript', to: 'pages#b_manuscript', via: [:get], as: :b_manuscript
+match 't_manuscript', to: 'pages#t_manuscript', via: [:get], as: :t_manuscript
+match 'p_manuscript', to: 'pages#p_manuscript', via: [:get], as: :p_manuscript
+match 'br_manuscript', to: 'pages#br_manuscript', via: [:get], as: :br_manuscript
+match 'hell_scene', to: 'pages#hell_scene', via: [:get], as: :hell_scene
 
 end
