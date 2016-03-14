@@ -1,89 +1,22 @@
-#TEI_left_panel{
-  float:left;
-  width: 50%;
-  border-right: 1px;
-  border-right-style:solid;
-  border-right-color: #DDDDDD;
-  position: fixed;
+.lg{
+  padding-bottom: 24px;
 }
 
-#left-content{
-  padding-left: 10%;
-  padding-right: 10%
+.l{
+  margin-bottom: 0px;
 }
-
-#left-content footer{
-  width: 80%;
-}
-
-#tei_wrapper{
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 30%;
-}
-
-top-bar{
-  position: fixed;
-}
-@media screen and (min-width: 1100px){
-  note{
-    margin: 0;
-    padding-top:16px;
-    padding-bottom: 16px;
-    padding-right: 24px;
-  }
-}
-
-@media screen and (max-width: 1100px){
-  note{
-    display: none;
-  }
-  toggle_note{
-    display:block;
-  }
-}
-
-#TEI_reader{
-  margin-left:50%;
-  width: 100%;
-  padding-left: 40px;
+#disclaimer{
+  color:red;
 }
 
 .top-bar .toggle-topbar a{
   font-weight: normal;
 }
 
-.visible{
-  display: block !important;
-}
-
-.hidden{
-  display: none;
-}
-
-#selected_laisse{
-  max-width: 40px;
-  margin: auto;
-/*  display: inline;
-*/  text-align: center;
-
-}
-
-.center{
-  width: 50%;
-  margin: auto;
-}
-
-#num_laisses{
-float: left;
-padding-top: 8px;
-}
-
-
-#special-footer{
+/*#special-footer{
   bottom:0;
 }
-
+*/
 #special-footer hr{
   width:66.7%;
   text-align:center; margin: 0 auto;
@@ -230,6 +163,8 @@ p.tagline {
 }
 
 .footer{
+  color:#cccccc !important;
+  width:100%;
   text-align: center;
   font-weight:normal;
   font-size:16px;
@@ -239,19 +174,18 @@ p.tagline {
   padding-top: 0px;
   position: absolute;
   border-top: none;
-  width: 100%;
 }
 
 .footer img{
   max-height: 50px;
-  margin-right: 15px;
+  padding-right: 15px;
   margin-top: 15px;  
 }
 
 #hidden-title{
   font-size: 28px;
-  padding-left: 24px;
-  padding-top: 24px;
+  padding-top: 48px;
+  padding-bottom:64px;
 }
 
 .footer a{
@@ -262,43 +196,16 @@ p.tagline {
 
 TEI {
   
-
+  margin: auto;
+  max-width: 40%;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   font-size: 16px;
 padding-bottom: 1px;
-
-}
-
-#top-buttons{
-  text-align: center;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  text-decoration: none;
-}
-
-#bottom-buttons{
-  text-align: center;
-  display:none;
-  padding-bottom: 16px;
-  text-decoration: none;
-}
-
-#top-buttons a, #bottom-buttons a{
-  color: #0078a0;
-}
-
-#top-buttons a:hover, #bottom-buttons a:hover{
-  text-decoration: none;
-}
-
-lg{
-  display: none;
-  padding-top: 24px;
-  margin-top: 0px;
 }
 
 tei-title {
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif !important;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+ !important;
 }
 
 TEI head{
@@ -312,16 +219,7 @@ teiHeader{
 /* Background image*/
 
 html{
-  background-color: rgba(0,0,0,0.4);
-  width:100%;
-  padding:0;
-  margin:0;
-  max-width: 100%;
-  overflow-x:hidden;
-  overflow-x:hidden;
-}
-
-.background-image{
+  background-color: #f0f0f0;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.4))),url("/img/hours_compressed.jpg");
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/img/hours_compressed.jpg");
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/img/hours_compressed.jpg");
@@ -334,7 +232,14 @@ html{
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  width:100%;
+  padding:0;
+  margin:0;
+  max-width: 100%;
+  overflow-x:hidden;
+  overflow-x:hidden;
 }
+
 /*dropdown/side menus*/
 
 ul li ul {
@@ -515,13 +420,9 @@ table, tr, th{
   padding:none;
 }
 
-#tei-hr-1, #tei-hr-2{
+#tei-hr{
   width:40%;
   text-align:center; margin: 0 auto;
-}
-
-#tei-hr-1{
-  display:none;
 }
 
 #comparison-hr{

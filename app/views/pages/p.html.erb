@@ -17,12 +17,13 @@
                     </div>
                 </TEI>
 
-                <div id="tei-wrapper">
-                    <% for lg in @line_groups %>
-                        
-                        <% for l in lg.search('l') %>
-                            <p><%= l.text %></p>
-                        <% end %>
-                        
+                <div id="tei_wrapper">
+                    <% @line_groups.each do |line_group| %>
+                        <div class="lg">
+                        line_group.                        
+                            <% for l in line_group.search('l') %>
+                                <p class="l"><%= l.text %></p>
+                            <% end %>
+                        </div>
                     <% end %>
                 </div>
