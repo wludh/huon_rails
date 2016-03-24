@@ -4,26 +4,55 @@
 
 
 <% @title, @introduction, @text, @line_groups = parse_tei('p.xml') %>
-                <TEI>
-                    <div id="hidden-title">
-                        <%= @title %>
-                    </div>
-                    <!-- placeholder for byline in the future -->
-<!--                <div id="hidden-byline">
-                       <%= @byline %> 
-                    </div> -->
-                    <div id="hidden-introduction">
-                        <%= @introduction %>
-                    </div>
-                </TEI>
+                <div id="TEI_left_panel">
+                    <TEI>
+                        <div id="left-content">
+                            <div id="hidden-title">
+                                <%= @title %>
+                            </div>
+                            <!-- placeholder for byline in the future -->
+        <!--                <div id="hidden-byline">
+                               <%= @byline %> 
+                            </div> -->
+                            <div id="hidden-introduction">
+                                <%= @introduction %>
+                            </div>
 
-                <div id="tei_wrapper">
-                    <% @line_groups.each do |line_group| %>
-                        <div class="lg">
-                        line_group.                        
-                            <% for l in line_group.search('l') %>
-                                <p class="l"><%= l.text %></p>
-                            <% end %>
+                            <div class="center">
+                                <div id="num_laisses"></div>
+                                    <input type="text" id="selected_laisse"/>
+                                </div>
+                                <div id="top-buttons">
+                                    <a onclick="reveal_laisse()" id="top">Show Laisse</a> | 
+                                    <a onclick="reveal_all()">Reveal All</a> | 
+                                    <a onclick="hide_all()">Hide All</a> | 
+                                    <a onclick="browse_previous()">Previous</a> | 
+                                    <a onclick="browse_next()">Next</a>
+                                </div>
                         </div>
-                    <% end %>
+                    </TEI>
+                </div> 
+
+                <div id="TEI_reader">
+                    <div id="tei_wrapper">
+                        <% @line_groups.each do |line_group| %>
+                            <%= "<lg n=#{line_group.attr('n')}>".html_safe %>
+                                <div class="line-heading">
+                                    <%= @head = line_group.search('head').text %>
+                                </div>
+                                <div class="lines">
+                                    <% for l in line_group.css('l') %>
+                                    <%= "<l n=#{l.attr('n')}>".html_safe %>
+                                            <% if l.css('pb').present? %>
+                                                <%= tag("div", id:["page-break"])%>
+                                                <%= "page: " + l.css('pb').attr('n').text %>
+                                            <%= "</div>".html_safe %>
+                                            <% end %>
+                                        <%= l.text %>
+                                    <%= "</l>".html_safe %>
+                                    <% end %>
+                                </div>
+                            </lg>
+                        <% end %>
+                    </div>
                 </div>

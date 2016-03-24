@@ -9099,3 +9099,8 @@ td{
 #bibPanel{
   display: none;
 }
+
+#TEI_left_panel TEI{
+  max-width: none;
+  margin: none;
+}

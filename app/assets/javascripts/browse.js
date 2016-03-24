@@ -62,13 +62,21 @@ function browse_previous(){
     }
 };
 
+
 function display_laisse_num(){
     var num_laisses =  $("lg").length + " laisses in this edition.";
     $("#num_laisses").text(num_laisses);
+};
+
+function hide_footer(){
+    if(document.getElementById('TEI_reader') != null){
+        $(".footer").css('display','none');
+    };
 };
 
 $(document).ready(function(){
     display_laisse_num();
     $("#selected_laisse").val(1);
     reveal_laisse();
+    hide_footer();
 });
