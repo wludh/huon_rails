@@ -46,9 +46,15 @@
                                             <% if l.css('pb').present? %>
                                                 <%= tag("div", id:["page-break"])%>
                                                 <%= "page: " + l.css('pb').attr('n').text %>
-                                            <%= "</div>".html_safe %>
+                                                <%= "</div>".html_safe %>
                                             <% end %>
-                                        <%= l.text %>
+                                        <% for child in l.children %>
+                                            <%if ['ex', 'corr', 'choice', 'sic'].include? child.name %>
+                                                <%= "<#{child.name}>#{child.text}</#{child.name}>".html_safe %>
+                                            <% else %>
+                                                <%= child.text %>
+                                            <% end %>
+                                        <% end %>
                                     <%= "</l>".html_safe %>
                                     <% end %>
                                 </div>
