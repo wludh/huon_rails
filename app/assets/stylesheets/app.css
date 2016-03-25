@@ -471,8 +471,13 @@ ex{
   font-style: italic;
 }
 
-annotation{
+/*annotation{
   text-decoration: underline;
+}*/
+
+l sup{
+  cursor: pointer;
+  cursor:hand;
 }
 
 footnote{

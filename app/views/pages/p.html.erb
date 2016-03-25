@@ -70,9 +70,9 @@
                                                 <!-- The following two elsif statements are entirely just for testing note functionality. -->
                                             <% elsif child.text == "Ni de mare ni de pare se l'avesse inçenerie;"
                                                 %>
-                                                <%= ('<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation>').html_safe %>
+                                                <%= ('<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(3)">*</sup>').html_safe %>
                                             <% elsif child.text == "Che in lo conte Ugo aveva messo so pensie;" %>
-                                                <%= ('<annotation n="1" onclick="annotation_reveal(1)">' + "#{child.text}" + '</annotation>').html_safe %>
+                                                <%= ('<annotation n="1">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(1)">*</sup>').html_safe %>
                                             <% else %>
                                                 <%= child.text %>
                                             <% end %>
