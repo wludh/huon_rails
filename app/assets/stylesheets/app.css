@@ -444,10 +444,25 @@ td{
   display: none;
 }
 
+/* New styles in rails */
+
 #page-break {display: block;
     width: 100%;
     text-align: right;
     color: gray;
     margin: 2em 0 2em 0;
     font-size: 11pt;
+}
+
+/* Hack to eliminate spaces between in-line block elements. Anytime you parse a tag as html it will make a space. So put the tags here. but double check to make sure that they're working right in all cases. since things get nested it can get wonky. */
+ex{
+  margin-left: -4px;
+}
+
+choice sic, choice corr{
+  margin-left: -4px;
+}
+
+ex{
+  font-style: italic;
 }

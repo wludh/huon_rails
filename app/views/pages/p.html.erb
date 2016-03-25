@@ -14,9 +14,9 @@
         <!--                <div id="hidden-byline">
                                <%= @byline %> 
                             </div> -->
-                            <div id="hidden-introduction">
+<!--                             <div id="hidden-introduction">
                                 <%= @introduction %>
-                            </div>
+                            </div> -->
 
                             <div class="center">
                                 <div id="num_laisses"></div>
@@ -49,8 +49,15 @@
                                                 <%= "</div>".html_safe %>
                                             <% end %>
                                         <% for child in l.children %>
-                                            <%if ['ex', 'corr', 'choice', 'sic'].include? child.name %>
-                                                <%= "<#{child.name}>#{child.text}</#{child.name}>".html_safe %>
+                                            <% if child.name == 'choice'
+                                                 %>
+                                                <%= "<choice>".html_safe %>
+                                                <% for choice_child in child.children %>
+                                                    <%= "<#{choice_child.name}>#{choice_child.text}</#{choice_child.name}>".html_safe %>
+                                                <% end %>
+                                                <%= "</choice>".html_safe %>
+                                            <% elsif child.name == 'ex' %>    
+                                                <%= parse_tag(child) %>
                                             <% else %>
                                                 <%= child.text %>
                                             <% end %>
