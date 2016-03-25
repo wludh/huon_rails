@@ -30,6 +30,16 @@
                                     <a onclick="browse_next()">Next</a>
                                 </div>
                         </div>
+                        <hr>
+                        <div id="notes">
+                            <div class="center">Notes</div>
+                            <div class="note-contents">
+                                <footnote id="1">This is the wrong footnote.</footnote>
+                                <footnote id="2">This is the wrong footnote.</footnote>
+                                <footnote id="3">This is the right footnote.</footnote>
+                                <footnote id="4">This is the wrong footnote.</footnote>
+                            </div>
+                        </div>
                     </TEI>
                 </div> 
 
@@ -49,8 +59,7 @@
                                                 <%= "</div>".html_safe %>
                                             <% end %>
                                         <% for child in l.children %>
-                                            <% if child.name == 'choice'
-                                                 %>
+                                            <% if child.name == 'choice' %>
                                                 <%= "<choice>".html_safe %>
                                                 <% for choice_child in child.children %>
                                                     <%= "<#{choice_child.name}>#{choice_child.text}</#{choice_child.name}>".html_safe %>
@@ -58,6 +67,12 @@
                                                 <%= "</choice>".html_safe %>
                                             <% elsif child.name == 'ex' %>    
                                                 <%= parse_tag(child) %>
+                                                <!-- The following two elsif statements are entirely just for testing note functionality. -->
+                                            <% elsif child.text == "Ni de mare ni de pare se l'avesse inçenerie;"
+                                                %>
+                                                <%= ('<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation>').html_safe %>
+                                            <% elsif child.text == "Che in lo conte Ugo aveva messo so pensie;" %>
+                                                <%= ('<annotation n="1" onclick="annotation_reveal(1)">' + "#{child.text}" + '</annotation>').html_safe %>
                                             <% else %>
                                                 <%= child.text %>
                                             <% end %>

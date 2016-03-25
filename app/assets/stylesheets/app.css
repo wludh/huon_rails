@@ -185,7 +185,7 @@ p.tagline {
 #hidden-title{
   font-size: 28px;
   padding-top: 48px;
-  padding-bottom:64px;
+  padding-bottom:48px;
 }
 
 .footer a{
@@ -459,10 +459,22 @@ ex{
   margin-left: -4px;
 }
 
-choice sic, choice corr{
+/*choice sic, choice corr{
   margin-left: -4px;
-}
+}*/
+
+/*empty:choice, empty:sic, empty:corr{
+  margin-left: 0px;
+}*/
 
 ex{
   font-style: italic;
+}
+
+annotation{
+  text-decoration: underline;
+}
+
+footnote{
+  display:none;
 }

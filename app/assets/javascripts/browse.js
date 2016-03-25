@@ -74,6 +74,13 @@ function hide_footer(){
     };
 };
 
+function annotation_reveal(annotation_number){
+    $("footnote").removeClass('visible');
+    // var anno_number = $("this").attr('n');
+    $("footnote[id=" + annotation_number + "]").addClass("visible");
+};
+
+
 $(document).ready(function(){
     display_laisse_num();
     $("#selected_laisse").val(1);
