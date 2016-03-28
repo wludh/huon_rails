@@ -47,24 +47,16 @@
                     <div id="tei_wrapper">
                         <% @line_groups.each do |line_group| %>
                             <%= "<lg n=#{line_group.attr('n')}>".html_safe %>
-                                <div class="line-heading">
-                                    <%= @head = line_group.search('head').text %>
-                                </div>
+                                <%= parse_heading(line_group) %>
                                 <div class="lines">
                                     <% for l in line_group.css('l') %>
                                     <%= "<l n=#{l.attr('n')}>".html_safe %>
                                             <% if l.css('pb').present? %>
-                                                <%= tag("div", id:["page-break"])%>
-                                                <%= "page: " + l.css('pb').attr('n').text %>
-                                                <%= "</div>".html_safe %>
+                                                <%= parse_pb(l)%>
                                             <% end %>
                                         <% for child in l.children %>
                                             <% if child.name == 'choice' %>
-                                                <%= "<choice>".html_safe %>
-                                                <% for choice_child in child.children %>
-                                                    <%= "<#{choice_child.name}>#{choice_child.text}</#{choice_child.name}>".html_safe %>
-                                                <% end %>
-                                                <%= "</choice>".html_safe %>
+                                                <%= parse_choice(child)%>
                                             <% elsif child.name == 'ex' %>    
                                                 <%= parse_tag(child) %>
                                                 <!-- The following two elsif statements are entirely just for testing note functionality. -->

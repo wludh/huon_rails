@@ -18,9 +18,27 @@ class PagesController < ApplicationController
         return @title, @introduction, @text, @line_groups
     end
 
+    def parse_pb(line)
+        return (('<div id="page-break">') + ("page: " + line.css('pb').attr('n').text) + "</div>").html_safe
+    end
+
+    def parse_heading(line_group)
+        return ('<div class="line-heading">' + line_group.search('head').text + "</div>").html_safe
+    end
+
     def parse_tag(tag_child)
         #Takes a nodeset with no children and parses it. Must be well-formed and have no tags nested within it. ie. '<ex>word</ex>.'
         return "<#{tag_child.name}>#{tag_child.text}</#{tag_child.name}>".html_safe
+    end
+
+    def parse_choice(tag_set)
+        # takes a choice nodeset that
+        result = "<choice>"
+        for choice_child in tag_set.children
+            result += "<#{choice_child.name}>#{choice_child.text}</#{choice_child.name}>"
+        end
+        result += "</choice>"
+        return result.html_safe
     end
     
     # def parse_line(line_nodeset)
@@ -64,6 +82,9 @@ class PagesController < ApplicationController
     #     end
     # end
 
+    helper_method :parse_choice
+    helper_method :parse_pb
+    helper_method :parse_heading
     helper_method :parse_empty_tag
     helper_method :parse_tag
     helper_method :parse_tei
