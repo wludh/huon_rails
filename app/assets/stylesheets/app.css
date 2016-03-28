@@ -483,3 +483,12 @@ l sup{
 footnote{
   display:none;
 }
+
+.top-bar{
+  position:fixed;
+  z-index: 1000;
+}
+
+#TEI_left_panel{
+  padding-top: 44px;
+}

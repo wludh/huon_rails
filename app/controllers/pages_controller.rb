@@ -95,6 +95,11 @@ class PagesController < ApplicationController
         return "<#{child.name}></#{child.name}>".html_safe
     end
 
+    def parse_footnote
+    end
+    def parse_footnotes
+    end
+
     helper_method :parse_annotation
     helper_method :parse_choice
     helper_method :parse_pb
@@ -105,6 +110,8 @@ class PagesController < ApplicationController
     helper_method :parse_line
     helper_method :parse_line_group
     helper_method :parse_line_groups
+    helper_method :parse_footnote
+    helper_method :parse_footnotes
 
     def index
         render template: 'pages/index'

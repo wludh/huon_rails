@@ -80,6 +80,16 @@ function annotation_reveal(annotation_number){
     $("footnote[id=" + annotation_number + "]").addClass("visible");
 };
 
+function toggle_sic_on(){
+    $("corr").removeClass('visible');
+    $('sic').addClass('visible');
+}
+
+function toggle_sic_off(){
+    $('sic').removeClass('visible');
+    $("corr").addClass('visible');
+}
+
 
 $(document).ready(function(){
     display_laisse_num();
