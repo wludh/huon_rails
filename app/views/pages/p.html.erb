@@ -45,34 +45,6 @@
 
                 <div id="TEI_reader">
                     <div id="tei_wrapper">
-                        <% @line_groups.each do |line_group| %>
-                            <%= "<lg n=#{line_group.attr('n')}>".html_safe %>
-                                <%= parse_heading(line_group) %>
-                                <div class="lines">
-                                    <% for l in line_group.css('l') %>
-                                    <%= "<l n=#{l.attr('n')}>".html_safe %>
-                                            <% if l.css('pb').present? %>
-                                                <%= parse_pb(l)%>
-                                            <% end %>
-                                        <% for child in l.children %>
-                                            <% if child.name == 'choice' %>
-                                                <%= parse_choice(child)%>
-                                            <% elsif child.name == 'ex' %>    
-                                                <%= parse_tag(child) %>
-                                                <!-- The following two elsif statements are entirely just for testing note functionality. -->
-                                            <% elsif child.text == "Ni de mare ni de pare se l'avesse inçenerie;"
-                                                %>
-                                                <%= ('<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(3)">*</sup>').html_safe %>
-                                            <% elsif child.text == "Che in lo conte Ugo aveva messo so pensie;" %>
-                                                <%= ('<annotation n="1">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(1)">*</sup>').html_safe %>
-                                            <% else %>
-                                                <%= child.text %>
-                                            <% end %>
-                                        <% end %>
-                                    <%= "</l>".html_safe %>
-                                    <% end %>
-                                </div>
-                            </lg>
-                        <% end %>
+                        <%= parse_line_groups(@line_groups)%>
                     </div>
                 </div>

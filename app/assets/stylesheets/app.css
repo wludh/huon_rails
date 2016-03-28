@@ -455,9 +455,9 @@ td{
 }
 
 /* Hack to eliminate spaces between in-line block elements. Anytime you parse a tag as html it will make a space. So put the tags here. but double check to make sure that they're working right in all cases. since things get nested it can get wonky. */
-ex{
+/*ex{
   margin-left: -4px;
-}
+}*/
 
 /*choice sic, choice corr{
   margin-left: -4px;

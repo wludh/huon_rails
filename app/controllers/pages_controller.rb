@@ -40,48 +40,62 @@ class PagesController < ApplicationController
         result += "</choice>"
         return result.html_safe
     end
+
+    def parse_annotation(child)
+        # stub function for basic footnote functionality. Will eventually need to take in the note number.
+
+        return ('<annotation n="1">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(1)">*</sup>').html_safe
+    end
     
-    # def parse_line(line_nodeset)
-    #     #{"""}Takes a nodeset (line) and parses it
-    #     for child in line_nodeset
-    #         open_tag_set = ""
-    #         close_tag_set = ""
-    #         if child.name == 'text'
-    #             child.text
-    #         elsif child.children.present?
-    #             # if there are children, start looking for the subchildren. 
-    #             open_tag_set += "<#{child.name}>"
-    #             close_tag_set += "</#{child.name}>"
-    #             for subchild in child.children
-    #                 if subchild.children.blank?
-    #                     #if there are no children, just return a blank tag.
-    #                     "#{open_tag_set}#{close_tag_set}".html_safe
-    #                 elsif sub_child.name == 'text'
-    #                     # if the subchild is just text, return the text
-    #                     subchild.text.html_safe
-    #                 else
-    #                     if there 
-    #                 end
-    #             end
-    #             parse_line(child)
-    #         end
-    #     end
-    #     # if a line has nested tags, preserve them.
-    # end
+    def parse_line_groups(line_groups)
+         result = ""
+         @line_groups.each do |line_group| 
+             result += parse_line_group(line_group)
+         end
+         return result.html_safe
+    end
+
+    def parse_line_group(line_group)
+        #takes in a line_group and parses it 
+        result = "<lg n=#{line_group.attr('n')}>" 
+        result += parse_heading(line_group) 
+        result += '<div class="lines">'
+        for l in line_group.css('l') 
+             result += parse_line(l) 
+        end 
+        result += '</div></lg>'
+        return result.html_safe
+    end
+
+    def parse_line(l)
+        # parses a line where 'l' is a line_nodeset
+        result = "<l n=#{l.attr('n')}>"
+                 if l.css('pb').present? 
+                    result += parse_pb(l)
+                 end 
+             for child in l.children 
+                 if child.name == 'choice' 
+                    result += parse_choice(child)
+                 elsif child.name == 'ex'     
+                    result += parse_tag(child) 
+                    # The following two elsif statements are entirely just for testing note functionality.
+                 elsif child.text == "Ni de mare ni de pare se l'avesse inçenerie;"
+                    result += '<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(3)">*</sup>'
+                 elsif child.text == "Che in lo conte Ugo aveva messo so pensie;" 
+                    result += parse_annotation(child) 
+                 else 
+                    result += child.text 
+                 end 
+             end 
+        result += "</l>"
+        return result.html_safe
+    end
 
     def parse_empty_tag(nodeset)
         return "<#{child.name}></#{child.name}>".html_safe
     end
 
-    # def parse_choice(choice_nodeset)
-    #     #outside
-    #     tags = []
-    #     for child in choice_nodeset.children
-    #         tags = tags.push(child.name)
-
-    #     end
-    # end
-
+    helper_method :parse_annotation
     helper_method :parse_choice
     helper_method :parse_pb
     helper_method :parse_heading
@@ -89,6 +103,8 @@ class PagesController < ApplicationController
     helper_method :parse_tag
     helper_method :parse_tei
     helper_method :parse_line
+    helper_method :parse_line_group
+    helper_method :parse_line_groups
 
     def index
         render template: 'pages/index'
