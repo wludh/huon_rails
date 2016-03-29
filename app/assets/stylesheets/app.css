@@ -497,3 +497,7 @@ footnote{
 #TEI_reader{
   padding-top: 44px;
 }
+
+header{
+  padding-top: 92px !important;
+}
