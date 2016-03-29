@@ -183,9 +183,9 @@ p.tagline {
 }
 
 #hidden-title{
-  font-size: 28px;
+  font-size: 24px !important;
   padding-top: 48px;
-  padding-bottom:48px;
+  padding-bottom:24px;
 }
 
 .footer a{
@@ -500,4 +500,42 @@ footnote{
 
 header{
   padding-top: 92px !important;
+}
+
+#selected_laisse{
+  display:inline;
+}
+
+.center-inner{
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-bottom: 20px
+}
+
+#notes{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#num_laisses{
+  padding-right: 4px;
+}
+
+#note-header{
+}
+
+.note-contents{
+}
+
+#back_to_intro(){
+  display: none;
+  cursor: pointer;
+  cursor:hand;
+  text-decoration: underline;
+}
+
+.hidden{
+  display: none;
 }

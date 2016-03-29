@@ -27,7 +27,7 @@ function reveal_laisse(){
     if(selected_laisse > 0 && selected_laisse <= $("lg").length){
         $("lg[n=" + selected_laisse + "], #bottom-buttons, #tei-hr-1").addClass("visible");
     } else if ($("lg").length !== 0){
-        window.alert("Please type a number between 1 and " + $("lg").length + ", the number of laisses in this edition.");
+        window.alert("Please type a number between 1 and " + $("lg").length + ", the number of laisses in this edition. ");
     };
 };
 
@@ -68,6 +68,15 @@ function display_laisse_num(){
     $("#num_laisses").text(num_laisses);
 };
 
+function display_intro(){
+    $('#notes').removeClass('visible');
+    $('#hidden-introduction').addClass('visible');
+    $('#note-header').removeClass('visible');
+    $('#note-header').addClass('hidden');
+    $('.note-contents').addClass('hidden');
+    $('.note-contents').removeClass('visible');
+};
+
 function hide_footer(){
     if(document.getElementById('TEI_reader') != null){
         $(".footer").css('display','none');
@@ -75,9 +84,15 @@ function hide_footer(){
 };
 
 function annotation_reveal(annotation_number){
+    $('#hidden-introduction').css('display','none');
+    $('#hidden-introduction').removeClass('visible')
     $("footnote").removeClass('visible');
+    $('#note-header').addClass('visible')
     // var anno_number = $("this").attr('n');
     $("footnote[id=" + annotation_number + "]").addClass("visible");
+    $('#back_to_intro').addClass('visible');
+    $('#note-header').removeClass('hidden');
+    $('.note-contents').removeClass('hidden');
 };
 
 function toggle_sic_on(){
