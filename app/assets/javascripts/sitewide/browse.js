@@ -83,17 +83,24 @@ function annotation_reveal(annotation_number){
 function toggle_sic_on(){
     $("corr").removeClass('visible');
     $('sic').addClass('visible');
-}
+};
 
 function toggle_sic_off(){
     $('sic').removeClass('visible');
     $("corr").addClass('visible');
-}
+};
 
-
-$(document).ready(function(){
+function page_prep(){
     display_laisse_num();
     $("#selected_laisse").val(1);
     reveal_laisse();
     hide_footer();
+};
+
+$(document).ready(function(){
+    page_prep();
+});
+
+$(document).on("page:load", function() {
+    page_prep();
 });

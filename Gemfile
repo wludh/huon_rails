@@ -15,6 +15,8 @@ group :production do
 end
 
 gem 'nokogiri'
+gem 'barista'
+gem 'therubyracer', :require => nil
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
