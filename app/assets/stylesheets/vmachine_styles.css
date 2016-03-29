@@ -7302,11 +7302,11 @@ html{
 }
 
 .background-image{
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.4))),url("/img/hours_compressed.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/img/hours_compressed.jpg");
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/img/hours_compressed.jpg");
-  background-image: -o-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/img/hours_compressed.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/img/hours_compressed.jpg");
+  /*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.4))),url("/assets/hours_compressed.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");*/
   background-position: top right;
   -webkit-background-size: cover;
   -moz-background-size: cover;

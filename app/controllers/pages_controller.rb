@@ -15,7 +15,7 @@ class PagesController < ApplicationController
         # @by_line = doc.search('INSERT').text
         @introduction = doc.search('note').first.text
         @line_groups = doc.css('lg')
-        return @title, @introduction, @text, @line_groups
+        return @title, @introduction, @line_groups
     end
 
     def parse_pb(line)
