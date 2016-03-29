@@ -5,7 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Huon d'Auvergne, a Franco-Italian Epic -- The Versioning Machine 4.0</title>
-    <link rel="stylesheet" type="text/css" href="/build/css/vmachine_styles.css">
+<!--     <link rel="stylesheet" type="text/css" href="/build/css/vmachine_styles.css"> -->
+    <%= javascript_include_tag('vmachine') %>
     <script type="text/javascript">
       var witnesses = new Array();
       
@@ -50,7 +51,8 @@
       </div>
     </section>
     <div class="panel" id="bibPanel">
-      <div class="panelBanner"><img class="closePanel" onclick="toggleBiblio();" alt="X" src="/vmachine_assets/closePanel.png">
+      <div class="panelBanner">
+      <%= image_tag('closePanel', class: 'closePanel', onclick: 'toggleBiblio();', alt: 'X') %>
          Bibliographic Information
       </div>
       <div class="bibContent">
@@ -197,12 +199,13 @@
     <div class="viewerRoot" id="panel_imageViewer">
        <div title="Click to drag panel." class="viewerHandle" id="handle_imageViewer">
           <span class="viewerHandleLt" id="title_imageViewer">Image Viewer</span>
-          <img class="viewerHandleRt" onclick="return hidePanel('imageViewer');" alt="X" src="/vmachine_assets/closePanel.png">
+          <img class="viewerHandleRt" onclick="return hidePanel('imageViewer');" 
+          <%= image_tag('closePanel', class: 'viewerHandleRt', onclick: "return hidePanel('imageViewer');", alt: 'X') %>
         </div>
        <div class="viewerContent" id="content_imageViewer"></div>
     </div>
            <hr id="comparison-hr">
-    <script src="/vmachine_assets/vmachine.js"></script>
-    <script src="/build/js/vmachine_scripts.js"></script>
+<!--     <script src="/vmachine_assets/vmachine.js"></script>
+    <script src="/build/js/vmachine_scripts.js"></script> -->
    </body>
 </html>

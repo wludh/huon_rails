@@ -1,9 +1,8 @@
-<%= stylesheet_link_tag 'base_styles' %>
-<%= stylesheet_link_tag'tei_styles' %>
-<%= stylesheet_link_tag 'app' %>
+<%#= stylesheet_link_tag'tei_styles' %>
+<%#= stylesheet_link_tag 'app' %>
 
 
-<% @title, @introduction, @line_groups = parse_tei('p.xml') %>
+<% @title, @introduction, @text, @line_groups = parse_tei('p.xml') %>
                 <div id="TEI_left_panel">
                     <TEI>
                         <div id="left-content">
