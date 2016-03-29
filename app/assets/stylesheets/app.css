@@ -485,10 +485,15 @@ footnote{
 }
 
 .top-bar{
-  position:fixed;
+  position:fixed !important;
   z-index: 1000;
 }
 
 #TEI_left_panel{
+  padding-top: 44px;
+  height:100%;
+}
+
+#TEI_reader{
   padding-top: 44px;
 }
