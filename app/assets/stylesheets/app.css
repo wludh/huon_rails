@@ -529,7 +529,7 @@ header{
 .note-contents{
 }
 
-#back_to_intro(){
+#back_to_intro{
   display: none;
   cursor: pointer;
   cursor:hand;
