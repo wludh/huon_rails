@@ -32,10 +32,23 @@ class PagesController < ApplicationController
     end
 
     def parse_choice(tag_set)
-        # takes a choice nodeset that
+        # takes a choice nodeset that contains children and parses it. Only goes down one level.
         result = "<choice>"
         for choice_child in tag_set.children
-            result += "<#{choice_child.name}>#{choice_child.text}</#{choice_child.name}>"
+            if choice_child.name == 'expan'
+                subresult = "<expan>"
+                for subchild in choice_child.children
+                    if subchild.name == 'text'
+                        subresult += subchild.text
+                    else
+                        subresult += parse_tag(subchild)
+                    end
+                end
+                subresult += "</expan>"
+                result += subresult
+            else
+                result += "<#{choice_child.name}>#{choice_child.text}</#{choice_child.name}>"
+            end
         end
         result += "</choice>"
         return result.html_safe
@@ -79,6 +92,16 @@ class PagesController < ApplicationController
                  elsif child.name == 'ex'     
                     result += parse_tag(child) 
                     # The following two elsif statements are entirely just for testing note functionality.
+                #probably this? 
+                #elsif ['cb', 'rubric', 'ab', 'lb'].include? child.name
+                elsif child.name == 'cb'
+                    result += parse_tag(child)
+                elsif child.name == 'rubric'
+                    result += parse_tag(child)
+                elsif child.name == 'ab'
+                    result += parse_tag(child)
+                elsif child.name == 'lb'
+                    result += parse_tag(child)
                  elsif child.text == "Ni de mare ni de pare se l'avesse inçenerie;"
                     result += '<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(3)">*</sup>'
                  elsif child.text == "Che in lo conte Ugo aveva messo so pensie;" 
