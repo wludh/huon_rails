@@ -4,15 +4,12 @@
 <% @title, @introduction, @text, @line_groups = parse_tei('p.xml') %>
                 <div id="TEI_left_panel">
                     <TEI>
-                        <div id="top-half">
-                            <div id="left-content">
+                        <div id="left-content">
+                            <div id="top-half">
                                 <div id="hidden-title">
                                     <%= @title %>
                                 </div>
-                                <!-- placeholder for byline in the future -->
-            <!--                <div id="hidden-byline">
-                                   <%= @byline %> 
-                                </div> -->
+
                                 <div class="center-outer">
                                     <div class="center-inner">
                                         <div id="num_laisses"></div>
@@ -47,15 +44,17 @@
                     <div id="tei_wrapper">
                         <%= parse_line_groups(@line_groups)%>
                     </div>
-                    <div class="center-outer">
-                        <div class="center-inner">
-                            <div id="bot_reader"></div>
-                            <input type="text" id="bot_laisse"/>
-                                <a onclick="reveal_laisse()" id="top">Show Laisse</a> | 
-                                <a onclick="browse_previous()">Previous</a> | 
-                                <a onclick="browse_next()">Next</a>
+                    <div id="mobile_reader">
+                        <div class="center-outer">
+                            <div class="center-inner">
+                                <div id="bot_reader"></div>
+                                <input type="text" id="bot_laisse"/>
+                                    <a onclick="reveal_laisse()" id="top">Show Laisse</a> | 
+                                    <a onclick="browse_previous()">Previous</a> | 
+                                    <a onclick="browse_next()">Next</a>
+                            </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
 
                     <script>
