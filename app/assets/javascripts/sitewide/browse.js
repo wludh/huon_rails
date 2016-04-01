@@ -2,7 +2,7 @@
 // gives the selected laisse the class you want.
 //takes the input field and turns it into a laisse number
 function select_laisse(){
-    if (document.getElementById("selected_laisse") == null){
+    if (document.getElementById("selected_laisse") == null) {
         var laisse = 1;
     }
     else{ 
@@ -18,11 +18,19 @@ function hide_laisse(){
 }
 
 function reveal_laisse(){
+    // grabs current laisse number
+    var current_visible_laisse = $('lg.visible').attr('n');
+    // hides the current laisse.
     hide_laisse();
 
-    // looks to the input field to and loads that in to select the appropiate laisse.
-    var selected_laisse = select_laisse();
-
+    // compares the two input fields to figure out which has been changed. There are two input fields, but one is always hidden depending on the size of the screen. It looks to see which one has been changed (the one that )
+    if(select_laisse() != current_visible_laisse){
+        var selected_laisse = select_laisse();
+    }
+    else{
+        var selected_laisse = document.getElementById("bot_laisse").value;
+        $('#selected_laisse').val(selected_laisse);
+    }
     // makes that laisse vissible.
     if(selected_laisse > 0 && selected_laisse <= $("lg").length){
         $("lg[n=" + selected_laisse + "], #bottom-buttons, #tei-hr-1").addClass("visible");
@@ -47,6 +55,7 @@ function browse_next(){
         hide_laisse();
         $("lg[n=" + (parseInt(current_laisse) + 1) + "], #bottom-buttons,#tei-hr-1").addClass("visible");
         $("#selected_laisse").val(parseInt(current_laisse)+1);
+        $("#bot_laisse").val(parseInt(current_laisse)+1);
     };
 };
 
@@ -59,6 +68,7 @@ function browse_previous(){
         
         // change the old value
         $("#selected_laisse").val(parseInt(current_laisse)-1);
+        $("#bot_laisse").val(parseInt(current_laisse)-1);
     }
 };
 
@@ -108,6 +118,7 @@ function toggle_sic_off(){
 function page_prep(){
     display_laisse_num();
     $("#selected_laisse").val(1);
+    $("#bot_laisse").val(1);
     reveal_laisse();
     hide_footer();
 };

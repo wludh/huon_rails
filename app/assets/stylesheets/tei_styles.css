@@ -8560,7 +8560,6 @@ th.hide-for-touch {
   border-right: 1px;
   border-right-style:solid;
   border-right-color: #DDDDDD;
-  position: fixed;
 }
 
 #left-content{
@@ -8630,7 +8629,7 @@ top-bar{
   margin: auto;
 }
 
-#num_laisses{
+#num_laisses, #bot_reader{
 float: left;
 padding-top: 8px;
 }
@@ -9103,4 +9102,20 @@ td{
 #TEI_left_panel TEI{
   max-width: none;
   margin: none;
+}
+
+@media only screen and (max-width: 500px){
+  #TEI_left_panel{
+    display:none !important;
+  }
+  #top-half{
+    display:none;
+  }
+  #TEI_reader{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+  #tei_wrapper{
+    width: 80% !important;
+  }
 }

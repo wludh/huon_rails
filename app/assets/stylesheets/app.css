@@ -519,7 +519,7 @@ header{
   padding-right: 24px;
 }
 
-#num_laisses{
+#num_laisses, #bot_reader{
   padding-right: 4px;
 }
 
