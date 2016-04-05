@@ -52,7 +52,7 @@
     </section>
     <div class="panel" id="bibPanel">
       <div class="panelBanner">
-      <%= image_tag('closePanel', class: 'closePanel', onclick: 'toggleBiblio();', alt: 'X') %>
+      <%= image_tag('closePanel.png', class: 'closePanel', onclick: 'toggleBiblio();', alt: 'X') %>
          Bibliographic Information
       </div>
       <div class="bibContent">
@@ -88,7 +88,7 @@
       <div id="manuscripts" class="inner">
         <div class="panel mssPanel">
           <div class="panelBanner">
-          <%= image_tag('closePanel', class: 'closePanel', onclick: 'closePanel(this.parentNode.parentNode);', alt: 'X') %>
+          <%= image_tag('closePanel.png', class: 'closePanel', onclick: 'closePanel(this.parentNode.parentNode);', alt: 'X') %>
           Witness <select class="witnessMenu" onchange="changeWitness(this.value,this.parentNode.parentNode);">
                         <option selected value="B">1: Berlin</option>
                         <option value="Br">2: Barbieri Fragment</option>
@@ -137,7 +137,7 @@
               </div>
             </div>
             <div class="panel mssPanel">
-               <div class="panelBanner"><%= image_tag('closePanel', class: 'closePanel', onclick: 'closePanel(this.parentNode.parentNode);', alt: 'X') %>
+               <div class="panelBanner"><%= image_tag('closePanel.png', class: 'closePanel', onclick: 'closePanel(this.parentNode.parentNode);', alt: 'X') %>
                Witness <select class="witnessMenu" onchange="changeWitness(this.value,this.parentNode.parentNode);">
                      <option value="B">1: Berlin</option>
                      <option selected value="Br">2: Barbieri Fragment</option>
@@ -187,7 +187,7 @@
       </div>
       <div class="panel" id="notesPanel" style="display: none;">
         <div class="panelBanner">
-          <%= image_tag('closePanel', class: 'closePanel', onclick: 'hideNotesPanel()', alt: 'X') %>
+          <%= image_tag('closePanel.png', class: 'closePanel', onclick: 'hideNotesPanel()', alt: 'X') %>
           Textual Notes
         </div>
         <div id="noNotesFound" class="noteContent">
@@ -200,7 +200,7 @@
        <div title="Click to drag panel." class="viewerHandle" id="handle_imageViewer">
           <span class="viewerHandleLt" id="title_imageViewer">Image Viewer</span>
           <img class="viewerHandleRt" onclick="return hidePanel('imageViewer');" 
-          <%= image_tag('closePanel', class: 'viewerHandleRt', onclick: "return hidePanel('imageViewer');", alt: 'X') %>
+          <%= image_tag('closePanel.png', class: 'viewerHandleRt', onclick: "return hidePanel('imageViewer');", alt: 'X') %>
         </div>
        <div class="viewerContent" id="content_imageViewer"></div>
     </div>
