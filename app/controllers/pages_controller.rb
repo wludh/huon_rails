@@ -82,7 +82,7 @@ class PagesController < ApplicationController
 
     def parse_line(l)
         # parses a line where 'l' is a line_nodeset
-        result = "<l n=#{l.attr('n')}>"
+        result = "<l n=\"#{l.attr('n')}\">"
                  if l.css('pb').present? 
                     result += parse_pb(l)
                  end 
