@@ -42,7 +42,7 @@ describe PagesController do
 
         it "should parse a line" do
             line = '<l n="2">E pluy de tre any stete in la çitie</l>'
-            controller.parse_line(Nokogiri::XML(line).children[0]).should == '<l n="2">E pluy de tre any stete intie</l>'
+            controller.parse_line(Nokogiri::XML(line).children[0]).should == '<l n="2">E pluy de tre any stete itie</l>'
         end
 
         # TODO: parse the remaining tagsets that you want. also the remaining functions
