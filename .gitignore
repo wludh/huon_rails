@@ -15,6 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+# ignore zotero things
 /zot_bib_web/zot_warnings.log
-/zot_warnings.log
+zot_warnings.log
 /zot_bib_web/__pycache__
+app/views/shared/_zot_bibliography.html.erb

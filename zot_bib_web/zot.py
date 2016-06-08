@@ -495,7 +495,7 @@ def compile_data(collection_id, collection_name, exclude={}, shorten=False):
 
     corehtml = make_html(b, h, r, a, exclude=exclude, shorten=shorten)
     
-    if corehtml and len(corehtml)>0:  # was anything found in this category?
+    if corehtml and len(corehtml)>0 and corehtml != '<div class="full-bib-section"></div>':  # was anything found in this category?
         # write_html([None] * len(h), h, a, 'out.html')
         #html = "dummy"
         html = "<a id='%s' style='{display: block; position: relative; top: -150px; visibility: hidden;}'></a>"%collection_id
