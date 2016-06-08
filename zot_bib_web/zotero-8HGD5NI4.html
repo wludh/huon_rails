@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN"><html><head><meta charset="UTF-8"><title>Bibliography</title><link rel="stylesheet" type="text/css" href="style.css"></head><body><div class="bibliography"><style type="text/css" id="zoterostylesheet" scoped>
+.bibshowhide {display:none;}
+.abstract {display:none;}
+.blink {margin:0;margin-right:15px;padding:0;display:none;}
+</style>
+<script type="text/javascript">
+ function downloadFile(elem) {
+  filename = "article.ris"
+  if (elem.parentNode) {
+    var elems = elem.parentNode.getElementsByTagName('*');
+    for (i in elems) {
+        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1) 
+           {
+  var ee = elems[i]
+  if (ee.childNodes[0]) { ee = ee.childNodes[0] } 
+  var pom = document.createElement('a');
+  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(ee.innerHTML));
+  pom.setAttribute('download', filename);
+  pom.click();
+}}}}
+function show(elem) {
+  if (elem.parentNode) {
+   var elems = elem.parentNode.getElementsByTagName('*'), i;
+    for (i in elems) {
+        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1) 
+           { if (elems[i].style.display == 'block') {elems[i].style.display = 'none';} else {elems[i].style.display = 'block';}}}}
+  return(void(0));}
+function changeCSS() {
+    if (!document.styleSheets) return;
+    var theRules = new Array();
+    //ss = document.styleSheets[document.styleSheets.length-1];
+    var ss = document.getElementById('zoterostylesheet');
+    if (ss) {
+    ss = ss.sheet
+    if (ss.cssRules)
+        theRules = ss.cssRules
+    else if (ss.rules)
+        theRules = ss.rules
+    else return;
+    theRules[theRules.length-2].style.display = 'inline';
+    theRules[theRules.length-1].style.display = 'inline';
+    }
+    }
+changeCSS();</script><h1 class="title">Bibliography</h1>
+<a id='8HGD5NI4' style='{display: block; position: relative; top: -150px; visibility: hidden;}'></a><h3 class="collectiontitle">Prosopography</h3>
+<div class="full-bib-section"><div class="bib-item"><div class="csl-entry">Booth, A. (2005). <span class="doctitle">Men and Women of the Time: Victorian Prosopographies</span>. In D. Amigoni (Ed.), <i>Life Writing and Victorian Culture</i> (pp. 41–66). London: Ashgate.</div><div class="blink"><a href="javascript:show(this);" onclick="show(this);">bib</a><div class="bibshowhide"><div class="bib">@incollection{booth_men_2005,
+	address = {London},
+	title = {Men and {Women} of the {Time}: {Victorian} {Prosopographies}},
+	booktitle = {Life {Writing} and {Victorian} {Culture}},
+	publisher = {Ashgate},
+	author = {Booth, Alison},
+	editor = {Amigoni, David},
+	year = {2005},
+	pages = {41--66}
+}</div></div></div><div class="blink"><a title="Download EndNote record" href="javascript:downloadFile(this);" onclick="downloadFile(this);">ris</a><div class="bibshowhide"><div class="ris">TY  - CHAP
+TI  - Men and Women of the Time: Victorian Prosopographies
+AU  - Booth, Alison
+T2  - Life Writing and Victorian Culture
+A2  - Amigoni, David
+CY  - London
+DA  - 2005///
+PY  - 2005
+SP  - 41
+EP  - 66
+PB  - Ashgate
+ER  -</div></div></div></div><div class="bib-item"><div class="csl-entry">Booth, A. (2005). <span class="doctitle">Fighting for Lives in the ODNB, or Taking Prosopography Personally</span>. <i>Journal of Victorian Culture</i>, <i>10</i>(2), 267–279.</div><div class="blink"><a href="javascript:show(this);" onclick="show(this);">bib</a><div class="bibshowhide"><div class="bib">@article{booth_fighting_2005,
+	title = {Fighting for {Lives} in the {ODNB}, or {Taking} {Prosopography} {Personally}},
+	volume = {10},
+	number = {2},
+	journal = {Journal of Victorian Culture},
+	author = {Booth, Alison},
+	year = {2005},
+	pages = {267--279}
+}</div></div></div><div class="blink"><a title="Download EndNote record" href="javascript:downloadFile(this);" onclick="downloadFile(this);">ris</a><div class="bibshowhide"><div class="ris">TY  - JOUR
+TI  - Fighting for Lives in the ODNB, or Taking Prosopography Personally
+AU  - Booth, Alison
+T2  - Journal of Victorian Culture
+DA  - 2005///
+PY  - 2005
+VL  - 10
+IS  - 2
+SP  - 267
+EP  - 279
+ER  -</div></div></div></div></div></div></body></html>

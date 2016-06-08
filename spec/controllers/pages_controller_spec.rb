@@ -44,5 +44,18 @@ describe PagesController do
             line = '<l n="2">E pluy de tre any stete in la çitie</l>'
             controller.parse_line(Nokogiri::XML(line).children[0]).should == '<l n="2">E pluy de tre any stete in la çitie</l>'
         end
+
+        # TODO: parse the remaining tagsets that you want. also the remaining functions
+
+        it "should connect to the annotations" 
+
+        it "should load the annotations" 
+
+        it "should link annotations with lines" 
+    end
+
+    describe "GET" 'bibliography' do
+        it "should be pulling in the zotero bibliogaphy" do
+        end
     end
 end

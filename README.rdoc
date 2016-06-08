@@ -24,5 +24,14 @@ Things you may want to cover:
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Zotero bibliography is rendered from a python 2 script. Longterm it should be refactored in as part of the rails app itself (would enable you to update with having to command line). But as is, it can be run from the base of the application's directory as a python 2 script:
+
+```$ python zot_bib_web/zot.py```
+
+Python can be installed via [homebrew](http://brew.sh/). You might have to install some dependencies, which can be installed via pip:
+
+```$ brew install python```
+```$ brew install DEPENDENCY```
+
+This will pull down the zotero bibliography and regenerate the HTML necessary for it. Also includes COINs metadata. They get dumped into a partial at app/views/shared/_zot_bibliography.html.erb. This partial gets included in app/views/pages/bibliography.html.erb.
+

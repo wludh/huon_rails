@@ -119,8 +119,11 @@ class PagesController < ApplicationController
     end
 
     def parse_footnote
+
     end
+
     def parse_footnotes
+        
     end
 
     helper_method :parse_annotation
