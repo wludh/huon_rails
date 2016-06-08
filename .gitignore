@@ -15,4 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
-/zot_bib_web/zot_warnings.lot
+/zot_bib_web/zot_warnings.log
+/zot_warnings.log
+/zot_bib_web/__pycache__
