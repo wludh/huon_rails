@@ -152,10 +152,12 @@ class PagesController < ApplicationController
     end
 
     def b_manuscript
+        parse_tei('b.xml')
         render template: "pages/b"
     end
 
     def t_manuscript
+        parse_tei('t.xml')
         render template: "pages/t"
     end
 
@@ -165,6 +167,7 @@ class PagesController < ApplicationController
     end
 
     def br_manuscript
+        parse_tei('br.xml')
         render template: "pages/br"
     end
 
