@@ -1,28 +1,30 @@
-<%= stylesheet_link_tag 'base_styles' %>
-<%= stylesheet_link_tag'tei_styles' %>
-<%= stylesheet_link_tag 'app' %>
-
+<%#= stylesheet_link_tag 'base_styles' %>
+<%#= stylesheet_link_tag'tei_styles' %>
+<%#= stylesheet_link_tag 'app' %>
+<!--
 
 <% @title, @introduction, @text, @line_groups = parse_tei('br.xml') %>
                 <TEI>
                     <div id="hidden-title">
                         <%= @title %>
                     </div>
-                    <!-- placeholder for byline in the future -->
-<!--                <div id="hidden-byline">
+                    placeholder for byline in the future
+               <div id="hidden-byline">
                        <%= @byline %> 
-                    </div> -->
+                    </div>
                     <div id="hidden-introduction">
                         <%= @introduction %>
                     </div>
                 </TEI>
 
                 <div id="tei-wrapper">
-                    <% for lg in @line_groups %>
+                    <#% for lg in @line_groups %>
                         
-                        <% for l in lg.search('l') %>
+                        <#% for l in lg.search('l') %>
                             <p><%= l.text %></p>
-                        <% end %>
+                        <#% end %>
                         
-                    <% end %>
-                </div>
+                    <#% end %>
+                </div> -->
+<% @title, @introduction, @text, @line_groups = parse_tei('p.xml') %>
+<%= render 'layouts/reading_interface' %>

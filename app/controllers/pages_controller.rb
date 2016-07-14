@@ -160,6 +160,7 @@ class PagesController < ApplicationController
     end
 
     def p_manuscript
+        parse_tei('p.xml')
         render template: "pages/p"
     end
 
