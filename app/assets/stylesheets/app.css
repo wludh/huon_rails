@@ -31,6 +31,7 @@ body{
   width: 100%;
   max-width: 100%;
   overflow-x:hidden;
+  background-color: #fff;
 
 }
 
@@ -219,12 +220,6 @@ teiHeader{
 /* Background image*/
 
 html{
-  background-color: #f0f0f0;
-  /*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.4))),url("/assets/hours_compressed.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
-  background-image: -o-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");*/
   background-position: top right;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -297,11 +292,9 @@ font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, O
 } 
 
 #homepage-body{
-  background: rgba(255,255,255,0.9);
 }
 
 text body{
-  background-color: rgba(255,255,255,0);
 }
 
 /*Search bar */
