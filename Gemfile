@@ -15,6 +15,9 @@ gem 'capybara', group: [:development, :test]
 gem 'selenium-webdriver', group: [:development, :test]
 gem 'puma'
 
+gem 'will_paginate', '~> 3.0.5'
+gem 'i18n'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'

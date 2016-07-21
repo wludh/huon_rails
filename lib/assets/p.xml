@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -18,7 +17,7 @@
                 <principal>Stephen P. McCormick</principal>
                 <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
                 <respStmt>
-                    <name>Stephen P. McCormick</name>
+                    <name xml:id="SPM">Stephen P. McCormick</name>
                     <resp>edition</resp>
                     <resp>transcription</resp>
                     <resp>TEI coding and development</resp>
@@ -81,15 +80,7 @@
                         <origPlace cert="low">Padua</origPlace>
                         <origDate cert="medium" evidence="internal">second half of fourteenth century or first half of fifteenth</origDate>
                 <!-- <seg type="textLang" subtype="LAT">Latin</seg> ? See Cummings 55 -->
-                        <note>Manuscript 32 of the Biblioteca del Seminario Vescovile di Padova (P) is a codex of lightly browned paper 
-                            with clear and readable text. Pio Rajna transcribed the contents of P into a notebook, now housed at the 
-                            Biblioteca Marucelliana in Florence (Bibl. Marucelliana Carte Rajna XII.M.101). Folded and loose between the 
-                            pasteboard and the first folio is a letter by the Italian philologist Pio Rajna with a comment by the French 
-                            philologist Gaston Paris. The scribe of P does not date the manuscript, as in B and T. Palaeographers have 
-                            dated P to between the second half of the fourteenth and the first half of the fifteenth centuries. Unlike 
-                            Br, no watermarks help determine provenance. Venetian linguistic elements suggest a northern Italian provenance, 
-                            most likely in the vicinity of Padua. The manuscript consists of 117 folios and 5690 lines of text bound into 
-                            twelve gatherings measuring 22 cm by 29.5 cm.</note>
+                        <note>Manuscript 32 of the Biblioteca del Seminario Vescovile di Padova (P) is a paper codex dated on palaegraphical grounds to between the second half of the fourteenth and the first half of the fifteenth centuries. Unlike B and T, the scribe does not include a completion date. The provenance of this manuscript has been difficult to determine, especially since the paper does not include a watermark, as in Br. Linguistic evidence locates the codex generally in the Veneto. The codex contains 5690 lines of text on 117 folios. The folios are bound into twelve gatherings which measure 22 cm by 29.5 cm. The contents of P were transcribed in a notebook by Pio Rajna, which is now found at the Biblioteca Marucelliana in Florence (Bibl. Marucelliana Carte Rajna XII.M.101).</note>
                         <note>
                             <p>The manuscript entered early into the collection of the Seminario Vescovile. Michela Scattolini notes that 
                                MS P may have belonged to the collection of Alfonso Speroni-Alvarotti, and would have been acquired by 
@@ -187,21 +178,21 @@
         <body>
            <lg type="laisse" n="1">
                <head>Laisse I</head>
-               <l n="1"><gap reason="missing folios" quantity="2"></gap> <pb n="f.1r"/>(1R) E perçò era Ugo d'Alvernia sevrie;</l>
-               <l n="2">E pluy de tre any stete in la çitie</l>
-               <l n="3">Ch'el non fo a so tera tornie,</l>
+               <l n="1"><gap reason="missing folios" quantity="2"></gap> <pb n="f.1r"/>(1R) E perçò era Ugo d'Alvernia sevrie<note xml:id="#P1"/>;</l>
+               <l n="2">E pluy de tre any<note xml:id="#P2"/> stete in la çitie</l>
+               <l n="3">Ch'el<note xml:id="#P3"/> non fo a so tera tornie,</l>
                <l n="4">Tanto aveva so amor a Sanguy<ex>n</ex> donie.</l>
                <l n="5">Se Sanguy<ex>n</ex> chavalcava i<ex>n</ex> alguna partie,</l>
-               <l n="6">Lo cont Ugo era <choice><abbr></abbr><expan><ex></ex></expan></choice> tutora a so costie,</l>
+               <l n="6">Lo cont Ugo era tutora a so costie,</l>
                <l n="7">Al bevere e al mançar cun lui era colcie.</l>
                <l n="8">May de fradeli non fo si dolçe conpagnie</l>
                <l n="9">Ni de mare ni de pare se l'avesse inçenerie;</l>
                <l n="10">Quelo che voleva l'un, l'altro nol contradie,</l>
                <l n="11">tuto el so voler l'un e l'altro à incontrie.</l>
-               <l n="12">Ma quela Sofia, <choice><abbr>&#x17f;vir</abbr><expan>s<ex>er</ex>vir</expan></choice>a chi Dio maldie,</l>
+               <l n="12">Ma quela Sofia, a chi Dio maldie,</l>
                <l n="13">So marido no può amar nule fie,</l>
                <l n="14">Che in lo conte Ugo aveva messo so pensie;</l>
-               <l n="15">E si penssa la <choice><abbr>&#xa751;</abbr><expan>p<ex>er</ex></expan></choice> malvaxia meretrie</l>
+               <l n="15">E si penssa la malvaxia meretrie</l>
                <l n="16">Chomo la porave a Ugo parlie</l>
                <l n="17">Mo la malvaxia ben à trovada la vie</l>
                <l n="18"><pb n="f.1v"/>(1V) De lui aver in soa camera alla çellie.</l>
@@ -263,7 +254,7 @@
                 <l n="70">Ch’io li vojo contar e dir el mio talant</l>
                 <l n="71">Chomo io l’amo pluy che cossa vivant.”</l>        
                 <l n="72"><pb n="f.2v"/>(2V) Quando la demixela <choice><sic></sic><corr>l</corr></choice>’intende, se meraveja fortema<ex>n</ex>t</l>
-                <l n="73">De <choice><sic>sicthing</sic><corr>ç</corr></choice>ò che la dona li va contant.</l>
+                <l n="73">De <choice><sic></sic><corr>ç</corr></choice>ò che la dona li va contant.</l>
                 <l n="74">E si respoxe: “Madona, farò al vostro talant.”</l>
             </lg>
             <lg type="laisse" n="3">

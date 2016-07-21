@@ -1027,7 +1027,7 @@ node {
 normalization {
   /* Empty Rule Set */
 }
-note {
+#notes note {
   display: block;
   margin: 1.5em auto 1.5em auto;
   padding: .5em 1.5em 1.5em 1.5em;
@@ -8581,7 +8581,7 @@ top-bar{
   position: fixed;
 }
 @media screen and (min-width: 1100px){
-  note{
+  #notes note{
     margin: 0;
     padding-top:16px;
     padding-bottom: 16px;

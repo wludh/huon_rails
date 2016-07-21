@@ -7004,7 +7004,7 @@ top-bar{
   position: fixed;
 }
 @media screen and (min-width: 1100px){
-  note{
+  #notes note{
     margin: 0;
     padding-top:16px;
     padding-bottom: 16px;
@@ -7013,7 +7013,7 @@ top-bar{
 }
 
 @media screen and (max-width: 1100px){
-  note{
+  #notes note{
     display: none;
   }
   toggle_note{
@@ -7270,7 +7270,6 @@ padding-bottom: 1px;
 }
 
 lg{
-  display: none;
   padding-top: 24px;
   margin-top: 0px;
 }

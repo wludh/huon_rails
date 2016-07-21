@@ -533,6 +533,22 @@ header{
   display: none;
 }
 
-#mobile_reader{
-  
+.lines note sup{
+  curser: pointer;
+}
+
+.pagination, #jump_form{
+  display:inline;
+}
+
+#jump_button{
+  border: none;
+  background-color: transparent;
+  text-decoration-color: #5f0000;
+  color: #5f0000;
+}
+
+#jump_button:hover{
+  text-decoration: underline;
+  color: #0078a0;
 }

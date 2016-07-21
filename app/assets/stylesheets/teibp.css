@@ -1027,7 +1027,7 @@ node {
 normalization {
   /* Empty Rule Set */
 }
-note {
+#notes note {
   display: block;
   margin: 1.5em auto 1.5em auto;
   padding: .5em 1.5em 1.5em 1.5em;

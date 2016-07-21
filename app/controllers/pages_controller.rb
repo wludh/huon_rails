@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
 	skip_before_action :verify_authenticity_token
+    require 'active_support/core_ext/array/conversions.rb'
     
     def show
         render template: "pages/#{params[:page]}"
@@ -14,21 +15,41 @@ class PagesController < ApplicationController
         # placeholder for if Steve decides to include bylines for authors.
         # @by_line = doc.search('INSERT').text
         @introduction = doc.search('note').first.text
-        @line_groups = doc.css('lg')
+        @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
+        puts @line_groups
         return @title, @introduction, @line_groups
     end
 
+
+    def import_notes(tei_file)
+        doc = File.open("./lib/assets/#{tei_file}"){
+            |f| Nokogiri::XML(f)
+        }
+        doc
+    end
+
+    def get_all_notes(file_path)
+        doc = import_notes(file_path)
+        doc.css('note')
+    end
+
+    def parse_note(child)
+        note_id = child.attributes['id'].value.gsub('#', '')
+        # following line should take P1 and return just 1. so remove everything that is a letter
+        ('<note id="'+ note_id + '"/><sup>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
+    end
+
     def parse_pb(line)
-        return (('<div id="page-break">') + ("page: " + line.css('pb').attr('n').text) + "</div>").html_safe
+        (('<div id="page-break">') + ("page: " + line.css('pb').attr('n').text) + "</div>").html_safe
     end
 
     def parse_heading(line_group)
-        return ('<div class="line-heading">' + line_group.search('head').text + "</div>").html_safe
+        ('<div class="line-heading">' + line_group.search('head').text + "</div>").html_safe
     end
 
     def parse_tag(tag_child)
         #Takes a nodeset with no children and parses it. Must be well-formed and have no tags nested within it. ie. '<ex>word</ex>.'
-        return "<#{tag_child.name}>#{tag_child.text}</#{tag_child.name}>".html_safe
+        "<#{tag_child.name}>#{tag_child.text}</#{tag_child.name}>".html_safe
     end
 
     def parse_choice(tag_set)
@@ -51,12 +72,11 @@ class PagesController < ApplicationController
             end
         end
         result += "</choice>"
-        return result.html_safe
+        result.html_safe
     end
 
     def parse_annotation(child)
         # stub function for basic footnote functionality. Will eventually need to take in the note number.
-
         return ('<annotation n="1">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(1)">*</sup>').html_safe
     end
     
@@ -102,6 +122,8 @@ class PagesController < ApplicationController
                     result += parse_tag(child)
                 elsif child.name == 'lb'
                     result += parse_tag(child)
+                elsif child.name == 'note'
+                    result += parse_note(child)
                  elsif child.text == "Ni de mare ni de pare se l'avesse inçenerie;"
                     result += '<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(3)">*</sup>'
                  elsif child.text == "Che in lo conte Ugo aveva messo so pensie;" 
@@ -118,14 +140,8 @@ class PagesController < ApplicationController
         return "<#{child.name}></#{child.name}>".html_safe
     end
 
-    def parse_footnote
-
-    end
-
-    def parse_footnotes
-        
-    end
-
+    helper_method :import_notes
+    helper_method :get_all_notes
     helper_method :parse_annotation
     helper_method :parse_choice
     helper_method :parse_pb
@@ -136,8 +152,7 @@ class PagesController < ApplicationController
     helper_method :parse_line
     helper_method :parse_line_group
     helper_method :parse_line_groups
-    helper_method :parse_footnote
-    helper_method :parse_footnotes
+
 
     def index
         render template: 'pages/index'
@@ -163,6 +178,7 @@ class PagesController < ApplicationController
 
     def p_manuscript
         parse_tei('p.xml')
+        puts get_all_notes('notes-p.xml')
         render template: "pages/p"
     end
 
