@@ -519,7 +519,8 @@ header{
 #note-header{
 }
 
-.note-contents{
+#notes note{
+  display: none;
 }
 
 #back_to_intro{
@@ -530,7 +531,7 @@ header{
 }
 
 .hidden{
-  display: none;
+  display: none !important;
 }
 
 .lines note sup{

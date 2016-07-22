@@ -8581,7 +8581,7 @@ top-bar{
   position: fixed;
 }
 @media screen and (min-width: 1100px){
-  #notes note{
+  .note-contents note{
     margin: 0;
     padding-top:16px;
     padding-bottom: 16px;
@@ -8590,7 +8590,7 @@ top-bar{
 }
 
 @media screen and (max-width: 1100px){
-  #notes note{
+  .note-contents note{
     display: none;
   }
   toggle_note{

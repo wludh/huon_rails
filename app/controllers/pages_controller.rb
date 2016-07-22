@@ -26,17 +26,22 @@ class PagesController < ApplicationController
         doc = File.open("./lib/assets/#{tei_file}"){
             |f| Nokogiri::XML(f)
         }
-        doc.css('note')
+        return doc.css('respStmt'), doc.css('note')
     end
 
     def parse_and_store_notes(note_numbers)
         # note that you're not actually using the note numbers just yet
         # you're here trying to link up the list of note numbers with the notes from the file
         # takes the list of note numbers that you want and pulls them out of the tei file.
-        @all_notes = import_notes('notes-p.xml')
+        @authors, @all_notes = import_notes('notes-p.xml')
+        @author_hash = {}
+        for author in @authors
+            @author_hash[author.children[1].attributes['id'].value] = author.children[1].text
+        end
+
         html = ""
         for note in @all_notes
-            html += "<div id=\"author_name\"></div><note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}</note>"
+            html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}</note>"
         end
         # @current_notes = {}
         # for when/if you can eventually pull out only those notes.
@@ -105,11 +110,6 @@ class PagesController < ApplicationController
         result.html_safe
     end
 
-    def parse_annotation(child)
-        # stub function for basic footnote functionality. Will eventually need to take in the note number.
-        return ('<annotation n="1">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(1)">*</sup>').html_safe
-    end
-    
     def parse_line_groups(line_groups)
          result = ""
          @line_groups.each do |line_group| 
@@ -154,10 +154,6 @@ class PagesController < ApplicationController
                     result += parse_tag(child)
                 elsif child.name == 'note'
                     result += parse_note(child)
-                 elsif child.text == "Ni de mare ni de pare se l'avesse inçenerie;"
-                    result += '<annotation n="3" onclick="annotation_reveal(3)">' + "#{child.text}" + '</annotation><sup onclick="annotation_reveal(3)">*</sup>'
-                 elsif child.text == "Che in lo conte Ugo aveva messo so pensie;" 
-                    result += parse_annotation(child) 
                  else 
                     result += child.text 
                  end 
@@ -173,7 +169,6 @@ class PagesController < ApplicationController
     helper_method :import_notes
     helper_method :get_all_notes
     helper_method :parse_and_store_notes
-    helper_method :parse_annotation
     helper_method :parse_choice
     helper_method :parse_pb
     helper_method :parse_heading
