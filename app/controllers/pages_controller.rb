@@ -36,7 +36,7 @@ class PagesController < ApplicationController
         @all_notes = import_notes('notes-p.xml')
         html = ""
         for note in @all_notes
-            html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.text}</note>"
+            html += "<div id=\"author_name\"></div><note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}</note>"
         end
         # @current_notes = {}
         # for when/if you can eventually pull out only those notes.
