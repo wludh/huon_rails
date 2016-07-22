@@ -41,7 +41,7 @@ class PagesController < ApplicationController
 
         html = ""
         for note in @all_notes
-            html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}</note>"
+            html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value]}</div></note>"
         end
         # @current_notes = {}
         # for when/if you can eventually pull out only those notes.
