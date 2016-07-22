@@ -26,12 +26,8 @@
             </div>
             <div id="note-header" class="hidden">Notes</div>
             <div class="note-contents hidden">
-            <!-- You'll probably want to have a @footnotes variable here. parse_footnote() gets the note text added to it for each annotation present in the line_group from whatever they're stored in. Then parse_footnotes() here generates the tags. Then you use the javascript to  -->
-            <%#= parse_footnotes()%>
-                <footnote id="1">This is the wrong footnote.</footnote>
-                <footnote id="2">This is the wrong footnote.</footnote>
-                <footnote id="3">This is the right footnote.</footnote>
-                <footnote id="4">This is the wrong footnote.</footnote>
+            <!-- use javascript to bring out the notes here. -->
+                <%= @current_notes %>
                 <div id="back_to_intro"><a onclick="display_intro()">Back to Introduction</a></div>
             </div>
         </div>

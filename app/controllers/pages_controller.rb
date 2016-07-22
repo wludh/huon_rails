@@ -16,7 +16,8 @@ class PagesController < ApplicationController
         # @by_line = doc.search('INSERT').text
         @introduction = doc.search('note').first.text
         @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
-        puts @line_groups
+        @note_numbers = get_notes_for_line_group(@line_groups)
+        @current_notes = parse_and_store_notes(@note_numbers)
         return @title, @introduction, @line_groups
     end
 
@@ -25,18 +26,47 @@ class PagesController < ApplicationController
         doc = File.open("./lib/assets/#{tei_file}"){
             |f| Nokogiri::XML(f)
         }
-        doc
+        doc.css('note')
     end
 
-    def get_all_notes(file_path)
-        doc = import_notes(file_path)
-        doc.css('note')
+    def parse_and_store_notes(note_numbers)
+        # note that you're not actually using the note numbers just yet
+        # you're here trying to link up the list of note numbers with the notes from the file
+        # takes the list of note numbers that you want and pulls them out of the tei file.
+        @all_notes = import_notes('notes-p.xml')
+        html = ""
+        for note in @all_notes
+            html+= "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.text}'</note>'"
+        end
+        # @current_notes = {}
+        # for when/if you can eventually pull out only those notes.
+        # for number in line_group_numbers
+        #     @current_notes[number] = ()
+        # end
+        # puts @all_notes.xpath('@xmlid:')
+        html.html_safe
+    end
+
+    # def generate_note_html(notes)
+    #     for note in notes
+    #         "".html_safe
+    #     end
+    # end
+
+    def get_notes_for_line_group(line_group)
+        # gets all the notes for a line group and stores them as an array so that you can
+        notes = line_group[0].css('note')
+        search_array = []
+        for note in notes
+            search_array << note.attributes['id'].value.sub(/[A-Za-z]|#/,'')
+        end
+        search_array
     end
 
     def parse_note(child)
         note_id = child.attributes['id'].value.gsub('#', '')
         # following line should take P1 and return just 1. so remove everything that is a letter
-        ('<note id="'+ note_id + '"/><sup>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
+        ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + note_id.sub(/[A-Za-z]/,'') + ')>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
     end
 
     def parse_pb(line)
@@ -142,6 +172,7 @@ class PagesController < ApplicationController
 
     helper_method :import_notes
     helper_method :get_all_notes
+    helper_method :parse_and_store_notes
     helper_method :parse_annotation
     helper_method :parse_choice
     helper_method :parse_pb
@@ -152,6 +183,7 @@ class PagesController < ApplicationController
     helper_method :parse_line
     helper_method :parse_line_group
     helper_method :parse_line_groups
+    helper_method :parse_and_store_notes
 
 
     def index
@@ -178,7 +210,6 @@ class PagesController < ApplicationController
 
     def p_manuscript
         parse_tei('p.xml')
-        puts get_all_notes('notes-p.xml')
         render template: "pages/p"
     end
 

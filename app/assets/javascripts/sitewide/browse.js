@@ -21,8 +21,9 @@ function annotation_reveal(annotation_number){
     $('#hidden-introduction').removeClass('visible');
     $("footnote").removeClass('visible');
     $('#note-header').addClass('visible');
+    $('note').removeClass('visible')
     // var anno_number = $("this").attr('n');
-    $("footnote[id=" + annotation_number + "]").addClass("visible");
+    $("note[n=" + annotation_number + "]").addClass("visible");
     $('#back_to_intro').addClass('visible');
     $('#note-header').removeClass('hidden');
     $('.note-contents').removeClass('hidden');

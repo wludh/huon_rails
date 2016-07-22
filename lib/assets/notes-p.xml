@@ -37,8 +37,8 @@
         <body>
         <div>
         <note n="1" xml:id="P1" resp="SPM">'to depart, leave; divide'; OF sevrer (Greimas); OI sevrare (Bembo); I sceverare (BA)</note>
-        <note n="1" xml:id="P2" resp="LZM">'year'; OF an (TL); OI anno (BA); I anno (BA)</note>
-        <note n="1" xml:id="P3" resp="SPM">subject pronoun, third person, singular, masculin</note>
+        <note n="2" xml:id="P2" resp="LZM">'year'; OF an (TL); OI anno (BA); I anno (BA)</note>
+        <note n="3" xml:id="P3" resp="SPM">subject pronoun, third person, singular, masculin</note>
          </div>
         </body>
     </text>
