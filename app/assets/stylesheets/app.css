@@ -147,7 +147,8 @@ p.tagline {
 }
 #manuscript_list_editions{
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
+  padding-bottom: 20px;
 }
 
 .imgprofile {
