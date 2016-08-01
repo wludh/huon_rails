@@ -559,3 +559,85 @@ header{
   float: right;
   padding: 16px;
 }
+
+
+#tei-hr-1, #tei-hr-2{
+  width:40%;
+  text-align:center; margin: 0 auto;
+}
+
+#tei-hr-1{
+  display:none;
+}
+
+#comparison-hr{
+  width:66.7%;
+  text-align:center; margin: 0 auto;
+}
+
+.witnessMenu{
+  width: 69%;
+}
+
+td{
+  padding-left:0;
+  padding-right: 0;
+  display: hidden;
+}
+
+#bibPanel{
+  display: none;
+}
+
+#TEI_left_panel TEI{
+  max-width: none;
+  margin: none;
+}
+
+@media only screen and (min-width: 501px){
+  #mobile_reader{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #TEI_left_panel{
+/*    display:none !important;
+*/
+    float: none !important;
+    width: 80% !important;
+    border-right:none !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    height: auto !important;
+  }
+  #left-content{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  #hidden-title{
+    padding-left: 0px !important;
+  }
+
+  #num_laisses{
+    display: none !important;
+  }
+
+  #TEI_left_panel hr{
+    display: none !important;
+  }
+  #notes{
+    display: none !important;
+  }
+  #top-half{
+/*    display:none;
+*/  }
+  #TEI_reader{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+  #tei_wrapper{
+    width: 80% !important;
+  }
+}
