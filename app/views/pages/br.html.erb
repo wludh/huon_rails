@@ -3,7 +3,7 @@
 <%#= stylesheet_link_tag 'app' %>
 <!--
 
-<% @title, @introduction, @text, @line_groups = parse_tei('br.xml') %>
+<#% @title, @introduction, @text, @line_groups = parse_tei('br.xml') %>
                 <TEI>
                     <div id="hidden-title">
                         <%= @title %>
@@ -26,5 +26,5 @@
                         
                     <#% end %>
                 </div> -->
-<% @title, @introduction, @text, @line_groups = parse_tei('p.xml') %>
+<% @title, @introduction, @text, @line_groups = parse_tei('br.xml') %>
 <%= render 'layouts/reading_interface' %>
