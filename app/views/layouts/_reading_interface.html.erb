@@ -9,12 +9,12 @@
                 <div class="center-outer">
                     <div class="center-inner">
                     <%= t(page_entries_info(@line_groups))%>
-                            </a>
-                                <%= form_tag @current_page, :method => "get", :id => "jump_form" do %>
-                                    <%= text_field_tag :page, params[:page], :id => 'selected_laisse' %>
-                                    <%= submit_tag("Jump", :name => nil, :id => 'jump_button') + '|'%>
-                                <% end %>
-                            <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") %>
+                        </a>
+                            <%= form_tag @current_page, :method => "get", :id => "jump_form" do %>
+                                <%= text_field_tag :page, params[:page], :id => 'selected_laisse' %>
+                                <%= submit_tag("Jump", :name => nil, :id => 'jump_button') + '|'%>
+                            <% end %>
+                        <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") %>
                     </div>
                 </div>
             </div>
@@ -50,6 +50,3 @@
         </div>
     </div>
 </div>
-    <script>
-        $(document).foundation();
-    </script>

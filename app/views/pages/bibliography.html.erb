@@ -1,26 +1,10 @@
-<!doctype html>
-<html class="no-js background" lang="en">
-  <head> <!--v 0.1-->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Huon d'Auvergne | Bibliography</title>
 
-  </head>
-  <body>
-  
-  <!--main content-->
-    <section class="row">
-    <div class="large-8 large-offset-2 columns">
-      <!-- Following line renders manually entered bibliography  -->
-      <%#= render 'shared/old_bibliography' %>
-      <!-- Following line renders zotero bibliography -->
-      <%= render 'shared/zot_bibliography' %>
-      <hr>
-      </div>
-    </section>
-
-    <script>
-       $(document).foundation();
-    </script>
-  </body>
-</html>
+<!--main content-->
+  <section class="row">
+  <div class="large-8 large-offset-2 columns">
+    <!-- Following line renders manually entered bibliography  -->
+    <%#= render 'shared/old_bibliography' %>
+    <!-- Following line renders zotero bibliography -->
+    <%= render 'shared/zot_bibliography' %>
+    </div>
+  </section>
