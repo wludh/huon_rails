@@ -179,9 +179,10 @@ p.tagline {
 }
 
 .footer img{
-  max-height: 50px;
-  padding-right: 15px;
-  margin-top: 15px;  
+/*  max-height: 50px;
+*/  padding-right: 15px;
+  margin-top: 15px;
+  max-width: 183px;  
 }
 
 #hidden-title{
@@ -640,4 +641,8 @@ td{
   #tei_wrapper{
     width: 80% !important;
   }
+}
+
+#unf_logo{
+  padding-bottom: 22px;
 }

@@ -7221,9 +7221,10 @@ p.tagline {
 }
 
 .footer img{
-  max-height: 50px;
-  margin-right: 15px;
-  margin-top: 15px;  
+/*  max-height: 50px;
+*/  margin-right: 15px;
+  margin-top: 15px;
+  max-width: 183px;
 }
 
 #hidden-title{
