@@ -9,9 +9,11 @@ Together, these two sections should give a sense of the context for the project,
 
 ## Current Implementation
 
-The project currently runs as a Ruby on Rails web application.
+The project currently runs as a Ruby on Rails web application hosted and deployed through Heroku. While Heroku offers a number of paid plans, the free option works fine for our purposes and allowed us to easily spin up test instances of the project for sharing among the collaborators.
 
-Each manuscript page is encoded in TEI, and each manuscript page has associated annotations stored in a separate TEI file. For example, p.xml refers to the Padua Manuscript, and notes-p.xml contains the annotations for that same manuscript page. This decision separates out the two different pieces of each final edition: the manuscript persists as its own unique object and the annotations collectively exist as a related entity. This means that the manuscript editions can remain stable even as the annotations might be changed and added to over time. The project is currently hosted and deployed through Heroku.
+All code is version controlled in git and stored on a [GitHub repository](https://github.com/wludh/huon_rails/) for the project. Version controlling means that our project history is well documented and stable. GitHub facilitates collaboration among the various people working on the project, as the code can be easily distributed among the various interested parties.
+
+Each manuscript page is encoded in TEI, and each manuscript page has associated annotations stored in a separate TEI file. For example, p.xml refers to the Padua Manuscript, and notes-p.xml contains the annotations for that same manuscript page. This decision separates out the two different pieces of each final edition: the manuscript persists as its own unique object and the annotations collectively exist as a related entity. This means that the manuscript editions can remain stable even as the annotations might be changed and added to over time.
 
 TEI HERE
 
@@ -37,3 +39,5 @@ Note tag in the TEI gets converted into a superscript note number. Clicking on t
 In addition to the four manuscript editions, the Huon d'Auvergene Digital Edition also implements Versioning Machine so as to compare, side by side, related passages from multiple manuscripts that possess significant changes.
 
 ![versioning machine interface](/app/assets/images/versioning-machine.png)
+
+Versioning Machine allows all the manuscript elements to be compared side by side, but it causes problems if the different versions are too long. Normally, clicking on a particular line will highlight the related lines across manuscripts. But if the lines extend beyond the height of the window, the user would not really be able to see that something has been highlighted. To this end, we are currently exploring augmentations of Versioning Machine that would have a click highlight and center all related lines in their relative views.
