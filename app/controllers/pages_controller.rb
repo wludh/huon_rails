@@ -216,4 +216,4 @@ class PagesController < ApplicationController
     def hell_scene
         render template: "pages/hell_scene"
     end
-end  
+end

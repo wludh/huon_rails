@@ -5,13 +5,13 @@ What follows is a technical report of the Huon d'Auvergne Digital Edition. This 
 * A report on the pieces of the project and how they relate as they are currently implemented.
 * A discussion of previous iterations, paths considered, and failed extensions.
 
-Together, these two sections should give a sense of the context for the project, its background, and current setup. More detailed instructions about the current project can be found in our README file in the base of the repository.
+Together, these two sections should give a sense of the context for the project, its background, and current setup. More detailed instructions about how to work with the current implementation of the project can be found in our [README](https://github.com/wludh/huon_rails/blob/master/README.rdoc) file in the base of the repository.
 
-Note: As of this writing on 9/26/16, the project currently employs TEI Boilerplate to display manuscript editions without annotations. This version of the project is hosted on Washington and Lee's servers and is mapped to [http://www.huondauvergne.org/](http://www.huondauvergne.org/). What follows is a description of the next phase of the project, the upcoming release, which is currently stored on a staging site at [huon-rails.herokuapp.com](https://huon-rails.herokuapp.com).
+Note: As of this writing on 9/26/16, the project currently employs TEI Boilerplate to display manuscript editions without annotations. This version of the project is hosted on Washington and Lee's servers and is mapped to [http://www.huondauvergne.org/](http://www.huondauvergne.org/). What follows is a description of the next phase of the project, the upcoming release, which is currently hosted on a staging site at [huon-rails.herokuapp.com](https://huon-rails.herokuapp.com).
 
 ## Current Implementation
 
-The project currently runs as a Ruby on Rails web application hosted and deployed through Heroku. While Heroku offers a number of paid plans, the free option works fine for our purposes and allowed us to easily spin up test instances of the project for sharing among the collaborators. All code is version controlled in git and stored on a [GitHub repository](https://github.com/wludh/huon_rails/) for the project. Version controlling means that our project history is well documented and stable. GitHub facilitates collaboration among the various people working on the project, as the code can be easily distributed among the various interested parties.
+The project currently runs as a Ruby on Rails web application hosted and deployed through Heroku. While Heroku offers a number of paid plans, the free option works fine for our purposes and allows us to easily spin up test instances of the project for sharing among the collaborators. All code is version controlled in git and stored on a [GitHub repository](https://github.com/wludh/huon_rails/) for the project. Version controlling means that our project history is well documented and stable, as we can easily work on features and correct bugs without affecting the current release of the code. GitHub facilitates collaboration among the various people working on the project, as the code can be easily distributed among the various interested parties.
 
 Each manuscript page is encoded in TEI, and each manuscript page has associated annotations stored in a separate TEI file. For example, p.xml refers to the Padua Manuscript, and notes-p.xml contains the annotations for that same manuscript page. This decision separates out the two different pieces of each final edition: the manuscript persists as its own unique object and the annotations collectively exist as a related entity. This means that the manuscript editions can remain stable even as the annotations might be changed and added to over time.
 
@@ -41,6 +41,8 @@ In addition to the four manuscript editions, the Huon d'Auvergene Digital Editio
 ![versioning machine interface](/app/assets/images/versioning-machine.png)
 
 Versioning Machine allows all the manuscript elements to be compared side by side, but it causes problems if the different versions are too long. Normally, clicking on a particular line will highlight the related lines across manuscripts. But if the lines extend beyond the height of the window, the user would not really be able to see that something has been highlighted. To this end, we are currently exploring augmentations of Versioning Machine that would have a click highlight and center all related lines in their relative views.
+
+Zotero Here
 
 ## Alternatives
 

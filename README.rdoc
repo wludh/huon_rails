@@ -5,26 +5,59 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+The Huon project is a Ruby on Rails app currently hosted on Heroku. First, make a copy of the app and change into the app's project folder:
 
-* System dependencies
+```bash
+$ git clone https://github.com/wludh/huon_rails.git
+$ cd huon_rails
+```
 
-* Configuration
+To run the app locally you will first need to install rails via [RVM](https://rvm.io/). Once you follow the installation steps for rails, install the ruby version needed for the project. Then install rails.
 
-* Database creation
+```bash
+$ rvm install 2.2.3
+$ rvm use 2.2.3
+$ gem install rails
+```
 
-* Database initialization
+Install dependencies from the gemfile:
 
-* How to run the test suite
+```bash
+$ bundle install
+```
+To run the app locally:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+$ rails s
+```
 
-* Deployment instructions
+At present, the site consists of a staging server hosted on Heroku. Deploying to Heroku is as easy as treating Heroku as a git remote and pushing to it after going through the standard git workflow:
 
-* ...
+```bash
+$ git add .
+$ git commit -m 'a message that describes what i did'
+$ git push
+$ git push heroku master
+```
 
+This assumes that you have a remote named 'heroku' that points to the staging site that lives on heroku. To check, run:
 
-Zotero bibliography is rendered from a python 2 script. Longterm it should be refactored in as part of the rails app itself (would enable you to update with having to command line). But as is, it can be run from the base of the application's directory as a python 2 script:
+```bash
+$ git remote -v
+```
+
+If you have heroku remote there, you will need to get in touch with Brandon at walshb [at] wlu [dot] edu to get added.
+
+To run the test suite and make sure everything is running as expected:
+
+```bash
+$ rspec spec
+```
+Though keep in mind that this only checks to make sure that the current tests work as they are written as of September 26, 2016. So if new features are added that are not covered by the tests, things could quietly break and the tests would not tell you.
+
+## Zotero
+
+Zotero bibliography is rendered from a python 2 script. Longterm it should be refactored in as part of the rails app itself (would enable you to update without having to run from the command line). But as is, it can be run from the base of the application's directory as a python 2 script:
 
 ```$ python zot_bib_web/zot.py```
 
@@ -35,3 +68,22 @@ Python can be installed via [homebrew](http://brew.sh/). You might have to insta
 
 This will pull down the zotero bibliography and regenerate the HTML necessary for it. Also includes COINs metadata. They get dumped into a partial at app/views/shared/_zot_bibliography.html.erb. This partial gets included in app/views/pages/bibliography.html.erb.
 
+## Files to look in
+## Assets
+* /app/assets/images - contains all images used.
+* /app/assets/javascripts - contains all javascript used on the site
+* /app/assets/stylesheets - contains all stylesheets used. app.css is imported last, so it should override anything you don't want from the others.
+## Logic
+* /app/controllers/pages_controller.rb -
+the master file for all the logic underlying the site and its pages. Each page is routed to and through a particular method here. So you will copy the methods at the bottom if you need to add new pages. Most importantly, this is where the various pieces of the parser are assembled. They are all explicitly declared as helper methods, meaning that they can be accessed from views as embedded ruby.
+## Views
+The site (and Rails more genreally) generates by combining a number of pieces or **partials** of files located in /app/views/layouts - so you'll need to know where the various pieces are. Much of rails consists of just knowing where to look to modify the particular piece of the site that you're interested in. So when going to a page on our app, Rails looks for the controller method and then loads up the associated view using the defined logic.
+**Template-level elements**
+* /app/views/layouts/_footer.html.erb
+* /app/views/layouts/_nav.html.erb
+* /app/views/layout
+You will also want to examine the [technical report for the project](/README.rdoc) to get a sense of how all the various pieces of the application fit together.
+**Page-level elements**
+**Individual components for index page**
+## Links
+## Testing
