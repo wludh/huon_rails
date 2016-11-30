@@ -23,8 +23,10 @@ $ bundle install
 
 Python can be installed via [homebrew](http://brew.sh/). You might have to install some dependencies, which can be installed via pip. You should only need to install pyzotero:
 
-```$ brew install python```
-```$ pip2 install pyzotero```
+```
+$ brew install python
+$ pip2 install pyzotero
+```
 
 ## Updating and Deploying to Staging Server
 
