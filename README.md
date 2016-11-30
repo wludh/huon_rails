@@ -4,6 +4,8 @@ The Huon project is a Ruby on Rails app currently hosted on Heroku. The followin
 
 ## Installation and Setup
 
+Note: the following instructions follow procedures for Mac OS. Get in touch if trying to install for Windows, which will have slightly different steps.
+
 First, make a copy of the app and change into the app's project folder:
 
 ```bash
@@ -11,16 +13,11 @@ $ git clone https://github.com/wludh/huon_rails.git
 $ cd huon_rails
 ```
 
-To run the app locally you will first need to install rails via [RVM](https://rvm.io/). Once you follow the installation steps for rails, install the ruby version needed for the project. Then install rails.
+To run the app locally you will first need to install rails via [RVM](https://rvm.io/). Once you follow the installation steps for rails, install the ruby version needed for the project. Then install dependencies from the gemfile, which will install Rails as well.
 
 ```bash
 $ rvm install 2.2.3
 $ rvm use 2.2.3
-```
-
-Install dependencies from the gemfile, which will install Rails as well:
-
-```bash
 $ bundle install
 ```
 
