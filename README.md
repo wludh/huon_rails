@@ -94,12 +94,14 @@ Running this command will pull down the zotero bibliography and regenerate the H
 /zot_bib_web contains the modified Python package that uses the Zotero API to draw in and collect the materials for the bibliography page. You won't need to edit these files unless you want to change how the bibliography page gets constructed or how the data collection works.
 
 ## Other Notable Files
-The meat of your Rails project lives in the /app/ folder. This contains the logic for your project, the views that create the individual pages of your site, and the database structuring if you have one associated with your project (we do not).
+The meat of your Rails project lives in the /app folder. This contains the logic for your project, the views that create the individual pages of your site, and the database structuring if you have one associated with your project (we do not).
+
 ### Assets
 * /app/assets/images - contains all images used.
 * /app/assets/javascripts - contains all javascript used on the site
     * /app/assets/javascripts/sitewide - contains the javascript file for the browse page.
 * /app/assets/stylesheets - contains all stylesheets used. app.css is imported last, so it should override anything you don't want from the others.
+
 ### Logic
 * /app/controllers/pages_controller.rb -
 The master file for all the logic underlying the site and its pages. Each page is routed to and through a particular method here. So you will copy the methods at the bottom if you need to add new pages. Most importantly, this is where the various pieces of the parser are assembled. They are all explicitly declared as helper methods, meaning that they can be accessed from views as embedded ruby. Also worth noting, here, that Rails stores different elements of your code in different places to streamline the development process. So logic-oriented functions like the parser live in the controllers folder.
