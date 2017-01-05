@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -31,7 +31,7 @@
                     <resp>Web development</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="NDA">Natsumi D. Alvarez</name>
+                    <name xml:id="AK">Abdurrafey Khan</name>
                     <resp>TEI coding and development</resp>
                 </respStmt>
                 <respStmt>
@@ -178,28 +178,10 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change when="2015-06-09" who="#NDA">finished line, line group, and line number tags
+            <change when="2017-01-02" who="#SPM">added line, line group, and line number tags
                 through 515</change>
-            <change when="2015-06-12" who="#NDA">finished line, line group, and line number tags
-                through 2700</change>
-            <change when="2015-06-30" who="#NDA">finished line, line group, and line number tags
-                through 3413</change>
-            <change when="2015-07-03" who="#NDA">finished line, line group, and line number tags
-                through 5686</change>
-            <change when="2015-07-07" who="#NDA">removed "catch words", had to renumber
-                laisses</change>
-            <change when="2015-07-09" who="#NDA">Started adding foliation tags, post meeting with
-                Mackenzie</change>
-            <!--FOLIO 7V doesn't seem to exist... neither in the P-Edition Word Doc, nor here... so I skipped it and moved on -NDA -->
-            <!--FOLIO 51R doesn't exist either -NDA-->
-            <change when="2015-07-14" who="#NDA">added folation tags throughout edited portion of
-                document (up to the gray highlighted part)</change>
-            <change when="2015-07-15" who="#NDA">finished adding foliation tags throughout the
-                remainder of the document (through f.117)</change>
-            <change when="2015-09-23" who="SPM">renumbered from line 3756 to 4700</change>
-            <change when="2015-09-25" who="DPD">tagged for suspension abbreviations</change>
-            <change when="2015-10-30" who="DPD">Eliminated redundant expan tags, double checked
-                through foglio 20v</change>
+            <change when="2017-01-03" who="#SPM">added pb tages for foliation</change>
+            <change when="2017-01-05" who="#SPM">added tags for red and blue initial letters</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -536,7 +518,7 @@
                 <l n="300">Ch’el passà la coltra, el vermeio siglaton,</l>
                 <l n="301">Si·lli naverà duramante al gallon.</l>
             </lg>
-            <lg type="laisse" n="9"/>
+            <lg type="laisse" n="9">
                 <head>Laisse 9</head>
                 <l n="302"><hi rend="red-initial">L</hi>o (co)nte Ugo se sveià molto angosoxamant,</l>
                 <l n="303">In pié se dreçà molto issenelamant;</l>
@@ -847,7 +829,7 @@
                 <l n="587">Quando Sanguin l’olde, el çura a Dio onipotent</l>
                 <l n="588">Che may con lui non averà paxe ni acordamant.</l>
             </lg>
-            <lg type="laisse" n="17>
+            <lg type="laisse" n="17">
                 <head>Laisse 17</head>
                 <l n="589"><hi rend="red-initial">Q</hi>uando Sanguin fo al castel asenblé,</l>
                 <l n="590">El disse al castelain, "Que à tu penssé</l>
@@ -1437,7 +1419,7 @@
             </lg>
             <lg type="laisse" n="32">
                 <head>Laisse 32</head>
-                <l n="1131"><hl rend="red-initial">L</hl>'inpperador Char(lon), a chi França apent,</l>
+                <l n="1131"><hi rend="red-initial">L</hi>'inpperador Char(lon), a chi França apent,</l>
                 <l n="1132">Reguarda soa fia, plen fo de maltalant.</l>
                 <l n="1133">De·lley çudigar si·n fo molto dollant</l>
                 <l n="1134">E de çò ch'ell'à dito no li cré nient.</l>
@@ -1486,7 +1468,7 @@
             </lg>
             <lg type="laisse" n="33">
                 <head>Laisse 33</head>
-                <l n="1176"><hl rend="red-initial">L</hl>a chameriera reguardà lo re Carlon</l>
+                <l n="1176"><hi rend="red-initial">L</hi>a chameriera reguardà lo re Carlon</l>
                 <l n="1177">E oldì che li dixe del conte Ugon,</l>
                 <l n="1178">Como fo fato la tradixon</l>
                 <l n="1179">Intro soa fia e Ugo lo baron.</l>
@@ -1510,7 +1492,7 @@
             </lg>
             <lg type="laisse" n="34">
                 <head>Laisse 34</head>
-                <l n="1196"><hl rend="red-initial">L</hl>a cameriera cun gran dotement</l>
+                <l n="1196"><hi rend="red-initial">L</hi>a cameriera cun gran dotement</l>
                 <l n="1197">All'inperador si parlà belament</l>
                 <l n="1198">E a·sSanguin che fo là in prexent,</l>
                 <l n="1199">“Dreto inperador, per Dio onipotent,</l>
@@ -1559,7 +1541,7 @@
             </lg>
             <lg type="laisse" n="35">
                 <head>Laisse 35</head>
-                <l n="1241"><hl rend="red-initial">Q</hl>uando lo re ave la cameriera ascolté,</l>
+                <l n="1241"><hi rend="red-initial">Q</hi>uando lo re ave la cameriera ascolté,</l>
                 <l n="1242">Che·llo tradimento à dito e conté,</l>
                 <l n="1243"><pb n="f.26r"/>(26R) A gran meraveia ell fo penssé.</l>
                 <l n="1244">Lo duc Sanguin fo de mallavolenté</l>
@@ -1587,7 +1569,7 @@
             </lg>
             <lg type="laisse" n="36">
                 <head>Laisse 36</head>
-                <l n="1266"><hl rend="blue-initial">O</hl>r passa lo çorno si vien lo scurere,</l>
+                <l n="1266"><hi rend="blue-initial">O</hi>r passa lo çorno si vien lo scurere,</l>
                 <l n="1267">Amantinente all'allba sclarere</l>
                 <l n="1268"><pb n="f.26v"/>(26V) Lo dux Sanguin non vol pluy demorere.</l>
                 <l n="1269">Delle so arme el se ave adobere,</l>
@@ -1632,7 +1614,7 @@
             </lg>
             <lg type="laisse" n="37">
                 <head>Laisse 37</head>
-                <l n="1308"><hl rend="blue-initial">A</hl>l maitin quando aparsse l’albaxon,</l>
+                <l n="1308"><hi rend="blue-initial">A</hi>l maitin quando aparsse l’albaxon,</l>
                 <l n="1309">Lo conte d’Avernia non fè tardaxon;</l>
                 <l n="1310">A chavalo montà lui e Sanguin so conpagnon,</l>
                 <l n="1311">Esse d'Alvernia con li cento baron.</l>
@@ -1656,7 +1638,7 @@
             </lg>
             <lg type="laisse" n="38">
                 <head>Laisse 38</head>
-                <l n="1329"><hl rend="red-initial">C</hl>arlo Martello l'inperador possant</l>
+                <l n="1329"><hi rend="red-initial">C</hi>arlo Martello l'inperador possant</l>
                 <l n="1330">Ben à recevudo Ugo cortexemant,</l>
                 <l n="1331">Ma ello non vuol demore' plui nient;</l>
                 <l n="1332">El fè Sufia menarsse davant</l>
@@ -1697,7 +1679,7 @@
             </lg>
             <lg type="laisse" n="39">
                 <head>Laisse 39</head>
-                <l n="1367"><hl rend="blue-initial">S</hl>anguin, quando oldì la dama si parler,</l>
+                <l n="1367"><hi rend="blue-initial">S</hi>anguin, quando oldì la dama si parler,</l>
                 <l n="1368">Amantinente ell dixe al'inperador,</l>
                 <l n="1369">"Vui avé ben vostra fiola ascolter,</l>
                 <l n="1370">Vui no devé miga questa ovra scuxer.</l>
@@ -1718,7 +1700,7 @@
             </lg>
             <lg type="laisse" n="40">
                 <head>Laisse 40</head>
-                <l n="1385"><hl rend="red-initial">A</hl>presso parla lo conte Ugon,</l>
+                <l n="1385"><hi rend="red-initial">A</hi>presso parla lo conte Ugon,</l>
                 <l n="1386">Colui ch'è savio e de bona raxon,</l>
                 <l n="1387">Che mai el non dixe chossa che non ssia bon,</l>
                 <l n="1388"><pb n="f.29r"/>(29R) "Re de Franca," dix'elo, "intendì mio sermon:</l>
@@ -1743,7 +1725,7 @@
             </lg>
             <lg type="laisse" n="41">
                 <head>Laisse 41</head>
-                <l n="1407"><hl rend="blue-initial">A</hl> gram meraveia fo Ugo loldé</l>
+                <l n="1407"><hi rend="blue-initial">A</hi> gram meraveia fo Ugo loldé</l>
                 <l n="1408">Dalli baroni de tuta la contré</l>
                 <l n="1409">De ço ch'ell à dito al re e raxoné.</l>
                 <l n="1410">Dixe l'un a l'altro, "Oldì gran bonté:</l>
@@ -1774,7 +1756,7 @@
             </lg>
             <lg type="laisse" n="42">
                 <head>Laisse 42</head>
-                <l n="1435"><hl rend="red-initial">L</hl>'imperador a chi França apent</l>
+                <l n="1435"><hi rend="red-initial">L</hi>'imperador a chi França apent</l>
                 <l n="1436">Si à fatto lo gran çudegament</l>
                 <l n="1437">Contra Sufia ch'el amava dolcement.</l>
                 <l n="1438">Niam la cameriera non ss'anderà vantent</l>
@@ -4598,8 +4580,8 @@
                 <l n="3935">Lo conte d'Avernia alora contra lie</l>
                 <l n="3936">S'ençenochià quando la parola à oldie.</l>
             </lg>
-            <lg type="laisse" n="148"><head>
-                <note>Laisse 148</note>
+            <lg type="laisse" n="148">
+                <head>Laisse 148</head>
                 <l n="3937"><hi rend="blue-initial">D</hi>isse lo spirito a Ugo, "Levatie!</l>
                 <l n="3938">Da parte de Dio levate e vien cu noi!</l>
                 <l n="3939">Che per divina vertu condur te doi</l>
