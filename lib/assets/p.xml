@@ -181,7 +181,8 @@
             <change when="2017-01-02" who="#SPM">added line, line group, and line number tags
                 through 515</change>
             <change when="2017-01-03" who="#SPM">added pb tages for foliation</change>
-            <change when="2017-01-05" who="#SPM">added tags for red and blue initial letters</change>
+            <change when="2017-01-05" who="#SPM">added tags for red and blue initial
+                letters</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -215,7 +216,10 @@
                 <head>Laisse 2</head>
                 <l n="19"><hi rend="red-initial">O</hi>r ascholté, signor, per Dio onipotant,</l>
                 <l n="20">Si ve dirò un gran tradimant,</l>
-                <l n="21">Che fè Sufia, a chi Dio lo cuor crevant;</l>
+                <l n="21">Che fè Sufia, a chi Dio <choice>
+                        <sic>lo cuor Dio crevant</sic>
+                        <corr>lo cuor crevant</corr>
+                    </choice><note xml:id="#p1v.1"/>;</l>
                 <l n="22">Tal cossa comete per le men esiant</l>
                 <l n="23">Unde Ugo ne fo irado e dolant.</l>
                 <l n="24">La dona vene a Sanguy<ex>n</ex>, non fè demoramant,</l>
@@ -238,7 +242,8 @@
                 <l n="41">Tuto li·ssia fato amantinant</l>
                 <l n="42">Chomo faressi a mi in prexant.”</l>
                 <l n="43">Disse la duchexa, “Je·n ay ben quel talant.”</l>
-                <l n="44">Lo duc Sanguy(n) non demora niant:</l>
+                <l n="44">Lo duc Sanguy<corr resp="#SPM">n</corr><note xml:id="#p1v.2"/> non demora
+                    niant:</l>
                 <l n="45"><pb n="f.2r"/>(2R) Falcom e sparivier e cirfalc svolant</l>
                 <l n="46">À prexo sença demoramant,</l>
                 <l n="47">Brachi e levriri el menà plui de çant;</l>
@@ -256,9 +261,10 @@
                 <l n="59">“Damixela,” dix’ela, “intendì el mio talent:</l>
                 <l n="60">Se vuy faré al mio comant,</l>
                 <l n="61">Io ve donerò tanto oro e arçant</l>
-                <l n="62">Che a la to vita seré rica e m(an)ant.”</l>
+                <l n="62">Che a la to vita seré rica e mant.”<note xml:id="#p2r.1"/></l>
                 <l n="63">Disse la chameriera, “Madona, io son al vostro comant,</l>
-                <l n="64">Quel che v(u)i coma(n)deré, farò de prexant.”</l>
+                <l n="64">Quel che v<corr resp="#SPM">u</corr>i<note xml:id="#p2r.2"/> coma<corr
+                        resp="#SPM">n</corr>deré,<note xml:id="#p2r.3"/> farò de prexant.”</l>
                 <l n="65">Dixe la duchexa, “Or t’en va sença arestamant</l>
                 <l n="66">E non parlar a nesuna p<ex>er</ex>sona vivant:</l>
                 <l n="67">Si andirì a la camera de Ugo li valant</l>
@@ -266,8 +272,9 @@
                 <l n="69">E dì ch’el me vegna a parlar sença demoramant,</l>
                 <l n="70">Ch’io li voio contar e dir el mio talant</l>
                 <l n="71">Chomo io l’amo plui che cossa vivant.”</l>
-                <l n="72"><pb n="f.2v"/>(2V) Quando la demixela (l)’intende, se meraveia fortema<ex>n</ex>t</l>
-                <l n="73">De (ç)ò che la dona li va contant.</l>
+                <l n="72"><pb n="f.2v"/>(2V) Quando la demixela <corr resp="#SPM"
+                        >l</corr>’intende,<note xml:id="p2v.1"/> se meraveia fortema<ex>n</ex>t</l>
+                <l n="73">De çò che la dona li va contant.</l>
                 <l n="74">E si respoxe, “Madona, farò al vostro talant.”</l>
             </lg>
             <lg type="laisse" n="3">
@@ -376,7 +383,8 @@
             </lg>
             <lg type="laisse" n="5">
                 <head>Laisse 5</head>
-                <l n="172">“<hi rend="blue-initial">D</hi>ama,” disse l’Avernal un si tropo angossosa,</l>
+                <l n="172">“<hi rend="blue-initial">D</hi>ama,” disse l’Avernal un si tropo
+                    angossosa,</l>
                 <l n="173">“Vu avé lo costume de la salvaça lova:</l>
                 <l n="174">Quando vien el messe de maço ch’ela ss’enamora,</l>
                 <l n="175">Ben .XX. e .XXX. li va drié alla coa.</l>
@@ -392,8 +400,8 @@
             </lg>
             <lg type="laisse" n="6">
                 <head>Laisse 6</head>
-                <l n="185"><hi rend="red-initial">U</hi>gon salta fuora della camera, no<ex>n</ex> demora
-                    mie,</l>
+                <l n="185"><hi rend="red-initial">U</hi>gon salta fuora della camera, no<ex>n</ex>
+                    demora mie,</l>
                 <l n="186">Si lassa la duchessa fortemente smarie.</l>
                 <l n="187">A soa camera torna a dormir e a cocie.</l>
                 <l n="188">Or lo guarde Dio lo fiol sante Marie!</l>
@@ -495,7 +503,8 @@
             </lg>
             <lg type="laisse" n="8">
                 <head>Laisse 8</head>
-                <l n="280"><hi rend="blue-initial">G</hi>ran duol à Sanguy(n) quando olde la rasson;</l>
+                <l n="280"><hi rend="blue-initial">G</hi>ran duol à Sanguy(n) quando olde la
+                    rasson;</l>
                 <l n="281">Del so conpagno<ex>n</ex> (à) tal mesprixo<ex>n</ex></l>
                 <l n="282">Che honir lo voleva p<ex>er</ex> tal tradixon.</l>
                 <l n="283">El dixe alla dona, “No abié dotassion,</l>
@@ -520,7 +529,8 @@
             </lg>
             <lg type="laisse" n="9">
                 <head>Laisse 9</head>
-                <l n="302"><hi rend="red-initial">L</hi>o (co)nte Ugo se sveià molto angosoxamant,</l>
+                <l n="302"><hi rend="red-initial">L</hi>o (co)nte Ugo se sveià molto
+                    angosoxamant,</l>
                 <l n="303">In pié se dreçà molto issenelamant;</l>
                 <l n="304">Quando el sentì el gran colpo meraveiosso e grant,</l>
                 <l n="305">Forte cridà, “Chi è tu, fellon seduant,</l>
@@ -866,7 +876,8 @@
             </lg>
             <lg type="laisse" n="18">
                 <head>Laisse 18</head>
-                <l n="620">"<hi rend="red-initial">A</hi>ntolin," disse Ugo, "io ve die molto amer,</l>
+                <l n="620">"<hi rend="red-initial">A</hi>ntolin," disse Ugo, "io ve die molto
+                    amer,</l>
                 <l n="621">Se Dio me dà gracia ad Alvernia torner,</l>
                 <l n="622">E quela hoste io possa a sallvament paser,</l>
                 <l n="623">De una cossa ve podì ben avanter:</l>
@@ -1329,7 +1340,8 @@
             </lg>
             <lg type="laisse" n="30">
                 <head>Laisse 30</head>
-                <l n="1047"> “<hi rend="red-initial">C</hi>onpagnon Sanguin,” dixe Ugo lo valant,</l>
+                <l n="1047"> “<hi rend="red-initial">C</hi>onpagnon Sanguin,” dixe Ugo lo
+                    valant,</l>
                 <l n="1048">“Que domandé vui, vol vui niant?”</l>
                 <l n="1049">Elo respoxe, “Io ve dirò lo convent:</l>
                 <l n="1050">L’inperador Charlo, a chi Françe apant,</l>
@@ -1419,7 +1431,8 @@
             </lg>
             <lg type="laisse" n="32">
                 <head>Laisse 32</head>
-                <l n="1131"><hi rend="red-initial">L</hi>'inpperador Char(lon), a chi França apent,</l>
+                <l n="1131"><hi rend="red-initial">L</hi>'inpperador Char(lon), a chi França
+                    apent,</l>
                 <l n="1132">Reguarda soa fia, plen fo de maltalant.</l>
                 <l n="1133">De·lley çudigar si·n fo molto dollant</l>
                 <l n="1134">E de çò ch'ell'à dito no li cré nient.</l>
@@ -1937,7 +1950,8 @@
             </lg>
             <lg type="laisse" n="48">
                 <head>Laisse 48</head>
-                <l n="1598"><hi rend="blue-initial">G</hi>randa fo la festa lo dì de l'Asenssion,</l>
+                <l n="1598"><hi rend="blue-initial">G</hi>randa fo la festa lo dì de
+                    l'Asenssion,</l>
                 <l n="1599">A quela festa andè cavalieri e pedon,</l>
                 <l n="1600">Dame e damissile si vano a li perdon,</l>
                 <l n="1601">E la cuntessa, che Ni(d)a aveva non,</l>
@@ -1977,7 +1991,8 @@
             </lg>
             <lg type="laisse" n="49">
                 <head>Laisse 49</head>
-                <l n="1635"><pb n="f.34r"/>(34R) <hi rend="blue-initial">Q</hi>uando la dona à intendu Carlo lo rois,</l>
+                <l n="1635"><pb n="f.34r"/>(34R) <hi rend="blue-initial">Q</hi>uando la dona à
+                    intendu Carlo lo rois,</l>
                 <l n="1636">Che a lie dixeva tal parole in secrois,</l>
                 <l n="1637">Al cuor ella ave molto gran buffois.</l>
                 <l n="1638">De gran vergogna vien pallida como çenois,</l>
@@ -1998,7 +2013,8 @@
             </lg>
             <lg type="laisse" n="50">
                 <head>Laisse 50</head>
-                <l n="1653"><hi rend="blue-initial">A</hi>l so pallaço è tornado Carlo l'inperer,</l>
+                <l n="1653"><hi rend="blue-initial">A</hi>l so pallaço è tornado Carlo
+                    l'inperer,</l>
                 <l n="1654">In soa conpagnia so baron chavalier.</l>
                 <l n="1655">Sul pallaço muntà, gran çoia à mener</l>
                 <l n="1656">Perch' ello aveva parllado alla dona dal visso cler.</l>
@@ -2138,7 +2154,8 @@
             </lg>
             <lg type="laisse" n="54">
                 <head>Laisse 54</head>
-                <l n="1781"><pb n="f.37r"/>(37R) <hi rend="red-initial">L</hi>o cunte d'Avernia, lo nobele et possant,</l>
+                <l n="1781"><pb n="f.37r"/>(37R) <hi rend="red-initial">L</hi>o cunte d'Avernia, lo
+                    nobele et possant,</l>
                 <l n="1782">Senpre versso Dio ave bona sperant.</l>
                 <l n="1783">Dal so conpagno se parte dolçemant,</l>
                 <l n="1784">Eli plance quanto vene al partimant.</l>
@@ -2261,7 +2278,8 @@
             </lg>
             <lg type="laisse" n="58">
                 <head>Laisse 58</head>
-                <l n="1892"><hi rend="blue-initial">L</hi>o bun conte Ugo, che de lialtade fo sovran,</l>
+                <l n="1892"><hi rend="blue-initial">L</hi>o bun conte Ugo, che de lialtade fo
+                    sovran,</l>
                 <l n="1893">El parlà a·sso dona a la ciera avinan,</l>
                 <l n="1894">"Dama," diss'elo, "de çò sié certan</l>
                 <l n="1895">Ch'io durerò gran pene e gran afan</l>
@@ -2363,7 +2381,8 @@
             </lg>
             <lg type="laisse" n="62">
                 <head>Laisse 62</head>
-                <l n="1981"><pb n="f.41r"/>(41R) <hi rend="blue-initial">F</hi>uora de Roma s'en va lo conte Ugon,</l>
+                <l n="1981"><pb n="f.41r"/>(41R) <hi rend="blue-initial">F</hi>uora de Roma s'en va
+                    lo conte Ugon,</l>
                 <l n="1982">Per lo camin el sse mete a bandon.</l>
                 <l n="1983">Im Puia viem, puo trovò lo mon</l>
                 <l n="1984">O' è Muncibel dunde tanto dir lisson.</l>
@@ -2390,7 +2409,8 @@
             </lg>
             <lg type="laisse" n="63">
                 <head>Laisse 63</head>
-                <l n="2005"><hi rend="red-initial">V</hi>a s'ende lo conte Ugo, no menà çoia ni ris.</l>
+                <l n="2005"><hi rend="red-initial">V</hi>a s'ende lo conte Ugo, no menà çoia ni
+                    ris.</l>
                 <l n="2006">El cercà de molti diverssi païs,</l>
                 <l n="2007">La terra de·ssen Jacomo da Dio benedis,</l>
                 <l n="2008">E là si demorà .XV. dis</l>
@@ -2568,7 +2588,8 @@
             </lg>
             <lg type="laisse" n="69">
                 <head>Laisse 69</head>
-                <l n="2164"><hi rend="red-initial">V</hi>a s'ende la nave che portà lo conte Ugon</l>
+                <l n="2164"><hi rend="red-initial">V</hi>a s'ende la nave che portà lo conte
+                    Ugon</l>
                 <l n="2165">Per mé Tiigris a molto gran randon.</l>
                 <l n="2166">Dio lo condugà ancora a so maxon.</l>
                 <l n="2167"><pb n="f.45r"/>(45R) Un puocho de lui qua laseron,</l>
@@ -2863,7 +2884,8 @@
             </lg>
             <lg type="laisse" n="77">
                 <head>Laisse 77</head>
-                <l n="2433"><pb n="f.50v"/>(50V) <hi rend="red-initial">A</hi> gran meraveia lo conte fo dolans.</l>
+                <l n="2433"><pb n="f.50v"/>(50V) <hi rend="red-initial">A</hi> gran meraveia lo
+                    conte fo dolans.</l>
                 <l n="2434">Quando ello non truova algun hom vivant</l>
                 <l n="2435">Che·l domandi ne apella de niant.</l>
                 <l n="2436">A una maxon el desmontà de l'auferant,</l>
@@ -2925,7 +2947,8 @@
             </lg>
             <lg type="laisse" n="80">
                 <head>Laisse 80</head>
-                <l n="2486"><hi rend="blue-initial">I</hi>n quello luogo o' era quela çente salvaie,</l>
+                <l n="2486"><hi rend="blue-initial">I</hi>n quello luogo o' era quela çente
+                    salvaie,</l>
                 <l n="2487">Intorno lo erra grando lo boscaie.</l>
                 <l n="2488">Eli no aveva ni formento ni blaie,</l>
                 <l n="2489">Specie aveva erbe d'altre semblaie.</l>
@@ -2946,7 +2969,8 @@
             </lg>
             <lg type="laisse" n="81">
                 <head>Laisse 81</head>
-                <l n="2504"><hi rend="red-initial">Q</hi>uando in la nave fo intrado Ugo l'insenie,</l>
+                <l n="2504"><hi rend="red-initial">Q</hi>uando in la nave fo intrado Ugo
+                    l'insenie,</l>
                 <l n="2505">Andoncha à·lla·sso via pie:</l>
                 <l n="2506">Or lli·ssia Domenedio in ahie.</l>
                 <l n="2507">Tre çorni andà ch'el no demorà mie;</l>
@@ -2973,7 +2997,8 @@
             </lg>
             <lg type="laisse" n="82">
                 <head>Laisse 82</head>
-                <l n="2528"><hi rend="blue-initial">Q</hi>uela çente vete Ugo sença alguna dotançe.</l>
+                <l n="2528"><hi rend="blue-initial">Q</hi>uela çente vete Ugo sença alguna
+                    dotançe.</l>
                 <l n="2529">Da puo ch'el se partì de Françe</l>
                 <l n="2530">E trapassà Ungaria e Provançe,</l>
                 <l n="2531">Non ave in alguna tera tal paciençe</l>
@@ -3086,7 +3111,8 @@
             </lg>
             <lg type="laisse" n="86">
                 <head>Laisse 86</head>
-                <l n="2629"><hi rend="red-initial">I</hi>ntorno lo conte era molto gran planto e cris</l>
+                <l n="2629"><hi rend="red-initial">I</hi>ntorno lo conte era molto gran planto e
+                    cris</l>
                 <l n="2630">De chavalieri, de done, de çoveni e de floris;</l>
                 <l n="2631">E Tadio c'aveva la tera in balis,</l>
                 <l n="2632">Plançendo lo prende per mé l'usbergo luxis.</l>
@@ -3246,7 +3272,8 @@
             </lg>
             <lg type="laisse" n="92">
                 <head>Laisse 92</head>
-                <l n="2771"><hi rend="red-initial">Q</hi>uando lo tromento e lo puçolente nuvolore</l>
+                <l n="2771"><hi rend="red-initial">Q</hi>uando lo tromento e lo puçolente
+                    nuvolore</l>
                 <l n="2772">Fo trapassado, si vene l'albo clere,</l>
                 <l n="2773">Dell solle fo converta la rivere.</l>
                 <l n="2774">Lo cunte crida, "Salve Regina, mere</l>
@@ -3267,7 +3294,8 @@
             </lg>
             <lg type="laisse" n="93">
                 <head>Laisse 93</head>
-                <l n="2789"><pb n="f.57v"/>(57V) <hi rend="red-initial">L</hi>o cunte se va, de la rocha desist,</l>
+                <l n="2789"><pb n="f.57v"/>(57V) <hi rend="red-initial">L</hi>o cunte se va, de la
+                    rocha desist,</l>
                 <l n="2790">El p(re)nde la corda, a·sso arçon la mist,</l>
                 <l n="2791">"Avanti," diss'elo, "a nome de Jexhu Crist,</l>
                 <l n="2792">Che ne cunduga sicomo el cuor me dist."</l>
@@ -3287,7 +3315,8 @@
             </lg>
             <lg type="laisse" n="94">
                 <head>Laisse 94</head>
-                <l n="2806"><hi rend="blue-initial">F</hi>ieri ereno anbido e llecieri li lionpart,</l>
+                <l n="2806"><hi rend="blue-initial">F</hi>ieri ereno anbido e llecieri li
+                    lionpart,</l>
                 <l n="2807">Per gran orgoio saltà fuor del desart.</l>
                 <l n="2808">Lo destrier tremà quando ell va in quela part,</l>
                 <l n="2809">Medieximo Ugo en fo in gran reguart,</l>
@@ -3478,7 +3507,8 @@
             </lg>
             <lg type="laisse" n="104">
                 <head>Laisse 104</head>
-                <l n="2966">"<hi rend="red-initial">N</hi>on plaça a Dio," responde lo conte Ugon,</l>
+                <l n="2966">"<hi rend="red-initial">N</hi>on plaça a Dio," responde lo conte
+                    Ugon,</l>
                 <l n="2967">"Che matremonio abia per mi mesprixon!</l>
                 <l n="2968">E ni çamai muier ò io tanto de raxon</l>
                 <l n="2969">De lei amar sença nulla caxon</l>
@@ -3527,7 +3557,8 @@
             </lg>
             <lg type="laisse" n="106">
                 <head>Laisse 106</head>
-                <l n="3009"><hi rend="red-initial">A</hi>presso le dunçele che fo de falso lignaçe</l>
+                <l n="3009"><hi rend="red-initial">A</hi>presso le dunçele che fo de falso
+                    lignaçe</l>
                 <l n="3010">Cavalca Ugo sença mal coraçe.</l>
                 <l n="3011">Le .III. davanti per ascurtar viaçe</l>
                 <l n="3012">Una cançon cantava in so lenguaçe.</l>
@@ -3570,7 +3601,8 @@
             </lg>
             <lg type="laisse" n="108">
                 <head>Laisse 108</head>
-                <l n="3046"><hi rend="blue-initial">Q</hi>uando do grande hoste àno in canpo conbatu,</l>
+                <l n="3046"><hi rend="blue-initial">Q</hi>uando do grande hoste àno in canpo
+                    conbatu,</l>
                 <l n="3047">Li coreri se parte da queli che àn vençu,</l>
                 <l n="3048">Po tornano de·llà o' elli s'è insu,</l>
                 <l n="3049">E per aver guadegnado de tal salu</l>
@@ -3686,7 +3718,8 @@
             </lg>
             <lg type="laisse" n="113">
                 <head>Laisse 113</head>
-                <l n="3147">"<hi rend="blue-initial">V</hi>asalo," diss'ella, "dunca va tu l'inferno querant?"</l>
+                <l n="3147">"<hi rend="blue-initial">V</hi>asalo," diss'ella, "dunca va tu l'inferno
+                    querant?"</l>
                 <l n="3148">"Si, madona," diss'elo, "consseio ve domant."</l>
                 <l n="3149">Et ella disse, "Conseio ve darò si bon e fermant</l>
                 <l n="3150">Che çà Medea insegnà per so incantamant</l>
@@ -3809,7 +3842,8 @@
             </lg>
             <lg type="laisse" n="118">
                 <head>Laisse 118</head>
-                <l n="3255"><pb n="f.67r"/>(67R) <hi rend="red-initial">F</hi>orte s'à frustadado lo conte e batu,</l>
+                <l n="3255"><pb n="f.67r"/>(67R) <hi rend="red-initial">F</hi>orte s'à frustadado lo
+                    conte e batu,</l>
                 <l n="3256">Da pluxior luogi li è la sangue insu;</l>
                 <l n="3257">Po tornà unde ell era movu.</l>
                 <l n="3258">Incontenente como in lla·ssala fu</l>
@@ -3867,7 +3901,8 @@
             </lg>
             <lg type="laisse" n="120">
                 <head>Laisse 120</head>
-                <l n="3307"><pb n="f.68r"/>(68R) <hi rend="red-initial">Q</hi>ui è bel semplo a·lli pecadori mundan</l>
+                <l n="3307"><pb n="f.68r"/>(68R) <hi rend="red-initial">Q</hi>ui è bel semplo a·lli
+                    pecadori mundan</l>
                 <l n="3308">Che non deno eser orgoioxi; de çò sié vu certan,</l>
                 <l n="3309">No servì unca Dio nesun homo teran;</l>
                 <l n="3310">Ma chi servixio vol dal re sovran,</l>
@@ -3898,7 +3933,8 @@
             </lg>
             <lg type="laisse" n="121">
                 <head>Laisse 121</head>
-                <l n="3335">"<hi rend="blue-initial">C</hi>avallo," dix'ello, "che in questo bosco me menas,</l>
+                <l n="3335">"<hi rend="blue-initial">C</hi>avallo," dix'ello, "che in questo bosco
+                    me menas,</l>
                 <l n="3336">No·sso la strada, menar me coveras."</l>
                 <l n="3337">Sovra lo colo li mete lo fren in bas</l>
                 <l n="3338">Poi li à dito, "Al to plaxer t'en vas."</l>
@@ -4005,7 +4041,8 @@
             </lg>
             <lg type="laisse" n="126">
                 <head>Laisse 126</head>
-                <l n="3427"><pb n="f.70v"/>(70V) <hi rend="red-initial">L</hi>o lial conte che per so signor trava(i)le</l>
+                <l n="3427"><pb n="f.70v"/>(70V) <hi rend="red-initial">L</hi>o lial conte che per
+                    so signor trava(i)le</l>
                 <l n="3428">Desmontà in tera apresso un onbraile.</l>
                 <l n="3429">A lo stanco cavallo dé da boiere,</l>
                 <l n="3430">Mai no·l vete sì·llasso per batai(l)e;</l>
@@ -4091,7 +4128,8 @@
             </lg>
             <lg type="laisse" n="130">
                 <head>Laisse 130</head>
-                <l n="3501"><hi rend="red-initial">V</hi>a s'en lo conte Ugo armado sul so destrier:</l>
+                <l n="3501"><hi rend="red-initial">V</hi>a s'en lo conte Ugo armado sul so
+                    destrier:</l>
                 <l n="3502">Chi·l vedesse feramente aciaster;</l>
                 <l n="3503">Non core plui algun erante chavalier</l>
                 <l n="3504">Quando va novele de bexogna porter.</l>
@@ -4117,7 +4155,8 @@
             </lg>
             <lg type="laisse" n="131">
                 <head>Laisse 131</head>
-                <l n="3524"><hi rend="red-initial">G</hi>randa fo l'imagene, si tien lo visso insus,</l>
+                <l n="3524"><hi rend="red-initial">G</hi>randa fo l'imagene, si tien lo visso
+                    insus,</l>
                 <l n="3525">L'un braço tien basso e·lle alle estendus</l>
                 <l n="3526">E mostra letere che al pilastro son vehus;</l>
                 <l n="3527">Destro lo pugon tin insù tuto inclus.</l>
@@ -4187,7 +4226,8 @@
             </lg>
             <lg type="laisse" n="134">
                 <head>Laisse 134</head>
-                <l n="3585"><hi rend="red-initial">I</hi>n quela note fo·llo conte in gran dotançe;</l>
+                <l n="3585"><hi rend="red-initial">I</hi>n quela note fo·llo conte in gran
+                    dotançe;</l>
                 <l n="3586">Non potè dormir. Quando l'alba comançe</l>
                 <l n="3587">Del pan (m)ançà, e quelo che li avançe</l>
                 <l n="3588">Al so cavallo n'à fato delivrançe.</l>
@@ -4372,7 +4412,8 @@
             </lg>
             <lg type="laisse" n="140">
                 <head>Laisse 140</head>
-                <l n="3752"><hi rend="blue-initial">T</hi>ema à el conte e quel disse, "Non aver sogne,</l>
+                <l n="3752"><hi rend="blue-initial">T</hi>ema à el conte e quel disse, "Non aver
+                    sogne,</l>
                 <l n="3753">Ch'io non ò possa che algun mal te çogne,</l>
                 <l n="3754">La conpagnia de mi veramente te bexogne;</l>
                 <l n="3755">Çò che tu va quirando so ben sença insogne;</l>
@@ -4389,7 +4430,8 @@
             </lg>
             <lg type="laisse" n="141">
                 <head>Laisse 141</head>
-                <l n="3766"><hi rend="red-initial">A</hi>llora dixe lo falsso agnolo, "Di-me, che faras?</l>
+                <l n="3766"><hi rend="red-initial">A</hi>llora dixe lo falsso agnolo, "Di-me, che
+                    faras?</l>
                 <l n="3767">Perché v(e) tu duncha çò che no oseras?"</l>
                 <l n="3768">"Io apeterò," dixe lo conte, "oltro spirito plui veras</l>
                 <l n="3769">Vignerà per mi secorere, ça tu non devigneras,</l>
@@ -4417,7 +4459,8 @@
             </lg>
             <lg type="laisse" n="142">
                 <head>Laisse 142</head>
-                <l n="3790"><hi rend="blue-initial">A</hi>presso queste parole responde lo baron,</l>
+                <l n="3790"><hi rend="blue-initial">A</hi>presso queste parole responde lo
+                    baron,</l>
                 <l n="3791">"S'ell è vero ch'ell plaxa a quelo ch'è re del tron</l>
                 <l n="3792">Ch'io possa vegnir in la perdu maxon,</l>
                 <l n="3793">Plui sopran condutor domando che ti non."</l>
@@ -4765,7 +4808,8 @@
             </lg>
             <lg type="laisse" n="155">
                 <head>Laisse 155</head>
-                <l n="4099"><hi rend="red-initial">D</hi>isse lo conte Ugo, "Mio Signor, or insegne:</l>
+                <l n="4099"><hi rend="red-initial">D</hi>isse lo conte Ugo, "Mio Signor, or
+                    insegne:</l>
                 <l n="4100">La terça porta sor quela tore altegne,</l>
                 <l n="4101">Que significa o' quel dragon regraine</l>
                 <l n="4102">Che tien la maça in branca grifaine?</l>
@@ -4803,7 +4847,8 @@
             </lg>
             <lg type="laisse" n="157">
                 <head>Laisse 157</head>
-                <l n="4131">"<hi rend="red-initial">D</hi>e queste tre porte," disse lo santo, "che tu vois,</l>
+                <l n="4131">"<hi rend="red-initial">D</hi>e queste tre porte," disse lo santo, "che
+                    tu vois,</l>
                 <l n="4132">Amigo Ugo, intra per qual te plois,</l>
                 <l n="4133"><pb n="f.85r"/>(85R) O' vol veder lo tromento paienois,</l>
                 <l n="4134">O' è li Cristiam e·lla çudea lois."</l>
@@ -4880,7 +4925,8 @@
             </lg>
             <lg type="laisse" n="160">
                 <head>Laisse 160</head>
-                <l n="4199"><hi rend="blue-initial">I</hi>n l'altra inquesta se mete lo conte Ugon,</l>
+                <l n="4199"><hi rend="blue-initial">I</hi>n l'altra inquesta se mete lo conte
+                    Ugon,</l>
                 <l n="4200">"Ti Eneas, çentil fio de baron,</l>
                 <l n="4201">Cri tu insir may de qua e aver perdon?”</l>
                 <l n="4202">Colui se strenxe e non dixe oi ne non,</l>
@@ -4963,7 +5009,8 @@
             </lg>
             <lg type="laisse" n="164">
                 <head>Laisse 164</head>
-                <l n="4270">"<hi rend="blue-initial">A</hi>ncora te digo, bel fio, e si' certant,</l>
+                <l n="4270">"<hi rend="blue-initial">A</hi>ncora te digo, bel fio, e si'
+                    certant,</l>
                 <l n="4271">Che se costor che tu vi in l'afan</l>
                 <l n="4272">Avesse tuto lo texoro Charloman,</l>
                 <l n="4273">Per podersse trar de dosso questi drapi villan</l>
@@ -5024,7 +5071,8 @@
             </lg>
             <lg type="laisse" n="166">
                 <head>Laisse 166</head>
-                <l n="4325">"<hi rend="red-initial">S</hi>e lì à gran travaia," dixe lo çentil mesaçe,</l>
+                <l n="4325">"<hi rend="red-initial">S</hi>e lì à gran travaia," dixe lo çentil
+                    mesaçe,</l>
                 <l n="4326">"Glorioxo Pare, de questo grande oltraçe</l>
                 <l n="4327">Defendime, quando vignerà al paxaçe."</l>
                 <l n="4328">Un de queli che era al pantaçe</l>
@@ -5044,7 +5092,8 @@
             </lg>
             <lg type="laisse" n="167">
                 <head>Laisse 167</head>
-                <l n="4342"><hi rend="blue-initial">D</hi>isse lo conte Ugo, "Perché, dì-me, Sandin,</l>
+                <l n="4342"><hi rend="blue-initial">D</hi>isse lo conte Ugo, "Perché, dì-me,
+                    Sandin,</l>
                 <l n="4343">Me mandà Carllo in questo malvaxi camin?</l>
                 <l n="4344">Io·sson collui che tanto rio maitin</l>
                 <l n="4345">Ay durado tanto per voler questo trar a fin</l>
@@ -5066,7 +5115,8 @@
             </lg>
             <lg type="laisse" n="168">
                 <head>Laisse 168</head>
-                <l n="4361"><hi rend="red-initial">L</hi>o bun conte d'Alvernia ancora parlà e dist,</l>
+                <l n="4361"><hi rend="red-initial">L</hi>o bun conte d'Alvernia ancora parlà e
+                    dist,</l>
                 <l n="4362">"Io te perdono se·l mio perdon vaist."</l>
                 <l n="4363">Dixe lo spirito, "Partite! S'el te (tr)aist,</l>
                 <l n="4364">Lo mangano che a çascun paura mist;</l>
@@ -5155,7 +5205,8 @@
             </lg>
             <lg type="laisse" n="171">
                 <head>Laisse 171</head>
-                <l n="4441"><hi rend="red-initial">Q</hi>uando in la nave e in l'aqua sono cusì cités,</l>
+                <l n="4441"><hi rend="red-initial">Q</hi>uando in la nave e in l'aqua sono cusì
+                    cités,</l>
                 <l n="4442">E lo demonio crida, "Çà venés!"</l>
                 <l n="4443">Inver la barca lor fronte à drecés.</l>
                 <l n="4444">El prexe el remo como elli fo intrés;</l>
@@ -5210,7 +5261,8 @@
             </lg>
             <lg type="laisse" n="172">
                 <head>Laisse 172</head>
-                <l n="4493"><pb n="f.92v"/>(92V) <hi rend="red-initial">L</hi>o conte d'Avernia guardà lo sagitare</l>
+                <l n="4493"><pb n="f.92v"/>(92V) <hi rend="red-initial">L</hi>o conte d'Avernia
+                    guardà lo sagitare</l>
                 <l n="4494">Laido e soço, e non finà de braiere;</l>
                 <l n="4495">Paura n'ave lo vasal debunaire.</l>
                 <l n="4496">Mo lo bon santo cunforto li apaire,</l>
@@ -5272,7 +5324,8 @@
             </lg>
             <lg type="laisse" n="175">
                 <head>Laisse 175</head>
-                <l n="4546">"<hi rend="red-initial">B</hi>evi de questo vin," dixe colui che·l portà.</l>
+                <l n="4546">"<hi rend="red-initial">B</hi>evi de questo vin," dixe colui che·l
+                    portà.</l>
                 <l n="4547">Ello lo prexe, ver Guielmo guardà,</l>
                 <l n="4548">"Seguramente," (questo dix'elo alora, puo lo signà),</l>
                 <l n="4549">Cholui ne beve tanto ch'el se sadolà,</l>
@@ -5349,7 +5402,8 @@
             </lg>
             <lg type="laisse" n="178">
                 <head>Laisse 178</head>
-                <l n="4614">"<hi rend="red-initial">Q</hi>uesta asembi ançy che tu vi in prexent,</l>
+                <l n="4614">"<hi rend="red-initial">Q</hi>uesta asembi ançy che tu vi in
+                    prexent,</l>
                 <l n="4615">In questo Linbo, sun de quela çent</l>
                 <l n="4616">Che fono vivi ançy lo batiçament;</l>
                 <l n="4617">De queli ne·sson che pecado no firent.</l>
@@ -5599,7 +5653,8 @@
             </lg>
             <lg type="laisse" n="188">
                 <head>Laisse 188</head>
-                <l n="4834"><pb n="f.99v"/>(99V) <hi rend="red-initial">Q</hi>uelli che cantava in lo luogo infernal</l>
+                <l n="4834"><pb n="f.99v"/>(99V) <hi rend="red-initial">Q</hi>uelli che cantava in
+                    lo luogo infernal</l>
                 <l n="4835">No·l fano miga ni per çuogo ni per bal,</l>
                 <l n="4836">Ma recordarsse del tenpo ancional.</l>
                 <l n="4837">Non tegnia riga ni canto che son ingual:</l>
@@ -5620,7 +5675,8 @@
             </lg>
             <lg type="laisse" n="189">
                 <head>Laisse 189</head>
-                <l n="4852">"<hi rend="red-initial">U</hi>go," dixe san Guielmo, "Dio te sia in aïe!</l>
+                <l n="4852">"<hi rend="red-initial">U</hi>go," dixe san Guielmo, "Dio te sia in
+                    aïe!</l>
                 <l n="4853">De queli che tu è veçudi te parerà una lie.</l>
                 <l n="4854">Stà francamente, non te temer ne mie,</l>
                 <l n="4855">Che da parte de Dio ay molto bona conpagnie.</l>
@@ -5671,7 +5727,8 @@
             </lg>
             <lg type="laisse" n="191">
                 <head>Laisse 191</head>
-                <l n="4897"><hi rend="blue-initial">S</hi>ignori, or intendì, per Dio lo criator,</l>
+                <l n="4897"><hi rend="blue-initial">S</hi>ignori, or intendì, per Dio lo
+                    criator,</l>
                 <l n="4898">Or se comença la istoria del contor,</l>
                 <l n="4899">Como ello andà per la vale tenebror,</l>
                 <l n="4900">O' semper era gran duol e plor</l>
@@ -5724,7 +5781,8 @@
             </lg>
             <lg type="laisse" n="193">
                 <head>Laisse 193</head>
-                <l n="4944"><pb n="f.102r"/>(102R) <hi rend="blue-initial">L</hi>o conte d'Avernia n'à fatto merçis,</l>
+                <l n="4944"><pb n="f.102r"/>(102R) <hi rend="blue-initial">L</hi>o conte d'Avernia
+                    n'à fatto merçis,</l>
                 <l n="4945">Quando·l oldì parlar Guielmo lo marchis,</l>
                 <l n="4946">Che·lli avea ditto sença dollor ne peris</l>
                 <l n="4947">Lo condurà d'oltra lo flume vermis,</l>
@@ -5947,7 +6005,8 @@
             </lg>
             <lg type="laisse" n="200">
                 <head>Laisse 200</head>
-                <l n="5146">"<hi rend="red-initial">U</hi>gon," dixe Guielmo, "per la vostra venue</l>
+                <l n="5146">"<hi rend="red-initial">U</hi>gon," dixe Guielmo, "per la vostra
+                    venue</l>
                 <l n="5147">Sovra tute cosse me deleta e argue,</l>
                 <l n="5148">Per vui servir son de cielo desendu(e),</l>
                 <l n="5149">Della gran lialltà che vuy avé abue</l>
@@ -6041,7 +6100,8 @@
             </lg>
             <lg type="laisse" n="204">
                 <head>Laisse 204</head>
-                <l n="5228"><pb n="f.108r"/>(108R) <hi rend="red-initial">L</hi>o conte d'Alvernia fo espaventie,</l>
+                <l n="5228"><pb n="f.108r"/>(108R) <hi rend="red-initial">L</hi>o conte d'Alvernia
+                    fo espaventie,</l>
                 <l n="5229">Ma Dio si·lli fo ben in ahie.</l>
                 <l n="5230">Quando el vete el tormento de quela conpagnie</l>
                 <l n="5231">Che stano tuta fiada in aqua bolie,</l>
@@ -6058,7 +6118,8 @@
             </lg>
             <lg type="laisse" n="205">
                 <head>Laisse 205</head>
-                <l n="5242"><hi rend="blue-initial">V</hi>a·ss'ende lo conte driedo per lo diversso païs;</l>
+                <l n="5242"><hi rend="blue-initial">V</hi>a·ss'ende lo conte driedo per lo diversso
+                    païs;</l>
                 <l n="5243">Con lui san Guielmo lo marchis</l>
                 <l n="5244">Et Eneas, lo Trojan, a passi petis.</l>
                 <l n="5245">Dixe san Guielmo, "Intendì, amis,</l>
@@ -6252,7 +6313,8 @@
             </lg>
             <lg type="laisse" n="212">
                 <head>Laisse 212</head>
-                <l n="5414">"<hi rend="red-initial">A</hi>migo," dixe Lucifero, "s'el te plaxe de l'aler,</l>
+                <l n="5414">"<hi rend="red-initial">A</hi>migo," dixe Lucifero, "s'el te plaxe de
+                    l'aler,</l>
                 <l n="5415">Lo trabuto te darò che tu die porter</l>
                 <l n="5416">A Carlo Martelo quel malvaxio inperer</l>
                 <l n="5417">Che qui te mandà per trabuto domander,</l>
@@ -6380,7 +6442,8 @@
             </lg>
             <lg type="laisse" n="216">
                 <head>Laisse 216</head>
-                <l n="5530"><hi rend="red-initial">O</hi>r fo lo conte in Avernia sença nula dotançe;</l>
+                <l n="5530"><hi rend="red-initial">O</hi>r fo lo conte in Avernia sença nula
+                    dotançe;</l>
                 <l n="5531">Sul so palaço montà sença demorançe.</l>
                 <l n="5532">Quando el fo cognossu, si fo levà la nomenançe</l>
                 <l n="5533">Che vegnudo era lo conte de Provançe.</l>
@@ -6409,7 +6472,8 @@
             </lg>
             <lg type="laisse" n="217">
                 <head>Laisse 217</head>
-                <l n="5556"><hi rend="blue-initial">L</hi>o conte d'Alvernia non par miga da infant,</l>
+                <l n="5556"><hi rend="blue-initial">L</hi>o conte d'Alvernia non par miga da
+                    infant,</l>
                 <l n="5557">Allora parlà altamante in oldant,</l>
                 <l n="5558">"Intendì-me, picolli e grant,</l>
                 <l n="5559">E vui, signor mio, ch'è nostro guarant:</l>
@@ -6469,7 +6533,8 @@
             </lg>
             <lg type="laisse" n="219">
                 <head>Laisse 219</head>
-                <l n="5610"><hi rend="blue-initial">L</hi>o conte d'Alvernia non fè longo estaus,</l>
+                <l n="5610"><hi rend="blue-initial">L</hi>o conte d'Alvernia non fè longo
+                    estaus,</l>
                 <l n="5611">El prexe el cadelleto ch'el dusse da l'infernaus</l>
                 <l n="5612">E la serena de fin oro smeraus;</l>
                 <l n="5613">Davanti Carllo lo mostrà in lo palaus.</l>
@@ -6483,7 +6548,8 @@
             </lg>
             <lg type="laisse" n="220">
                 <head>Laisse 220</head>
-                <l n="5621"><hi rend="blue-initial">Q</hi>uando Carlo Martelo à·llo trabuto reguardé,</l>
+                <l n="5621"><hi rend="blue-initial">Q</hi>uando Carlo Martelo à·llo trabuto
+                    reguardé,</l>
                 <l n="5622">Quel chadelleto à meraveia loldé.</l>
                 <l n="5623">Tuti li baron de la soa contré</l>
                 <l n="5624">Plui de sete fiade l'à reguardé.</l>
@@ -6512,7 +6578,8 @@
             </lg>
             <lg type="laisse" n="221">
                 <head>Laisse 221</head>
-                <l n="5647"><pb n="f.116v"/>(116V) <hi rend="blue-initial">L</hi>i chavalieri che con Carlo era venue,</l>
+                <l n="5647"><pb n="f.116v"/>(116V) <hi rend="blue-initial">L</hi>i chavalieri che
+                    con Carlo era venue,</l>
                 <l n="5648">Quando elli fo çoxo del pallaço dessendue,</l>
                 <l n="5649">Si duramente elli fo esperdue</l>
                 <l n="5650">Ch'eli non guardava a strada ni a rue.</l>
