@@ -16,7 +16,9 @@ class PagesController < ApplicationController
         # @by_line = doc.search('INSERT').text
         @introduction = doc.search('note').first.text
         @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
-        @note_numbers = get_notes_for_line_group(@line_groups)
+        @@internal_note_counter = 1
+        # unused atm
+        # @note_numbers = get_notes_for_line_group(@line_groups)
         @current_notes = parse_and_store_notes(@note_numbers)
         return @title, @introduction, @line_groups
     end
@@ -38,10 +40,25 @@ class PagesController < ApplicationController
         for author in @authors
             @author_hash[author.children[1].attributes['id'].value] = author.children[1].text
         end
-
+        puts 'AUTHOR HASH'
+        puts @author_hash
+        puts "&&&&&&&"
         html = ""
+        note_counter = 1
         for note in @all_notes
-            html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value]}</div></note>"
+            print(note.attributes['resp'].value)
+            # puts "&&&&&&&&&"
+            # puts "all_notes"
+            # puts @all_notes
+            # puts note_counter
+            # puts note.attributes['n']
+            # puts note.attributes['n'].value
+            # puts note.attributes['resp'].value
+            # puts "&&&&&&&&&"
+            # what it was before
+            # html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value]}</div></note>"
+            html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
+            note_counter += 1
         end
         # @current_notes = {}
         # for when/if you can eventually pull out only those notes.
@@ -68,10 +85,19 @@ class PagesController < ApplicationController
         search_array
     end
 
-    def parse_note(child)
-        note_id = child.attributes['id'].value.gsub('#', '')
+    def parse_note(child, internal_note_counter)
+        # puts "&&&&&&&"
+        # puts "parse_note"
+        # puts child
+        # puts child.values.to_s
+        # puts 'hi'
+        note_id = internal_note_counter.to_s
+        # old note_id = child.attributes['id'].value.gsub('#', '')
+        puts note_id
+        # puts "&&&&&&&"
         # following line should take P1 and return just 1. so remove everything that is a letter
-        ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + note_id.sub(/[A-Za-z]/,'') + ')>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
+        # old ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + note_id.sub(/[A-Za-z]/,'') + ')>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
+        ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + child.values.to_s.sub(/\./, '') + ')>' + note_id + '</sup></note>').html_safe
     end
 
     def parse_pb(line)
@@ -153,7 +179,8 @@ class PagesController < ApplicationController
                 elsif child.name == 'lb'
                     result += parse_tag(child)
                 elsif child.name == 'note'
-                    result += parse_note(child)
+                    result += parse_note(child, @@internal_note_counter)
+                    @@internal_note_counter += 1
                  else 
                     result += child.text 
                  end 

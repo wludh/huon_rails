@@ -24,7 +24,7 @@ function annotation_reveal(annotation_number){
     $('note').removeClass('visible');
     $('.note-contents note').addClass('hidden');
     // var anno_number = $("this").attr('n');
-    $("note[n=" + annotation_number + "]").addClass("visible");
+    $("note[xml=" + String(annotation_number) + "]").addClass("visible");
     $('#back_to_intro').addClass('visible');
     $('#note-header').removeClass('hidden');
     $('.note-contents').removeClass('hidden');
