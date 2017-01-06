@@ -33,17 +33,17 @@
         </front>
         <body>
             <div>
-                <note n="21" xml:id="p1v.1" type="edit" resp="#SPM">MS <hi rend="it">lo cuor Dio
+                <note n="1" xml:id="p1v.1" type="edit" resp="#SPM">MS <hi rend="it">lo cuor Dio
                     crevant</hi></note>
-                <note n="44" xml:id="p1v.2" type="edit" resp="#SPM">MS <hi rend="it">sangui</hi>; missing titulus
+                <note n="2" xml:id="p1v.2" type="edit" resp="#SPM">MS <hi rend="it">sangui</hi>; missing titulus
                     over <hi rend="it">i</hi></note>
-                <note n="62" xml:id="p2r.1" type="edit" resp="#SPM"><hi rend="manant"/>; missing syllables are
+                <note n="3" xml:id="p2r.1" type="edit" resp="#SPM"><hi rend="manant"/>; missing syllables are
                     common in Franco-Italian</note>
-                <note n="64" xml:id="p2r.2" type="edit" resp="#SPM">MS <hi rend="it">vii</hi>; missing
+                <note n="4" xml:id="p2r.2" type="edit" resp="#SPM">MS <hi rend="it">vii</hi>; missing
                     minim</note>
-                <note n="64" xml:id="p2r.3" type="edit" resp="#SPM">MS <hi rend="it">comadere</hi></note>
-                <note n="72" xml:id="p2v.1" type="edit" resp="#SPM">MS <hi rend="it">tintende</hi></note>
-                <note n="73" xml:id="p2v.2" type="edit" resp="#SPM"><hi rend="it">çò</hi></note>
+                <note n="5" xml:id="p2r.3" type="edit" resp="#SPM">MS <hi rend="it">comadere</hi></note>
+                <note n="6" xml:id="p2v.1" type="edit" resp="#SPM">MS <hi rend="it">tintende</hi></note>
+                <note n="7" xml:id="p2v.2" type="edit" resp="#SPM"><hi rend="it">çò</hi></note>
             </div>
         </body>
     </text>
