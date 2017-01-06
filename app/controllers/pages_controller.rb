@@ -19,7 +19,7 @@ class PagesController < ApplicationController
         @@internal_note_counter = 1
         # unused atm
         # @note_numbers = get_notes_for_line_group(@line_groups)
-        @current_notes = parse_and_store_notes(@note_numbers)
+        @current_notes = parse_and_store_notes(@note_numbers, tei_file)
         return @title, @introduction, @line_groups
     end
 
@@ -31,11 +31,17 @@ class PagesController < ApplicationController
         return doc.css('respStmt'), doc.css('note')
     end
 
-    def parse_and_store_notes(note_numbers)
+    def parse_and_store_notes(note_numbers, tei_file)
         # note that you're not actually using the note numbers just yet
         # you're here trying to link up the list of note numbers with the notes from the file
         # takes the list of note numbers that you want and pulls them out of the tei file.
-        @authors, @all_notes = import_notes('notes-p.xml')
+        manuscript_to_notes = {
+            'p.xml' => 'notes-p.xml',
+            'br.xml' => 'notes-br.xml',
+            't.xml' => 'notes-t.xml',
+            'b.xml' => 'notes-b.xml'
+        }
+        @authors, @all_notes = import_notes(manuscript_to_notes[tei_file])
         @author_hash = {}
         for author in @authors
             @author_hash[author.children[1].attributes['id'].value] = author.children[1].text
