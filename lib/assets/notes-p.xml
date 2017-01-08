@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne, Bibliteca del seminario vescovile MS 32 (P), Annotations</title>
+                <title>Huon d'Auvergne, Bibliteca del seminario vescovile MS 32 (P),
+                    Annotations</title>
                 <respStmt>
                     <name xml:id="SPM">Stephen Patrick McCormick</name>
                     <resp>Annotations</resp>
@@ -33,17 +34,75 @@
         </front>
         <body>
             <div>
-                <note n="1" xml:id="p1v.1" type="edit" resp="#SPM">MS <hi rend="it">lo cuor Dio
-                    crevant</hi></note>
-                <note n="2" xml:id="p1v.2" type="edit" resp="#SPM">MS <hi rend="it">sangui</hi>; missing titulus
-                    over <hi rend="it">i</hi></note>
-                <note n="3" xml:id="p2r.1" type="edit" resp="#SPM"><hi rend="manant"/>; missing syllables are
-                    common in Franco-Italian</note>
-                <note n="4" xml:id="p2r.2" type="edit" resp="#SPM">MS <hi rend="it">vii</hi>; missing
-                    minim</note>
-                <note n="5" xml:id="p2r.3" type="edit" resp="#SPM">MS <hi rend="it">comadere</hi></note>
-                <note n="6" xml:id="p2v.1" type="edit" resp="#SPM">MS <hi rend="it">tintende</hi></note>
-                <note n="7" xml:id="p2v.2" type="edit" resp="#SPM"><hi rend="it">çò</hi></note>
+                <note n="1" xml:id="p1v.1" type="edit" resp="#SPM">MS <hi rend="#italic">lo cuor Dio
+                        crevant</hi></note>
+                <note n="2" xml:id="p1v.2" type="edit" resp="#SPM">MS <hi rend="#italic"
+                    >sangui</hi>; missing titulus over <hi rend="#italic">i</hi></note>
+                <note n="2" xml:id="p2r.1" type="reference" resp="#SPM"> Cf. <title rend="#italic"
+                        >Macario</title>, "<hi>Cil le confonde li qual formò Adam</hi>," ll. 15339,
+                    15346.</note>
+                <note n="3" xml:id="p2r.2" type="edit" resp="#SPM">MS <hi rend="#italic">rica e
+                        amant</hi>; apparent scribal error, cf. <title rend="#italic"
+                        >Macario</title>,<hi rend="#italic">Ancora per moi sera rico e manent</hi>,"
+                    ll. 14756, 14762.</note>
+                <note n="4" xml:id="p2r.3" type="edit" resp="#SPM">MS <hi rend="#italic">vii</hi>;
+                    missing minim</note>
+                <note n="5" xml:id="p2r.4" type="edit" resp="#SPM">MS <hi rend="#italic"
+                        >comadere</hi></note>
+                <note n="6" xml:id="p2v.1" type="edit" resp="#SPM">MS <hi rend="#italic"
+                        >tintende</hi></note>
+                <note n="7" xml:id="p3r.1" type="edit" resp="#SPM">MS <hi rend="#italic">msso</hi>;
+                    cf. <hi rend="#italic">permesso</hi>, l. 107</note>
+                <note n="8" xml:id="p3r.2" type="ling" rend="#SPM"><hi rend="#italic">Guardé</hi>,
+                    example of metathesis; cf. Ludovisi 56, note 4: "<quote>Parrebbe strano ed
+                        errato di trovare guradè e subito sopo al v. 115 guardè. Ma reggono
+                        foneticamente ambedue le forme. Infatti nella Rivista di Fil. Romanza 11, 48
+                        K. Bartsch e A. Mussafia: una poesia didattica del sec. XIII si ha il verso:
+                            <hi rend="#italic">bi à quelle Ke se n'à gurar</hi>, cui il Mussafia
+                        appone la nota: <hi rend="#italic">gurdar è ugale a guardar. il nesso gu o
+                            go, in luogo di gua in sillabe atone, è proprio delle parlate latine e
+                            del catalano altresì."</hi></quote>"</note>
+                <note n="9" xml:id="p3v.1" type="ling" resp="#SPM"><hi>l'è</hi>, example of
+                    unstressed subject pronoun; cf. Rohlfs §446</note>
+                <!-- Provide more information for n=9 -->
+                <note n="10" xml:id="p3v.2" type="ling" resp="#SPM">cf. Morgan, <hi rend="#italics"
+                        >La Geste francor</hi>, p. 948: "<quote>docler : Not listed in any Italian
+                        or Old French dictionary. It is always opposed to low places, leading to
+                        believe it means either “tower”, “hill”, or some other type of raised spot.
+                        [...] Since, furthermore, the form appears six times in this manuscript
+                        (plus one as doclé), it seems unlikely to be an error each
+                    time.</quote>”</note>
+                <note n="11" xml:id="p3v.3" type="edit" resp="#SPM">MS <hi rend="#italics"
+                        >conscier</hi></note>
+                <note n="12" xml:id="p4r.1" type="ling" resp="#SPM"><hi rend="#italics"
+                    >torment</hi>, metathesis</note>
+                <note n="13" xml:id="p4r.2" type="edit" resp="#SPM">MS <hi rend="#italic">de cuor
+                        luii</hi></note>
+                <note n="14" xml:id="p4v.1" type="ling" resp="#SPM"><hi rend="#italic">coda</hi>,
+                    lenition; the image is of wolves following closely behind the tail of the she
+                    wolf in heat.</note>
+                <note n="15" xml:id="p4.2" type="edit" resp="#SPM">MS <hi rend="#italic">Quando el
+                        sol sera ch'el sol s'acolega</hi></note>
+                <note n="16" xml:id="p4v.3" type="edit" resp="#scribe">The scribe appears to have
+                    corrected to <hi rend="#italics">tarda</hi> from <hi rend="#italic"
+                    >trada</hi></note>
+                <note n="17" xml:id="p4v.4" type="edit" resp="#SPM">MS <hi rend="#italic"
+                    >no</hi></note>
+                <note n="18" xml:id="p5r.1" type="ling" resp="#SPM"><hi rend="#italic">dié</hi>,
+                    altered form in rhymed position.</note>
+                <note n="19" xml:id="p5v.1" type="edit" resp="#SPM">This line appears to be missing
+                    a verb. A possible resolution would be <hi rend="#italic">la polver al vent
+                        çitiere</hi> considering that <hi rend="#italic">çitiere</hi> appears
+                    frequently in this formulaic expression. In <title rend="#italic">La Geste
+                        francor</title>, however, <hi rend="#italic">aventere</hi> does occur as an
+                    infinitive verb: <hi rend="italic">Arso fo en fois, la polvere a ventere</hi>
+                    (l. 15406, 15413) and <hi rend="#italic">E in apreso la polvere aventer</hi> (l.
+                    13541). This act would deny Huon a Christian burial since his body would not
+                    enter the Earth, a fate reserved for traitors.</note>
+                <note n="20" xml:id="p5v.2" type="ling" resp="#SPM">Ludovisi proposes <hi rend="italic">involussere</hi>, and notes
+                    that "<quote>involussar per involgere è proprio della parlata Veneta ma
+                        specialmente del Friulano: involussar, involussât, etc."</quote>"</note>
+                <note n="21" xml:id="p5v.3" type="edit" resp="#SPM">MS <hi rend="italic">sanguuy</hi></note>
             </div>
         </body>
     </text>
