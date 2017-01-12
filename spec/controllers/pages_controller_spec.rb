@@ -11,7 +11,7 @@ describe PagesController do
 
     describe "GET" 'p_manuscript' do
         it "returns http success header" do
-            get :index
+            get 'p_manuscript'
             expect(response).to be_success
             expect(response).to have_http_status(200)
         end
@@ -47,18 +47,28 @@ describe PagesController do
 
         # TODO: parse the remaining tagsets that you want. also the remaining functions
 
-        it "should connect to the annotations" do
+        it "should get annotations" do
+            expect(controller.import_notes('notes-p.xml')).to be_truthy
+        end
+
+        it "should connect annotations with the line groups" do
             @current_notes = controller.parse_and_store_notes(@note_numbers, 'p.xml')
             expect(@current_notes).to be_truthy
         end
 
-        it "should load the annotations" 
-
-        it "should link annotations with lines" 
     end
 
     describe "GET" 'bibliography' do
+        it "returns http success header" do
+            get 'bibliography'
+            expect(response).to be_success
+            expect(response).to have_http_status(200)
+        end
+
         it "should be pulling in the zotero bibliogaphy" do
+            visit 'bibliography'
+            print(page)
+            expect(page).to have_content 'Digital Humanities'
         end
     end
 end
