@@ -108,6 +108,7 @@
                         <textLang mainLang="FI">Franco-Italian</textLang>
                         <msItem>
                             <locus from="1r" to="117v">ff. 1r-117v</locus>
+                            <author xml:id="SCRIBE">Anonymous</author>
                             <!-- check foliation with Leslie -->
                             <title xml:lang="FI">Huon d'Auvergne</title>
                             <incipit>E perçò era Ugo d'Alvernia sevrie</incipit>
@@ -219,7 +220,7 @@
                 <l n="19"><hi rend="red-initial">O</hi>r ascholté, signor, p<ex>er</ex> Dio
                     onipotant,</l>
                 <l n="20">Si ve dirò un gran tradimant,</l>
-                <l n="21">Che fè Sufia, a chi Dio <corr>lo cuor crevant</corr>;<note xml:id="p1v.1"
+                <l n="21">Che fè Sufia, a chi Dio <choice><sic>lo cuor Dio</sic><corr resp="#SPM">lo cuor </corr></choice>crevant;<note xml:id="p1v.1"
                     /></l>
                 <l n="22">Tal cossa comete per le men esiant</l>
                 <l n="23">Unde Ugo ne fo irado e dolant.</l>
@@ -243,8 +244,9 @@
                 <l n="41">Tuto li·ssia fato amantinant</l>
                 <l n="42">Chomo faressi a mi in prexant.”</l>
                 <l n="43">Disse la duchexa, “Je·n ay ben quel talant.”</l>
-                <l n="44">Lo duc Sanguy<corr resp="#SPM">n</corr><note xml:id="p1v.2"/> non demora
+                <l n="44">Lo duc Sanguy<choice><sic>Sanguy</sic><corr>Sanguy<ex>n</ex></corr></choice><corr resp="#SPM">n</corr><note xml:id="p1v.2"/> non demora
                     niant:</l>
+                <!-- HERE -->
                 <l n="45"><pb n="f.2r"/>(2R) Falcom e sparivier e cirfalc svolant</l>
                 <l n="46">À prexo sença demoramant,</l>
                 <l n="47">Brachi e levriri el menà plui de çant;</l>
@@ -412,7 +414,7 @@
                 <l n="189">Sul so leto s’acolega e fo adormencie;</l>
                 <l n="190">E quela malla femena, a chi Dio maldie,</l>
                 <l n="191">Soa cameriera apela c’à nome Marie,</l>
-                <l n="192">E quella vene, non t<add>ar</add>dà<note xml:id="p4v.3"/>
+                <l n="192">E quella vene, non <choice><sic>trada</sic><corr resp="#SCRIBE">t<add rend="italic">ar</add>da</corr></choice><note xml:id="p4v.3"/>
                     çà mie,</l>
                 <l n="193">E la duchessa disse, "<corr resp="#SPM">M</corr>o<note xml:id="p4v.4"/>
                     guarda, non dì tu mie</l>
@@ -5997,7 +5999,7 @@
             </lg>
             <lg type="laisse" n="197">
                 <head>Laisse 197</head>
-                <l n="5055"><hi rend="blue-initial">G</hi>iborga la raina à
+                <l n="5055"><persName><hi rend="blue-initial">G</hi>iborga</persName> la raina à
                             <persName>G<ex>uielmo</ex></persName> v(e)çu;</l>
                 <l n="5056">Quando ella lo cognosse, meraveia fu;</l>
                 <l n="5057">Ela lo apellà p<ex>er</ex> amigo e p<ex>er</ex> dru,</l>
