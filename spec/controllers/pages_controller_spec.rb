@@ -22,12 +22,12 @@ describe PagesController do
 
         it "gets title from the TEI" do
             @title, _, _ = controller.parse_tei('p.xml')
-            @title.should include('Huon')
+            expect(@title).to include('Huon')
         end
 
         it "gets the introduction" do
             _, @introduction, _ = controller.parse_tei('p.xml')
-            @introduction.should include('Biblioteca del Seminario')
+            expect(@introduction).to include('Biblioteca del Seminario')
         end
 
         it "gets the line groups and can parse them" do
@@ -42,12 +42,15 @@ describe PagesController do
 
         it "should parse a line" do
             line = '<l n="2">E pluy de tre any stete in la çitie</l>'
-            controller.parse_line(Nokogiri::XML(line).children[0]).should == '<l n="2">E pluy de tre any stete in la çitie</l>'
+            expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E pluy de tre any stete in la çitie</l>')
         end
 
         # TODO: parse the remaining tagsets that you want. also the remaining functions
 
-        it "should connect to the annotations" 
+        it "should connect to the annotations" do
+            @current_notes = controller.parse_and_store_notes(@note_numbers, 'p.xml')
+            expect(@current_notes).to be_truthy
+        end
 
         it "should load the annotations" 
 

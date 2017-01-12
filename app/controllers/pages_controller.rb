@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
+# TODO note numbers are getting reset with each laisse
+# TODO testing
+
 	skip_before_action :verify_authenticity_token
     require 'active_support/core_ext/array/conversions.rb'
     
@@ -46,13 +49,14 @@ class PagesController < ApplicationController
         for author in @authors
             @author_hash[author.children[1].attributes['id'].value] = author.children[1].text
         end
-        puts 'AUTHOR HASH'
-        puts @author_hash
-        puts "&&&&&&&"
+        # puts 'AUTHOR HASH'
+        # puts @author_hash
+        # puts "&&&&&&&"
         html = ""
         note_counter = 1
         for note in @all_notes
-            print(note.attributes['resp'].value)
+            # puts note
+            # puts note.attributes['resp'].value
             # puts "&&&&&&&&&"
             # puts "all_notes"
             # puts @all_notes
