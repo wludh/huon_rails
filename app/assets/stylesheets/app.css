@@ -646,3 +646,8 @@ td{
 #unf_logo{
   padding-bottom: 22px;
 }
+
+.linenumber{
+  float: left;
+  margin-left: -50px;
+}
