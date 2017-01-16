@@ -96,10 +96,13 @@ class PagesController < ApplicationController
     # end
 
     def parse_note(child, internal_note_counter)
-        # puts "&&&&&&&"
-        # puts "parse_note"
-        # puts child
-        # puts child.values.to_s
+        puts "&&&&&&&"
+        puts "parse_note"
+        puts child
+        puts child.values.to_s
+        xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
+        puts("xmlid: " + xmlid)
+        puts internal_note_counter
         # puts 'hi'
         note_id = internal_note_counter.to_s
         # old note_id = child.attributes['id'].value.gsub('#', '')
@@ -107,7 +110,9 @@ class PagesController < ApplicationController
         # puts "&&&&&&&"
         # following line should take P1 and return just 1. so remove everything that is a letter
         # old ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + note_id.sub(/[A-Za-z]/,'') + ')>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
-        ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + child.values.to_s.sub(/\./, '') + ')>' + note_id + '</sup></note>').html_safe
+        # NOTE: should put this in a class instead
+        ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup onclick=annotation_reveal("' + xmlid + '")>' + '<script type="text/javascript"> link_note_numbers("' + xmlid + '")</script>' + '</sup></note>').html_safe
+        # child.values.to_s.sub(/\./, '')
     end
 
     def parse_pb(line)
@@ -189,6 +194,7 @@ class PagesController < ApplicationController
                 elsif child.name == 'lb'
                     result += parse_tag(child)
                 elsif child.name == 'note'
+                    puts(child)
                     result += parse_note(child, @@internal_note_counter)
                     @@internal_note_counter += 1
                  else 

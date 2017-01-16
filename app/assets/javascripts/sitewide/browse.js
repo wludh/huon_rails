@@ -16,6 +16,15 @@ function hide_footer(){
     }
 }
 
+function link_note_numbers(xml_id){
+    console.log('===');
+    console.log(xml_id);
+    console.log($("note[xml=" + String(xml_id) + "]"));
+    var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
+    console.log(the_num);
+    $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
+}
+
 function annotation_reveal(annotation_number){
     $('#hidden-introduction').css('display','none');
     $('#hidden-introduction').removeClass('visible');
@@ -46,6 +55,7 @@ function page_prep(){
     // reveal_laisse();
     hide_footer();
 }
+
 
 $(document).ready(function(){
     page_prep();
