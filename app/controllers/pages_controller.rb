@@ -85,15 +85,15 @@ class PagesController < ApplicationController
     #     end
     # end
 
-    def get_notes_for_line_group(line_group)
-        # gets all the notes for a line group and stores them as an array so that you can
-        notes = line_group[0].css('note')
-        search_array = []
-        for note in notes
-            search_array << note.attributes['id'].value.sub(/[A-Za-z]|#/,'')
-        end
-        search_array
-    end
+    # def get_notes_for_line_group(line_group)
+    #     # gets all the notes for a line group and stores them as an array so that you can
+    #     notes = line_group[0].css('note')
+    #     search_array = []
+    #     for note in notes
+    #         search_array << note.attributes['id'].value.sub(/[A-Za-z]|#/,'')
+    #     end
+    #     search_array
+    # end
 
     def parse_note(child, internal_note_counter)
         # puts "&&&&&&&"

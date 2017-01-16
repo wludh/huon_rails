@@ -9,7 +9,7 @@ describe PagesController do
         end
     end
 
-    describe "GET" 'p_manuscript' do
+    describe "GET" 'an editiion page' do
         it "returns http success header" do
             get 'p_manuscript'
             expect(response).to be_success
@@ -63,6 +63,29 @@ describe PagesController do
             get 'bibliography'
             expect(response).to be_success
             expect(response).to have_http_status(200)
+        end
+    end
+
+    describe "GET" 'pages/show' do
+
+        it 'should render the p template' do
+            get 'p_manuscript'
+            expect(page).to render_template('pages/p')
+        end
+
+        it 'should render the t template' do
+            get 't_manuscript'
+            expect(page).to render_template('pages/t')
+        end
+
+        it 'should render the br template' do
+            get 'br_manuscript'
+            expect(page).to render_template('pages/br')
+        end
+
+        it 'should render the b template' do
+            get 'b_manuscript'
+            expect(page).to render_template('pages/b')
         end
     end
 end
