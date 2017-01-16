@@ -10,6 +10,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem 'roman-numerals'
+
 gem 'rspec-rails', '~> 3.1.0', group: [:development, :test]
 gem 'capybara', group: [:development, :test]
 gem 'selenium-webdriver', group: [:development, :test]

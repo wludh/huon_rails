@@ -1,3 +1,4 @@
+require 'roman-numerals'
 class PagesController < ApplicationController
 # TODO note numbers are getting reset with each laisse
 # TODO testing
@@ -120,7 +121,10 @@ class PagesController < ApplicationController
     end
 
     def parse_heading(line_group)
-        ('<div class="line-heading">' + line_group.search('head').text + "</div>").html_safe
+        heading_number = line_group.search('head').text.gsub(/Laisse /, '').to_i
+        # RomanNumerals.to_roman()
+        ('<div class="line-heading">Laisse ' + RomanNumerals.to_roman(heading_number) + "</div>").html_safe
+        # ('<div class="line-heading">' + RomanNumerals.to_roman(line_group.search('head').text) + "</div>").html_safe
     end
 
     def parse_tag(tag_child)
