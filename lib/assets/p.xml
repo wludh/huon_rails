@@ -812,8 +812,8 @@
                 <l n="478">A la fenestra non vuol plu demorer;</l>
                 <l n="479">Vene <choice>
                         <sic>alla fene salla</sic>
-                        <corr resp="scribe">alla salla</corr>
-                    </choice>, si apela Gualtier,</l>
+                        <corr resp="scribe">alla <del>fene</del>salla</corr>
+                    </choice>,<note xml:id="p10v.1"/> si apela Gualtier,</l>
                 <!-- MACKENZIE - del? -->
                 <l n="480">“Sier,” diss’ello, “io me ne voio ander.</l>
                 <l n="481">Fé me qua le mie arme porter!”</l>
@@ -959,7 +959,7 @@
                 <l n="596">E si ve farò pentir, fel traitor malvé!"</l>
                 <l n="597"><choice>
                         <sic>Responde al</sic>
-                        <corr resp="scribe">Responde</corr>
+                        <corr resp="scribe">Responde <del>al</del></corr>
                     </choice> Antolin, "De tuto çò che vuy parlé,</l>
                 <!-- MACKENZIE - del? -->
                 <l n="598">Io no darave una pome poré,</l>
@@ -1027,7 +1027,10 @@
                 <l n="644">So ch<ex>avalie</ex>ri lo lassa avanti aller,</l>
                 <l n="645">E tuta prega Dio lo vero justixier</l>
                 <l n="646">Cha lui vegna como vene l'altr'ier</l>
-                <l n="647">Che cascun amava Ugo lo gu(e)rier.</l>
+                <l n="647">Che cascun amava Ugo lo <choice>
+                        <sic>gurier</sic>
+                        <corr resp="#SPM">gu<ex>e</ex>rier</corr>
+                    </choice>.</l>
             </lg>
             <lg type="laisse" n="19">
                 <head>Laisse 19</head>
@@ -1050,7 +1053,10 @@
                 <l n="664">E vien l'un ver l'altro con fosse do lion,</l>
                 <l n="665">Gran colpi se dàno su li scudi a bandon,</l>
                 <l n="666">Rompe li scudi e·lle borele inson</l>
-                <l n="667">L'asta de San<ex>guin</ex> si vola in troncon.</l>
+                <l n="667">L'asta de <choice>
+                        <sic>San</sic>
+                        <corr resp="#SPM">San<ex>guin</ex></corr>
+                    </choice> si vola in troncon.</l>
                 <l n="668">P<ex>er</ex> tal vertù lo ferì lo canpion</l>
                 <l n="669">Ch'ell abate Sangui<ex>n</ex> a tera del arçon.</l>
             </lg>
@@ -1072,7 +1078,7 @@
                 <l n="682">E so baron disse, "Sier, p<ex>er</ex>ché no montés?"</l>
                 <l n="683">El so cavalo va p<ex>er</ex> la prés,</l>
                 <l n="684">E so baron son desmontés,</l>
-                <l n="685">E de tera su l'à dreçés.</l>
+                <l n="685">E de tera su l'à dreçés.<note xml:id="p14v.1"/></l>
                 <l n="686">E atorno i està tuti so baro asunés,</l>
                 <l n="687">Con lui parla e dixe i<ex>n</ex> verités,</l>
                 <l n="688">"Meio serave che nui fosemo indrié tornés.</l>
@@ -1103,7 +1109,11 @@
                 <l n="710">Non lo putì prender ni bailiere,</l>
                 <l n="711">Mai qua el mavaxio liçiere</l>
                 <l n="712">Chi·l vorà, lo porà trovere</l>
-                <l n="713">Ad Alvernia, soa maistro terere."</l>
+                <l n="713"><choice>
+                        <sic>Al davernia</sic>
+                        <corr resp="#SPM">Ad Alvernia</corr>
+                    </choice>,<note xml:id="p15r.1"/> soa maistro terere."</l>
+                <!-- del? -->
                 <l n="714">Quando la dona l'intende, si scomença plurere,</l>
                 <l n="715">"Ai lassa," diss'ella, "mal nassì de mere!</l>
                 <l n="716">Aduncha se porallo bem vantere</l>
@@ -1119,7 +1129,10 @@
                 <l n="726">Inver de mi el non porà durere.</l>
                 <l n="727">Se nu lo prendemo, si·l faremo çudegere e afinere,</l>
                 <l n="728">A malla morte lo faremo çudegere."</l>
-                <l n="729">Disse la duchessa, "El non sse vuol plu tardere."</l>
+                <l n="729">Disse <choice>
+                        <sic>la ela duchessa</sic>
+                        <corr resp="#SPM">la duchessa</corr>
+                    </choice>,<note xml:id="p15v.1"/> "El non sse vuol plu tardere."</l>
                 <l n="730">Responde San<ex>guin</ex>, "Io me voio apariere."</l>
                 <l n="731">El fè p<ex>er</ex> la çitade bandir e criere</l>
                 <l n="732">Che tuti so ch<ex>avalie</ex>r se vada tosto a dobere,</l>
@@ -1129,7 +1142,11 @@
                 <l n="736">Alaçà l'elmo, çento à lo brando d'açere,</l>
                 <l n="737">Li speroni fo ad oro che l'ave aflibere.</l>
                 <l n="738">Lo bon destrier se fè davanti menere.</l>
-                <l n="739">Montà (è) i<ex>n</ex> man lo scudo e à inbraçere</l>
+                <l n="739"><choice>
+                        <sic>Montà i<ex>n</ex></sic>
+                        <corr resp="scribe">Montà <add place="above">è</add><note xml:id="p15v.2"/>
+                                i<ex>n</ex></corr>
+                    </choice> man lo scudo e à inbraçere</l>
                 <l n="740">La lança in man sença mentire,</l>
                 <l n="741">E montà i<ex>n</ex> arçon, non prende strivere.</l>
                 <l n="742">Ese de Viena, no fè demorere;</l>
