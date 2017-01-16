@@ -64,11 +64,5 @@ describe PagesController do
             expect(response).to be_success
             expect(response).to have_http_status(200)
         end
-
-        it "should be pulling in the zotero bibliogaphy" do
-            visit 'bibliography'
-            print(page)
-            expect(page).to have_content 'Digital Humanities'
-        end
     end
 end
