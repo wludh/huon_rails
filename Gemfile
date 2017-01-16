@@ -18,6 +18,8 @@ gem 'puma'
 gem 'will_paginate', '~> 3.0.5'
 gem 'i18n'
 
+# gem 'simplecov', :require => false, :group => :test
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
