@@ -651,3 +651,14 @@ td{
   float: left;
   margin-left: -50px;
 }
+#introduction{
+    padding-top: 68px;
+    height: 100%;
+    text-align: justify;
+}
+#title{
+      font-size: 28px;
+}
+#links{
+  text-align: center;
+}

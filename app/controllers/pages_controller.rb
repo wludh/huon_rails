@@ -10,21 +10,34 @@ class PagesController < ApplicationController
         render template: "pages/#{params[:page]}"
     end
 
-    def parse_tei(tei_file)
-        doc = File.open( "./lib/assets/#{tei_file}" ) {
-            |f| Nokogiri::XML(f)
-        }
-        @title = doc.search('title').first.text
 
-        # placeholder for if Steve decides to include bylines for authors.
-        # @by_line = doc.search('INSERT').text
-        @introduction = doc.search('note').first.text
-        @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
-        @@internal_note_counter = 1
-        # unused atm
-        # @note_numbers = get_notes_for_line_group(@line_groups)
-        @current_notes = parse_and_store_notes(@note_numbers, tei_file)
-        return @title, @introduction, @line_groups
+    def import_tei(tei_file)
+        return File.open( "./lib/assets/#{tei_file}" ) {
+                |f| Nokogiri::XML(f)
+            }
+    end
+
+    # old parse_tei(tei_file)
+    def parse_tei(tei_file)
+        unless params.key?('edition')
+            doc = import_tei(tei_file)
+            @title = doc.search('title').first.text
+            @introduction = doc.search('note').first.text
+            return @title, @introduction
+        else
+            doc = import_tei(tei_file)
+            @title = doc.search('title').first.text
+
+            # placeholder for if Steve decides to include bylines for authors.
+            # @by_line = doc.search('INSERT').text
+            @introduction = doc.search('note').first.text
+            @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
+            @@internal_note_counter = 1
+            # unused atm
+            # @note_numbers = get_notes_for_line_group(@line_groups)
+            @current_notes = parse_and_store_notes(@note_numbers, tei_file)
+            return @title, @introduction, @line_groups
+        end
     end
 
 
