@@ -36,7 +36,7 @@ class PagesController < ApplicationController
             # unused atm
             # @note_numbers = get_notes_for_line_group(@line_groups)
             @current_notes = parse_and_store_notes(@note_numbers, tei_file)
-            return @title, @introduction, @line_groups
+            return @title, @line_groups
         end
     end
 

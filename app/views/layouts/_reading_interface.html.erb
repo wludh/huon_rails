@@ -1,39 +1,36 @@
-<div id="TEI_left_panel">
-    <TEI>
-        <div id="left-content">
-            <div id="top-half">
-                <div id="hidden-title">
-                    <%= @title %>
-                </div>
+<div id="reader-nav">
+            <div id="sub-title">
+                Padua MS 32
+                <!-- Stub because title is so long -->
+                <%#= @title %>
+            </div>
+<!--             <div class="center-outer">
+                <div class="center-inner"> -->
+            <div id="reader-nav-links">
+                <%= t(page_entries_info(@line_groups))%>
+                    </a>
+                        <%= form_tag @current_page, :method => "get", :id => "jump_form" do %>
+                            <%= text_field_tag :page, params[:page], :id => 'selected_laisse' %>
+                            <%= submit_tag("Jump", :name => nil, :id => 'jump_button') + '|'%>
+                        <% end %>
+                    <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") + " |"%>
 
-                <div class="center-outer">
-                    <div class="center-inner">
-                    <%= t(page_entries_info(@line_groups))%>
-                        </a>
-                            <%= form_tag @current_page, :method => "get", :id => "jump_form" do %>
-                                <%= text_field_tag :page, params[:page], :id => 'selected_laisse' %>
-                                <%= submit_tag("Jump", :name => nil, :id => 'jump_button') + '|'%>
-                            <% end %>
-                        <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") %>
-                    </div>
-                </div>
+                <%= link_to('Intro', url_for(params.merge(:edition => nil))) %>
+                    <hr id="reader-hr">
             </div>
-        <hr>
-        </div>
-        <div id="notes">
-            <div id="hidden-introduction">
-                <%= @introduction %>
-            </div>
-            <div id="note-header" class="hidden">Notes</div>
+<!--             </div>
+        </div> -->
+        <div id="clear"></div>
+
+</div>
+    <div id="notes">
+    Notes
+        <div id="note-header" class="hidden">Notes</div>
             <div class="note-contents hidden">
             <!-- use javascript to bring out the notes here. -->
                 <%= @current_notes %>
-                <div id="back_to_intro"><a onclick="display_intro()">Back to Introduction</a></div>
             </div>
-        </div>
-    </TEI>
-</div>
-
+    </div>
 <div id="TEI_reader">
     <div id="tei_wrapper">
         <%= parse_line_groups(@line_groups)%>
