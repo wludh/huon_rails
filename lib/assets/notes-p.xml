@@ -99,10 +99,19 @@
                     (l. 15406, 15413) and <hi rend="#italic">E in apreso la polvere aventer</hi> (l.
                     13541). This act would deny Huon a Christian burial since his body would not
                     enter the Earth, a fate reserved for traitors.</note>
-                <note n="20" xml:id="p5v.2" type="ling" resp="#SPM">Ludovisi proposes <hi rend="italic">involussere</hi>, and notes
-                    that "<quote>involussar per involgere è proprio della parlata Veneta ma
-                        specialmente del Friulano: involussar, involussât, etc."</quote>"</note>
-                <note n="21" xml:id="p5v.3" type="edit" resp="#SPM">MS <hi rend="italic">sanguuy</hi></note>
+                <note n="20" xml:id="p5v.2" type="ling" resp="#SPM">Ludovisi proposes <hi
+                        rend="italic">involussere</hi>, and notes that "<quote>involussar per
+                        involgere è proprio della parlata Veneta ma specialmente del Friulano:
+                        involussar, involussât, etc."</quote>"</note>
+                <note n="21" xml:id="p5v.3" type="edit" resp="#SPM">MS <hi rend="italic"
+                        >sanguuy</hi></note>
+                <note n="??" xml:id="p10v.1" type="edit" resp="scribe">Small cross written above <hi
+                        rend="italic">fene</hi>to indicate that this word should be
+                    disregarded.</note>
+                <note n="??" xml:id="p14v.1" type="cod" resp="#SPM">Missing illumination</note>
+                <note n="??" xml:id="p15r.1" type="edit">MS <hi rend="#italic">al davernia</hi></note>
+                <note n="??" xml:id="p15v.1" type="edit" resp="#SPM">MS <hi rend="italic">la ela duchessa</hi></note>
+                <note n="??" xml:id="p15v.2" type="edit" resp="scribe">Scribal correction, <hi rend="italic">è</hi> above the line.</note>
             </div>
         </body>
     </text>
