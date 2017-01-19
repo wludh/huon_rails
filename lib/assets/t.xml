@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Huon d'Auvergne: a digital edition of Turin, Biblioteca nazionale, N III 19</title>
+                <editor xml:id="SPM">Stephen P. McCormick</editor>
+                <sponsor>
+                    <address>
+                        <addrLine>Washington and Lee University</addrLine>
+                        <addrLine>204 W. Washington St.</addrLine>
+                        <addrLine>Lexington, VA 24450</addrLine>
+                    </address>
+                </sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <principal>Stephen P. McCormick</principal>
+                <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
+                <respStmt>
+                    <name>Leslie Zarker Morgan</name>
+                    <resp>edition</resp>
+                    <resp>transcription</resp>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MKB">Mackenzie K. Brooks</name>
+                    <resp>TEI consultant</resp>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AK">Abdurrafey Khan</name>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="DPD">Dashiell Dericks</name>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1">
+                    <title>Version 0.1, enriched with text structure tags</title>
+                    <date when="2015">June 2015</date>
+                </edition>
+                <respStmt>
+                    <name>Stephen P. McCormick</name>
+                    <resp>Created initial digital document, developed TEI tags for text structure,
+                        and began tagging for text structure</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Natsumi D. Alvarez</name>
+                    <resp>Developed TEI tags for text structure and began tagging.</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+                <address>
+                        <name type="institution">Washington and Lee University</name>
+                        <street>204 W. Washington St.</street>
+                        <name type="city">Lexington</name>
+                        <name type="state">Virginia</name>
+                        <postCode>24405</postCode>
+                        <name type="country">USA</name>
+                    </address>
+                <availability status="free">
+                    <p>The text is freely available</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- xml:id ??? See Cummings 52 -->
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Turin</settlement>
+                        <repository>Biblioteca nazionale</repository>
+                        <idno>N III 19</idno>
+                    </msIdentifier>
+                    <head type="msHeading">
+                        <title xml:lang="FI">Huon d'Auvergne, Turin, Biblioteca nazionale, N III 19</title>
+                        <origPlace cert="low">Padua</origPlace>
+                        <origDate cert="medium" evidence="internal">second half of fourteenth
+                            century or first half of fifteenth</origDate>
+                        <note>Edition prepared by Leslie Zarker Morgan. Basic praxis inserted here.</note>
+                        <note>Note on state of manuscript - burned in Turin library file of 1904, etc.</note>
+                    </head>
+                    <msContents>
+                        <textLang mainLang="FI">Franco-Italian</textLang>
+                        <msItem>
+                            <locus from="1r" to="117v">ff. 1r-117v</locus>
+                            <author xml:id="scribe">Anonymous</author>
+                            <!-- check foliation with Leslie -->
+                            <title xml:lang="FI">Huon d'Auvergne</title>
+                            <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
+                            <explicit></explicit>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Paper</p>
+                                </support>
+                                <extent>Insert manuscript folio count <dimensions
+                                    scope="all" type="leaves" unit="in">
+                                    <height>29.5 cm</height>
+                                    <width>22 cm</width>
+                                </dimensions>
+                                </extent>
+                                <!-- Where does <dimensions> go?  -->
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <p>In single columns</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>Written in one hand</p>
+                        </handDesc>
+                        <decoDesc>
+                            <p>Text written in laisses with colored initials alternating blue and
+                                red</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate>Manuscript dated by scribe to 1441</origDate>
+                            </p>
+                        </origin>
+                        <provenance>unknown</provenance>
+                        <acquisition>library acquisition information</acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup">
+                    <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
+                        choice element.</p>
+                </correction>
+                <!-- How do I include methods for abbreviations and omissions? -->
+            </editorialDecl>
+            <projectDesc>
+                <p>Text encoded for <soCalled>Huon d'Auvergne Project</soCalled>, which aims to
+                    create a digital edition for all four extant manuscripts of the Franco-Italian
+                    Huon d'Auvergne romance epic</p>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lg">Marks laisse divisions.</tagUsage>
+                    <tagUsage gi="l">Marks line divisions.</tagUsage>
+                    <tagUsage gi="head">Marks laisse divisions</tagUsage>
+                    <tagUsage gi="gap">Marks missing folios</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2017-01-02" who="#SPM">added line, line group, and line number tags
+                through 515</change>
+            <change when="2017-01-03" who="#SPM">added pb tages for foliation</change>
+            <change when="2017-01-05" who="#SPM">added tags for red and blue initial
+                letters</change>
+            <change when="2017-01-05" who="#SPM">began adding note tags and linking to annotations
+                document</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <lg type="laisse" n="1">
+                <head>Laisse 1</head>
+                <l n="1">Al tempo de mazo<note xml:id="t1r.1"/> quando el fiorise le prade</l> 
+                <l n="2">tute reverdise li erbe e∙lle arbosele,</l>
+                <l n="3">et y[n]n-amore vene molte mainere d'osele</l>
+                <l n="4">perzò cantano e fano li sony molte bele,</l>
+                <l n="5">tute y[n]semele fano done et donzele</l>
+                <l n="6">che per lor deleto entrano y[n] zardine;</l>
+                <l n="7">(MS 1R) tute le polzele ensemele com zovenzele</l>
+                <l n="8">de fiore<note xml:id="t1r.2"/> e de rosse zascun se fa capele,</l>
+                <l n="9">se sy sbaldise perché amore lia strenze.</l>
+                <l n="10">En la Pentacosta quando (el) cavalere novele</l> 
+                <l n="11">desi(d)rano zostrà e fare meraviose zambele,</l>
+                <l n="12">el steva en Franza un re molto crudele,</l>
+                <l n="13">selonche che nostra cronicha ordenata,</l>
+                <l n="14">che hognomo l'apela lo re Carlo Martelo.</l>
+                <l n="15">Gran corte tenia che homo no[n] la vite zà tale</l>
+                <l n="16">che una cossa adopra el ben com felo:</l>
+                <l n="17">quando un suo servo chaza de soa casa,</l>
+                <l n="18">e se l'envia a querire trabuto a Luzifero</l>
+                <l n="19">et a cerchare<note xml:id="t1r.3"/> la casa y[n]fernale,</l>
+                <l n="20">solo per avere Ynida dal corpo belo.</l>
+            </lg>
+        </body>
+    </text>
+</TEI>
