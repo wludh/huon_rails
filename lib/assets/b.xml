@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Huon d'Auvergne: a digital edition of Berlin Kupferstichkabinett 78 D 8 (olim Hamilton337</title>
+            <editor xml:id="LZM">Leslie Zarker Morgan</editor>
+            <sponsor>
+               <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                    </address>
+               <!-- Add Leslie's address -->
+            </sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+            <principal>Leslie Zarker Morgan</principal>
+            <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
+            <respStmt>
+               <name>Leslie Zarker Morgan</name>
+               <resp>edition of witnesses B and T</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SPM">Stephen Patrick McCormick</name>
+               <resp>edition of witnesses P and Br</resp>
+               <resp>TEI encoding and customization</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SSB">Shira Schwam-Baird</name>
+               <resp>translation of B</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="NDQ">Natsumi D. Alvarez</name>
+               <resp>TEI encoding and customization</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1">
+               <title>Version 0.1, enriched with text structure tags</title>
+               <date when="2015">June 2015</date>
+            </edition>
+            <respStmt>
+               <name>Stephen P. McCormick</name>
+               <resp>Created initial digital document, customized TEI tags for text structure, and began tagging for text structure</resp>
+            </respStmt>
+            <respStmt>
+               <name>Natsumi D. Alvarez</name>
+               <resp>Customized TEI tags for text structure and began tagging.</resp>
+               
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Washington and Lee University</publisher>
+            <pubPlace>Lexington, Virginia</pubPlace>
+            <address>
+                        <name type="institution">Washington and Lee University</name>
+                        <street>204 W. Washington St.</street>
+                        <name type="city">Lexington</name>
+                        <name type="state">Virginia</name>
+                        <postCode>24450</postCode>
+                        <name type="country">USA</name>
+                    </address>
+            <availability status="free">
+               <p>The text is freely available</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <!-- xml:id ??? See Cummings 52 -->
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Kupferstichkabinett 78 D 8 (olim Hamilton 337)</repository>
+                  <idno>B. 3489</idno>
+               </msIdentifier>
+               <head type="msHeading">
+                  <title xml:lang="FI">Huon d'Auvergne</title>
+                  <!-- Research language code for Franco-Italian -->
+                  <origPlace cert="low">Unknown</origPlace>
+                  <!-- Research theories on origin -->
+                  <origDate cert="medium" evidence="internal">1341</origDate>
+                  <!-- Is there a way to say how the date is determined? -->
+                  <note>
+                     <p>This is the manuscript listed in the Gonzaga inventory of 1407. 
+                        The first folio bears the coat of arms of the Gozaga family. The 
+                        manuscript passed through noble families in the Italian peninsula 
+                        and then to the English Hamilton family. In the 19th century, the 
+                        Prussian government bought a group of manuscripts that included B, 
+                        and the collection passed to the Kupferstichkabinett as the 
+                        "Hamilton Collection." The manuscript was first described by Adolf 
+                        Tobler in 1884.</p>
+                  </note>
+               </head>
+               <msContents>
+                  <textLang mainLang="FI">Franco-Italian</textLang>
+                  <msItem>
+                     <locus from="1r" to="117v">ff. 1r-117v</locus>
+                     <!-- check foliation with Leslie -->
+                     <title xml:lang="FI">Huon d'Auvergne</title>
+                     <incipit>A⋅l tamps de may quand furent li prael</incipit>
+                     <explicit>En son saint regne o chante li kerubin</explicit>
+                     <!-- Check incipit and explicit -->
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <p>Paper</p>
+                        </support>
+                        <extent>117 manuscript folios, 5,690 lines of verse
+                           <dimensions scope="all" type="leaves" unit="in">
+                              <height>29.5 cm</height>
+                              <width>22 cm</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>In single columns</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Written in one hand</p>
+                  </handDesc>
+                  <decoDesc>
+                     <p>Text written in laisses with colored initials alternating blue and red</p>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate notAfter="1350" notBefore="1300">first half of the fourteenth century</origDate>
+                     </p>
+                  </origin>
+                  <provenance>unknown</provenance>
+                  <acquisition>library acquisition information</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction method="markup">
+               <p>I have attempted to correct the text as little as possible and only in passages in which meaning 
+                  would be difficult to decipher. All emendations are in parenthesis ( ) and I include a footnote 
+                  with the original manuscript reading and any other comments concerning the manuscript context 
+                  and discussing my rational behind proposing an emendation.</p>
+            </correction>
+            <!-- Add normalization tag to explain abbreviations. -->
+         </editorialDecl>
+         <projectDesc>
+            <p>Text encoded for <soCalled>Huon d'Auvergne Project</soCalled>, which aims to create a digital edition for all four extant manuscripts of the Franco-Italian 
+               Huon d'Auvergne romance epic</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="lg">Marks laisse divisions.</tagUsage>
+               <tagUsage gi="l">Marks line divisions.</tagUsage>
+               <tagUsage gi="head">Marks laisse divisions</tagUsage>
+               <tagUsage gi="gap">Marks missing folios</tagUsage>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <divGen type="toc"/>
+      </front>
+      <body>
+         <lg n="1">
+            <head>Laisse I</head>
+            <l n="1"><pb n="f.1ra"/><cb n="f.1ra"/>(Folio 1 R a; Laisse 1) Al tamps de may quand furent li prael<note xml:id="b1ra.1"/></l>
+         <l n="2">Tot reverdis, lorer et arboisel,</l>
+         <l n="3">Que en amors vient maintes mainer d'oisel,</l>
+         <l n="4">Por ce chantent et font li son mout bel,</l>
+         <l n="5">Tot ensemant font dames et doncel,</l>
+         <l n="6">Qe por delit entrent as jardinel</l>
+         <l n="7">Tot les pulcelles ensamble as jovencel.</l>
+         <l n="8">De flors de roses chascune feit çapel,</l>
+         <l n="9">Si soi sbanoie por qui amors le chadel.</l>
+         <l n="10">En Pentecoste quand chivaler novel</l>
+            <l n="11"><pb n="f.1rb"/><cb n="bf1rb.1"/>Desire jostre [et] me[r]veillos zambel,</l>
+         <l n="12">Estoit en France un rois mout cruel</l>
+         <l n="13">Selonch qui mostre et cronicha Odinel,</l>
+         <l n="14">Qui hom apelle le rois K[ar]lle Martel.</l>
+         <l n="15">Grant cort tenoit; hom no[n] la vit ja tel.</l>
+         <l n="16">Mais d'une zonse<note xml:id="b1rb.2"/> ovra il bien cum fel,</l>
+         <l n="17">Quant un son dru gita de son hostel,</l>
+         <l n="18">Si l'envoia a querir Lucibel,</l>
+            <l n="19">Querir trehu a le lou <note xml:id="b1rb.3"/> d'Enfernel</l>
+         <l n="20">Sol por avoir Ynide au quer bel.</l>
+         </lg>
+         
+         <lg n="2">
+            <head>Laisse II</head>
+         <l n="21">(Laisse 2) Oeç segnor (q[e] Diex vos beneïe!),</l>
+         <l n="22">Bone chançon di vielle anceso[r]ie,</l>
+         <l n="23">Dou fiuç Leois qui ot France em balie,</l>
+         <l n="24">Karlle Ma[r]tel fu nomeç en sa vie.</l>
+         <l n="25">Ch[evalie]r fu de mout grant renomie;</l>
+         <l n="26">De tot la te[r]re qu’il avoit em bailie</l>
+            <l n="27"><pb n="f.1rc"/><cb n="f.1rc"/>(Folio 1 R c [second column]) Ainch non p[er]di jamés une sol pie</l>
+         <l n="28">Por son orgoil et por soe ligerie.</l>
+         <l n="29">Maintes estranges en avoit aquitie,</l>
+         <l n="30">Tant qu'il en oit desot sa segnorie</l>
+         <l n="31">Tretot le mont. Neis la paienie</l>
+         <l n="32">L'en obeist; n'a si hardi qe desdie</l>
+         <l n="33">Au fiuç Lois, qua[n]t feit soe coma[n]die.</l>
+         <l n="34">Si ou rois vousist mander soe baro[n]ie,</l>
+         <l n="35">Sainç mout grant pois menast i[n] host ba[n]nie</l>
+         <l n="36">Vc mil homes de bone giant garnie,</l>
+         <l n="37">Sainç le peon o tot la archerie,</l>
+         <l n="38">Qi la moité non poroit estre esmie.</l>
+         <l n="39">Por ce qu'il rois soi sent tant avancie,</l>
+         <l n="40">Plus qe non fu onque si ancestre mie,</l>
+         <l n="41">Plus orgoillos en fu et outrecuidie.</l>
+         <l n="42">A tout il tout l'avoir et desertie,</l>
+            <l n="43"><pb n="f.1va"/><cb n="f.1va"/>(Folio 1 V a) Et maintes dames ha v[er]goigné [et] ho[n]ie.	</l>
+         <l n="44">Par ce n'est mie de la gient acherie; </l>
+         <l n="45">Anchois le haete la giant d[e] la [con]trie.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>
+         
