@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../Dropbox/HUON_SCHEMA/Huon_Customized_Schema_011917.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -200,7 +200,8 @@
                 <l n="2">E pluy de tre any stete in la çitie</l>
                 <l n="3">Ch’el non fo a so tera tornie,</l>
                 <l n="4">Tanto aveva so amor a Sanguy<ex>n</ex> donie.</l>
-                <l n="5">Se Sanguy<ex>n</ex> chavalcava i<ex>n</ex> alguna partie,</l>
+                <l n="5">Se Sanguy<ex rend="italics">n</ex> chavalcava i<ex>n</ex> alguna
+                    partie,</l>
                 <l n="6">Lo cont Ugo era tutora a so costie,</l>
                 <l n="7">Al bevere e al mançar cun lui era colcie.</l>
                 <l n="8">May de' fradeli non fo si dolçe conpagnie,</l>
@@ -222,14 +223,15 @@
                 <l n="20">Si ve dirò un gran tradimant,</l>
                 <l n="21">Che fè Sufia, a chi Dio <choice>
                         <sic>lo cuor Dio</sic>
-                        <corr resp="#SPM">lo cuor </corr>
+                        <corr cert="medium" resp="#SPM">lo cuor </corr>
                     </choice>crevant;<note xml:id="p1v.1"/></l>
                 <l n="22">Tal cossa comete per le men esiant</l>
                 <l n="23">Unde Ugo ne fo irado e dolant.</l>
                 <l n="24">La dona vene a Sanguy<ex>n</ex>, non fè demoramant,</l>
                 <l n="25">Chon dolçe vixo e si li disse in riant,</l>
                 <l n="26">“Sieri, de salvadessine ò gran talant,</l>
-                <l n="27">Ch’io creço es<ex>er</ex> graveda, unde ne·ssun i<ex>n</ex> spavant</l>
+                <l n="27">Ch’io creço es<ex rend="italics">er</ex> graveda, unde ne·ssun i<ex>n</ex>
+                    spavant</l>
                 <l n="28">Che questa volentade no me torne in tormant.”</l>
                 <l n="29">Elo respoxe, “Madona, non ve temé de nient!</l>
                 <l n="30">Vuy n’averì a tuto el vostro convinant.”</l>
@@ -248,10 +250,8 @@
                 <l n="43">Disse la duchexa, “Je·n ay ben quel talant.”</l>
                 <l n="44">Lo duc Sanguy<choice>
                         <sic>Sanguy</sic>
-                        <corr resp="#SPM">Sanguy<ex>n</ex></corr>
-                    </choice><corr resp="#SPM" rend="brackets">n</corr><note xml:id="p1v.2"/> non
-                    demora niant:</l>
-                <!-- HERE -->
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
+                    </choice><note xml:id="p1v.2"/> non demora niant:</l>
                 <l n="45"><pb n="f.2r"/>(2R) Falcom e sparivier e cirfalc svolant</l>
                 <l n="46">À prexo sença demoramant,</l>
                 <l n="47">Brachi e levriri el menà plui de çant;</l>
@@ -260,7 +260,7 @@
                 <l n="50">Amantinant al alba parissant</l>
                 <l n="51">El ensì de Viena ben e soavemant</l>
                 <l n="52">E andè al bosco e alla selva pendant;</l>
-                <l n="53">Cho<ex>n</ex> oxely e con cani el i va çaçant.</l>
+                <l n="53">Cho<ex rend="italics">n</ex> oxely e con cani el i va çaçant.</l>
                 <l n="54">Sufia romaxe, ch’aveva maltalant;</l>
                 <l n="55">Quel Dio la confonda che Adamo andà formant!<note xml:id="p2r.1"/></l>
                 <l n="56">Or oldiré de·llei lo gran tradimant</l>
@@ -273,11 +273,11 @@
                 <l n="63">Disse la chameriera, “Madona, io son al vostro comant,</l>
                 <l n="64">Quel che <choice>
                         <sic>vi</sic>
-                        <corr resp="#SPM">v<ex>u</ex>i</corr>
+                        <corr cert="medium" resp="#SPM">v<ex rend="brackets">u</ex>i</corr>
                     </choice><note xml:id="p2r.3"/>
                     <choice>
                         <sic>comaderé</sic>
-                        <corr resp="#SPM">coma<ex rend="brackets">n</ex>nderé</corr>
+                        <corr cert="medium" resp="#SPM">coma<ex rend="brackets">n</ex>nderé</corr>
                     </choice>,<note xml:id="p2r.4"/> farò de prexant.”</l>
                 <l n="65">Dixe la duchexa, “Or t’en va sença arestamant</l>
                 <l n="66">E non parlar a nesuna p<ex>er</ex>sona vivant:</l>
@@ -288,7 +288,7 @@
                 <l n="71">Chomo io l’amo plui che cossa vivant.”</l>
                 <l n="72"><pb n="f.2v"/>(2V) Quando la demixela <choice>
                         <sic>t'intende</sic>
-                        <corr resp="#SPM"><ex rend="brackets">l</ex>'intende</corr>
+                        <corr cert="medium" resp="#SPM"><ex rend="brackets">l</ex>'intende</corr>
                     </choice>,<note xml:id="p2v.1"/> se meraveia fortema<ex>n</ex>t</l>
                 <l n="73">De cò che la dona li va contant.</l>
                 <l n="74">E si respoxe, “Madona, farò al vostro talant.”</l>
@@ -324,7 +324,7 @@
                 <l n="101">Tanto ve amo, no·l poria conter,</l>
                 <l n="102">In vuy ò <choice>
                         <sic>msso</sic>
-                        <corr resp="#SPM">m<ex rend="brackets">e</ex>sso</corr>
+                        <corr cert="medium" resp="#SPM">m<ex rend="brackets">e</ex>sso</corr>
                     </choice><note xml:id="p3r.1"/> el mio cuor e penssier.”</l>
                 <l n="103">Quando Ugo l’intende, si·lli respoxe arer,</l>
                 <l n="104">“Dama,” diss’elo, “questo è da blaxemer</l>
@@ -365,8 +365,8 @@
                 <l n="139">Quando ello saverà lo mortal ingonbrer,</l>
                 <l n="140">Çà, p<ex>er</ex> aver, no ve porà tanser</l>
                 <l n="141">Se tanto n’avissi che non se podesse conter;</l>
-                <l n="142">Mo, s’el ve plasse, io vel voio cons<corr>e</corr>ier<note xml:id="p3v.3"
-                    /></l>
+                <l n="142">Mo, s’el ve plasse, io vel voio cons<corr cert="medium" resp="#SPM"
+                        >e</corr>ier<note xml:id="p3v.3"/></l>
                 <l n="143">Ch’el mio voler non dibié stratorner.”</l>
                 <l n="144"><pb n="f.4r"/>(4R) Quando Ugo l’intende, no à i que coroçer,</l>
                 <l n="145">Si·lli dirà alquanto de so penssier.</l>
@@ -399,7 +399,7 @@
                 <l n="168">P<ex>er</ex>ch’elo amava Sanguy<ex>n</ex> sovra tuta la cent:</l>
                 <l n="169">Elo de <choice>
                         <sic>cuor luii</sic>
-                        <corr resp="#SPM">cuor <ex rend="brackets">e</ex> luii</corr>
+                        <corr cert="low" resp="#SPM">cuor <ex rend="brackets">e</ex> luii</corr>
                     </choice><note xml:id="p4r.2"/> lialmant.</l>
                 <l n="170">Alora disse tal cossa ch’el non è hom vivant</l>
                 <l n="171"><pb n="f.4v"/>(4V) A chi non canbiasse lo color e lo talent.</l>
@@ -415,7 +415,7 @@
                 <l n="176">Tuto lo dì p<ex>er</ex> lo boscaço e per la stobla,</l>
                 <l n="177"><choice>
                         <sic>Quando el sol sera ch'el sol s'acolega</sic>
-                        <corr resp="#SPM">Quando è sera ch’el sol s’acolega</corr>
+                        <corr cert="medium" resp="#SPM">Quando è sera ch’el sol s’acolega</corr>
                     </choice>,<note xml:id="p4v.2"/></l>
                 <l n="178">Lo pluy cativo toca con sso coda,</l>
                 <l n="179">Si·l mena da parte, lo·sso amor li dòna.</l>
@@ -437,11 +437,11 @@
                 <l n="191">Soa cameriera apela c’à nome Marie,</l>
                 <l n="192">E quella vene, non <choice>
                         <sic>trada</sic>
-                        <corr resp="#scribe">t<add place="inline">ar</add>da</corr>
+                        <corr cert="high" resp="#scribe">t<add place="inline">ar</add>da</corr>
                     </choice><note xml:id="p4v.3"/> çà mie,</l>
                 <l n="193">E la duchessa disse, "<choice>
                         <sic>No</sic>
-                        <corr resp="#SPM"><ex rend="brackets">M</ex>o</corr>
+                        <corr cert="medium" resp="#SPM"><ex rend="brackets">M</ex>o</corr>
                     </choice><note xml:id="p4v.4"/> guarda, non dì tu mie</l>
                 <l n="194">Altro ch’el mio voler si ne comando e prie!</l>
                 <l n="195">E se vuy aver dito altro ni parlie,</l>
@@ -495,7 +495,7 @@
                 <l n="240">Quando elli oldino la dona si plure;</l>
                 <l n="241">Alora <choice>
                         <sic>Sanguy</sic>
-                        <corr resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice><note xml:id="p5v.3"/> p<ex>er</ex> la porta della çita ave intrere</l>
                 <l n="242">E vien corando menando gran trepere,</l>
                 <l n="243">E la duchexa si ave dava<ex>n</ex>ti luy alere.</l>
@@ -541,17 +541,17 @@
                 <head>Laisse 8</head>
                 <l n="280"><hi rend="blue-initial">G</hi>ran duol à <choice>
                         <sic>Sanguy</sic>
-                        <corr resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice> quando olde la rasson;</l>
                 <l n="281">Del so <choice>
                         <sic>conpagno<ex>n</ex> tal</sic>
-                        <corr resp="#SPM">conpagno<ex>n</ex>
+                        <corr cert="medium" resp="#SPM">conpagno<ex>n</ex>
                             <ex rend="brackets">à</ex> tal</corr>
                     </choice> mesprixo<ex>n</ex></l>
                 <l n="282">Che honir lo voleva p<ex>er</ex>
                     <choice>
                         <sic>tral</sic>
-                        <corr resp="#SPM">tal</corr>
+                        <corr cert="medium" resp="#SPM">tal</corr>
                     </choice> tradixon.</l>
                 <l n="283">El dixe alla dona, “No abié dotassion,</l>
                 <l n="284">Vendeta ne farò sença demorasson,</l>
@@ -577,7 +577,7 @@
                 <head>Laisse 9</head>
                 <l n="302"><hi rend="red-initial">L</hi>o <choice>
                         <sic>nte</sic>
-                        <corr resp="scribe"><add place="above">co</add>nte</corr>
+                        <corr cert="high" resp="scribe"><add place="above">co</add>nte</corr>
                     </choice> Ugo se sveià molto angosoxamant,</l>
                 <l n="303">In pié se dreçà molto issenelamant;</l>
                 <l n="304">Quando el sentì el gran colpo meraveiosso e grant,</l>
@@ -585,7 +585,7 @@
                 <l n="306">Che si m’à ferido siando in mio dormant?</l>
                 <l n="307"><choice>
                         <sic>Chonpagon</sic>
-                        <corr resp="#SPM">Chonpag<ex rend="brackets">n</ex>on</corr>
+                        <corr cert="medium" resp="#SPM">Chonpag<ex rend="brackets">n</ex>on</corr>
                     </choice> Sanguy<ex>n</ex>, vuy en sirì dolant,</l>
                 <l n="308">Io no credo aver onfesso a nul homo vivant.”</l>
                 <l n="309">Quando Sangui<ex>n</ex> l’intende, si cridà altamant,</l>
@@ -596,14 +596,14 @@
                 <l n="314">El parlà belamante in oldant,</l>
                 <l n="315">“<choice>
                         <sic>Chonpagno</sic>
-                        <corr resp="#SPM">Chonpagno<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Chonpagno<ex rend="brackets">n</ex></corr>
                     </choice> Sanguy<ex>n</ex>, fato avé pecado grant,</l>
                 <l n="316">Ma vuy non ssavì como el è convinant</l>
                 <l n="317">Che si m’avì inaverado siando indormant;</l>
                 <l n="318">Uncha non averì p<ex>er</ex>don da Dio onipotant."</l>
                 <l n="319">Quando <choice>
                         <sic>Sanguy</sic>
-                        <corr>Sanguy<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice> l’intende, si à trato lo brant;</l>
                 <l n="320">Ben l’averave morto e conduto a tormant</l>
                 <l n="321">Se no<ex>n</ex> fosse li suo baroni che li andè corant.</l>
@@ -622,7 +622,7 @@
                 <l n="334">Non lli disse ni tanto ni quant.</l>
                 <l n="335">Via s’en va per lo camin <choice>
                         <sic>rant</sic>
-                        <corr resp="scribe"><add place="inline">e</add>rant</corr>
+                        <corr cert="high" resp="scribe"><add place="inline">e</add>rant</corr>
                     </choice>,</l>
                 <l n="336">Quando el può sul sso auferant;</l>
                 <l n="337">Or lo conduga Dio lo pare onipotant</l>
@@ -638,7 +638,7 @@
                 <l n="347">Forte e fier, meraveiosso e grant.</l>
                 <l n="348">Quando lo chastelan vete lo <choice>
                         <sic>chvalier</sic>
-                        <corr resp="scribe">ch<add place="above">a</add>valier</corr>
+                        <corr cert="high" resp="scribe">ch<add place="above">a</add>valier</corr>
                     </choice> valant,</l>
                 <l n="349">In lo castello lo menà tosto isnelamant.</l>
                 <l n="350">Quando ello fo dentro, el non demorà niant;</l>
@@ -646,7 +646,7 @@
                 <l n="352">Sull pallaço menà lo combatant.</l>
                 <l n="353">Atanto è vegnudo <choice>
                         <sic>Sanguy</sic>
-                        <corr resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice> pungant</l>
                 <l n="354">In soa conpagnia <num>.M.</num> ch<ex>avalie</ex>ri vallent.</l>
                 <l n="355">In alta voxie molto va cridant,</l>
@@ -658,7 +658,7 @@
                 <l n="361">Quando ell castelam l’oldì, sul castel va montant,</l>
                 <l n="362">A <choice>
                         <sic>Sangui</sic>
-                        <corr resp="#SPM">Sangui<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sangui<ex rend="brackets">n</ex></corr>
                     </choice> parlà sença demoramant;</l>
                 <l n="363">Disse lo castelan, “Vui parlé de niant!</l>
                 <l n="364">Questo serave molto gran tradimant,</l>
@@ -669,7 +669,7 @@
                 <l n="369"><pb n="f.8v"/>(8V) Se vuy lo porì prender, faré el vostro talant.”</l>
                 <l n="370">Responde <choice>
                         <sic>Sanguy</sic>
-                        <corr resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice>, “Vuy parlé belamant!”</l>
             </lg>
             <lg type="laisse" n="10">
@@ -677,7 +677,7 @@
                 <l n="371"><hi rend="blue-initial">T</hi>uta la note fin al’alba parent</l>
                 <l n="372">Chu<ex>n</ex> lluy so chavalieri <choice>
                         <sic>insemnt</sic>
-                        <corr resp="scribe">insem<add place="above">e</add>nt</corr>
+                        <corr cert="high" resp="scribe">insem<add place="above">e</add>nt</corr>
                     </choice>,</l>
                 <l n="373">Si demorà Sanguy<ex>n</ex> in lo prado verdoient.</l>
                 <l n="374">Quando l’alba fo aparissent,</l>
@@ -733,7 +733,7 @@
                 <l n="420">E si·lli querì marçé e pieté,</l>
                 <l n="421">“Marçé seré p<ex>er</ex> amor nostro <choice>
                         <sic>Dee</sic>
-                        <corr resp="scribe">D<add place="inline">i</add>é</corr>
+                        <corr cert="high" resp="scribe">D<add place="inline">i</add>é</corr>
                     </choice></l>
                 <l n="422"><pb n="f.9v"/>(9V) De quelle cosse non avy colpa ne peçié.”</l>
                 <l n="423">Responde Gualtier, “Tu dì ben véritié.”</l>
@@ -762,14 +762,14 @@
                 <l n="445">Ch’el so traditor li sia tosto invoié.</l>
                 <l n="446">E Gualtier responde e disse, “Sieri, no ve <choice>
                         <sic>adasté</sic>
-                        <corr resp="#SPM">a<ex rend="brackets">n</ex>dasté</corr>
+                        <corr cert="medium" resp="#SPM">a<ex rend="brackets">n</ex>dasté</corr>
                     </choice>,</l>
                 <l n="447">Defuora lo averì quando me virà gré.</l>
                 <l n="448">Ma una cossa voio che vuy saçé,</l>
                 <l n="449"><pb n="f.10r"/>(10R) Che nuy semo con luy acordé.”</l>
                 <l n="450">Quando <choice>
                         <sic>Sanguy</sic>
-                        <corr resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice> l’intende, p<ex>er</ex> puoco non è pasmé;</l>
                 <l n="451">El dixe a Gualtier, “Fel traitor renoié,</l>
                 <l n="452">Che se io ve posso prender in bailié</l>
@@ -784,10 +784,10 @@
                 <l n="457">A una fenestra el se va apuçer</l>
                 <l n="458">E vete <choice>
                         <sic>Sanguy</sic>
-                        <corr resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
+                        <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice> che iera <choice>
                         <sic>sul sul</sic>
-                        <corr resp="#SPM">sul</corr>
+                        <corr cert="medium" resp="#SPM">sul</corr>
                     </choice> so destrier.</l>
                 <l n="459">Dolçemente lo çonte li ave parler,</l>
                 <l n="460">“Chompagno<ex>n</ex> Sanguy<ex>n</ex>, intendì p<ex>er</ex> Dio lo
@@ -812,9 +812,8 @@
                 <l n="478">A la fenestra non vuol plu demorer;</l>
                 <l n="479">Vene <choice>
                         <sic>alla fene salla</sic>
-                        <corr resp="scribe">alla <del>fene</del>salla</corr>
+                        <corr cert="high" resp="scribe">alla <del>fene </del>salla</corr>
                     </choice>,<note xml:id="p10v.1"/> si apela Gualtier,</l>
-                <!-- MACKENZIE - del? -->
                 <l n="480">“Sier,” diss’ello, “io me ne voio ander.</l>
                 <l n="481">Fé me qua le mie arme porter!”</l>
                 <l n="482">Dixe Guatier, “Ancy averì qua a demorer</l>
@@ -873,7 +872,7 @@
                 <l n="529">Lo cunte Ugo s’en va, no à que coroçere</l>
                 <l n="530">Ch’el non ave <choice>
                         <sic>tulo</sic>
-                        <corr>tu<add place="inline">t</add>o</corr>
+                        <corr cert="high" resp="scribe" >tu<add place="inline">t</add>o</corr>
                     </choice> el dì so cavallo arestere.</l>
                 <l n="531">Quando vene la sera allo scurere,</l>
                 <l n="532">El vene a un chastel forte e plenere.</l>
@@ -881,7 +880,7 @@
                 <l n="534">Quando el conte fo dentro, el fè el ponte levere.</l>
                 <l n="535">Elo lo <choice>
                         <sic>comanda</sic>
-                        <corr resp="#SPM"><ex rend="brackets">d</ex>omanda</corr>
+                        <corr cert="medium" resp="#SPM"><ex rend="brackets">d</ex>omanda</corr>
                     </choice>, “Como, amigo chere,</l>
                 <l n="536">Che si·ssoleto ve veço civalcere?</l>
                 <l n="537">O' è Sangui<ex>n</ex> vostro conpagnon drieurere?”</l>
@@ -920,7 +919,7 @@
                 <l n="564"><hi rend="blue-initial">M</hi>olto fo bello lo castelo en senblant,</l>
                 <l n="565">E ben <choice>
                         <sic>guarndo</sic>
-                        <corr resp="scribe">guarn<add place="above">i</add>do</corr>
+                        <corr cert="high" resp="scribe">guarn<add place="above">i</add>do</corr>
                     </choice> de bona çant;</l>
                 <l n="566">De tore lì è mereveiosse e grant</l>
                 <l n="567">Che no teme arsalto de nul homo vivant.</l>
@@ -959,16 +958,15 @@
                 <l n="596">E si ve farò pentir, fel traitor malvé!"</l>
                 <l n="597"><choice>
                         <sic>Responde al</sic>
-                        <corr resp="scribe">Responde <del>al</del></corr>
-                    </choice> Antolin, "De tuto çò che vuy parlé,</l>
-                <!-- MACKENZIE - del? -->
+                        <corr cert="high" resp="scribe">Responde <del>al </del></corr>
+                    </choice>Antolin, "De tuto çò che vuy parlé,</l>
                 <l n="598">Io no darave una pome poré,</l>
                 <l n="599"><pb n="f.13r"/>(13R) Ch'el mio chastelo è ben forte de mure e de
                     fossé;</l>
                 <l n="600">Non temo el to arssalto un dener indoré,</l>
                 <l n="601">Ben <choice>
                         <sic>defende fenderò</sic>
-                        <corr resp="#SPM">defenderò</corr>
+                        <corr cert="medium" resp="#SPM">defenderò</corr>
                     </choice> tuta la fermité.</l>
                 <!-- LESLIE - keep accents on sic readings? ...ò -->
                 <l n="602">"Ai, fel trait!" dixe Sangui<ex>n</ex> l'amiré,</l>
@@ -976,7 +974,7 @@
                 <l n="604">Ché <ex>con</ex>tra Charlo averò puocho a duré,</l>
                 <l n="605"><choice>
                         <sic>Che</sic>
-                        <corr resp="#SPM">Ch'e<ex rend="brackets">l</ex></corr>
+                        <corr cert="medium" resp="#SPM">Ch'e<ex rend="brackets">l</ex></corr>
                         <!-- LESLIE - corr necessary here? -->
                     </choice> te farà prender e a ramo apicé."</l>
                 <l n="606">Antollin l’intende, si li respoxe aré,</l>
@@ -987,7 +985,7 @@
                 <l n="611">Ben fo <ex>se</ex>rvi a tuta so volenté.</l>
                 <l n="612">Al castelan <choice>
                         <sic>vne</sic>
-                        <corr resp="#SPM">v<ex rend="brackets">e</ex>ne</corr>
+                        <corr cert="medium" resp="#SPM">v<ex rend="brackets">e</ex>ne</corr>
                     </choice>, si·lli à cunbiado domandé,</l>
                 <l n="613">Che andar vol ad Alvernia soa çité.</l>
                 <l n="614">Quando el castelan l'intende, dolcement l'à pregé</l>
@@ -1029,7 +1027,7 @@
                 <l n="646">Cha lui vegna como vene l'altr'ier</l>
                 <l n="647">Che cascun amava Ugo lo <choice>
                         <sic>gurier</sic>
-                        <corr resp="#SPM">gu<ex>e</ex>rier</corr>
+                        <corr cert="medium" resp="#SPM">gu<ex>e</ex>rier</corr>
                     </choice>.</l>
             </lg>
             <lg type="laisse" n="19">
@@ -1055,7 +1053,7 @@
                 <l n="666">Rompe li scudi e·lle borele inson</l>
                 <l n="667">L'asta de <choice>
                         <sic>San</sic>
-                        <corr resp="#SPM">San<ex>guin</ex></corr>
+                        <corr cert="medium" resp="#SPM">San<ex>guin</ex></corr>
                     </choice> si vola in troncon.</l>
                 <l n="668">P<ex>er</ex> tal vertù lo ferì lo canpion</l>
                 <l n="669">Ch'ell abate Sangui<ex>n</ex> a tera del arçon.</l>
@@ -1111,9 +1109,8 @@
                 <l n="712">Chi·l vorà, lo porà trovere</l>
                 <l n="713"><choice>
                         <sic>Al davernia</sic>
-                        <corr resp="#SPM">Ad Alvernia</corr>
+                        <corr cert="medium" resp="#SPM">Ad Alvernia</corr>
                     </choice>,<note xml:id="p15r.1"/> soa maistro terere."</l>
-                <!-- del? -->
                 <l n="714">Quando la dona l'intende, si scomença plurere,</l>
                 <l n="715">"Ai lassa," diss'ella, "mal nassì de mere!</l>
                 <l n="716">Aduncha se porallo bem vantere</l>
@@ -1131,7 +1128,7 @@
                 <l n="728">A malla morte lo faremo çudegere."</l>
                 <l n="729">Disse <choice>
                         <sic>la ela duchessa</sic>
-                        <corr resp="#SPM">la duchessa</corr>
+                        <corr cert="medium" resp="#SPM">la duchessa</corr>
                     </choice>,<note xml:id="p15v.1"/> "El non sse vuol plu tardere."</l>
                 <l n="730">Responde San<ex>guin</ex>, "Io me voio apariere."</l>
                 <l n="731">El fè p<ex>er</ex> la çitade bandir e criere</l>
@@ -1144,7 +1141,7 @@
                 <l n="738">Lo bon destrier se fè davanti menere.</l>
                 <l n="739"><choice>
                         <sic>Montà i<ex>n</ex></sic>
-                        <corr resp="scribe">Montà <add place="above">è</add><note xml:id="p15v.2"/>
+                        <corr cert="high" resp="scribe">Montà <add place="above">è</add><note xml:id="p15v.2"/>
                                 i<ex>n</ex></corr>
                     </choice> man lo scudo e à inbraçere</l>
                 <l n="740">La lança in man sença mentire,</l>
@@ -3532,7 +3529,8 @@
                 <l n="2855">La nave condusse molto eforçeament,</l>
                 <l n="2856">P<ex>er</ex> lo fren mena lo destrier corent.</l>
                 <l n="2857"><pb n="f.59r"/>(59R) Una oraxon va digando santament,</l>
-                <l n="2858"><quote xml:lang="la">Domine labia</quote>, molto graciossame(n)t,</l>
+                <l n="2858"><quote rend="italics" xml:lang="la">Domine labia</quote>, molto
+                    graciossame(n)t,</l>
                 <l n="2859">
                     <quote xml:lang="la">Aperies tu, bel sier, os meun molto sove<ex rend="noItal"
                             >n</ex>t</quote>
@@ -5812,8 +5810,8 @@
                 <l n="4785">E tuti li altri l'à schernido e gabé,</l>
                 <l n="4786">Lo santo sp<ex>irit</ex>o n'à u<ex>n</ex> risso çité,</l>
                 <l n="4787">Puo benedì la divina magesté.</l>
-                <l n="4788">La <num>V</num>a porta lo <num>.V.</num> muro lo <num>.V.</num>
-                    fosse</l>
+                <l n="4788">La <num>V</num><hi rend="superscript">a</hi> porta lo <num>.V.</num>
+                    muro lo <num>.V.</num> fosse</l>
                 <!-- how to tag superscript for quinta, second word of line 4788? -->
                 <l n="4789">Si trovano lo p<ex>ri</ex>mo rethoriché.</l>
             </lg>
