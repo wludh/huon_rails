@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne: a digital edition of Turin, Biblioteca nazionale, N III 19</title>
+                <title>Huon d'Auvergne: a digital edition of Turin, Biblioteca nazionale, N III
+                    19</title>
                 <editor xml:id="SPM">Stephen P. McCormick</editor>
                 <sponsor>
                     <address>
@@ -78,12 +79,15 @@
                         <idno>N III 19</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title xml:lang="FI">Huon d'Auvergne, Turin, Biblioteca nazionale, N III 19</title>
+                        <title xml:lang="FI">Huon d'Auvergne, Turin, Biblioteca nazionale, N III
+                            19</title>
                         <origPlace cert="low">Padua</origPlace>
                         <origDate cert="medium" evidence="internal">second half of fourteenth
                             century or first half of fifteenth</origDate>
-                        <note>Edition prepared by Leslie Zarker Morgan. Basic praxis inserted here.</note>
-                        <note>Note on state of manuscript - burned in Turin library file of 1904, etc.</note>
+                        <note>Edition prepared by Leslie Zarker Morgan. Basic praxis inserted
+                            here.</note>
+                        <note>Note on state of manuscript - burned in Turin library file of 1904,
+                            etc.</note>
                     </head>
                     <msContents>
                         <textLang mainLang="FI">Franco-Italian</textLang>
@@ -93,7 +97,7 @@
                             <!-- check foliation with Leslie -->
                             <title xml:lang="FI">Huon d'Auvergne</title>
                             <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
-                            <explicit></explicit>
+                            <explicit/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -102,11 +106,11 @@
                                 <support>
                                     <p>Paper</p>
                                 </support>
-                                <extent>Insert manuscript folio count <dimensions
-                                    scope="all" type="leaves" unit="in">
-                                    <height>29.5 cm</height>
-                                    <width>22 cm</width>
-                                </dimensions>
+                                <extent>Insert manuscript folio count <dimensions scope="all"
+                                        type="leaves" unit="in">
+                                        <height>29.5 cm</height>
+                                        <width>22 cm</width>
+                                    </dimensions>
                                 </extent>
                                 <!-- Where does <dimensions> go?  -->
                             </supportDesc>
@@ -126,7 +130,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate>Manuscript dated by scribe to 1441</origDate>
+                            <p>Written in <origPlace>Northern Italy</origPlace>in the
+                                    <origDate>Manuscript dated by scribe to 1441</origDate>
                             </p>
                         </origin>
                         <provenance>unknown</provenance>
@@ -174,26 +179,54 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <l>Al tempo de mazo<note xml:id="t1r.1"/> quando el fiorise le prade</l> 
-                <l>tute reverdise li erbe e∙lle arbosele,</l>
-                <l>et y[n]n-amore vene molte mainere d'osele</l>
-                <l>perzò cantano e fano li sony molte bele,</l>
-                <l>tute y[n]semele fano done et donzele</l>
-                <l>che per lor deleto entrano y[n] zardine;</l>
-                <l>(MS 1R) tute le polzele ensemele com zovenzele</l>
-                <l>de fiore<note xml:id="t1r.2"/> e de rosse zascun se fa capele,</l>
-                <l>se sy sbaldise perché amore lia strenze.</l>
-                <l>En la Pentacosta quando (el) cavalere novele</l> 
-                <l>desi(d)rano zostrà e fare meraviose zambele,</l>
-                <l>el steva en Franza un re molto crudele,</l>
-                <l>selonche che nostra cronicha ordenata,</l>
-                <l>che hognomo l'apela lo re Carlo Martelo.</l>
-                <l>Gran corte tenia che homo no[n] la vite zà tale</l>
-                <l>che una cossa adopra el ben com felo:</l>
-                <l>quando un suo servo chaza de soa casa,</l>
-                <l>e se l'envia a querire trabuto a Luzifero</l>
-                <l>et a cerchare<note xml:id="t1r.3"/> la casa y[n]fernale,</l>
-                <l>solo per avere Ynida dal corpo belo.</l>
+                <l n="1">Al tempo de mazo<note xml:id="t1r.1"/> quando el fiorise le prade</l>
+                <l n="2">tute reverdise li erbe e∙lle arbosele,</l>
+                <l n="3">et y[n]n-amore vene molte mainere d'osele</l>
+                <l n="4">perzò cantano e fano li sony molte bele,</l>
+                <l n="5">tute y[n]semele fano done et donzele</l>
+                <l n="6">che per lor deleto entrano y[n] zardine;</l>
+                <l n="7">(MS 1R) tute le polzele ensemele com zovenzele</l>
+                <l n="8">de fiore<note xml:id="t1r.2"/> e de rosse zascun se fa capele,</l>
+                <l n="9">se sy sbaldise perché amore lia strenze.</l>
+                <l n="10">En la Pentacosta quando (el) cavalere novele</l>
+                <l n="11">desi(d)rano zostrà e fare meraviose zambele,</l>
+                <l n="12">el steva en Franza un re molto crudele,</l>
+                <l n="13">selonche che nostra cronicha ordenata,</l>
+                <l n="14">che hognomo l'apela lo re Carlo Martelo.</l>
+                <l n="15">Gran corte tenia che homo no[n] la vite zà tale</l>
+                <l n="16">che una cossa adopra el ben com felo:</l>
+                <l n="17">quando un suo servo chaza de soa casa,</l>
+                <l n="18">e se l'envia a querire trabuto a Luzifero</l>
+                <l n="19">et a cerchare<note xml:id="t1r.3"/> la casa y[n]fernale,</l>
+                <l n="20">solo per avere Ynida dal corpo belo.</l>
+            </lg>
+            <lg>
+                <head>Laisse 2</head>
+                <l n="21">Odite signore, che Dio ve benedicha,</l>
+                <l n="22">bona canzon dire ve vole del soy antesore,</l>
+                <l n="23">del fio del re Loi che Franza avea y[n] ba(i)lia,</l>
+                <l n="24">che Carlo Martelo fo anomà a tuta soa vita.</l>
+                <l n="25">Quel Carlo ne fo del molte gra[n] nomenanza</l>
+                <l n="26">de tute le tere che ello avea y[n] soa ba(i)lia,</l>
+                <l n="27">doncha non perdé zamay un sol pede</l>
+                <l n="28">per son argollio e per sova lezeria.</l>
+                <l n="29">Molte stranie tere el n'avè a querire</l>
+                <l n="30">tanto che luy li avè soto sova segnoria.</l>
+                <l n="31">Tuto el mondo et non è y[n] la pagania</l> 
+                <l n="32">l'obediseno, non è sỳ ardỳ che a luy desdiga</l>
+                <l n="33">quando luy vole fare soy coma[n]damente;</l>
+                <l n="34">e s'el volese mandare per soa gra[n] baronia,</l>
+                <l n="35">senza longo termene li menò y[n] ba(i)lia,</l>
+                <l n="36">v cente milia homene de bona zente be[n] guarnita</l>
+                <l n="37">senza li pedone e tute ly bone arzere,</l>
+                <l n="38">che la rota non poria aver miga.</l>
+                <l n="39">Perzò che lo re se sente tanto avanzare</l>
+                <l n="40">più che doncha no[n] fo sỳ anticho miga,</l>
+                <l n="41">(MS 1V) più orgoioso ne fo et più che zudice.</l>
+                <l n="42">A torto il tole altruy l'avere [et] altruy el des[er]ta,</l>
+                <l n="43">et molte done à vergognà et hodiate,</l>
+                <l n="44">et perzò non è miga da la zente agabà,</l>
+                <l n="45">anzo li era la zente d'el à contrà.</l>
             </lg>
         </body>
     </text>
