@@ -16,6 +16,7 @@
                     <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") + " |"%>
 
                 <%= link_to('Intro', url_for(params.merge(:edition => nil))) %>
+                <%= link_to('TEI', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %>
                     <hr id="reader-hr">
             </div>
 <!--             </div>

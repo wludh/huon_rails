@@ -1,7 +1,9 @@
 <% unless params.key?('edition') %>
     <% @current_page = 'b_manuscript' %>
+    <% @current_page_short = 'b' %>
     <%= render 'layouts/manuscript_introduction' %>
 <% else %>
     <% @current_page = 'b_manuscript' %>
+    <% @current_page_short = 'b' %>
     <%= render 'layouts/reading_interface' %>
 <% end %>
