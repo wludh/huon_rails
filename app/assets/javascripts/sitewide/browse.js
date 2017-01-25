@@ -26,8 +26,7 @@ function link_note_numbers(xml_id){
 }
 
 function annotation_reveal(annotation_number){
-    $('#hidden-introduction').css('display','none');
-    $('#hidden-introduction').removeClass('visible');
+    $('#TEI_reader').unwrap();
     $("footnote").removeClass('visible');
     $('#note-header').addClass('visible');
     $('note').removeClass('visible');
@@ -37,6 +36,18 @@ function annotation_reveal(annotation_number){
     $('#back_to_intro').addClass('visible');
     $('#note-header').removeClass('hidden');
     $('.note-contents').removeClass('hidden');
+    $('#notes').css('display', 'block');
+}
+
+function hideNotes() {
+   var notePanel = document.getElementById("notes");
+   var bibToggle = document.getElementById("bibToggle");
+   if (notePanel.style.display != "none") {
+      notePanel.style.display = "none";
+      $('#TEI_reader').wrap('<div id="reader-center-div">');
+   } else {
+      notePanel.style.display = "block";
+   }
 }
 
 function toggle_sic_on(){

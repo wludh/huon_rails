@@ -23,16 +23,18 @@
         <div id="clear"></div>
 
 </div>
-    <div id="notes">
-    Notes
-        <div id="note-header" class="hidden">Notes</div>
+    <div id="notes" style="display: none;">
+    <%= image_tag('closePanel.png', class: 'closePanel', id: 'note-close', onclick: 'hideNotes();', alt: 'X') %>
+        <div id="note-header">Notes</div>
             <div class="note-contents hidden">
             <!-- use javascript to bring out the notes here. -->
                 <%= @current_notes %>
             </div>
     </div>
-<div id="TEI_reader">
-    <div id="tei_wrapper">
-        <%= parse_line_groups(@line_groups)%>
+<div id="reader-center-div">
+        <div id="TEI_reader">
+            <div id="tei_wrapper">
+                <%= parse_line_groups(@line_groups)%>
+            </div>
     </div>
 </div>

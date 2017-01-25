@@ -491,6 +491,7 @@ footnote{
 
 #TEI_reader{
   padding-top: 44px;
+  border-right: 1px;
 }
 
 header{
@@ -507,12 +508,6 @@ header{
   padding-bottom: 20px
 }
 
-#notes{
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-left: 24px;
-  padding-right: 24px;
-}
 
 #num_laisses, #bot_reader{
   padding-right: 4px;
@@ -688,5 +683,19 @@ line-height: 2.8125rem;
     padding: 0 0.9375rem;
 }
 #notes{
+  margin-right: 10%;
+  padding-left: 40px;
+  padding-right: 40px;
   float: right;
+  margin-top: 45px;
+  padding-top: 24px;
+  width: 40%;
+  border-left: 1px #DDDDDD solid;
+}
+
+#note-close{
+  float: left;
+}
+#reader-center-div{
+
 }
