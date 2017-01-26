@@ -10,14 +10,12 @@ class PagesController < ApplicationController
         render template: "pages/#{params[:page]}"
     end
 
-
     def import_tei(tei_file)
         return File.open( "./lib/assets/#{tei_file}" ) {
                 |f| Nokogiri::XML(f)
             }
     end
 
-    # old parse_tei(tei_file)
     def parse_tei(tei_file, testing=false)
         unless params.key?('edition') or not testing
             doc = import_tei(tei_file)
@@ -27,14 +25,9 @@ class PagesController < ApplicationController
         else
             doc = import_tei(tei_file)
             @title = doc.search('title').first.text
-
-            # placeholder for if Steve decides to include bylines for authors.
-            # @by_line = doc.search('INSERT').text
             @introduction = doc.search('note').first.text
             @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
             @@internal_note_counter = 1
-            # unused atm
-            # @note_numbers = get_notes_for_line_group(@line_groups)
             @current_notes = parse_and_store_notes(@note_numbers, tei_file)
             return @title, @line_groups
         end
@@ -95,22 +88,6 @@ class PagesController < ApplicationController
         # puts @all_notes.xpath('@xmlid:')
         html.html_safe
     end
-
-    # def generate_note_html(notes)
-    #     for note in notes
-    #         "".html_safe
-    #     end
-    # end
-
-    # def get_notes_for_line_group(line_group)
-    #     # gets all the notes for a line group and stores them as an array so that you can
-    #     notes = line_group[0].css('note')
-    #     search_array = []
-    #     for note in notes
-    #         search_array << note.attributes['id'].value.sub(/[A-Za-z]|#/,'')
-    #     end
-    #     search_array
-    # end
 
     def parse_note(child, internal_note_counter)
         # puts "&&&&&&&"
@@ -221,17 +198,12 @@ class PagesController < ApplicationController
         return result.html_safe
     end
 
-    def parse_empty_tag(nodeset)
-        return "<#{child.name}></#{child.name}>".html_safe
-    end
-
     helper_method :import_notes
     helper_method :get_all_notes
     helper_method :parse_and_store_notes
     helper_method :parse_choice
     helper_method :parse_pb
     helper_method :parse_heading
-    helper_method :parse_empty_tag
     helper_method :parse_tag
     helper_method :parse_tei
     helper_method :parse_line
