@@ -1,7 +1,5 @@
 require 'roman-numerals'
 class PagesController < ApplicationController
-# TODO note numbers are getting reset with each laisse
-# TODO testing
 
 	skip_before_action :verify_authenticity_token
     require 'active_support/core_ext/array/conversions.rb'
@@ -56,9 +54,7 @@ class PagesController < ApplicationController
         for author in @authors
             @author_hash[author.children[1].attributes['id'].value] = author.children[1].text
         end
-        # puts 'AUTHOR HASH'
-        # puts @author_hash
-        # puts "&&&&&&&"
+
         html = ""
         note_counter = 1
         for note in @all_notes
@@ -84,10 +80,8 @@ class PagesController < ApplicationController
         # puts child.values.to_s
         xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
         note_id = internal_note_counter.to_s
-        # following line should take P1 and return just 1. so remove everything that is a letter
         # NOTE: should put this in a class instead
         ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup onclick=annotation_reveal("' + xmlid + '")>' + '<script type="text/javascript"> link_note_numbers("' + xmlid + '")</script>' + '</sup></note>').html_safe
-        # child.values.to_s.sub(/\./, '')
     end
 
     def parse_pb(line)
