@@ -32,13 +32,6 @@ def manuscript_block(manuscript, route)
         expect(controller.parse_line_groups(@line_groups).html_safe?).to be_truthy
     end
 
-    it "should parse a line" do
-        line = '<l n="2">E pluy de tre any stete in la çitie</l>'
-        expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E pluy de tre any stete in la çitie</l>')
-    end
-
-    # TODO: parse the remaining tagsets that you want. also the remaining functions
-
     it "should get annotations" do
         expect(controller.import_notes('notes-' + manuscript)).to be_truthy
     end
@@ -48,8 +41,7 @@ def manuscript_block(manuscript, route)
         expect(@current_notes).to be_truthy
     end
 
-
-    describe "GET" 'pages/show' do
+    describe "GET" 'pages templates' do
 
         it 'should render the manuscript template' do
             get route
@@ -78,11 +70,55 @@ describe PagesController do
             manuscript_block(manuscript, routes[manuscript])
         end
     end
+
+    describe "GET" 'the hell scene page' do
+        it 'should render the page template' do
+            get 'hell_scene'
+            expect(page).to render_template('pages/hell_scene')
+        end
+    end
+
+    describe "GET" 'the editions page' do
+        it 'should render the page template' do
+            get 'editions'
+            expect(page).to render_template('pages/edition')
+        end
+    end
+
     describe "GET" 'bibliography' do
         it "returns http success header" do
             get 'bibliography'
             expect(response).to be_success
             expect(response).to have_http_status(200)
+        end
+    end
+
+    describe "the parser" do
+        it "should parse a choice tag"
+        # do
+        #     line = '<l n="2">E pluy de tre any stete in la çitie</l>'
+        #     expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E pluy de tre any stete in la çitie</l>')
+        # end
+        it "should parse a corr tag" do
+            line = '<l n="2">E <corr>pluy</corr> de tre any stete in la çitie</l>'
+            expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E <corr>pluy</corr> de tre any stete in la çitie</l>')
+        end
+        it "should parse an 'ab' tag" do
+            line = '<l n="2">E pluy de <ab>tre</ab> any stete in la çitie</l>'
+            expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E pluy de <ab>tre</ab> any stete in la çitie</l>')
+        end
+        it "should parse an 'lb' tag" do
+            line = '<l n="2">E pluy de tre <lb></lb>any stete in la çitie</l>'
+            expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E pluy de tre <lb></lb>any stete in la çitie</l>')
+        end
+        it "should parse a general line" do
+            line = '<l n="2">E pluy de tre any stete in la çitie</l>'
+            expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E pluy de tre any stete in la çitie</l>')
+        end
+
+        it "should parse everything at once" do
+            line = '<l n="2">E <corr>pluy</corr> <lb></lb>de <ab>tre</ab> any stete in la çitie</l>'
+        expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E <corr>pluy</corr> <lb></lb>de <ab>tre</ab> any stete in la çitie</l>')
         end
     end
 end
