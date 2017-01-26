@@ -697,9 +697,23 @@ line-height: 2.8125rem;
   float: left;
 }
 #reader-center-div{
-
+      margin-left: 27%;
 }
 
 #corrCheckbox{
   display: block;
+}
+
+#corr-form{
+  display: inline;
+  float: none;
+}
+
+#corr-label{
+  float: none;
+  display: inline;
+}
+
+#tei_wrapper{
+  width: 37% !important;
 }

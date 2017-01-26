@@ -37,6 +37,7 @@ function annotation_reveal(annotation_number){
     $('#note-header').removeClass('hidden');
     $('.note-contents').removeClass('hidden');
     $('#notes').css('display', 'block');
+    $('#TEI_reader').css('margin-left', '0%');
 }
 
 function hideNotes() {

@@ -7024,7 +7024,8 @@ top-bar{
 #TEI_reader{
   margin-right:50%;
   width: 100%;
-  padding-left: 40px;
+  /*padding-left: 40px;*/
+  margin-right: 27%;
 }
 
 .top-bar .toggle-topbar a{
