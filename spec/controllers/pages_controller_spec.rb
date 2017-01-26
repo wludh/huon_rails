@@ -9,7 +9,7 @@ describe PagesController do
         end
     end
 
-    describe "GET" 'an editiion page' do
+    describe "GET" 'an edition page' do
         it "returns http success header" do
             get 'p_manuscript'
             expect(response).to be_success
@@ -26,7 +26,8 @@ describe PagesController do
         end
 
         it "gets the introduction" do
-            _, @introduction, _ = controller.parse_tei('p.xml')
+            _, @introduction, _ = controller.parse_tei('p.xml', true)
+
             expect(@introduction).to include('Biblioteca del Seminario')
         end
 
