@@ -211,6 +211,8 @@ class PagesController < ApplicationController
                 #elsif ['cb', 'rubric', 'ab', 'lb'].include? child.name
                 elsif child.name == 'cb'
                     result += parse_tag(child)
+                elsif child.name == 'corr'
+                    result += parse_tag(child)
                 elsif child.name == 'rubric'
                     result += parse_tag(child)
                 elsif child.name == 'ab'

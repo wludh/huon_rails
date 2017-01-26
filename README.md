@@ -2,7 +2,7 @@
 
 The Huon project is a Ruby on Rails app currently hosted on Heroku. The following readme will set a new contributor up for working on the project and walk through the repository's contents.
 
-You will also want to examine the [technical report for the project](techreport.md) to get a sense of how all the various technologies associated with the application fit together.
+You will also want to examine the [technical report for the project](tech-report.md) to get a sense of how all the various technologies associated with the application fit together.
 
 ## Installation and Setup
 

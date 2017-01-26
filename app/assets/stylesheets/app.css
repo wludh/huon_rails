@@ -699,3 +699,7 @@ line-height: 2.8125rem;
 #reader-center-div{
 
 }
+
+#corrCheckbox{
+  display: block;
+}

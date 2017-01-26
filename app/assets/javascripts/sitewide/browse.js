@@ -67,6 +67,18 @@ function page_prep(){
     hide_footer();
 }
 
+function reveal_corrections(){
+    var checked = $('#corrCheckbox').prop('checked');
+    if (checked) {
+        console.log('on');
+        $('corr').css('color', 'red');
+    }
+    else {
+        console.log('off');
+        $('corr').css('color', 'black');
+    }
+}
+
 
 $(document).ready(function(){
     page_prep();

@@ -18,7 +18,8 @@
                 <%= link_to('Intro', url_for(params.merge(:edition => nil))) %>
                 |
                 <%= link_to('TEI', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %>
-                    <hr id="reader-hr">
+                <form style="float: right;"> <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;" onchange="reveal_corrections()"><label for="corrCheckbox"> Corrections</label> </form>
+                <hr id="reader-hr">
             </div>
 <!--             </div>
         </div> -->
