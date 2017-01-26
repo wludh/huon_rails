@@ -63,18 +63,6 @@ class PagesController < ApplicationController
         note_counter = 1
         for note in @all_notes
             # puts note
-            # puts note.attributes['resp'].value
-            # puts "&&&&&&&&&"
-            # puts "all_notes"
-            # puts @all_notes
-            # puts note_counter
-            # puts note.attributes['n']
-            # puts note.attributes['n'].value
-            # puts note.attributes['resp'].value
-            # puts "&&&&&&&&&"
-            # what it was before
-            # html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value]}</div></note>"
-            # puts note
             # puts note_counter
             # puts note.attributes['resp'].value
             html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
@@ -95,15 +83,8 @@ class PagesController < ApplicationController
         # puts child
         # puts child.values.to_s
         xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
-        # puts("xmlid: " + xmlid)
-        # puts internal_note_counter
-        # puts 'hi'
         note_id = internal_note_counter.to_s
-        # old note_id = child.attributes['id'].value.gsub('#', '')
-        # puts note_id
-        # puts "&&&&&&&"
         # following line should take P1 and return just 1. so remove everything that is a letter
-        # old ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + note_id.sub(/[A-Za-z]/,'') + ')>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
         # NOTE: should put this in a class instead
         ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup onclick=annotation_reveal("' + xmlid + '")>' + '<script type="text/javascript"> link_note_numbers("' + xmlid + '")</script>' + '</sup></note>').html_safe
         # child.values.to_s.sub(/\./, '')
@@ -115,9 +96,7 @@ class PagesController < ApplicationController
 
     def parse_heading(line_group)
         heading_number = line_group.search('head').text.gsub(/Laisse /, '').to_i
-        # RomanNumerals.to_roman()
         ('<div class="line-heading">Laisse ' + RomanNumerals.to_roman(heading_number) + "</div>").html_safe
-        # ('<div class="line-heading">' + RomanNumerals.to_roman(line_group.search('head').text) + "</div>").html_safe
     end
 
     def parse_tag(tag_child)
