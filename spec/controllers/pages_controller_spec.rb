@@ -28,7 +28,7 @@ def manuscript_block(manuscript, route)
     end
 
     it "should parse the TEI and return an HTML safe string" do
-        _, _, @line_groups = controller.parse_tei('p.xml')
+        _, _, @line_groups = controller.parse_tei(manuscript)
         expect(controller.parse_line_groups(@line_groups).html_safe?).to be_truthy
     end
 
@@ -40,11 +40,11 @@ def manuscript_block(manuscript, route)
     # TODO: parse the remaining tagsets that you want. also the remaining functions
 
     it "should get annotations" do
-        expect(controller.import_notes('notes-p.xml')).to be_truthy
+        expect(controller.import_notes('notes-' + manuscript)).to be_truthy
     end
 
     it "should connect annotations with the line groups" do
-        @current_notes = controller.parse_and_store_notes(@note_numbers, 'p.xml')
+        @current_notes = controller.parse_and_store_notes(@note_numbers, manuscript)
         expect(@current_notes).to be_truthy
     end
 
