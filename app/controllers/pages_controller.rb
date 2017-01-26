@@ -195,7 +195,7 @@ class PagesController < ApplicationController
         result =""
         # parses a line where 'l' is a line_nodeset
         if (l.attr('n').to_i % 5) == 0
-            result += "<div class=\"linenumber\">" + l.attr('n') + "</div>"
+            result += "<div class=\"linenumber\">" + l.attr('n').to_s + "</div>"
         end
         result += "<l n=\"#{l.attr('n')}\">"
                  if l.css('pb').present? 
@@ -203,21 +203,11 @@ class PagesController < ApplicationController
                  end 
              for child in l.children 
                  if child.name == 'choice' 
+                    puts child
                     result += parse_choice(child)
                  elsif child.name == 'ex'     
                     result += parse_tag(child) 
-                    # The following two elsif statements are entirely just for testing note functionality.
-                #probably this? 
-                #elsif ['cb', 'rubric', 'ab', 'lb'].include? child.name
-                elsif child.name == 'cb'
-                    result += parse_tag(child)
-                elsif child.name == 'corr'
-                    result += parse_tag(child)
-                elsif child.name == 'rubric'
-                    result += parse_tag(child)
-                elsif child.name == 'ab'
-                    result += parse_tag(child)
-                elsif child.name == 'lb'
+                elsif ['cb', 'corr', 'rubric', 'ab', 'lb'].include? child.name
                     result += parse_tag(child)
                 elsif child.name == 'note'
                     puts(child)

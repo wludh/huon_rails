@@ -94,11 +94,26 @@ describe PagesController do
     end
 
     describe "the parser" do
-        it "should parse a choice tag"
-        # do
-        #     line = '<l n="2">E pluy de tre any stete in la çitie</l>'
-        #     expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E pluy de tre any stete in la çitie</l>')
-        # end
+        it "should parse choice tag 1" do
+            line = '<l n="2"><choice><abbr>xpo</abbr><ex>cristo</ex></choice></l>'
+            expect(
+                controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2"><choice><abbr>xpo</abbr><ex>cristo</ex></choice></l>')
+        end
+        it "should parse choice tag 2" do
+            line = '<l n="2"><choice><abbr></abbr><expan><ex></ex></expan></choice></l>'
+            expect(
+                controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2"><choice><abbr></abbr><expan><ex></ex></expan></choice></l>')
+        end
+        it "should parse choice tag 3 and convert unicode character" do
+            line = '<l n="2"><choice><abbr>&#x17f;vir</abbr><expan>s<ex>er</ex>vir</expan></choice></l>'
+            expect(
+                controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2"><choice><abbr>ſvir</abbr><expan>s<ex>er</ex>vir</expan></choice></l>')
+        end
+        it "should parse choice tag 4 and convert unicode character" do
+            line = '<l n="2"><choice><abbr>&#xa751;</abbr><expan>p<ex>er</ex></expan></choice></l>'
+            expect(
+                controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2"><choice><abbr>ꝑ</abbr><expan>p<ex>er</ex></expan></choice></l>')
+        end
         it "should parse a corr tag" do
             line = '<l n="2">E <corr>pluy</corr> de tre any stete in la çitie</l>'
             expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E <corr>pluy</corr> de tre any stete in la çitie</l>')
