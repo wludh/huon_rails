@@ -8,3 +8,4 @@ env:
   - DB=postgresql
 script:
   - bundle exec rake
+  - bundle exec rspec spec
