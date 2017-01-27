@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wludh/huon_rails.svg?branch=master)](https://travis-ci.org/wludh/huon_rails)
+
 # README
 
 The Huon project is a Ruby on Rails app currently hosted on Heroku. The following readme will set a new contributor up for working on the project and walk through the repository's contents.

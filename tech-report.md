@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wludh/huon_rails.svg?branch=master)](https://travis-ci.org/wludh/huon_rails)
+
 # Technical Report
 
 What follows is a technical report of the Huon d'Auvergne Digital Edition. This report consists of two parts:
