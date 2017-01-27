@@ -1,14 +1,9 @@
-
-// gives the selected laisse the class you want.
-//takes the input field and turns it into a laisse number
-
 function hide_footer(){
     // hides the footer
     if(document.getElementById('TEI_reader') !== null){
         $(".footer").css('display','none');
     }
 }
-
 
 function assign_note_numbers(){
     // gets the xml id of the nodes and assigns them once the page has loaded.
@@ -22,25 +17,37 @@ function assign_note_numbers(){
 $(function annotation_reveal(){
     // reveal an annotation when clicked
     $('sup').click(function(){
-        var annotation_number = this.parentNode.getAttribute('rightnum');
-        $('#TEI_reader').unwrap();
-        $("footnote").removeClass('visible');
-        $('#note-header').addClass('visible');
-        $('note').removeClass('visible');
+        hide_non_active_panels();
         $('.note-contents note').addClass('hidden');
-        // var anno_number = $("this").attr('n');
+        var annotation_number = this.parentNode.getAttribute('rightnum');
+        $('#note-header').addClass('visible');
         $("note[xml=" + String(annotation_number) + "]").addClass("visible");
-        $('#back_to_intro').addClass('visible');
-        $('#note-header').removeClass('hidden');
-        $('.note-contents').removeClass('hidden');
+        $('.note-contents.hidden').removeClass('hidden');
         $('#notes').css('display', 'block');
-        $('#TEI_reader').css('margin-left', '0%');
+        open_sidepanel();
     });
 });
+
+function open_sidepanel(){
+    $('#TEI_reader').unwrap();
+    $('#TEI_reader').css('margin-left', '0%');
+}
+
+function hide_image(){
+    $('#image-header').removeClass('visible');
+    $('#ms-image').removeClass('visible');
+}
+
+function hide_notes(){
+    $('note.visible').removeClass('visible');
+    $('#note-header').removeClass('visible');
+}
 
 $(function close_sidepanel(){
     // close the notes panel when the x is clicked
     $('#note-close').click(function(){
+        hide_notes();
+        hide_image();
        var notePanel = document.getElementById("notes");
        var bibToggle = document.getElementById("bibToggle");
        if (notePanel.style.display != "none") {
@@ -51,6 +58,15 @@ $(function close_sidepanel(){
        }
     });
 });
+
+function hide_non_active_panels(){
+    if ($('#ms-image.visible').length > 0){
+        hide_image();
+    }
+    else if ($('#note-header.visible').length > 0){
+        hide_notes();
+    }
+}
 
 // Not implementing yet, but will be used for the diplomatic/scribal bits.
 function toggle_sic_on(){
@@ -84,7 +100,6 @@ function page_prep(){
 $(function corr_toggle(){
     // if the corrections checkbox is checked, corr tags get highlighted
     $('#corrCheckbox').click(function(){
-        console.log('hi');
         var checked = $('#corrCheckbox').prop('checked');
         if (checked) {
             console.log('on');
@@ -99,7 +114,12 @@ $(function corr_toggle(){
 
 $(function image_reveal(){
     $('#image-reveal').click(function(){
-    $('#ms-image-container').css('display', 'inline');
+        hide_non_active_panels();
+        $('#image-header').addClass('visible');
+        $('#ms-image').addClass('visible');
+        $('#notes').css('display', 'block');
+        $('#ms-image').css('display', 'block !important');
+        open_sidepanel();
     });
 });
 
