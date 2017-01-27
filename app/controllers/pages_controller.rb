@@ -153,14 +153,12 @@ class PagesController < ApplicationController
                  end 
              for child in l.children 
                  if child.name == 'choice' 
-                    puts child
                     result += parse_choice(child)
                  elsif child.name == 'ex'     
                     result += parse_tag(child) 
                 elsif ['cb', 'corr', 'rubric', 'ab', 'lb'].include? child.name
                     result += parse_tag(child)
                 elsif child.name == 'note'
-                    puts(child)
                     result += parse_note(child, @@internal_note_counter)
                     @@internal_note_counter += 1
                  else 

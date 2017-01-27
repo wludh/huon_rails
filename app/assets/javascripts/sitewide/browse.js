@@ -89,6 +89,11 @@ function reveal_corrections(){
     }
 }
 
+$(function(){
+    $('#image-reveal').click(function(){
+    $('#ms-image-container').css('display', 'inline');
+    });
+});
 
 $(document).ready(function(){
     page_prep();

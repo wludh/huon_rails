@@ -23,6 +23,7 @@
                 <form id="corr-form">
                 <label for="corrCheckbox" id="corr-label"> Corrections</label>
                 <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;" onchange="reveal_corrections()"> </form>
+                | <div id="image-reveal">MS Image</div>
                 <hr id="reader-hr">
             </div>
 <!--             </div>
@@ -36,6 +37,9 @@
             <div class="note-contents hidden">
             <!-- use javascript to bring out the notes here. -->
                 <%= @current_notes %>
+            </div>
+            <div id="ms-image-container">
+                <%= image_tag('kittens.jpg', id: 'ms-image', alt: 'Manuscript image') %>
             </div>
     </div>
 <div id="reader-center-div">

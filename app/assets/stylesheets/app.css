@@ -717,3 +717,11 @@ line-height: 2.8125rem;
 #tei_wrapper{
   width: 37% !important;
 }
+
+#image-reveal{
+  display: inline;
+}
+
+#ms-image-container{
+  display: none;
+}
