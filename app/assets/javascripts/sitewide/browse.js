@@ -3,36 +3,24 @@
 //takes the input field and turns it into a laisse number
 
 function hide_footer(){
+    // hides the footer
     if(document.getElementById('TEI_reader') !== null){
         $(".footer").css('display','none');
     }
 }
 
-function link_note_numbers(xml_id){
-    console.log('===');
-    console.log(xml_id);
-    console.log($("note[xml=" + String(xml_id) + "]"));
-    var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
-    console.log(the_num);
-    $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
+
+function assign_note_numbers(){
+    // gets the xml id of the nodes and assigns them once the page has loaded.
+        $.each($('sup'), function(item){
+        var xml_id = this.parentNode.getAttribute('rightnum');
+        var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
+        $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
+    });
 }
 
-// function annotation_reveal(annotation_number){
-//     $('#TEI_reader').unwrap();
-//     $("footnote").removeClass('visible');
-//     $('#note-header').addClass('visible');
-//     $('note').removeClass('visible');
-//     $('.note-contents note').addClass('hidden');
-//     // var anno_number = $("this").attr('n');
-//     $("note[xml=" + String(annotation_number) + "]").addClass("visible");
-//     $('#back_to_intro').addClass('visible');
-//     $('#note-header').removeClass('hidden');
-//     $('.note-contents').removeClass('hidden');
-//     $('#notes').css('display', 'block');
-//     $('#TEI_reader').css('margin-left', '0%');
-// }
-
-$(function(){
+$(function annotation_reveal(){
+    // reveal an annotation when clicked
     $('sup').click(function(){
         var annotation_number = this.parentNode.getAttribute('rightnum');
         $('#TEI_reader').unwrap();
@@ -50,7 +38,8 @@ $(function(){
     });
 });
 
-$(function (){
+$(function close_sidepanel(){
+    // close the notes panel when the x is clicked
     $('#note-close').click(function(){
        var notePanel = document.getElementById("notes");
        var bibToggle = document.getElementById("bibToggle");
@@ -63,6 +52,7 @@ $(function (){
     });
 });
 
+// Not implementing yet, but will be used for the diplomatic/scribal bits.
 function toggle_sic_on(){
     $("corr").removeClass('visible');
     $('sic').addClass('visible');
@@ -74,6 +64,7 @@ function toggle_sic_off(){
 }
 
 function page_prep(){
+    // prepare the page on load
     var current_laisse_long = $('.translation_missing').text();
     if(current_laisse_long){
          var re = new RegExp('[0-9]*\/');
@@ -86,10 +77,11 @@ function page_prep(){
         $("#bot_laisse").val(1);
     }
     // reveal_laisse();
+    assign_note_numbers();
     hide_footer();
 }
 
-$(function(){
+$(function corr_toggle(){
     // if the corrections checkbox is checked, corr tags get highlighted
     $('#corrCheckbox').click(function(){
         console.log('hi');
@@ -105,7 +97,7 @@ $(function(){
     });
 });
 
-$(function(){
+$(function image_reveal(){
     $('#image-reveal').click(function(){
     $('#ms-image-container').css('display', 'inline');
     });

@@ -81,7 +81,7 @@ class PagesController < ApplicationController
         xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
         note_id = internal_note_counter.to_s
         # NOTE: should put this in a class instead
-        ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup>' + '<script type="text/javascript"> link_note_numbers("' + xmlid + '")</script>' + '</sup></note>').html_safe
+        ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup>' + '</sup></note>').html_safe
     end
 
     def parse_pb(line)
