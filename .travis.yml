@@ -4,7 +4,6 @@ rvm:
 - 2.2.3
 env:
 - DB=sqlite3
-- DB=postgresql
 script:
 - bundle exec rake
 - bundle exec rspec spec
