@@ -62,8 +62,17 @@ function toggle_sic_off(){
 }
 
 function page_prep(){
-    $("#selected_laisse").val(1);
-    $("#bot_laisse").val(1);
+    var current_laisse_long = $('.translation_missing').text();
+    if(current_laisse_long){
+         var re = new RegExp('[0-9]*\/');
+        var current_laisse = re.exec(current_laisse_long)[0].slice(0,-1);
+        $("#selected_laisse").val(current_laisse);
+        $("#bot_laisse").val(current_laisse);
+    }
+    else{
+        $("#selected_laisse").val(1);
+        $("#bot_laisse").val(1);
+    }
     // reveal_laisse();
     hide_footer();
 }
