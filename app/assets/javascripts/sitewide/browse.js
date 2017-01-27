@@ -77,17 +77,20 @@ function page_prep(){
     hide_footer();
 }
 
-function reveal_corrections(){
-    var checked = $('#corrCheckbox').prop('checked');
-    if (checked) {
-        console.log('on');
-        $('corr').css('color', 'red');
-    }
-    else {
-        console.log('off');
-        $('corr').css('color', 'black');
-    }
-}
+$(function(){
+    $('#corrCheckbox').click(function(){
+        console.log('hi');
+        var checked = $('#corrCheckbox').prop('checked');
+        if (checked) {
+            console.log('on');
+            $('corr').css('color', 'red');
+        }
+        else {
+            console.log('off');
+            $('corr').css('color', 'black');
+        }
+    });
+});
 
 $(function(){
     $('#image-reveal').click(function(){
