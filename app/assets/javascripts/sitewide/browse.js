@@ -17,20 +17,38 @@ function link_note_numbers(xml_id){
     $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
 }
 
-function annotation_reveal(annotation_number){
-    $('#TEI_reader').unwrap();
-    $("footnote").removeClass('visible');
-    $('#note-header').addClass('visible');
-    $('note').removeClass('visible');
-    $('.note-contents note').addClass('hidden');
-    // var anno_number = $("this").attr('n');
-    $("note[xml=" + String(annotation_number) + "]").addClass("visible");
-    $('#back_to_intro').addClass('visible');
-    $('#note-header').removeClass('hidden');
-    $('.note-contents').removeClass('hidden');
-    $('#notes').css('display', 'block');
-    $('#TEI_reader').css('margin-left', '0%');
-}
+// function annotation_reveal(annotation_number){
+//     $('#TEI_reader').unwrap();
+//     $("footnote").removeClass('visible');
+//     $('#note-header').addClass('visible');
+//     $('note').removeClass('visible');
+//     $('.note-contents note').addClass('hidden');
+//     // var anno_number = $("this").attr('n');
+//     $("note[xml=" + String(annotation_number) + "]").addClass("visible");
+//     $('#back_to_intro').addClass('visible');
+//     $('#note-header').removeClass('hidden');
+//     $('.note-contents').removeClass('hidden');
+//     $('#notes').css('display', 'block');
+//     $('#TEI_reader').css('margin-left', '0%');
+// }
+
+$(function(){
+    $('sup').click(function(){
+        var annotation_number = this.parentNode.getAttribute('rightnum');
+        $('#TEI_reader').unwrap();
+        $("footnote").removeClass('visible');
+        $('#note-header').addClass('visible');
+        $('note').removeClass('visible');
+        $('.note-contents note').addClass('hidden');
+        // var anno_number = $("this").attr('n');
+        $("note[xml=" + String(annotation_number) + "]").addClass("visible");
+        $('#back_to_intro').addClass('visible');
+        $('#note-header').removeClass('hidden');
+        $('.note-contents').removeClass('hidden');
+        $('#notes').css('display', 'block');
+        $('#TEI_reader').css('margin-left', '0%');
+    });
+});
 
 $(function (){
     $('#note-close').click(function(){
