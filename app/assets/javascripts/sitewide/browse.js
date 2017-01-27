@@ -1,14 +1,6 @@
 
 // gives the selected laisse the class you want.
 //takes the input field and turns it into a laisse number
-function display_intro(){
-    $('#notes').removeClass('visible');
-    $('#hidden-introduction').addClass('visible');
-    $('#note-header').removeClass('visible');
-    $('#note-header').addClass('hidden');
-    $('.note-contents').addClass('hidden');
-    $('.note-contents').removeClass('visible');
-}
 
 function hide_footer(){
     if(document.getElementById('TEI_reader') !== null){
@@ -78,6 +70,7 @@ function page_prep(){
 }
 
 $(function(){
+    // if the corrections checkbox is checked, corr tags get highlighted
     $('#corrCheckbox').click(function(){
         console.log('hi');
         var checked = $('#corrCheckbox').prop('checked');
