@@ -81,6 +81,7 @@ function toggle_sic_off(){
 
 function page_prep(){
     // prepare the page on load
+    assign_note_numbers();
     var current_laisse_long = $('.translation_missing').text();
     if(current_laisse_long){
          var re = new RegExp('[0-9]*\/');
@@ -92,8 +93,6 @@ function page_prep(){
         $("#selected_laisse").val(1);
         $("#bot_laisse").val(1);
     }
-    // reveal_laisse();
-    assign_note_numbers();
     hide_footer();
 }
 
