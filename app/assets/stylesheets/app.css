@@ -695,6 +695,7 @@ line-height: 2.8125rem;
   padding-top: 68px;
   width: 40%;
   border-left: 1px #DDDDDD solid;
+  height: 100%;
 }
 
 #note-close{
@@ -703,6 +704,8 @@ line-height: 2.8125rem;
   cursor: pointer;
   cursor: hand;
 }
+
+
 #reader-center-div{
       margin-left: 27%;
 }
@@ -727,6 +730,8 @@ line-height: 2.8125rem;
 
 #image-reveal{
   display: inline;
+  cursor: pointer;
+  cursor: hand;
 }
 
 #ms-image{
