@@ -85,7 +85,7 @@ Though keep in mind that this only checks to make sure that the current tests wo
 
 /spec contains the tests written for the project that ensure updates haven't broken any components. Testing with Rails is a bit complicated and likely out of the purview of someone who is just coming to the project for the first time. We will try to have test coverage up to date by the time is completed so that you don't need to any more, but any signifcant new features will need to have associated tests so that they can be integrated into the workflow. Until then, you can just run the test suite to make sure everything works.
 
-The system is set up for continuous integration using [Travis CI](travis-ci.org/). This means that the tests for the project will be run whenever pushing code to the repository. If they pass, the code will be automatically sent along to update the live site. If they fail, they should not update the live site. In addition, Travis is set up to send a notification to the group's slack channel after running the tests to let the group know if the build passed or failed. These steps are meant to enforce good coding practices.
+The system is set up for continuous integration using [Travis CI](travis-ci.org/). This means that the tests for the project will be run whenever pushing code to the repository. If they pass, the code will be automatically sent along to update the live site. If they fail, they should not update the live site. In addition, Travis is set up to send a notification to the group's slack channel after running the tests to let the group know if the build passed or failed. These steps are meant to enforce good coding practices. Note, though, that this won't test CSS or. So styling is up to you to monitor.
 
 ## Zotero
 

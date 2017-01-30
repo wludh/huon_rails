@@ -31,6 +31,7 @@ $(function annotation_reveal(){
 function open_sidepanel(){
     $('#TEI_reader').unwrap();
     $('#TEI_reader').css('margin-left', '0%');
+    $('#tei_wrapper').css('border-right', '1px #DDDDDD solid');
 }
 
 function hide_image(){
@@ -51,8 +52,9 @@ $(function close_sidepanel(){
        var notePanel = document.getElementById("notes");
        var bibToggle = document.getElementById("bibToggle");
        if (notePanel.style.display != "none") {
-          notePanel.style.display = "none";
-          $('#TEI_reader').wrap('<div id="reader-center-div">');
+            notePanel.style.display = "none";
+            $('#TEI_reader').wrap('<div id="reader-center-div">');
+            $('#tei_wrapper').css('border-right', 'none');
        } else {
           notePanel.style.display = "block";
        }
