@@ -7006,8 +7006,8 @@ top-bar{
 @media screen and (min-width: 1100px){
   #notes note{
     margin: 0;
-    padding-top:16px;
-    padding-bottom: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     padding-right: 24px;
   }
 }

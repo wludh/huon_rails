@@ -61,7 +61,7 @@ class PagesController < ApplicationController
             # puts note
             # puts note_counter
             # puts note.attributes['resp'].value
-            html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
+            html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
             note_counter += 1
         end
         # @current_notes = {}

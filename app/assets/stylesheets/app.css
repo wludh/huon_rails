@@ -521,6 +521,10 @@ header{
   display: none;
 }
 
+#note-contents note{
+
+}
+
 #back_to_intro{
   display: none;
   cursor: pointer;
@@ -552,9 +556,9 @@ header{
   color: #0078a0;
 }
 
-#resp{
+.resp{
   float: right;
-  padding: 16px;
+  padding: 24px;
 }
 
 
@@ -696,6 +700,7 @@ line-height: 2.8125rem;
 
 #note-close{
   float: left;
+  margin-top: -2px;
 }
 #reader-center-div{
       margin-left: 27%;
