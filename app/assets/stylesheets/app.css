@@ -666,10 +666,9 @@ td{
 #reader-nav{
   width: 100%;
   position: fixed;
-  height: 48px;
-  z-index: 5000;
+  z-index: 100;
   padding-top: 48px;
-
+  background-color: rgba(245,245,245,1)
 }
 
 #sub-title{
