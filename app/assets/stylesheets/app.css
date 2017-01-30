@@ -700,6 +700,8 @@ line-height: 2.8125rem;
 #note-close{
   float: left;
   margin-top: -2px;
+  cursor: pointer;
+  cursor: hand;
 }
 #reader-center-div{
       margin-left: 27%;
