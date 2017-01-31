@@ -735,6 +735,11 @@ line-height: 2.8125rem;
 #ms-image{
 }
 
+#ms-image-container{
+    margin: 1.5em auto 1.5em auto;
+    padding: .5em 1.5em 1.5em 1.5em;
+}
+
 #page-break{
   padding-right: 40px;
 }
