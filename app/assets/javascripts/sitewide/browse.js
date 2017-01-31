@@ -25,7 +25,7 @@ var ready;
             $('#note-header').addClass('visible');
             $("note[xml=" + String(annotation_number) + "]").addClass("visible");
             $('.note-contents.hidden').removeClass('hidden');
-            $('#notes').css('display', 'block');
+            $('#side-panel').css('display', 'block');
             open_sidepanel();
         });
     });
@@ -39,6 +39,7 @@ var ready;
     function hide_image(){
         $('#image-header').removeClass('visible');
         $('#ms-image').removeClass('visible');
+        $('#ms-image-container').removeClass('visible');
     }
 
     function hide_notes(){
@@ -46,12 +47,18 @@ var ready;
         $('#note-header').removeClass('visible');
     }
 
+    function hide_tei(){
+        $('#tei-embed-container').removeClass('visible');
+        $('#tei-embed-header').removeClass('visible');
+        $('#tei-embed').removeClass('visible');
+    }
+
     $(function close_sidepanel(){
         // close the notes panel when the x is clicked
         $('#note-close').click(function(){
             hide_notes();
             hide_image();
-           var notePanel = document.getElementById("notes");
+           var notePanel = document.getElementById("side-panel");
            var bibToggle = document.getElementById("bibToggle");
            if (notePanel.style.display != "none") {
                 notePanel.style.display = "none";
@@ -67,8 +74,11 @@ var ready;
         if ($('#ms-image.visible').length > 0){
             hide_image();
         }
-        else if ($('#note-header.visible').length > 0){
+        if ($('#note-header.visible').length > 0){
             hide_notes();
+        }
+        if ($('#tei-embed-header.visible').length > 0){
+            hide_tei();
         }
     }
 
@@ -119,9 +129,21 @@ var ready;
         $('#image-reveal').click(function(){
             hide_non_active_panels();
             $('#image-header').addClass('visible');
+            $('#ms-image-container').addClass('visible');
             $('#ms-image').addClass('visible');
-            $('#notes').css('display', 'block');
+            $('#side-panel').css('display', 'block');
             $('#ms-image').css('display', 'block !important');
+            open_sidepanel();
+        });
+    });
+
+    $(function tei_reveal(){
+        $('#tei-reveal').click(function(){
+            hide_non_active_panels();
+            $('#tei-embed-container').addClass('visible');
+            $('#tei-embed').addClass('visible');
+            $('#tei-embed-header').addClass('visible');
+            $('#side-panel').css('display', 'block');
             open_sidepanel();
         });
     });

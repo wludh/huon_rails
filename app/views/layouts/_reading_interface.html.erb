@@ -24,6 +24,7 @@
                 <label for="corrCheckbox" id="corr-label"> Corrections</label>
                 <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;"> </form>
                 | <div id="image-reveal">MS Image</div>
+                | <div id="tei-reveal">TEI Embed</div>
                 <hr id="reader-hr">
             </div>
 <!--             </div>
@@ -31,7 +32,7 @@
         <div id="clear"></div>
 
 </div>
-    <div id="notes" style="display: none;">
+    <div id="side-panel" style="display: none;">
     <%= image_tag('closePanel.png', class: 'closePanel', id: 'note-close', alt: 'X') %>
         <div id="note-header" class="hidden">Notes</div>
         <div id="image-header" class="hidden">Manuscript Image</div>
@@ -39,8 +40,14 @@
             <!-- use javascript to bring out the notes here. -->
                 <%= @current_notes %>
             </div>
-            <div id="ms-image-container">
+            <div id="ms-image-container" style="display: none;">
                 <%= image_tag('kittens.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
+            </div>
+            <div id="tei-embed-container" style="display: none;">
+                <div id="tei-embed-header">TEI HELP</div>
+                <div id="tei-embed">
+                    <code data-gist-id= <%= @gist_id %> ></code>
+                </div>
             </div>
     </div>
 <div id="reader-center-div">

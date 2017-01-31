@@ -15,3 +15,4 @@
 //= require turbolinks
 //= require_tree ./sitewide
 //= require_tree ./foundation
+//= require gist-embed

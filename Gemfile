@@ -72,3 +72,5 @@ group :development do
 end
 
 gem 'travis'
+gem 'gist-embed-rails'
+gem 'gist'
