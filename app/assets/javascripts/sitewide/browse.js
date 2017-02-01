@@ -137,14 +137,37 @@ var ready;
         });
     });
 
+    // $('#tei-reveal').click(function(){
+    //         $('#loading-gif').css('display', 'inline');
+    //         $('#loading-gif').addClass('visible');
+    // });
+
     $(function tei_reveal(){
         $('#tei-reveal').click(function(){
-            hide_non_active_panels();
-            $('#tei-embed-container').addClass('visible');
-            $('#tei-embed').addClass('visible');
+            // $('#loading-gif').css('display', 'inline');
+            // $('#loading-gif').addClass('visible');
+            // $('#loading-gif').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader.gif" />');
             $('#tei-embed-header').addClass('visible');
             $('#side-panel').css('display', 'block');
+            $('#tei-embed-container').addClass('visible');
+            $('#tei-embed-header').text('Loading TEI');
+            $('#tei-embed-container').css('display', 'inline');
+            hide_non_active_panels();
             open_sidepanel();
+
+            $.ajax({
+                success: function(){
+                    $('#tei-embed-header').text('TEI');
+                    $('#tei-embed').addClass('visible');
+                    $('#tei-embed').css('display', 'block');
+                }
+            });
+            $.ajax({
+                success:function(){
+                    $('#loading-gif').removeClass('visible');
+                    $('#loading-gif').css('display', 'none');
+                }
+            });
         });
     });
     page_prep();

@@ -24,7 +24,7 @@
                 <label for="corrCheckbox" id="corr-label"> Corrections</label>
                 <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;"> </form>
                 | <div id="image-reveal">MS Image</div>
-                | <div id="tei-reveal">TEI Embed</div>
+                | <div id="tei-reveal">TEI Embed</div><div id="loading-gif"></div><%#= image_tag('ajax-loader.gif', id: 'loading-gif', class: 'hidden', alt: 'loading gif')%>
                 <hr id="reader-hr">
             </div>
 <!--             </div>
@@ -44,8 +44,8 @@
                 <%= image_tag('kittens.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
             </div>
             <div id="tei-embed-container" style="display: none;">
-                <div id="tei-embed-header">TEI HELP</div>
-                <div id="tei-embed">
+                <div id="tei-embed-header"></div>
+                <div id="tei-embed" style="display:none;">
                     <code data-gist-id= <%= @gist_id %> ></code>
                 </div>
             </div>
