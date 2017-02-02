@@ -750,8 +750,7 @@ line-height: 2.8125rem;
 code, pre{
   height: 600px;
   width: 120%;
-  border: 1px solid gray;
-  font-size: inherit !important;
+  border: 1px solid #DDDDDD;
   border-bottom-style: solid;
   overflow-y: scroll;
   overflow-x: scroll;

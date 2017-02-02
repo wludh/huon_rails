@@ -38,7 +38,6 @@ class PagesController < ApplicationController
             @@internal_note_counter = 1
             @current_notes = parse_and_store_notes(@note_numbers, tei_file)
             @gist_id = get_gist_id(tei_file)
-            # @doc_copy = doc.dup
             @simple_tei = parsing_for_tei_embed(doc, params[:page])
             return @title, @line_groups, @gist_id, @simple_tei
         end
@@ -55,11 +54,9 @@ class PagesController < ApplicationController
         doc.at_css('body').add_child(active_laisse)
         return doc.to_xml
     end
-    #     puts doc
-    #     return doc.to_xml
-    # end
 
     def import_notes(tei_file)
+        # Import notes from TEI file.
         doc = File.open("./lib/assets/#{tei_file}"){
             |f| Nokogiri::XML(f)
         }
@@ -67,7 +64,6 @@ class PagesController < ApplicationController
     end
 
     def parse_and_store_notes(note_numbers, tei_file)
-        # note that you're not actually using the note numbers just yet
         # you're here trying to link up the list of note numbers with the notes from the file
         # takes the list of note numbers that you want and pulls them out of the tei file.
         manuscript_to_notes = {

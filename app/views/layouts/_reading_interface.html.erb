@@ -18,8 +18,6 @@
 
                 <%= link_to('Intro', url_for(params.merge(:edition => nil))) %>
                 |
-                <%= link_to('TEI', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %>
-                |
                 <form id="corr-form">
                 <label for="corrCheckbox" id="corr-label"> Corrections</label>
                 <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;"> </form>
@@ -45,9 +43,10 @@
             </div>
             <div id="tei-embed-container" class="hidden">
                 <div id="tei-embed-header"></div>
+                You are viewing TEI for this laisse only. TEI for the whole manuscript is viewable on
+                 <%= link_to('GitHub', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %>.
                 <div id="tei-embed" class="hidden">
-                    <!-- <code data-gist-id= <%= @gist_id %> ></code> -->
-                    <pre><%= @simple_tei%></pre>
+                    <pre><%= @simple_tei %></pre>
                 </div>
             </div>
     </div>

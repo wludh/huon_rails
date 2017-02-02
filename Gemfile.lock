@@ -81,8 +81,6 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent (>= 2.7)
       net-http-pipeline
-    gist (4.5.0)
-    gist-embed-rails (2.0.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     highline (1.7.8)
@@ -240,8 +238,6 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.1.0)
-  gist
-  gist-embed-rails
   i18n
   jbuilder (~> 2.0)
   jquery-rails
@@ -269,4 +265,4 @@ RUBY VERSION
    ruby 2.2.3p173
 
 BUNDLED WITH
-   1.13.7
+   1.14.3
