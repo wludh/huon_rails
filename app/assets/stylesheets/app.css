@@ -533,7 +533,7 @@ header{
 }
 
 .hidden{
-  display: none !important;
+  display: none;
 }
 
 .lines note sup{

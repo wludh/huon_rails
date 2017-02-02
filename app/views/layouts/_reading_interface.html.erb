@@ -32,7 +32,7 @@
         <div id="clear"></div>
 
 </div>
-    <div id="side-panel" style="display: none;">
+    <div id="side-panel" class="hidden">
     <%= image_tag('closePanel.png', class: 'closePanel', id: 'note-close', alt: 'X') %>
         <div id="note-header" class="hidden">Notes</div>
         <div id="image-header" class="hidden">Manuscript Image</div>
@@ -40,12 +40,12 @@
             <!-- use javascript to bring out the notes here. -->
                 <%= @current_notes %>
             </div>
-            <div id="ms-image-container" style="display: none;">
+            <div id="ms-image-container" class="hidden">
                 <%= image_tag('kittens.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
             </div>
-            <div id="tei-embed-container" style="display: none;">
+            <div id="tei-embed-container" class="hidden">
                 <div id="tei-embed-header"></div>
-                <div id="tei-embed" style="display:none;">
+                <div id="tei-embed" class="hidden">
                     <code data-gist-id= <%= @gist_id %> ></code>
                 </div>
             </div>
