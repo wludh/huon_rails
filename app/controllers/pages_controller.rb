@@ -46,12 +46,10 @@ class PagesController < ApplicationController
 
 
     def parsing_for_tei_embed(doc, page_num)
-        puts "========"
+        # restructures TEI and throws away all but the laisse we're looking at.
         page_num ||= "1"
         active_laisse = doc.search('lg[n="'+ page_num + '"]')
         laisses = doc.search('lg')
-        puts "&&&&"
-        puts doc
         laisses.remove()
         doc.xpath('//text()').find_all {|t| t.to_s.strip == ''}.map(&:remove)
         doc.at_css('body').add_child(active_laisse)
