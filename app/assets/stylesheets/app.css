@@ -747,10 +747,11 @@ line-height: 2.8125rem;
   display: none;
 }
 
-code{
+code, pre{
   height: 600px;
   width: 120%;
-  border: 1px solid black;
+  border: 1px solid gray;
+  border-bottom-style: solid;
   overflow-y: scroll;
   overflow-x: scroll;
   margin: 1.5em auto 1.5em auto;
