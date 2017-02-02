@@ -1,20 +1,5 @@
 require 'roman-numerals'
 
-class Nokogiri::XML::Document
-  def remove_empty_lines!
-    self.xpath("//text()").each { |text|
-        # problem here is that it doesn't seem to be matching the actual blank lines. It matches other nodes though.
-        if text.content == "\n                "
-            puts "======"
-            puts "|" + text.content.html_safe + "|"
-            text.content = text.content.gsub(/\n(\s*\n)+/,"\nHIFUCKER")
-            puts "|" + text.content.html_safe + "|"
-            puts "======"
-        end
-    }
-    return self
-  end
-end
 class PagesController < ApplicationController
 
 	skip_before_action :verify_authenticity_token
@@ -53,6 +38,7 @@ class PagesController < ApplicationController
             @@internal_note_counter = 1
             @current_notes = parse_and_store_notes(@note_numbers, tei_file)
             @gist_id = get_gist_id(tei_file)
+            # @doc_copy = doc.dup
             @simple_tei = parsing_for_tei_embed(doc, params[:page])
             return @title, @line_groups, @gist_id, @simple_tei
         end
@@ -60,17 +46,20 @@ class PagesController < ApplicationController
 
 
     def parsing_for_tei_embed(doc, page_num)
-        # call with params[:page]
-        puts "========"
         puts "========"
         page_num ||= "1"
         active_laisse = doc.search('lg[n="'+ page_num + '"]')
         laisses = doc.search('lg')
+        puts "&&&&"
+        puts doc
         laisses.remove()
+        doc.xpath('//text()').find_all {|t| t.to_s.strip == ''}.map(&:remove)
         doc.at_css('body').add_child(active_laisse)
-        doc = doc.remove_empty_lines!
         return doc.to_xml
     end
+    #     puts doc
+    #     return doc.to_xml
+    # end
 
     def import_notes(tei_file)
         doc = File.open("./lib/assets/#{tei_file}"){
