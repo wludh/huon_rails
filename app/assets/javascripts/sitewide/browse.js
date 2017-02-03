@@ -11,12 +11,10 @@ var ready;
         // gets the xml id of the nodes and assigns them once the page has loaded.
             $.each($('sup'), function(item){
             var xml_id = this.parentNode.getAttribute('rightnum');
-            console.log(xml_id);
             var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
             if (the_num == "undefined"){
                 throw 'error assigning note number for xml_id ' + xml_id;
             }
-            console.log(the_num);
             $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
         });
     }

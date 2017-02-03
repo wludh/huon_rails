@@ -15,15 +15,6 @@ class PagesController < ApplicationController
             }
     end
 
-    def get_gist_id(tei_file)
-        # given a filename will pull out the gist id
-        gist_hash = {"p.html.erb" => "936c4bc080d8c8f4d792121c196b3e37",
-                    "t.html.erb" => "effdd0b42d2a3cda5dcafc22b1691280",
-                    "br.html.erb" => "b6fc5dcdde2305dccfa3e85204dc03a3",
-                    "b.html.erb" => "ab8729c963cfd4ec11e0e1363b25c8ea"}
-        gist_hash[tei_file[0..-5] + '.html.erb']
-    end
-
     def parse_tei(tei_file, testing=false)
         unless params.key?('edition') or not testing
             doc = import_tei(tei_file)
@@ -37,7 +28,6 @@ class PagesController < ApplicationController
             @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
             @@internal_note_counter = 1
             @current_notes = parse_and_store_notes(@note_numbers, tei_file)
-            @gist_id = get_gist_id(tei_file)
             @simple_tei = parsing_for_tei_embed(doc, params[:page])
             return @title, @line_groups, @gist_id, @simple_tei
         end

@@ -569,17 +569,6 @@ pre {
   overflow: auto;
 }
 
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
 
 /* Forms
    ========================================================================== */
@@ -4486,16 +4475,6 @@ small {
   font-size: 60%;
   line-height: inherit; }
 
-code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
-  color: #333333;
-  background-color: #f8f8f8;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #dfdfdf;
-  padding: 0.125rem 0.3125rem 0.0625rem; }
-
 /* Lists */
 ul,
 ol,
@@ -7301,20 +7280,6 @@ html{
   overflow-x:hidden;
 }
 
-.background-image{
-  /*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.4))),url("/assets/hours_compressed.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
-  background-image: -o-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("/assets/hours_compressed.jpg");*/
-  background-position: top right;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
 /*dropdown/side menus*/
 
 ul li ul {
