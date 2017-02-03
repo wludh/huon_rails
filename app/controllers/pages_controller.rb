@@ -71,29 +71,15 @@ class PagesController < ApplicationController
         html = ""
         note_counter = 1
         for note in @all_notes
-            # puts note
-            # puts note_counter
-            # puts note.attributes['resp'].value
             html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
             note_counter += 1
         end
-        # @current_notes = {}
-        # for when/if you can eventually pull out only those notes.
-        # for number in line_group_numbers
-        #     @current_notes[number] = ()
-        # end
-        # puts @all_notes.xpath('@xmlid:')
         html.html_safe
     end
 
     def parse_note(child, internal_note_counter)
-        # puts "&&&&&&&"
-        # puts "parse_note"
-        # puts child
-        # puts child.values.to_s
         xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
         note_id = internal_note_counter.to_s
-        # NOTE: should put this in a class instead
         ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup>' + '</sup></note>').html_safe
     end
 
