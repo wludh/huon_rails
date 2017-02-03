@@ -596,6 +596,7 @@ td{
 #corr-label{
   float: none;
   display: inline;
+  text-decoration: none;
 }
 
 #tei_wrapper{
