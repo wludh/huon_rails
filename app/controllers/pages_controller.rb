@@ -3,13 +3,16 @@ require 'roman-numerals'
 class PagesController < ApplicationController
 
 	skip_before_action :verify_authenticity_token
+    # patch for using will-paginate gem to paginate through laisses
     require 'active_support/core_ext/array/conversions.rb'
-    
+
     def show
+        # convert the pages parameter into the tidy slug
         render template: "pages/#{params[:page]}"
     end
 
     def import_tei(tei_file)
+        # take the tei file name and return a nokogiri object
         return File.open( "./lib/assets/#{tei_file}" ) {
                 |f| Nokogiri::XML(f)
             }
@@ -17,18 +20,42 @@ class PagesController < ApplicationController
 
     def parse_tei(tei_file, testing=false)
         unless params.key?('edition') or not testing
+            # look for the edition param to let us know if we're at the intro or not.
+            # if no page / if at edition, show the intro.
+
+            # import the tei
             doc = import_tei(tei_file)
+
+            # get the title
             @title = doc.search('title').first.text
+
+            # get the introduction
             @introduction = doc.search('note').first.text
+
             return @title, @introduction
         else
+
+            # get the doc
             doc = import_tei(tei_file)
+
+            # get the title
             @title = doc.search('title').first.text
+
+            # get the introduction
             @introduction = doc.search('note').first.text
+
+            # get all line groups but paginate through them so only showing the current one.
             @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
+
+            # keeping note numbers consistent across laisses
             @@internal_note_counter = 1
+
+            # current notes for this laisse
             @current_notes = parse_and_store_notes(@note_numbers, tei_file)
+
+            # chunk up the TEI so we only see the laisse we are on.
             @simple_tei = parsing_for_tei_embed(doc, params[:page])
+
             return @title, @line_groups, @gist_id, @simple_tei
         end
     end
@@ -36,12 +63,23 @@ class PagesController < ApplicationController
 
     def parsing_for_tei_embed(doc, page_num)
         # restructures TEI and throws away all but the laisse we're looking at.
+
+        # it no page_num is present assume page one.
         page_num ||= "1"
+
+        # grab the active laisse and store it for next step
         active_laisse = doc.search('lg[n="'+ page_num + '"]')
+
+        # get all laisses and throw them away
         laisses = doc.search('lg')
         laisses.remove()
+
+        # strip out all empty lines (to offset wierd quirk of Nokogiri's when it removes nodes.)
         doc.xpath('//text()').find_all {|t| t.to_s.strip == ''}.map(&:remove)
+
+        # add the active laisse back in.
         doc.at_css('body').add_child(active_laisse)
+
         return doc.to_xml
     end
 
@@ -54,20 +92,25 @@ class PagesController < ApplicationController
     end
 
     def parse_and_store_notes(note_numbers, tei_file)
-        # you're here trying to link up the list of note numbers with the notes from the file
         # takes the list of note numbers that you want and pulls them out of the tei file.
+        # ms file name to note file name
         manuscript_to_notes = {
             'p.xml' => 'notes-p.xml',
             'br.xml' => 'notes-br.xml',
             't.xml' => 'notes-t.xml',
             'b.xml' => 'notes-b.xml'
         }
+
+        # get the author and note nodes from the notes file
         @authors, @all_notes = import_notes(manuscript_to_notes[tei_file])
+
+        # go through each author node and pull out the author name
         @author_hash = {}
         for author in @authors
             @author_hash[author.children[1].attributes['id'].value] = author.children[1].text
         end
 
+        # build up the html for the notes from the parser and what we have.
         html = ""
         note_counter = 1
         for note in @all_notes
@@ -78,16 +121,21 @@ class PagesController < ApplicationController
     end
 
     def parse_note(child, internal_note_counter)
+        # take the xmlid and strip out the problematic punctuation
         xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
+
+        # parse the notes
         note_id = internal_note_counter.to_s
         ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup>' + '</sup></note>').html_safe
     end
 
     def parse_pb(line)
+        # parses page break tag
         (('<div id="page-break">') + ("page: " + line.css('pb').attr('n').text) + "</div>").html_safe
     end
 
     def parse_heading(line_group)
+        # parses line group
         heading_number = line_group.search('head').text.gsub(/Laisse /, '').to_i
         ('<div class="line-heading">Laisse ' + RomanNumerals.to_roman(heading_number) + "</div>").html_safe
     end
