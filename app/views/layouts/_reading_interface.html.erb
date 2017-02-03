@@ -19,8 +19,8 @@
                 <form id="corr-form">
                 <label for="corrCheckbox" id="corr-label"> Corrections</label>
                 <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;"> </form>
-                | <div id="image-reveal">MS Image</div>
-                | <div id="tei-reveal">TEI Embed</div><div id="loading-gif"></div>
+<!--                 | <div id="image-reveal">MS Image</div>
+ -->                | <div id="tei-reveal">TEI Embed</div><div id="loading-gif"></div>
                 <hr id="reader-hr">
             </div>
 
@@ -38,9 +38,8 @@
                 <%= image_tag('kittens.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
             </div>
             <div id="tei-embed-container" class="hidden">
-                <div id="tei-embed-header"></div>
-                You are viewing TEI for this laisse only. TEI for the whole manuscript is viewable on
-                 <%= link_to('GitHub', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %>.
+            <!-- decide how this should fit into the js. because right now it's calling the div to get the text here. but that text is too dynamic so it won't get caught. -->
+                <div id="tei-embed-header"><%= @current_page_short%></div>
                 <div id="tei-embed" class="hidden">
                     <pre><%= @simple_tei %></pre>
                 </div>

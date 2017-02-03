@@ -123,11 +123,9 @@ var ready;
         $('#corrCheckbox').click(function(){
             var checked = $('#corrCheckbox').prop('checked');
             if (checked) {
-                console.log('on');
                 $('corr').css('color', 'red');
             }
             else {
-                console.log('off');
                 $('corr').css('color', 'black');
             }
         });
@@ -157,14 +155,14 @@ var ready;
             $('#tei-embed-header').addClass('active-element');
             $('#side-panel').show();
             $('#tei-embed-container').show();
-            console.log('hi');
             $('#tei-embed-header').text('Loading TEI');
             $('#tei-embed-container').css('display', 'inline');
             open_sidepanel();
 
             $.ajax({
                 success: function(){
-                    $('#tei-embed-header').text('TEI');
+                    short = $('#tei-embed-header').text();
+                    $('#tei-embed-header').html('TEI for this laisse. Complete MS TEI viewable on <a href="https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + short + '">GitHub</a>');
                     $('#tei-embed').show();
                 }
             });
