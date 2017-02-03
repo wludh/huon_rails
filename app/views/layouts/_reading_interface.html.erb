@@ -15,12 +15,13 @@
                     <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") + " |"%>
 
                 <%= link_to('Intro', url_for(params.merge(:edition => nil))) %>
-                |
                 <form id="corr-form">
+                |
                 <label for="corrCheckbox" id="corr-label"> Corrections</label>
-                <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;"> </form>
+                <input type="checkbox" name="corrCheckbox" id="corrCheckbox" style="display: inline;"> | </form>
 <!--                 | <div id="image-reveal">MS Image</div>
- -->                | <div id="tei-reveal">TEI Embed</div><div id="loading-gif"></div>
+ -->                <div id="tei-reveal">TEI Embed</div>
+                    <div id="tei-link-mobile">| <%= link_to('TEI', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %></div>
                 <hr id="reader-hr">
             </div>
 
@@ -39,9 +40,11 @@
             </div>
             <div id="tei-embed-container" class="hidden">
             <!-- decide how this should fit into the js. because right now it's calling the div to get the text here. but that text is too dynamic so it won't get caught. -->
-                <div id="tei-embed-header"><%= @current_page_short%></div>
+                <div id="tei-embed-header"></div>
                 <div id="tei-embed" class="hidden">
                     <pre><%= @simple_tei %></pre>
+                <div id="tei-embed-header"></div>
+                <div id="tei-secret-file-name" style="display: none !important;"><%= @current_page_short%></div>
                 </div>
             </div>
     </div>

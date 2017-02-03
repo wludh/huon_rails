@@ -520,6 +520,11 @@ td{
   #tei_wrapper{
     width: 80% !important;
   }
+
+  #corrCheckbox, #corr-label, #image-reveal, #tei-reveal, #corr-form{
+    display: none !important;
+  }
+
 }
 
 #unf_logo{
@@ -623,8 +628,8 @@ td{
 }
 
 code, pre{
-/*  height: 600px;
-*/  width: 120%;
+  max-height: 600px;
+  width: 120%;
   border: 1px solid #DDDDDD;
   border-bottom-style: solid;
   overflow-y: scroll;
@@ -637,4 +642,8 @@ code, pre{
   font-size: inherit !important;
   font-family: monospace, monospace;
   font-size: 1em;
+}
+
+#tei-link-mobile{
+  display: none;
 }

@@ -161,8 +161,8 @@ var ready;
 
             $.ajax({
                 success: function(){
-                    short = $('#tei-embed-header').text();
-                    $('#tei-embed-header').html('TEI for this laisse. Complete MS TEI viewable on <a href="https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + short + '">GitHub</a>');
+                    short = $('#tei-secret-file-name').text();
+                    $('#tei-embed-header').html('TEI for this laisse. Full MS TEI viewable on <a href="https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + short + '.xml">GitHub</a>');
                     $('#tei-embed').show();
                 }
             });

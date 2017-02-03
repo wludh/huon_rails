@@ -37,7 +37,19 @@
       max-width: 302px;
       margin: 0 auto;
    }
-
+  #corrCheckbox, #corr-label, #image-reveal, #tei-reveal, #corr-form{
+    display: none !important;
+  }
+  #tei_wrapper{
+    width: 80% !important;
+  }
+  #reader-center-div{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #page-break{
+    padding: 0;
+  }
 }
 
 div#mssArea div#manuscripts {

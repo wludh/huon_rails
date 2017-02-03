@@ -114,7 +114,7 @@ class PagesController < ApplicationController
         html = ""
         note_counter = 1
         for note in @all_notes
-            html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
+            html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" type=\"#{note.attributes['type'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
             note_counter += 1
         end
         html.html_safe
