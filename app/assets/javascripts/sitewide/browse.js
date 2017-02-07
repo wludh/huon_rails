@@ -1,4 +1,5 @@
 var ready;
+console.log('ready');
     ready = function(){
         function hide_footer(){
         // hides the footer
@@ -178,3 +179,4 @@ var ready;
 
 $(document).ready(ready);
 $(document).on("page:load", ready);
+$(document).on("turbolinks:load", ready);
