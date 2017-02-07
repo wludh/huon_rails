@@ -188,21 +188,19 @@ p.tagline {
 /* TEI */
 
 TEI {
-  
   margin: auto;
   max-width: 40%;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   font-size: 16px;
-padding-bottom: 1px;
+  padding-bottom: 1px;
 }
 
 tei-title {
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif
- !important;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif !important;
 }
 
 TEI head{
-    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
 
 teiHeader{
@@ -238,6 +236,7 @@ ul li ul {
   border-color: gray;
   transition:1s;
 }
+
 ul li ul li { 
   background: #555; 
   display: block; 
@@ -245,6 +244,7 @@ ul li ul li {
   text-shadow: 0 -1px 0 #000;
   z-index: 1000;
 }
+
 @media screen and (min-width: 850px){
   ul li ul li:hover { background: #666; }
   ul li:hover ul {
@@ -337,12 +337,13 @@ td{
 
 /* New styles in rails */
 
-#page-break {display: block;
-    width: 100%;
-    text-align: right;
-    color: gray;
-    margin: 2em 0 2em 0;
-    font-size: 11pt;
+#page-break {
+  display: block;
+  width: 100%;
+  text-align: right;
+  color: gray;
+  margin: 2em 0 2em 0;
+  font-size: 11pt;
 }
 
 ex{

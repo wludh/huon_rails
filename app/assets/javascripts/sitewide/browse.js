@@ -148,8 +148,6 @@ console.log('ready');
 
     $(function tei_reveal(){
         $('#tei-reveal').click(function(){
-            // $('#loading-gif').css('display', 'inline');
-            // $('#loading-gif').addClass('visible');
 
             hide_non_active_panels();
             // this is not working quite right
@@ -157,8 +155,7 @@ console.log('ready');
             $('#tei-embed-header').addClass('active-element');
             $('#side-panel').show();
             $('#tei-embed-container').show();
-            $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader.gif" />');
-            // $('#tei-embed-header').text('Loading TEI');
+            $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader-trans.gif" />');
             $('#tei-embed-container').css('display', 'inline');
             open_sidepanel();
 
