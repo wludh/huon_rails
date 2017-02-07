@@ -14,7 +14,7 @@ console.log('ready');
             var xml_id = this.parentNode.getAttribute('rightnum');
             var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
             if (the_num == "undefined"){
-                throw 'error assigning note number for xml_id ' + xml_id;
+                throw 'error assigning note number. TEI file asked for xml_id - ' + xml_id + '. But the TEI notes file returned this instead: ' + the_num;
             }
             $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
         });
@@ -149,27 +149,28 @@ console.log('ready');
         $('#tei-reveal').click(function(){
             // $('#loading-gif').css('display', 'inline');
             // $('#loading-gif').addClass('visible');
-            // $('#loading-gif').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader.gif" />');
+
             hide_non_active_panels();
             // this is not working quite right
             $('#tei-embed-header').show();
             $('#tei-embed-header').addClass('active-element');
             $('#side-panel').show();
             $('#tei-embed-container').show();
-            $('#tei-embed-header').text('Loading TEI');
+            $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader-trans.gif" />');
+            // $('#tei-embed-header').text('Loading TEI');
             $('#tei-embed-container').css('display', 'inline');
             open_sidepanel();
 
             $.ajax({
                 success: function(){
-                    short = $('#tei-secret-file-name').text();
-                    $('#tei-embed-header').html('TEI for this laisse. Full MS TEI viewable on <a href="https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + short + '.xml">GitHub</a>');
-                    $('#tei-embed').show();
+                    // short = $('#tei-secret-file-name').text();
+                    // $('#tei-embed-header').html('TEI for this laisse. Full MS TEI viewable on <a href="https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + short + '.xml">GitHub</a>');
+                    // $('#tei-embed').show();
                 }
             });
             $.ajax({
                 success:function(){
-                    $('#loading-gif').hide();
+                    // $('#loading-gif').hide();
                 }
             });
         });

@@ -122,7 +122,11 @@ class PagesController < ApplicationController
 
     def parse_note(child, internal_note_counter)
         # take the xmlid and strip out the problematic punctuation
+        puts "&&&&&&"
+        puts child.values
+        puts "&&&&&&"
         xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
+        puts "xmlid: " + xmlid
 
         # parse the notes
         note_id = internal_note_counter.to_s
