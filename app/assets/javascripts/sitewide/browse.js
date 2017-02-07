@@ -157,15 +157,14 @@ console.log('ready');
             $('#side-panel').show();
             $('#tei-embed-container').show();
             $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader-trans.gif" />');
-            // $('#tei-embed-header').text('Loading TEI');
             $('#tei-embed-container').css('display', 'inline');
             open_sidepanel();
 
             $.ajax({
                 success: function(){
-                    // short = $('#tei-secret-file-name').text();
-                    // $('#tei-embed-header').html('TEI for this laisse. Full MS TEI viewable on <a href="https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + short + '.xml">GitHub</a>');
-                    // $('#tei-embed').show();
+                    short = $('#tei-secret-file-name').text();
+                    $('#tei-embed-header').html('TEI for this laisse. Full MS TEI viewable on <a href="https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + short + '.xml">GitHub</a>');
+                    $('#tei-embed').show();
                 }
             });
             $.ajax({
