@@ -13,6 +13,7 @@ console.log('ready');
             $.each($('sup'), function(item){
             var xml_id = this.parentNode.getAttribute('rightnum');
             var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
+            console.log(the_num);
             if (the_num == "undefined"){
                 throw 'error assigning note number. TEI file asked for xml_id - ' + xml_id + '. But the TEI notes file returned this instead: ' + the_num;
             }
@@ -107,7 +108,7 @@ console.log('ready');
         assign_note_numbers();
         var current_laisse_long = $('.translation_missing').text();
         if(current_laisse_long){
-             var re = new RegExp('[0-9]*\/');
+            var re = new RegExp('[0-9]*\/');
             var current_laisse = re.exec(current_laisse_long)[0].slice(0,-1);
             $("#selected_laisse").val(current_laisse);
             $("#bot_laisse").val(current_laisse);
@@ -156,7 +157,8 @@ console.log('ready');
             $('#tei-embed-header').addClass('active-element');
             $('#side-panel').show();
             $('#tei-embed-container').show();
-            $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader-trans.gif" />');
+            $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader.gif" />');
+            // $('#tei-embed-header').text('Loading TEI');
             $('#tei-embed-container').css('display', 'inline');
             open_sidepanel();
 
@@ -169,7 +171,7 @@ console.log('ready');
             });
             $.ajax({
                 success:function(){
-                    // $('#loading-gif').hide();
+                    $('#loading-gif').hide();
                 }
             });
         });
@@ -177,6 +179,7 @@ console.log('ready');
     page_prep();
 };
 
-$(document).ready(ready);
-$(document).on("page:load", ready);
+// $(document).ready(ready);
+// $(document).on("page:load", ready);
 $(document).on("turbolinks:load", ready);
+// $(window).bind('page:change', ready);
