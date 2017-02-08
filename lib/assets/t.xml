@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-=======
->>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
 <?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>

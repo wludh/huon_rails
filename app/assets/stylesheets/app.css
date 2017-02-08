@@ -244,16 +244,10 @@ ul li ul {
   border-color: gray;
   transition:1s;
 }
-<<<<<<< HEAD
+
 ul li ul li {
   background: #555;
   display: block;
-=======
-
-ul li ul li { 
-  background: #555; 
-  display: block; 
->>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
   color: #fff;
   text-shadow: 0 -1px 0 #000;
   z-index: 1000;
