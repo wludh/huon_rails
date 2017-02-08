@@ -1,0 +1,16 @@
+<section class="row">
+    <div class="large-8 large-offset-2 columns">
+        <div id="introduction">
+            <div id="title">
+                <%= @title %>
+            </div>
+            <hr>
+            <div id="introduction-text">
+                <%= @introduction %>
+            </div>
+            <div id="links">
+                <%= link_to('Read', url_for(params.merge(:edition => true))) %>
+            </div>
+        </div>
+    </div>
+</section>

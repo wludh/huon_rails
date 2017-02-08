@@ -1,30 +1,90 @@
+require 'roman-numerals'
+
 class PagesController < ApplicationController
+
 	skip_before_action :verify_authenticity_token
+    # patch for using will-paginate gem to paginate through laisses
     require 'active_support/core_ext/array/conversions.rb'
-    
+
     def show
+        # convert the pages parameter into the tidy slug
         render template: "pages/#{params[:page]}"
     end
 
-    def parse_tei(tei_file)
-        doc = File.open( "./lib/assets/#{tei_file}" ) {
-            |f| Nokogiri::XML(f)
-        }
-        @title = doc.search('title').first.text
+    def import_tei(tei_file)
+        # take the tei file name and return a nokogiri object
+        return File.open( "./lib/assets/#{tei_file}" ) {
+                |f| Nokogiri::XML(f)
+            }
+    end
 
-        # placeholder for if Steve decides to include bylines for authors.
-        # @by_line = doc.search('INSERT').text
-        @introduction = doc.search('note').first.text
-        @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
-        @@internal_note_counter = 1
-        # unused atm
-        # @note_numbers = get_notes_for_line_group(@line_groups)
-        @current_notes = parse_and_store_notes(@note_numbers, tei_file)
-        return @title, @introduction, @line_groups
+    def parse_tei(tei_file, testing=false)
+        unless params.key?('edition') or not testing
+            # look for the edition param to let us know if we're at the intro or not.
+            # if no page / if at edition, show the intro.
+
+            # import the tei
+            doc = import_tei(tei_file)
+
+            # get the title
+            @title = doc.search('title').first.text
+
+            # get the introduction
+            @introduction = doc.search('note').first.text
+
+            return @title, @introduction
+        else
+
+            # get the doc
+            doc = import_tei(tei_file)
+
+            # get the title
+            @title = doc.search('title').first.text
+
+            # get the introduction
+            @introduction = doc.search('note').first.text
+
+            # get all line groups but paginate through them so only showing the current one.
+            @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)
+
+            # keeping note numbers consistent across laisses
+            @@internal_note_counter = 1
+
+            # current notes for this laisse
+            @current_notes = parse_and_store_notes(@note_numbers, tei_file)
+
+            # chunk up the TEI so we only see the laisse we are on.
+            @simple_tei = parsing_for_tei_embed(doc, params[:page])
+
+            return @title, @line_groups, @gist_id, @simple_tei
+        end
     end
 
 
+    def parsing_for_tei_embed(doc, page_num)
+        # restructures TEI and throws away all but the laisse we're looking at.
+
+        # it no page_num is present assume page one.
+        page_num ||= "1"
+
+        # grab the active laisse and store it for next step
+        active_laisse = doc.search('lg[n="'+ page_num + '"]')
+
+        # get all laisses and throw them away
+        laisses = doc.search('lg')
+        laisses.remove()
+
+        # strip out all empty lines (to offset wierd quirk of Nokogiri's when it removes nodes.)
+        doc.xpath('//text()').find_all {|t| t.to_s.strip == ''}.map(&:remove)
+
+        # add the active laisse back in.
+        doc.at_css('body').add_child(active_laisse)
+
+        return doc.to_xml
+    end
+
     def import_notes(tei_file)
+        # Import notes from TEI file.
         doc = File.open("./lib/assets/#{tei_file}"){
             |f| Nokogiri::XML(f)
         }
@@ -32,86 +92,56 @@ class PagesController < ApplicationController
     end
 
     def parse_and_store_notes(note_numbers, tei_file)
-        # note that you're not actually using the note numbers just yet
-        # you're here trying to link up the list of note numbers with the notes from the file
         # takes the list of note numbers that you want and pulls them out of the tei file.
+        # ms file name to note file name
         manuscript_to_notes = {
             'p.xml' => 'notes-p.xml',
             'br.xml' => 'notes-br.xml',
             't.xml' => 'notes-t.xml',
             'b.xml' => 'notes-b.xml'
         }
+
+        # get the author and note nodes from the notes file
         @authors, @all_notes = import_notes(manuscript_to_notes[tei_file])
+
+        # go through each author node and pull out the author name
         @author_hash = {}
         for author in @authors
             @author_hash[author.children[1].attributes['id'].value] = author.children[1].text
         end
-        puts 'AUTHOR HASH'
-        puts @author_hash
-        puts "&&&&&&&"
+
+        # build up the html for the notes from the parser and what we have.
         html = ""
         note_counter = 1
         for note in @all_notes
-            print(note.attributes['resp'].value)
-            # puts "&&&&&&&&&"
-            # puts "all_notes"
-            # puts @all_notes
-            # puts note_counter
-            # puts note.attributes['n']
-            # puts note.attributes['n'].value
-            # puts note.attributes['resp'].value
-            # puts "&&&&&&&&&"
-            # what it was before
-            # html += "<note n=\"#{note.attributes['n'].value}\" resp=\"#{note.attributes['resp'].value}\">#{note.attributes['n'].value}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value]}</div></note>"
-            html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div id=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
+            html += "<note n=\"#{note_counter}\" resp=\"#{note.attributes['resp'].value}\" type=\"#{note.attributes['type'].value}\" xml=\"#{note.values[1].to_s.sub(/\./, '')}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author_hash[note.attributes['resp'].value.sub(/#/, '')]}</div></note>"
             note_counter += 1
         end
-        # @current_notes = {}
-        # for when/if you can eventually pull out only those notes.
-        # for number in line_group_numbers
-        #     @current_notes[number] = ()
-        # end
-        # puts @all_notes.xpath('@xmlid:')
         html.html_safe
     end
 
-    # def generate_note_html(notes)
-    #     for note in notes
-    #         "".html_safe
-    #     end
-    # end
-
-    def get_notes_for_line_group(line_group)
-        # gets all the notes for a line group and stores them as an array so that you can
-        notes = line_group[0].css('note')
-        search_array = []
-        for note in notes
-            search_array << note.attributes['id'].value.sub(/[A-Za-z]|#/,'')
-        end
-        search_array
-    end
-
     def parse_note(child, internal_note_counter)
-        # puts "&&&&&&&"
-        # puts "parse_note"
-        # puts child
-        # puts child.values.to_s
-        # puts 'hi'
+        # take the xmlid and strip out the problematic punctuation
+        puts "&&&&&&"
+        puts child.values
+        puts "&&&&&&"
+        xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
+        puts "xmlid: " + xmlid
+
+        # parse the notes
         note_id = internal_note_counter.to_s
-        # old note_id = child.attributes['id'].value.gsub('#', '')
-        puts note_id
-        # puts "&&&&&&&"
-        # following line should take P1 and return just 1. so remove everything that is a letter
-        # old ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + note_id.sub(/[A-Za-z]/,'') + ')>' + note_id.sub(/[A-Za-z]/,'') + '</sup></note>').html_safe
-        ('<note id="'+ note_id + '"/><sup onclick=annotation_reveal(' + child.values.to_s.sub(/\./, '') + ')>' + note_id + '</sup></note>').html_safe
+        ('<note rightnum="' + xmlid + '" id="'+ note_id + '"/><sup>' + '</sup></note>').html_safe
     end
 
     def parse_pb(line)
+        # parses page break tag
         (('<div id="page-break">') + ("page: " + line.css('pb').attr('n').text) + "</div>").html_safe
     end
 
     def parse_heading(line_group)
-        ('<div class="line-heading">' + line_group.search('head').text + "</div>").html_safe
+        # parses line group
+        heading_number = line_group.search('head').text.gsub(/Laisse /, '').to_i
+        ('<div class="line-heading">Laisse ' + RomanNumerals.to_roman(heading_number) + "</div>").html_safe
     end
 
     def parse_tag(tag_child)
@@ -163,8 +193,12 @@ class PagesController < ApplicationController
     end
 
     def parse_line(l)
+        result =""
         # parses a line where 'l' is a line_nodeset
-        result = "<l n=\"#{l.attr('n')}\">"
+        if (l.attr('n').to_i % 5) == 0
+            result += "<div class=\"linenumber\">" + l.attr('n').to_s + "</div>"
+        end
+        result += "<l n=\"#{l.attr('n')}\">"
                  if l.css('pb').present? 
                     result += parse_pb(l)
                  end 
@@ -173,16 +207,7 @@ class PagesController < ApplicationController
                     result += parse_choice(child)
                  elsif child.name == 'ex'     
                     result += parse_tag(child) 
-                    # The following two elsif statements are entirely just for testing note functionality.
-                #probably this? 
-                #elsif ['cb', 'rubric', 'ab', 'lb'].include? child.name
-                elsif child.name == 'cb'
-                    result += parse_tag(child)
-                elsif child.name == 'rubric'
-                    result += parse_tag(child)
-                elsif child.name == 'ab'
-                    result += parse_tag(child)
-                elsif child.name == 'lb'
+                elsif ['cb', 'corr', 'rubric', 'ab', 'lb'].include? child.name
                     result += parse_tag(child)
                 elsif child.name == 'note'
                     result += parse_note(child, @@internal_note_counter)
@@ -195,17 +220,12 @@ class PagesController < ApplicationController
         return result.html_safe
     end
 
-    def parse_empty_tag(nodeset)
-        return "<#{child.name}></#{child.name}>".html_safe
-    end
-
     helper_method :import_notes
     helper_method :get_all_notes
     helper_method :parse_and_store_notes
     helper_method :parse_choice
     helper_method :parse_pb
     helper_method :parse_heading
-    helper_method :parse_empty_tag
     helper_method :parse_tag
     helper_method :parse_tei
     helper_method :parse_line

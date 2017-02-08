@@ -1,2 +1,9 @@
-<% @current_page = 't_manuscript' %>
-<%= render 'layouts/reading_interface' %>
+<% unless params.key?('edition') %>
+    <% @current_page = 'br_manuscript' %>
+    <% @current_page_short = 'br' %>
+    <%= render 'layouts/manuscript_introduction' %>
+<% else %>
+    <% @current_page = 'br_manuscript' %>
+    <% @current_page_short = 'br' %>
+    <%= render 'layouts/reading_interface' %>
+<% end %>

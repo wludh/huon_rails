@@ -10,6 +10,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem 'roman-numerals'
+
 gem 'rspec-rails', '~> 3.1.0', group: [:development, :test]
 gem 'capybara', group: [:development, :test]
 gem 'selenium-webdriver', group: [:development, :test]
@@ -17,6 +19,8 @@ gem 'puma'
 
 gem 'will_paginate', '~> 3.0.5'
 gem 'i18n'
+
+gem 'simplecov', :require => false, :group => :test
 
 group :production do
   gem 'pg'
@@ -67,3 +71,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'travis'

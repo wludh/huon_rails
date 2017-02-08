@@ -47,7 +47,10 @@
             <respStmt>
                <name>Natsumi D. Alvarez</name>
                <resp>Customized TEI tags for text structure and began tagging.</resp>
+<<<<<<< HEAD
                
+=======
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -82,6 +85,7 @@
                   <origDate cert="medium" evidence="internal">1341</origDate>
                   <!-- Is there a way to say how the date is determined? -->
                   <note>
+<<<<<<< HEAD
                      <p>This is the manuscript listed in the Gonzaga inventory of 1407. 
                         The first folio bears the coat of arms of the Gozaga family. The 
                         manuscript passed through noble families in the Italian peninsula 
@@ -90,6 +94,9 @@
                         and the collection passed to the Kupferstichkabinett as the 
                         "Hamilton Collection." The manuscript was first described by Adolf 
                         Tobler in 1884.</p>
+=======
+                     <p>This is the manuscript listed in the Gonzaga inventory of 1407. The first folio bears the coat of arms of the Gozaga family. The manuscript passed through noble families in the Italian peninsula and then to the English Hamilton family. In the 19th century, the Prussian government bought a group of manuscripts that included B, and the collection passed to the Kupferstichkabinett as the "Hamilton Collection." The manuscript was first described by Adolf Tobler in 1884.</p>
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
                   </note>
                </head>
                <msContents>
@@ -143,16 +150,24 @@
       <encodingDesc>
          <editorialDecl>
             <correction method="markup">
+<<<<<<< HEAD
                <p>I have attempted to correct the text as little as possible and only in passages in which meaning 
                   would be difficult to decipher. All emendations are in parenthesis ( ) and I include a footnote 
                   with the original manuscript reading and any other comments concerning the manuscript context 
                   and discussing my rational behind proposing an emendation.</p>
+=======
+               <p>I have attempted to correct the text as little as possible and only in passages in which meaning would be difficult to decipher. All emendations are in parenthesis ( ) and I include a footnote with the original manuscript reading and any other comments concerning the manuscript context and discussing my rational behind proposing an emendation.</p>
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
             </correction>
             <!-- Add normalization tag to explain abbreviations. -->
          </editorialDecl>
          <projectDesc>
+<<<<<<< HEAD
             <p>Text encoded for <soCalled>Huon d'Auvergne Project</soCalled>, which aims to create a digital edition for all four extant manuscripts of the Franco-Italian 
                Huon d'Auvergne romance epic</p>
+=======
+            <p>Text encoded for <soCalled>Huon d'Auvergne Project</soCalled>, which aims to create a digital edition for all four extant manuscripts of the Franco-Italian Huon d'Auvergne romance epic</p>
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -174,7 +189,11 @@
       <body>
          <lg n="1">
             <head>Laisse I</head>
+<<<<<<< HEAD
          <l n="1"><pb n="f.1ra"/><cb n="f.1ra"/>(Folio 1 R a; Laisse 1) Al tamps de may quand furent li prael<note xml:id="b1ra.1"/></l>
+=======
+            <l n="1"><pb n="f.1ra"/><cb n="f.1ra"/>(Folio 1 R a; Laisse 1) Al tamps de may quand furent li prael<note xml:id="b1ra.1"/></l>
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
          <l n="2">Tot reverdis, lorer et arboisel,</l>
          <l n="3">Que en amors vient maintes mainer d'oisel,</l>
          <l n="4">Por ce chantent et font li son mout bel,</l>
@@ -189,6 +208,7 @@
          <l n="13">Selonch qui mostre et cronicha Odinel,</l>
          <l n="14">Qui hom apelle le rois K[ar]lle Martel.</l>
          <l n="15">Grant cort tenoit; hom no[n] la vit ja tel.</l>
+<<<<<<< HEAD
          <l n="16">Mais d'une zonse<note xml:id="b1rb.2"/> ovra il bien cum fel,</l>
          <l n="17">Quant un son dru gita de son hostel,</l>
          <l n="18">Si l'envoia a querir Lucibel,</l>
@@ -196,6 +216,14 @@
          <l n="20">Sol por avoir Ynide au quer bel.</l>
          </lg>
          
+=======
+         <l n="16">Mais d'une zonse <note xml:id="b1rb.1"/> ovra il bien cum fel,</l>
+         <l n="17">Quant un son dru gita de son hostel,</l>
+         <l n="18">Si l'envoia a querir Lucibel,</l>
+            <l n="19">Querir trehu a le lou <note xml:id="b1rb.2"/> d'Enfernel</l>
+         <l n="20">Sol por avoir Ynide au quer bel.</l>
+         </lg>
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
          <lg n="2">
             <head>Laisse II</head>
          <l n="21">(Laisse 2) Oeç segnor (q[e] Diex vos beneïe!),</l>
@@ -226,5 +254,9 @@
          </lg>
       </body>
    </text>
+<<<<<<< HEAD
 </TEI>
          
+=======
+</TEI>
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c

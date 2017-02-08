@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
 <?xml-model href="../../../../Dropbox/HUON_SCHEMA/Huon_Customized_Schema_011917.rnc" type="application/relax-ng-compact-syntax"?>
+=======
+<?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>

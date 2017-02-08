@@ -13,10 +13,6 @@
   font-weight: normal;
 }
 
-/*#special-footer{
-  bottom:0;
-}
-*/
 #special-footer hr{
   width:66.7%;
   text-align:center; margin: 0 auto;
@@ -95,10 +91,6 @@ nav{
   color:#cccccc !important;
 }
 
-.top-bar-section ul li a{
-
-}
-
 .titleRow{
   background-color: rgba(192,192,192,0.5);
   padding-left: 15px;
@@ -122,7 +114,6 @@ p {
   width: 100%;
   max-width: 100%;
   height: 100px;
-
 }
 
 
@@ -179,8 +170,7 @@ p.tagline {
 }
 
 .footer img{
-/*  max-height: 50px;
-*/  padding-right: 15px;
+  padding-right: 15px;
   margin-top: 15px;
   max-width: 183px;
 }
@@ -198,12 +188,15 @@ p.tagline {
 /* TEI */
 
 TEI {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
   margin: auto;
   max-width: 40%;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   font-size: 16px;
-padding-bottom: 1px;
+  padding-bottom: 1px;
 }
 
 ex[rend="italics"] {
@@ -211,34 +204,15 @@ ex[rend="italics"] {
 }
 
 tei-title {
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif
- !important;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif !important;
 }
 
 TEI head{
-    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
 
 teiHeader{
   display: none;
-}
-
-/* Background image*/
-
-html{
-  background-position: top right;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  width:100%;
-  padding:0;
-  margin:0;
-  max-width: 100%;
-  overflow-x:hidden;
-  overflow-x:hidden;
 }
 
 /*dropdown/side menus*/
@@ -270,13 +244,21 @@ ul li ul {
   border-color: gray;
   transition:1s;
 }
+<<<<<<< HEAD
 ul li ul li {
   background: #555;
   display: block;
+=======
+
+ul li ul li { 
+  background: #555; 
+  display: block; 
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
   color: #fff;
   text-shadow: 0 -1px 0 #000;
   z-index: 1000;
 }
+
 @media screen and (min-width: 850px){
   ul li ul li:hover { background: #666; }
   ul li:hover ul {
@@ -293,6 +275,7 @@ ul li ul li {
   padding:0;
 }
 
+<<<<<<< HEAD
 .oe {
 font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif;
 }
@@ -370,9 +353,12 @@ text body{
 }
 /*
 
+=======
+.oe { 
+font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif; 
+} 
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
   /*Versioning Machine*/
-
-
 
 #line_toggle, label{
   float:left;
@@ -445,34 +431,18 @@ td{
 
 /* New styles in rails */
 
-#page-break {display: block;
-    width: 100%;
-    text-align: right;
-    color: gray;
-    margin: 2em 0 2em 0;
-    font-size: 11pt;
+#page-break {
+  display: block;
+  width: 100%;
+  text-align: right;
+  color: gray;
+  margin: 2em 0 2em 0;
+  font-size: 11pt;
 }
-
-/* Hack to eliminate spaces between in-line block elements. Anytime you parse a tag as html it will make a space. So put the tags here. but double check to make sure that they're working right in all cases. since things get nested it can get wonky. */
-/*ex{
-  margin-left: -4px;
-}*/
-
-/*choice sic, choice corr{
-  margin-left: -4px;
-}*/
-
-/*empty:choice, empty:sic, empty:corr{
-  margin-left: 0px;
-}*/
 
 ex{
   font-style: italic;
 }
-
-/*annotation{
-  text-decoration: underline;
-}*/
 
 l sup{
   cursor: pointer;
@@ -494,7 +464,9 @@ footnote{
 }
 
 #TEI_reader{
+  margin-top: 48px;
   padding-top: 44px;
+  border-right: 1px;
 }
 
 header{
@@ -511,12 +483,6 @@ header{
   padding-bottom: 20px
 }
 
-#notes{
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-left: 24px;
-  padding-right: 24px;
-}
 
 #num_laisses, #bot_reader{
   padding-right: 4px;
@@ -525,8 +491,12 @@ header{
 #note-header{
 }
 
-#notes note{
+#side-panel note{
   display: none;
+}
+
+#note-contents note{
+
 }
 
 #back_to_intro{
@@ -537,7 +507,7 @@ header{
 }
 
 .hidden{
-  display: none !important;
+  display: none;
 }
 
 .lines note sup{
@@ -560,9 +530,9 @@ header{
   color: #0078a0;
 }
 
-#resp{
+.resp{
   float: right;
-  padding: 16px;
+  padding: 24px;
 }
 
 
@@ -632,7 +602,7 @@ td{
   #TEI_left_panel hr{
     display: none !important;
   }
-  #notes{
+  #side-panel{
     display: none !important;
   }
   #top-half{
@@ -645,8 +615,133 @@ td{
   #tei_wrapper{
     width: 80% !important;
   }
+
+  #corrCheckbox, #corr-label, #image-reveal, #tei-reveal, #corr-form{
+    display: none !important;
+  }
+
 }
 
 #unf_logo{
   padding-bottom: 22px;
 }
+<<<<<<< HEAD
+=======
+
+.linenumber{
+  float: left;
+  margin-left: -50px;
+}
+#introduction{
+    padding-top: 68px;
+    height: 100%;
+    text-align: justify;
+}
+#title{
+      font-size: 28px;
+}
+#links{
+  text-align: center;
+}
+
+#reader-nav{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  padding-top: 48px;
+  background-color: rgba(245,246,246,1)
+}
+
+#sub-title{
+  float: left;
+  padding: 0 0.9375rem;
+  line-height: 2.8125rem;
+}
+#reader-hr{
+  margin: 0.5em 0.5em 0 0;
+  margin-top: -2px;
+}
+#reader-nav-links{
+  line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+}
+#side-panel{
+  margin-right: 10%;
+  padding-right: 40px;
+  float: right;
+  margin-top: 48px;
+  padding-top: 68px;
+  width: 40%;
+  height: 100%;
+}
+
+#note-close{
+  float: left;
+  margin-top: -2px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#reader-center-div{
+      margin-left: 27%;
+}
+
+#corrCheckbox{
+  display: block;
+}
+
+#corr-form{
+  display: inline;
+  float: none;
+}
+
+#corr-label{
+  float: none;
+  display: inline;
+  text-decoration: none;
+}
+
+#tei_wrapper{
+  width: 37% !important;
+}
+
+#image-reveal, #tei-reveal{
+  display: inline;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#ms-image-container{
+    margin: 1.5em auto 1.5em auto;
+    padding: .5em 1.5em 1.5em 1.5em;
+}
+
+#page-break{
+  padding-right: 40px;
+}
+
+#tei-embed-container{
+  display: none;
+}
+
+code, pre{
+  max-height: 600px;
+  width: 120%;
+  border: 1px solid #DDDDDD;
+  border-bottom-style: solid;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  margin: 1.5em auto 1.5em auto;
+  padding: .5em 1.5em 1.5em 1.5em;
+  }
+
+#tei-embed{
+  font-size: inherit !important;
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+#tei-link-mobile{
+  display: none;
+}
+>>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c

@@ -21,3 +21,6 @@
 zot_warnings.log
 /zot_bib_web/__pycache__
 app/views/shared/_zot_bibliography.html.erb
+
+# ignore simple coverage
+coverage
