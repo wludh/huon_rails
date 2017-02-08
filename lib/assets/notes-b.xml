@@ -35,11 +35,7 @@
         <body>
             <div>
                 <note n="1" xml:id="b1ra.1" type="ling" resp="#SPM">prael "meadow"</note>
-<<<<<<< HEAD
-                <note n="2" xml:id="b1ra.2" type="ling" resp="#SPM">zonse "thing"</note>
-=======
                 <note n="2" xml:id="bf1rb.1" type="ling" resp="#SPM">zonse "thing"</note>
->>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
                 <note n="3" xml:id="b1ra.3" type="ling" resp="#SPM">lou "place"</note>
             </div>
         </body>
