@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<?xml-model href="../../../../Dropbox/HUON_SCHEMA/Huon_Customized_Schema_011917.rnc" type="application/relax-ng-compact-syntax"?>
-=======
-<?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
->>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
+<?xml-model href="../../../../Dropbox/HUON_SCHEMA/Huon_Customized_Schema_020817.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -185,7 +181,7 @@
         <revisionDesc>
             <change when="2017-01-02" who="SPM">added line, line group, and line number tags
                 through 515</change>
-            <change when="2017-01-03" who="SPM">added pb tages for foliation</change>
+            <change when="2017-01-03" who="SPM">added milestone tages for foliation</change>
             <change when="2017-01-05" who="SPM">added tags for red and blue initial
                 letters</change>
             <change when="2017-01-05" who="SPM">began adding note tags and linking to annotations
@@ -199,7 +195,7 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <l n="1"><gap reason="missing folios" quantity="2"/><pb n="f.1r"/>(1R) E perçò era
+                <l n="1"><gap reason="missing folios" quantity="2"/><milestone n="1r" unit="fol."/>(1R) E perçò era
                     Ugo d’Alvernia sevrie;</l>
                 <l n="2">E pluy de tre any stete in la çitie</l>
                 <l n="3">Ch’el non fo a so tera tornie,</l>
@@ -218,7 +214,7 @@
                 <l n="15">E si penssa la malvaxia meretrie</l>
                 <l n="16">Chomo·la porave a Ugo parlie</l>
                 <l n="17">Mo la malvaxia ben à trovada la vie</l>
-                <l n="18"><pb n="f.1v"/>(1V) De lui aver in soa camera alla çellie.</l>
+                <l n="18"><milestone n="f.1v"/>(1V) De lui aver in soa camera alla çellie.</l>
             </lg>
             <lg type="laisse" n="2">
                 <head>Laisse 2</head>
@@ -256,7 +252,7 @@
                         <sic>Sanguy</sic>
                         <corr cert="medium" resp="SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice><note xml:id="p1v.2"/> non demora niant:</l>
-                <l n="45"><pb n="f.2r"/>(2R) Falcom e sparivier e cirfalc svolant</l>
+                <l n="45"><milestone n="f.2r"/>(2R) Falcom e sparivier e cirfalc svolant</l>
                 <l n="46">À prexo sença demoramant,</l>
                 <l n="47">Brachi e levriri el menà plui de çant;</l>
                 <l n="48">Montà a chavalo p<ex rend="italics">er</ex> li strievi d’arçant,</l>
@@ -290,7 +286,7 @@
                 <l n="69">E dì ch’el me vegna a parlar sença demoramant,</l>
                 <l n="70">Ch’io li voio contar e dir el mio talant</l>
                 <l n="71">Chomo io l’amo plui che cossa vivant.”</l>
-                <l n="72"><pb n="f.2v"/>(2V) Quando la demixela <choice>
+                <l n="72"><milestone n="f.2v"/>(2V) Quando la demixela <choice>
                         <sic>t'intende</sic>
                         <corr cert="medium" resp="SPM"><ex rend="brackets">l</ex>'intende</corr>
                 </choice>,<note xml:id="p2v.1"/> se meraveia fortema<ex rend="italics">n</ex>t</l>
@@ -323,7 +319,7 @@
                 <l n="96">Io lo farò a malla morte finier:</l>
                 <l n="97">Erbe farò arcoier, si·llo farò erber,</l>
                 <l n="98">E de pessimo tossego lo farò atoxeger.</l>
-                <l n="99"><pb n="f.3r"/>(3R) Tuto l’or del mondo no·l porà tanser</l>
+                <l n="99"><milestone n="f.3r"/>(3R) Tuto l’or del mondo no·l porà tanser</l>
                 <l n="100">Che p<ex rend="italics">er</ex> vostro amor no·l faça fini(e)r.</l>
                 <l n="101">Tanto ve amo, no·l poria conter,</l>
                 <l n="102">In vuy ò <choice>
@@ -344,7 +340,7 @@
                 <l n="114">Mie ochi vairi e la bocha p<ex rend="italics">er</ex> baxer!</l>
                 <l n="115">Prendì de mi amor e amister,</l>
                 <l n="116">L’amor vostro me fa tuta tremer!</l>
-                <l n="117"><pb n="f.3v"/>(3V) E quando son in leto al mio posier,</l>
+                <l n="117"><milestone n="f.3v"/>(3V) E quando son in leto al mio posier,</l>
                 <l n="118">Gran chalor me viem e·ssi me convien refreder;</l>
                 <l n="119">Prendì de mi amor sença demorer!</l>
                 <l n="120">Puo de doy cosse ve porì avanter</l>
@@ -372,7 +368,7 @@
                 <l n="142">Mo, s’el ve plasse, io vel voio cons<corr cert="medium" resp="SPM"
                         >e</corr>ier<note xml:id="p3v.3"/></l>
                 <l n="143">Ch’el mio voler non dibié stratorner.”</l>
-                <l n="144"><pb n="f.4r"/>(4R) Quando Ugo l’intende, no à i que coroçer,</l>
+                <l n="144"><milestone n="f.4r"/>(4R) Quando Ugo l’intende, no à i que coroçer,</l>
                 <l n="145">Si·lli dirà alquanto de so penssier.</l>
             </lg>
             <lg type="laisse" n="4">
@@ -406,7 +402,7 @@
                         <corr cert="low" resp="SPM">cuor <ex rend="brackets">e</ex> luii</corr>
                     </choice><note xml:id="p4r.2"/> lialmant.</l>
                 <l n="170">Alora disse tal cossa ch’el non è hom vivant</l>
-                <l n="171"><pb n="f.4v"/>(4V) A chi non canbiasse lo color e lo talent.</l>
+                <l n="171"><milestone n="f.4v"/>(4V) A chi non canbiasse lo color e lo talent.</l>
             </lg>
             <lg type="laisse" n="5">
                 <head>Laisse 5</head>
@@ -451,7 +447,7 @@
                 <l n="195">E se vuy aver dito altro ni parlie,</l>
                 <l n="196">Io ve farò ardere e la polvere al vento çitie."</l>
                 <l n="197">"Non farò," diss’ela, "p<ex rend="italics">er</ex> la fé che vos die."</l>
-                <l n="198"><pb n="f.5r"/>(5R) Disse la duchessa, “Vuy farì cortexie;</l>
+                <l n="198"><milestone n="f.5r"/>(5R) Disse la duchessa, “Vuy farì cortexie;</l>
                 <l n="199">Tuò quela tovaia, all col te la pendie,</l>
                 <l n="200">E lo braço destro si·ll’averì ligie</l>
                 <l n="201">Ch’el para ch’el sia roto e scrafie;</l>
@@ -481,7 +477,7 @@
                 <l n="222">De caçaxon mena quatro çenglere.</l>
                 <l n="223">A l’insir del bosco si comença a cornere;</l>
                 <l n="224">El significha ch’eli vien da çaciere.</l>
-                <l n="225"><pb n="f.5v"/>(5V) La fia de Charlon, quando oldì lo corno soner(e),</l>
+                <l n="225"><milestone n="f.5v"/>(5V) La fia de Charlon, quando oldì lo corno soner(e),</l>
                 <l n="226">Soa cameriera el’à tosto apelere.</l>
                 <l n="227">“Or andemo contra Sanguy<ex rend="italics">n</ex> sença demorere</l>
                 <l n="228">E si li averemo tuto lo penssier contere</l>
@@ -503,7 +499,7 @@
                     </choice><note xml:id="p5v.3"/> p<ex rend="italics">er</ex> la porta della çita ave intrere</l>
                 <l n="242">E vien corando menando gran trepere,</l>
                 <l n="243">E la duchexa si ave dava<ex rend="italics">n</ex>ti luy alere.</l>
-                <l n="244"><pb n="f.6r"/>(6R) Ad alta voxe chomençà a cridere,</l>
+                <l n="244"><milestone n="f.6r"/>(6R) Ad alta voxe chomençà a cridere,</l>
                 <l n="245">“Marçé, bel siere, per Domenedio lo pere!”</l>
                 <l n="246">Quando lo dux la vete, si reti<ex rend="italics">n</ex>e lo destrere,</l>
                 <l n="247">In·ssu ll’arçom davanti se presse a puçere.</l>
@@ -530,7 +526,7 @@
                 <l n="268">Disse la dona, “Io no ve·l voio negere,</l>
                 <l n="269">El fo l’Avernal, che tanto sollì amere.”</l>
                 <l n="270">Quando Sanguy<ex rend="italics">n</ex> l’intende, se prexe a merevelere;</l>
-                <l n="271"><pb n="f.6v"/>(6V) Ben andasse un ch<ex rend="italics">avalie</ex>r un trato d’un
+                <l n="271"><milestone n="f.6v"/>(6V) Ben andasse un ch<ex rend="italics">avalie</ex>r un trato d’un
                     arcere</l>
                 <l n="272">Ch’el non poté un sol moto parlere.</l>
                 <l n="273">Disse la duchexa, “Intendeme bel frere:</l>
@@ -572,7 +568,7 @@
                 <l n="295">Un dardo tien in man o·llo fero ensson</l>
                 <l n="296">Ch’el aveva portado de caçasson.</l>
                 <l n="297">E cussì dormiva Ugon lo prodon,</l>
-                <l n="298"><pb n="f.7r"/>(7R) Sanguy<ex rend="italics">n</ex> lo ferì, che non ave compassion;</l>
+                <l n="298"><milestone n="f.7r"/>(7R) Sanguy<ex rend="italics">n</ex> lo ferì, che non ave compassion;</l>
                 <l n="299">De quel dardo un tal colpo donà al baron</l>
                 <l n="300">Ch’el passà la coltra, el vermeio siglaton,</l>
                 <l n="301">Si·lli naverà duramante al gallon.</l>
@@ -614,7 +610,7 @@
                 <l n="322">Si presse Sanguy<ex rend="italics">n</ex> p<ex rend="italics">er</ex> coste e p<ex rend="italics">er</ex> flant,</l>
                 <l n="323">Si·l menà via oltra lo·sso talant.</l>
                 <l n="324">Lo conte Ugo se levà amantinant,</l>
-                <l n="325"><pb n="f.7v"/>(7V) De·ssoa plaga non curà ni tant ni quant.</l>
+                <l n="325"><milestone n="f.7v"/>(7V) De·ssoa plaga non curà ni tant ni quant.</l>
                 <l n="326">Al meio ch’el può, si vien belamant,</l>
                 <l n="327">Prexe le soe arme el so guarnimant,</l>
                 <l n="328">Veste l’osbergo, si à cento lo brant.</l>
@@ -634,7 +630,7 @@
                 <l n="339">Quando Sangui<ex rend="italics">n</ex> l’intende, may non fo plui dolant;</l>
                 <l n="340">El fè montar a chavalo so homini e so çant</l>
                 <l n="341">Che plui de mille ne prent e·l guarnimant.</l>
-                <l n="342"><pb n="f.8r"/>(8R) Medessimo Sangui<ex rend="italics">n</ex> montà in l’auferant;</l>
+                <l n="342"><milestone n="f.8r"/>(8R) Medessimo Sangui<ex rend="italics">n</ex> montà in l’auferant;</l>
                 <l n="343">Lo conte inchalçà per lo camin erant.</l>
                 <l n="344">El conte Ugo s’en va coroçoxo e dolant,</l>
                 <l n="345">Defina al vespro ch’el sol va colçant.</l>
@@ -670,7 +666,7 @@
                 <l n="366">Mo aspeté fin al’alba parant</l>
                 <l n="367">Ch’io lo meterò fuora, luy e l’auferant,</l>
                 <l n="368">Chussì armado como el vene qua drant.</l>
-                <l n="369"><pb n="f.8v"/>(8V) Se vuy lo porì prender, faré el vostro talant.”</l>
+                <l n="369"><milestone n="f.8v"/>(8V) Se vuy lo porì prender, faré el vostro talant.”</l>
                 <l n="370">Responde <choice>
                         <sic>Sanguy</sic>
                         <corr cert="medium" resp="SPM">Sanguy<ex rend="brackets">n</ex></corr>
@@ -705,7 +701,7 @@
                 <l n="392">Si m’à dito molto certanament</l>
                 <l n="393">Ch’el pare de custui alcisse lo mio a un torniament</l>
                 <l n="394">Defuora da Paris in llo prado verdoiant,</l>
-                <l n="395"><pb n="f.9r"/>(9R) Puo tollsse le terre et tute le caxament.</l>
+                <l n="395"><milestone n="f.9r"/>(9R) Puo tollsse le terre et tute le caxament.</l>
                 <l n="396">Mo costù era piçollo enfent</l>
                 <l n="397">Al tempo che so pare fè lo faliment;</l>
                 <l n="398">El non ave colpa de quelo onfendiment;</l>
@@ -739,7 +735,7 @@
                         <sic>Dee</sic>
                         <corr cert="high" resp="scribe">D<add place="inline">i</add>é</corr>
                     </choice></l>
-                <l n="422"><pb n="f.9v"/>(9V) De quelle cosse non avy colpa ne peçié.”</l>
+                <l n="422"><milestone n="f.9v"/>(9V) De quelle cosse non avy colpa ne peçié.”</l>
                 <l n="423">Responde Gualtier, “Tu dì ben véritié.”</l>
                 <l n="424">p<ex rend="italics">er</ex> la man prexe Ugo, si l'à su dreçié.</l>
                 <l n="425">“Signor mio, de niente ve doté;</l>
@@ -770,7 +766,7 @@
                     </choice>,</l>
                 <l n="447">Defuora lo averì quando me virà gré.</l>
                 <l n="448">Ma una cossa voio che vuy saçé,</l>
-                <l n="449"><pb n="f.10r"/>(10R) Che nuy semo con luy acordé.”</l>
+                <l n="449"><milestone n="f.10r"/>(10R) Che nuy semo con luy acordé.”</l>
                 <l n="450">Quando <choice>
                         <sic>Sanguy</sic>
                         <corr cert="medium" resp="SPM">Sanguy<ex rend="brackets">n</ex></corr>
@@ -811,7 +807,7 @@
                 <l n="473">Dixe Sanguy<ex rend="italics">n</ex>, “Vien fuora al vercier,</l>
                 <l n="474">Fel traitor renegado, co·l pos tu penser</l>
                 <l n="475">De intrar i<ex rend="italics">n</ex> mia camera per far tal mestier?”</l>
-                <l n="476"><pb n="f.10v"/>(10V) Lo conte Ugo non vuol plui tençoner,</l>
+                <l n="476"><milestone n="f.10v"/>(10V) Lo conte Ugo non vuol plui tençoner,</l>
                 <l n="477">De·ssi defender no li val un dener.</l>
                 <l n="478">A la fenestra non vuol plu demorer;</l>
                 <l n="479">Vene <choice>
@@ -844,7 +840,7 @@
                 <l n="500">p<ex rend="italics">er</ex> lo camin quanto pò l’arangon;</l>
                 <l n="501">Sangui<ex rend="italics">n</ex> l’incalçà a cuita d’esperon</l>
                 <l n="502">Tanto ch’elli fo da presso lo trar d’un bolçon;</l>
-                <l n="503"><pb n="f.11r"/>(11R) Elo li crida, “Deslial, trait felon!</l>
+                <l n="503"><milestone n="f.11r"/>(11R) Elo li crida, “Deslial, trait felon!</l>
                 <l n="504">Se tu te vuo’ defender, volta l'arangon</l>
                 <l n="505">E si te defendi s’ell è vero o non!”</l>
                 <l n="506">Responde lo conte, “Ben me plaxe conpag<ex rend="italics">n</ex>on</l>
@@ -863,7 +859,7 @@
             <lg type="laisse" n="14">
                 <head>Laisse 14</head>
                 <l n="518"><hi rend="blue-initial">V</hi>a·ss'en lo conte Ugo, no à que coroçere</l>
-                <l n="519"><pb n="f.11v"/>(11V) E Sangui romaxe a tera del destrere;</l>
+                <l n="519"><milestone n="f.11v"/>(11V) E Sangui romaxe a tera del destrere;</l>
                 <l n="520">So baron lo trova, si l’à domandere</l>
                 <l n="521">“Chi v’à fatto questo? No li è da p<ex rend="italics">er</ex>donere!”</l>
                 <l n="522">Dixe Sangui<ex rend="italics">n</ex>, “Ell fo Ugo, che Dio dia ingonbrere!</l>
@@ -896,7 +892,7 @@
                 <l n="543">Dixe Antolin, “No ve convien dotere:</l>
                 <l n="544">Forte è·l castel davanti e dariere.</l>
                 <l n="545">Asé li avemo da ber e da mançere.</l>
-                <l n="546"><pb n="f.12r"/>(12R) D’enfin a un ano no ve covien dotere:</l>
+                <l n="546"><milestone n="f.12r"/>(12R) D’enfin a un ano no ve covien dotere:</l>
                 <l n="547">Se Sangui<ex rend="italics">n</ex> viem, si·l faremo star arere."</l>
             </lg>
             <lg type="laisse" n="15">
@@ -931,7 +927,7 @@
                 <l n="569">E si cridà molto forte in oldant,</l>
                 <l n="570">"Chastelan, castelan, inte(n)dì el mio talant!</l>
                 <l n="571">Rendime el traditor, non demoré nient!</l>
-                <l n="572"><pb n="f.12v"/>(12V) E se questo non vuol far, sapì ad asiant:</l>
+                <l n="572"><milestone n="f.12v"/>(12V) E se questo non vuol far, sapì ad asiant:</l>
                 <l n="573">Io te desfido da questo dì in avant."</l>
                 <l n="574">Quando lo castellan l'intende, no fè demoramant;</l>
                 <l n="575">A una fenestra s'en ven lì davant</l>
@@ -965,7 +961,7 @@
                         <corr cert="high" resp="scribe">Responde <del>al </del></corr>
                     </choice>Antolin, "De tuto çò che vuy parlé,</l>
                 <l n="598">Io no darave una pome poré,</l>
-                <l n="599"><pb n="f.13r"/>(13R) Ch'el mio chastelo è ben forte de mure e de
+                <l n="599"><milestone n="f.13r"/>(13R) Ch'el mio chastelo è ben forte de mure e de
                     fossé;</l>
                 <l n="600">Non temo el to arssalto un dener indoré,</l>
                 <l n="601">Ben <choice>
@@ -1008,7 +1004,7 @@
                 <l n="623">De una cossa ve podì ben avanter:</l>
                 <l n="624">Ch'io no averò valissant un dener</l>
                 <l n="625">Tera, ni villa, castel ni docler</l>
-                <l n="626"><pb n="f.13v"/>(13V) Che al vostro comando no sia l'oro e li dener.</l>
+                <l n="626"><milestone n="f.13v"/>(13V) Che al vostro comando no sia l'oro e li dener.</l>
                 <l n="627">Antollin l'intende, a Ugo à parler,</l>
                 <l n="628">"Sier," diss'ello, "de questo molto me moier,</l>
                 <l n="629">Quando me volé cossì laser."</l>
@@ -1041,7 +1037,7 @@
                 <l n="650">E Sangui<ex rend="italics">n</ex> l'incalça p<ex rend="italics">er</ex> plan e p<ex rend="italics">er</ex> mon.</l>
                 <l n="651">Quando li fo apresso al trar d’un bolçon,</l>
                 <l n="652">"Ai, sier ch<ex rend="italics">avalie</ex>r, astalé el vostro arangon!"</l>
-                <l n="653"><pb n="f.14r"/>(14R) E chussì cridò fortemente ad alto ton,</l>
+                <l n="653"><milestone n="f.14r"/>(14R) E chussì cridò fortemente ad alto ton,</l>
                 <l n="654">"Che del vostro s<ex rend="italics">er</ex>vixio ve voio dar lo guidardon."</l>
                 <l n="655">E Ugo s'en va, no·lli dixe ne si ni non.</l>
                 <l n="656">Quando Sangui<ex rend="italics">n</ex> l'intende, el non fè arestaxon;</l>
@@ -1075,7 +1071,7 @@
                 <l n="677">Molto charamente li farò conprés,</l>
                 <l n="678">Ché in Alvernia l'averà asediés;</l>
                 <l n="679">No li lasserò castel ni fermités,</l>
-                <l n="680"><pb n="f.14v"/>(14V) E dreçar non se podea en so pés,</l>
+                <l n="680"><milestone n="f.14v"/>(14V) E dreçar non se podea en so pés,</l>
                 <l n="681">In tera stava forte destés."</l>
                 <l n="682">E so baron disse, "Sier, p<ex rend="italics">er</ex>ché no montés?"</l>
                 <l n="683">El so cavalo va p<ex rend="italics">er</ex> la prés,</l>
@@ -1087,7 +1083,7 @@
                 <l n="689">Sier, monté, se·l ve plés,</l>
                 <l n="690">Che mala è la guera e bona è la pés."</l>
                 <l n="691">L'uno a l'altro de questo à parlés,</l>
-                <l n="692"><pb n="f.15r"/>(15R) Indrié torna, no l'à plui i<ex rend="italics">n</ex>cholcés</l>
+                <l n="692"><milestone n="f.15r"/>(15R) Indrié torna, no l'à plui i<ex rend="italics">n</ex>cholcés</l>
                 <l n="693">E l'Avernal s'en va a salvités</l>
                 <l n="694">Fin a Alvernia, soa nobel çités.</l>
                 <l n="695">Tuta soa cente incontra li son alés</l>
@@ -1120,7 +1116,7 @@
                 <l n="716">Aduncha se porallo bem vantere</l>
                 <l n="717">De vuy unir e de mi vergonçere."</l>
                 <l n="718">"Dama," disse Sangui<ex rend="italics">n</ex>, "de niente ve dotere,</l>
-                <l n="719"><pb n="f.15v"/>(15V) Do fiede el m'abaté del corante destrere,</l>
+                <l n="719"><milestone n="f.15v"/>(15V) Do fiede el m'abaté del corante destrere,</l>
                 <l n="720">E p<ex rend="italics">er</ex> questo anderò a Paris o' troverò vostro pere.</l>
                 <l n="721">E tuto questo fato li averò cuntere</l>
                 <l n="722">Chomo l'Avernal ve volleia sforçere.</l>
@@ -1154,7 +1150,7 @@
                 <l n="743">In soa conpagna <num>.M.</num> ch<ex rend="italics">avalie</ex>re.</l>
                 <l n="744">Tanto cavalcà p<ex rend="italics">er</ex> monte e p<ex rend="italics">er</ex> riviere,</l>
                 <l n="745">D'un çorno in ll'altro tanto à so cuor penere,</l>
-                <l n="746"><pb n="f.16r"/>(16R) Che a Paris çonsse sença tardere.</l>
+                <l n="746"><milestone n="f.16r"/>(16R) Che a Paris çonsse sença tardere.</l>
                 <l n="747">La novella va a Carlo l'inperere;</l>
                 <l n="748">Quando l'intende, molto s'à merevelere.</l>
                 <l n="749">Lo dux San<ex rend="italics">guin</ex> desende del destrere.</l>
@@ -1178,7 +1174,7 @@
                 <head>Laisse 23</head>
                 <l n="762"><hi rend="red-initial">D</hi>ixe Sangui<ex rend="italics">n</ex>, "s<ex rend="italics">er</ex>e,
                     entendì mio talant,</l>
-                <l n="763"><pb n="f.16v"/>(16V) De Ugo ve dirò tuto lo convenant,</l>
+                <l n="763"><milestone n="f.16v"/>(16V) De Ugo ve dirò tuto lo convenant,</l>
                 <l n="764">Che plui che no fo Gaino ell·è felont seduant.</l>
                 <l n="765">E' à fatto a mi felonia e tradiamant.</l>
                 <l n="766">L'altro çorno all'alba parant,</l>
@@ -1205,7 +1201,7 @@
                 <l n="787">Puo a Sangui<ex rend="italics">n</ex> responde amantinant,</l>
                 <l n="788">“Bel fio,” diss'ello, “no ve temé de niant,</l>
                 <l n="789">Questa vendeta vien a mi de pressant.</l>
-                <l n="790"><pb n="f.17r"/>(17R) E io la farò molto çentilmant</l>
+                <l n="790"><milestone n="f.17r"/>(17R) E io la farò molto çentilmant</l>
                 <l n="791">Al to plaxer, inanti oto çorni passant.</l>
                 <l n="792">L'oriaflama farò desplegar al vant,</l>
                 <l n="793">p<ex rend="italics">er</ex> mal m'atende Ugo e soa çant."</l>
@@ -1236,7 +1232,7 @@
                 <l n="814">E quella responde, no tarda ni mie,</l>
                 <l n="815">“Pare,” dix'ella, “p<ex rend="italics">er</ex> la fé ch'io ve die,</l>
                 <l n="816">Si ve dirò lo vero, non ò talant de mentie.</l>
-                <l n="817"><pb n="f.17v"/>(17V) San<ex rend="italics">guin</ex> amava Ugo plui d'algun ho<ex rend="italics">m</ex>
+                <l n="817"><milestone n="f.17v"/>(17V) San<ex rend="italics">guin</ex> amava Ugo plui d'algun ho<ex rend="italics">m</ex>
                     che sie.</l>
                 <l n="818">Un dì San<ex rend="italics">guin</ex> andè al bosco a caçie,</l>
                 <l n="819">Ugo se fè amalado e molto agrev(i)e</l>
@@ -1267,7 +1263,7 @@
                 <l n="841">El vete San<ex rend="italics">guin</ex>, si·l mete a rasson,</l>
                 <l n="842">"Fè incontenente montar i mie baron;</l>
                 <l n="843">Fin ad Alvernia anderò sença demoraxon,</l>
-                <l n="844"><pb n="f.18r"/>(18R) Si mostrerò a Ugo quel malvaxio felon</l>
+                <l n="844"><milestone n="f.18r"/>(18R) Si mostrerò a Ugo quel malvaxio felon</l>
                 <l n="845">Ch'io no l'amo la mità d'un boton."</l>
                 <l n="846">E quello lo fa, non fè restaxon.</l>
                 <l n="847">Lo re montà sul so destrier guscon,</l>
@@ -1294,7 +1290,7 @@
                 <l n="868">El vene alla porta davanti li dojon,</l>
                 <l n="869">Molto forte cridà ad alto ton,</l>
                 <l n="870">"Ai, malvas, fel trait Ugon,</l>
-                <l n="871"><pb n="f.18v"/>(18V) Vien defuora, no far arestaxon,</l>
+                <l n="871"><milestone n="f.18v"/>(18V) Vien defuora, no far arestaxon,</l>
                 <l n="872">Che ancuo è vegnudo el çorno e la staxon</l>
                 <l n="873">Che de mia unta farò vençaxon</l>
                 <l n="874">Che vui me·fessi a Viena mia maxon."</l>
@@ -1324,7 +1320,7 @@
                 <l n="895">E si arsaltà l'oste alla temda primier,</l>
                 <l n="896">Si ché molti chavallieri fè a tera trabucer.</l>
                 <l n="897">Quando Sangui<ex rend="italics">n</ex> l'intende, pensà lo seno cançer;</l>
-                <l n="898"><pb n="f.19r"/>(19R) De mallatallento el sse va armer</l>
+                <l n="898"><milestone n="f.19r"/>(19R) De mallatallento el sse va armer</l>
                 <l n="899">Ni no aspeta nesum altro chavalier</l>
                 <l n="900">Che·ssollo se credeva so dalmaço vendeger,</l>
                 <l n="901">Ma molto li è falie so penssier.</l>
@@ -1341,7 +1337,7 @@
                 <l n="912">La çente de Ugo lo corsse a pier,</l>
                 <l n="913">In Alvernia si·l menà p<ex rend="italics">er</ex> prexoner.</l>
                 <l n="914">Quando Carllo lo·ssape, el penssà ben finer.</l>
-                <l n="915"><pb n="f.19v"/>(19V) Mo lo cunte Ugo non vuol plui çostrer,</l>
+                <l n="915"><milestone n="f.19v"/>(19V) Mo lo cunte Ugo non vuol plui çostrer,</l>
                 <l n="916">Incontenente ell tornà da i suo ch<ex rend="italics">avalie</ex>r;</l>
                 <l n="917">Chi·lli donase tuto l'oro mundier,</l>
                 <l n="918">El non serave si aliegro como de aver el suo guerier.</l>
@@ -1371,7 +1367,7 @@
                 <head>Laisse 27</head>
                 <l n="940">"<hi rend="red-initial">C</hi>onpagno<ex rend="italics">n</ex> Sangui<ex rend="italics">n</ex>," disse
                     Ugo lo valant,</l>
-                <l n="941"><pb n="f.20r"/>(20R) "D'alguna coussa no ve temé niant;</l>
+                <l n="941"><milestone n="f.20r"/>(20R) "D'alguna coussa no ve temé niant;</l>
                 <l n="942">Io si ve çuro i<ex rend="italics">n</ex> fé e in sagrament,</l>
                 <l n="943">De non falsarve a tuto el mio vivant,</l>
                 <l n="944">Ni mai non fi ni no me vene a talant.</l>
@@ -1397,7 +1393,7 @@
                 <l n="964">Io no lì serave andado p<ex rend="italics">er</ex> mi es<ex rend="italics">er</ex> desmenbrant.</l>
                 <l n="965">Quando in la çamera fu dentro intrant,</l>
                 <l n="966">E la duchesa me·ffè asentar su un bant,</l>
-                <l n="967"><pb n="f.20v"/>(20V) Puo si me apella tuto primerament</l>
+                <l n="967"><milestone n="f.20v"/>(20V) Puo si me apella tuto primerament</l>
                 <l n="968">De vergognar vui e far el so talent,</l>
                 <l n="969">Eo li dissi ch’io no faria niant.</l>
                 <l n="970">Chi me donasse tuto l’oro d’Oriant,</l>
@@ -1426,7 +1422,7 @@
                 <l n="990">Enfra ell so cuer el s'à p<ex rend="italics">er</ex>pense</l>
                 <l n="991">Tuto lo fato cun elo à devissé.</l>
                 <l n="992">A Ugo parlò belamente e soé,</l>
-                <l n="993"><pb n="f.21r"/>(21R) “Conpagnon," diss'ello, "io sun vostro prexoné,</l>
+                <l n="993"><milestone n="f.21r"/>(21R) “Conpagnon," diss'ello, "io sun vostro prexoné,</l>
                 <l n="994">Ma·sse de prixon io fosse delivré</l>
                 <l n="995">E a Viena fosse retorné,</l>
                 <l n="996">Ben me pensserave trovar la verité;</l>
@@ -1452,7 +1448,7 @@
                 <l n="1016">Incontra li vene so chavalieri aprexié,</l>
                 <l n="1017">De·ssoa vegnuda molto s'à merevelieré;</l>
                 <l n="1018">Davanti Carllo è San<ex rend="italics">guin</ex> andé</l>
-                <l n="1019"><pb n="f.21v"/>(21V) E tuto li à dito (e) cunté</l>
+                <l n="1019"><milestone n="f.21v"/>(21V) E tuto li à dito (e) cunté</l>
                 <l n="1020">Çò ch'el conte li à deresné.</l>
                 <l n="1021">Quando lo re l’intende, si à lo cavo trolé;</l>
                 <l n="1022">Çura a Dio la verasia maisté</l>
@@ -1481,7 +1477,7 @@
                 <l n="1042">O' el vete Ugo, si·lli va a des<ex rend="italics">er</ex>nere</l>
                 <l n="1043">Chomo Sanguy<ex rend="italics">n</ex> li vorave parlere.</l>
                 <l n="1044">Quando Ugo l’intende, se presse (a) mereveiere;</l>
-                <l n="1045"><pb n="f.22r"/>(22R) El non volsse longamente tardere,</l>
+                <l n="1045"><milestone n="f.22r"/>(22R) El non volsse longamente tardere,</l>
                 <l n="1046">Vene a la porta o' San<ex rend="italics">guin</ex> ave trovere.</l>
             </lg>
             <lg type="laisse" n="30">
@@ -1511,7 +1507,7 @@
                 <l n="1068">Lo re lo dreçà belamante in estant,</l>
                 <l n="1069">Da una parte lo re si·l menà belamant,</l>
                 <l n="1070">Si·lli parllà tuto primierament,</l>
-                <l n="1071"><pb n="f.22v"/>(22V) “Ai, sire U<ex rend="italics">go</ex>, vui si' pro e vallant;</l>
+                <l n="1071"><milestone n="f.22v"/>(22V) “Ai, sire U<ex rend="italics">go</ex>, vui si' pro e vallant;</l>
                 <l n="1072">Io ve voio pregar, p<ex rend="italics">er</ex> Dio onipotant,</l>
                 <l n="1073">Che vero me digé sença nul mancamant</l>
                 <l n="1074">De mia fia como fo·llo convenant.”</l>
@@ -1527,7 +1523,7 @@
                 <l n="1084">E io lo fi, no demorie niant.</l>
                 <l n="1085">Quando alla çanbra io intrie là darnt,</l>
                 <l n="1086">Vostra fia me fè sentar susso un bant;</l>
-                <l n="1087"><pb n="f.23r"/>(23R) Si me fè bel vixo e bel senblant</l>
+                <l n="1087"><milestone n="f.23r"/>(23R) Si me fè bel vixo e bel senblant</l>
                 <l n="1088">D’amore e amistà si m’apelà primieramant</l>
                 <l n="1089">E ch’io prendesse de lei çoia al mio talent.</l>
                 <l n="1090">E io li disse che de q<ex rend="italics">ue</ex>sto no farò niant,</l>
@@ -1556,7 +1552,7 @@
                 <l n="1110">In sso conpagnia Sangui<ex rend="italics">n</ex> lo guerier;</l>
                 <l n="1111">Tanto cavalca p<ex rend="italics">er</ex> monti e per vicier,</l>
                 <l n="1112">p<ex rend="italics">er</ex> valle, p<ex rend="italics">er</ex> bossco e p<ex rend="italics">er</ex> terer,</l>
-                <l n="1113"><pb n="f.23v"/>(23V) Che a Viena vien lo re e som berner.</l>
+                <l n="1113"><milestone n="f.23v"/>(23V) Che a Viena vien lo re e som berner.</l>
                 <l n="1114">Quando Sofia sepe la retorner</l>
                 <l n="1115">Che fa so marido e Carllo so per,</l>
                 <l n="1116">Ela crede ch'i mena U<ex rend="italics">go</ex> p<ex rend="italics">er</ex> prexonier;</l>
@@ -1586,7 +1582,7 @@
                 <l n="1136">Che nuy vignimo d’Alvernia cun questa nostra çent</l>
                 <l n="1137">p<ex rend="italics">er</ex> vendegar de ti ell maltalent;</l>
                 <l n="1138">Si·n è romaxi de morti plui de çent.</l>
-                <l n="1139"><pb n="f.24r"/>(24R) Ugo d’Avernia si è chavalier valent,</l>
+                <l n="1139"><milestone n="f.24r"/>(24R) Ugo d’Avernia si è chavalier valent,</l>
                 <l n="1140">El è plu lial de nul homo vivent.</l>
                 <l n="1141">El prexe San<ex rend="italics">guin</ex> a un torniament,</l>
                 <l n="1142">In Alvernia si·ll menà a ssalvamant</l>
@@ -1612,7 +1608,7 @@
                 <l n="1162">In una camera si·lla menà celladament.</l>
                 <l n="1163">Se no lo dux Sangui<ex rend="italics">n</ex>, no·llì fo altro ho<ex rend="italics">m</ex> vivant</l>
                 <l n="1164">E la camerera che·llà li fo al pressent.</l>
-                <l n="1165"><pb n="f.24v"/>(24V) “Damixella,” disse lo re, “intendì el mio
+                <l n="1165"><milestone n="f.24v"/>(24V) “Damixella,” disse lo re, “intendì el mio
                     talent:</l>
                 <l n="1166">Tu diré a mi tuto lo to convinent,</l>
                 <l n="1167">E guarda ben non dir faliment.</l>
@@ -1642,7 +1638,7 @@
                 <l n="1188">E se·lla veritade non dixe, ella se teme del re Carlon</l>
                 <l n="1189">Che·lla menaça de bruxar a fuogo e a carbon.</l>
                 <l n="1190">Sangui<ex rend="italics">n</ex> la guardà, si cridà ad alto ton,</l>
-                <l n="1191"><pb n="f.25r"/>(25R) “Ay, putan, meltris!” diss’elo, “ancuo che
+                <l n="1191"><milestone n="f.25r"/>(25R) “Ay, putan, meltris!” diss’elo, “ancuo che
                     faron?</l>
                 <l n="1192">Dissé lo vero sença nessun plui tardon,</l>
                 <l n="1193">Se no ch’io ve taierò la gola sença demoraxon!”</l>
@@ -1672,7 +1668,7 @@
                 <l n="1214">E io lo fi sença ritinimant</l>
                 <l n="1215">E lo conte me responde sença maltalant</l>
                 <l n="1216">Ch’el vignerà tosto e issnelament.</l>
-                <l n="1217"><pb n="f.25v"/>(25V) Quando lo conte fo vegnudo in la çambra là
+                <l n="1217"><milestone n="f.25v"/>(25V) Quando lo conte fo vegnudo in la çambra là
                     d(r)ant,</l>
                 <l n="1218">La duchexa lo fè asentar apresso ella inssemant;</l>
                 <l n="1219">Alora vostra fia non demorà niant,</l>
@@ -1702,7 +1698,7 @@
                 <head>Laisse 35</head>
                 <l n="1241"><hi rend="red-initial">Q</hi>uando lo re ave la cameriera ascolté,</l>
                 <l n="1242">Che·llo tradimento à dito e conté,</l>
-                <l n="1243"><pb n="f.26r"/>(26R) A gran meraveia ell fo penssé.</l>
+                <l n="1243"><milestone n="f.26r"/>(26R) A gran meraveia ell fo penssé.</l>
                 <l n="1244">Lo duc Sangui<ex rend="italics">n</ex> fo de mallavolenté</l>
                 <l n="1245">E lo re çura alla Santa Trinité</l>
                 <l n="1246">Che Sufia, ch’elo aveva tanto amé,</l>
@@ -1730,7 +1726,7 @@
                 <head>Laisse 36</head>
                 <l n="1266"><hi rend="blue-initial">O</hi>r passa lo çorno si vien lo scurere,</l>
                 <l n="1267">Amantinente all'allba sclarere</l>
-                <l n="1268"><pb n="f.26v"/>(26V) Lo dux Sangui<ex rend="italics">n</ex> non vol pluy demorere.</l>
+                <l n="1268"><milestone n="f.26v"/>(26V) Lo dux Sangui<ex rend="italics">n</ex> non vol pluy demorere.</l>
                 <l n="1269">Delle so arme el se ave adobere,</l>
                 <l n="1270">Fa·sse vegnir lo corente destriere,</l>
                 <l n="1271">Dessovra li monda per l'indorado strivere;</l>
@@ -1756,7 +1752,7 @@
                 <l n="1291">Che p<ex rend="italics">er</ex> vuy manda Carlo l'inperere,</l>
                 <l n="1292">Che a luy vigné sença plui demore(re)</l>
                 <l n="1293">E cun vuy vol parlar e decernere</l>
-                <l n="1294"><pb n="f.27r"/>(27R) E si·ssé bem da luy afide(re)."</l>
+                <l n="1294"><milestone n="f.27r"/>(27R) E si·ssé bem da luy afide(re)."</l>
                 <l n="1295">Quando Ugo l'intende, Dio à rengracie(re)</l>
                 <l n="1296">E a Sangui<ex rend="italics">n</ex> responde amantinente indriere,</l>
                 <l n="1297">"Ancora con vui serò conpagnon e friere,</l>
@@ -1785,7 +1781,7 @@
                 <l n="1317">E de quela paxe tuti çoianti sum,</l>
                 <l n="1318">Ma p<ex rend="italics">er</ex> la duchexa èno in gran afflicion.</l>
                 <l n="1319">Atanto Sangui<ex rend="italics">n</ex> et Ugon</l>
-                <l n="1320"><pb n="f.27v"/>(27V) Esi montano sul palaço a bandon,</l>
+                <l n="1320"><milestone n="f.27v"/>(27V) Esi montano sul palaço a bandon,</l>
                 <l n="1321">Davanti Charlo s'en va li do ba<ex rend="italics">r</ex>on.</l>
                 <l n="1322">"Imp<ex rend="italics">er</ex>ador," dixe Sangui<ex rend="italics">n</ex> "or udé Ugon:</l>
                 <l n="1323">El è vegnudo a vui per querir raxon</l>
@@ -1815,7 +1811,7 @@
                 <l n="1343">"Fia," diss'ello, "io ve amava tant</l>
                 <l n="1344">Che no·l porave dir nul homo vivant;</l>
                 <l n="1345">El non è algun soto Dio vivant</l>
-                <l n="1346"><pb n="f.28r"/>(28R) Che·ssia plui gramo de mi ni plui dollant</l>
+                <l n="1346"><milestone n="f.28r"/>(28R) Che·ssia plui gramo de mi ni plui dollant</l>
                 <l n="1347">De quella folia unde vui fesse pemssamant.</l>
                 <l n="1348">Vede Ugo che qui davant</l>
                 <l n="1349">p<ex rend="italics">er</ex> si defender ell è vegnu al prexant.</l>
@@ -1831,7 +1827,7 @@
                 <l n="1359">Çamay a U<ex rend="italics">go</ex> no portie maltalant,</l>
                 <l n="1360">Che pluy lial homo non è al siegolo vivant.</l>
                 <l n="1361">Quando p<ex rend="italics">er</ex> lui io mandie primieramant</l>
-                <l n="1362"><pb n="f.28v"/>(28V) Ch'el me vegnisse a parlar amantinant,</l>
+                <l n="1362"><milestone n="f.28v"/>(28V) Ch'el me vegnisse a parlar amantinant,</l>
                 <l n="1363">Asai li putì dire e far manaçe grant</l>
                 <l n="1364">Ch'io lo podesse mudar de·sso talant.</l>
                 <l n="1365">Da me ell se partì, no demorà niant."</l>
@@ -1864,7 +1860,7 @@
                 <l n="1385"><hi rend="red-initial">A</hi>presso parla lo conte Ugon,</l>
                 <l n="1386">Colui ch'è savio e de bona raxon,</l>
                 <l n="1387">Che mai el non dixe chossa che non ssia bon,</l>
-                <l n="1388"><pb n="f.29r"/>(29R) "Re de Franca," dix'elo, "intendì mio
+                <l n="1388"><milestone n="f.29r"/>(29R) "Re de Franca," dix'elo, "intendì mio
                     s<ex rend="italics">er</ex>mon:</l>
                 <l n="1389">El non è homo in tuto lo mun</l>
                 <l n="1390">Che p<ex rend="italics">er</ex> conplaxer non pa(r)li a bandon;</l>
@@ -1894,7 +1890,7 @@
                 <l n="1411">Cholui che la doverave aver çudegé</l>
                 <l n="1412">Si domanda p<ex rend="italics">er</ex> lie marçé e pieté."</l>
                 <l n="1413">L'inperador fo in pié levé</l>
-                <l n="1414"><pb n="f.29v"/>(29V) Davanti Sofia ell è andé</l>
+                <l n="1414"><milestone n="f.29v"/>(29V) Davanti Sofia ell è andé</l>
                 <l n="1415">E plancendo li à dito e parlé,</l>
                 <l n="1416">“Fia,” dix'ello, “in mal hora fosti né</l>
                 <l n="1417">Quando tu m'ài honi e vergonçé.</l>
@@ -1923,7 +1919,7 @@
                 <l n="1437">Contra Sufia ch'el amava dolcement.</l>
                 <l n="1438">Niam la cameriera non ss'anderà vantent</l>
                 <l n="1439">Che cu<ex rend="italics">n</ex> la duchexa fo çudegada al prexent.</l>
-                <l n="1440"><pb n="f.30r"/>(30R) Or intendé çò che fè lo re possent:</l>
+                <l n="1440"><milestone n="f.30r"/>(30R) Or intendé çò che fè lo re possent:</l>
                 <l n="1441">Inanci che de Sufia fosse fato lo delivrament,</l>
                 <l n="1442">El fè vegnir prevedi e capelant avinent,</l>
                 <l n="1443">Vescovi e abadi, e altra bona çent.</l>
@@ -1949,7 +1945,7 @@
                 <l n="1463">Al dux Sangui<ex rend="italics">n</ex> io ve donie ricament,</l>
                 <l n="1464">Lo plui çentil homo del batiçament.</l>
                 <l n="1465">Elo v’amava de cuor dolçemant</l>
-                <l n="1466"><pb n="f.30v"/>(30V) E vui de lui penssassi tal faliment;</l>
+                <l n="1466"><milestone n="f.30v"/>(30V) E vui de lui penssassi tal faliment;</l>
                 <l n="1467">Chavallier ell è de Dio o<ex rend="italics">n</ex>ipotent.</l>
                 <l n="1468">Disse la duchexa, "De çò io me repent;</l>
                 <l n="1469">Se vui me perdoné, si farò penitent</l>
@@ -1978,7 +1974,7 @@
                 <l n="1489">Oldì, signori, che fè l'inperier,</l>
                 <l n="1490">Si como soa fia vene a finer,</l>
                 <l n="1491">Che l'ave amorir e trapasser.</l>
-                <l n="1492"><pb n="f.31r"/>(31R) Del fuogo la fè trare sença demorer,</l>
+                <l n="1492"><milestone n="f.31r"/>(31R) Del fuogo la fè trare sença demorer,</l>
                 <l n="1493">Si·lla fè in aqua e in llate bagner</l>
                 <l n="1494">Tanto ch'ella sse ave·ttuta refreder,</l>
                 <l n="1495">Puo ricamente la fè vestir e coroner.</l>
@@ -1992,7 +1988,7 @@
                 <l n="1503">Messa e matin p<ex rend="italics">er</ex> le aneme canter</l>
                 <l n="1504">E p<ex rend="italics">er</ex> so anema fè un monestier funder</l>
                 <l n="1505">E multi munessi li fexeva ster</l>
-                <l n="1506"><pb n="f.31v"/>(31V) E p<ex rend="italics">er</ex> so anema chantar de Dio el
+                <l n="1506"><milestone n="f.31v"/>(31V) E p<ex rend="italics">er</ex> so anema chantar de Dio el
                     mestier.</l>
                 <l n="1507">Della duchessa no ve voio plui parler,</l>
                 <l n="1508">Del conte Ugo ve voio cunter,</l>
@@ -2022,7 +2018,7 @@
                 <l n="1529">Che mai algun homo in soa vivité</l>
                 <l n="1530">No durò d'afano pur la mité.</l>
                 <l n="1531">Plui de seti ani conpli e passé,</l>
-                <l n="1532"><pb n="f.32r"/>(32R) E chi de lui avesse contata tuta la verité</l>
+                <l n="1532"><milestone n="f.32r"/>(32R) E chi de lui avesse contata tuta la verité</l>
                 <l n="1533">Tegnudo serave p<ex rend="italics">er</ex> gran boxié.</l>
                 <l n="1534">Or lasseremo de Ugo che ben è alturié,</l>
                 <l n="1535">La marçé de Dio e dell ssa<ex rend="italics">n</ex>ta Honoré</l>
@@ -2051,7 +2047,7 @@
                 <l n="1555">Ugo d'Avernia si menà la soe,</l>
                 <l n="1556">Unde el fè una gran folie,</l>
                 <l n="1557">Si ch’el fo p<ex rend="italics">er</ex> ella travaié e penie</l>
-                <l n="1558"><pb n="f.32v"/>(32V) E per ela fo mandado in tal partie</l>
+                <l n="1558"><milestone n="f.32v"/>(32V) E per ela fo mandado in tal partie</l>
                 <l n="1559">Che mai homo no fo in quela vie</l>
                 <l n="1560">Che lì andasse che no<ex rend="italics">n</ex> fosse penie.</l>
             </lg>
@@ -2083,7 +2079,7 @@
                 <head>Laisse 47</head>
                 <l n="1582"><hi rend="red-initial">R</hi>icha fo la corte meraveiossa e grant</l>
                 <l n="1583">Im Paris sula·ssala manant.</l>
-                <l n="1584"><pb n="f.33r"/>(33R) p<ex rend="italics">er</ex> la çitade se fa çostrer e
+                <l n="1584"><milestone n="f.33r"/>(33R) p<ex rend="italics">er</ex> la çitade se fa çostrer e
                     torniamant;</l>
                 <l n="1585">Done e dunçele, li piçoli e li grant</l>
                 <l n="1586">Ballava e cantava aliegri e çoiant.</l>
@@ -2113,7 +2109,7 @@
                 <l n="1606">Quando ella ave tolto lo perdon,</l>
                 <l n="1607">Chon tute le done indrié tornon,</l>
                 <l n="1608">Balando vien e cantando cançon.</l>
-                <l n="1609"><pb n="f.33v"/>(33V) Charlo Martelo, quelo re felon,</l>
+                <l n="1609"><milestone n="f.33v"/>(33V) Charlo Martelo, quelo re felon,</l>
                 <l n="1610">Si chavalcava cun molti so baron,</l>
                 <l n="1611">Quando ell vete le done de·ssi bele façon.</l>
                 <l n="1612">Amantinente dessende de l'arçon</l>
@@ -2142,7 +2138,7 @@
             </lg>
             <lg type="laisse" n="49">
                 <head>Laisse 49</head>
-                <l n="1635"><pb n="f.34r"/>(34R) <hi rend="blue-initial">Q</hi>uando la dona à
+                <l n="1635"><milestone n="f.34r"/>(34R) <hi rend="blue-initial">Q</hi>uando la dona à
                     intendu Carlo lo rois,</l>
                 <l n="1636">Che a lie dixeva tal parole in secrois,</l>
                 <l n="1637">Al cuor ella ave molto gran buffois.</l>
@@ -2159,7 +2155,7 @@
                 <l n="1648">p<ex rend="italics">er</ex> puoço ch'ella no·l dixe a Ugo l'Alvernois</l>
                 <l n="1649">Che iera so marido e·sso amigo p<ex rend="italics">er</ex>fois;</l>
                 <l n="1650">Ma·lla dona che iera ssavia e cortois,</l>
-                <l n="1651"><pb n="f.34v"/>(34V) Si guardà p<ex rend="italics">er</ex> lo gram mesprixois</l>
+                <l n="1651"><milestone n="f.34v"/>(34V) Si guardà p<ex rend="italics">er</ex> lo gram mesprixois</l>
                 <l n="1652">Che porave avegnir infra lui e rois.</l>
             </lg>
             <lg type="laisse" n="50">
@@ -2192,7 +2188,7 @@
                 <l n="1674">D'aver all sso demin la contessa dal bel color.</l>
                 <l n="1675">A la doman quando aparsse lo claro jor,</l>
                 <l n="1676">Si è·llevado Charlo ‘mperador.</l>
-                <l n="1677"><pb n="f.35r"/>(35R) p<ex rend="italics">er</ex> Sandin mandà sença nul demor;</l>
+                <l n="1677"><milestone n="f.35r"/>(35R) p<ex rend="italics">er</ex> Sandin mandà sença nul demor;</l>
                 <l n="1678">El vene a lui como s<ex rend="italics">er</ex>vo a signor.</l>
                 <l n="1679">Quando lo re lo vete, si·lli mostrà dol e amor;</l>
                 <l n="1680">Per la man lo presse, si ll'aseta apresso lor.</l>
@@ -2218,7 +2214,7 @@
                 <l n="1700">Quando ell ve serà davanti, si·lli faré honor</l>
                 <l n="1701">E si·lli dì como vui sé inperador</l>
                 <l n="1702">E como a vui rende trabuto li grandi e li menor,</l>
-                <l n="1703"><pb n="f.35v"/>(35V) Chonti e marchexi, principi e valvaxor,</l>
+                <l n="1703"><milestone n="f.35v"/>(35V) Chonti e marchexi, principi e valvaxor,</l>
                 <l n="1704">p<ex rend="italics">er</ex> tuta cristintade inviron e intor.</l>
                 <l n="1705">Ma un lì è che ssentì maçor</l>
                 <l n="1706">Che no ve mandà trabuto unde vui sé in eror:</l>
@@ -2247,7 +2243,7 @@
                 <l n="1726">Ma se Ugo avesse sapudo la verité,</l>
                 <l n="1727">p<ex rend="italics">er</ex> mal lì fosse quel messacier alé.</l>
                 <l n="1728">Ugo d'Alvernia fo de gran lialté,</l>
-                <l n="1729"><pb n="f.36r"/>(36R) Vene a Paris, sul pallaço è monté</l>
+                <l n="1729"><milestone n="f.36r"/>(36R) Vene a Paris, sul pallaço è monté</l>
                 <l n="1730">O' e' vete lo re, in quela parte è andé.</l>
                 <l n="1731">Quando lo re lo vete, gran çoia à mené.</l>
                 <l n="1732">Ugo fo savio, davanti lui è inçenoglé,</l>
@@ -2276,7 +2272,7 @@
                 <head>Laisse 53</head>
                 <l n="1753"><hi rend="blue-initial">Q</hi>uando Ugo oldì l’inperador parlere,</l>
                 <l n="1754">D'alguna cossa no·l vol contrastere</l>
-                <l n="1755"><pb n="f.36v"/>(36V) E quelo ch'a lui plaxe li à conferme(re).</l>
+                <l n="1755"><milestone n="f.36v"/>(36V) E quelo ch'a lui plaxe li à conferme(re).</l>
                 <l n="1756">L'inperador li fè su li santi çurere</l>
                 <l n="1757">Ch'el anderà lo trabuto domandere</l>
                 <l n="1758">A Lucifero, quel grando averssere.</l>
@@ -2305,7 +2301,7 @@
             </lg>
             <lg type="laisse" n="54">
                 <head>Laisse 54</head>
-                <l n="1781"><pb n="f.37r"/>(37R) <hi rend="red-initial">L</hi>o cu<ex rend="italics">n</ex>te
+                <l n="1781"><milestone n="f.37r"/>(37R) <hi rend="red-initial">L</hi>o cu<ex rend="italics">n</ex>te
                     d'Avernia, lo nobele et possant,</l>
                 <l n="1782">Senpre versso Dio ave bona sperant.</l>
                 <l n="1783">Dal so conpagno se parte dolçemant,</l>
@@ -2332,7 +2328,7 @@
                 <l n="1804">E a çò che inver Dio el sia repenitant,</l>
                 <l n="1805">Di·ssoi pecadi confessosse dretamant,</l>
                 <l n="1806">El corpo de <ex rend="italics">Crist</ex>o va humilemant prendant.</l>
-                <l n="1807"><pb n="f.37v"/>(37V) A puoveri voleva dar mançar al so talant;</l>
+                <l n="1807"><milestone n="f.37v"/>(37V) A puoveri voleva dar mançar al so talant;</l>
                 <l n="1808">Ma un lì era che li pareva plui lant,</l>
                 <l n="1809">Che infermo (ç)axeva alla porta davant:</l>
                 <l n="1810">Tuto levrosso pareva dadrié e davant.</l>
@@ -2354,7 +2350,7 @@
                 <l n="1822">Ch'el pareva si levrosso e plen de malatie.</l>
                 <l n="1823">Della tavolla se lievà cun gram fantassie;</l>
                 <l n="1824">Lo vin presse, lo capon altrossie,</l>
-                <l n="1825"><pb n="f.38r"/>(38R) Via lo portà façando gran brochie.</l>
+                <l n="1825"><milestone n="f.38r"/>(38R) Via lo portà façando gran brochie.</l>
                 <l n="1826">p<ex rend="italics">er</ex> lo balcon del palaço inssì quel malfie.</l>
                 <l n="1827">Quando lo conte lo vete, non à talento de rie,</l>
                 <l n="1828">Molto lo reguardà, si è mervilie.</l>
@@ -2383,7 +2379,7 @@
                 <l n="1848">Che·l mandà a l'inferno p<ex rend="italics">er</ex> so possançe.</l>
                 <l n="1849">Quando la dona lo·ssape, si è in gran dotançe</l>
                 <l n="1850">Ch’ela vete el so signor in quele pessançe,</l>
-                <l n="1851"><pb n="f.38v"/>(38V) In chi ella aveva tuta la so fidançe.</l>
+                <l n="1851"><milestone n="f.38v"/>(38V) In chi ella aveva tuta la so fidançe.</l>
                 <l n="1852">Lo centil conte p<ex rend="italics">er</ex> la so liançe,</l>
                 <l n="1853">Che de lialtade tuti li altri avance,</l>
                 <l n="1854">Da la dona tolse conbiado, no fè tardançe.</l>
@@ -2412,7 +2408,7 @@
                 <l n="1874">E che vui fé a ella tuto el so plaxer bon."</l>
                 <l n="1875">Eli responde, "Non abié dotaxon,</l>
                 <l n="1876">Ben la guarderemo con(t)ra lo don.</l>
-                <l n="1877"><pb n="f.39r"/>(39R) Mo inanci che Ugo se partisse de so maxon,</l>
+                <l n="1877"><milestone n="f.39r"/>(39R) Mo inanci che Ugo se partisse de so maxon,</l>
                 <l n="1878">El fè asemblar so çente, chavalieri e pendon.</l>
                 <l n="1879">Quando elli fo asenbladi, el disse ad alto ton,</l>
                 <l n="1880">"Signori," diss'elo, "a Dio e al so non,</l>
@@ -2442,7 +2438,7 @@
                 <l n="1900">El veste l'osbergo, le ganbiere va calçan,</l>
                 <l n="1901">Alaçà l'elmo, si à cento lo ban,</l>
                 <l n="1902">In soa man una lança o el fero fo trençan.</l>
-                <l n="1903"><pb n="f.39v"/>(39V) Montà a chavalo, plem fo de maltalem.</l>
+                <l n="1903"><milestone n="f.39v"/>(39V) Montà a chavalo, plem fo de maltalem.</l>
                 <l n="1904">Chonbiado prende, alora fo grando lo plan.</l>
                 <l n="1905">Çascun plançeva, de çò sea vui çertan,</l>
                 <l n="1906">Ma sov<ex rend="italics">r</ex>a tuti plançeva la contessa avinan,</l>
@@ -2475,7 +2471,7 @@
                 <l n="1926"><hi rend="blue-initial">P</hi>er lo camin s’en va lo cunte Hue,</l>
                 <l n="1927">Plançe dei ogli, a·sso do man l'asue;</l>
                 <l n="1928">Va s'en lo co<ex rend="italics">n</ex>te, so ventura l'argue.</l>
-                <l n="1929"><pb n="f.40r"/>(40R) "Dio," disse lo conte, "com in mal hora su
+                <l n="1929"><milestone n="f.40r"/>(40R) "Dio," disse lo conte, "com in mal hora su
                     nasue,</l>
                 <l n="1930">Ch'el mio Signor me manda cercan la cen perdue.</l>
                 <l n="1931">Io no posso trovar covene ni chanue</l>
@@ -2505,7 +2501,7 @@
                 <l n="1952">Io sun stado in sto remitorio tant,</l>
                 <l n="1953">Quando io lì intrie, io era piçol fant,</l>
                 <l n="1954">Bem è (ç)à conplidi ani plui de otant,</l>
-                <l n="1955"><pb n="f.40v"/>(40V) Asé ò durado pene et torment</l>
+                <l n="1955"><milestone n="f.40v"/>(40V) Asé ò durado pene et torment</l>
                 <l n="1956">E de queste cosse unde tu ve quarant,</l>
                 <l n="1957">Che vegnudi da mi molte fiade e sovant</l>
                 <l n="1958">E p<ex rend="italics">er</ex> mi inganiar m'à portà molte pressant</l>
@@ -2534,7 +2530,7 @@
             </lg>
             <lg type="laisse" n="62">
                 <head>Laisse 62</head>
-                <l n="1981"><pb n="f.41r"/>(41R) <hi rend="blue-initial">F</hi>uora de Roma s'en va
+                <l n="1981"><milestone n="f.41r"/>(41R) <hi rend="blue-initial">F</hi>uora de Roma s'en va
                     lo conte Ugon,</l>
                 <l n="1982">p<ex rend="italics">er</ex> lo camin el sse mete a bandon.</l>
                 <l n="1983">Im Puia viem, puo trovò lo mon</l>
@@ -2551,7 +2547,7 @@
                 <l n="1994">Tuta Puia cercà e Alvernia e Monfrasson,</l>
                 <l n="1995">De çò ch'el va cercando no truovà si ni non.</l>
                 <l n="1996">Tal via fa che mai no la fè nul hom;</l>
-                <l n="1997"><pb n="f.41v"/>(41V) Ancora indrié tornà lo baron</l>
+                <l n="1997"><milestone n="f.41v"/>(41V) Ancora indrié tornà lo baron</l>
                 <l n="1998">E non finà de cercar ‘l mon;</l>
                 <l n="1999">Defina a san Jachomo o' è lo gran p<ex rend="italics">er</ex>don.</l>
                 <l n="2000">p<ex rend="italics">er</ex> Spagna passa che fo del re Marssilion;</l>
@@ -2584,7 +2580,7 @@
                 <l n="2020">No·llì lassà bosco ni river,</l>
                 <l n="2021">Prevedi ni abado, glexia ni monestier.</l>
                 <l n="2022">A Santa Maria andà ad alberger</l>
-                <l n="2023"><pb n="f.42r"/>(42R) A la doman, quando aparsse lo jorno cler,</l>
+                <l n="2023"><milestone n="f.42r"/>(42R) A la doman, quando aparsse lo jorno cler,</l>
                 <l n="2024">Sovra quel mar ell se va arester,</l>
                 <l n="2025">Là no truovà nave né mariner.</l>
                 <l n="2026">El volsse quela aqua veder e asaçer;</l>
@@ -2610,7 +2606,7 @@
                 <l n="2046">Defin ch'el mondo averà finer.</l>
                 <l n="2047">Savé vui perché elle non ffina de tornier?</l>
                 <l n="2048">Quela pena Dio li volsse doner</l>
-                <l n="2049"><pb n="f.42v"/>(42V) Ché una fiada un prevede de monestier</l>
+                <l n="2049"><milestone n="f.42v"/>(42V) Ché una fiada un prevede de monestier</l>
                 <l n="2050">Lo corpo de <ex rend="italics">Crist</ex>o portava p<ex rend="italics">er</ex> comunier</l>
                 <l n="2051">E quele dame iera al dancier;</l>
                 <l n="2052">Ele non volsse p<ex rend="italics">er</ex> ço lasar de baler,</l>
@@ -2639,7 +2635,7 @@
                 <l n="2072">Tanto se penà che fo sete an</l>
                 <l n="2073">Avanti ch'el podesse aver l'infran:</l>
                 <l n="2074">Mal fè lor che crete co<ex rend="italics">n</ex>de de vilan.</l>
-                <l n="2075"><pb n="f.43r"/>(43R) p<ex rend="italics">er</ex> quel consseio durà tante pene e
+                <l n="2075"><milestone n="f.43r"/>(43R) p<ex rend="italics">er</ex> quel consseio durà tante pene e
                     tormant,</l>
                 <l n="2076">Tanto no durà mai ni re ni amirant,</l>
                 <l n="2077">Che al inferno andè tuto vivo e sant:</l>
@@ -2669,7 +2665,7 @@
                 <l n="2098">Una citade el vete si g(r)anda e si fondà,</l>
                 <l n="2099">Dodexe milia ponti sovra un flume li à,</l>
                 <l n="2100">Tore e palaci tanti si troverà,</l>
-                <l n="2101"><pb n="f.43v"/>(43V) Çento millia son de cristalo intaià,</l>
+                <l n="2101"><milestone n="f.43v"/>(43V) Çento millia son de cristalo intaià,</l>
                 <l n="2102">Vinti millia homeni çascuna note la guardà.</l>
                 <l n="2103">Quando lo conte vete questo, molto se meravià</l>
                 <l n="2104">E infra·ssi pianamente dito à,</l>
@@ -2698,7 +2694,7 @@
                 <l n="2124"><hi rend="red-initial">V</hi>a·ss'ende Ugo lo conte paladin,</l>
                 <l n="2125">Non aveva con lui pare<ex rend="italics">n</ex>te ni vixin.</l>
                 <l n="2126">Vestu aveva l'usbergo, çento à·llo brando açarin</l>
-                <l n="2127"><pb n="f.44r"/>(44R) E menà ell sso destrier ch'aveva lo fren d'or
+                <l n="2127"><milestone n="f.44r"/>(44R) E menà ell sso destrier ch'aveva lo fren d'or
                     fin.</l>
                 <l n="2128">El no teme homo che·ssia Turcho ni pain,</l>
                 <l n="2129">Asé trovà çente strania e d'alto lin</l>
@@ -2729,7 +2725,7 @@
                 <l n="2150">"Santa Maria, or me secoré.</l>
                 <l n="2151">Questo deserto me par esgaré,</l>
                 <l n="2152">Fuorssi m'à Dio questa nave mandé."</l>
-                <l n="2153"><pb n="f.44v"/>(44V) Alora el desmontà sulla riva del gué</l>
+                <l n="2153"><milestone n="f.44v"/>(44V) Alora el desmontà sulla riva del gué</l>
                 <l n="2154">p<ex rend="italics">er</ex> mé lo fren si à el caval mené,</l>
                 <l n="2155">Vene a la nave, si fo intro intré</l>
                 <l n="2156">E so cavallo cun lui debrigé.</l>
@@ -2747,7 +2743,7 @@
                     co<ex rend="italics">n</ex>te Ugon</l>
                 <l n="2165">Per mé Tiigris a molto gran ra<ex rend="italics">n</ex>don.</l>
                 <l n="2166">Dio lo condugà ancora a so maxon.</l>
-                <l n="2167"><pb n="f.45r"/>(45R) Un puocho de lui qua laseron,</l>
+                <l n="2167"><milestone n="f.45r"/>(45R) Un puocho de lui qua laseron,</l>
                 <l n="2168">A puocho d’ora nu li troveron</l>
                 <l n="2169">Quando luogo e tenpo seron.</l>
                 <l n="2170">De Carlo Martello nui si ve diron,</l>
@@ -2776,7 +2772,7 @@
                 <head>Laisse 70</head>
                 <l n="2191"><hi rend="blue-initial">V</hi>a·ss'ende lo çublar e no fè demorer;</l>
                 <l n="2192">Una arpa presse ch’el saveva ben soner</l>
-                <l n="2193"><pb n="f.45v"/>(45V) E oltri strumenti presse ch'el saveva ben
+                <l n="2193"><milestone n="f.45v"/>(45V) E oltri strumenti presse ch'el saveva ben
                     soner.</l>
                 <l n="2194">Amantinente i<ex rend="italics">n</ex> lo camin ave intrer,</l>
                 <l n="2195">Tanto andè per boschi e per river</l>
@@ -2803,7 +2799,7 @@
                 <l n="2216">De gran dollor si prende a sospirer,</l>
                 <l n="2217">Ma de niente no·l'à ver lui mostrer;</l>
                 <l n="2218">Como dona savia si·lli respoxe arer:</l>
-                <l n="2219"><pb n="f.46r"/>(46R) Dixe la dona, "Amigo, me poss'io in ti fider,</l>
+                <l n="2219"><milestone n="f.46r"/>(46R) Dixe la dona, "Amigo, me poss'io in ti fider,</l>
                 <l n="2220">Ch'el me tradisse ni incegner?"</l>
                 <l n="2221">"Si ben, madona," responde lo liçer,</l>
                 <l n="2222">"p<ex rend="italics">er</ex> la mia fé, non ve convien doter</l>
@@ -2832,7 +2828,7 @@
                 <l n="2242">Ma colui che tal anbassada va contant,</l>
                 <l n="2243">Del so mestier averà el mierito si grant</l>
                 <l n="2244">Ch'el se·n arecorderà tuto el so vivant."</l>
-                <l n="2245"><pb n="f.46v"/>(46V) Baldoin vene alla camera, ni no demorant,</l>
+                <l n="2245"><milestone n="f.46v"/>(46V) Baldoin vene alla camera, ni no demorant,</l>
                 <l n="2246">Intrò dentro, si trovà lo seduant</l>
                 <l n="2247">Che de la dona aspetava el pressant.</l>
                 <l n="2248">E Baldoin no va plui duxiant,</l>
@@ -2848,7 +2844,7 @@
                 <l n="2258">E da mia parte si·lli averì contant</l>
                 <l n="2259">Che tal è lo don e·llo pressant</l>
                 <l n="2260">Che mia seror li va manda<ex rend="italics">n</ex>t,</l>
-                <l n="2261"><pb n="f.47r"/>(47R) E pe<ex rend="italics">r</ex> un puo(c)ho, fel traito, ch'io no
+                <l n="2261"><milestone n="f.47r"/>(47R) E pe<ex rend="italics">r</ex> un puo(c)ho, fel traito, ch'io no
                     v'apant.</l>
                 <l n="2262">Può dire a Carlo ch'el so penssier li è falant,</l>
                 <l n="2263">Tuto quelo ch'el à penssado li è tornà a niant."</l>
@@ -2878,7 +2874,7 @@
                 <l n="2284">Tende e paveion fè tender p<ex rend="italics">er</ex> lo ca<ex rend="italics">n</ex>s.</l>
                 <l n="2285">Quando Baldoin l'intende, el no fè demoramans,</l>
                 <l n="2286">So fradelo apellà ben e dolçemans,</l>
-                <l n="2287"><pb n="f.47v"/>(47V) "Frar," dix'elo, "a nui cresse gran tromans:</l>
+                <l n="2287"><milestone n="f.47v"/>(47V) "Frar," dix'elo, "a nui cresse gran tromans:</l>
                 <l n="2288">Charlo Martelo, che lo cuor Dio crevans,</l>
                 <l n="2289">Si·n à asidiadi per mal intendiment;</l>
                 <l n="2290">Nostra seror vuol aver al so talans."</l>
@@ -2904,7 +2900,7 @@
                 <l n="2310">De <num>.VM.</num> homeni el no fo veiardo ni infans</l>
                 <l n="2311">De quelli che inssì della çitade d'Alvernia mans</l>
                 <l n="2312">Ch'eli no abatà lo·sso ho(m) morto o sanglans.</l>
-                <l n="2313"><pb n="f.48r"/>(48R) Quando Charlo lo vete, p<ex rend="italics">er</ex> puoco d'ira no
+                <l n="2313"><milestone n="f.48r"/>(48R) Quando Charlo lo vete, p<ex rend="italics">er</ex> puoco d'ira no
                     fans.</l>
             </lg>
             <lg type="laisse" n="73">
@@ -2934,7 +2930,7 @@
                 <l n="2336">Dio lo guarì che in carne no·ll'ave tochere.</l>
                 <l n="2337">Si grando fo·llo colpo tuto lo fè plegere,</l>
                 <l n="2338">Sovra l'arçon a·sso malgrado (c)linere.</l>
-                <l n="2339"><pb n="f.48v"/>(48V) Al ferir che fè Baldoin l'inperere,</l>
+                <l n="2339"><milestone n="f.48v"/>(48V) Al ferir che fè Baldoin l'inperere,</l>
                 <l n="2340">Tomaso salltà suxo e prexe el so destriere,</l>
                 <l n="2341">Su l'arçon montà ch'el non p<ex rend="italics">r</ex>esse strievere.</l>
                 <l n="2342">Alora començà la bataia e li caplere;</l>
@@ -2964,7 +2960,7 @@
                 <l n="2362">No·lli valsse una poma porie</l>
                 <l n="2363">Che quela dona fo de tal franchie;</l>
                 <l n="2364">Al so signor portà tal lietie,</l>
-                <l n="2365"><pb n="f.49r"/>(49R) Avanti se·llaserave tute le menbre colpere</l>
+                <l n="2365"><milestone n="f.49r"/>(49R) Avanti se·llaserave tute le menbre colpere</l>
                 <l n="2366">E in llo fuogo ardere e bruxie</l>
                 <l n="2367">Che all so signor ella fesse falsie.</l>
                 <l n="2368">Charlo s'en torna a Pa<ex rend="italics">r</ex>is so citie,</l>
@@ -2993,7 +2989,7 @@
                 <l n="2388">No·sso qu(e) farà Dio se comandon</l>
                 <l n="2389">Che in la Verçene presse un braxon."</l>
                 <l n="2390">La nave s'en va, non fè arestaxon</l>
-                <l n="2391"><pb n="f.49v"/>(49V) Fina a una citade alle coste d'un mon.</l>
+                <l n="2391"><milestone n="f.49v"/>(49V) Fina a una citade alle coste d'un mon.</l>
                 <l n="2392">Quando la nave fè arivaxon,</l>
                 <l n="2393">Ela no fè ni remor ni ton.</l>
                 <l n="2394">Ugo inssì fuora lui e·l sso arangon;</l>
@@ -3022,7 +3018,7 @@
                 <l n="2414">Ugo s'en va ch'el cuor à irés;</l>
                 <l n="2415">Sicomo el fo apresso d'una cités,</l>
                 <l n="2416">Elo guardà fuora p<ex rend="italics">er</ex> queli prés.</l>
-                <l n="2417"><pb n="f.50r"/>(50R) El vete cente dalli altri deformés,</l>
+                <l n="2417"><milestone n="f.50r"/>(50R) El vete cente dalli altri deformés,</l>
                 <l n="2418">Ch'el monte e·l rivaço avete tuto cargés</l>
                 <l n="2419">Et erano tuti piçoli, lo maçor de lor nés</l>
                 <l n="2420">Pareva in lla etade de cinque ani pasés.</l>
@@ -3041,7 +3037,7 @@
             </lg>
             <lg type="laisse" n="77">
                 <head>Laisse 77</head>
-                <l n="2433"><pb n="f.50v"/>(50V) <hi rend="red-initial">A</hi> gran meraveia lo
+                <l n="2433"><milestone n="f.50v"/>(50V) <hi rend="red-initial">A</hi> gran meraveia lo
                     conte fo dolans.</l>
                 <l n="2434">Quando ello non truova algun ho<ex rend="italics">m</ex> vivant</l>
                 <l n="2435">Che·l domandi ne apella de niant.</l>
@@ -3071,7 +3067,7 @@
                 <head>Laisse 78</head>
                 <l n="2457"><hi rend="blue-initial">U</hi>go s'en va ver quela çente salvaçe,</l>
                 <l n="2458">Quelli no ll'intendeva ni so lenguaçe.</l>
-                <l n="2459"><pb n="f.51r"/>(51R) Tuti s'en fuçe a monti e a boscaci;</l>
+                <l n="2459"><milestone n="f.51r"/>(51R) Tuti s'en fuçe a monti e a boscaci;</l>
                 <l n="2460">Ugo non trovava perssona dal so paraçe.</l>
                 <l n="2461">"Dio," disse lo cunte, "con questo e gran oltraçe,</l>
                 <l n="2462">Quando no truovo algun che me apela d'albergaçe."</l>
@@ -3100,7 +3096,7 @@
                 <l n="2482">No portava çà scarlato ni bru.</l>
                 <l n="2483">"Dio," disse Ugo, "si fosse ancora retornu,</l>
                 <l n="2484">De queste cosse ch'io molto vehu</l>
-                <l n="2485"><pb n="f.51v"/>(51V) Novele en dirave a Carllo lo menbru."</l>
+                <l n="2485"><milestone n="f.51v"/>(51V) Novele en dirave a Carllo lo menbru."</l>
             </lg>
             <lg type="laisse" n="80">
                 <head>Laisse 80</head>
@@ -3134,7 +3130,7 @@
                 <l n="2508">Al quarto çorno, avanti la cunplie,</l>
                 <l n="2509">Una çitade vete che pareva en oblie;</l>
                 <l n="2510">De bona çente era ben guarnie.</l>
-                <l n="2511"><pb n="f.52r"/>(52R) Antona l'apelava queli de la contr(i)e,</l>
+                <l n="2511"><milestone n="f.52r"/>(52R) Antona l'apelava queli de la contr(i)e,</l>
                 <l n="2512">Tadio l'apelava queli de la t(e)rie,</l>
                 <l n="2513">Lo qual Tadio l'aveva in balie.</l>
                 <l n="2514">La cente de la citade non dessirava no<ex rend="italics">n</ex> nie,</l>
@@ -3164,7 +3160,7 @@
                 <l n="2534">Lo bon Tadio, che tuti li altri avançe,</l>
                 <l n="2535">No fè longa demorançe;</l>
                 <l n="2536">Al conte parlà, domando-lo de so meschançe;</l>
-                <l n="2537"><pb n="f.52v"/>(52V) Quando ello parlà de lui, li p(re)sse pietançe.</l>
+                <l n="2537"><milestone n="f.52v"/>(52V) Quando ello parlà de lui, li p(re)sse pietançe.</l>
                 <l n="2538">Lo conte Ugo che inver Dio à gran fidançe,</l>
                 <l n="2539">Si·lli contà tuta la·sso sperançe,</l>
                 <l n="2540">Como per lo so signor, l'inperador de Françe</l>
@@ -3193,7 +3189,7 @@
                 <l n="2560">Çamai no vedeste nul homo pecador</l>
                 <l n="2561">Che retornase unde è tanto dolor,</l>
                 <l n="2562">E sèno si seradi tuti quanti i<ex rend="italics">n</ex>tor,</l>
-                <l n="2563"><pb n="f.53r"/>(53R) Che a questo mondo no può vegnir un çor</l>
+                <l n="2563"><milestone n="f.53r"/>(53R) Che a questo mondo no può vegnir un çor</l>
                 <l n="2564">p<ex rend="italics">er</ex> dir novelle a pare ni a signor.</l>
                 <l n="2565">Mal à fatto ell vostro i<ex rend="italics">n</ex>perador</l>
                 <l n="2566">Quando el ve mandà cercando p<ex rend="italics">er</ex> tal fator.</l>
@@ -3222,7 +3218,7 @@
                 <l n="2586">Chi signor fosse del mondo tuto quant,</l>
                 <l n="2587">Con fo Alexandro che·l c<ex rend="italics">on</ex>quistà co·l b<ex rend="italics">r</ex>ant</l>
                 <l n="2588">E p<ex rend="italics">er</ex> so segura se·llassà andar là d<ex rend="italics">r</ex>ant</l>
-                <l n="2589"><pb n="f.53v"/>(53V) O' senpre dolor e plant.</l>
+                <l n="2589"><milestone n="f.53v"/>(53V) O' senpre dolor e plant.</l>
                 <l n="2590">No li val so posança un dener valisant;</l>
                 <l n="2591">Co maçor e plui tromant</l>
                 <l n="2592">Tuto lo mondo no li val un guant."</l>
@@ -3251,7 +3247,7 @@
                 <l n="2612">E io non ffesse inver lo mi signor boxie,</l>
                 <l n="2613">No me partirave de qua p<ex rend="italics">er</ex> nule vie,</l>
                 <l n="2614">Molto me delleta la vostra santa vie,</l>
-                <l n="2615"><pb n="f.54r"/>(54R) Quando vui no uxé intro vui tricarie.</l>
+                <l n="2615"><milestone n="f.54r"/>(54R) Quando vui no uxé intro vui tricarie.</l>
                 <l n="2616">p<ex rend="italics">er</ex> mi ovré la vostra pregier(i)e</l>
                 <l n="2617">E a quel Dio che n'à in balie,</l>
                 <l n="2618">Ché questo viaço no tegna i<ex rend="italics">n</ex>tra quidie,</l>
@@ -3273,7 +3269,7 @@
                 <l n="2630">De ch<ex rend="italics">avalie</ex>ri, de done, de çoveni e de floris;</l>
                 <l n="2631">E Tadio c'aveva la tera i<ex rend="italics">n</ex> balis,</l>
                 <l n="2632">Plançendo lo prende per mé l'usbergo luxis.</l>
-                <l n="2633"><pb n="f.54v"/>(54V) "Lial homo," el dixe, "ben m'è lo cuor tendris,</l>
+                <l n="2633"><milestone n="f.54v"/>(54V) "Lial homo," el dixe, "ben m'è lo cuor tendris,</l>
                 <l n="2634">Quando andar te vego in ssi crudel païs.</l>
                 <l n="2635">Dapo che tu sseré de là da quel monte antis,</l>
                 <l n="2636">No troveré homo de carne vis,</l>
@@ -3299,7 +3295,7 @@
                 <l n="2656">Con ti vignerave, tanto sun voluntaris."</l>
                 <l n="2657">Lial conte lo responde, "Gran mercis."</l>
                 <l n="2658">Lo buon Tadio lo braço al colo li mis;</l>
-                <l n="2659"><pb n="f.55r"/>(55R) Ugo lo baxa e dixe, "Tadio çentils,</l>
+                <l n="2659"><milestone n="f.55r"/>(55R) Ugo lo baxa e dixe, "Tadio çentils,</l>
                 <l n="2660">Da ti se parte l'omo Avenoïs:</l>
                 <l n="2661">Prega p<ex rend="italics">er</ex> lui lo nome de J<ex rend="italics">ex</ex>hu Cris."</l>
                 <l n="2662">A questo moto lo destrier po(r)pris</l>
@@ -3331,7 +3327,7 @@
                 <l n="2682">Vene a la riva e in lla so nave intrà,</l>
                 <l n="2683">D'un pan mança c'altra vianda non à</l>
                 <l n="2684">E beve dell'aqua che in lo flume habunda.</l>
-                <l n="2685"><pb n="f.55v"/>(55V) Lo bon chavallo in lla nave menà,</l>
+                <l n="2685"><milestone n="f.55v"/>(55V) Lo bon chavallo in lla nave menà,</l>
                 <l n="2686">Delli da bever, apresso lui s'acollegà.</l>
                 <l n="2687">Lo notte dormì, che niente l'inpaçà,</l>
                 <l n="2688">Ma Ugo de tal note plui no reverà,</l>
@@ -3360,7 +3356,7 @@
                 <l n="2708">Mançar li donà U<ex rend="italics">go</ex> lo baron natural,</l>
                 <l n="2709">Po·sse asetà in llo salvaço estal.</l>
                 <l n="2710">Quando ave pregado lo re spiritual,</l>
-                <l n="2711"><pb n="f.56r"/>(56R) Che çò ch'el va querant no tegna a mal,</l>
+                <l n="2711"><milestone n="f.56r"/>(56R) Che çò ch'el va querant no tegna a mal,</l>
                 <l n="2712">Del pam mançà, puo prende lo caval,</l>
                 <l n="2713">In l'aqua clara lo menà como cristal;</l>
                 <l n="2714">Lui e lo cunte ne beve, ch'el sso viver fo tal,</l>
@@ -3389,7 +3385,7 @@
                 <l n="2734">Mete la corda davanti l'arçon doré,</l>
                 <l n="2735">Fiere lo cavalo su la gropa dadré</l>
                 <l n="2736">p<ex rend="italics">er</ex> la riviera si·ll'à adreçé.</l>
-                <l n="2737"><pb n="f.56v"/>(56V) La nave menà belamente e soé,</l>
+                <l n="2737"><milestone n="f.56v"/>(56V) La nave menà belamente e soé,</l>
                 <l n="2738">Chussì s'en va tuti do debrigé</l>
                 <l n="2739">Tuto lo dì, fin ch'el fo ascuré.</l>
             </lg>
@@ -3420,7 +3416,7 @@
                 <l n="2760">Quando ave questo dito, si sintì un odor</l>
                 <l n="2761">D'una nuvola che flada un gran pudor,</l>
                 <l n="2762">Fiero e crudel e de si mal sentor.</l>
-                <l n="2763"><pb n="f.57r"/>(57R) Medeximamente lo brun cavalo saltor</l>
+                <l n="2763"><milestone n="f.57r"/>(57R) Medeximamente lo brun cavalo saltor</l>
                 <l n="2764">Fronte travolçe e tuti i ochi intor,</l>
                 <l n="2765">Ronper volleva le redene per labor,</l>
                 <l n="2766">Fuçir s'en voleva m(a)·llo franco contor</l>
@@ -3453,7 +3449,7 @@
             </lg>
             <lg type="laisse" n="93">
                 <head>Laisse 93</head>
-                <l n="2789"><pb n="f.57v"/>(57V) <hi rend="red-initial">L</hi>o cunte se va, de la
+                <l n="2789"><milestone n="f.57v"/>(57V) <hi rend="red-initial">L</hi>o cunte se va, de la
                     rocha desist,</l>
                 <l n="2790">El p(re)nde la corda, a·sso arçon la mist,</l>
                 <l n="2791">"Avanti," diss'elo, "a nome de Je<ex rend="italics">x</ex>hu Crist,</l>
@@ -3484,7 +3480,7 @@
                 <l n="2812">Se mete li ber a guissa de stendart.</l>
                 <l n="2813">El no andava çà a guissa de muxart,</l>
                 <l n="2814">Lo scudo al colo, i<ex rend="italics">n</ex> l'altra man un dart,</l>
-                <l n="2815"><pb n="f.58r"/>(58R) Un de·llor fiere, tuto lo pluy gaiart,</l>
+                <l n="2815"><milestone n="f.58r"/>(58R) Un de·llor fiere, tuto lo pluy gaiart,</l>
                 <l n="2816">Lo petti davanti li taià e depart</l>
                 <l n="2817">Quel caçe a·ttera, mo da l'altro se guart.</l>
             </lg>
@@ -3503,7 +3499,7 @@
                 <l n="2828">Vete lo cavalo si començò înglotir.</l>
                 <l n="2829">Lo cunte la guardà, no à talento de rir,</l>
                 <l n="2830">Ben vete del tuto, de·llà no<ex rend="italics">n</ex> pò partir.</l>
-                <l n="2831"><pb n="f.58v"/>(58V) El trasse la spada, si·lla corsse a incontrer</l>
+                <l n="2831"><milestone n="f.58v"/>(58V) El trasse la spada, si·lla corsse a incontrer</l>
                 <l n="2832">La fera bestia. Nesun homo a incont(r)ir ne i<ex rend="italics">n</ex> dexir;</l>
                 <l n="2833">Ben <num>.VI.</num> braça fè al primo sair,</l>
                 <l n="2834">E della so destra branca lo vol fe(r)ir;</l>
@@ -3532,7 +3528,7 @@
                 <l n="2854">Su p<ex rend="italics">er</ex> la riva o' l'aqua plui dessent</l>
                 <l n="2855">La nave condusse molto eforçeament,</l>
                 <l n="2856">p<ex rend="italics">er</ex> lo fren mena lo destrier corent.</l>
-                <l n="2857"><pb n="f.59r"/>(59R) Una oraxon va digando santament,</l>
+                <l n="2857"><milestone n="f.59r"/>(59R) Una oraxon va digando santament,</l>
                 <l n="2858"><quote rend="italics" xml:lang="la">Domine labia</quote>, molto
                     graciossame(n)t,</l>
                 <l n="2859">
@@ -3569,7 +3565,7 @@
                 <l n="2880">Davanti lo·sso peti ponceano le so mameles.</l>
                 <l n="2881">Çascuna cantà e sonava <num>.III.</num> vieles</l>
                 <l n="2882">Tanto dolcemente che p<ex rend="italics">er</ex> mé quele vançeles</l>
-                <l n="2883"><pb n="f.59v"/>(59V) Lì coreva molte bestie isneles.</l>
+                <l n="2883"><milestone n="f.59v"/>(59V) Lì coreva molte bestie isneles.</l>
                 <l n="2884">El conte cridà, "Regina de li angeles,</l>
                 <l n="2885">Io veço meraveia sovra le altre mereveles."</l>
             </lg>
@@ -3602,7 +3598,7 @@
                 <l n="2906">Voio me uxar la vita mia de jor in jor.</l>
                 <l n="2907">Sete ani è ben, io no sun mencior,</l>
                 <l n="2908">Ch'io no viti mia muier ni·l mio signor,</l>
-                <l n="2909"><pb n="f.60r"/>(60R) No·sso onde io me vada, si me vien gra<ex rend="italics">n</ex>
+                <l n="2909"><milestone n="f.60r"/>(60R) No·sso onde io me vada, si me vien gra<ex rend="italics">n</ex>
                         tendo<ex rend="italics">r</ex>."</l>
             </lg>
             <lg type="laisse" n="101">
@@ -3635,7 +3631,7 @@
                 <head>Laisse 102</head>
                 <l n="2933">"<hi rend="red-initial">C</hi>omo," disse lo conte, "bele conpagne,</l>
                 <l n="2934">Chi ve condusse in questa tera stragne</l>
-                <l n="2935"><pb n="f.60v"/>(60V) E demoré vui i<ex rend="italics">n</ex> questa
+                <l n="2935"><milestone n="f.60v"/>(60V) E demoré vui i<ex rend="italics">n</ex> questa
                     des<ex rend="italics">er</ex>tagne?</l>
                 <l n="2936">Vui me resenblé, sicomo li ogli m'e<ex rend="italics">n</ex>çagne,</l>
                 <l n="2937">Del bel païs che fo de Carlomaine."</l>
@@ -3665,7 +3661,7 @@
                 <l n="2958">De questa tera poré portar l'incin</l>
                 <l n="2959">Un tu traré la toa in questa fin;</l>
                 <l n="2960">La çentil dona a chi nu·ssemo alclin,</l>
-                <l n="2961"><pb n="f.61r"/>(61R) De negromançia sa tuto lo latin.</l>
+                <l n="2961"><milestone n="f.61r"/>(61R) De negromançia sa tuto lo latin.</l>
                 <l n="2962">Se tu te saveré domandar e co<ex rend="italics">n</ex>tar a lei be<ex rend="italics">n</ex> vexin</l>
                 <l n="2963">La tera averé de la dona in demin,</l>
                 <l n="2964">E può saver da lie tuto lo train,</l>
@@ -3695,7 +3691,7 @@
                 <l n="2984">E guardé chi nu·ssemo e de che façon!</l>
                 <l n="2985">Corpo e spirito tuto inssembre tegnon,</l>
                 <l n="2986">E·sse de çò avé nulla dotaxon,</l>
-                <l n="2987"><pb n="f.61v"/>(61V) Apalpené al flanco e al menton</l>
+                <l n="2987"><milestone n="f.61v"/>(61V) Apalpené al flanco e al menton</l>
                 <l n="2988">Alora saverì ben se semo carne o non."</l>
                 <l n="2989">Lo cunte çura san Piero e san Simon,</l>
                 <l n="2990">"Or lli vignerò, a chi sia mal o bon."</l>
@@ -3728,7 +3724,7 @@
                 <l n="3010">Cavalca Ugo sença mal coraçe.</l>
                 <l n="3011">Le <num>.III.</num> davanti p<ex rend="italics">er</ex> ascurtar viaçe</l>
                 <l n="3012">Una cançon cantava i<ex rend="italics">n</ex> so lenguaçe.</l>
-                <l n="3013"><pb n="f.62r"/>(62R) Li oxelli chi erano al boscaçe</l>
+                <l n="3013"><milestone n="f.62r"/>(62R) Li oxelli chi erano al boscaçe</l>
                 <l n="3014">p<ex rend="italics">er</ex> lo·sso canto erano muti e ssoaçe.</l>
                 <l n="3015">A l'enssir fuora de quel desert ostaçe,</l>
                 <l n="3016">Trovano li pradi, li broli, e·lle erbaçe</l>
@@ -3749,7 +3745,7 @@
                 <l n="3028">Veder se podea fin al fondemant</l>
                 <l n="3029">Li grossi pessi como va nudant.</l>
                 <l n="3030">Sovra lo muro va lo conte reguardant</l>
-                <l n="3031"><pb n="f.62v"/>(62V) Vete damixelle e donceli cantant</l>
+                <l n="3031"><milestone n="f.62v"/>(62V) Vete damixelle e donceli cantant</l>
                 <l n="3032">E un e una insenbre a man tignant.</l>
                 <l n="3033">Ma quando elli vete lo conte e l'auferant,</l>
                 <l n="3034">Si·llassano de balar viaçamant</l>
@@ -3779,7 +3775,7 @@
                 <l n="3054">p<ex rend="italics">er</ex> oldir çò ch'eli à voia ...</l>
                 <l n="3055">Cossì avene quando le <num>.III.</num> fo vegnu</l>
                 <l n="3056">Che menà lo cavalier menbru;</l>
-                <l n="3057"><pb n="f.63r"/>(63R) Piçoli e grandi si son i<ex rend="italics">n</ex>torno coru.</l>
+                <l n="3057"><milestone n="f.63r"/>(63R) Piçoli e grandi si son i<ex rend="italics">n</ex>torno coru.</l>
                 <l n="3058">Lo conte guardà la çente che là dentro fu,</l>
                 <l n="3059">Molto se meraveià quando s'è ap<ex rend="italics">er</ex>cevu</l>
                 <l n="3060">Ch'el no aveva un sol homo uçu;</l>
@@ -3809,7 +3805,7 @@
                 <l n="3080">Sansson e Morando mie soldader,</l>
                 <l n="3081">Mai non curerav'io in Alvernia torner:</l>
                 <l n="3082">Carllo mio signor che me ffa travaier,</l>
-                <l n="3083"><pb n="f.63v"/>(63V) D'un alltro messaço li convignerave doter."</l>
+                <l n="3083"><milestone n="f.63v"/>(63V) D'un alltro messaço li convignerave doter."</l>
                 <l n="3084">Quando à cussì dito, si començà a guarder,</l>
                 <l n="3085">Che in una plaça li convien desmonter,</l>
                 <l n="3086">O' el vete tanta adorna çente ster,</l>
@@ -3842,7 +3838,7 @@
                 <l n="3106">Plu cantava dolçement d'alguna seraine;</l>
                 <l n="3107">Sovra un banco in lo plu seço altaine</l>
                 <l n="3108">Sedeva la raina che quela çente demaine,</l>
-                <l n="3109"><pb n="f.64r"/>(64R) Vestida de negro como vedovaine,</l>
+                <l n="3109"><milestone n="f.64r"/>(64R) Vestida de negro como vedovaine,</l>
                 <l n="3110">Lo cavo vellado, si tien la ciera plaine.</l>
                 <l n="3111">La carne à blanca e·llo color de graine,</l>
                 <l n="3112">Li ochi à vairi e grossi e riant de sotaine;</l>
@@ -3861,7 +3857,7 @@
                 <l n="3122">Et ella inversso lui à·lla testa levé</l>
                 <l n="3123">Como un reguardo de sagita abrassé,</l>
                 <l n="3124">E·ss'è incontra lui un puoco avançé,</l>
-                <l n="3125"><pb n="f.64v"/>(64V) Apresso lui su la porpora rossé</l>
+                <l n="3125"><milestone n="f.64v"/>(64V) Apresso lui su la porpora rossé</l>
                 <l n="3126">Lo fè seder, no·ll'à çà toché.</l>
                 <l n="3127">Domandà fo lo conte de qual c<ex rend="italics">on</ex>tré,</l>
                 <l n="3128">Che homo ell è, e qual destiné</l>
@@ -3891,7 +3887,7 @@
                 <l n="3148">"Si, madona," diss'elo, "co<ex rend="italics">n</ex>sseio ve domant."</l>
                 <l n="3149">Et ella disse, "C<ex rend="italics">on</ex>seio ve darò si bon e fermant</l>
                 <l n="3150">Che çà Medea insegnà p<ex rend="italics">er</ex> so i<ex rend="italics">n</ex>cantamant</l>
-                <l n="3151"><pb n="f.65r"/>(65R) Meio a Jexon trovar lo veluxant,</l>
+                <l n="3151"><milestone n="f.65r"/>(65R) Meio a Jexon trovar lo veluxant,</l>
                 <l n="3152">Como io a ti mostrerò amantinant</l>
                 <l n="3153">Lo dreto camin d'andar al fondamant,</l>
                 <l n="3154">Po t'en farò tornar a salvamant.</l>
@@ -3920,7 +3916,7 @@
                 <l n="3174">Alora ell conte fè una vista inrastue,</l>
                 <l n="3175">"Dama," dix'elo, "io ve ben intendue</l>
                 <l n="3176">Quando io averò mia promessa asulue</l>
-                <l n="3177"><pb n="f.65v"/>(65V) E tornado fuora della çente confondue</l>
+                <l n="3177"><milestone n="f.65v"/>(65V) E tornado fuora della çente confondue</l>
                 <l n="3178">De obedir vui en serò ben provhue:</l>
                 <l n="3179">In altra guixa sia la verité sapue,</l>
                 <l n="3180">Çà no<ex rend="italics">n</ex> serà per mi castità ronpue."</l>
@@ -3949,7 +3945,7 @@
                 <l n="3200">Se no·tti p<ex rend="italics">er</ex>ché io son traie.</l>
                 <l n="3201">Vantar me posso e dir sença briconie</l>
                 <l n="3202">Ch'el non è plui bela dona fin in Ongrie,</l>
-                <l n="3203"><pb n="f.66r"/>(66R) Ni plui rica, ni de tuti ben rinplie."</l>
+                <l n="3203"><milestone n="f.66r"/>(66R) Ni plui rica, ni de tuti ben rinplie."</l>
                 <l n="3204">Quando ella à tal parole finie</l>
                 <l n="3205">Quardà lo conte e·llo vixo se humilie</l>
                 <l n="3206">A guixa de s<ex rend="italics">er</ex>vo c'a signor quer merçie,</l>
@@ -3978,7 +3974,7 @@
                 <l n="3226">Un dolçe amore d'astinençia i è montà,</l>
                 <l n="3227">Che si fortemente lo cuor li se humilià</l>
                 <l n="3228">In pié se llevà, dixe che tosto tornerà,</l>
-                <l n="3229"><pb n="f.66v"/>(66V) Ese della·ssalla, in un çardin intrà.</l>
+                <l n="3229"><milestone n="f.66v"/>(66V) Ese della·ssalla, in un çardin intrà.</l>
                 <l n="3230">Signor, aldì, p<ex rend="italics">er</ex> Dio che tuto formà,</l>
                 <l n="3231">Del çentil conte che Je<ex rend="italics">x</ex>hu tanto amà,</l>
                 <l n="3232">Chomo de·ssi medieximo se vendegà.</l>
@@ -4011,7 +4007,7 @@
             </lg>
             <lg type="laisse" n="118">
                 <head>Laisse 118</head>
-                <l n="3255"><pb n="f.67r"/>(67R) <hi rend="red-initial">F</hi>orte s'à
+                <l n="3255"><milestone n="f.67r"/>(67R) <hi rend="red-initial">F</hi>orte s'à
                     f<ex rend="italics">r</ex>ustadado lo conte e batu,</l>
                 <l n="3256">Da pluxior luogi li è la sangue i<ex rend="italics">n</ex>su;</l>
                 <l n="3257">Po tornà unde ell era movu.</l>
@@ -4041,7 +4037,7 @@
                 <l n="3278">Là entro romaxe lo conte gramo e dolent,</l>
                 <l n="3279">Plen de paura; ma tanto no fo·lo dollent</l>
                 <l n="3280">Ch'el dementegasse lo çelestro argument,</l>
-                <l n="3281"><pb n="f.67v"/>(67V) Che i<ex rend="italics">n</ex> mé la·ssala in cenochion
+                <l n="3281"><milestone n="f.67v"/>(67V) Che i<ex rend="italics">n</ex> mé la·ssala in cenochion
                     s'estent</l>
                 <l n="3282">Levò le man ver Dio onipotent</l>
                 <l n="3283">Un sallmo dixe cridando altament,</l>
@@ -4074,7 +4070,7 @@
             </lg>
             <lg type="laisse" n="120">
                 <head>Laisse 120</head>
-                <l n="3307"><pb n="f.68r"/>(68R) <hi rend="red-initial">Q</hi>ui è bel semplo a·lli
+                <l n="3307"><milestone n="f.68r"/>(68R) <hi rend="red-initial">Q</hi>ui è bel semplo a·lli
                     pecadori mundan</l>
                 <l n="3308">Che non deno es<ex rend="italics">er</ex> orgoioxi; de çò sié vu certan,</l>
                 <l n="3309">No s<ex rend="italics">er</ex>vì unca Dio nesun homo teran;</l>
@@ -4101,7 +4097,7 @@
                 <l n="3330">E per salvar lo p<ex rend="italics">ri</ex>mier pecado Evan:</l>
                 <l n="3331">Secorì-me incontra sti tiran</l>
                 <l n="3332">Che m'à voiud far pecar p<ex rend="italics">er</ex> ingan."</l>
-                <l n="3333"><pb n="f.68v"/>(68V) Quando à çò dito, signò-sse de so man;</l>
+                <l n="3333"><milestone n="f.68v"/>(68V) Quando à çò dito, signò-sse de so man;</l>
                 <l n="3334">Seguro può montar sul bon destrier balçan.</l>
             </lg>
             <lg type="laisse" n="121">
@@ -4134,7 +4130,7 @@
                 <l n="3356">Tuto lo çorno à dormi e possé,</l>
                 <l n="3357">Ni in quella note elli non à travaié;</l>
                 <l n="3358">Ma al maitin quando lo·ssol fo levé,</l>
-                <l n="3359"><pb n="f.69r"/>(69R) Mete la corda davanti l'arçon doré.</l>
+                <l n="3359"><milestone n="f.69r"/>(69R) Mete la corda davanti l'arçon doré.</l>
                 <l n="3360">Al so chavalo dixe, "Allés, alé!"</l>
                 <l n="3361">Su p<ex rend="italics">er</ex> lo flume anbi son adricé,</l>
                 <l n="3362">p<ex rend="italics">er</ex> algu<ex rend="italics">n</ex>a cossa no se à çà inconbré</l>
@@ -4163,7 +4159,7 @@
                 <l n="3382">Chon li pié tessi e col beco altrotal;</l>
                 <l n="3383">Se ferir lo laxasse lo baro(n) natural,</l>
                 <l n="3384">Tal li averave dado del sso rostral,</l>
-                <l n="3385"><pb n="f.69v"/>(69V) No ferì sovra aneuçene favro colpo tal.</l>
+                <l n="3385"><milestone n="f.69v"/>(69V) No ferì sovra aneuçene favro colpo tal.</l>
                 <l n="3386">Ma della spada lo ferì l'Avernal,</l>
                 <l n="3387">Lo collo li trençà fin al petoral,</l>
                 <l n="3388">Lo busto ferì si gran colpo alteral,</l>
@@ -4192,7 +4188,7 @@
                 <l n="3408">Là vedessi un tal marteleis</l>
                 <l n="3409">De pié, de beco, e de meraveiossi cris,</l>
                 <l n="3410">Ch'el conte no crete ma' romagnir vis.</l>
-                <l n="3411"><pb n="f.70r"/>(70R) Al ben defender non è miga lentis,</l>
+                <l n="3411"><milestone n="f.70r"/>(70R) Al ben defender non è miga lentis,</l>
                 <l n="3412">Innanci che fosse roto lo dardo pontois,</l>
                 <l n="3413">Plui de quatro n'à morti e scavaçois.</l>
                 <l n="3414">Quando fo r(o)to lo dardo, molto fo dolois,</l>
@@ -4215,7 +4211,7 @@
             </lg>
             <lg type="laisse" n="126">
                 <head>Laisse 126</head>
-                <l n="3427"><pb n="f.70v"/>(70V) <hi rend="red-initial">L</hi>o lial conte che
+                <l n="3427"><milestone n="f.70v"/>(70V) <hi rend="red-initial">L</hi>o lial conte che
                         p<ex rend="italics">er</ex> so signor trava(i)le</l>
                 <l n="3428">Desmontà in tera apresso u<ex rend="italics">n</ex> onbraile.</l>
                 <l n="3429">A lo stanco cavallo dé da boiere,</l>
@@ -4245,7 +4241,7 @@
                 <l n="3450">–– De çorno i<ex rend="italics">n</ex> çorno Dio li·sseia in ahie! ––</l>
                 <l n="3451">Quindexe corni è andé sença altra conpagnie.</l>
                 <l n="3452">Conduxe la nave p<ex rend="italics">er</ex> la granda aqua antie,</l>
-                <l n="3453"><pb n="f.71r"/>(71R) Che da quel çorno ch'el fè despartie</l>
+                <l n="3453"><milestone n="f.71r"/>(71R) Che da quel çorno ch'el fè despartie</l>
                 <l n="3454">Dal pro Tadio e da so baronie</l>
                 <l n="3455">Lu e la nave p<ex rend="italics">er</ex> la granda aqua antie</l>
                 <l n="3456">Che s'apela Tigris p<ex rend="italics">er</ex> li nostri ancesorie,</l>
@@ -4274,7 +4270,7 @@
                 <l n="3476">Si streto (è) lo leto che homo no li meneroit</l>
                 <l n="3477">Lo plui piçolo bacelo ch'al siegolo soit</l>
                 <l n="3478">Ni no core l'aqua como la soloit;</l>
-                <l n="3479"><pb n="f.71v"/>(71V) Podé saver che gran duol n'avoit,</l>
+                <l n="3479"><milestone n="f.71v"/>(71V) Podé saver che gran duol n'avoit,</l>
                 <l n="3480">A Dio se rende, in ancora no meseroit</l>
                 <l n="3481">De molti coraci in puocho d'ora deventoit,</l>
                 <l n="3482">L'un detornar e·ll'altro de andoit.</l>
@@ -4307,7 +4303,7 @@
                 <l n="3502">Chi·l vedesse feramente aciaster;</l>
                 <l n="3503">Non core plui algun erante ch<ex rend="italics">avalie</ex>r</l>
                 <l n="3504">Quando va novele de bexogna porter.</l>
-                <l n="3505"><pb n="f.72r"/>(72R) El non andà tropo ch'el trovà un piler</l>
+                <l n="3505"><milestone n="f.72r"/>(72R) El non andà tropo ch'el trovà un piler</l>
                 <l n="3506">D'un marmoro blanco resplendente e chler,</l>
                 <l n="3507">L'on se porave in llo luxor mirer.</l>
                 <l n="3508">Anci che algun possa la piera tocher,</l>
@@ -4338,7 +4334,7 @@
                 <l n="3528">Lo conte se astalà quando à parçevus:</l>
                 <l n="3529">Una granda liga serave andà u<ex rend="italics">n</ex> homo e plus</l>
                 <l n="3530">Avanti ch'el fosse del reguardar monus.</l>
-                <l n="3531"><pb n="f.72v"/>(72V) "Ay chiara imagine," dixe U<ex rend="italics">go</ex> lo
+                <l n="3531"><milestone n="f.72v"/>(72V) "Ay chiara imagine," dixe U<ex rend="italics">go</ex> lo
                     menbrus,</l>
                 <l n="3532">"Che significa lo senblante su sso eius?</l>
                 <l n="3533">E queste letere, un lo scrito e confus,</l>
@@ -4357,7 +4353,7 @@
                 <head>Laisse 132</head>
                 <l n="3544"><hi rend="blue-initial">U</hi>gon reguardà dadrié e davant</l>
                 <l n="3545">Puo penssà del maçor ardimant</l>
-                <l n="3546"><pb n="f.73r"/>(73R) Che oxasse far homo del siegolo vivant;</l>
+                <l n="3546"><milestone n="f.73r"/>(73R) Che oxasse far homo del siegolo vivant;</l>
                 <l n="3547">Ma ello lo fè ira e maltalant.</l>
                 <l n="3548">Dreto a la nave è vegnu pongant,</l>
                 <l n="3549">Desmontà a tera, si è intrado drant;</l>
@@ -4386,7 +4382,7 @@
                 <head>Laisse 133</head>
                 <l n="3570"><hi rend="blue-initial">M</hi>olto granda (è) la vale del boscaçe,</l>
                 <l n="3571">No lì è sentier se no lo solo onbraçe.</l>
-                <l n="3572"><pb n="f.73v"/>(73V) Lo bon destrier le baxà a gran corsaçe</l>
+                <l n="3572"><milestone n="f.73v"/>(73V) Lo bon destrier le baxà a gran corsaçe</l>
                 <l n="3573">Li bici aguci e·lli flumi alti e larçe,</l>
                 <l n="3574">Niente lo contradisse al so viaçe.</l>
                 <l n="3575">Soto una rocha presse la note albergaçe,</l>
@@ -4417,7 +4413,7 @@
                 <l n="3596">Una aqua trovà de fiera senblançe,</l>
                 <l n="3597">No è plui largo el <placeName>Roine</placeName> i<ex rend="italics">n</ex>
                     <placeName>P<ex rend="italics">r</ex>uançe</placeName>.</l>
-                <l n="3598"><pb n="f.74r"/>(74R) O li fose grado o no li atalançe,</l>
+                <l n="3598"><milestone n="f.74r"/>(74R) O li fose grado o no li atalançe,</l>
                 <l n="3599">Passar li convene del flume la fiera brançe.</l>
                 <l n="3600">Lo bu<ex rend="italics">n</ex> destrier in passe e in sellançe</l>
                 <l n="3601">Nudando lo portà all'altra dessendançe.</l>
@@ -4447,7 +4443,7 @@
                 <l n="3621">Como lo ave questo dito, si se levà un dragon</l>
                 <l n="3622">D'un gran mare a muodo d'un stecon;</l>
                 <l n="3623">No fo si grande nul mulo aragon.</l>
-                <l n="3624"><pb n="f.74v"/>(74V) Li pié à anpli, ongle como grifon,</l>
+                <l n="3624"><milestone n="f.74v"/>(74V) Li pié à anpli, ongle como grifon,</l>
                 <l n="3625">A la maniera como la notola sun,</l>
                 <l n="3626">Salvo che plu era grandi li so alon;</l>
                 <l n="3627">No serave si grando lo cavo d'un molton,</l>
@@ -4477,7 +4473,7 @@
                 <l n="3648">Nian quarel quando vien de balestra insir,</l>
                 <l n="3649">No core si tosto p<ex rend="italics">er</ex> so camin fornir,</l>
                 <l n="3650">Como lo dragon vien lo caval ferir.</l>
-                <l n="3651"><pb n="f.75r"/>(75R) Chon le grande alle l'ave tuto covrir</l>
+                <l n="3651"><milestone n="f.75r"/>(75R) Chon le grande alle l'ave tuto covrir</l>
                 <l n="3652">p<ex rend="italics">er</ex> mé lo cavo branco cun li deir</l>
                 <l n="3653">Si·llo strangolà anci che se possa partir.</l>
                 <l n="3654">Quando l'ave morto, si no·l vol plui grupir.</l>
@@ -4493,7 +4489,7 @@
                 <l n="3664">Morto lo roverssà, ben li die abelir.</l>
                 <l n="3665">Mo questo che li val romasso è i<ex rend="italics">n</ex> martir,</l>
                 <l n="3666">Or non ve·llo ni consse ni remir.</l>
-                <l n="3667"><pb n="f.75v"/>(75V) De pietade plançe, non sse potè retenir.</l>
+                <l n="3667"><milestone n="f.75v"/>(75V) De pietade plançe, non sse potè retenir.</l>
                 <l n="3668">––Quello lo secorei ch'el mundo die fenir! ––</l>
                 <l n="3669">Ancora no fo del tal pietà de veçir.</l>
             </lg>
@@ -4522,7 +4518,7 @@
                 <l n="3690">Ch'io creço çerto, s'ell è vero lo scri,</l>
                 <l n="3691">Che li vostri pié son p<ex rend="italics">er</ex> meço li mi.</l>
                 <l n="3692">Ai lasso mi, pecador p<ex rend="italics">er</ex>ché me son desparti?</l>
-                <l n="3693"><pb n="f.76r"/>(76R) Dio me consea, or me clam'io repenti."</l>
+                <l n="3693"><milestone n="f.76r"/>(76R) Dio me consea, or me clam'io repenti."</l>
                 <l n="3694">Lo çentil conte ver tera se plì,</l>
                 <l n="3695">Plançe di ochi so colpa p<ex rend="italics">er</ex> bati.</l>
             </lg>
@@ -4552,7 +4548,7 @@
                 <l n="3716">'Vé qui toa mare e a ti sia re<ex rend="italics">n</ex>dus,'</l>
                 <l n="3717">p<ex rend="italics">er</ex> queste parole unde molti à creçus,</l>
                 <l n="3718">Abié marçe, dolçe e benedetto frus,</l>
-                <l n="3719"><pb n="f.76v"/>(76V) De cholui te pessa che peço che perdus</l>
+                <l n="3719"><milestone n="f.76v"/>(76V) De cholui te pessa che peço che perdus</l>
                 <l n="3720">In sta via parte è d'andar recreus.</l>
                 <l n="3721">Se ‘npossibele è questo unde son movus,</l>
                 <l n="3722">Chomo vivo no possa veder li decaçus</l>
@@ -4581,7 +4577,7 @@
                 <l n="3742">Forma d'omo veço, non so s'el è nasue."</l>
                 <l n="3743">Po se aprossimà a la vista plovue,</l>
                 <l n="3744">E si·lli dixe, "Che fé tu in lla landa p<ex rend="italics">er</ex>due?</l>
-                <l n="3745"><pb n="f.77r"/>(77R) È tu vero homo o fantasma aparue?"</l>
+                <l n="3745"><milestone n="f.77r"/>(77R) È tu vero homo o fantasma aparue?"</l>
                 <l n="3746">Elo respoxe cun la boca mosue,</l>
                 <l n="3747">"Homo no sun, ni de carne renplue;</l>
                 <l n="3748">De l'alta gloria fo mia primera insue,</l>
@@ -4617,7 +4613,7 @@
                 <l n="3768">"Io apeterò," dixe lo conte, "oltro spirito plui veras</l>
                 <l n="3769">Vignerà p<ex rend="italics">er</ex> mi secorere, ça tu no<ex rend="italics">n</ex> devigneras,</l>
                 <l n="3770">No fosi plui da creder apuo lo gran forfais,</l>
-                <l n="3771"><pb n="f.77v"/>(77V) Da puo che vui refudasi l'alto star p<ex rend="italics">er</ex> lo
+                <l n="3771"><milestone n="f.77v"/>(77V) Da puo che vui refudasi l'alto star p<ex rend="italics">er</ex> lo
                     bais.</l>
                 <l n="3772">Cun à tu plui liciencia ti d'un altro satanas</l>
                 <l n="3773">A vegnir a un incado o' puoco guadegneras?"</l>
@@ -4648,7 +4644,7 @@
                 <l n="3794">Altrament sicomo colui che à bona i<ex rend="italics">n</ex>tencion</l>
                 <l n="3795">Va a fornir lo·sso messaço e creder non va lon</l>
                 <l n="3796">Che s'en tornà indrié coraçado et inbrun,</l>
-                <l n="3797"><pb n="f.78r"/>(78R) Tuto cussì fè lo spirito sença p<ex rend="italics">er</ex>don;</l>
+                <l n="3797"><milestone n="f.78r"/>(78R) Tuto cussì fè lo spirito sença p<ex rend="italics">er</ex>don;</l>
                 <l n="3798">Se despartì dal conte a baxa frum,</l>
                 <l n="3799">In(d)rié s'en tornà ver la eterna p<ex rend="italics">ri</ex>xon.</l>
                 <l n="3800">Ananci ch'el s'à longasté lo trar de un bolçon,</l>
@@ -4677,7 +4673,7 @@
                 <head>Laisse 143</head>
                 <l n="3821"><hi rend="red-initial">L</hi>o conte reguarda la unbra armee,</l>
                 <l n="3822">O(lde)·lla parola che fo araxonee</l>
-                <l n="3823"><pb n="f.78v"/>(78V) Chomo li assegura la dolorassa stiee</l>
+                <l n="3823"><milestone n="f.78v"/>(78V) Chomo li assegura la dolorassa stiee</l>
                 <l n="3824">Li responde como p<ex rend="italics">er</ex>sone insenee,</l>
                 <l n="3825">"O homo o onbra che davanti me mostré,</l>
                 <l n="3826">Dime chi tu è e chi fo toa centré</l>
@@ -4693,7 +4689,7 @@
                 <l n="3836">Ch'en Joxafat serà fata l'assenblee,</l>
                 <l n="3837">O' serà la croxe e·lla lança aportee,</l>
                 <l n="3838">E la gran plaga de Dio dal destro ladi mostree.</l>
-                <l n="3839"><pb n="f.79r"/>(79R) Li mie ancessor unde ài fato domandé</l>
+                <l n="3839"><milestone n="f.79r"/>(79R) Li mie ancessor unde ài fato domandé</l>
                 <l n="3840">Sono <persName>Troiani</persName> de la tera exilité,</l>
                 <l n="3841">Che p<ex rend="italics">er</ex>
                     <persName>Griexi</persName> fo arssa e bruxé,</l>
@@ -4725,7 +4721,7 @@
                 <l n="3862">"p<ex rend="italics">er</ex> ti secorere," dix'elo, "son io movu,</l>
                 <l n="3863">p<ex rend="italics">er</ex> lo voler de quelo che tu è in mente abu;</l>
                 <l n="3864">Condur te die a querir lo trabu;</l>
-                <l n="3865"><pb n="f.79v"/>(79V) No aver tema, cossì se vol desu.</l>
+                <l n="3865"><milestone n="f.79v"/>(79V) No aver tema, cossì se vol desu.</l>
                 <l n="3866">Dentro dalla eterna gloria, Dio asolu</l>
                 <l n="3867">Or no se teme Caron ni Cerbu.</l>
                 <l n="3868">In mi t'en fida e no star temu,</l>
@@ -4754,7 +4750,7 @@
                 <l n="3888">Ch'io no<ex rend="italics">n</ex> oserave p<ex rend="italics">er</ex> to afaitem(e)nt</l>
                 <l n="3889">Cun ti vegnir là o' è la perduta ç(e)nt.</l>
                 <l n="3890">E se io sum vegnu q<ex rend="italics">ui</ex> folament</l>
-                <l n="3891"><pb n="f.80r"/>(80R) Io digo mia colpa cun homo che se repent</l>
+                <l n="3891"><milestone n="f.80r"/>(80R) Io digo mia colpa cun homo che se repent</l>
                 <l n="3892">Tuto che tradi sia el p<ex rend="italics">er</ex>pessent</l>
                 <l n="3893">Acorto me·sson che a Dio ofent</l>
                 <l n="3894">Quando a·llui domando i<ex rend="italics">n</ex>possibel prexent."</l>
@@ -4788,7 +4784,7 @@
                 <l n="3915">Lo fiol <persName>Anchixes</persName> che p<ex rend="italics">er</ex> lui
                     atendr(i)e</l>
                 <l n="3916">Puo reguardà inver destra partie.</l>
-                <l n="3917"><pb n="f.80v"/>(80V) D'una fontana unde l'aqua è s(o)rtie,</l>
+                <l n="3917"><milestone n="f.80v"/>(80V) D'una fontana unde l'aqua è s(o)rtie,</l>
                 <l n="3918">Parete che inssixe sença nave e galie</l>
                 <l n="3919">Un vechio remito da la barba canue,</l>
                 <l n="3920">Con longi chaveli, riço non era mie,</l>
@@ -4818,7 +4814,7 @@
                 <l n="3940">A querir conche vuol lo gran Françoi.</l>
                 <l n="3941">Non te smarir, ch'io son de toa loi</l>
                 <l n="3942">Cavalier fui e menì tornoi</l>
-                <l n="3943"><pb n="f.81r"/>(81R) p<ex rend="italics">er</ex> acresse la cristiana loi;</l>
+                <l n="3943"><milestone n="f.81r"/>(81R) p<ex rend="italics">er</ex> acresse la cristiana loi;</l>
                 <l n="3944">Trovie loldo o' eo fui e no<ex rend="italics">n</ex> am(ì) vanesoi,</l>
                 <l n="3945">Quando p<ex rend="italics">er</ex> tropo tenpo se partì da moi,</l>
                 <l n="3946">Chavalieria eo me vestì con tu me voi;</l>
@@ -4847,7 +4843,7 @@
                 <l n="3966">Tanto ài provado vui el vostro valor</l>
                 <l n="3967">Che p<ex rend="italics">er</ex> lo pecador si' movesto a dolçor."</l>
                 <l n="3968">Puo à dito al spirito mio<ex rend="italics">r</ex>,</l>
-                <l n="3969"><pb n="f.81v"/>(81V) "Çentil <persName>Guielmo</persName>, che de Dio
+                <l n="3969"><milestone n="f.81v"/>(81V) "Çentil <persName>Guielmo</persName>, che de Dio
                     pugnador</l>
                 <l n="3970">Foxi in toa vita, ti e to ancissor,</l>
                 <l n="3971">Che per Dio sostignisse plui langor</l>
@@ -4877,7 +4873,7 @@
             <lg type="laisse" n="150">
                 <head>Laisse 150</head>
                 <l n="3994"><hi rend="blue-initial">T</hi>uto cussì como lo piçolo enfant</l>
-                <l n="3995"><pb n="f.82r"/>(82R) Quando p<ex rend="italics">er</ex>de so pare e so mare
+                <l n="3995"><milestone n="f.82r"/>(82R) Quando p<ex rend="italics">er</ex>de so pare e so mare
                     insemant,</l>
                 <l n="3996">Che sença consseio desconfortado romant,</l>
                 <l n="3997">Po·sse cunforta e prende ardiment</l>
@@ -4895,7 +4891,7 @@
                 <l n="4009">"No me poravi tocar, ni homo vivant,</l>
                 <l n="4010">Tanto che vignerà el dì del çudegament</l>
                 <l n="4011">Che corpi et anime tornerà i<ex rend="italics">n</ex>qualimant;</l>
-                <l n="4012"><pb n="f.82v"/>(82V) Alora s'en doplerà la çoia e·l tormant.</l>
+                <l n="4012"><milestone n="f.82v"/>(82V) Alora s'en doplerà la çoia e·l tormant.</l>
                 <l n="4013">Al nome de Dio andemo, fenimo sto parlamant,</l>
                 <l n="4014">Non aver paura che ti fin al prexant</l>
                 <l n="4015">Di tuo pecadi ài durado pene tant,</l>
@@ -4925,7 +4921,7 @@
                 <l n="4035">S'en vano cossì la n(o)te ni ssolaço ni ris.</l>
                 <l n="4036">Anci ch'el sol de so corsso dessendis,</l>
                 <l n="4037">Dessendeno soave sença brair ni cris</l>
-                <l n="4038"><pb n="f.83r"/>(83R) Da mont aval e i<ex rend="italics">n</ex> un profondo habis.</l>
+                <l n="4038"><milestone n="f.83r"/>(83R) Da mont aval e i<ex rend="italics">n</ex> un profondo habis.</l>
                 <l n="4039">Al mondo non è poço ni monte si autis,</l>
                 <l n="4040">Che al so desender non avesse p<ex rend="italics">er</ex>du li pis.</l>
                 <l n="4041">Lo sol àno perduto e·lli serenis,</l>
@@ -4955,7 +4951,7 @@
                 <l n="4061">Àno veçudo e merli bataier</l>
                 <l n="4062">De fero par fina a lo terier.</l>
                 <l n="4063">"Ve (t)u quel muro?" dixe G<ex rend="italics">uielmo</ex> li ber,</l>
-                <l n="4064"><pb n="f.83v"/>(83V) "Elo fa abixo dal dolçe aier sentir,</l>
+                <l n="4064"><milestone n="f.83v"/>(83V) "Elo fa abixo dal dolçe aier sentir,</l>
                 <l n="4065">Queli che muor se li lasa mener,</l>
                 <l n="4066">Dello insir fuora non convien mai penser</l>
                 <l n="4067">Là è·lla intrada del p<ex rend="italics">e</ex>rmanebel ster</l>
@@ -4988,7 +4984,7 @@
                 <l n="4087">Alora dixe <persName>Guielmo</persName>, "Varda se tu voi,</l>
                 <l n="4088">Quela alta porta à quel dragon vermoi</l>
                 <l n="4089">Incoronado a guixa d'un roi.</l>
-                <l n="4090"><pb n="f.84r"/>(84R) p<ex rend="italics">er</ex> quela porta entra queli de la loi</l>
+                <l n="4090"><milestone n="f.84r"/>(84R) p<ex rend="italics">er</ex> quela porta entra queli de la loi</l>
                 <l n="4091">Che in Jexhu C<ex rend="italics">risto</ex> non ave ne amor ne foi</l>
                 <l n="4092">E che·l meteno en croxe al voler soi</l>
                 <l n="4093">Che aspeteno lo messaço sacroi:</l>
@@ -5009,7 +5005,7 @@
                 <l n="4104">Plui larga e alta e de maçor intragne."</l>
                 <l n="4105">"p<ex rend="italics">er</ex> quela porta o' tu ve quela insagne,"</l>
                 <l n="4106">Dixe san Guielmo, "I<ex rend="italics">n</ex>tra la cente magne</l>
-                <l n="4107"><pb n="f.84v"/>(84V) Che <persName>Jexhu <ex rend="italics">Crist</ex>o</persName> ny
+                <l n="4107"><milestone n="f.84v"/>(84V) Che <persName>Jexhu <ex rend="italics">Crist</ex>o</persName> ny
                     <persName>Moisès</persName> no<ex rend="italics">n</ex> dagne,</l>
                 <l n="4108">Serveno a <persName>Macu<ex rend="italics">n</ex></persName> chi a morir
                     l'i<ex rend="italics">n</ex>sagne."</l>
@@ -5044,7 +5040,7 @@
                 <l n="4131">"<hi rend="red-initial">D</hi>e queste tre porte," disse lo santo, "che
                     tu vois,</l>
                 <l n="4132">Amigo Ugo, intra p<ex rend="italics">er</ex> qual te plois,</l>
-                <l n="4133"><pb n="f.85r"/>(85R) O' vol veder lo tromento paienois,</l>
+                <l n="4133"><milestone n="f.85r"/>(85R) O' vol veder lo tromento paienois,</l>
                 <l n="4134">O' è li <ex rend="italics">Crist</ex>iam e·lla çudea lois."</l>
                 <l n="4135">"Io voio intrar," dixe Ugo, "cele fois</l>
                 <l n="4136">O(v)e posso trovar de queli ch'io conois</l>
@@ -5074,7 +5070,7 @@
                 <head>Laisse 158</head>
                 <l n="4157"><hi rend="red-initial">O</hi>r entrano in lo pa(ï)ss criminal;</l>
                 <l n="4158">Como elli ave passado lo toral,</l>
-                <l n="4159"><pb n="f.85v"/>(85V) Plui d'alto che mai alguna piera mortal,</l>
+                <l n="4159"><milestone n="f.85v"/>(85V) Plui d'alto che mai alguna piera mortal,</l>
                 <l n="4160">Del so dessender non dessende d'alto aval,</l>
                 <l n="4161">Chorevano tuti <num>.III.</num> p<ex rend="italics">er</ex> u<ex rend="italics">n</ex> oschuro
                     teral;</l>
@@ -5104,7 +5100,7 @@
                 <l n="4182">Ver lo Trojan domande e fè inqueste,</l>
                 <l n="4183">"Çentil spirito, chi dì tu? Che·sson q<ex rend="italics">ue</ex>sti</l>
                 <l n="4184">Çente che de cridar me fa tegnir la teste?"</l>
-                <l n="4185"><pb n="f.86r"/>(86R) "Io digo," dix'elo "che in lla vita tereste</l>
+                <l n="4185"><milestone n="f.86r"/>(86R) "Io digo," dix'elo "che in lla vita tereste</l>
                 <l n="4186">Tuti cossì sono insenbre como bestie,</l>
                 <l n="4187">Ni mal ni ben feno in so poeste;</l>
                 <l n="4188">Como lor viver qui ànno altrotal estre."</l>
@@ -5134,7 +5130,7 @@
                 <l n="4208">Se·l te s<ex rend="italics">er</ex>ve p<ex rend="italics">er</ex> devina caxon,</l>
                 <l n="4209">El so duol li dopli a intrar i<ex rend="italics">n</ex> tal raxon.</l>
                 <l n="4210">Questo non è maniera de centil guiderdon,</l>
-                <l n="4211"><pb n="f.86v"/>(86V) Al so amigo recordar misprison;</l>
+                <l n="4211"><milestone n="f.86v"/>(86V) Al so amigo recordar misprison;</l>
                 <l n="4212">Versso lui die far dreto li plase lo son.</l>
                 <l n="4213">Andemo avanti che asé plui t<ex rend="italics">r</ex>overon</l>
                 <l n="4214">Penoxa çente cun cridi e cun tençon."</l>
@@ -5153,7 +5149,7 @@
                 <l n="4224">Como li morde la vermenia vespere?</l>
                 <l n="4225">Li pié àno lassi, le man e·lla lumiere,</l>
                 <l n="4226">Ni da quele vespe no<ex rend="italics">n</ex> àno posança intiere</l>
-                <l n="4227"><pb n="f.87r"/>(87R) De·llor defender, tanto è la lor chativiere.</l>
+                <l n="4227"><milestone n="f.87r"/>(87R) De·llor defender, tanto è la lor chativiere.</l>
                 <l n="4228">E no li è algun che no abia su la letere</l>
                 <l n="4229">Trenta diavoli p<ex rend="italics">er</ex> chi secorsso è fiere.</l>
                 <l n="4230">La soa aida è tropo malicioxa e fiere,</l>
@@ -5186,7 +5182,7 @@
             <lg type="laisse" n="163">
                 <head>Laisse 163</head>
                 <l n="4252">"<hi rend="red-initial">P</hi>er vanagloria," lo conte Ugo respont,</l>
-                <l n="4253"><pb n="f.87v"/>(87V) "Som p<ex rend="italics">er</ex> çò questor in questo
+                <l n="4253"><milestone n="f.87v"/>(87V) "Som p<ex rend="italics">er</ex> çò questor in questo
                     p<ex rend="italics">r</ex>ofunt?</l>
                 <l n="4254">Questa è gran meraveia se altri pecadi no lì unt."</l>
                 <l n="4255">Respoxe G<ex rend="italics">uielmo</ex>, "Queli che in quel pecado stunt,</l>
@@ -5217,7 +5213,7 @@
                 <l n="4276">Questo non può es<ex rend="italics">er</ex> ch'el çustixier sovran</l>
                 <l n="4277">No vol cussì durar el sso ingan,</l>
                 <l n="4278">No fo asé a morir p<ex rend="italics">er</ex> l'omo human."</l>
-                <l n="4279"><pb n="f.88r"/>(88R) p<ex rend="italics">er</ex> queste parole viem lo conte palido e
+                <l n="4279"><milestone n="f.88r"/>(88R) p<ex rend="italics">er</ex> queste parole viem lo conte palido e
                     van</l>
                 <l n="4280">E san Guielmo lo prexe p<ex rend="italics">er</ex> la man,</l>
                 <l n="4281">"Andemo," dix'elo, "da questi plui lutan."</l>
@@ -5247,7 +5243,7 @@
                 <l n="4302">Eli è fradeli de questi in sto fangosso tormant,</l>
                 <l n="4303">p<ex rend="italics">er</ex> li pié de·ssoto li diavoli li tient.</l>
                 <l n="4304">E quelli temeva lo gratar si fortemant,</l>
-                <l n="4305"><pb n="f.88v"/>(88V) Che algun non può star fermant.</l>
+                <l n="4305"><milestone n="f.88v"/>(88V) Che algun non può star fermant.</l>
                 <l n="4306">Quele gran piere che sovra lo<ex rend="italics">r</ex> desent,</l>
                 <l n="4307">Che da lutan fano lor avigniment</l>
                 <l n="4308">E no li tocha, ma gran paura li prent,</l>
@@ -5277,7 +5273,7 @@
                 <l n="4328">Un de queli che era al pantaçe</l>
                 <l n="4329">Oldì lo conte in l'Avernal lenguaçe,</l>
                 <l n="4330">"Ti che tiene p<ex rend="italics">er</ex> lo dolente estaçe</l>
-                <l n="4331"><pb n="f.89r"/>(89R) E si clami la sov(e)rna imaçene,</l>
+                <l n="4331"><milestone n="f.89r"/>(89R) E si clami la sov(e)rna imaçene,</l>
                 <l n="4332">Parlame a mi in questa eraçe.</l>
                 <l n="4333">A la parola de l'Avarnal uxaçe</l>
                 <l n="4334">Vui me parì che per lial coraçe</l>
@@ -5307,7 +5303,7 @@
                 <l n="4354">Poi s<ex rend="italics">er</ex> che se vol intrare li cherubin</l>
                 <l n="4355">Che tu dessendi in llo cerchio Cain</l>
                 <l n="4356">A querir çò che vol lo re topin,</l>
-                <l n="4357"><pb n="f.89v"/>(89V) Pregar te voio p<ex rend="italics">er</ex> honor del to lin</l>
+                <l n="4357"><milestone n="f.89v"/>(89V) Pregar te voio p<ex rend="italics">er</ex> honor del to lin</l>
                 <l n="4358">Che me p<ex rend="italics">er</ex>doni toa ira e to ahin.</l>
                 <l n="4359">Tuto questo anco may no<ex rend="italics">n</ex> val un a(n)çoin</l>
                 <l n="4360">Ch'io lo doveva querir avanti mia fin."</l>
@@ -5327,7 +5323,7 @@
                 <l n="4370">Unde triema tuti li danadi trist,</l>
                 <l n="4371">Como çascun p<ex rend="italics">er</ex> troin s'esmaust</l>
                 <l n="4372">E si se segna e clama <persName>Jexhum Crist</persName>.</l>
-                <l n="4373"><pb n="f.90r"/>(90R) Chossì se çeteno a tera queli del fango rubist,</l>
+                <l n="4373"><milestone n="f.90r"/>(90R) Chossì se çeteno a tera queli del fango rubist,</l>
                 <l n="4374">Biastemando Dio lor pare e lo Batist,</l>
                 <l n="4375">E maldigando la morte che no li olçist;</l>
                 <l n="4376">Çoioxo serave se mai no revevist.</l>
@@ -5357,7 +5353,7 @@
                 <l n="4396">Del trapaxar sun si forte talentis,</l>
                 <l n="4397">Puoco demen ch'eli no intra in lo ris.</l>
                 <l n="4398">Ma inver de·llor viem corando e cris.</l>
-                <l n="4399"><pb n="f.90v"/>(90V) In una nave un gran veiardo floris,</l>
+                <l n="4399"><milestone n="f.90v"/>(90V) In una nave un gran veiardo floris,</l>
                 <l n="4400">Charon se chlama al dol(or)oxo païs;</l>
                 <l n="4401">Dolent collor che vano al so s<ex rend="italics">er</ex>vis.</l>
                 <l n="4402">Alora li crida, "Çà gloton malleïs,</l>
@@ -5386,7 +5382,7 @@
                 <l n="4422">Dal peto i<ex rend="italics">n</ex> çosso è fatto como cavalo che cor,</l>
                 <l n="4423">Humana forma è quela desor</l>
                 <l n="4424">Glatissant vien, "No andere, licador."</l>
-                <l n="4425"><pb n="f.91r"/>(91R) Trema la terra tuta intor.</l>
+                <l n="4425"><milestone n="f.91r"/>(91R) Trema la terra tuta intor.</l>
                 <l n="4426">Una sagita tien sovra un arco d'albor,</l>
                 <l n="4427">Molto longo cun do ochi plen d'ardor,</l>
                 <l n="4428">Cridando vien, "No<ex rend="italics">n</ex> andere, licador,</l>
@@ -5416,7 +5412,7 @@
                 <l n="4448">Caron li cridà, "Che fé vui? Intrés!</l>
                 <l n="4449">Li <num>.III.</num> de vu(i) dié porter, so <ex rend="italics">con</ex>fés</l>
                 <l n="4450">Ma quelo che è q<ex rend="italics">ui</ex> sença morte arivés,</l>
-                <l n="4451"><pb n="f.91v"/>(91V) Portar no·l voio, tropo serav'io carcés."</l>
+                <l n="4451"><milestone n="f.91v"/>(91V) Portar no·l voio, tropo serav'io carcés."</l>
                 <l n="4452">Dixe Eneas, "Tuo-te de qui, maufés!</l>
                 <l n="4453">Nui non dovemo trapaser da quel lés.</l>
                 <l n="4454">Costù è qua p<ex rend="italics">er</ex> sola volontés</l>
@@ -5432,7 +5428,7 @@
                 <l n="4464">A vosse cridà, "Cussì v'en alés?"</l>
                 <l n="4465">Alora lasà andar lo legno de cavo ferés,</l>
                 <l n="4466">Quela sagita ferì al cavo de la nés,</l>
-                <l n="4467"><pb n="f.92r"/>(92R) Insir ne fè flama e fuogo a braxés</l>
+                <l n="4467"><milestone n="f.92r"/>(92R) Insir ne fè flama e fuogo a braxés</l>
                 <l n="4468">Li spiriti sun in lo flume rués.</l>
                 <l n="4469">Serpenti e vermi lì era a p(l)a<ex rend="italics">n</ex>tés,</l>
                 <l n="4470">Li inglotiva si·llì n'à<ex rend="italics">n</ex> portés.</l>
@@ -5461,7 +5457,7 @@
             </lg>
             <lg type="laisse" n="172">
                 <head>Laisse 172</head>
-                <l n="4493"><pb n="f.92v"/>(92V) <hi rend="red-initial">L</hi>o conte d'Avernia
+                <l n="4493"><milestone n="f.92v"/>(92V) <hi rend="red-initial">L</hi>o conte d'Avernia
                     guardà lo sagitare</l>
                 <l n="4494">Laido e soço, e no<ex rend="italics">n</ex> finà de braiere;</l>
                 <l n="4495">Paura n'ave lo vasal debu<ex rend="italics">n</ex>aire.</l>
@@ -5492,7 +5488,7 @@
                 <l n="4516">Chussì s'en vano p<ex rend="italics">er</ex> lo lago tenebros,</l>
                 <l n="4517">Lo santo de Dio à dito a basso vos</l>
                 <l n="4518">Inver Ugo, "Amigo, che avì vos</l>
-                <l n="4519"><pb n="f.93r"/>(93R) Ch'è veçudo si pallido chi eri ros?</l>
+                <l n="4519"><milestone n="f.93r"/>(93R) Ch'è veçudo si pallido chi eri ros?</l>
                 <l n="4520">Dio, no mescrere, l'altissimo poderos!</l>
                 <l n="4521">Chonfortate como homo valoros!</l>
                 <l n="4522">p<ex rend="italics">er</ex> cuor chativo, d'ardimento soferos</l>
@@ -5522,7 +5518,7 @@
                 <l n="4543">Chomo collui passa lo dolloroxo destroit.</l>
                 <l n="4544">Anci ch'è armadi, over arivasse <persName>Caro<ex rend="italics">n</ex></persName> o'
                     el devoit,</l>
-                <l n="4545"><pb n="f.93v"/>(93V) Lo vi<ex rend="italics">n</ex> li porta che in un vasel
+                <l n="4545"><milestone n="f.93v"/>(93V) Lo vi<ex rend="italics">n</ex> li porta che in un vasel
                     estoit.</l>
             </lg>
             <lg type="laisse" n="175">
@@ -5554,7 +5550,7 @@
                 <l n="4568">Cho·l sso dessiro la soa gloria doplerà,</l>
                 <l n="4569">Çaschun danado in pene tornerà</l>
                 <l n="4570">Eterna e durevele ell so cuor serà;</l>
-                <l n="4571"><pb n="f.94r"/>(94R) Le gran meraveie, dolçe amigo, serà là.</l>
+                <l n="4571"><milestone n="f.94r"/>(94R) Le gran meraveie, dolçe amigo, serà là.</l>
                 <l n="4572">Insimo de nave, arivadi semo çà."</l>
                 <l n="4573">Lo santo s'en inssì, Ugo lo segundà</l>
                 <l n="4574">Et Eneas apresso lui s'arotà,</l>
@@ -5587,7 +5583,7 @@
                 <l n="4594">Sul pomo aveva piere a gran planté,</l>
                 <l n="4595">Si ché (u)n puoco fono aluminé.</l>
                 <l n="4596">Lo mar profondo, quando ello è coroçé,</l>
-                <l n="4597"><pb n="f.94v"/>(94V) Plen de torment crudel e grande oré,</l>
+                <l n="4597"><milestone n="f.94v"/>(94V) Plen de torment crudel e grande oré,</l>
                 <l n="4598">Non fa tal remor quando ello à incontré</l>
                 <l n="4599">In lido o in sasso o' el fier e torna arié</l>
                 <l n="4600">Chomo quel cerchio, che in prima fo trové,</l>
@@ -5617,7 +5613,7 @@
                 <l n="4620">Chomo elli fo nadi, elli murirent,</l>
                 <l n="4621">Che algun de li tre batesmo non oront.</l>
                 <l n="4622">E sapì ben ancor certanament:</l>
-                <l n="4623"><pb n="f.95r"/>(95R) Çascun che nasse in sto siegolo vivent</l>
+                <l n="4623"><milestone n="f.95r"/>(95R) Çascun che nasse in sto siegolo vivent</l>
                 <l n="4624">Et no è batiçadi avanti lor finiment,</l>
                 <l n="4625">O in aqua santa o in sangue o in talent,</l>
                 <l n="4626">--Che questo è·ll'ordene de çascun salvament--</l>
@@ -5647,7 +5643,7 @@
                 <l n="4646">"Duncha è ben vero, se tu habi aie,</l>
                 <l n="4647">Ch'elo fo de questa co<ex rend="italics">n</ex>pagnie</l>
                 <l n="4648">Adamo trato cun una gran partie?"</l>
-                <l n="4649"><pb n="f.95v"/>(95V) Dixe Eneas, "Puo che vuoi ch'io te die</l>
+                <l n="4649"><milestone n="f.95v"/>(95V) Dixe Eneas, "Puo che vuoi ch'io te die</l>
                 <l n="4650">Quando fo morto lo fiol sante Marie,</l>
                 <l n="4651">La cui sustancia tie<ex rend="italics">n</ex> lo mondo i<ex rend="italics">n</ex> balie,</l>
                 <l n="4652">Con una insegna, quando ello insì de vie,</l>
@@ -5680,7 +5676,7 @@
                 <l n="4672">A un chastel che no fo çà in mont.</l>
                 <l n="4673">E avea <num>.VII.</num> meraverosse porte al premier front,</l>
                 <l n="4674">Sovra el castel co(n) la istoria espont.</l>
-                <l n="4675"><pb n="f.96r"/>(96R) "Questo castelo o' tante intrade sont,"</l>
+                <l n="4675"><milestone n="f.96r"/>(96R) "Questo castelo o' tante intrade sont,"</l>
                 <l n="4676">Dixe Eneas, "de·ssete muri i unt:</l>
                 <l n="4677">Se tu ben guardi, e niente te·ll ascont,</l>
                 <l n="4678">Sovra quel muro primo oltra quel pont,</l>
@@ -5709,7 +5705,7 @@
                 <l n="4698">Lo conte d'Avernia se prexe tuto (a) estorner,</l>
                 <l n="4699">p<ex rend="italics">er</ex>ch'elo non podeva oldir ni domander.</l>
                 <l n="4700">Nicomacus començà a blastemer,</l>
-                <l n="4701"><pb n="f.96v"/>(96V) "Taxé un puocho, diavoli aversser!"</l>
+                <l n="4701"><milestone n="f.96v"/>(96V) "Taxé un puocho, diavoli aversser!"</l>
                 <l n="4702">Dixe Eneas, "Questo non può incuntrer.</l>
                 <l n="4703">Costor meteno so cuor e so pensier,</l>
                 <l n="4704">p<ex rend="italics">er</ex> questa sençia inprender e costumer,</l>
@@ -5728,7 +5724,7 @@
                 <l n="4713">Lo santo spirito à dito ver lo p<ex rend="italics">er</ex>dus,</l>
                 <l n="4714">"Po ché tu è començado e movus</l>
                 <l n="4715">A deschiarar çò che v·è confus,</l>
-                <l n="4716"><pb n="f.97r"/>(97R) Chostor chi·sson che àno quel altro inclus</l>
+                <l n="4716"><milestone n="f.97r"/>(97R) Chostor chi·sson che àno quel altro inclus</l>
                 <l n="4717">Quel spirito soço a quel regnar agus</l>
                 <l n="4718">Che tien le dé desu la carta stendus</l>
                 <l n="4719">Che par de·sseno avançar plus</l>
@@ -5759,7 +5755,7 @@
                     <ex rend="italics">Cristi</ex>e<ex rend="italics">n</ex>t</l>
                 <l n="4740">Demostra e parla el dì del finiment</l>
                 <l n="4741">Che po averà çascun lo loldament</l>
-                <l n="4742"><pb n="f.97v"/>(97V) E gran paura del gra<ex rend="italics">n</ex>
+                <l n="4742"><milestone n="f.97v"/>(97V) E gran paura del gra<ex rend="italics">n</ex>
                     asenblame<ex rend="italics">n</ex>t,</l>
                 <l n="4743">Che in <persName>Joxafat</persName> serà dopledi li troment.</l>
                 <l n="4744">China lo cavo e vié segurament!"</l>
@@ -5792,7 +5788,7 @@
                 <l n="4766">Ni no par partidi della ça<ex rend="italics">r</ex>ne humaine."</l>
                 <l n="4767">Responde a·llui l(a) granda anima trojane,</l>
                 <l n="4768">"Questo pensa e abi ben a maine:</l>
-                <l n="4769"><pb n="f.98r"/>(98R) Quando tu seré in ll'aiere teraine,</l>
+                <l n="4769"><milestone n="f.98r"/>(98R) Quando tu seré in ll'aiere teraine,</l>
                 <l n="4770">A li geometri cun parolla certaine</l>
                 <l n="4771">Poré·lli dir che assé pene vilaine</l>
                 <l n="4772">Ài trovado lo·sso doto<ex rend="italics">r</ex> p<ex rend="italics">ri</ex>meraine,</l>
@@ -5808,7 +5804,7 @@
                 <l n="4779">Clamar s'el crete e aveva començé</l>
                 <l n="4780">Lo forte de arte de geometré</l>
                 <l n="4781">Sovra lo cavo lo ferì <persName>Eulidé</persName></l>
-                <l n="4782"><pb n="f.98v"/>(98V) D'una verçella che à çoncé da tuti lé,</l>
+                <l n="4782"><milestone n="f.98v"/>(98V) D'una verçella che à çoncé da tuti lé,</l>
                 <l n="4783">"Sié çoxo, q<ex rend="italics">ue</ex>sto no<ex rend="italics">n</ex> t'è destiné,</l>
                 <l n="4784">Non dié parlar se tu non è apellé."</l>
                 <l n="4785">E tuti li altri l'à schernido e gabé,</l>
@@ -5839,7 +5835,7 @@
                 <l n="4805">Duncha li fa mal la savia costumançe</l>
                 <l n="4806">E·l ben inprendere li torna in pessançe?</l>
                 <l n="4807">Que deverò io dir quando eserò in Françe?</l>
-                <l n="4808"><pb n="f.99r"/>(99R) Che li scoleri che plui àno sapiençe</l>
+                <l n="4808"><milestone n="f.99r"/>(99R) Che li scoleri che plui àno sapiençe</l>
                 <l n="4809">Vano tuti in la scura habitançe?"</l>
             </lg>
             <lg type="laisse" n="187">
@@ -5872,7 +5868,7 @@
             </lg>
             <lg type="laisse" n="188">
                 <head>Laisse 188</head>
-                <l n="4834"><pb n="f.99v"/>(99V) <hi rend="red-initial">Q</hi>uelli che cantava in
+                <l n="4834"><milestone n="f.99v"/>(99V) <hi rend="red-initial">Q</hi>uelli che cantava in
                     lo luogo infernal</l>
                 <l n="4835">No·l fano miga ni per çuogo ni per bal,</l>
                 <l n="4836">Ma recordarsse del tenpo ancional.</l>
@@ -5889,7 +5885,7 @@
                 <l n="4847">Tanto cun llor serà <ex rend="italics">Crist</ex>o celestial.</l>
                 <l n="4848">La lor pena no<ex rend="italics">n</ex> firent mal."</l>
                 <l n="4849">Dixe san Guielmo, "(B)on ch<ex rend="italics">evalie</ex>r lial,</l>
-                <l n="4850"><pb n="f.100r"/>(100R) "Andemo avanti, c'axé vederé mal</l>
+                <l n="4850"><milestone n="f.100r"/>(100R) "Andemo avanti, c'axé vederé mal</l>
                 <l n="4851">E plui pena i<ex rend="italics">n</ex> lo reg<ex rend="italics">n</ex>o infernal."</l>
             </lg>
             <lg type="laisse" n="189">
@@ -5923,7 +5919,7 @@
                 <l n="4874">Povolada fo de <persName>Çudei</persName> p<ex rend="italics">er</ex> far soa
                     rasson;</l>
                 <l n="4875">Quelli altri che li pledi contendon,</l>
-                <l n="4876"><pb n="f.100v"/>(100V) So<ex rend="italics">n</ex> procurador che moveno quistion</l>
+                <l n="4876"><milestone n="f.100v"/>(100V) So<ex rend="italics">n</ex> procurador che moveno quistion</l>
                 <l n="4877">E queli noderi che scritura noteson;</l>
                 <l n="4878">Là si è dentro gran mormoraxon,</l>
                 <l n="4879">L'un cun l'altro si lievà lo grigoion,</l>
@@ -5953,7 +5949,7 @@
                 <l n="4899">Como ello andà p<ex rend="italics">er</ex> la vale tenebror,</l>
                 <l n="4900">O' semp<ex rend="italics">er</ex> era gran duol e plor</l>
                 <l n="4901">Di pecadori che may non averà sejor,</l>
-                <l n="4902"><pb n="f.101r"/>(101R) Semper starano in pena et i<ex rend="italics">n</ex> dolor.</l>
+                <l n="4902"><milestone n="f.101r"/>(101R) Semper starano in pena et i<ex rend="italics">n</ex> dolor.</l>
                 <l n="4903">San G<ex rend="italics">uielmo</ex> andava inancy che de·llor iera el flor</l>
                 <l n="4904">Et Eneas ap<ex rend="italics">r</ex>esso che iera so condutor.</l>
                 <l n="4905">Quando partidi fono da quel castel altor,</l>
@@ -5982,7 +5978,7 @@
                 <l n="4925">Se no p<ex rend="italics">er</ex> quel ponte ch'io vo contere.</l>
                 <l n="4926">Ugo lo guarda, molto prexe a llarmoiere,</l>
                 <l n="4927">Versso Eneas li dixe parole molto fiere,</l>
-                <l n="4928"><pb n="f.101v"/>(101V) "E, bel amigo, no ve dié inoiere:</l>
+                <l n="4928"><milestone n="f.101v"/>(101V) "E, bel amigo, no ve dié inoiere:</l>
                 <l n="4929">Lì è altra via p<ex rend="italics">er</ex> questa aqua pasere?"</l>
                 <l n="4930">"Non," dix'ello, "ni oltro sentiere;</l>
                 <l n="4931">p<ex rend="italics">er</ex> questa via passa li pecator malfiere</l>
@@ -6001,7 +5997,7 @@
             </lg>
             <lg type="laisse" n="193">
                 <head>Laisse 193</head>
-                <l n="4944"><pb n="f.102r"/>(102R) <hi rend="blue-initial">L</hi>o conte d'Avernia
+                <l n="4944"><milestone n="f.102r"/>(102R) <hi rend="blue-initial">L</hi>o conte d'Avernia
                     n'à fatto merçis,</l>
                 <l n="4945">Quando·l oldì parlar G<ex rend="italics">uielmo</ex> lo marchis,</l>
                 <l n="4946">Che·lli avea ditto sença dollor ne peris</l>
@@ -6031,7 +6027,7 @@
                 <l n="4967"><hi rend="red-initial">L</hi>o conte d'Alvernia et Eneas li pros,</l>
                 <l n="4968">E san Guielmo che fo so condutors,</l>
                 <l n="4969">p<ex rend="italics">er</ex> la mior via s'afermano tuti tros</l>
-                <l n="4970"><pb n="f.102v"/>(102V) De llassar star lo flume p<ex rend="italics">er</ex>ilos</l>
+                <l n="4970"><milestone n="f.102v"/>(102V) De llassar star lo flume p<ex rend="italics">er</ex>ilos</l>
                 <l n="4971">E andar avanti ver queli doloros</l>
                 <l n="4972">Che may no averà ni çoia ni secors.</l>
                 <l n="4973">Alora se meteno p<ex rend="italics">er</ex> la vale tenebros</l>
@@ -6051,7 +6047,7 @@
                 <l n="4984">"Dì-me, bel frere, no me sia çelé,</l>
                 <l n="4985">Chi è collui su quelle forçe apiçé?</l>
                 <l n="4986">Si·llaida figura non vete ho<ex rend="italics">n</ex> (n)ee."</l>
-                <l n="4987"><pb n="f.103r"/>(103R) E quello a·llui dixe che ssaveva la verité,</l>
+                <l n="4987"><milestone n="f.103r"/>(103R) E quello a·llui dixe che ssaveva la verité,</l>
                 <l n="4988">"No<ex rend="italics">n</ex> vete ch'ell someia un malfé,</l>
                 <l n="4989">Che è ttuto·ffesso p<ex rend="italics">er</ex> mitté?</l>
                 <l n="4990">Ell è Juda che tradì nostro Dié,</l>
@@ -6078,7 +6074,7 @@
                 <l n="5010">Intro lor lo çità, si fo desperé,</l>
                 <l n="5011">Ni no clama so colpa, ançy se andà apiçé,</l>
                 <l n="5012">E s'ello avesse merçé domandé,</l>
-                <l n="5013"><pb n="f.103v"/>(103V) Chon fè san Piero quando l'ave renoié,</l>
+                <l n="5013"><milestone n="f.103v"/>(103V) Chon fè san Piero quando l'ave renoié,</l>
                 <l n="5014">Lo pecado li serave tuto p<ex rend="italics">er</ex>doné.</l>
                 <l n="5015">Vedé como i<ex rend="italics">n</ex> lui à gran miracolo mostré</l>
                 <l n="5016">p<ex rend="italics">er</ex> lo pan sagrado che Dio li ave doné.</l>
@@ -6108,7 +6104,7 @@
                 <l n="5036">Chi è quela dona che è in quel dojon?</l>
                 <l n="5037">Solla me par sença conpagnon.</l>
                 <l n="5038">E si me·l dì e no me·l celeron,</l>
-                <l n="5039"><pb n="f.104r"/>(104R) De qual tera e de qual maxon."</l>
+                <l n="5039"><milestone n="f.104r"/>(104R) De qual tera e de qual maxon."</l>
                 <l n="5040">Responde <persName>Eneas</persName>, "A vuy io lo diro<ex rend="italics">n</ex>.</l>
                 <l n="5041">Ela fo çà de vostra region,</l>
                 <l n="5042">E' fo moiere primierament de <persName>Tibaldo lo
@@ -6140,7 +6136,7 @@
                 <l n="5062">p<ex rend="italics">er</ex> exaltare lo nome de <persName>Jexhu</persName></l>
                 <l n="5063">In Glorieta <ex rend="italics">et</ex> in llo bosco foiu!"</l>
                 <l n="5064">Responde lo co<ex rend="italics">n</ex>te, "Io (ò) ben i<ex rend="italics">n</ex>tendu.</l>
-                <l n="5065"><pb n="f.104v"/>(104V) Sovra i<ex rend="italics">n</ex> llo ciello à veromente heu</l>
+                <l n="5065"><milestone n="f.104v"/>(104V) Sovra i<ex rend="italics">n</ex> llo ciello à veromente heu</l>
                 <l n="5066">Li pugnadori che da <persName>Dio</persName> fono vestu;</l>
                 <l n="5067">Tuti priegeno <persName>Dio</persName> p<ex rend="italics">er</ex> la vostra salu,</l>
                 <l n="5068">E la <persName>Verçene Maria</persName> ancora pregerò p<ex rend="italics">er</ex>
@@ -6173,7 +6169,7 @@
                 <l n="5088">Giborga l'oldì, si li va larmoiant;</l>
                 <l n="5089">Da ley se parte e llassà lo parlament.</l>
                 <l n="5090">E G<ex rend="italics">uielmo</ex> caminà che se mete a quarant,</l>
-                <l n="5091"><pb n="f.105r"/>(105R) Elo e Ugo et Eneas lo frant,</l>
+                <l n="5091"><milestone n="f.105r"/>(105R) Elo e Ugo et Eneas lo frant,</l>
                 <l n="5092">E vano p<ex rend="italics">er</ex> una tera o' de s<ex rend="italics">er</ex>penti son tant</l>
                 <l n="5093">Che tuto i<ex rend="italics">n</ex>paçava la valle e·llo pendant.</l>
                 <l n="5094">Sovra un pos arivano fedido e puant,</l>
@@ -6188,7 +6184,7 @@
                 <l n="5103">S'io faxeva mal, tu me andavi saixant;</l>
                 <l n="5104">S'io portava a ti ni robe ni arçent</l>
                 <l n="5105">Ch'io aveva robadi ad alguni malament,</l>
-                <l n="5106"><pb n="f.105v"/>(105V) Ti me polivi lo cavo e faxevi me bel senblant</l>
+                <l n="5106"><milestone n="f.105v"/>(105V) Ti me polivi lo cavo e faxevi me bel senblant</l>
                 <l n="5107">Se tu me avexi castigado ben e dolçement</l>
                 <l n="5108">E con lle verge batudo soavem<ex rend="italics">en</ex>t,</l>
                 <l n="5109">Io serave castigado e no<ex rend="italics">n</ex> serave qui drent."</l>
@@ -6218,7 +6214,7 @@
                 <l n="5129">Ançy è d'açalle e de fero tenperà;</l>
                 <l n="5130">Alti son li muri ch'el palaço cricundà,</l>
                 <l n="5131">Davanti à una porta che do lion guardà,</l>
-                <l n="5132"><pb n="f.106r"/>(106R) E quele po<ex rend="italics">r</ex>te tal natura si à</l>
+                <l n="5132"><milestone n="f.106r"/>(106R) E quele po<ex rend="italics">r</ex>te tal natura si à</l>
                 <l n="5133">Si tosto como elle averte i<ex rend="italics">n</ex>contenente se serà,</l>
                 <l n="5134">El non è raxori tanto taienti e filà</l>
                 <l n="5135">Che taia cossì soave como quele porte fa;</l>
@@ -6248,7 +6244,7 @@
                 <l n="5155">E p<ex rend="italics">er</ex>ch'elo e veço vi è aparue.</l>
                 <l n="5156">Fora d'un bos(c)o u<ex rend="italics">n</ex> cavalier argue,</l>
                 <l n="5157">Gran veiardo alla barba canue.</l>
-                <l n="5158"><pb n="f.106v"/>(106V) Un ellmo aveva i<ex rend="italics">n</ex> testa e soa targa
+                <l n="5158"><milestone n="f.106v"/>(106V) Un ellmo aveva i<ex rend="italics">n</ex> testa e soa targa
                     florue,</l>
                 <l n="5159">La spada çenta e·l so cavallo remue.</l>
                 <l n="5160">Dixe Ugo, "Santa Maria, me aiue!</l>
@@ -6278,7 +6274,7 @@
                 <l n="5181">Girardo da Frata si me fi apelere."</l>
                 <l n="5182">U<ex rend="italics">go</ex> quando l'oldì se prexe (a) mereveiere,</l>
                 <l n="5183">Aduncha se presse co<ex rend="italics">n</ex>tra luy a dreçere,</l>
-                <l n="5184"><pb n="f.107r"/>(107R) "Ai, sier Girardo, un don ve voio queri(r)e:</l>
+                <l n="5184"><milestone n="f.107r"/>(107R) "Ai, sier Girardo, un don ve voio queri(r)e:</l>
                 <l n="5185">Che vuy me digé e si m'averì contere</l>
                 <l n="5186">Qual è·llo pecado che v'à fato qua intre(re),</l>
                 <l n="5187">Ch'io lo possa dir quando tornerò arere</l>
@@ -6309,7 +6305,7 @@
                 <l n="5208">Se no<ex rend="italics">n</ex> fiele amara de ca<ex rend="italics">r</ex>ne de drago<ex rend="italics">n</ex>,</l>
                 <l n="5209">De malvaxi v<ex rend="italics">er</ex>mi e de rii bisson."</l>
                 <l n="5210">"Dio," disse U<ex rend="italics">go</ex>, "p<ex rend="italics">er</ex> toa redençion</l>
-                <l n="5211"><pb n="f.107v"/>(107V) Vui me defendé d'una tal prexo<ex rend="italics">n</ex>."</l>
+                <l n="5211"><milestone n="f.107v"/>(107V) Vui me defendé d'una tal prexo<ex rend="italics">n</ex>."</l>
                 <l n="5212">Dixe san G<ex rend="italics">uielmo</ex>, "Or avanti allon</l>
                 <l n="5213">Ver lo pallaço de la <ex rend="italics">con</ex>fossio<ex rend="italics">n</ex>."</l>
             </lg>
@@ -6333,7 +6329,7 @@
             </lg>
             <lg type="laisse" n="204">
                 <head>Laisse 204</head>
-                <l n="5228"><pb n="f.108r"/>(108R) <hi rend="red-initial">L</hi>o conte d'Alvernia
+                <l n="5228"><milestone n="f.108r"/>(108R) <hi rend="red-initial">L</hi>o conte d'Alvernia
                     fo espaventie,</l>
                 <l n="5229">Ma Dio si·lli fo ben i<ex rend="italics">n</ex> ahie.</l>
                 <l n="5230">Quando el vete el tormento de quela co<ex rend="italics">n</ex>pagnie</l>
@@ -6364,7 +6360,7 @@
                 <l n="5251">Davanti la porta è u<ex rend="italics">n</ex> drago<ex rend="italics">n</ex> rabis,</l>
                 <l n="5252">Fuogo e flama çeta p<ex rend="italics">er</ex> la boca e naris;</l>
                 <l n="5253">La porta guarda del pallaço altis.</l>
-                <l n="5254"><pb n="f.108v"/>(108V) Là entro non può i<ex rend="italics">n</ex>trare se no conti e
+                <l n="5254"><milestone n="f.108v"/>(108V) Là entro non può i<ex rend="italics">n</ex>trare se no conti e
                     marchis,</l>
                 <l n="5255">Re, principi, duchi de molto alto pris,</l>
                 <l n="5256">O sagrado principi c<ex rend="italics">on</ex> abadi, (a)rcivescovis,</l>
@@ -6396,7 +6392,7 @@
                 <l n="5278">Quando tu seray da Luçifero davant,</l>
                 <l n="5279">In çenochio<ex rend="italics">n</ex> te meteré davant,</l>
                 <l n="5280">A luy no dar salludo da parte Dio ni sant.</l>
-                <l n="5281"><pb n="f.109r"/>(109R) L'anbaxada del to signor dì-li segurament;</l>
+                <l n="5281"><milestone n="f.109r"/>(109R) L'anbaxada del to signor dì-li segurament;</l>
                 <l n="5282">No<ex rend="italics">n</ex> te temere ni aver nul spavent,</l>
                 <l n="5283">Apresso ti serò p<ex rend="italics">er</ex> eser i<ex rend="italics">n</ex> guarant."</l>
                 <l n="5284">Disse lo conte, "El me fa mestier grant.</l>
@@ -6428,7 +6424,7 @@
                 <l n="5305">E lo bon conte che in Alvernia fo né.</l>
                 <l n="5306">Quando fo dentro in la·ssala pavé</l>
                 <l n="5307">Intorno se guardà davanti e darié:</l>
-                <l n="5308"><pb n="f.109v"/>(109V) Drié da·ssi vete le porte seré,</l>
+                <l n="5308"><milestone n="f.109v"/>(109V) Drié da·ssi vete le porte seré,</l>
                 <l n="5309">Sovra un bancho vete tanti re e amiré.</l>
                 <l n="5310">Quando avanti un puoco fo allé,</l>
                 <l n="5311">Sovra un(a) banca de tute le altre alçé,</l>
@@ -6458,7 +6454,7 @@
             <lg type="laisse" n="208">
                 <head>Laisse 208</head>
                 <l n="5334"><hi rend="blue-initial">L</hi>o conte d'Alvernia pensava ben morir,</l>
-                <l n="5335"><pb n="f.110r"/>(110R) Della soa vita non à nul spir,</l>
+                <l n="5335"><milestone n="f.110r"/>(110R) Della soa vita non à nul spir,</l>
                 <l n="5336">Quando el vete Lucifero li ogli revel(i)r.</l>
                 <l n="5337">Non fo meraveia s'el s'ave a spave<ex rend="italics">n</ex>tir;</l>
                 <l n="5338">In lo so cuor el getà un sospir</l>
@@ -6488,7 +6484,7 @@
                 <l n="5359">"Dì-me, amigo, che domandi e che quer?</l>
                 <l n="5360">p<ex rend="italics">er</ex>ché è tu vegnu qua da mi arberçer?</l>
                 <l n="5361">Quando tu lì intrasti, fasisti gra<ex rend="italics">n</ex> peçer,</l>
-                <l n="5362"><pb n="f.110v"/>(110V) Çamay nul homo s’en tornà arer."</l>
+                <l n="5362"><milestone n="f.110v"/>(110V) Çamay nul homo s’en tornà arer."</l>
                 <l n="5363">Responde lo conte, "La fé me fè aler</l>
                 <l n="5364">p<ex rend="italics">er</ex> un trabuto querir e domander</l>
                 <l n="5365">p<ex rend="italics">er</ex>
@@ -6511,7 +6507,7 @@
                 <l n="5377">E san Guielmo quando lo conte lo reguardà</l>
                 <l n="5378">Tuto in so cuor el fé confortà</l>
                 <l n="5379">E Luçifero a U<ex rend="italics">go</ex> à doncha parlà,</l>
-                <l n="5380"><pb n="f.111r"/>(111R) "Homo cristian, celado no ve serà,</l>
+                <l n="5380"><milestone n="f.111r"/>(111R) "Homo cristian, celado no ve serà,</l>
                 <l n="5381">Mal fè colui che qua dent(ro) ve mandà,</l>
                 <l n="5382">Lial homo che tu è si te çoverà,</l>
                 <l n="5383">Che sano e salvo indrié tu tornerà;</l>
@@ -6541,7 +6537,7 @@
                 <l n="5404">Ben s'à defexa da quel malvas roi.</l>
                 <l n="5405">Vero te diray meraveia e no·l mescroi,</l>
                 <l n="5406">De quela cossa n'ò habù granmoi.</l>
-                <l n="5407"><pb n="f.111v"/>(111V) Asé l'à tentada di messi plui de troi,</l>
+                <l n="5407"><milestone n="f.111v"/>(111V) Asé l'à tentada di messi plui de troi,</l>
                 <l n="5408">p<ex rend="italics">er</ex>ch'ela falasse e·llei far el voler soi,</l>
                 <l n="5409">No (à) possudo guadagnar lo valor d'un bofoi.</l>
                 <l n="5410">Do suo fradeli che son savi e cortoi</l>
@@ -6572,7 +6568,7 @@
                 <l n="5431">"Bel amigo, in ti non ò nula aspeter,</l>
                 <l n="5432">Ma d'una cossa te so conter:</l>
                 <l n="5433">Asé pò l'omo penetençia fer,</l>
-                <l n="5434"><pb n="f.112r"/>(112R) Che alla fin sul ponto darer,</l>
+                <l n="5434"><milestone n="f.112r"/>(112R) Che alla fin sul ponto darer,</l>
                 <l n="5435">A quel ponto salver e dare(r)."</l>
                 <l n="5436">Alora fè·l trabuto aporter,</l>
                 <l n="5437">Davanti se lo fè aprexenter.</l>
@@ -6602,7 +6598,7 @@
                 <l n="5458">"Ugo, bel fradello, aves tu gran paur?"</l>
                 <l n="5459">"Si, bel sier, mai no l'avi maçor."</l>
                 <l n="5460">"Or poré tu ben dir," disse G<ex rend="italics">uielmo</ex> lo bor,</l>
-                <l n="5461"><pb n="f.112v"/>(112V) "A quelli che son al mondo gran pecado(r),</l>
+                <l n="5461"><milestone n="f.112v"/>(112V) "A quelli che son al mondo gran pecado(r),</l>
                 <l n="5462">Che ben se guarda da vegnir da costor,</l>
                 <l n="5463">Che qua non è marçé ni amor,</l>
                 <l n="5464">Senp<ex rend="italics">er</ex> serà i<ex rend="italics">n</ex> pene e in dolor.</l>
@@ -6632,7 +6628,7 @@
                 <l n="5484">E d'una cossa te voio far afis:</l>
                 <l n="5485">Chi avese lo mondo tuto quanto ademis</l>
                 <l n="5486">E quando è dal cielo in ço tuto d'oro masis</l>
-                <l n="5487"><pb n="f.113r"/>(113R) Plui non li vale d'un granel de panis,</l>
+                <l n="5487"><milestone n="f.113r"/>(113R) Plui non li vale d'un granel de panis,</l>
                 <l n="5488">Di che è stado i<ex rend="italics">n</ex> questo regno maleïs</l>
                 <l n="5489">Si è veçudo di vari e de bis e de gris.</l>
                 <l n="5490">Quando tu seré in França o in Paris,</l>
@@ -6662,7 +6658,7 @@
                 <l n="5510">Medieximamente in Paris la çitadé</l>
                 <l n="5511">La festa san Çuan e anchuo è celebré.</l>
                 <l n="5512">Gran corte mantien Carlo l'inperé;</l>
-                <l n="5513"><pb n="f.113v"/>(113V) Cavallieri à fatti plu de <num>.XLVI.</num></l>
+                <l n="5513"><milestone n="f.113v"/>(113V) Cavallieri à fatti plu de <num>.XLVI.</num></l>
                 <l n="5514">Ancuo i<ex rend="italics">n</ex> questo dì, p<ex rend="italics">er</ex> la Dio volenté.</l>
                 <l n="5515">Presso serà d'Alvernia al men d'u<ex rend="italics">n</ex> arcé</l>
                 <l n="5516">Avanti che tu abi bevu e mançé.</l>
@@ -6693,7 +6689,7 @@
                     s'avançe,</l>
                 <l n="5537">Granda fo la çoia co<ex rend="italics">n</ex> molto gran pietançe.</l>
                 <l n="5538">Quando lo çorno aparsse, si andè la nomenançe</l>
-                <l n="5539"><pb n="f.114r"/>(114R) Che vegnudo è·llo conte cun tuta soa intançe,</l>
+                <l n="5539"><milestone n="f.114r"/>(114R) Che vegnudo è·llo conte cun tuta soa intançe,</l>
                 <l n="5540">A duto a Carlo so trabuto e soa mançe.</l>
                 <l n="5541">Lo re che in lo canpo aveva fato soa atendançe,</l>
                 <l n="5542">Quando çò sape, si ave repentançe</l>
@@ -6724,7 +6720,7 @@
                 <l n="5562">In l'inferno son stado e da lui davant</l>
                 <l n="5563">E çorno e notte a la ploba e al vant;</l>
                 <l n="5564">Salu ve manda quel gran amirant</l>
-                <l n="5565"><pb n="f.114v"/>(114V) Sicomo a so amigo e a·sso bon voiant,</l>
+                <l n="5565"><milestone n="f.114v"/>(114V) Sicomo a so amigo e a·sso bon voiant,</l>
                 <l n="5566">E si ve mandà tuto d'oro e d'arçant</l>
                 <l n="5567">Una serena i<ex rend="italics">n</ex> un bel luogo grant.</l>
                 <l n="5568">E vuy sederì al dì del çucamant,</l>
@@ -6756,7 +6752,7 @@
                     asà</l>
                 <l n="5589">Et a Ugo cussì li parllà,</l>
                 <l n="5590">"Ugo," diss ello, "non è meraveiere çà</l>
-                <l n="5591"><pb n="f.115r"/>(115R) Se questa hoste è apreso la toa cità,</l>
+                <l n="5591"><milestone n="f.115r"/>(115R) Se questa hoste è apreso la toa cità,</l>
                 <l n="5592">A mi se revellà gran tempo è passà,</l>
                 <l n="5593">Da mo avanti, s'el ve agrà,</l>
                 <l n="5594">La paxe serà fatta se vuy volé e comandà."</l>
@@ -6786,7 +6782,7 @@
                 <l n="5614">Intorno lui son queli baron naturaus</l>
                 <l n="5615">E del puovollo li piçoli e·lli men(a)us.</l>
                 <l n="5616"><persName>Charllo</persName> parllà contra Ugo humiliaus,</l>
-                <l n="5617"><pb n="f.115v"/>(115V) "Ugo, bel fradello, no ve do far maus,</l>
+                <l n="5617"><milestone n="f.115v"/>(115V) "Ugo, bel fradello, no ve do far maus,</l>
                 <l n="5618">Mio amigo seré plui de nul homo carnaus</l>
                 <l n="5619">E in mia corte averé plui estaus</l>
                 <l n="5620">Che no<ex rend="italics">n</ex> aveva chi(valier) che fo mio carnaus."</l>
@@ -6805,7 +6801,7 @@
                 <l n="5629">Carlo lo v(e)te, molto l'à ben loldé,</l>
                 <l n="5630">Provar vol como el serà ovré,</l>
                 <l n="5631">E se ben li starave con man e con pé.</l>
-                <l n="5632"><pb n="f.116r"/>(116R) Sovra lo cadelleto è Carlo monté,</l>
+                <l n="5632"><milestone n="f.116r"/>(116R) Sovra lo cadelleto è Carlo monté,</l>
                 <l n="5633">Chun gran çoia el fo acolegé;</l>
                 <l n="5634">Quatro diavoli fono apareié,</l>
                 <l n="5635">Che·llo cadelleto apresso è llevé</l>
@@ -6823,7 +6819,7 @@
             </lg>
             <lg type="laisse" n="221">
                 <head>Laisse 221</head>
-                <l n="5647"><pb n="f.116v"/>(116V) <hi rend="blue-initial">L</hi>i chavalieri che
+                <l n="5647"><milestone n="f.116v"/>(116V) <hi rend="blue-initial">L</hi>i chavalieri che
                     co<ex rend="italics">n</ex>
                     <persName>Carlo</persName> era venue,</l>
                 <l n="5648">Quando elli fo çoxo del pallaço dessendue,</l>
@@ -6857,7 +6853,7 @@
                 <l n="5670">Quando el se penssà de li pecato<ex rend="italics">r</ex> dolant,</l>
                 <l n="5671">Che in l'inferno durà tal tromant</l>
                 <l n="5672">Ni may no<ex rend="italics">n</ex> porave aver restoremant.</l>
-                <l n="5673"><pb n="f.117r"/>(117R) Lo conte non fè demoramant,</l>
+                <l n="5673"><milestone n="f.117r"/>(117R) Lo conte non fè demoramant,</l>
                 <l n="5674">Gliexie fè far e hospedali plui de çant,</l>
                 <l n="5675">Poveri vestir e darli vin e formant.</l>
                 <l n="5676">Poneten(ç)a fè senp<ex rend="italics">er</ex> al so viant,</l>
