@@ -182,7 +182,7 @@ p.tagline {
 /*  max-height: 50px;
 */  padding-right: 15px;
   margin-top: 15px;
-  max-width: 183px;  
+  max-width: 183px;
 }
 
 #hidden-title{
@@ -198,12 +198,16 @@ p.tagline {
 /* TEI */
 
 TEI {
-  
+
   margin: auto;
   max-width: 40%;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   font-size: 16px;
 padding-bottom: 1px;
+}
+
+ex[rend="italics"] {
+  font-style: italic;
 }
 
 tei-title {
@@ -266,9 +270,9 @@ ul li ul {
   border-color: gray;
   transition:1s;
 }
-ul li ul li { 
-  background: #555; 
-  display: block; 
+ul li ul li {
+  background: #555;
+  display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
   z-index: 1000;
@@ -289,9 +293,9 @@ ul li ul li {
   padding:0;
 }
 
-.oe { 
-font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif; 
-} 
+.oe {
+font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif;
+}
 
 #homepage-body{
 }
@@ -329,17 +333,17 @@ text body{
 .container-4 input#search::-webkit-input-placeholder {
    color: #65737e;
 }
- 
+
 .container-4 input#search:-moz-placeholder { /* Firefox 18- */
-   color: #65737e;  
+   color: #65737e;
 }
- 
+
 .container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
-   color: #65737e;  
+   color: #65737e;
 }
- 
-.container-4 input#search:-ms-input-placeholder {  
-   color: #65737e;  
+
+.container-4 input#search:-ms-input-placeholder {
+   color: #65737e;
 }
 
 .container-4 button.icon{
@@ -349,7 +353,7 @@ text body{
   -moz-border-radius-bottomright: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
- 
+
   border: none;
   background: #232833;
   height: 50px;
@@ -357,7 +361,7 @@ text body{
   color: #4f5b66;
   opacity: 0;
   font-size: 10pt;
- 
+
   -webkit-transition: all .55s ease;
   -moz-transition: all .55s ease;
   -ms-transition: all .55s ease;
@@ -432,7 +436,7 @@ table, tr, th{
 td{
   padding-left:0;
   padding-right: 0;
-  display: hidden; 
+  display: hidden;
 }
 
 #bibPanel{
