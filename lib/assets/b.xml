@@ -216,7 +216,8 @@
             <l n="33">Au fiuç Lois qua<ex rend="italics">n</ex>t feit soe coma<ex rend="italics">n</ex>die.  </l>
             <l n="34">Si ou rois vousist mander soe baro<ex rend="italics">n</ex>ie,  </l>
             <l n="35">Sainç mout grant pois menast i<ex rend="italics">n</ex> host ba<ex rend="italics">n</ex>nie  </l>
-            <l n="36">Vc(superscript) mil homes de bone giant garnie,  </l>
+            <l n="36"><num>V</num>c mil homes de bone giant garnie,  </l>
+            <!-- c in superscript -->
             <l n="37">Sainç le peon o tot la archerie,  </l>
             <l n="38">Qi la moité non poroit estre esmie.  </l>
             <l n="39">Por ce qu'il rois soi sent tant avancie,  </l>
@@ -236,7 +237,7 @@
             <l n="50">N'a rois ni p<ex rend="italics">ri</ex>nce ni duch ni vavasor,  </l>
             <l n="51">Quuens ni ma<ex rend="italics">r</ex>chis ni baron ni <ex rend="italics">con</ex>tor  </l>
             <l n="52">Qui no<ex rend="italics">n</ex> li se<ex rend="italics">r</ex>ve par dote o per amor.  </l>
-            <l n="53">Al rois en vint talant et quuer .I. jor  </l>
+            <l n="53">Al rois en vint talant et quuer <num>I</num> jor  </l>
             <l n="54">Dou tot veoir de ses hom li meilor,  </l>
             <l n="55">Li qu(u)ens oit plus de ferté <ex rend="italics">et</ex> de valo<ex rend="italics">r</ex>. </l>
             <l n="56">Conseil e<ex rend="italics">n</ex> prist au quue<ex rend="italics">n</ex>s de Lucinbor,  </l>
@@ -262,7 +263,7 @@
             <head>Laisse 4</head>
             <l n="74">A Pentecoste, aprés l'Ascensions  </l>
             <l n="75">Estoit banie la cort tot environs  </l>
-            <l n="76">Que doit durer .IIII. or(superscript)mois a de lo<ex rend="italics">n</ex>s.  </l>
+            <l n="76">Que doit durer <num>IIII</num> or(superscript)mois a de lo<ex rend="italics">n</ex>s.  </l>
             <l n="77">Por ce voloit l'emp<ex rend="italics">er</ex>er K<ex rend="italics">ar</ex>llons </l>
             <l n="78">Que adonch les dames vieg(n)e(superscript) o lo<ex rend="italics">r</ex> <ex rend="italics">com</ex>peigno<ex rend="italics">n</ex>s,  </l>
             <l n="79">Par honore<ex rend="italics">r</ex> la roine au chief blons, </l>
@@ -285,7 +286,8 @@
             <l n="96">Amdos son frere Ynide a le cler frons,  </l>
             <l n="97">E sont sorage au bon vasal Ugons.  </l>
             <l n="98">Le quue<ex rend="italics">n</ex>s ne vint a guise de bricons,  </l>
-            <l n="99">Qu'il n’ait o lui bien .II.c <ex rend="italics">com</ex>paignons,  </l>
+            <l n="99">Qu'il n’ait o lui bien <num>II</num>c <ex rend="italics">com</ex>paignons,  </l>
+            <!-- c is superscript -->
             <l n="100">Tot de li miaudre qui sont de soe masons.  </l>
             <l n="101">Si li estoit e Morant e Sansons,  </l>
             <l n="102">Qui seneschal fu a li quue<ex rend="italics">n</ex>s Ugons.  </l>

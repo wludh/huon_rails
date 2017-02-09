@@ -109,7 +109,7 @@
                         rend="italic">fene</hi>to indicate that this word should be
                     disregarded.</note>
                 <note n="??" xml:id="p14v.1" type="cod" resp="#SPM">Missing illumination</note>
-                <note n="??" xml:id="p15r.1" type="edit">MS <hi rend="#italic">al davernia</hi></note>
+                <note n="??" xml:id="p15r.1" type="edit" resp="#SPM">MS <hi rend="#italic">al davernia</hi></note>
                 <note n="??" xml:id="p15v.1" type="edit" resp="#SPM">MS <hi rend="italic">la ela duchessa</hi></note>
                 <note n="??" xml:id="p15v.2" type="edit" resp="scribe">Scribal correction, <hi rend="italic">è</hi> above the line.</note>
             </div>
