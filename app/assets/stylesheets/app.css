@@ -188,10 +188,6 @@ p.tagline {
 /* TEI */
 
 TEI {
-<<<<<<< HEAD
-
-=======
->>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
   margin: auto;
   max-width: 40%;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
@@ -269,89 +265,10 @@ ul li ul li {
   padding:0;
 }
 
-<<<<<<< HEAD
-.oe {
-font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif;
-}
-
-#homepage-body{
-}
-
-text body{
-}
-
-/*Search bar */
-
-.box{
-  width: 215px;
-  height: 50px;
-}
-
-.container-4{
-  overflow: hidden;
-  width: 200px;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-.container-4 input#search{
-  width: 200px;
-  background: #2b303b;
-  border: none;
-  font-size: 10pt;
-  float: left;
-  color: #fff;
-  padding-left: 15px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.container-4 input#search::-webkit-input-placeholder {
-   color: #65737e;
-}
-
-.container-4 input#search:-moz-placeholder { /* Firefox 18- */
-   color: #65737e;
-}
-
-.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
-   color: #65737e;
-}
-
-.container-4 input#search:-ms-input-placeholder {
-   color: #65737e;
-}
-
-.container-4 button.icon{
-  -webkit-border-top-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  -moz-border-radius-bottomright: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-
-  border: none;
-  background: #232833;
-  height: 50px;
-  width: 50px;
-  color: #4f5b66;
-  opacity: 0;
-  font-size: 10pt;
-
-  -webkit-transition: all .55s ease;
-  -moz-transition: all .55s ease;
-  -ms-transition: all .55s ease;
-  -o-transition: all .55s ease;
-  transition: all .55s ease;
-}
-/*
-
-=======
 .oe { 
 font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif; 
 } 
->>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
+
   /*Versioning Machine*/
 
 #line_toggle, label{
@@ -619,8 +536,6 @@ td{
 #unf_logo{
   padding-bottom: 22px;
 }
-<<<<<<< HEAD
-=======
 
 .linenumber{
   float: left;
@@ -738,4 +653,3 @@ code, pre{
 #tei-link-mobile{
   display: none;
 }
->>>>>>> 469ba685aa28d5bc569dec5c428009ffb1f38d2c
