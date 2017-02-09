@@ -113,6 +113,7 @@ class PagesController < ApplicationController
         # build up the html for the notes from the parser and what we have.
         html = ""
         note_counter = 1
+        for note in @all_notes
             if note.attributes['resp'] != nil
                 puts "HELLO"
                 @resp = note.attributes['resp'].value
