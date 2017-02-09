@@ -1,49 +1,49 @@
 require 'rails_helper'
 
 def manuscript_block(manuscript, route)
-    it "returns http success header" do
-        get 'p_manuscript'
+    it "returns http success header - #{manuscript}" do
+        get route
         expect(response).to be_success
         expect(response).to have_http_status(200)
     end
 
-    it "reads in some TEI" do
+    it "reads in some TEI - #{manuscript}" do
         expect{controller.parse_tei(manuscript)}.not_to raise_error
     end
 
-    it "gets title from the TEI" do
+    it "gets title from the TEI - #{manuscript}" do
         @title, _, _ = controller.parse_tei(manuscript)
         expect(@title).to include('Huon')
     end
 
-    it "gets the introduction" do
+    it "gets the introduction - #{manuscript}" do
         _, @introduction, _ = controller.parse_tei(manuscript, true)
 
         expect(@introduction).to be_truthy
     end
 
-    it "gets the line groups and can parse them" do
+    it "gets the line groups and can parse them - #{manuscript}" do
         _, _, @line_groups = controller.parse_tei(manuscript)
         expect{controller.parse_line_groups(@line_groups)}.not_to raise_error
     end
 
-    it "should parse the TEI and return an HTML safe string" do
+    it "should parse the TEI and return an HTML safe string - #{manuscript}" do
         _, _, @line_groups = controller.parse_tei(manuscript)
         expect(controller.parse_line_groups(@line_groups).html_safe?).to be_truthy
     end
 
-    it "should get annotations" do
+    it "should get annotations - #{manuscript}" do
         expect(controller.import_notes('notes-' + manuscript)).to be_truthy
     end
 
-    it "should connect annotations with the line groups" do
+    it "should connect annotations with the line groups - #{manuscript}" do
         @current_notes = controller.parse_and_store_notes(@note_numbers, manuscript)
         expect(@current_notes).to be_truthy
     end
 
     describe "GET " 'pages templates' do
 
-        it 'should render the manuscript template' do
+        it "should render the manuscript template - #{manuscript}" do
             get route
             unless route[1] == 'r'
                 expect(page).to render_template('pages/' + route[0])
@@ -51,6 +51,24 @@ def manuscript_block(manuscript, route)
                 expect(page).to render_template('pages/' + route[0..1])
             end
         end
+    end
+end
+
+def note_block(note, file)
+    it "should have a resp statement - note for #{file}: #{note}" do
+        expect(note.attributes['resp']).to be_truthy
+    end
+
+    it "should have a n attribute - note for #{file}: #{note}" do
+        expect(note.attributes['n']).to be_truthy
+    end
+
+    it "should have a type attribute - note for #{file}: #{note}" do
+        expect(note.attributes['type']).to be_truthy
+    end
+
+    it "should have an xml id - note for #{file}: #{note}" do
+        expect(note.attributes['id'].namespace.prefix).to eq("xml")
     end
 end
 
@@ -68,6 +86,19 @@ describe PagesController do
         routes = {'p.xml'=> 'p_manuscript', 't.xml' => 't_manuscript' , 'br.xml' => 'br_manuscript', 'b.xml' => 'b_manuscript'}
         for manuscript in manuscripts
             manuscript_block(manuscript, routes[manuscript])
+        end
+    end
+
+    describe "GET " 'a note ' do
+        note_files = ['notes-b.xml', 'notes-br.xml', 'notes-p.xml', 'notes-t.xml']
+        for file in note_files
+            doc = File.open("./lib/assets/#{file}"){
+                    |f| Nokogiri::XML(f)
+                }
+            notes = doc.css('note')
+            for note in notes
+                note_block(note, file)
+            end
         end
     end
 
@@ -134,12 +165,5 @@ describe PagesController do
             line = '<l n="2">E <corr>pluy</corr> <lb></lb>de <ab>tre</ab> any stete in la çitie</l>'
         expect(controller.parse_line(Nokogiri::XML(line).children[0])).to eq('<l n="2">E <corr>pluy</corr> <lb></lb>de <ab>tre</ab> any stete in la çitie</l>')
         end
-    end
-
-    describe "the note parser" do
-        it "should have a resp statement"
-        it "should have a n attribute"
-        it "should have a type attribute"
-        it "should have an xml id"
     end
 end
