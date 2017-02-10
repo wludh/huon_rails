@@ -174,7 +174,7 @@
             <divGen type="toc"/>
         </front>
         <body>
-            <lg>
+            <lg n="1">
             <l n="1"><pb n="f.1r"/>Come le filç vait (au pere secors) querire</l>
             <l n="2">N(i'l carel) qant de l'arch ensire </l>
                 <l n="3">Non cort si fort por son camin<note xml:id="br1r.1"/> fornire</l>
@@ -202,7 +202,7 @@
             <l n="25">Qe est le quens  dou çival de saisire   </l>
           </lg>
             <ab type="rubric"><hi rend="red">Comant Ugon plure son çival e soy mesme</hi></ab>
-          <lg>
+          <lg n="2">
               <l n="26"><hi rend="red">G</hi>rant dolore oit qant in terre lui vi</l>
             <l n="27">Morto çasire il fu bien smari</l>
             <l n="28">Ai bon çival chi jusqu'à çi</l>
