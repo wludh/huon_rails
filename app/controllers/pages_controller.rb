@@ -159,7 +159,7 @@ class PagesController < ApplicationController
     end
 
     def parse_milestone(line)
-        (('<div class="milestone pb">') + line.css('milestone').attr('unit') + line.css('milestone').attr('n').text + '</div>').html_safe
+        (('<div class="milestone pb">') + line.css('milestone').attr('unit') + ' ' + line.css('milestone').attr('n').text + '</div>').html_safe
     end
 
     def parse_heading(line_group)
