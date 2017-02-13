@@ -14,10 +14,16 @@ console.log('ready');
             var xml_id = this.parentNode.getAttribute('rightnum');
             var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
             console.log(the_num);
-            if (the_num == "undefined"){
-                throw 'error assigning note number. TEI file asked for xml_id - ' + xml_id + '. But the TEI notes file returned this instead: ' + the_num;
+
+            try{
+                if (the_num == "undefined") throw 'error assigning note number. TEI file asked for xml_id - ' + xml_id + '. But the TEI notes file returned this instead: ' + the_num;
+                if (the_num != "undefined"){
+                    $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
+                }
             }
-            $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
+            catch(err){
+                console.log(err);
+            }
         });
     }
 
