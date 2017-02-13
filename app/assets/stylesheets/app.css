@@ -527,7 +527,7 @@ td{
     width: 80% !important;
   }
 
-  #corrCheckbox, #corr-label, #image-reveal, #tei-reveal, #corr-form{
+  #diploCheckbox, #diplo-label, #image-reveal, #tei-reveal, #diplo-form{
     display: none !important;
   }
 
@@ -595,23 +595,23 @@ td{
       margin-left: 27%;
 }
 
-#corrCheckbox{
+#diploCheckbox{
   display: block;
 }
 
-#corr-form{
+#diplo-form{
   display: inline;
   float: none;
 }
 
-#corr-label{
+#diplo-label{
   float: none;
   display: inline;
   text-decoration: none;
 }
 
 #tei_wrapper{
-  width: 37% !important;
+  width: 38% !important;
 }
 
 #image-reveal, #tei-reveal{
@@ -656,4 +656,8 @@ code, pre{
 
 .line-heading{
   margin: 2em 0 2em 0;
+}
+
+sic{
+  display: none;
 }
