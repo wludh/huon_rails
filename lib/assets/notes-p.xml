@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../Dropbox/HUON_SCHEMA/Huon_Customized_Schema_021317.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -14,6 +15,15 @@
                 <publisher>Washington and Lee University</publisher>
                 <pubPlace>Lexington, Virginia</pubPlace>
             </publicationStmt>
+            <notesStmt>
+                <note>Brief notes of editorial or codicological nature are contained in a separate .html file</note>
+                <note type="ling">Notes on linguistic phenomena.</note>
+                <note type="edit">Notes indicating editorial or scribal intervention.</note>
+                <note type="interp">Note on interpretation or on literary and historical context.</note>
+                <note type="codic">Notes on the codicological and material state of the manuscript.</note>
+                <note type="refer">Notes that reference other primary sources.</note>
+                <note type="biblio">Notes that reference secondary sources.</note>
+            </notesStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <!-- xml:id ??? See Cummings 52 -->
@@ -34,84 +44,123 @@
         </front>
         <body>
             <div>
-                <note n="1" xml:id="p1v.1" type="edit" resp="#SPM">MS <hi rend="#italic">lo cuor Dio
+                <note n="1" xml:id="p3" type="codic" resp="#SPM">Space for illumination.</note>
+                <note n="2" xml:id="p21" type="edit" resp="#SPM">MS <hi rend="italic">lo cuor Dio
                         crevant</hi></note>
-                <note n="2" xml:id="p1v.2" type="edit" resp="#SPM">MS <hi rend="#italic"
-                    >sangui</hi>; missing titulus over <hi rend="#italic">i</hi></note>
-                <note n="2" xml:id="p2r.1" type="reference" resp="#SPM"> Cf. <title rend="#italic"
+                <note n="3" xml:id="p44" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >sangui</hi>; missing titulus over <hi rend="italic">i</hi></note>
+                <note n="4" xml:id="p55" type="refer" resp="#SPM"> Cf. <title rend="italic"
                         >Macario</title>, "<hi>Cil le confonde li qual formò Adam</hi>," ll. 15339,
                     15346.</note>
-                <note n="3" xml:id="p2r.2" type="edit" resp="#SPM">MS <hi rend="#italic">rica e
-                        amant</hi>; apparent scribal error, cf. <title rend="#italic"
-                        >Macario</title>,<hi rend="#italic">Ancora per moi sera rico e manent</hi>,"
+                <note n="5" xml:id="p62" type="edit" resp="#SPM">MS <hi rend="italic">rica e
+                        amant</hi>; apparent scribal error, cf. <title rend="italic"
+                        >Macario</title>,<hi rend="italic">Ancora per moi sera rico e manent</hi>,"
                     ll. 14756, 14762.</note>
-                <note n="4" xml:id="p2r.3" type="edit" resp="#SPM">MS <hi rend="#italic">vii</hi>;
+                <note n="6" xml:id="p64.1" type="edit" resp="#SPM">MS <hi rend="italic">vii</hi>;
                     missing minim</note>
-                <note n="5" xml:id="p2r.4" type="edit" resp="#SPM">MS <hi rend="#italic"
+                <note n="7" xml:id="p64.2" type="edit" resp="#SPM">MS <hi rend="italic"
                         >comadere</hi></note>
-                <note n="6" xml:id="p2v.1" type="edit" resp="#SPM">MS <hi rend="#italic"
+                <note n="8" xml:id="p72" type="edit" resp="#SPM">MS <hi rend="italic"
                         >tintende</hi></note>
-                <note n="7" xml:id="p3r.1" type="edit" resp="#SPM">MS <hi rend="#italic">msso</hi>;
-                    cf. <hi rend="#italic">permesso</hi>, l. 107</note>
-                <note n="8" xml:id="p3r.2" type="ling" resp="#SPM"><hi rend="#italic">Guardé</hi>,
+                <note n="9" xml:id="p102" type="edit" resp="#SPM">MS <hi rend="italic">msso</hi>;
+                    cf. <hi rend="italic">permesso</hi>, l. 107</note>
+                <note n="10" xml:id="p111" type="ling" resp="#SPM"><hi rend="italic">Guardé</hi>,
                     example of metathesis; cf. Ludovisi 56, note 4: "<quote>Parrebbe strano ed
                         errato di trovare guradè e subito sopo al v. 115 guardè. Ma reggono
                         foneticamente ambedue le forme. Infatti nella Rivista di Fil. Romanza 11, 48
                         K. Bartsch e A. Mussafia: una poesia didattica del sec. XIII si ha il verso:
-                            <hi rend="#italic">bi à quelle Ke se n'à gurar</hi>, cui il Mussafia
-                        appone la nota: <hi rend="#italic">gurdar è ugale a guardar. il nesso gu o
+                            <hi rend="italic">bi à quelle Ke se n'à gurar</hi>, cui il Mussafia
+                        appone la nota: <hi rend="italic">gurdar è ugale a guardar. il nesso gu o
                             go, in luogo di gua in sillabe atone, è proprio delle parlate latine e
                             del catalano altresì."</hi></quote>"</note>
-                <note n="9" xml:id="p3v.1" type="ling" resp="#SPM"><hi>l'è</hi>, example of
+                <note n="11" xml:id="p116" type="codic" resp="#SPM">Space for illumination.</note>
+                <note n="12" xml:id="p134" type="ling" resp="#SPM"><hi>l'è</hi>, example of
                     unstressed subject pronoun; cf. Rohlfs §446</note>
                 <!-- Provide more information for n=9 -->
-                <note n="10" xml:id="p3v.2" type="ling" resp="#SPM">cf. Morgan, <hi rend="#italics"
+                <note n="13" xml:id="p136" type="ling" resp="#SPM">cf. Morgan, <hi rend="italic"
                         >La Geste francor</hi>, p. 948: "<quote>docler : Not listed in any Italian
                         or Old French dictionary. It is always opposed to low places, leading to
                         believe it means either “tower”, “hill”, or some other type of raised spot.
                         [...] Since, furthermore, the form appears six times in this manuscript
                         (plus one as doclé), it seems unlikely to be an error each
                     time.</quote>”</note>
-                <note n="11" xml:id="p3v.3" type="edit" resp="#SPM">MS <hi rend="#italics"
+                <note n="14" xml:id="p142" type="edit" resp="#SPM">MS <hi rend="italic"
                         >conscier</hi></note>
-                <note n="12" xml:id="p4r.1" type="ling" resp="#SPM"><hi rend="#italics"
+                <note n="15" xml:id="p164" type="ling" resp="#SPM"><hi rend="italic"
                     >torment</hi>, metathesis</note>
-                <note n="13" xml:id="p4r.2" type="edit" resp="#SPM">MS <hi rend="#italic">de cuor
+                <note n="16" xml:id="p169" type="edit" resp="#SPM">MS <hi rend="italic">de cuor
                         luii</hi></note>
-                <note n="14" xml:id="p4v.1" type="ling" resp="#SPM"><hi rend="#italic">coda</hi>,
+                <note n="17" xml:id="p175" type="ling" resp="#SPM"><hi rend="italic">coda</hi>,
                     lenition; the image is of wolves following closely behind the tail of the she
                     wolf in heat.</note>
-                <note n="15" xml:id="p4v.2" type="edit" resp="#SPM">MS <hi rend="#italic">Quando el
+                <note n="18" xml:id="p176" type="edit" resp="#SPM">MS <hi rend="italic">Quando el
                         sol sera ch'el sol s'acolega</hi></note>
-                <note n="16" xml:id="p4v.3" type="edit" resp="#scribe">The scribe appears to have
-                    corrected to <hi rend="#italics">tarda</hi> from <hi rend="#italic"
+                <note n="19" xml:id="p192" type="edit" resp="#scribe">The scribe appears to have
+                    corrected to <hi rend="italic">tarda</hi> from <hi rend="italic"
                     >trada</hi></note>
-                <note n="17" xml:id="p4v.4" type="edit" resp="#SPM">MS <hi rend="#italic"
+                <note n="20" xml:id="p193" type="edit" resp="#SPM">MS <hi rend="italic"
                     >no</hi></note>
-                <note n="18" xml:id="p5r.1" type="ling" resp="#SPM"><hi rend="#italic">dié</hi>,
+                <note n="21" xml:id="p218" type="ling" resp="#SPM"><hi rend="italic">dié</hi>,
                     altered form in rhymed position.</note>
-                <note n="19" xml:id="p5v.1" type="edit" resp="#SPM">This line appears to be missing
-                    a verb. A possible resolution would be <hi rend="#italic">la polver al vent
-                        çitiere</hi> considering that <hi rend="#italic">çitiere</hi> appears
-                    frequently in this formulaic expression. In <title rend="#italic">La Geste
-                        francor</title>, however, <hi rend="#italic">aventere</hi> does occur as an
+                <note n="22" xml:id="p230" type="edit" resp="#SPM">This line appears to be missing
+                    a verb. A possible resolution would be <hi rend="italic">la polver al vent
+                        çitiere</hi> considering that <hi rend="italic">çitiere</hi> appears
+                    frequently in this formulaic expression. In <title rend="italic">La Geste
+                        francor</title>, however, <hi rend="italic">aventere</hi> does occur as an
                     infinitive verb: <hi rend="italic">Arso fo en fois, la polvere a ventere</hi>
-                    (l. 15406, 15413) and <hi rend="#italic">E in apreso la polvere aventer</hi> (l.
+                    (l. 15406, 15413) and <hi rend="italic">E in apreso la polvere aventer</hi> (l.
                     13541). This act would deny Huon a Christian burial since his body would not
                     enter the Earth, a fate reserved for traitors.</note>
-                <note n="20" xml:id="p5v.2" type="ling" resp="#SPM">Ludovisi proposes <hi
+                <note n="23" xml:id="p234" type="ling" resp="#SPM">Ludovisi proposes <hi
                         rend="italic">involussere</hi>, and notes that "<quote>involussar per
                         involgere è proprio della parlata Veneta ma specialmente del Friulano:
                         involussar, involussât, etc."</quote>"</note>
-                <note n="21" xml:id="p5v.3" type="edit" resp="#SPM">MS <hi rend="italic"
+                <note n="24" xml:id="p241" type="codic" resp="#SPM">Space for illumination.</note>
+                <note n="25" xml:id="p243" type="edit" resp="#SPM">MS <hi rend="italic"
                         >sanguuy</hi></note>
-                <note n="??" xml:id="p10v.1" type="edit" resp="scribe">Small cross written above <hi
+                <note n="26" xml:id="p325" type="codic" resp="#SPM">This page begins with a space for an illumination.</note>
+                <note n="27" xml:id="p479" type="edit" resp="#scribe">Small cross written above <hi
                         rend="italic">fene</hi>to indicate that this word should be
                     disregarded.</note>
-                <note n="??" xml:id="p14v.1" type="cod" resp="#SPM">Missing illumination</note>
-                <note n="??" xml:id="p15r.1" type="edit" resp="#SPM">MS <hi rend="#italic">al davernia</hi></note>
-                <note n="??" xml:id="p15v.1" type="edit" resp="#SPM">MS <hi rend="italic">la ela duchessa</hi></note>
-                <note n="??" xml:id="p15v.2" type="edit" resp="scribe">Scribal correction, <hi rend="italic">è</hi> above the line.</note>
+                <note n="28" xml:id="p512" type="codic" resp="#SPM">Space for illumination.</note>
+                <note n="29" xml:id="p685" type="cod" resp="#SPM">Space for illumination</note>
+                <note n="30" xml:id="p713" type="edit" resp="#SPM">MS <hi rend="italic">al davernia</hi></note>
+                <note n="31" xml:id="p729" type="edit" resp="#SPM">MS <hi rend="italic">la ela duchessa</hi></note>
+                <note n="32" xml:id="p739" type="edit" resp="#scribe">Scribal correction, <hi rend="italic">è</hi> above the line.</note>
+                <note n="33" xml:id="p755" type="edit" resp="#SPM">MS <hi rend="italic">anigo</hi>; a minim is missing.</note>
+                <note n="34" xml:id="p756" type="codic" resp="#SPM">Space for illumination</note>
+                <note n="35" xml:id="p767" type="biblio" resp="#SPM">See Morgan, "Padua," 77.</note>
+                <note n="36" xml:id="p776" type="ling" resp="#SPM"><hi rend="italic">malmant</hi>; syncopated syllables are common in Franco-Italian.</note>
+                <note n="37" xml:id="p798" type="edit" resp="#SPM">MS <hi rend="italic">dirglie</hi>; name not present in Moisan; word unclear, but possible a scribal error for the common formulaic epic phrase <hi rend="italic">destrier d'Italie</hi>.</note>
+                <note n="38" xml:id="p784" type="interp" resp="#SPM">The first person future here is awkward, and I interpret it as a continuation of Sanguyn's dialogue from l. 780. Could it be possible there are missing lines, or lines out of order?</note>
+                <note n="38" xml:id="p830" type="interp" resp="#SPM">For ll. 829-30, note alternating past and present tenses. See INTRO LINK</note>
+                <!-- Link previous note to introduction. -->
+                <note n="38" xml:id="p852" type="edit" resp="#SPM">MS <hi rend="italic">trer a travache</hi></note>
+                <note n="39" xml:id="p897" type="codic" resp="#SPM">Catchwords <hi rend="#italic">de mal talento</hi></note>
+                <note n="40" xml:id="p907" type="edit" resp="#SPM">MS <hi rend="#italic">tuo</hi></note>
+                <note n="41" xml:id="p912" type="codic" resp="#SPM">Space for illumination.</note>
+                <note n="42" xml:id="p929" type="interp" resp="#SPM"><hi rend="#italic">e</hi></note>
+                <note n="43" xml:id="p953" type="edit" resp="scribe">MS <hi rend="#italic">apasant</hi> with <hi rend="#italic">ri</hi> written above the <hi rend="#italic">as</hi></note>
+                <note n="45" xml:id="p1019" type="edit" resp="#SPM">MS <hi rend="#italic">dito cunte</hi></note>
+                <note n="46" xml:id="p1030" type="edit" resp="#SPM">MS <hi rend="#italic">E chel</hi></note>
+                <note n="47" xml:id="p1044" type="edit" resp="#SPM">MS <hi rend="#italic">se presse mereveiere</hi></note>
+                <note n="48" xml:id="p1052" type="edit" resp="#SPM">MS <hi rend="#italic">certanamt</hi></note>
+                <note n="49" xml:id="p1057" type="ling" resp="#SPM"><hi rend="#italic">alquant</hi>; rhoticism.</note>
+                <note n="50" xml:id="p1061" type="edit" rend="#SPM">The following line has been ommitted since it repeats l. 1059, <hi rend="#italic">E vene al re tuto li va contant</hi>.</note>
+                <!-- Find way to insert the extra line for the diplomatic edition; .css should display the line in a different color. -->
+                <note n="51" xml:id="p1062" type="interp" resp="#SPM">Read as <hi rend="#italic">de</hi> + <hi rend="#italic">i</hi></note>
+                <note n="52" xml:id="p1070" type="codic" resp="#SPM">Space for illumination.</note>
+                <note n="53" xml:id="p1085" type="ling" resp="#SPM">Elsewhere <hi rend="#italic">la drant</hi>; I leave as is since metathesis is frequent.</note>
+                <note n="54" xml:id="p1086" type="interp" resp="#SPM"><hi rend="#italic">banc</hi>; final consonant altered for sight rhyme.</note>
+                <note n="55" xml:id="p1095" type="edit" resp="#SPM">MS <hi rend="#italic">meiniça</hi>, scribal correction with the first <hi rend="#italic">i</hi> blotted out and an <hi rend="#italic">a</hi> above the second <hi rend="#italic">i</hi>.</note>
+                <note n="56" xml:id="p1116" type="edit" resp="scribe">MS <hi rend="#italic">maena</hi>; scribe deletes the <hi rend="#italic">a</hi> to correct to <hi rend="#italic">mena</hi>.</note>
+                <note n="57" xml:id="p1122" type="edit" resp="scribe">MS <hi rend="#italic">honir e vergonçer</hi>; scribe inserts <hi rend="#italic">mi</hi> after <hi rend="#italic">honir</hi>.</note>
+                <note n="58" xml:id="p1127" type="edit" resp="scribe">MS <hi rend="#italic">Slo</hi>; scribe inserts <hi rend="#italic">io</hi>after <hi rend="#italic">S</hi>.</note>
+                <note n="59" xml:id="p1128" type="edit" resp="scribe">MS <hi rend="#italic">traito</hi>.</note>
+                <note n="60" xml:id="p1168.1" type="edit" resp="#SPM">MS <hi rend="#italic">la veritade la veritade</hi>.</note>
+                <note n="61" xml:id="p1168.2" type="interp" resp="#SPM">Syncopated form of <hi rend="#italic">manant</hi>; see note to l. 776.</note>
+                <!-- tag reference to l. 776 to make live link. -->
+                <note n="62" xml:id="p1173" type="edit" resp="scribe">MS <hi rend="#italic">n?n</hi>; scribal correction with <hi rend="#italic">o</hi> written above indisctinct middle letter.</note>
             </div>
         </body>
     </text>
