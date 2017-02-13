@@ -89,15 +89,13 @@ def tei_block(doc, file_name)
                 expect(lg.attr('n')).to be_truthy
             end
         end
-    end
-    lgs.each do |lg|
+
         describe "the lg tags " do
             it "should have an <l> tag - manuscript #{file_name}" do
                 expect(lg.css('l').length).to be >= 1
             end
         end
-    end
-    lgs.each do |lg|
+
         lg.css('l').each do |line|
             describe "the <l> tag " do
                 it "should have an n attribute - #{file_name}: #{line}" do
@@ -125,7 +123,7 @@ describe PagesController do
         end
     end
 
-    describe "GET " 'a note ' do
+    describe 'a note ' do
         note_files = ['notes-b.xml', 'notes-br.xml', 'notes-p.xml', 'notes-t.xml']
         for file in note_files
             doc = File.open("./lib/assets/#{file}"){
