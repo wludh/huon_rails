@@ -51,7 +51,7 @@ class PagesController < ApplicationController
             @@internal_note_counter = 1
 
             # current notes for this laisse
-            @current_notes = parse_and_store_notes(@note_numbers, tei_file)
+            @current_notes = parse_and_store_notes(tei_file)
 
             # chunk up the TEI so we only see the laisse we are on.
             @simple_tei = parsing_for_tei_embed(doc, params[:page])
@@ -91,8 +91,8 @@ class PagesController < ApplicationController
         return doc.css('respStmt'), doc.css('note')
     end
 
-    def parse_and_store_notes(note_numbers, tei_file)
-        # takes the list of note numbers that you want and pulls them out of the tei file.
+    def parse_and_store_notes(tei_file)
+        # pulls notes out of the tei file.
         # ms file name to note file name
         manuscript_to_notes = {
             'p.xml' => 'notes-p.xml',
@@ -115,7 +115,6 @@ class PagesController < ApplicationController
         note_counter = 1
         for note in @all_notes
             if note.attributes['resp'] != nil
-                puts "HELLO"
                 @resp = note.attributes['resp'].value
             else
                 @resp = "Anonymous"
@@ -148,7 +147,6 @@ class PagesController < ApplicationController
     def parse_note(child, internal_note_counter)
         # take the xmlid and strip out the problematic punctuation
         xmlid = child.values.to_s.gsub(/\[|\]|\.|\"/, '')
-        puts "xmlid: " + xmlid
 
         # parse the notes
         note_id = internal_note_counter.to_s
@@ -158,6 +156,10 @@ class PagesController < ApplicationController
     def parse_pb(line)
         # parses page break tag
         (('<div id="page-break">') + ("page: " + line.css('pb').attr('n').text) + "</div>").html_safe
+    end
+
+    def parse_milestone(line)
+        (('<div class="milestone">') + line.css('milestone').attr('unit') + line.css('milestone').attr('n').text).html_safe
     end
 
     def parse_heading(line_group)
@@ -221,9 +223,12 @@ class PagesController < ApplicationController
             result += "<div class=\"linenumber\">" + l.attr('n').to_s + "</div>"
         end
         result += "<l n=\"#{l.attr('n')}\">"
-                 if l.css('pb').present? 
-                    result += parse_pb(l)
-                 end 
+            if l.css('pb').present?
+                result += parse_pb(l)
+            end
+            if l.css('milestone').present?
+                result += parse_milestone(l)
+            end
              for child in l.children 
                  if child.name == 'choice' 
                     result += parse_choice(child)
