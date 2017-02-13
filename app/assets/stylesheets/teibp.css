@@ -1139,11 +1139,8 @@ pb {
   font-size: 11pt;
 }
 .pb {
-  display: block;
-  width: 100%;
-  text-align: right;
+  float: right;
   color: gray;
-  margin: 2em 0 2em 0;
   font-size: 11pt;
 }
 pb:before {

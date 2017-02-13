@@ -653,3 +653,7 @@ code, pre{
 #tei-link-mobile{
   display: none;
 }
+
+.line-heading{
+  margin: 2em 0 2em 0;
+}
