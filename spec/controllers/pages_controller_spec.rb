@@ -60,20 +60,22 @@ def manuscript_block(manuscript, route)
 end
 
 def note_block(note, file)
-    it "should have a resp statement - note for #{file}: #{note}" do
-        expect(note.attributes['resp']).to be_truthy
-    end
+    unless note.parent.name == "notesStmt"
+        it "should have a resp statement - note for #{file}: #{note}" do
+            expect(note.attributes['resp']).to be_truthy
+        end
 
-    it "should have a n attribute - note for #{file}: #{note}" do
-        expect(note.attributes['n']).to be_truthy
-    end
+        # it "should have a n attribute - note for #{file}: #{note}" do
+        #     expect(note.attributes['n']).to be_truthy
+        # end
 
-    it "should have a type attribute - note for #{file}: #{note}" do
-        expect(note.attributes['type']).to be_truthy
-    end
+        it "should have a type attribute - note for #{file}: #{note}" do
+            expect(note.attributes['type']).to be_truthy
+        end
 
-    it "should have an xml id - note for #{file}: #{note}" do
-        expect(note.attributes['id'].namespace.prefix).to eq("xml")
+        it "should have an xml id - note for #{file}: #{note}" do
+            expect(note.attributes['id'].namespace.prefix).to eq("xml")
+        end
     end
 end
 
