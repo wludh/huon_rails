@@ -41,6 +41,12 @@ class PagesController < ApplicationController
             # get the title
             @title = doc.search('title').first.text
 
+            if doc.search('title[type="short"]').length > 1
+                @short_title = doc.search('title[type="short"]').text
+            else
+                @short_title = "Placeholder Short Title"
+            end
+
             # get the introduction
             @introduction = doc.search('note').first.text
 

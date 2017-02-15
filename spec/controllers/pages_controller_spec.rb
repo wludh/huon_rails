@@ -41,11 +41,6 @@ def manuscript_block(manuscript, route)
         expect(current_notes).to be_truthy
     end
 
-    it "should have a short title" do
-        get route
-        expect(page).to have_selector('#sub-title')
-    end
-
     describe "GET " 'pages templates' do
 
         it "should render the manuscript template - #{manuscript}" do
@@ -80,6 +75,11 @@ def note_block(note, file)
 end
 
 def tei_block(doc, file_name)
+
+    it "should have a short title" do
+        expect(doc.css('title[type="short"]').length).to be > 0
+    end
+
     it "should have at least two <lg> tags - #{file_name}" do
         expect(doc.css('lg').length).to be >= 2
     end
