@@ -55,35 +55,37 @@ def manuscript_block(manuscript, route)
 end
 
 def note_block(note, file)
-    unless note.parent.name == "notesStmt"
-        it "should have a resp statement - note for #{file}: #{note}" do
-            expect(note.attributes['resp']).to be_truthy
-        end
-
-        # it "should have a n attribute - note for #{file}: #{note}" do
-        #     expect(note.attributes['n']).to be_truthy
-        # end
-
-        it "should have a type attribute - note for #{file}: #{note}" do
-            expect(note.attributes['type']).to be_truthy
-        end
-
+    unless note.parent.name == "notesStmt" or note.parent.name == 'head'
         it "should have an xml id - note for #{file}: #{note}" do
             expect(note.attributes['id'].namespace.prefix).to eq("xml")
         end
 
-        it "should have the new xml id format with the correct letters, not the old: note #{note}" do
+        it "should have an xml id format with manuscript abbreviations for file #{file}: note #{note}" do
             re = /br|b|p|t/
             manuscript = re.match(note.attributes['id'].value)[0]
             expect(manuscript).to be_in ['b', 'br', 't', 'p']
         end
-        it "should have the new xml id format, meaning there should be no letters after the manuscript abbreviations: note #{note}" do
+
+        it "should have no letters after the manuscript abbreviations- note for file #{file}: note #{note}" do
             re = /br|b|p|t/
             xml_id = note.attributes['id'].value
             numbers = xml_id.sub(re, '')
             re_two = /[a-zA-Z]/
             expect(re_two.match(numbers)).to be nil
         end
+
+        if ['notes-p.xml', 'notes-b.xml', 'notes-t.xml', 'notes-br.xml'].include? file
+            it "should have a resp statement - note for #{file}: #{note}" do
+                expect(note.attributes['resp']).to be_truthy
+            end
+
+            it "should have a type attribute - note for #{file}: #{note}" do
+                expect(note.attributes['type']).to be_truthy
+            end
+        end
+        # it "should have a n attribute - note for #{file}: #{note}" do
+        #     expect(note.attributes['n']).to be_truthy
+        # end
     end
 end
 
@@ -139,7 +141,7 @@ describe PagesController do
     end
 
     describe 'a note ' do
-        # note_files = ['notes-t.xml']
+        manuscript_files = ['p.xml', 't.xml', 'br.xml', 'b.xml']
         note_files = ['notes-b.xml', 'notes-br.xml', 'notes-p.xml', 'notes-t.xml']
         for file in note_files
             doc = File.open("./lib/assets/#{file}"){
@@ -148,6 +150,16 @@ describe PagesController do
             notes = doc.css('note')
             for note in notes
                 note_block(note, file)
+            end
+        end
+
+        for manuscript_file in manuscript_files
+            doc = File.open("./lib/assets/#{manuscript_file}"){
+                    |f| Nokogiri::XML(f)
+                }
+            notes = doc.css('note')
+            for note in notes
+                note_block(note, manuscript_file)
             end
         end
     end
