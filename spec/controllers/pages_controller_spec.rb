@@ -71,6 +71,19 @@ def note_block(note, file)
         it "should have an xml id - note for #{file}: #{note}" do
             expect(note.attributes['id'].namespace.prefix).to eq("xml")
         end
+
+        it "should have the new xml id format with the correct letters, not the old: note #{note}" do
+            re = /br|b|p|t/
+            manuscript = re.match(note.attributes['id'].value)[0]
+            expect(manuscript).to be_in ['b', 'br', 't', 'p']
+        end
+        it "should have the new xml id format, meaning there should be no letters after the manuscript abbreviations: note #{note}" do
+            re = /br|b|p|t/
+            xml_id = note.attributes['id'].value
+            numbers = xml_id.sub(re, '')
+            re_two = /[a-zA-Z]/
+            expect(re_two.match(numbers)).to be nil
+        end
     end
 end
 
@@ -126,6 +139,7 @@ describe PagesController do
     end
 
     describe 'a note ' do
+        # note_files = ['notes-t.xml']
         note_files = ['notes-b.xml', 'notes-br.xml', 'notes-p.xml', 'notes-t.xml']
         for file in note_files
             doc = File.open("./lib/assets/#{file}"){
