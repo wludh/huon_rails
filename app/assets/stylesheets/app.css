@@ -665,3 +665,7 @@ code, pre{
 sic{
   display: none;
 }
+
+.milestone{
+  margin-right: -50px;
+}

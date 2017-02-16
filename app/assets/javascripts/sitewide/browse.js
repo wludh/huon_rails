@@ -46,6 +46,7 @@ console.log('ready');
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
         $('#tei_wrapper').css('border-right', '1px #DDDDDD solid');
+        $('.milestone').css('margin-right', '50px');
     }
 
     function hide_image(){
@@ -83,6 +84,7 @@ console.log('ready');
            } else {
               notePanel.style.display = "block";
            }
+           $('.milestone').css('margin-right', '-50px');
         });
     });
 
