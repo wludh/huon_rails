@@ -14,7 +14,7 @@
                         <% end %>
                     <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") + " |"%>
 
-                <%= link_to('Intro', url_for(params.merge(:edition => nil))) %>
+                <%= link_to('Intro', url_for(params.merge(:edition => nil)), :id => 'intro-link') %>
                 <form id="diplo-form">
                 |
                 <label for="diploCheckbox" id="diplo-label"> Diplomatic</label>
