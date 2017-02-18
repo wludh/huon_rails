@@ -14,10 +14,16 @@ console.log('ready');
             var xml_id = this.parentNode.getAttribute('rightnum');
             var the_num = String($("note[xml=" + String(xml_id) + "]").attr("n"));
             console.log(the_num);
-            if (the_num == "undefined"){
-                throw 'error assigning note number. TEI file asked for xml_id - ' + xml_id + '. But the TEI notes file returned this instead: ' + the_num;
+
+            try{
+                if (the_num == "undefined") throw 'error assigning note number. TEI file asked for xml_id - ' + xml_id + '. But the TEI notes file returned this instead: ' + the_num;
+                if (the_num != "undefined"){
+                    $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
+                }
             }
-            $('note[rightnum="' + String(xml_id) +'"] sup').prepend(the_num);
+            catch(err){
+                console.log(err);
+            }
         });
     }
 
@@ -92,17 +98,6 @@ console.log('ready');
         }
     }
 
-    // Not implementing yet, but will be used for the diplomatic/scribal bits.
-    function toggle_sic_on(){
-        $("corr").hide();
-        $('sic').show();
-    }
-
-    function toggle_sic_off(){
-        $('sic').hide();
-        $("corr").show();
-    }
-
     function page_prep(){
         // prepare the page on load
         assign_note_numbers();
@@ -120,18 +115,34 @@ console.log('ready');
         hide_footer();
     }
 
-    $(function corr_toggle(){
+    $(function diplo_toggle(){
         // if the corrections checkbox is checked, corr tags get highlighted
-        $('#corrCheckbox').click(function(){
-            var checked = $('#corrCheckbox').prop('checked');
+        $('#diploCheckbox').click(function(){
+            var checked = $('#diploCheckbox').prop('checked');
             if (checked) {
-                $('corr').css('color', 'red');
+                $('sic').show();
+                $('add').hide();
+                $('corr').hide();
             }
             else {
-                $('corr').css('color', 'black');
+                $('sic').hide();
+                $('add').show();
+                $('corr').show();
             }
         });
     });
+
+    // Not implementing yet, but will be used for the diplomatic/scribal bits.
+    function toggle_sic_on(){
+        $("corr").hide();
+        $('sic').show();
+    }
+
+    function toggle_sic_off(){
+        $('sic').hide();
+        $("corr").show();
+    }
+
 
     $(function image_reveal(){
         $('#image-reveal').click(function(){

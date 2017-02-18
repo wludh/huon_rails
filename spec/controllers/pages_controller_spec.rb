@@ -12,24 +12,24 @@ def manuscript_block(manuscript, route)
     end
 
     it "gets title from the TEI - #{manuscript}" do
-        @title, _, _ = controller.parse_tei(manuscript)
-        expect(@title).to include('Huon')
+        title, _, _ = controller.parse_tei(manuscript)
+        expect(title).to include('Huon')
     end
 
     it "gets the introduction - #{manuscript}" do
-        _, @introduction, _ = controller.parse_tei(manuscript, true)
+        _, introduction, _ = controller.parse_tei(manuscript, true)
 
-        expect(@introduction).to be_truthy
+        expect(introduction).to be_truthy
     end
 
     it "gets the line groups and can parse them - #{manuscript}" do
-        _, _, @line_groups = controller.parse_tei(manuscript)
-        expect{controller.parse_line_groups(@line_groups)}.not_to raise_error
+        _, _, line_groups = controller.parse_tei(manuscript)
+        expect{controller.parse_line_groups(line_groups)}.not_to raise_error
     end
 
     it "should parse the TEI and return an HTML safe string - #{manuscript}" do
-        _, _, @line_groups = controller.parse_tei(manuscript)
-        expect(controller.parse_line_groups(@line_groups).html_safe?).to be_truthy
+        _, _, line_groups = controller.parse_tei(manuscript)
+        expect(controller.parse_line_groups(line_groups).html_safe?).to be_truthy
     end
 
     it "should get annotations - #{manuscript}" do
@@ -37,8 +37,8 @@ def manuscript_block(manuscript, route)
     end
 
     it "should connect annotations with the line groups - #{manuscript}" do
-        @current_notes = controller.parse_and_store_notes(@note_numbers, manuscript)
-        expect(@current_notes).to be_truthy
+        current_notes = controller.parse_and_store_notes(manuscript)
+        expect(current_notes).to be_truthy
     end
 
     describe "GET " 'pages templates' do
@@ -55,20 +55,56 @@ def manuscript_block(manuscript, route)
 end
 
 def note_block(note, file)
-    it "should have a resp statement - note for #{file}: #{note}" do
-        expect(note.attributes['resp']).to be_truthy
+    unless note.parent.name == "notesStmt"
+        it "should have a resp statement - note for #{file}: #{note}" do
+            expect(note.attributes['resp']).to be_truthy
+        end
+
+        # it "should have a n attribute - note for #{file}: #{note}" do
+        #     expect(note.attributes['n']).to be_truthy
+        # end
+
+        it "should have a type attribute - note for #{file}: #{note}" do
+            expect(note.attributes['type']).to be_truthy
+        end
+
+        it "should have an xml id - note for #{file}: #{note}" do
+            expect(note.attributes['id'].namespace.prefix).to eq("xml")
+        end
+    end
+end
+
+def tei_block(doc, file_name)
+
+    it "should have a short title" do
+        expect(doc.css('title[type="short"]').length).to be > 0
     end
 
-    it "should have a n attribute - note for #{file}: #{note}" do
-        expect(note.attributes['n']).to be_truthy
+    it "should have at least two <lg> tags - #{file_name}" do
+        expect(doc.css('lg').length).to be >= 2
     end
 
-    it "should have a type attribute - note for #{file}: #{note}" do
-        expect(note.attributes['type']).to be_truthy
-    end
+    lgs = doc.css('lg')
+    lgs.each do |lg|
+        describe "the lg tags " do
+            it "should have an n attribute - #{file_name}" do
+                expect(lg.attr('n')).to be_truthy
+            end
+        end
 
-    it "should have an xml id - note for #{file}: #{note}" do
-        expect(note.attributes['id'].namespace.prefix).to eq("xml")
+        describe "the lg tags " do
+            it "should have an <l> tag - manuscript #{file_name}" do
+                expect(lg.css('l').length).to be >= 1
+            end
+        end
+
+        lg.css('l').each do |line|
+            describe "the <l> tag " do
+                it "should have an n attribute - #{file_name}: #{line}" do
+                    expect(line.attr('n').to_i).to be > 0
+                end
+            end
+        end
     end
 end
 
@@ -89,7 +125,7 @@ describe PagesController do
         end
     end
 
-    describe "GET " 'a note ' do
+    describe 'a note ' do
         note_files = ['notes-b.xml', 'notes-br.xml', 'notes-p.xml', 'notes-t.xml']
         for file in note_files
             doc = File.open("./lib/assets/#{file}"){
@@ -99,6 +135,16 @@ describe PagesController do
             for note in notes
                 note_block(note, file)
             end
+        end
+    end
+
+    describe "GET" " TEI file" do
+        tei_files = ['b.xml', 'br.xml','p.xml', 't.xml',]
+        for file_name in tei_files
+            doc = File.open("./lib/assets/#{file_name}"){
+                    |f| Nokogiri::XML(f)
+                }
+            tei_block(doc, file_name)
         end
     end
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<?xml-model href="../../../../Dropbox/HUON_SCHEMA/Huon_Customized_Schema_020817.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="HdA_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -260,7 +260,7 @@
                 <l n="44">Lo duc Sanguy<choice>
                         <sic>Sanguy</sic>
                         <corr cert="medium" resp="SPM">Sanguy<ex rend="brackets">n</ex></corr>
-                    </choice><note xml:id="p1v.2"/> non demora niant:</l>
+                    </choice><note xml:id="p44"/> non demora niant:</l>
                 <l n="45"><milestone n="2R" unit="fol."/>Falcom e sparivier e cirfalc svolant</l>
                 <l n="46">À prexo sença demoramant,</l>
                 <l n="47">Brachi e levriri el menà plui de çant;</l>
@@ -1568,7 +1568,7 @@
                 <l n="1052">Saver vuol lo vero da vui <choice>
                         <sic>certanamt</sic>
                         <corr>certanam<ex rend="brackets">an</ex>t</corr>
-                    </choice>,<note xml:id="1052"/></l>
+                    </choice>,<note xml:id="p1052"/></l>
                 <l n="1053">De soa fia tuto lo convinant,</l>
                 <l n="1054">S’ella fè quelo che vui dì al pressant.”</l>
                 <l n="1055">Dixe U<ex rend="italic">go</ex>, “Io lo voio ben e çant,</l>
@@ -1986,7 +1986,7 @@
                 <l n="1371">Sier re, justixia ve <choice>
                         <sic>rquier</sic>
                         <corr cert="high" resp="scribe">r<add place="above">e</add>quier</corr>
-                    </choice><note xml:id="1371"/>,</l>
+                    </choice><note xml:id="p1371"/>,</l>
                 <l n="1372">Che p(l)ui malvaxia femena no se porave trover.</l>
                 <l n="1373">Mio conpagno ella voleva contaminer,</l>
                 <l n="1374">Defin al bosco ela vene c<ex rend="italic">on</ex>tra mi a plurer</l>
@@ -3088,11 +3088,17 @@
                     </choice><note xml:id="p2199"/> ave intrer;</l>
                 <l n="2200">Vene alla plaça, sul pallaço ave monter,</l>
                 <l n="2201">Puo si andè alla corte como ch<ex rend="italic">avalie</ex>r.</l>
-                <l n="2202">A si <choice><sic>guran</sic><corr cert="medium" resp="SPM">gran</corr></choice><note xml:id="p2202"/> meraveia saveva d'una arpa soner,</l>
+                <l n="2202">A si <choice>
+                        <sic>guran</sic>
+                        <corr cert="medium" resp="SPM">gran</corr>
+                    </choice><note xml:id="p2202"/> meraveia saveva d'una arpa soner,</l>
                 <!-- Insert del tag? -->
                 <l n="2203">Baldoin e Thomas li fè molte robe doner.</l>
                 <l n="2204">Mo alla fin ch'el voleva indrié torner,</l>
-                <l n="2205">Elo <choice><sic>ande ande</sic><corr cert="medium" resp="SPM">andè</corr></choice><note xml:id="p2205"/> a dona Nida a conter e a parler</l>
+                <l n="2205">Elo <choice>
+                        <sic>ande ande</sic>
+                        <corr cert="medium" resp="SPM">andè</corr>
+                    </choice><note xml:id="p2205"/> a dona Nida a conter e a parler</l>
                 <l n="2206">E a çelladamente si·lli prexon,</l>
                 <l n="2207">"Madona," diss'elo, "anch'io sia çubler,</l>
                 <l n="2208">De Carlo Martelo io sson messaçer</l>
@@ -3153,9 +3159,12 @@
                 <l n="2257">Al vostro siere che qua v'à mandant</l>
                 <l n="2258">E da mia parte si·lli averì contant</l>
                 <l n="2259">Che tal è lo don e·llo pressant</l>
-                <l n="2260">Che mia seror li va manda<ex rend="italic">n</ex>t,<note xml:id="p2260"></note></l>
-                <l n="2261"><milestone n="47R" unit="fol."/>E pe<ex rend="italic">r</ex> un
-                    <choice><sic>puoho</sic><corr cert="medium" resp="SPM">puo<ex rend="brackets">c</ex>ho</corr></choice><note xml:id="p2261"/>, fel traito, ch'io no v'apant.</l>
+                <l n="2260">Che mia seror li va manda<ex rend="italic">n</ex>t,<note xml:id="p2260"
+                    /></l>
+                <l n="2261"><milestone n="47R" unit="fol."/>E pe<ex rend="italic">r</ex> un <choice>
+                        <sic>puoho</sic>
+                        <corr cert="medium" resp="SPM">puo<ex rend="brackets">c</ex>ho</corr>
+                    </choice><note xml:id="p2261"/>, fel traito, ch'io no v'apant.</l>
                 <l n="2262">Può dire a Carlo ch'el so penssier li è falant,</l>
                 <l n="2263">Tuto quelo ch'el à penssado li è tornà a niant."</l>
                 <l n="2264">Lo çublaro se parte coroçosso e dolant</l>
@@ -3182,13 +3191,15 @@
                 <l n="2281">De Paris esse, non fo demoramans.</l>
                 <l n="2282">Tanto à chavalcado p<ex rend="italic">er</ex> monti e p<ex rend="italic"
                         >er</ex> pendans</l>
-                <l n="2283">Ch'eli vene ad Alvernia alla porta davan(s),</l>
+                <l n="2283">Ch'eli vene ad Alvernia alla porta <sic>davant</sic><corr cert="high"
+                        resp="scribe">davan<add place="inline">s</add></corr><note xml:id="p2283"
+                    />,</l>
                 <l n="2284">Tende e paveion fè tender p<ex rend="italic">er</ex> lo ca<ex
                         rend="italic">n</ex>s.</l>
                 <l n="2285">Quando Baldoin l'intende, el no fè demoramans,</l>
                 <l n="2286">So fradelo apellà ben e dolçemans,</l>
                 <l n="2287"><milestone n="47V" unit="fol."/>"Frar," dix'elo, "a nui cresse gran
-                    tromans:</l>
+                    tromans:<note xml:id="p2287"/></l>
                 <l n="2288">Charlo Martelo, che lo cuor Dio crevans,</l>
                 <l n="2289">Si·n à asidiadi per mal intendiment;</l>
                 <l n="2290">Nostra seror vuol aver al so talans."</l>
