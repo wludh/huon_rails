@@ -527,7 +527,7 @@ td{
     width: 80% !important;
   }
 
-  #diploCheckbox, #diplo-label, #image-reveal, #tei-reveal, #diplo-form{
+  #diploCheckbox, #diplo-label, #image-reveal, #tei-reveal, #diplo-form, #all-note-reveal{
     display: none !important;
   }
 
