@@ -676,6 +676,5 @@ sic{
 
 #tei_wrapper{
   height: 100%;
-  overflow:scroll;
-
-}
+/*  overflow:scroll;
+*/}

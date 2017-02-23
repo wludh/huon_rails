@@ -48,6 +48,7 @@ console.log('ready');
         $('#tei_wrapper').css('border-right', '1px #DDDDDD solid');
         $('.milestone').css('margin-right', '50px');
         $('#note-close').addClass('active');
+        $('#tei_wrapper').css('overflow', 'scroll');
     }
 
     function hide_image(){
@@ -95,6 +96,7 @@ console.log('ready');
            }
            $('.milestone').css('margin-right', '-50px');
            $('#note-close').removeClass('active');
+           $('#tei_wrapper').css('overflow', 'visible');
         });
     });
 
