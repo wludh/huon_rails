@@ -47,11 +47,14 @@ console.log('ready');
             hide_non_active_panels();
             $('.note-contents note').hide();
             $('#note-header').show();
-            $('.note-contents note').show();
+            var note_nums = $('sup').text().split("");
+            $.each(note_nums,function(){
+                $("note[n=" + this + "]").show();
+                $("note[n=" + this + "]").addClass('active-element');
+                $('.divider[n=' + this + "]").show();
+            });
             $('.note-contents.hidden').show();
-            $('.note-contents note').addClass('active-element');
             $('#side-panel').css('display', 'block');
-            $('.divider').show();
             open_sidepanel();
         });
     });
