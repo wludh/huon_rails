@@ -39,7 +39,6 @@
                 <%= image_tag('kittens.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
             </div>
             <div id="tei-embed-container" class="hidden">
-            <!-- decide how this should fit into the js. because right now it's calling the div to get the text here. but that text is too dynamic so it won't get caught. -->
                 <div id="tei-embed-header"></div>
                 <div id="tei-embed" class="hidden">
                     <pre><%= @simple_tei %></pre>
