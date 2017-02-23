@@ -614,7 +614,7 @@ td{
   width: 38% !important;
 }
 
-#image-reveal, #tei-reveal{
+#image-reveal, #tei-reveal, #all-note-reveal{
   display: inline;
   cursor: pointer;
   cursor: hand;

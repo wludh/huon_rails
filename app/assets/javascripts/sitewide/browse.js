@@ -42,6 +42,18 @@ console.log('ready');
         });
     });
 
+    $(function all_note_reveal(){
+        $('#all-note-reveal').click(function(){
+            hide_non_active_panels();
+            $('.note-contents note').hide();
+            $('#note-header').show();
+            $('.note-contents note').show();
+            $('.note-contents.hidden').show();
+            $('#side-panel').css('display', 'block');
+            open_sidepanel();
+        });
+    });
+
     function open_sidepanel(){
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
