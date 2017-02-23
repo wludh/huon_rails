@@ -582,6 +582,7 @@ td{
   padding-top: 68px;
   width: 40%;
   height: 100%;
+  overflow: scroll;
 }
 
 #note-close{
@@ -676,5 +677,4 @@ sic{
 
 #tei_wrapper{
   height: 100%;
-/*  overflow:scroll;
-*/}
+}
