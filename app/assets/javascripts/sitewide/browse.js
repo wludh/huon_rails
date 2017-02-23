@@ -49,6 +49,7 @@ console.log('ready');
             $('#note-header').show();
             $('.note-contents note').show();
             $('.note-contents.hidden').show();
+            $('.note-contents note').addClass('active-element');
             $('#side-panel').css('display', 'block');
             open_sidepanel();
         });
