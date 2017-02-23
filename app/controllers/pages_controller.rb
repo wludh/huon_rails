@@ -120,32 +120,34 @@ class PagesController < ApplicationController
         html = ""
         note_counter = 1
         for note in @all_notes
-            if note.attributes['resp'] != nil
-                @resp = note.attributes['resp'].value
-            else
-                @resp = "Anonymous"
-            end
+            unless note.parent.name == "notesStmt" or note.parent.name == 'head'
+                if note.attributes['resp'] != nil
+                    @resp = note.attributes['resp'].value
+                else
+                    @resp = "Anonymous"
+                end
 
-            if note.attributes['type'] != nil
-                @type = note.attributes['type'].value
-            else
-                @type = "nil"
-            end
+                if note.attributes['type'] != nil
+                    @type = note.attributes['type'].value
+                else
+                    @type = "nil"
+                end
 
-            if note.values[1].to_s.sub(/\./, '')
-                @xmlid = note.values[1].to_s.sub(/\./, '')
-            else
-                @xmlid = "nil"
-            end
+                if note.values[1].to_s.sub(/\./, '')
+                    @xmlid = note.values[1].to_s.sub(/\./, '')
+                else
+                    @xmlid = "nil"
+                end
 
-            if @author_hash[@resp.sub(/#/, '')] != nil
-                @author = @author_hash[note.attributes['resp'].value.sub(/#/, '')]
-            else
-                @author = "Anonymous"
-            end
+                if @author_hash[@resp.sub(/#/, '')] != nil
+                    @author = @author_hash[note.attributes['resp'].value.sub(/#/, '')]
+                else
+                    @author = "Anonymous"
+                end
 
-            html += "<note n=\"#{note_counter}\" resp=\"#{@resp}\" type=\"#{@type}\" xml=\"#{@xmlid}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author}</div></note>"
-            note_counter += 1
+                html += "<note n=\"#{note_counter}\" resp=\"#{@resp}\" type=\"#{@type}\" xml=\"#{@xmlid}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author}</div></note>"
+                note_counter += 1
+            end
         end
         html.html_safe
     end
