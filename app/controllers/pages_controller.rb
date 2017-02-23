@@ -145,7 +145,7 @@ class PagesController < ApplicationController
                     @author = "Anonymous"
                 end
 
-                html += "<note n=\"#{note_counter}\" resp=\"#{@resp}\" type=\"#{@type}\" xml=\"#{@xmlid}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author}</div></note><div id=\"clear\"></div>"
+                html += "<note n=\"#{note_counter}\" resp=\"#{@resp}\" type=\"#{@type}\" xml=\"#{@xmlid}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author}</div></note><div id=\"clear\"></div><hr class=\"divider\">"
                 note_counter += 1
             end
         end

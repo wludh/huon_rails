@@ -51,6 +51,7 @@ console.log('ready');
             $('.note-contents.hidden').show();
             $('.note-contents note').addClass('active-element');
             $('#side-panel').css('display', 'block');
+            $('.divider').show();
             open_sidepanel();
         });
     });
@@ -119,6 +120,7 @@ console.log('ready');
         }
         if ($('note.active-element').length > 0){
             hide_notes();
+            $('.divider').hide();
         }
         if ($('#tei-embed-header.active-element').length > 0){
             hide_tei();

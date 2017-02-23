@@ -678,3 +678,6 @@ sic{
 #tei_wrapper{
   height: 100%;
 }
+.divider{
+  display: none;
+}
