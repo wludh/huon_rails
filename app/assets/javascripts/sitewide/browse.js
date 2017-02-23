@@ -199,7 +199,7 @@ console.log('ready');
             $('#tei-embed-header').show();
             $('#tei-embed-header').addClass('active-element');
             $('#side-panel').show();
-            $('#tei-embed-container').show();
+            $('.note-contents').css('display', 'none');
             $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader-trans.gif" />');
             $('#tei-embed-container').css('display', 'inline');
             open_sidepanel();
