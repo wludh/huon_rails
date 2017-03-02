@@ -64,9 +64,10 @@
                 <note xml:id="p64.2" type="edit" resp="#SPM">MS <hi rend="italic"
                     >comadere</hi></note>
                 <note xml:id="p72" type="edit" resp="#SPM">MS <hi rend="italic">tintende</hi></note>
+                <note xml:id="p73" type="interp" resp="#SPM">"ço"</note>
                 <note xml:id="p102" type="edit" resp="#SPM">MS <hi rend="italic">msso</hi>; cf. <hi
                         rend="italic">permesso</hi>, l. 107</note>
-                <note xml:id="p111" type="ling" resp="#SPM"><hi rend="italic">Guardé</hi>, example
+                <note xml:id="p111.1" type="ling" resp="#SPM"><hi rend="italic">Guardé</hi>, example
                     of metathesis; cf. Ludovisi 56, note 4: "<quote>Parrebbe strano ed errato di
                         trovare guradè e subito sopo al v. 115 guardè. Ma reggono foneticamente
                         ambedue le forme. Infatti nella Rivista di Fil. Romanza 11, 48 K. Bartsch e
@@ -75,7 +76,9 @@
                         la nota: <hi rend="italic">gurdar è ugale a guardar. il nesso gu o go, in
                             luogo di gua in sillabe atone, è proprio delle parlate latine e del
                             catalano altresì."</hi></quote>"</note>
+                <note xml:id="p111.2" type="interp" resp="#SPM">"com'ella è"</note>
                 <note xml:id="p116" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p132" type="interp" resp="#SPM">"volessi"</note>
                 <note xml:id="p134" type="ling" resp="#SPM"><hi>l'è</hi>, example of unstressed
                     subject pronoun; cf. Rohlfs §446</note>
                 <!-- Provide more information for n=9 -->
@@ -99,6 +102,8 @@
                 <note xml:id="p192" type="edit" resp="#scribe">The scribe appears to have corrected
                     to <hi rend="italic">tarda</hi> from <hi rend="italic">trada</hi></note>
                 <note xml:id="p193" type="edit" resp="#SPM">MS <hi rend="italic">no</hi></note>
+                <note xml:id="p198" type="edit" resp="scribe">MS <hi rend="italic"
+                    >cortexiae</hi></note>
                 <note xml:id="p218" type="ling" resp="#SPM"><hi rend="italic">dié</hi>, altered form
                     in rhymed position.</note>
                 <note xml:id="p230" type="edit" resp="#SPM">This line appears to be missing a verb.
@@ -116,12 +121,39 @@
                         etc."</quote>"</note>
                 <note xml:id="p241" type="codic" resp="#SPM">Space for illumination.</note>
                 <note xml:id="p243" type="edit" resp="#SPM">MS <hi rend="italic">sanguuy</hi></note>
+                <note xml:id="p312" type="ling" resp="#SPM">lenition, <hi rend="italic">d</hi> > <hi
+                        rend="italic">t</hi></note>
                 <note xml:id="p325" type="codic" resp="#SPM">This page begins with a space for an
                     illumination.</note>
                 <note n="27" xml:id="p479" type="edit" resp="#scribe">Small cross written above <hi
                         rend="italic">fene</hi>to indicate that this word should be
                     disregarded.</note>
+                <note xml:id="p394" type="codic" resp="#SPM">Catchwords <hi rend="italic">puo
+                        tolse</hi>.</note>
+                <note xml:id="p401" type="ling" resp="#SPM">"tormant," metathesis.</note>
+                <note xml:id="p511" type="interp" resp="#SPM">Cf. l. 308, <hi rend="italic"
+                        >onfesso</hi>.</note>
                 <note xml:id="p512" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p516" type="ling" resp="#SPM"><hi rend="italic">benedizione</hi>; the
+                        <hi rend="italic">d</hi> was lost in lenition.</note>
+                <note xml:id="p530" type="edit" resp="#scribe">MS <hi rend="italic">tulo</hi>;
+                    corrected to <hi rend="italic">tuto</hi>.</note>
+                <note xml:id="p535" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >comanda</hi>.</note>
+                <note xml:id="p565" type="edit" resp="#scribe">MS <hi rend="italic">guarndo</hi>;
+                    small <hi rend="italic">i</hi> written in superscript.</note>
+                <note xml:id="p568" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >san-guyn</hi></note>
+                <note xml:id="p579" type="interp" resp="#SPM">"come"</note>
+                <note xml:id="p585" type="ling" resp="#SPM">Elsewhere <hi rend="italic"
+                    >pl-</hi></note>
+                <note xml:id="p597" type="edit" resp="#scrive">MS <hi rend="italic">Responde al
+                        antolin</hi>; <hi rend="italic">al</hi>struck through.</note>
+                <note xml:id="p601" type="edit" resp="#SPM">MS <hi rend="italic">defende
+                        fendero</hi></note>
+                <note xml:id="p605" type="edit" resp="#SPM">MS <hi rend="italic">Che</hi></note>
+                <note xml:id="p647" type="edit" resp="#SPM">MS <hi rend="italic">gurier</hi></note>
+                <note xml:id="p667" type="edit" resp="#SPM">MS <hi rend="italic">san</hi></note>
                 <note xml:id="p685" type="cod" resp="#SPM">Space for illumination</note>
                 <note xml:id="p713" type="edit" resp="#SPM">MS <hi rend="italic">al
                     davernia</hi></note>
@@ -151,8 +183,7 @@
                 <note n="42" xml:id="p907" type="edit" resp="#SPM">MS <hi rend="#italic"
                     >tuo</hi></note>
                 <note n="43" xml:id="p912" type="codic" resp="#SPM">Space for illumination.</note>
-                <note n="44" xml:id="p929" type="interp" resp="#SPM"><hi rend="#italic"
-                    >e</hi></note>
+                <note n="44" xml:id="p929" type="interp" resp="#SPM">"e"</note>
                 <note n="45" xml:id="p953" type="edit" resp="scribe">MS <hi rend="#italic"
                         >apasant</hi> with <hi rend="#italic">ri</hi> written above the <hi
                         rend="#italic">as</hi></note>
@@ -212,6 +243,8 @@
                 <note xml:id="p1274" type="edit" resp="#SPM">MS <hi rend="#italic">chavlcha</hi>;
                     scribal correction with <hi rend="#italic">a</hi> written above the <hi
                         rend="#italic">v</hi>.</note>
+                <note xml:id="p1278" type="interp" resp="#SPM">Read <hi rend="italic">desendere</hi>
+                    as a past participle; alternate form in rhymed position.</note>
                 <note xml:id="p1293" type="codic" resp="#SPM">Catchwords <hi rend="#italic">e si se
                         bem</hi>.</note>
                 <note xml:id="p1307" type="edit" resp="#SPM">MS <hi rend="#italic"
@@ -223,6 +256,7 @@
                 <note xml:id="p1371" type="edit" resp="scribe">MS <hi rend="#italic">rquier</hi>;
                     scribal correction with an <hi rend="#italic">e</hi> written above the <hi
                         rend="#italic">rq</hi>.</note>
+                <note xml:id="p1372" type="interp" resp="#SPM">"plui"</note>
                 <note xml:id="p1399" type="edit" resp="#SPM">MS <hi rend="#italic">pre</hi></note>
                 <note xml:id="p1433" type="edit" resp="#SPM">This line repeats.</note>
                 <note xml:id="p1434" type="edit" resp="#SPM">MS <hi rend="#italic">Sico</hi>.</note>
@@ -250,22 +284,29 @@
                     scribe attempts to correct this word by adding an <hi rend="#italic">i</hi>
                     after the initial <hi rend="#italic">l</hi> and making the second <hi
                         rend="#italic">i</hi> an <hi rend="#italic">r</hi>.</note>
+                <note xml:id="p1671" type="interp" resp="#SPM">Read <hi rend="italic">llor</hi> as
+                    "lui" in rhymed position.</note>
                 <note xml:id="p1691" type="edit" resp="scribe">MS <hi rend="#italic">cholo</hi>;
                     scribal correction, with line drawn through top of first <hi rend="#italic"
                         >o</hi> to make it an <hi rend="#italic">e</hi>.</note>
                 <note xml:id="p1746" type="edit" resp="scribe">MS <hi rend="#italic"
                     >stu</hi>.</note>
-                <note xml:id="p1760" type="interp" resp="#SPM"><hi rend="#italic">già</hi>, from <hi
-                        rend="#italic">gire</hi>, to go; "he did not go willing."</note>
+                <note xml:id="p1760.1" type="interp" resp="#SPM">"non è"</note>
+                <note xml:id="p1760.2" type="interp" resp="#SPM"><hi rend="#italic">già</hi>, from
+                        <hi rend="#italic">gire</hi>, to go; "he did not go willing."</note>
                 <note xml:id="p1766" type="ling" resp="#SPM">Modified for rhyme.</note>
                 <note xml:id="p1773" type="edit" resp="scribe">MS <hi rend="#italic">vl</hi>;
                     scribal correction, with an <hi rend="#italic">o</hi> above the <hi
                         rend="#italic">v</hi>.</note>
                 <note xml:id="p1780" type="codic" resp="#SPM">Catchwords <hi rend="#italic">lo
                         conte</hi>.</note>
+                <note xml:id="p1809" type="interp" resp="#SPM">"çaxeva"</note>
                 <note xml:id="p1824" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p1855" type="interp" resp="#SPM">"pietançe"</note>
                 <note xml:id="p1859" type="edit" resp="#SPM">MS <hi rend="#italic"
                     >mscheançe</hi>.</note>
+                <note xml:id="p1870" type="interp" resp="#SPM">Read as "sia," altered form in rhymed
+                    position.</note>
                 <note xml:id="p1876" type="edit" resp="scribe">MS <hi rend="#italic">confra</hi>;
                     scribal error with <hi rend="#italic">t</hi> written in darker ink over the <hi
                         rend="#italic">f</hi>.</note>
@@ -285,11 +326,13 @@
                     for meaning even though the scribe does not give a definite resolution.</note>
                 <note xml:id="p1925" type="edit" resp="#SPM">MS <hi rend="#italic"
                     >iegno</hi>.</note>
+                <note xml:id="p1929" type="edit" resp="#SPM">MS <hi rend="italic">su</hi>.</note>
+                <note xml:id="p1931" type="interp" resp="#SPM">"çovene"</note>
                 <note xml:id="p1951" type="ling" resp="#SPM"><hi rend="#italic">in guarant</hi>; an
                     example of a devoiced velar plosive, a common linguistic characteristic of the
                     text. The voiced variant occurs in l. 357, <hi rend="#italic"
                     >passim</hi>.</note>
-                <note xml:id="p1954" type="edit" resp="#SPM">MS <hi rend="#italic">ga</hi>.</note>
+                <note xml:id="p1954" type="edit" resp="#SPM">MS <hi rend="#italic">da</hi>.</note>
                 <note xml:id="p1961" type="edit" resp="#SPM">MS <hi rend="#italic"
                     >malançant</hi>.</note>
                 <note xml:id="p1968" type="edit" resp="#SPM">MS <hi rend="#italic">La si
@@ -312,6 +355,7 @@
                 <note xml:id="p2027" type="edit" resp="scribe">MS <hi rend="#italic">profunda</hi>;
                     scribal correction with final <hi rend="#italic">a</hi> corrected to <hi
                         rend="#italic">o</hi>.</note>
+                <note xml:id="p2029" type="interp" resp="#SPM">"çà"</note>
                 <note xml:id="p2032" type="edit" resp="#SPM">MS <hi rend="#italic">e</hi>.</note>
                 <note xml:id="p2038" type="edit" resp="scribe">MS <hi rend="#italic">vite</hi>;
                     scribal correction with <hi rend="#italic">e</hi> written above <hi
@@ -341,24 +385,290 @@
                         rend="#italic">a</hi>.</note>
                 <note xml:id="p2114" type="interp" resp="#SPM">There may be missing lines here; the
                     sense changes abruptly.</note>
-                <note xml:id="p2117" type="edit" resp="scribe">MS tim; scribal correction with <hi rend="#italic">e</hi> above <hi rend="#italic">im</hi>. </note>
-                <note xml:id="p2122" type="ling" resp="scribe"><hi rend="#italic">torner</hi>; metathesis, see l. 2108.</note>
+                <note xml:id="p2117" type="edit" resp="scribe">MS tim; scribal correction with <hi
+                        rend="#italic">e</hi> above <hi rend="#italic">im</hi>. </note>
+                <note xml:id="p2122" type="ling" resp="scribe"><hi rend="#italic">torner</hi>;
+                    metathesis, see l. 2108.</note>
                 <!-- tag reference to l. 2108 -->
-                <note xml:id="p2124" type="edit" resp="#SPM">MS <hi rend="#italic">concote</hi></note>
-                <note xml:id="p2130" type="interp" resp="#SPM">Meaning of <hi rend="#italic">biachin</hi> unclear; <hi rend="#italic">birichino</hi>?</note>
-                <note xml:id="p2143" type="edit" resp="scrive">MS <hi rend="#italic">guard</hi>; scrival correction with <hi rend="#italic">a</hi> written above <hi rend="#italic">d</hi>.</note>
-                <note xml:id="p2144" type="edit" resp="#SPM">MS <hi rend="#italic">ni e cite</hi>.</note>
+                <note xml:id="p2124" type="edit" resp="#SPM">MS <hi rend="#italic"
+                    >concote</hi></note>
+                <note xml:id="p2130" type="interp" resp="#SPM">Meaning of <hi rend="#italic"
+                        >biachin</hi> unclear; <hi rend="#italic">birichino</hi>?</note>
+                <note xml:id="p2143" type="edit" resp="scrive">MS <hi rend="#italic">guard</hi>;
+                    scrival correction with <hi rend="#italic">a</hi> written above <hi
+                        rend="#italic">d</hi>.</note>
+                <note xml:id="p2144" type="edit" resp="#SPM">MS <hi rend="#italic">ni e
+                    cite</hi>.</note>
                 <note xml:id="p2166" type="codic" resp="#SPM">Space for illumination.</note>
-                <note xml:id="p2199" type="edit" resp="scribe">MS <hi rend="#italic">dntro</hi>; scribal correction with <hi rend="#italic">e</hi> above <hi rend="#italic">dn</hi>.</note>
-                <note xml:id="p2202" type="edit" resp="#SPM">MS <hi rend="#italic">guran</hi>.</note>
-                <note xml:id="p2205" type="edit" resp="#SPM">MS <hi rend="#italic">ande ande</hi>.</note>
-                <note xml:id="p2241" type="interp" resp="#SPM"><hi rend="#italic">conbatant</hi> to be interpreted as a verb; modified form for rhyme.</note>
+                <note xml:id="p2199" type="edit" resp="scribe">MS <hi rend="#italic">dntro</hi>;
+                    scribal correction with <hi rend="#italic">e</hi> above <hi rend="#italic"
+                        >dn</hi>.</note>
+                <note xml:id="p2202" type="edit" resp="#SPM">MS <hi rend="#italic"
+                    >guran</hi>.</note>
+                <note xml:id="p2205" type="edit" resp="#SPM">MS <hi rend="#italic">ande
+                    ande</hi>.</note>
+                <note xml:id="p2241" type="interp" resp="#SPM"><hi rend="#italic">conbatant</hi> to
+                    be interpreted as a verb; modified form for rhyme.</note>
                 <note xml:id="p2255" type="codic" resp="#SPM">Space for illumination.</note>
-                <note xml:id="p2260" type="codic" resp="#SPM">Catchwords <hi rend="#italic">e per un puocho</hi>.</note>
-                <note xml:id="p2261" type="edit" resp="#SPM">MS <hi rend="#italic">puoho</hi>; correction based on catchwords from previous page.</note>
-                <note xml:id="p2283" type="edit" resp="scribe">MS <hi rend="italic">davans</hi>; scribal error with <hi rend="italic">s</hi> corrected to <hi rend="italic">t</hi>.</note>
+                <note xml:id="p2260" type="codic" resp="#SPM">Catchwords <hi rend="#italic">e per un
+                        puocho</hi>.</note>
+                <note xml:id="p2261" type="edit" resp="#SPM">MS <hi rend="#italic">puoho</hi>;
+                    correction based on catchwords from previous page.</note>
+                <note xml:id="p2283" type="edit" resp="scribe">MS <hi rend="italic">davans</hi>;
+                    scribal error with <hi rend="italic">s</hi> corrected to <hi rend="italic"
+                        >t</hi>.</note>
                 <note xml:id="p2287" type="ling" resp="#SPM">Metathesis.</note>
-                <note xml:id="p2289" type="ling" resp="#SPM"><hi rend="italic">nous a</hi>; <hi rend="italic">ne</hi> = <hi rend="italic">ci</hi> in OI.</note>
+                <note xml:id="p2289" type="ling" resp="#SPM"><hi rend="italic">nous a</hi>; <hi
+                        rend="italic">ne</hi> = <hi rend="italic">ci</hi> in OI.</note>
+                <note xml:id="p2297" type="edit" resp="#SPM">MS <hi rend="italic">perdermo</hi>,
+                    with tractus over <hi rend="italics">er</hi>.</note>
+                <note xml:id="p2300.1" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >dondha</hi>.</note>
+                <note xml:id="p2300.2" type="edit" resp="scribe">MS <hi rend="italic">al
+                        vedesse</hi>; scribe strikes through <hi rend="italics">al</hi>.</note>
+                <note xml:id="p2305" type="interp" resp="#SPM">"furono"</note>
+                <note xml:id="p2312" type="edit" resp="#SPM">MS <hi rend="italic">ho</hi>.</note>
+                <note xml:id="p2325" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >longamte</hi>.</note>
+                <note xml:id="p2338" type="edit" resp="#SPM">MS <hi rend="italic">ellinere</hi>; it
+                    appears as if the scribe attempted to correct this word, even if the resolution
+                    is unclear. This suggests that the word is erroneous, and I have emmended
+                    according to context. Cf. l. 1639.</note>
+                <note xml:id="p2346" type="edit" resp="#SPM">MS <hi rend="italic">ta</hi>.</note>
+                <note xml:id="p2369" type="edit" resp="#SPM">MS <hi rend="italic">De ço che
+                    ço</hi>.</note>
+                <note xml:id="p2388" type="edit" resp="#SPM">MS <hi rend="italic">quae</hi>; scribe
+                    corrects <hi rend="italic">a</hi> to <hi rend="italic">e</hi>.</note>
+                <note xml:id="p2412" type="edit" resp="#SPM">"çamai"</note>
+                <note xml:id="p2432" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p2444" type="edit" resp="#SPM">MS <hi rend="italic">sun
+                    un</hi>.</note>
+                <note xml:id="p2450" type="ling" resp="#SPM">OF <hi rend="italic"
+                        >alquant/auquant</hi>; rhotacism.</note>
+                <note xml:id="p2491" type="edit" resp="scribe">MS <hi rend="italic">foiie</hi>;
+                    scribe corrects with superscript <hi rend="italic">a</hi> over <hi rend="italic"
+                        >ii</hi>.</note>
+                <note xml:id="p2492" type="interp" resp="#SPM">Cf. <title rend="italic">Roman
+                        d'Alexandre</title></note>
+                <note xml:id="p2512" type="edit" resp="#SPM">MS <hi rend="italic">trie</hi></note>
+                <note xml:id="p2514" type="interp" resp="#SPM">Read <hi rend="italic">ne mie</hi>;
+                    cf. ll. 814, 2606, 4854.</note>
+                <note xml:id="p2537" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >parsse</hi>.</note>
+                <note xml:id="p2548" type="edit" resp="scribe">MS <hi rend="italic">questa</hi>;
+                    scribal correction, superscript <hi rend="italic">o</hi> above <hi rend="italic"
+                        >a</hi>.</note>
+                <note xml:id="p2553" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >critor</hi>.</note>
+                <note xml:id="p2581" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >maltalanant</hi>.</note>
+                <note xml:id="p2583" type="edit" resp="scribe">MS <hi rend="italic">pant</hi>; with
+                    ondulating titulus over <hi rend="italic">a</hi>.</note>
+                <note xml:id="p2595" type="edit" resp="#SPM">MS <hi rend="italic">Gra</hi>.</note>
+                <note xml:id="p2602" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >dantrt</hi>.</note>
+                <note xml:id="p2608" type="edit" resp="#SPM">MS <hi rend="italic">nobe</hi>.</note>
+                <note xml:id="p2617" type="interp" resp="#SPM">"nous a"</note>
+                <note xml:id="p2632" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p2662" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >popris</hi>.</note>
+                <note xml:id="p2665" type="edit" resp="#SPM">MS <hi rend="italic">P</hi>; scribe
+                    forgot the strike through the descender.</note>
+                <note xml:id="p2716" type="edit" resp="#SPM">MS <hi rend="italic">sana</hi>.</note>
+                <note xml:id="p2753" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >clalma</hi>.</note>
+                <note xml:id="p2758" type="edit" resp="scribe">MS <hi rend="italic">çace
+                    quatro</hi>; scribal correction with <hi rend="italic">de</hi> written above
+                    line.</note>
+                <note xml:id="p2762" type="codic" resp="#SPM">Catchword <hi rend="italic"
+                        >medieximaninete</hi>.</note>
+                <note xml:id="p2770.1" type="interp" resp="#SPM">"dont"</note>
+                <note xml:id="p2770.2" type="edit" resp="#SPM">This line most likely was to begin
+                    the next laisse, even if in the manuscript it is the last line of the present
+                    laisse.</note>
+                <note xml:id="p2771" type="ling" resp="#SPM">Metathesis, see above.</note>
+                <!-- cite and link to line with 'tromento' -->
+                <note xml:id="p2778" type="edit" resp="#SPM">MS <hi rend="italic">pgere</hi> with
+                    titulus above <hi rend="italic">p</hi>; context suggests this correction; cf.
+                        <hi rend="italic">plançe</hi>, l. 1339.</note>
+                <note xml:id="p2782" type="edit" resp="#SPM">MS <hi rend="italic">ella
+                    erra</hi>.</note>
+                <note xml:id="p2784" type="edit" resp="#SPM">MS <hi rend="italic">vete me
+                    caxa</hi>.</note>
+                <note xml:id="p2790" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >pernde</hi>.</note>
+                <note xml:id="p2796" type="edit" resp="#SPM">MS <hi rend="italic">gra</hi>.</note>
+                <note xml:id="p2803" type="edit" resp="#SPM">MS <hi rend="italic">tosto</hi>.</note>
+                <note xml:id="p2817" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p2820" type="edit" resp="#SPM">MS <hi rend="italic">ta</hi>.</note>
+                <note xml:id="p2832" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >incontir</hi>.</note>
+                <note xml:id="p2834" type="edit" resp="#SPM">MS <hi rend="italic">feirr</hi>.</note>
+                <note xml:id="p2845" type="ling" resp="#SPM">Metathesis, see above.</note>
+                <!-- code for line reference -->
+                <note xml:id="p2860" type="interp" resp="#JVC">Les paroles du psaume sont citées en
+                    partie en latin en partie en franco-italien, selon un procédé apprécié par les
+                    poètes franco-italiens : cf. Holtus et Wunderli, Grundriss der romanischen
+                    Literaturen des Mittelalters. Volume III. Les épopées romanes, t. 1/2, fascicule
+                    10, Franco-italien et épopée franco-italienne, Heidelberg, Winter, 2005,
+                    p. 141-142.</note>
+                <!-- code for bibliography -->
+                <note xml:id="p2865" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >Matando</hi>.</note>
+                <note xml:id="p2871" type="edit" resp="#SPM">MS <hi rend="italic">guan<hi
+                            rend="noitalic">r</hi>da</hi>.</note>
+                <note xml:id="p2875" type="interp" resp="#SPM">"çascuna"</note>
+                <note xml:id="p2890" type="edit" resp="#SPM">MS <hi rend="italic">sebla</hi>.</note>
+                <note xml:id="p2891" type="edit" resp="scribe">MS <hi rend="italic">quan</hi>;
+                    scribe writes <hi rend="italic">do</hi> above the line.</note>
+                <note xml:id="p2894" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >cignado</hi>.</note>
+                <note xml:id="p2896" type="edit" resp="#SPM">MS <hi rend="italic">Clo</hi>.</note>
+                <note xml:id="p2918" type="edit" resp="#SPM">MS <hi rend="italic">un mio
+                    mio</hi>.</note>
+                <note xml:id="p2935" type="edit" resp="scrive">Errasure after <hi rend="italic"
+                        >questa</hi>.</note>
+                <note xml:id="p2943" type="ling" resp="#SPM">"Bretagne," etathesis</note>
+                <note xml:id="p2974" type="edit" resp="#SPM">MS <hi rend="italic">fra</hi>.</note>
+                <note xml:id="p3014" type="edit" resp="#SPM">MS <hi rend="italic">L p<hi
+                            rend="noitalic">er</hi></hi>.</note>
+                <note xml:id="p3030" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p3075" type="edit" resp="#SPM">MS <hi rend="italic">llo</hi>.</note>
+                <note xml:id="p3077" type="edit" resp="#SPM">MS <hi rend="italic">Qusto</hi>.</note>
+                <note xml:id="p3122" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p3148" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >mandona</hi>.</note>
+                <note xml:id="p3170" type="interp" resp="#SPM">"braço"</note>
+                <note xml:id="p3172" type="edit" resp="#SPM">MS <hi rend="italic">che ssia sera
+                        sera</hi>.</note>
+                <note xml:id="p3187" type="edit" resp="#SPM">MS <hi rend="italic">Ehe</hi>.</note>
+                <note xml:id="p3197" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >tortesie</hi>.</note>
+                <note xml:id="p3205" type="ling" resp="#SPM">"Guardà," devoiced velar plosive, cf.
+                    l. 1951.</note>
+                <!-- link line reference -->
+                <note xml:id="p3206" type="ling" resp="#SPM">"Quer," vocalized consonant, typical of
+                    scribe's language.</note>
+                <note xml:id="p3215" type="edit" resp="#SPM">MS <hi rend="italic">lo conte
+                        conte</hi>.</note>
+                <note xml:id="p3238" type="interp" resp="#SPM">Elsewhere <hi rend="italic"
+                    >o'</hi>.</note>
+                <note xml:id="p3248" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >stenxe</hi>.</note>
+                <note xml:id="p3273" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >intedu</hi>.</note>
+                <note xml:id="p3285" type="edit" resp="#SPM">MS <hi rend="italic">sanmo</hi>.</note>
+                <note xml:id="p3296" type="edit" resp="#SPM">MS <hi rend="italic">ter</hi>.</note>
+                <note xml:id="p3306" type="ling" resp="#SPM">"tromença," consonant voicing; cf. l.
+                    3785 where scribe corrects <hi rend="italic">d</hi> to <hi rend="italic"
+                    >t</hi>.</note>
+                <!-- link line reference -->
+                <note xml:id="p3313" type="edit" resp="#SPM">MS <hi rend="italic">i<hi
+                            rend="noitalic">n</hi>n</hi>.</note>
+                <note xml:id="p3329" type="edit" resp="#SPM">MS <hi rend="italic">perigolxo</hi>;
+                    scribal correction with <hi rend="italic">o</hi> above <hi rend="italic"
+                    >x</hi>.</note>
+                <note xml:id="p3341" type="edit" resp="#SPM">MS <hi rend="italic">altetas</hi>; cf.
+                        <hi rend="italic">altrotal</hi>, l. 3381.</note>
+                <!-- link line reference -->
+                <note xml:id="p3345" type="edit" resp="scribe">MS <hi rend="italic">vte</hi>;
+                    scribal correction with <hi rend="italic">e</hi> written over <hi rend="italic"
+                        >vt</hi>.</note>
+                <note xml:id="p3373" type="edit" resp="scrive">MS <hi rend="italic">mvile</hi>;
+                    scrival correction with <hi rend="italic">e</hi> over <hi rend="italic"
+                    >m</hi>.</note>
+                <note xml:id="p3374" type="edit" resp="scribe">MS superscript <hi rend="italic"
+                        >si</hi> over <hi rend="italic">inversso</hi>; resolution unclear; <hi
+                        rend="italic">in[si] versso</hi>?.</note>
+                <note xml:id="p3383" type="edit" resp="#SPM">MS <hi rend="italic">baro</hi>.</note>
+                <note xml:id="p3414" type="edit" resp="#SPM">MS <hi rend="italic">rto</hi>.</note>
+                <note xml:id="p3417" type="codic" resp="#SPM">Space for illumination.l</note>
+                <note xml:id="p3476" type="edit" resp="#SPM">MS <hi rend="italic">streto
+                    lo</hi></note>
+                <note xml:id="p3512" type="edit" resp="#SPM">MS <sic>Se</sic>.</note>
+                <note xml:id="p3513" type="edit" resp="#SPM">MS <hi rend="italic">gnolo</hi>.</note>
+                <note xml:id="p3561" type="interp" resp="#SPM">Can be read as either "di lui" or "da
+                    lì."</note>
+                <note xml:id="p3570" type="edit" resp="#SPM">MS <hi rend="italic">granda
+                    la</hi>.</note>
+                <note xml:id="p3581" type="edit" resp="#SPM">MS <hi rend="italic">prexe
+                    guardar</hi>.</note>
+                <note xml:id="p3587" type="edit" resp="#SPM">MS <hi rend="italic">pança</hi>.</note>
+                <note xml:id="p3609" type="edit" resp="#SPM">MS <hi rend="italic">mte</hi>.</note>
+                <note xml:id="p3629" type="interp" resp="#SPM">Saint George is evoked here in
+                    reference to the legend of the slaying of the dragon.</note>
+                <note xml:id="p3631" type="interp" resp="#SPM">The scrive write these two verses on
+                    the line. I separate in the middle where the rhyme occurs.</note>
+                <note xml:id="p3632" type="interp" resp="#SPM">"flaba"</note>
+                <note xml:id="p3636" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >Viaçamente</hi>.</note>
+                <note xml:id="p3645" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >corlar</hi>.</note>
+                <note xml:id="p3656" type="interp" resp="#SPM">"en"</note>
+                <note xml:id="p3676" type="interp" resp="#SPM">Note shifting of second and third
+                    person.</note>
+                <note xml:id="p3680" type="interp" resp="#SPM">Br <hi rend="italic">Vos ai
+                    lasé</hi>.</note>
+                <note xml:id="p3684" type="interp" resp="#SPM">Perhaps better interpreted as <hi
+                        rend="italic">m[ia]</hi>.</note>
+                <note xml:id="p3685" type="edit" resp="scribe">MS <hi rend="italic">contesse</hi>;
+                    scribe attempts to correct last <hi rend="italic">e</hi> then blots out and
+                    writes <hi rend="italic">a</hi> above.</note>
+                <note xml:id="p3696" type="edit" resp="scribe">MS <hi rend="italic">mte</hi>;
+                    superscript <hi rend="italic">e</hi>.</note>
+                <note xml:id="p3702" type="edit" resp="scribe">MS <hi rend="italic">lança fe</hi>;
+                        <hi rend="italic">ve</hi> written above, between <hi rend="italic"
+                        >lança</hi> and <hi rend="italic">fe</hi>.</note>
+                <note xml:id="p3713" type="edit" resp="scribe">MS <hi rend="italic">m?strassi</hi>;
+                    second letter blotted out with superscript <hi rend="italic">o</hi>.</note>
+                <note xml:id="p3760" type="edit" resp="#SPM">MS <hi rend="italic">mudan</hi>.</note>
+                <note xml:id="p3774" type="interp" resp="#SPM">"çorno"</note>
+                <note xml:id="p3779" type="edit" resp="#SPM">MS <hi rend="italic">elesalvais</hi>;
+                    probably an unintentional repetition of the previous <hi rend="italic">e
+                        lle</hi>.</note>
+                <note xml:id="p3783" type="interp" resp="#SPM">Br <hi rend="italic"
+                    >gist</hi>.</note>
+                <note xml:id="p3785" type="edit" resp="scribe">MS <hi rend="italic">dromento</hi>;
+                    this correction suggests that the scribe attempts to normalize his language,
+                    avoiding the voicing of predental plosives.</note>
+                <!-- link to other lines demonstrating this linguistic phenomenon -->
+                <note xml:id="p3799" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >inorie</hi>.</note>
+                <note xml:id="p3803" type="edit" resp="#SPM">MS <hi rend="italic">ubra</hi>.</note>
+                <note xml:id="p3818" type="interp" resp="#SPM">Br <hi rend="italic"
+                    >graçia</hi>.</note>
+                <note xml:id="p3822" type="interp" resp="#SPM">"Olde·lla"</note>
+                <note xml:id="p3846" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >icorporee</hi>.</note>
+                <note xml:id="p3853" type="edit" resp="#SPM">MS <hi rend="italic">Eo</hi>; <hi
+                        rend="italic">E</hi> is large decorated blue initial; no trace of <hi
+                        rend="italic">L</hi> note in margin.</note>
+                <note xml:id="p3888" type="edit" resp="scribe">MS <hi rend="italic">afaitemant</hi>;
+                    scribal correction, with <hi rend="italic">e</hi> written over <hi rend="italic"
+                        >second a</hi>.</note>
+                <note xml:id="p3889" type="edit" resp="scribe">MS <hi rend="italic">çant</hi>;
+                    scribal correction, with <hi rend="italic">e</hi> written <hi rend="italic"
+                        >a</hi>.</note>
+                <note xml:id="p3917" type="edit" resp="#SPM">MS <hi rend="italic"
+                    >sartie</hi>.</note>
+                <note xml:id="p3918" type="interp" resp="#SPM">Br<hi rend="italic">Senble
+                    qe</hi>.</note>
+                <note xml:id="p3944.1" type="edit" resp="#SPM">MS <hi rend="italic">ame</hi>.</note>
+                <note xml:id="p3944.2" type="interp" resp="#SPM">Br <hi rend="italic"
+                    >vanegloi</hi>.</note>
+                <note xml:id="p3946" type="edit" resp="#SPM">MS <hi rend="italic">me ve
+                    vesti</hi>.</note>
+                <note xml:id="p3964" type="interp" resp="#SPM">"çascun"</note>
+                <note xml:id="p3975" type="edit" resp="#SPM">MS <hi rend="italic">mio</hi>.</note>
+                <note xml:id="p3993" type="edit" resp="scribe">MS <hi rend="italic">ai<hi
+                            rend="noitalic">m</hi>a</hi>.</note>
+                <note xml:id="p4020" type="interp" resp="#SPM">"falso," metathesis.</note>
+                <note xml:id="p4029" type="edit" resp="scribe">MS <hi rend="italic">te</hi>; scribal
+                    correction, <hi rend="italic">co<hi rend="noitalic">n</hi></hi> written over <hi
+                        rend="italic">nt</hi>.</note>
+                <note xml:id="p4035" type="edit" resp="scribe">MS <hi rend="italic">nte</hi>; scrive
+                    writes <hi rend="italic">o</hi> over <hi rend="italic">nt</hi>.</note>
+            </div>
         </body>
     </text>
 </TEI>

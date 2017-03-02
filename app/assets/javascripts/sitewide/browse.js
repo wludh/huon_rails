@@ -46,6 +46,8 @@ console.log('ready');
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
         $('#tei_wrapper').css('border-right', '1px #DDDDDD solid');
+        $('.milestone').css('margin-right', '50px');
+        $('#note-close').addClass('active');
     }
 
     function hide_image(){
@@ -68,6 +70,14 @@ console.log('ready');
         $('#tei-embed').hide();
     }
 
+    function back_to_intro(){
+        $('#intro-link').click(function(){
+            if(this.hasClass('active')){
+                close_sidepanel();
+            }
+        });
+    }
+
     $(function close_sidepanel(){
         // close the notes panel when the x is clicked
         $('#note-close').click(function(){
@@ -83,6 +93,8 @@ console.log('ready');
            } else {
               notePanel.style.display = "block";
            }
+           $('.milestone').css('margin-right', '-50px');
+           $('#note-close').removeClass('active');
         });
     });
 

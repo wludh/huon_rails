@@ -634,8 +634,8 @@ td{
 }
 
 code, pre{
-  max-height: 600px;
-  width: 120%;
+  height: 500px;
+  width: 130%;
   border: 1px solid #DDDDDD;
   border-bottom-style: solid;
   overflow-y: scroll;
@@ -664,4 +664,21 @@ code, pre{
 
 sic{
   display: none;
+<<<<<<< HEAD
+=======
+}
+
+.milestone{
+  margin-right: -50px;
+}
+
+#TEI_reader{
+  height: 99%;
+}
+
+#tei_wrapper{
+  height: 100%;
+  overflow:scroll;
+
+>>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
 }

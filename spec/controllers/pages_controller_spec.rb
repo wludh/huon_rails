@@ -55,6 +55,7 @@ def manuscript_block(manuscript, route)
 end
 
 def note_block(note, file)
+<<<<<<< HEAD
     unless note.parent.name == "notesStmt"
         it "should have a resp statement - note for #{file}: #{note}" do
             expect(note.attributes['resp']).to be_truthy
@@ -71,6 +72,39 @@ def note_block(note, file)
         it "should have an xml id - note for #{file}: #{note}" do
             expect(note.attributes['id'].namespace.prefix).to eq("xml")
         end
+=======
+    unless note.parent.name == "notesStmt" or note.parent.name == 'head'
+        it "should have an xml id - note for #{file}: #{note}" do
+            expect(note.attributes['id'].namespace.prefix).to eq("xml")
+        end
+
+        it "should have an xml id format with manuscript abbreviations for file #{file}: note #{note}" do
+            re = /br|b|p|t/
+            manuscript = re.match(note.attributes['id'].value)[0]
+            expect(manuscript).to be_in ['b', 'br', 't', 'p']
+        end
+
+        it "should have no letters after the manuscript abbreviations- note for file #{file}: note #{note}" do
+            re = /br|b|p|t/
+            xml_id = note.attributes['id'].value
+            numbers = xml_id.sub(re, '')
+            re_two = /[a-zA-Z]/
+            expect(re_two.match(numbers)).to be nil
+        end
+
+        if ['notes-p.xml', 'notes-b.xml', 'notes-t.xml', 'notes-br.xml'].include? file
+            it "should have a resp statement - note for #{file}: #{note}" do
+                expect(note.attributes['resp']).to be_truthy
+            end
+
+            it "should have a type attribute - note for #{file}: #{note}" do
+                expect(note.attributes['type']).to be_truthy
+            end
+        end
+        # it "should have a n attribute - note for #{file}: #{note}" do
+        #     expect(note.attributes['n']).to be_truthy
+        # end
+>>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
     end
 end
 
@@ -126,6 +160,10 @@ describe PagesController do
     end
 
     describe 'a note ' do
+<<<<<<< HEAD
+=======
+        manuscript_files = ['p.xml', 't.xml', 'br.xml', 'b.xml']
+>>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
         note_files = ['notes-b.xml', 'notes-br.xml', 'notes-p.xml', 'notes-t.xml']
         for file in note_files
             doc = File.open("./lib/assets/#{file}"){
@@ -135,6 +173,26 @@ describe PagesController do
             for note in notes
                 note_block(note, file)
             end
+        end
+
+        for manuscript_file in manuscript_files
+            doc = File.open("./lib/assets/#{manuscript_file}"){
+                    |f| Nokogiri::XML(f)
+                }
+            notes = doc.css('note')
+            for note in notes
+                note_block(note, manuscript_file)
+            end
+        end
+    end
+
+    describe "GET" " TEI file" do
+        tei_files = ['b.xml', 'br.xml','p.xml', 't.xml',]
+        for file_name in tei_files
+            doc = File.open("./lib/assets/#{file_name}"){
+                    |f| Nokogiri::XML(f)
+                }
+            tei_block(doc, file_name)
         end
     end
 

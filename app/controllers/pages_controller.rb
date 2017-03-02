@@ -228,13 +228,19 @@ class PagesController < ApplicationController
         if (l.attr('n').to_i % 5) == 0
             result += "<div class=\"linenumber\">" + l.attr('n').to_s + "</div>"
         end
+        if l.css('milestone').present?
+            result += parse_milestone(l)
+        end
         result += "<l n=\"#{l.attr('n')}\">"
             if l.css('pb').present?
                 result += parse_pb(l)
             end
+<<<<<<< HEAD
             if l.css('milestone').present?
                 result += parse_milestone(l)
             end
+=======
+>>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
              for child in l.children 
                  if child.name == 'choice' 
                     result += parse_choice(child)
