@@ -253,14 +253,23 @@ function changeWitness(witness,panel) {
 
 
 function matchApp(matchClass) {
+  // get the mss area
    var mssArea = document.getElementById("mssArea");
+   // get the matching apps
    var matchingApps = getElementsByClass(matchClass,mssArea,"span");
+   // for every paragraph
    for (p = 0; p < matchingApps.length; p++) {
       var pattern = new RegExp('(^|\\s)highlighted(\\s|$)');
       if (pattern.test(matchingApps[p].className)) {
+        // what is matching apps
          matchingApps[p].className = matchingApps[p].className.replace(pattern,"");
       } else {
          matchingApps[p].className = matchingApps[p].className + " highlighted";
+         console.log(matchingApps[p].className);
+         for( q = 0; q < matchingApps[p].children.length; q++ ){
+            console.log(matchingApps[p].children[q]);
+            scrollTo(matchingApps[p].children[q].className);
+         }
       }
    }
 }
@@ -953,7 +962,9 @@ var Drag = {
    }
 };
 
-function scrollTo(identifier){
-    var topPos = document.querySelector(iden).offsetTop;
-    document.querySelector('.container').scrollTop = topPos-30;
+function scrollTo(identifier, ){
+  // needs to also pull in the locus number which would be
+  console.log('the identifier is ' + identifier);
+    var topPos = document.querySelectorAll(identifier).offsetTop;
+    document.querySelector('.mssPanel').scrollTop = topPos-30;
 }
