@@ -681,3 +681,7 @@ sic{
 .divider{
   display: none;
 }
+.mssPanel{
+height:100px;
+overflow-y: scroll;
+}

@@ -953,3 +953,7 @@ var Drag = {
    }
 };
 
+function scrollTo(identifier){
+    var topPos = document.querySelector(iden).offsetTop;
+    document.querySelector('.container').scrollTop = topPos-30;
+}
