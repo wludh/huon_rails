@@ -677,7 +677,6 @@ sic{
 
 #tei_wrapper{
   height: 100%;
-  overflow:scroll;
 }
 .divider{
   display: none;
