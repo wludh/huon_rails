@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../Dropbox/HUON_SCHEMA/Huon_Customized_Schema_020817.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="Huon_Customized_Schema_03152017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Huon d'Auvergne: a digital edition of Berlin Kupferstichkabinett 78 D 8 (olim
-               Hamilton337</title>
+            <title>Huon d'Auvergne: a digital edition of Berlin Kupferstichkabinett Hamilton 337 (78 D 8)</title>
+            <title type="short">Berlin MS Hamilton 337</title>
             <editor xml:id="LZM">Leslie Zarker Morgan</editor>
             <sponsor>
                <address>
@@ -154,7 +154,7 @@
             <!-- Add normalization tag to explain abbreviations. -->
          </editorialDecl>
          <projectDesc>
-            <p>Text encoded for <soCalled>Huon d'Auvergne Project</soCalled>, which aims to create a
+            <p>Text encoded for Huon d'Auvergne Project, which aims to create a
                digital edition for all four extant manuscripts of the Franco-Italian Huon d'Auvergne
                romance epic</p>
          </projectDesc>
@@ -178,7 +178,7 @@
       <body>
          <lg type="laisse" n="1">
             <head>Laisse 1</head>
-            <l n="1">﻿<milestone n="1Ra" unit="fol."/>Al tamps de may quand furent li prael  </l>
+            <l n="1">﻿<milestone n="1Ra" unit="fol."/>Al tamps de may quand furent li <note xml:id="b1"/>prael</l>
             <l n="2">Tot reverdis, lorer et arboisel,  </l>
             <l n="3">Que en amors vient maintes mainer d'oisel,  </l>
             <l n="4">Por ce chantent et font li son mout bel,  </l>
@@ -193,10 +193,10 @@
             <l n="13">Selonch qui mostre et cronicha Odinel,  </l>
             <l n="14">Qui hom apelle le rois K<ex rend="italics">ar</ex>lle Martel.  </l>
             <l n="15">Grant cort tenoit; hom no<ex rend="italics">n</ex> la vit ja tel.  </l>
-            <l n="16">Mais d'une zonse ovra il bien cum fel,  </l>
+            <l n="16">Mais d'une zonse<note xml:id="b16"></note> ovra il bien cum fel,  </l>
             <l n="17">Quant un son dru gita de son hostel,  </l>
             <l n="18">Si l'envoia a querir Lucibel,  </l>
-            <l n="19">Querir trehu a le lou d'Enfernel  </l>
+            <l n="19">Querir trehu a le lou<note xml:id="b19"></note> d'Enfernel  </l>
             <l n="20">Sol por avoir Ynide au quer bel.  </l>
          </lg>
          <lg type="laisse" n="2">

@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-03-16T11:47:20Z. .
+# Schema generated from ODD source 2017-03-16T16:51:30Z. .
 # TEI Edition: Version 3.1.0. Last updated on
 #	15th December 2016, revision d3f5e70
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
@@ -1958,34 +1958,12 @@ tei_title =
   ## contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
   element title {
     tei_macro.paraContent,
-    tei_att.global.attributes,
-    tei_att.canonical.attributes,
-    tei_att.typed.attribute.subtype,
-    tei_att.datable.attributes,
+    tei_att.global.attribute.xmllang,
     
     ## classifies the title according to some convenient typology.
-    ## Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
+    ## Sample values include: 1] short
     attribute type {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-    }?,
-    
-    ## indicates the bibliographic level for a title, that is, whether it identifies an article, book, journal, series, or unpublished material.
-    attribute level {
-      
-      ## (analytic) the title applies to an analytic item, such as an article, poem, or other work published as part of a larger item.
-      "a"
-      | 
-        ## (monographic) the title applies to a monograph such as a book or other item considered to be a distinct publication, including single volumes of multi-volume works
-        "m"
-      | 
-        ## (journal) the title applies to any serial or periodical publication such as a journal, magazine, or newspaper
-        "j"
-      | 
-        ## (series) the title applies to a series of otherwise distinct publications such as a collection
-        "s"
-      | 
-        ## (unpublished) the title applies to any unpublished material (including theses and dissertations unless published by a commercial press)
-        "u"
     }?,
     empty
   }
