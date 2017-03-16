@@ -34,9 +34,9 @@
         </front>
         <body>
             <div>
-                    <note n="1" xml:id="t1r.1" type="ling" resp="#SPM">mazo "may"</note>
-                    <note n="2" xml:id="t1r.2" type="ling" resp="#SPM">fiore "flowers"</note>
-                    <note n="3" xml:id="t1r.3" type="ling" resp="#SPM">cerchare "to look for"</note>
+                    <note n="1" xml:id="t1" type="ling" resp="#SPM">mazo "may"</note>
+                    <note n="2" xml:id="t8" type="ling" resp="#SPM">fiore "flowers"</note>
+                    <note n="3" xml:id="t19" type="ling" resp="#SPM">cerchare "to look for"</note>
             </div>
         </body>
     </text>

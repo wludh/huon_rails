@@ -4,7 +4,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne: a digital edition of Bologna Biblioteca dell'Archiginnasio B. 3489</title>
+                <title>Huon d'Auvergne: a digital edition of Bologna Biblioteca dell'Archiginnasio
+                    B. 3489</title>
                 <editor xml:id="SPM">Stephen P. McCormick</editor>
                 <sponsor>
                     <address>
@@ -45,7 +46,8 @@
                 </edition>
                 <respStmt>
                     <name>Stephen P. McCormick</name>
-                    <resp>Created initial digital document, customized TEI tags for text structure, and began tagging for text structure</resp>
+                    <resp>Created initial digital document, customized TEI tags for text structure,
+                        and began tagging for text structure</resp>
                 </respStmt>
                 <respStmt>
                     <name>Natsumi D. Alvarez</name>
@@ -77,22 +79,25 @@
                         <idno>B. 3489</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title xml:lang="FI">Huon d'Auvergne, Biblioteca comunale dell'Archiginnasio di Bologna, manuscript B. 3489</title>
+                        <title xml:lang="FI">Huon d'Auvergne, Biblioteca comunale dell'Archiginnasio
+                            di Bologna, manuscript B. 3489</title>
                         <!-- Research language code for Franco-Italian -->
                         <origPlace cert="low">Unknown</origPlace>
                         <!-- Research theories on origin -->
                         <origDate cert="medium" evidence="internal">Fourteenth century</origDate>
                         <!-- Is there a way to say how the date is determined? -->
                         <note>
-                            <p>The Huon d’Auvergne fragment at the Archiginnasio university library in Bologna 
-                                (MS B. 3489) preserves only a portion of the Hell voyage of the epic and, as 
-                                Scattolini notes, the witness was likely whole when in Giovanni Maria Barbieri's 
-                                possession in the sixteenth century (38). Vincenzo de Bartholomaeis has dated 
-                                this witness of the Huon Hell voyage to the fourteenth century (10). At one point, 
-                                the text included the Sandin episode, a narrative segment preserved in P concerning 
-                                Carlo Martello's court jester and messenger. This is clear from rubric 30, which 
-                                reads "Comant Ugon respont au Jugleor." This paper fragment consists of a single 
-                                gathering of 7 bifolia measuring 21cm by 30 cm.</p>
+                            <p>The Huon d’Auvergne fragment at the Archiginnasio university library
+                                in Bologna (MS B. 3489) preserves only a portion of the Hell voyage
+                                of the epic and, as Scattolini notes, the witness was likely whole
+                                when in Giovanni Maria Barbieri's possession in the sixteenth
+                                century (38). Vincenzo de Bartholomaeis has dated this witness of
+                                the Huon Hell voyage to the fourteenth century (10). At one point,
+                                the text included the Sandin episode, a narrative segment preserved
+                                in P concerning Carlo Martello's court jester and messenger. This is
+                                clear from rubric 30, which reads "Comant Ugon respont au Jugleor."
+                                This paper fragment consists of a single gathering of 7 bifolia
+                                measuring 21cm by 30 cm.</p>
                         </note>
                     </head>
                     <msContents>
@@ -111,8 +116,8 @@
                                 <support>
                                     <p>Paper</p>
                                 </support>
-                                <extent>117 manuscript folios, 5,690 lines of verse
-                                    <dimensions scope="all" type="leaves" unit="in">
+                                <extent>117 manuscript folios, 5,690 lines of verse <dimensions
+                                        scope="all" type="leaves" unit="in">
                                         <height>29.5 cm</height>
                                         <width>22 cm</width>
                                     </dimensions>
@@ -128,12 +133,15 @@
                             <p>Written in one hand</p>
                         </handDesc>
                         <decoDesc>
-                            <p>Text written in laisses with colored initials alternating blue and red</p>
+                            <p>Text written in laisses with colored initials alternating blue and
+                                red</p>
                         </decoDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate notAfter="1350" notBefore="1300">first half of the fourteenth century</origDate>
+                            <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate
+                                    notAfter="1350" notBefore="1300">first half of the fourteenth
+                                    century</origDate>
                             </p>
                         </origin>
                         <provenance>unknown</provenance>
@@ -145,15 +153,17 @@
         <encodingDesc>
             <editorialDecl>
                 <correction method="markup">
-                    <p>I have attempted to correct the text as little as possible and only in passages in which meaning 
-                        would be difficult to decipher. All emendations are in parenthesis ( ) and I include a footnote 
-                        with the original manuscript reading and any other comments concerning the manuscript context 
-                        and discussing my rational behind proposing an emendation.</p>
+                    <p>I have attempted to correct the text as little as possible and only in
+                        passages in which meaning would be difficult to decipher. All emendations
+                        are in parenthesis ( ) and I include a footnote with the original manuscript
+                        reading and any other comments concerning the manuscript context and
+                        discussing my rational behind proposing an emendation.</p>
                 </correction>
                 <!-- Add normalization tag to explain abbreviations. -->
             </editorialDecl>
             <projectDesc>
-                <p>Text encoded for <soCalled>Huon d'Auvergne Project</soCalled>, which aims to create a digital edition for all four extant manuscripts of the Franco-Italian 
+                <p>Text encoded for <soCalled>Huon d'Auvergne Project</soCalled>, which aims to
+                    create a digital edition for all four extant manuscripts of the Franco-Italian
                     Huon d'Auvergne romance epic</p>
             </projectDesc>
             <tagsDecl>
@@ -166,8 +176,8 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change></change>
-         </revisionDesc>
+            <change/>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
@@ -175,60 +185,62 @@
         </front>
         <body>
             <lg n="1">
-            <l n="1"><pb n="f.1r"/>Come le filç vait (au pere secors) querire</l>
-            <l n="2">N(i'l carel) qant de l'arch ensire </l>
-                <l n="3">Non cort si fort por son camin<note xml:id="br1r.1"/> fornire</l>
-            <l n="4">Come lo dragon vient le çival ferire </l>
-            <l n="5">De ses grant ales la trestot feit covrire, </l>
-            <l n="6">Por mi li çef les vot as dens salire</l>
-            <l n="7">Estrangolé l'a aino q'il soit partire </l>
-                <l n="8">Petit le laise stratornere ne guenchire<note xml:id="br1r.2"/></l>
-            <l n="9">Qant l'a oçis si ne le vout  gue[r]pire </l>
-                <l n="10">Li quens d'Avernie voit son çival<note xml:id="br1r.3"/> morire</l>
-            <l n="11">Pieté li prent si çet un gran sospire</l>
-            <l n="12">Ireemant va le dragon envaire </l>
-            <l n="13">Nus ne vit fere ses coups tant espesire</l>
-            <l n="14">Plus de cent cos li fiert ainç qe crolire  </l>
-            <l n="15">Li poust la pele, Dieus li posa maleïre</l>
-            <l n="16">Adunc li vait de la punte coupire</l>
-            <l n="17">En mi le ventre por si tres grant aïre </l>
-            <l n="18">De çi qe au cor  li feit le bran  sentire</l>
-            <l n="19">Mort lo env[er]se  molt li puet abelire </l>
-            <l n="20">Mes çe qe vaut remis est en martire</l>
-            <l n="21">Or n'en oi  il consoil ne remire</l>
-            <l n="22">De pieté plura, ne s'en puet retenire</l>
-            <l n="23">Çil le secore qi lo mu[n]do doit fenire</l>
-            <l n="24">Qe anch mais n'oïstes de tel pieté geïre </l>
-            <l n="25">Qe est le quens  dou çival de saisire   </l>
-          </lg>
-            <ab type="rubric"><hi rend="red">Comant Ugon plure son çival e soy mesme</hi></ab>
-          <lg n="2">
-              <l n="26"><hi rend="red">G</hi>rant dolore oit qant in terre lui vi</l>
-            <l n="27">Morto çasire il fu bien smari</l>
-            <l n="28">Ai bon çival chi jusqu'à çi</l>
-            <l n="29">M'avés convoyé come loial ami</l>
-            <l n="30">Jamés por fain alentés  no[n] vos vi	</l>	
-            <l n="31">En strançes contré m'as lasé e ge[r]pi 		</l>
-            <l n="32">Dou retornere là onde je me parti</l>
-            <l n="33">Noient seroit; tropo seroit le pas gri! </l>
-            <l n="34">Ai! Nef petite, qi es en l'eve  do tigri,</l>
-            <l n="35">Vos ai lasé! Come grant enfaç  fi!</l>
-            <l n="36">Vos v'en tornés à cui vos establi</l>
-            <l n="37">E je dolant non quire movere de çi.</l>
-            <l n="38">E da mon sires sui aluntané si,</l>
-            <l n="39">Jamés no me veront, ne ma feme ausi</l>
-            <l n="40">Jantil contese bien puise dire de fi. </l>
-            <l n="41"><pb n="f.1v"/> Qe oltre mon gré co[n]vent qe vos  obli.</l>
-            <l n="42">Le camin m'est contredit e ravi </l>
-            <l n="43">De veoir  vestre vis colori		</l>
-            <l n="44">Tant ai erré por nuite et por di</l>
-            <l n="45">Que sui çert si voires sunt les  escri</l>
-            <l n="46">Qe les piés v[est]res les miés sur p[er] mi</l>
-            <l n="47">Ai! Lai pecable , por qoi  me departi</l>
-            <l n="48">Da vos consel or me chlame penti</l>
-            <l n="49">Le gentil quens vers terre soi fleti </l>
-            <l n="50">Plure de ses oilç e sa colpe bati</l>
-          </lg>
-    </body>
-</text>
+                <l n="1"><pb n="f.1r"/>Come le filç vait (au pere secors) querire</l>
+                <l n="2">N(i'l carel) qant de l'arch ensire </l>
+                <l n="3">Non cort si fort por son camin<note xml:id="br2"/> fornire</l>
+                <l n="4">Come lo dragon vient le çival ferire </l>
+                <l n="5">De ses grant ales la trestot feit covrire, </l>
+                <l n="6">Por mi li çef les vot as dens salire</l>
+                <l n="7">Estrangolé l'a aino q'il soit partire </l>
+                <l n="8">Petit le laise stratornere ne guenchire<note xml:id="br8"/></l>
+                <l n="9">Qant l'a oçis si ne le vout gue[r]pire </l>
+                <l n="10">Li quens d'Avernie voit son çival<note xml:id="br10"/> morire</l>
+                <l n="11">Pieté li prent si çet un gran sospire</l>
+                <l n="12">Ireemant va le dragon envaire </l>
+                <l n="13">Nus ne vit fere ses coups tant espesire</l>
+                <l n="14">Plus de cent cos li fiert ainç qe crolire </l>
+                <l n="15">Li poust la pele, Dieus li posa maleïre</l>
+                <l n="16">Adunc li vait de la punte coupire</l>
+                <l n="17">En mi le ventre por si tres grant aïre </l>
+                <l n="18">De çi qe au cor li feit le bran sentire</l>
+                <l n="19">Mort lo env[er]se molt li puet abelire </l>
+                <l n="20">Mes çe qe vaut remis est en martire</l>
+                <l n="21">Or n'en oi il consoil ne remire</l>
+                <l n="22">De pieté plura, ne s'en puet retenire</l>
+                <l n="23">Çil le secore qi lo mu[n]do doit fenire</l>
+                <l n="24">Qe anch mais n'oïstes de tel pieté geïre </l>
+                <l n="25">Qe est le quens dou çival de saisire </l>
+            </lg>
+            <ab type="rubric">
+                <hi rend="red">Comant Ugon plure son çival e soy mesme</hi>
+            </ab>
+            <lg n="2">
+                <l n="26"><hi rend="red">G</hi>rant dolore oit qant in terre lui vi</l>
+                <l n="27">Morto çasire il fu bien smari</l>
+                <l n="28">Ai bon çival chi jusqu'à çi</l>
+                <l n="29">M'avés convoyé come loial ami</l>
+                <l n="30">Jamés por fain alentés no[n] vos vi </l>
+                <l n="31">En strançes contré m'as lasé e ge[r]pi </l>
+                <l n="32">Dou retornere là onde je me parti</l>
+                <l n="33">Noient seroit; tropo seroit le pas gri! </l>
+                <l n="34">Ai! Nef petite, qi es en l'eve do tigri,</l>
+                <l n="35">Vos ai lasé! Come grant enfaç fi!</l>
+                <l n="36">Vos v'en tornés à cui vos establi</l>
+                <l n="37">E je dolant non quire movere de çi.</l>
+                <l n="38">E da mon sires sui aluntané si,</l>
+                <l n="39">Jamés no me veront, ne ma feme ausi</l>
+                <l n="40">Jantil contese bien puise dire de fi. </l>
+                <l n="41"><pb n="f.1v"/> Qe oltre mon gré co[n]vent qe vos obli.</l>
+                <l n="42">Le camin m'est contredit e ravi </l>
+                <l n="43">De veoir vestre vis colori </l>
+                <l n="44">Tant ai erré por nuite et por di</l>
+                <l n="45">Que sui çert si voires sunt les escri</l>
+                <l n="46">Qe les piés v[est]res les miés sur p[er] mi</l>
+                <l n="47">Ai! Lai pecable , por qoi me departi</l>
+                <l n="48">Da vos consel or me chlame penti</l>
+                <l n="49">Le gentil quens vers terre soi fleti </l>
+                <l n="50">Plure de ses oilç e sa colpe bati</l>
+            </lg>
+        </body>
+    </text>
 </TEI>

@@ -197,7 +197,7 @@
                         >certanamt</hi></note>
                 <note n="50" xml:id="p1057" type="ling" resp="#SPM"><hi rend="#italic">alquant</hi>;
                     rhoticism.</note>
-                <note n="51" xml:id="p1061" type="edit" rend="#SPM">The following line has been
+                <note n="51" xml:id="p1061" type="edit" resp="#SPM">The following line has been
                     ommitted since it repeats l. 1059, <hi rend="#italic">E vene al re tuto li va
                         contant</hi>.</note>
                 <!-- Find way to insert the extra line for the diplomatic edition; .css should display the line in a different color. -->
