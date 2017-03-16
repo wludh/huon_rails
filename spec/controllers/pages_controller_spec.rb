@@ -55,24 +55,6 @@ def manuscript_block(manuscript, route)
 end
 
 def note_block(note, file)
-<<<<<<< HEAD
-    unless note.parent.name == "notesStmt"
-        it "should have a resp statement - note for #{file}: #{note}" do
-            expect(note.attributes['resp']).to be_truthy
-        end
-
-        # it "should have a n attribute - note for #{file}: #{note}" do
-        #     expect(note.attributes['n']).to be_truthy
-        # end
-
-        it "should have a type attribute - note for #{file}: #{note}" do
-            expect(note.attributes['type']).to be_truthy
-        end
-
-        it "should have an xml id - note for #{file}: #{note}" do
-            expect(note.attributes['id'].namespace.prefix).to eq("xml")
-        end
-=======
     unless note.parent.name == "notesStmt" or note.parent.name == 'head'
         it "should have an xml id - note for #{file}: #{note}" do
             expect(note.attributes['id'].namespace.prefix).to eq("xml")
@@ -104,7 +86,6 @@ def note_block(note, file)
         # it "should have a n attribute - note for #{file}: #{note}" do
         #     expect(note.attributes['n']).to be_truthy
         # end
->>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
     end
 end
 
@@ -160,10 +141,7 @@ describe PagesController do
     end
 
     describe 'a note ' do
-<<<<<<< HEAD
-=======
         manuscript_files = ['p.xml', 't.xml', 'br.xml', 'b.xml']
->>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
         note_files = ['notes-b.xml', 'notes-br.xml', 'notes-p.xml', 'notes-t.xml']
         for file in note_files
             doc = File.open("./lib/assets/#{file}"){

@@ -665,8 +665,6 @@ code, pre{
 
 sic{
   display: none;
-<<<<<<< HEAD
-=======
 }
 
 .milestone{
@@ -679,21 +677,13 @@ sic{
 
 #tei_wrapper{
   height: 100%;
-<<<<<<< HEAD
   overflow:scroll;
-
->>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
-=======
 }
 .divider{
   display: none;
-<<<<<<< HEAD
->>>>>>> 3133a761e76cf2d259e30041073b2efbc9638262
 }
-=======
-}
+
 .mssPanel{
 height:100px;
 overflow-y: scroll;
 }
->>>>>>> 007b8b26a13a1586ff24dac44816195c1a295a26
