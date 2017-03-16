@@ -36,7 +36,7 @@ Having successfully found its target note, the parser then pulls out the text of
 
 Note tag in the TEI gets converted into a superscript note number. Clicking on an annotation number loads, [through JavaScript](https://github.com/wludh/huon_rails/blob/master/app/assets/javascripts/sitewide/browse.js) a particular note in the left pane along with its author.
 
-In addition to the four manuscript editions, the Huon d'Auvergene Digital Edition also implements [Versioning Machine 4.0](http://v-machine.org/) so as to compare, side by side, related passages from multiple manuscripts that possess significant changes.
+In addition to the four manuscript editions, the Huon d'Auvergne Digital Edition also implements [Versioning Machine 4.0](http://v-machine.org/) so as to compare, side by side, related passages from multiple manuscripts that possess significant changes.
 
 ![versioning machine interface](/app/assets/images/versioning-machine.png)
 

@@ -687,5 +687,13 @@ sic{
 }
 .divider{
   display: none;
+<<<<<<< HEAD
 >>>>>>> 3133a761e76cf2d259e30041073b2efbc9638262
 }
+=======
+}
+.mssPanel{
+height:100px;
+overflow-y: scroll;
+}
+>>>>>>> 007b8b26a13a1586ff24dac44816195c1a295a26
