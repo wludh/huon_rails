@@ -26,6 +26,7 @@
 <!--                 | <div id="image-reveal">MS Image</div>
  -->                <div id="tei-reveal">TEI Embed</div>
                     <div id="tei-link-mobile">| <%= link_to('TEI', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %></div>
+                    <div id="all-note-reveal">| All Notes</div>
                 <hr id="reader-hr">
             </div>
 
@@ -43,7 +44,6 @@
                 <%= image_tag('kittens.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
             </div>
             <div id="tei-embed-container" class="hidden">
-            <!-- decide how this should fit into the js. because right now it's calling the div to get the text here. but that text is too dynamic so it won't get caught. -->
                 <div id="tei-embed-header"></div>
                 <div id="tei-embed" class="hidden">
                     <pre><%= @simple_tei %></pre>

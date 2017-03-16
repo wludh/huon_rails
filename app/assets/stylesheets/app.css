@@ -527,7 +527,7 @@ td{
     width: 80% !important;
   }
 
-  #diploCheckbox, #diplo-label, #image-reveal, #tei-reveal, #diplo-form{
+  #diploCheckbox, #diplo-label, #image-reveal, #tei-reveal, #diplo-form, #all-note-reveal{
     display: none !important;
   }
 
@@ -582,6 +582,7 @@ td{
   padding-top: 68px;
   width: 40%;
   height: 100%;
+  overflow: scroll;
 }
 
 #note-close{
@@ -614,7 +615,7 @@ td{
   width: 38% !important;
 }
 
-#image-reveal, #tei-reveal{
+#image-reveal, #tei-reveal, #all-note-reveal{
   display: inline;
   cursor: pointer;
   cursor: hand;
@@ -678,7 +679,13 @@ sic{
 
 #tei_wrapper{
   height: 100%;
+<<<<<<< HEAD
   overflow:scroll;
 
 >>>>>>> 0338a7b4df1a873be36e4e4ae1e231c2a57d1d5d
+=======
+}
+.divider{
+  display: none;
+>>>>>>> 3133a761e76cf2d259e30041073b2efbc9638262
 }

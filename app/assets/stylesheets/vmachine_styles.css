@@ -37,7 +37,7 @@
       max-width: 302px;
       margin: 0 auto;
    }
-  #corrCheckbox, #corr-label, #image-reveal, #tei-reveal, #corr-form{
+  #corrCheckbox, #corr-label, #image-reveal, #tei-reveal, #corr-form, #all-note-reveal{
     display: none !important;
   }
   #tei_wrapper{

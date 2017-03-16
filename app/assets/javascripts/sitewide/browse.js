@@ -42,12 +42,30 @@ console.log('ready');
         });
     });
 
+    $(function all_note_reveal(){
+        $('#all-note-reveal').click(function(){
+            hide_non_active_panels();
+            $('.note-contents note').hide();
+            $('#note-header').show();
+            var note_nums = $('sup').text().split("");
+            $.each(note_nums,function(){
+                $("note[n=" + this + "]").show();
+                $("note[n=" + this + "]").addClass('active-element');
+                $('.divider[n=' + this + "]").show();
+            });
+            $('.note-contents.hidden').show();
+            $('#side-panel').css('display', 'block');
+            open_sidepanel();
+        });
+    });
+
     function open_sidepanel(){
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
         $('#tei_wrapper').css('border-right', '1px #DDDDDD solid');
         $('.milestone').css('margin-right', '50px');
         $('#note-close').addClass('active');
+        $('#tei_wrapper').css('overflow', 'scroll');
     }
 
     function hide_image(){
@@ -95,6 +113,7 @@ console.log('ready');
            }
            $('.milestone').css('margin-right', '-50px');
            $('#note-close').removeClass('active');
+           $('#tei_wrapper').css('overflow', 'visible');
         });
     });
 
@@ -104,6 +123,7 @@ console.log('ready');
         }
         if ($('note.active-element').length > 0){
             hide_notes();
+            $('.divider').hide();
         }
         if ($('#tei-embed-header.active-element').length > 0){
             hide_tei();
@@ -112,17 +132,19 @@ console.log('ready');
 
     function page_prep(){
         // prepare the page on load
-        assign_note_numbers();
-        var current_laisse_long = $('.translation_missing').text();
-        if(current_laisse_long){
-            var re = new RegExp('[0-9]*\/');
-            var current_laisse = re.exec(current_laisse_long)[0].slice(0,-1);
-            $("#selected_laisse").val(current_laisse);
-            $("#bot_laisse").val(current_laisse);
-        }
-        else{
-            $("#selected_laisse").val(1);
-            $("#bot_laisse").val(1);
+        if (!($.isNumeric($('note[rightnum]').text()))){
+            assign_note_numbers();
+            var current_laisse_long = $('.translation_missing').text();
+            if(current_laisse_long){
+                var re = new RegExp('[0-9]*\/');
+                var current_laisse = re.exec(current_laisse_long)[0].slice(0,-1);
+                $("#selected_laisse").val(current_laisse);
+                $("#bot_laisse").val(current_laisse);
+            }
+            else{
+                $("#selected_laisse").val(1);
+                $("#bot_laisse").val(1);
+            }
         }
         hide_footer();
     }
@@ -177,7 +199,7 @@ console.log('ready');
             $('#tei-embed-header').show();
             $('#tei-embed-header').addClass('active-element');
             $('#side-panel').show();
-            $('#tei-embed-container').show();
+            $('.note-contents').css('display', 'none');
             $('#tei-embed-header').html('<img src="https://raw.githubusercontent.com/wludh/huon_rails/master/app/assets/images/ajax-loader-trans.gif" />');
             $('#tei-embed-container').css('display', 'inline');
             open_sidepanel();
