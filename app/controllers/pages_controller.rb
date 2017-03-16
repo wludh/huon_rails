@@ -241,9 +241,6 @@ class PagesController < ApplicationController
             if l.css('pb').present?
                 result += parse_pb(l)
             end
-            if l.css('milestone').present?
-                result += parse_milestone(l)
-            end
              for child in l.children 
                  if child.name == 'choice' 
                     result += parse_choice(child)
