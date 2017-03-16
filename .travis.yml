@@ -5,7 +5,7 @@ rvm:
 env:
 - DB=sqlite3
 script:
-- bundle exec rake
+- bundle exec rake --trace
 deploy:
   provider: heroku
   api_key:
