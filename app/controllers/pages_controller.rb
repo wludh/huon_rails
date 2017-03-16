@@ -133,8 +133,12 @@ class PagesController < ApplicationController
                     @type = "nil"
                 end
 
-                if note.values[1].to_s.sub(/\./, '')
-                    @xmlid = note.values[1].to_s.sub(/\./, '')
+                if note.values[0].to_s.sub(/\./, '')
+                    puts "===="
+                    puts note.values[0]
+                    puts note.values[1]
+                    puts "===="
+                    @xmlid = note.values[0].to_s.sub(/\./, '')
                 else
                     @xmlid = "nil"
                 end
