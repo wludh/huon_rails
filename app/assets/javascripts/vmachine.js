@@ -962,7 +962,7 @@ var Drag = {
    }
 };
 
-function scrollTo(identifier, ){
+function scrollTo(identifier){
   // needs to also pull in the locus number which would be
   console.log('the identifier is ' + identifier);
     var topPos = document.querySelectorAll(identifier).offsetTop;
