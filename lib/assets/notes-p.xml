@@ -634,7 +634,10 @@
                 <!-- link to other lines demonstrating this linguistic phenomenon -->
                 <note xml:id="p3799" type="edit" resp="#SPM">MS <hi rend="italic"
                     >inorie</hi>.</note>
-                <note xml:id="p3803" type="edit" resp="#SPM">MS <hi rend="italic">ubra</hi>.</note>
+                <note xml:id="p3803" type="edit" resp="#SPM">MS <hi rend="italic">ubra</hi>; <hi
+                        rend="italic">u</hi> + <hi rend="italic">n</hi> + labials occurs frequently
+                        (<hi rend="italic">unbra</hi>, v. 3821; <hi rend="italic">cunbiado</hi>, v.
+                    492; etc), so I propose the correction <hi rend="italic">u[n]bra</hi>.</note>
                 <note xml:id="p3818" type="interp" resp="#SPM">Br <hi rend="italic"
                     >graçia</hi>.</note>
                 <note xml:id="p3822" type="interp" resp="#SPM">"Olde·lla"</note>
@@ -722,6 +725,8 @@
                 <note xml:id="p4363" type="interp" resp="#SPM">Possibly <hi rend="italic"><ex
                             rend="brackets">tr</ex>aist</hi>; B 9563 s'il te traçist</note>
                 <!-- Link for line number. -->
+                <note xml:id="p4366" type="interp" resp="#SPM">"come"</note>
+                <!-- note how many times 'como' and 'con' occur -->
                 <note xml:id="p4368" type="edit" resp="scribe">MS <hi rend="italic">çascun à</hi>;
                     scribe omits <hi rend="italic">omo</hi> then adds it later in
                     superscript.</note>
@@ -927,8 +932,8 @@
                     introduce Huon's response to Guielmo's question.</note>
                 <note xml:id="p5474" type="ling" resp="#SPM">"cerchado," metathesis.</note>
                 <note xml:id="p5483" type="edit" resp="#SPM">MS <hi rend="italic">flnins</hi>; the
-                    sense of this lexeme is unclear. I propose <hi rend="hi">florins</hi> in light of
-                    the context.</note>
+                    sense of this lexeme is unclear. I propose <hi rend="hi">florins</hi> in light
+                    of the context.</note>
                 <note xml:id="p5488" type="edit" resp="#SPM">MS <hi rend="italic">Di che
                     che</hi></note>
                 <note xml:id="p5521" type="edit" resp="#SPM">MS <hi rend="italic">Braça</hi>; it
@@ -961,7 +966,8 @@
                     visible final <hi rend="italic">-in</hi>.</note>
                 <!-- type also codic -->
                 <note xml:id="p5676" type="interp" resp="#SPM">"Ponetença"</note>
-                <note xml:id="p5678" type="codic" resp="#SPM">Last folio torn; likely end of text. Cf. McCormick.</note>
+                <note xml:id="p5678" type="codic" resp="#SPM">Last folio torn; likely end of text.
+                    Cf. McCormick.</note>
                 <!-- bibliography -->
             </div>
         </body>
