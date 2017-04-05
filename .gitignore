@@ -25,3 +25,5 @@ app/views/shared/_zot_bibliography.html.erb
 # ignore simple coverage
 coverage
 public/assets
+
+.DS_Store
