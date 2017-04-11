@@ -27,3 +27,4 @@ coverage
 public/assets
 
 .DS_Store
+stuff_to_parse_in_vmachine.html

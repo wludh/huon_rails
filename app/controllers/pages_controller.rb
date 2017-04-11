@@ -178,7 +178,11 @@ class PagesController < ApplicationController
 
     def parse_tag(tag_child)
         #Takes a nodeset with no children and parses it. Must be well-formed and have no tags nested within it. ie. '<ex>word</ex>.'
-        "<#{tag_child.name}>#{tag_child.text}</#{tag_child.name}>".html_safe
+        if tag_child.attributes['rend']
+            return "<#{tag_child.name} rend=\"#{tag_child.attributes['rend'].value}\">#{tag_child.text}</#{tag_child.name}>".html_safe
+        else
+            return "<#{tag_child.name}>#{tag_child.text}</#{tag_child.name}>".html_safe
+        end
     end
 
     def parse_choice(tag_set)
@@ -241,8 +245,9 @@ class PagesController < ApplicationController
                  if child.name == 'choice' 
                     result += parse_choice(child)
                  elsif child.name == 'ex'     
-                    result += parse_tag(child) 
-                elsif ['cb', 'corr', 'rubric', 'ab', 'lb'].include? child.name
+                    result += parse_tag(child)
+                     # add any new tags in the following array.
+                elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi'].include? child.name
                     result += parse_tag(child)
                 elsif child.name == 'note'
                     result += parse_note(child, @@internal_note_counter)
@@ -254,6 +259,32 @@ class PagesController < ApplicationController
         result += "</l>"
         return result.html_safe
     end
+
+    def vmachine_import(tei_file)
+    # not implemented - stubbing out functionality for
+    # rewriting the versioning machine implementation.
+    # First get a list of the files.
+    # For each of the files in that list, pull in the TEI
+    # Get the lines you want.
+    # Reformat them to be in the format you want.
+    parsed_material = ""
+        for file in tei_files
+            tei_files = ['p.xml', 'b.xml', 't.xml', 'br.xml']
+            tag = INSERT_THE_TAG_TO_DRAW_FROM_HERE
+            @all_tags = file.css(tag)
+            file = import_tei(tei_file)        
+            @loci, @rdgs = INSERT_WAY_TO_PARSE_HERE
+            parsed_material += STUFF TO ADD
+        end
+        
+        parsed_material
+    end
+
+
+    def vmachine_parser(list_of_manuscripts)
+        
+    end
+
 
     helper_method :import_notes
     helper_method :get_all_notes

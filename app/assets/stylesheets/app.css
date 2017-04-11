@@ -686,3 +686,8 @@ sic{
 height:100px;
 overflow-y: scroll;
 }
+
+hi[rend="red-initial"]{
+  color: red;
+  font-size: 26px;
+}
