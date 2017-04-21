@@ -88,8 +88,7 @@
                         means either “tower”, “hill”, or some other type of raised spot. [...]
                         Since, furthermore, the form appears six times in this manuscript (plus one
                         as doclé), it seems unlikely to be an error each time.</quote>”</note>
-                <note xml:id="p142" type="edit" resp="#SPM">MS <hi rend="italic"
-                    >conscier</hi></note>
+                <note xml:id="p142" type="edit" resp="#SPM">"conseiller"</note>
                 <note xml:id="p164" type="ling" resp="#SPM"><hi rend="italic">torment</hi>,
                     metathesis</note>
                 <note xml:id="p169" type="edit" resp="#SPM">MS <hi rend="italic">de cuor
@@ -445,6 +444,10 @@
                     un</hi>.</note>
                 <note xml:id="p2450" type="ling" resp="#SPM">OF <hi rend="italic"
                         >alquant/auquant</hi>; rhotacism.</note>
+                <note xml:id="p2463" type="interp" resp="#SPM">Difficult to decifer; perhaps an <hi
+                        rend="italic">o</hi> correcting to a <hi rend="italic">u</hi>. Giacon here
+                    reads <hi rend="italic">bevuto</hi>, however there is no cross stroke to
+                    indicate a <hi rend="italic">t</hi>.</note>
                 <note xml:id="p2491" type="edit" resp="scribe">MS <hi rend="italic">foiie</hi>;
                     scribe corrects with superscript <hi rend="italic">a</hi> over <hi rend="italic"
                         >ii</hi>.</note>
@@ -523,7 +526,10 @@
                     scribe writes <hi rend="italic">do</hi> above the line.</note>
                 <note xml:id="p2894" type="edit" resp="#SPM">MS <hi rend="italic"
                     >cignado</hi>.</note>
-                <note xml:id="p2896" type="edit" resp="#SPM">MS <hi rend="italic">Clo</hi>.</note>
+                <note xml:id="p2896" type="edit" resp="#SPM">MS <hi rend="italic">Clo</hi>; the
+                    decorated initials <hi rend="italic">C</hi> and <hi rend="italic">E</hi> have
+                    the same form, except the latter has a cross bar. The artist forgot the cross
+                    bar on this initial.</note>
                 <note xml:id="p2918" type="edit" resp="#SPM">MS <hi rend="italic">un mio
                     mio</hi>.</note>
                 <note xml:id="p2935" type="edit" resp="scrive">Errasure after <hi rend="italic"
@@ -533,6 +539,9 @@
                 <note xml:id="p3014" type="edit" resp="#SPM">MS <hi rend="italic">L p<hi
                             rend="noitalic">er</hi></hi>.</note>
                 <note xml:id="p3030" type="codic" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p3052" type="codic" resp="#SPM">The paper is torn from vv. 3052 to
+                    3056 and transparent archival tape has been used to repare. The tape makes parts
+                    of this passage difficult to decifer. </note>
                 <note xml:id="p3075" type="edit" resp="#SPM">MS <hi rend="italic">llo</hi>.</note>
                 <note xml:id="p3077" type="edit" resp="#SPM">MS <hi rend="italic">Qusto</hi>.</note>
                 <note xml:id="p3122" type="codic" resp="#SPM">Space for illumination.</note>
@@ -632,8 +641,11 @@
                     this correction suggests that the scribe attempts to normalize his language,
                     avoiding the voicing of predental plosives.</note>
                 <!-- link to other lines demonstrating this linguistic phenomenon -->
-                <note xml:id="p3799" type="edit" resp="#SPM">MS <hi rend="italic"
-                    >inorie</hi>.</note>
+                <note xml:id="p3799" type="interp" resp="#SPM">The <hi rend="italic">d</hi> appears
+                    to be an <hi rend="italic">o</hi>, but after manuscript consulation, it is clear
+                    that this letter is not formed with the typical two strokes the scribe uses to
+                    form the letter <hi rend="italic">o</hi>. Although the descender is missing, the
+                    bow is consistent with the letter <hi rend="italic">d</hi> elsewhere. </note>
                 <note xml:id="p3803" type="edit" resp="#SPM">MS <hi rend="italic">ubra</hi>; <hi
                         rend="italic">u</hi> + <hi rend="italic">n</hi> + labials occurs frequently
                         (<hi rend="italic">unbra</hi>, v. 3821; <hi rend="italic">cunbiado</hi>, v.
@@ -685,9 +697,9 @@
                     >contil</hi>.</note>
                 <note xml:id="p4155.1" type="edit" resp="scribe">MS <hi rend="italic"
                     >Chen</hi>.</note>
-                <note xml:id="p4155.2" type="edit" resp="scribe">MS <hi rend="italic">ll</hi>;
-                    scrive corrects second <hi rend="italic">l</hi> to an <hi rend="italic"
-                    >e</hi>.</note>
+                <note xml:id="p4155.2" type="edit" resp="scribe">MS <hi rend="italic">ll</hi>; it
+                    appears as if the scribe corrects the second <hi rend="italic">l</hi> to an <hi
+                        rend="italic">e</hi>.</note>
                 <note xml:id="p4157" type="edit" resp="scribe">MS <hi rend="italic">pass</hi>;
                     scribal correction, superscript <hi rend="italic">i</hi>.</note>
                 <note xml:id="p4169" type="edit" resp="#SPM">MS <hi rend="italic">pugal</hi>.</note>
@@ -761,6 +773,11 @@
                         signa, e questo dix'elo alora</hi>; the order of this sentence must be
                     altered to make sense, as read in B 9766</note>
                 <!-- Cite B; link for line number. -->
+                <note xml:id="p4559" type="edit" resp="#SPM">MS <ex rend="italic">mo<ex
+                            rend="noitalic">r</ex>neti</ex>; the scribe may have attempted to
+                    correct here with the abbreviation for <hi rend="italic">r</hi>; from the
+                    context however <hi rend="italic">morti</hi> is clearly what was
+                    intended.</note>
                 <note xml:id="p4575" type="edit" resp="#SPM">MS <hi rend="italic">dur</hi>; Br <hi
                         rend="italic">Poi qoi Guliaume por conduit le rova</hi></note>
                 <note xml:id="p4579" type="edit" resp="#SPM">MS <hi rend="italic">detosto
@@ -920,7 +937,14 @@
                 <note xml:id="p5440" type="edit" resp="scribe">MS <hi rend="italic"><hi
                             rend="strike">alle</hi>nello</hi>; scrial correction, <hi rend="italic"
                         >alle</hi> struck through</note>
-                <note xml:id="p5444" type="edit" resp="#SPM">MS <hi rend="italic">Quasto</hi></note>
+                <note xml:id="p5444" type="edit" resp="#SPM"><hi rend="italic">Quasto</hi> ? The
+                    scribe began to write <hi rend="italic">a</hi>, then traced an <hi rend="italic"
+                        >i</hi> in with a double stroke so it is darker. This is likely an <hi
+                        rend="italic">i</hi> since it has a hairline dot, as other forms for the
+                    letter <hi rend="italic">i</hi> have. The form <hi rend="italic">quisto</hi> is
+                    consistent with vowel harmonization elsewhere in the manuscript; cf. in
+                    particular vv. 4609 & 4876.</note>
+                <!-- tag line reference -->
                 <note xml:id="p5445" type="edit" resp="#SPM">MS <hi rend="italic">Qusto</hi></note>
                 <note xml:id="p5453" type="edit" resp="#SPM">MS <hi rend="italic"
                     >lolatrbuto</hi></note>

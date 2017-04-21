@@ -284,7 +284,7 @@
                     </choice><note xml:id="p64.1"/>
                     <choice>
                         <sic>comaderé</sic>
-                        <corr cert="medium" resp="#SPM">coma<ex rend="brackets">n</ex>nderé</corr>
+                        <corr cert="medium" resp="#SPM">coma<ex rend="brackets">n</ex>deré</corr>
                     </choice>,<note xml:id="p64.2"/> farò de prexant.”</l>
                 <l n="65">Dixe la duchexa, “Or t’en va sença arestamant</l>
                 <l n="66">E non parlar a nesuna p<ex rend="italic">er</ex>sona vivant:</l>
@@ -375,8 +375,7 @@
                 <l n="139">Quando ello saverà lo mortal ingonbrer,</l>
                 <l n="140">Çà, p<ex rend="italic">er</ex> aver, no ve porà tanser</l>
                 <l n="141">Se tanto n’avissi che non se podesse conter;</l>
-                <l n="142">Mo, s’el ve plasse, io vel voio cons<corr cert="medium" resp="#SPM"
-                        >e</corr>ier<note xml:id="p142"/></l>
+                <l n="142">Mo, s’el ve plasse, io vel voio conscier<note xml:id="p142"/></l>
                 <l n="143">Ch’el mio voler non dibié stratorner.”</l>
                 <l n="144"><milestone n="4R" unit="fol."/>Quando Ugo l’intende, no à i que
                     coroçer,</l>
@@ -761,7 +760,7 @@
                 <l n="415">Ugo d’Avernia io son apelé.”</l>
                 <l n="416">Disse Gualtier, “Io te cognoso asen,</l>
                 <l n="417">Ché to pare alcixe lo mio soto Paris al pré.”</l>
-                <l n="418">Quando Ugo l’intende, tuto fo smarie;</l>
+                <l n="418">Quando Ugo l’intende, tuto fo smarié;</l>
                 <l n="419">Davanti el castelan el fo incenoglé</l>
                 <l n="420">E si·lli querì marçé e pieté:</l>
                 <l n="421">“Marçé seré p<ex rend="italic">er</ex> amor nostro <choice>
@@ -1216,8 +1215,9 @@
                 <l n="752">Incontrà lu va li grandi e·lli menu.</l>
                 <l n="753">Quando Carlo lo vete, si·ll'à raxom metu,</l>
                 <l n="754">"Bel fio," dit ell, "che novele ài tu?</l>
-                <l n="755">O' è vostro conpagno Ugo e <sic>anigo</sic><corr cert="medium" resp="#SPM"
-                            >a<ex rend="italic">m</ex>igo</corr><note xml:id="p755"/> e dru?"</l>
+                <l n="755">O' è vostro conpagno Ugo e <sic>anigo</sic><corr cert="medium"
+                        resp="#SPM">a<ex rend="italic">m</ex>igo</corr><note xml:id="p755"/> e
+                    dru?"</l>
                 <l n="756">Disse Sangui<ex rend="italic">n</ex>, "Siere, or foss'ello apendu<note
                         xml:id="p756"/></l>
                 <l n="757">Sour doi forche ligado e co<ex rend="italic">n</ex>fundu!</l>
@@ -1497,7 +1497,7 @@
                 <l n="988"><hi rend="red-initial">Q</hi>uando San<ex rend="italic">guin</ex> à ben
                     ascolté</l>
                 <l n="989">Çò che Ugo li à dito e derasné,</l>
-                <l n="990">Enfra ell so cuer el s'à p<ex rend="italic">er</ex>pense</l>
+                <l n="990">Enfra ell so cuer el s'à p<ex rend="italic">er</ex>pensé</l>
                 <l n="991">Tuto lo fato cun elo à devissé.</l>
                 <l n="992">A Ugo parlò belamente e soé:</l>
                 <l n="993"><milestone n="21R" unit="fol."/>“Conpagnon," diss'ello, "io sun vostro
@@ -1565,7 +1565,8 @@
                 <l n="1043">Chomo Sanguy<ex rend="italic">n</ex> li vorave parlere.</l>
                 <l n="1044">Quando Ugo l’intende, <choice>
                         <sic>se presse mereveiere</sic>
-                        <corr cert="medium" resp="#SPM">se presse <ex rend="brackets">a</ex> mereveiere</corr>
+                        <corr cert="medium" resp="#SPM">se presse <ex rend="brackets">a</ex>
+                            mereveiere</corr>
                     </choice>;<note xml:id="p1044"/></l>
                 <l n="1045"><milestone n="22R" unit="fol."/>El non volsse longamente tardere,</l>
                 <l n="1046">Vene a la porta o' San<ex rend="italic">guin</ex> ave trovere.</l>
@@ -2230,7 +2231,7 @@
                 <l n="1553">Asé lì·sson vegnu de çoveni e de antie.</l>
                 <l n="1554">Çascun menà so dona, p<ex rend="italic">er</ex> la corte <choice>
                         <sic>so</sic>
-                        <corr cert="medium" resp="#SPM"><ex>f</ex>o</corr>
+                        <corr cert="medium" resp="#SPM"><ex rend="brackets">f</ex>o</corr>
                     </choice><note xml:id="p1554"/> andie,</l>
                 <l n="1555">Ugo d'Avernia si menà la soe,</l>
                 <l n="1556">Unde el fè una gran folie,</l>
@@ -3231,8 +3232,9 @@
                 <l n="2297">Or <choice>
                         <sic>perdermo</sic>
                         <corr cert="medium" resp="#SPM">p<ex rend="brackets">re</ex><ex
-                                rend="italic">n</ex>dermo</corr>
+                                rend="italic">n</ex>demo</corr>
                     </choice><note xml:id="p22979"/> le arme e·l guarnians,</l>
+                <!-- dell -->
                 <l n="2298">Si ensiremo fuora al tor<ex rend="italic">n</ex>iamans."</l>
                 <l n="2299">Elo responde, "Vui parlé saviamans!"</l>
                 <l n="2300">Chi <choice>
@@ -3455,7 +3457,8 @@
             </lg>
             <lg type="laisse" n="79">
                 <head>Laisse 79</head>
-                <l n="2463"><hi rend="red-initial">Q</hi>uando Ugo à mançà e bevu</l>
+                <l n="2463"><hi rend="red-initial">Q</hi>uando Ugo à mançà e bevu<note
+                        xml:id="p2463"/></l>
                 <l n="2464">Grazia rende all'alto Jexhu.</l>
                 <l n="2465">El se levà e non demorà plu</l>
                 <l n="2466">E quela cente che iera fuçi da lu</l>
@@ -4293,7 +4296,7 @@
                 <l n="3049">E p<ex rend="italic">er</ex> aver guadegnado de tal salu</l>
                 <l n="3050">E p<ex rend="italic">er</ex> gran çoia in pugna li rami foiu,</l>
                 <l n="3051">Contra lui coreno li grandi e·lli menu</l>
-                <l n="3052">E domandano, "Che novele à tu?"</l>
+                <l n="3052">E domandano, "Che novele à tu?"<note xml:id="p3052"/></l>
                 <l n="3053">Quando el responde çascuo sta mu</l>
                 <l n="3054">P<ex rend="italic">er</ex> oldir çò ch'eli à voia ...</l>
                 <l n="3055">Cossì avene quando le <num>.III.</num> fo vegnu</l>
@@ -4859,7 +4862,7 @@
                 <l n="3459">Homo ni femena se no erbe florie,</l>
                 <l n="3460">Li gran boscaci, la tera, e li ramie</l>
                 <l n="3461">O' criature no prende habitarie;</l>
-                <l n="3462">Fruto no·sse trova, no lì nasse ne gran ni ble.</l>
+                <l n="3462">Fruto no·sse trova, no lì nasse ne gran ni blé.</l>
                 <l n="3463">Lo lial conte o' no è ponto de boxie</l>
                 <l n="3464">Ni inver algun homo no ama luxengerie,</l>
                 <l n="3465">La nave piçola che fo candiani e grie</l>
@@ -5046,8 +5049,8 @@
                 <l n="3594">In questo des<ex rend="italic">er</ex>to voio far penetançe."</l>
                 <l n="3595">Alora montà a cavallo, de·llà fè despartançe.</l>
                 <l n="3596">Una aqua trovà de fiera senblançe,</l>
-                <l n="3597">No è plui largo el <geogFeat type="river">Roine</geogFeat> i<ex rend="italic"
-                        >n</ex>
+                <l n="3597">No è plui largo el <geogFeat type="river">Roine</geogFeat> i<ex
+                        rend="italic">n</ex>
                     <placeName type="region">P<ex rend="italic">r</ex>uançe</placeName>.</l>
                 <l n="3598"><milestone n="74R" unit="fol."/>O li fose grado o no li atalançe,</l>
                 <l n="3599">Passar li convene del flume la fiera brançe.</l>
@@ -5056,8 +5059,9 @@
                 <l n="3602">Intorno lui guardà plen de pasiençe,</l>
                 <l n="3603">Non vete sentier che·l menà ad abitançe.</l>
                 <l n="3604">"Dio," dixe lo conte, "or sson in lla sentançe,</l>
-                <l n="3605">P<ex rend="italic">er</ex> fuciere in <placeName type="country">Alomagna</placeName>
-                    sun intrà in <placeName type="city">Costançe</placeName>."</l>
+                <l n="3605">P<ex rend="italic">er</ex> fuciere in <placeName type="country"
+                        >Alomagna</placeName> sun intrà in <placeName type="city"
+                        >Costançe</placeName>."</l>
             </lg>
             <lg type="laisse" n="135">
                 <head>Laisse 135</head>
@@ -5274,10 +5278,12 @@
                     </choice><note xml:id="p3760"/> e·lli mogne</l>
                 <l n="3761">Che per li so gran pecadi lo cielo da lor s'eslog<ex rend="italic"
                         >n</ex>e</l>
-                <l n="3762">Là poré tu cognos<ex rend="italic">er</ex> e de
-                        <placeName type="country">France</placeName> e de <placeName type="region">Borcogne</placeName>,</l>
+                <l n="3762">Là poré tu cognos<ex rend="italic">er</ex> e de <placeName
+                        type="country">France</placeName> e de <placeName type="region"
+                        >Borcogne</placeName>,</l>
                 <l n="3763">Çente de diverssi guisse d'<placeName type="region">Alv<ex rend="italic"
-                        >er</ex>gna</placeName> e de <placeName type="region">Guascogne</placeName>."</l>
+                            >er</ex>gna</placeName> e de <placeName type="region"
+                        >Guascogne</placeName>."</l>
                 <l n="3764">Quando lo conte l'intende, si dixe, "Jà Dio non degne</l>
                 <l n="3765">Che tal <ex rend="italic">con</ex>pagno<ex rend="italic">n</ex> abia in
                     questa besogna."</l>
@@ -5286,7 +5292,10 @@
                 <head>Laisse 141</head>
                 <l n="3766"><hi rend="red-initial">A</hi>llora dixe lo falsso agnolo, "Dì-me, che
                     faras?</l>
-                <l n="3767">P<ex rend="italic">er</ex>ché v(e) tu duncha çò che no oseras?"</l>
+                <l n="3767">P<ex rend="italic">er</ex>ché ve tu duncha çò che no oseras?"</l>
+                <!-- ve tu is problematic; after manuscript consultation, it is clear the e 
+                    is incorrect; the letter has a ligature to the following t, similar to 
+                    the st ligature, and a line was added to extend the letter below the line.  -->
                 <l n="3768">"Io apeterò," dixe lo conte, "oltro spirito plui veras</l>
                 <l n="3769">Vignerà p<ex rend="italic">er</ex> mi secorere, ça tu no<ex
                         rend="italic">n</ex> devigneras,</l>
@@ -5335,10 +5344,7 @@
                 <l n="3797"><milestone n="78R" unit="fol."/>Tuto cussì fè lo spirito sença p<ex
                         rend="italic">er</ex>don;</l>
                 <l n="3798">Se despartì dal conte a baxa frum,</l>
-                <l n="3799"><choice>
-                        <sic>Inorie</sic>
-                        <corr cert="medium" resp="#SPM">In<ex rend="brackets">d</ex>rié</corr>
-                    </choice><note xml:id="p3799"/> s'en tornà ver la eterna p<ex rend="italic"
+                <l n="3799">Indrié<note xml:id="p3799"/> s'en tornà ver la eterna p<ex rend="italic"
                         >ri</ex>xon.</l>
                 <l n="3800">Ananci ch'el s'à longasté lo trar de un bolçon,</l>
                 <l n="3801">Cussì soleto cun lovo esse del boscon,</l>
@@ -5377,7 +5383,7 @@
                 <l n="3827">E guarda che non ssi' della falsa masnee</l>
                 <l n="3828">Che p<ex rend="italic">er</ex> invidia fo del ciel trabuçé."</l>
                 <l n="3829">"Non sson," diss'ello, "ma ben de la danee</l>
-                <l n="3830">Çente che no era al batexemo née.</l>
+                <l n="3830">Çente che no era al batexemo nee.</l>
                 <l n="3831">Anci che de peçà fosse in la Verçene umbree,</l>
                 <l n="3832">De molto gran tenpo era mia carne poree,</l>
                 <l n="3833">Che se io avesse de quella aqua toçee</l>
@@ -5417,8 +5423,8 @@
                 <l n="3856">E fossi vivant in lo regno perdu</l>
                 <l n="3857">Segondo che mostra lo bun Vergiliu?</l>
                 <l n="3858">Ai Eneas, se tu avessi crehu</l>
-                <l n="3859">In lo fiol de <persName type="deity">Dio</persName> che de
-                        <persName type="deity">Vergene</persName> fu,</l>
+                <l n="3859">In lo fiol de <persName type="deity">Dio</persName> che de <persName
+                        type="deity">Vergene</persName> fu,</l>
                 <!-- Will we count God, Mary, etc. as persName? -->
                 <l n="3860">Io me renderave a ti p<ex rend="italic">er</ex> amor de lu,</l>
                 <l n="3861">Ché tu avessi marcé de la mia salu."</l>
@@ -5486,15 +5492,16 @@
                 <l n="3909">E ti ch'è cun lor de plui posançe,</l>
                 <l n="3910">No·llì vuol vegnir! Unde vien sta costumance?</l>
                 <l n="3911">De ti me pressa ch'io te veço in balançe;</l>
-                <l n="3912">Pecado fessi quando te partisti de <placeName type="country">Françe</placeName>,</l>
+                <l n="3912">Pecado fessi quando te partisti de <placeName type="country"
+                        >Françe</placeName>,</l>
                 <l n="3913">Che fè ad altrui doler de la toa mescheançe."</l>
             </lg>
             <lg type="laisse" n="147">
                 <head>Laisse 147</head>
                 <l n="3914"><hi rend="red-initial">D</hi>e queste parlar lo <ex rend="italic"
                         >con</ex>te Ugo m<ex rend="italic">er</ex>cie,</l>
-                <l n="3915">Lo fiol <persName type="classic">Anchixes</persName> che p<ex rend="italic">er</ex> lui
-                    atendre</l>
+                <l n="3915">Lo fiol <persName type="classic">Anchixes</persName> che p<ex
+                        rend="italic">er</ex> lui atendre</l>
                 <l n="3916">Puo reguardà inver destra partie.</l>
                 <l n="3917"><milestone n="80V" unit="fol."/>D'una fontana unde l'aqua è <choice>
                         <sic>sartie</sic>
@@ -5509,17 +5516,18 @@
                 <l n="3924">Lo capiron del floc drié le spale li plie.</l>
                 <l n="3925">Dreto i<ex rend="italic">n</ex>ver lo conte à soa via colie</l>
                 <l n="3926">Le cie baxe e cun le cera pie.</l>
-                <l n="3927">Qua<ex rend="italic">n</ex>do <persName type="classic">Eneas</persName> lo vete, si·sse
-                        i<ex rend="italic">n</ex>cenochioe e crie:</l>
+                <l n="3927">Qua<ex rend="italic">n</ex>do <persName type="classic">Eneas</persName>
+                    lo vete, si·sse i<ex rend="italic">n</ex>cenochioe e crie:</l>
                 <l n="3928">"No me vuol creder costu p<ex rend="italic">er</ex> blanderie,</l>
                 <l n="3929">P<ex rend="italic">er</ex>ché io non son en la to conpagnie</l>
                 <l n="3930">O' li profeta son cun <persName type="biblic">Jeremie</persName>."</l>
                 <l n="3931">Lo bun spirito responde, "No<ex rend="italic">n</ex> laserò mie,</l>
-                <l n="3932">Chon lui serò da parte del fiol sante <persName type="deity">Marie</persName></l>
+                <l n="3932">Chon lui serò da parte del fiol sante <persName type="deity"
+                        >Marie</persName></l>
                 <l n="3933">Davanti colui che mai non averà remie</l>
                 <l n="3934">E che de ciel trabucà p<ex rend="italic">er</ex> invie."</l>
-                <l n="3935">Lo conte d'<placeName type="region">Avernia</placeName> alora co<ex rend="italic"
-                        >n</ex>tra lie</l>
+                <l n="3935">Lo conte d'<placeName type="region">Avernia</placeName> alora co<ex
+                        rend="italic">n</ex>tra lie</l>
                 <l n="3936">S'ençenochià quando la parola à oldie.</l>
             </lg>
             <lg type="laisse" n="148">
@@ -5569,13 +5577,14 @@
                 <l n="3966">Tanto ài provado vui el vostro valor</l>
                 <l n="3967">Che p<ex rend="italic">er</ex> lo pecador si' movesto a dolçor."</l>
                 <l n="3968">Puo à dito al spirito mio<ex rend="italic">r</ex>:</l>
-                <l n="3969"><milestone n="81V" unit="fol."/>"Çentil <persName type="epic">Guielmo</persName>,
-                    che de Dio pugnador</l>
+                <l n="3969"><milestone n="81V" unit="fol."/>"Çentil <persName type="epic"
+                        >Guielmo</persName>, che de Dio pugnador</l>
                 <l n="3970">Foxi in toa vita, ti e to ancissor,</l>
                 <l n="3971">Che per Dio sostignisse plui langor</l>
                 <l n="3972">De homo de terra ver la cente paenor,</l>
                 <l n="3973">Çamai no assi ni termene ni seor</l>
-                <l n="3974">Dentro in <placeName type="city">Orenga</placeName>, ni toa çentil moier uxor,</l>
+                <l n="3974">Dentro in <placeName type="city">Orenga</placeName>, ni toa çentil moier
+                    uxor,</l>
                 <l n="3975">Unde tu è desseso de la gloria <choice>
                         <sic>mio</sic>
                         <corr cert="medium" resp="#SPM">mio<ex rend="brackets">r</ex></corr>
@@ -5706,7 +5715,8 @@
             <lg type="laisse" n="153">
                 <head>Laisse 153</head>
                 <l n="4069"><hi rend="blue-initial">L</hi>o conte s'arestà a la parola scure,</l>
-                <l n="4070">Et <persName type="classic">Eneas</persName> dixe, "Duncha è queste le mure</l>
+                <l n="4070">Et <persName type="classic">Eneas</persName> dixe, "Duncha è queste le
+                    mure</l>
                 <l n="4071">Che sera la çente che tuto tenpo pene durer."</l>
                 <l n="4072">Dixe lo Trojam, "Guarda quela figure<note xml:id="p4072"/></l>
                 <l n="4073">Sovra quela porta dalla via futurer.</l>
@@ -5724,15 +5734,18 @@
                 <l n="4082"><hi rend="red-initial">D</hi>isse Ugo, "Vien elo a dir p<ex
                         rend="italic">er</ex> moi?</l>
                 <l n="4083">Intrar non li voio, se mai insir no<ex rend="italic">n</ex> doi."</l>
-                <l n="4084">Responde <persName type="classic">Eneas</persName>, "Algun non à poder sovra toi.</l>
+                <l n="4084">Responde <persName type="classic">Eneas</persName>, "Algun non à poder
+                    sovra toi.</l>
                 <l n="4085">Plaxess'elo a Dio quando sença nul i<ex rend="italic">n</ex>noi</l>
                 <l n="4086">T'en torneras, io ne inssisse a quela fois!"</l>
-                <l n="4087">Alora dixe <persName type="epic">Guielmo</persName>, "Varda se tu voi,</l>
+                <l n="4087">Alora dixe <persName type="epic">Guielmo</persName>, "Varda se tu
+                    voi,</l>
                 <l n="4088">Quela alta porta à quel dragon vermoi</l>
                 <l n="4089">Incoronado a guixa d'un roi.</l>
                 <l n="4090"><milestone n="84R" unit="fol."/>P<ex rend="italic">er</ex> quela porta
                     entra queli de la loi</l>
-                <l n="4091">Che in Jexhu<ex rend="italic">n</ex> <ex rend="italic">Crist</ex>o non ave ne amor ne foi</l>
+                <l n="4091">Che in Jexhu<ex rend="italic">n</ex>
+                    <ex rend="italic">Crist</ex>o non ave ne amor ne foi</l>
                 <l n="4092">E che·l meteno en croxe al voler soi</l>
                 <l n="4093">Che aspeteno lo messaço sacroi:</l>
                 <l n="4094">Çò è el Mexia che nasserà contra la loi.</l>
@@ -5752,11 +5765,11 @@
                 <l n="4104">Plui larga e alta e de maçor intragne."</l>
                 <l n="4105">"P<ex rend="italic">er</ex> quela porta o' tu ve quela insagne,"</l>
                 <l n="4106">Dixe san Guielmo, "I<ex rend="italic">n</ex>tra la cente magne</l>
-                <l n="4107"><milestone n="84V" unit="fol."/>Che <persName type="deity">Jexhu <ex rend="italic"
-                            >Crist</ex>o</persName> ny <persName type="biblic">Moisès</persName> no<ex
-                        rend="italic">n</ex> dagne,</l>
-                <l n="4108">Serveno a <persName type="deity">Macu<ex rend="italic">n</ex></persName> chi a morir
-                        l'i<ex rend="italic">n</ex>sagne."</l>
+                <l n="4107"><milestone n="84V" unit="fol."/>Che <persName type="deity">Jexhu <ex
+                            rend="italic">Crist</ex>o</persName> ny <persName type="biblic"
+                        >Moisès</persName> no<ex rend="italic">n</ex> dagne,</l>
+                <l n="4108">Serveno a <persName type="deity">Macu<ex rend="italic">n</ex></persName>
+                    chi a morir l'i<ex rend="italic">n</ex>sagne."</l>
                 <l n="4109">"Dolçe guida," dixe Ugo lo magne,</l>
                 <l n="4110">"Questa porta che de menor intragne</l>
                 <l n="4111">O' è la imagnine della spada straine,</l>
@@ -5798,9 +5811,10 @@
                 <l n="4136">Oe posso trovar de queli ch'io conois</l>
                 <!-- Correct Oe to Ove? -->
                 <l n="4137">Che ènono danadi i<ex rend="italic">n</ex> lo regno regnois."</l>
-                <l n="4138">"Asé li à," dixe lo spirito, "<persName type="classic">Grixois</persName>,</l>
-                <l n="4139">Sicomo io creço, <persName type="europe">Alemani</persName> e
-                        <persName type="europe">Francois</persName>."</l>
+                <l n="4138">"Asé li à," dixe lo spirito, "<persName type="classic"
+                        >Grixois</persName>,</l>
+                <l n="4139">Sicomo io creço, <persName type="europe">Alemani</persName> e <persName
+                        type="europe">Francois</persName>."</l>
                 <l n="4140">Lo santo dixe, "Io avanti m'en vois,</l>
                 <l n="4141">Como lo sol fa desglaçar la nois</l>
                 <l n="4142">Ch'el non aprixia so fredo ni·sso bufois,</l>
@@ -5923,7 +5937,8 @@
                         <sic>sentiecia</sic>
                         <corr cert="medium" resp="#SPM">sentie<ex rend="brackets">n</ex>cia</corr>
                     </choice><note xml:id="p4216"/> fiore,</l>
-                <l n="4217">Avanti se mete p<ex rend="italic">er</ex><ex rend="italic">irit</ex> la larga chariere</l>
+                <l n="4217">Avanti se mete p<ex rend="italic">er</ex><ex rend="italic">irit</ex> la
+                    larga chariere</l>
                 <l n="4218">Lo conte Ugo con spauroxa ciere;</l>
                 <l n="4219">Lo primo spo à messo dariere.</l>
                 <l n="4220">Dixe lo bu<ex rend="italic">n</ex> santo che iera a la frontiere:</l>
@@ -6121,17 +6136,19 @@
                 <l n="4363">Dixe lo spirito, "Partite! S'el te aist,<note xml:id="p4363"/></l>
                 <l n="4364">Lo mangano che a çascun paura mist;</l>
                 <l n="4365">Dolente serav'io se niente te ofendist."</l>
-                <l n="4366">Lo conte lo guardà, como el là è, co<ex rend="italic">n</ex><note xml:id="p4366"/> el
-                    gist,</l>
+                <l n="4366">Lo conte lo guardà, como el là è, co<ex rend="italic">n</ex><note
+                        xml:id="p4366"/> el gist,</l>
                 <l n="4367">D'un Evangelio le parole li dist:</l>
                 <l n="4368">Che segnodo le ovre <choice>
                         <sic>çascun à</sic>
-                        <corr cert="high" resp="#scribe">çascun <add place="above">omo</add> à</corr>
+                        <corr cert="high" resp="#scribe">çascun <add place="above">omo</add>
+                            à</corr>
                     </choice><note xml:id="p4368"/> beneist.</l>
                 <l n="4369">Al partir una piera desist</l>
                 <l n="4370">Unde triema tuti li danadi trist,</l>
                 <l n="4371">Como çascun p<ex rend="italic">er</ex> troin s'esmaust</l>
-                <l n="4372">E si se segna e clama <persName type="deity">Jexhum Crist</persName>.</l>
+                <l n="4372">E si se segna e clama <persName type="deity">Jexhum
+                    Crist</persName>.</l>
                 <l n="4373"><milestone n="90R" unit="fol."/>Chossì se çeteno a tera queli del fango
                     rubist,</l>
                 <l n="4374">Biastemando Dio lor pare e lo Batist,</l>
@@ -6210,8 +6227,8 @@
                 <l n="4433">Quando queli se n'avete, camai<note xml:id="p4433"/> no<ex rend="italic"
                         >n</ex> fo astor</l>
                 <l n="4434">Che si tosto dessendesse inver quelo che fa clamor,</l>
-                <l n="4435">Como in la nave de <persName type="classic">Caron</persName> i<ex rend="italic"
-                    >n</ex>trava queli pecador.</l>
+                <l n="4435">Como in la nave de <persName type="classic">Caron</persName> i<ex
+                        rend="italic">n</ex>trava queli pecador.</l>
                 <l n="4436">Como piegore che fuçe p<ex rend="italic">er</ex> pauor</l>
                 <l n="4437">E çà e·llà davanti per la ira del pastor,</l>
                 <l n="4438">Prenderia via e·llassa la mior,</l>
@@ -6240,12 +6257,13 @@
                 <!-- tuò-te? tuo'-te? -->
                 <l n="4453">Nui non dovemo trapaser da quel lés.</l>
                 <l n="4454">Costù è qua p<ex rend="italic">er</ex> sola volontés</l>
-                <l n="4455">De quelo <persName type="deity">P<ex rend="italic">er</ex></persName> chi p<ex
-                        rend="italic">er</ex>dixi la clarité."</l>
+                <l n="4455">De quelo <persName type="deity">P<ex rend="italic">er</ex></persName>
+                    chi p<ex rend="italic">er</ex>dixi la clarité."</l>
                 <l n="4456">Sicomo femena che à fatto rio marçés,</l>
                 <l n="4457">Se ve' blaxemar sol de la veritadés</l>
                 <l n="4458">Che del responder non à voller ni flés,</l>
-                <l n="4459">Si fè <persName type="classic">Caron</persName> quando del cielo el fo ranpognés</l>
+                <l n="4459">Si fè <persName type="classic">Caron</persName> quando del cielo el fo
+                    ranpognés</l>
                 <l n="4460">Della biastema, quando del cielo fo caçés;</l>
                 <l n="4461">Cossì s'en va co<ex rend="italic">n</ex> homo sbaratés.</l>
                 <l n="4462">Sul porto fo a quel pu<ex rend="italic">n</ex>t arivés</l>
@@ -6257,18 +6275,21 @@
                 <l n="4468">Li spiriti sun in lo flume rués.</l>
                 <l n="4469">Serpenti e vermi lì era a <choice>
                         <sic>paltes</sic>
-                        <corr cert="medium" resp="#SPM">p<ex rend="brackets">l</ex>a<ex
+                        <corr cert="medium" resp="#SPM">p<ex rend="brackets">la</ex><ex
                                 rend="italic">n</ex>tés</corr>
                     </choice><note xml:id="p4469"/>,</l>
+                <!-- check paltes with B and T -->
                 <l n="4470">Li inglotiva si·llì n'à<ex rend="italic">n</ex> portés.</l>
                 <!-- si·lli·n àn portés? si·lli van portés? Br si les n'ont portés -->
                 <l n="4471">Lo galliot <persName type="classic">Caron</persName> se ne tornés</l>
                 <l n="4472">Chussì aliegro como quelo che à vento da li dés.<note xml:id="p4472"
                     /></l>
-                <l n="4473">Quelo che tien l'arco a <persName type="epic">Guielmo</persName> esguardés:</l>
+                <l n="4473">Quelo che tien l'arco a <persName type="epic">Guielmo</persName>
+                    esguardés:</l>
                 <l n="4474">"E vui chi·ssi' che tal clarités rendés?</l>
                 <l n="4475">Mior pan cha de formento querés</l>
-                <l n="4476">E ti de·llà che fossi de <placeName type="city">Troia</placeName> nés,</l>
+                <l n="4476">E ti de·llà che fossi de <placeName type="city">Troia</placeName>
+                    nés,</l>
                 <l n="4477">Un de queli fossi che tradixi la cités</l>
                 <l n="4478">O' tanti prodomini fo desartés;</l>
                 <l n="4479">Vençar li voio poch'io t'ò trovés.</l>
@@ -6297,8 +6318,8 @@
                 <l n="4496">Mo lo bon santo cunforto li apaire,</l>
                 <l n="4497">Et Eneas la paura cuntrarie:</l>
                 <l n="4498">"Amigo," dix'elo, "questo fiol d'alversaire</l>
-                <l n="4499">Fo morto a <placeName type="city">Troia</placeName> sicomo re<ex rend="italic"
-                        >con</ex>ta <persName type="classic">Daire</persName>,</l>
+                <l n="4499">Fo morto a <placeName type="city">Troia</placeName> sicomo re<ex
+                        rend="italic">con</ex>ta <persName type="classic">Daire</persName>,</l>
                 <l n="4500">In questo inferno non à·lo altro afare</l>
                 <l n="4501">Ni oltra pena se no de corere e traiere,</l>
                 <l n="4502">E fier le aneme che son in lo scuro aire."</l>
@@ -6358,8 +6379,8 @@
                 <l n="4541">Sagita d'argo si tosto no se descloit,</l>
                 <l n="4542">Ni alguna cexila quando la porta convoit,</l>
                 <l n="4543">Chomo collui passa lo dolloroxo destroit.</l>
-                <l n="4544">Anci ch'è armadi, over arivasse <persName type="classic">Caro<ex rend="italic"
-                        >n</ex></persName> o' el devoit,</l>
+                <l n="4544">Anci ch'è armadi, over arivasse <persName type="classic">Caro<ex
+                            rend="italic">n</ex></persName> o' el devoit,</l>
                 <l n="4545"><milestone n="93V" unit="fol."/>Lo vi<ex rend="italic">n</ex> li porta
                     che in un vasel estoit.</l>
             </lg>
@@ -6368,15 +6389,16 @@
                 <l n="4546">"<hi rend="red-initial">B</hi>evi de questo vin," dixe colui che·l
                     portà.</l>
                 <l n="4547">Ello lo prexe, ver Guielmo guardà,</l>
-                <l n="4548"><choice>
-                        <corr cert="medium" resp="#SPM">"Seguramente," <ex rend="brackets">questo
+                <l n="4548"><choice><sic>Seguramente puo lo signa, e questo dix'elo alora</sic>
+                        <corr cert="medium" resp="#SPM">"Seguramente," <ex rend="brackets">e questo
                                 dix'elo alora, puo lo signà</ex></corr>
                     </choice><note xml:id="p4548"/>,</l>
                 <l n="4549">Cholui ne beve tanto ch'el se sadolà,</l>
                 <l n="4550">De lui medieximo al baron recordà</l>
-                <l n="4551">Che in <placeName type="region">Alvernia</placeName> su lo·sso pallaço lassà,</l>
-                <l n="4552">Dixe a <persName type="epic">G<ex rend="italic">uielmo</ex></persName>, "Che
-                    meraveia qui hà!</l>
+                <l n="4551">Che in <placeName type="region">Alvernia</placeName> su lo·sso pallaço
+                    lassà,</l>
+                <l n="4552">Dixe a <persName type="epic">G<ex rend="italic">uielmo</ex></persName>,
+                    "Che meraveia qui hà!</l>
                 <l n="4553">Questo vin fo portado gran tempo hà,</l>
                 <l n="4554">P<ex rend="italic">er</ex> caldo ni p<ex rend="italic">er</ex> fredo
                     savor canbiado no<ex rend="italic">n</ex> à."</l>
@@ -6384,7 +6406,7 @@
                 <l n="4556">L'alta meraveia ch'el gran sier mostrerà,</l>
                 <l n="4557">Quando la terena gloria definerà,</l>
                 <l n="4558">Alpi e monti tuti in cenere vegnerà,</l>
-                <l n="4559">Li corpi di mo<ex rend="italic">r</ex>ti da tre millia ani in çà</l>
+                <l n="4559">Li corpi di <choice><sic>mo<ex rend="italic">r</ex>neti</sic><corr cert="medium" resp="#SPM">mo<ex rend="brackets">r</ex>ti</corr></choice><note xml:id="p4559"/> da tre millia ani in çà</l>
                 <l n="4560">Susiterà, tal como elli su era,</l>
                 <l n="4561">L'anema spauroxa so vaxeli inplirà,</l>
                 <l n="4562">Po anderà o' se sentinçierà</l>
@@ -6413,8 +6435,8 @@
                 <head>Laisse 176</head>
                 <l n="4577"><hi rend="red-initial">U</hi>gon caminà e G<ex rend="italic">uielmo</ex>
                     lo segunde,</l>
-                <l n="4578">Apresso <persName type="classic">Eneas</persName> p<ex rend="italic">er</ex> lo
-                    dolloroxo munde.</l>
+                <l n="4578">Apresso <persName type="classic">Eneas</persName> p<ex rend="italic"
+                        >er</ex> lo dolloroxo munde.</l>
                 <l n="4579">Lo bon Trojan <choice>
                         <sic>detosto aller</sic>
                         <corr cert="medium" resp="#SPM">de<ex rend="brackets">c</ex>osto a·ll<ex
@@ -6506,14 +6528,15 @@
                 <head>Laisse 179</head>
                 <l n="4644"><hi rend="blue-initial">I</hi>nssenbre se vunt p<ex rend="italic"
                         >er</ex> mé le tenebrie,</l>
-                <l n="4645">U<ex rend="italic">go</ex> domanda <persName type="classic">Eneas</persName> che·llo
-                    guie:</l>
+                <l n="4645">U<ex rend="italic">go</ex> domanda <persName type="classic"
+                        >Eneas</persName> che·llo guie:</l>
                 <l n="4646">"Duncha è ben vero, se tu habi aie,</l>
                 <l n="4647">Ch'elo fo de questa co<ex rend="italic">n</ex>pagnie</l>
                 <l n="4648">Adamo trato cun una gran partie?"</l>
-                <l n="4649"><milestone n="95V" unit="fol."/>Dixe <persName type="classic">Eneas</persName>, "Puo
-                    che vuoi ch'io te die</l>
-                <l n="4650">Quando fo morto lo fiol sante <persName type="deity">Marie</persName>,</l>
+                <l n="4649"><milestone n="95V" unit="fol."/>Dixe <persName type="classic"
+                        >Eneas</persName>, "Puo che vuoi ch'io te die</l>
+                <l n="4650">Quando fo morto lo fiol sante <persName type="deity"
+                    >Marie</persName>,</l>
                 <l n="4651">La cui sustancia tie<ex rend="italic">n</ex> lo mondo i<ex rend="italic"
                         >n</ex> balie,</l>
                 <l n="4652">Con una insegna, quando ello insì de vie,</l>
@@ -6522,19 +6545,20 @@
                 <l n="4655">Entrà dentro e con so man polie</l>
                 <l n="4656">Prexe lo primo homo de nostra ançessorie</l>
                 <l n="4657">Elo e·sso fio che fo morto p<ex rend="italic">er</ex> invie,</l>
-                <l n="4658">Prexe <persName type="biblic">Abram</persName>, <persName type="biblic">Ysac</persName>, e
-                    <persName type="biblic">Geremie</persName></l>
-                <l n="4659">E <persName type="biblic">Moixes</persName>, <persName type="biblic">Jacob</persName> e so
-                    mansnie,</l>
+                <l n="4658">Prexe <persName type="biblic">Abram</persName>, <persName type="biblic"
+                        >Ysac</persName>, e <persName type="biblic">Geremie</persName></l>
+                <l n="4659">E <persName type="biblic">Moixes</persName>, <persName type="biblic"
+                        >Jacob</persName> e so mansnie,</l>
                 <l n="4660">Tuti li profeti che in la lor profeçie</l>
                 <l n="4661">Profiticà la morte della lor die,</l>
                 <l n="4662">Tuti li <persName type="biblic">Çudei</persName> che seguirent Ellie</l>
-                <l n="4663">E <persName type="biblic">Çacaria</persName>, <persName type="biblic">Daniel</persName>, e
-                    <persName type="biblic">Malachie</persName></l>
+                <l n="4663">E <persName type="biblic">Çacaria</persName>, <persName type="biblic"
+                        >Daniel</persName>, e <persName type="biblic">Malachie</persName></l>
                 <l n="4664">Menà con llui in soa corte stabelie,</l>
                 <l n="4665">In quela glloria o' no se braise ne crie.</l>
-                <l n="4666">Nui che adorassemo <persName type="classic">Mars</persName>,
-                    <persName type="classic">Venus</persName>, e <persName type="classic">Ionie</persName></l>
+                <l n="4666">Nui che adorassemo <persName type="classic">Mars</persName>, <persName
+                        type="classic">Venus</persName>, e <persName type="classic"
+                    >Ionie</persName></l>
                 <l n="4667">Qua romagnissimo cun la <choice>
                         <sic>leçe <del rend="strike">ss</del> scrinie</sic>
                         <corr cert="high" resp="#scribe">leçe scrinie</corr>
@@ -6560,7 +6584,8 @@
                 <l n="4677">Se tu ben guardi, e niente te·ll ascont,</l>
                 <l n="4678">Sovra quel muro primo oltra quel pont,</l>
                 <l n="4679">Sulla sala del chapitel redont</l>
-                <l n="4680">Vé là el maistro <persName type="classic">Tolomeo</persName> al cavo blont</l>
+                <l n="4680">Vé là el maistro <persName type="classic">Tolomeo</persName> al cavo
+                    blont</l>
                 <l n="4681">Che in strologia fo el primo homo al mont.</l>
                 <l n="4682">Sicomo ell fo al studiar inpront,</l>
                 <l n="4683">Elo e queli che tal arte inpront,</l>
@@ -6604,7 +6629,8 @@
                 <l n="4708"><hi rend="red-initial">L</hi>i <choice>
                         <sic>soller</sic>
                         <corr cert="medium" resp="#SPM">s<ex rend="brackets">c</ex>oller</corr>
-                    </choice><note xml:id="p4708"/> intorno <persName type="classic">Nicamacus</persName></l>
+                    </choice><note xml:id="p4708"/> intorno <persName type="classic"
+                        >Nicamacus</persName></l>
                 <l n="4709">Passeno oltra fina al terço pertus.</l>
                 <l n="4710">Un scrito aveva alla porta desus,</l>
                 <l n="4711">Le letre grosse nome à <persName type="classic">Farahus</persName>,</l>
@@ -6618,7 +6644,8 @@
                 <l n="4718">Che tien le dé desu la carta stendus</l>
                 <l n="4719">Che par de·sseno avançar plus</l>
                 <l n="4720">Tuti li altri como aguila oxel menus?"</l>
-                <l n="4721">Responde <persName type="classic">Eneas</persName>, "Colui trovò li us</l>
+                <l n="4721">Responde <persName type="classic">Eneas</persName>, "Colui trovò li
+                    us</l>
                 <l n="4722">De dialeticha una delle <num>.VII.</num> vertus."</l>
             </lg>
             <lg type="laisse" n="183">
@@ -6649,7 +6676,8 @@
                 <l n="4741">Che po averà çascun lo loldament</l>
                 <l n="4742"><milestone n="97V" unit="fol."/>E gran paura del gra<ex rend="italic"
                         >n</ex> asenblame<ex rend="italic">n</ex>t,</l>
-                <l n="4743">Che in <persName type="biblic">Joxafat</persName> serà dopledi li troment.</l>
+                <l n="4743">Che in <persName type="biblic">Joxafat</persName> serà dopledi li
+                    troment.</l>
                 <l n="4744">China lo cavo e vié segurament!"</l>
                 <l n="4745">La streta porta lasano ama<ex rend="italic">n</ex>tme<ex rend="italic"
                         >n</ex>t;</l>
@@ -6709,8 +6737,8 @@
                 <l n="4778">Unde queli spiriti fo in pié levé,</l>
                 <l n="4779">Clamar s'el crete e aveva començé</l>
                 <l n="4780">Lo forte de arte de geometré</l>
-                <l n="4781">Sovra lo cavo lo ferì <persName type="classic">Eulidé</persName><note xml:id="p4781"
-                    /></l>
+                <l n="4781">Sovra lo cavo lo ferì <persName type="classic">Eulidé</persName><note
+                        xml:id="p4781"/></l>
                 <l n="4782"><milestone n="98V" unit="fol."/>D'una verçella che à çoncé da tuti
                     lé:</l>
                 <l n="4783">"Sié çoxo, q<ex rend="italic">ue</ex>sto no<ex rend="italic">n</ex> t'è
@@ -6721,7 +6749,7 @@
                     risso çité,</l>
                 <l n="4787">Puo benedì la divina magesté.</l>
                 <l n="4788">La <num>V</num><hi rend="superscript">a</hi> porta lo <num>.V.</num>
-                    muro lo <num>.V.</num> fosse</l>
+                    muro lo <num>.V.</num> fossé</l>
                 <!-- how to tag superscript for quinta, second word of line 4788? -->
                 <l n="4789">Si trovano lo p<ex rend="italic">ri</ex>mo rethoriché.</l>
             </lg>
@@ -6739,7 +6767,8 @@
                 <l n="4798">E como lo lassas, lo clerego la començe,</l>
                 <l n="4799">Si fa <persName type="classic">Tixias</persName> in soa rahunançe.</l>
                 <l n="4800">Unde a Ugo plaxe molto soa huxançe,</l>
-                <l n="4801">Al fiol d'<persName type="classic">Anchisses</persName> fè una domandançe:</l>
+                <l n="4801">Al fiol d'<persName type="classic">Anchisses</persName> fè una
+                    domandançe:</l>
                 <l n="4802">"Çentil spirito, p<ex rend="italic">er</ex>ché son in sentançe</l>
                 <l n="4803">Chostor danadi in l'infernal habitançe?</l>
                 <l n="4804">E' porteno de siencia l'amançe,</l>
@@ -6757,9 +6786,10 @@
                 <l n="4813">E no·l tien, tanto sono ypocraïs.</l>
                 <l n="4814">E' no cognose da Dio lo ben jamaïs</l>
                 <l n="4815">E perçò èno çitadi in lo agaraïs,</l>
-                <l n="4816">Ch'elo li manda <persName type="classic">Minos</persName> lo
-                        <persName type="biblic">Satanas</persName></l>
-                <l n="4817">Cho·l carmerlengo c'om clama <persName type="classic">Flagaïs</persName>.</l>
+                <l n="4816">Ch'elo li manda <persName type="classic">Minos</persName> lo <persName
+                        type="biblic">Satanas</persName></l>
+                <l n="4817">Cho·l carmerlengo c'om clama <persName type="classic"
+                    >Flagaïs</persName>.</l>
                 <l n="4818">Apresso la morte creço che tal savraïs</l>
                 <l n="4819">In tal cassa unde ò gran messaïs</l>
                 <l n="4820">O de questo seno li bu<ex rend="italic">n</ex> cleregi veraïs.</l>
@@ -6767,15 +6797,16 @@
                 <l n="4822">La pena de costor li serave un sollaïs;</l>
                 <l n="4823">Ma·ss'elli hobedisseno lo batessemo che li aïs<note xml:id="p4823"/></l>
                 <l n="4824">A l'inferno no passeraveno maïs."</l>
-                <l n="4825">Dixe san <persName type="epic">Guielmo</persName>, "Or no è·l miga gaïs.</l>
+                <l n="4825">Dixe san <persName type="epic">Guielmo</persName>, "Or no è·l miga
+                    gaïs.</l>
                 <l n="4826">Io veço <persName type="epic">Ugo</persName> che plui paura no aïs.</l>
                 <l n="4827">A lo longo andar tropo gran i<ex rend="italic">n</ex>duxia fis."</l>
                 <l n="4828">A questo moto spessegaveno i païs</l>
                 <l n="4829">E paxano la scuola <persName type="classic">Tissiaïs</persName>,</l>
                 <l n="4830">La sesta scuola passeno a ladi un palaïs.</l>
                 <l n="4831">Una maniera de çente che tuti son raïs</l>
-                <l n="4832">Vette cantar intor<ex rend="italic">n</ex>o
-                        <persName type="classic">Pitagoraïs</persName></l>
+                <l n="4832">Vette cantar intor<ex rend="italic">n</ex>o <persName type="classic"
+                        >Pitagoraïs</persName></l>
                 <l n="4833">E sono molti e assaïs.</l>
             </lg>
             <lg type="laisse" n="188">
@@ -6787,12 +6818,13 @@
                 <l n="4837">Non tegnia riga ni canto che son ingual:</l>
                 <l n="4838">Quando elli die dir alto, si dixeno aval,</l>
                 <l n="4839"><persName type="classic">Pitagoras</persName> lor maistro natural.</l>
-                <l n="4840">Dixe <persName type="epic">Ugo</persName>, "<persName type="classic">Eneas</persName>, p<ex
-                        rend="italic">er</ex>
+                <l n="4840">Dixe <persName type="epic">Ugo</persName>, "<persName type="classic"
+                        >Eneas</persName>, p<ex rend="italic">er</ex>
                     <persName type="deity">Dio</persName> lo spiritual,</l>
                 <l n="4841">Questi no<ex rend="italic">n</ex> par aver in ben ni mal,</l>
                 <l n="4842">Insenbre canta con ssi fosse a un bal."<note xml:id="p4842"/></l>
-                <l n="4843">Dixe <persName type="classic">Eneas</persName>, "Lo so cantar è mortal;</l>
+                <l n="4843">Dixe <persName type="classic">Eneas</persName>, "Lo so cantar è
+                    mortal;</l>
                 <l n="4844">Quando li recorda de quella val,</l>
                 <l n="4845">Como li convien <choice>
                         <sic>tornal</sic>
@@ -6819,10 +6851,11 @@
                 <l n="4856">Della toa fadiga in lo cuor m'atendrie:</l>
                 <l n="4857">P<ex rend="italic">er</ex> ti secorer pregerò lo fiol de Marie,</l>
                 <l n="4858">Si fi pregar p<ex rend="italic">er</ex> ti tuta la baronie</l>
-                <l n="4859">Che èno in ciello davanti la <persName type="deity">Maistie</persName>.</l>
+                <l n="4859">Che èno in ciello davanti la <persName type="deity"
+                    >Maistie</persName>.</l>
                 <l n="4860">Niente te parerà çò che tu è sentie</l>
                 <l n="4861">A quelo che ssentiré avanti che femo partie.</l>
-                <l n="4862">Çò ch'è <choice>
+                <l n="4862">Çò ch'è tu <choice>
                         <sic>tu quel</sic>
                         <corr cert="medium" resp="#SPM">tu <ex rend="brackets">quer</ex>,
                             quel</corr>
@@ -6848,8 +6881,8 @@
                         <corr cert="high" resp="#SPM">alcuna <add place="above">sala</add>
                             prevede</corr>
                     </choice><note xml:id="p4873"/> ni clerego<ex rend="italic">n</ex>,</l>
-                <l n="4874">Povolada fo de <persName type="biblic">Çudei</persName> p<ex rend="italic">er</ex> far
-                    soa rasson;</l>
+                <l n="4874">Povolada fo de <persName type="biblic">Çudei</persName> p<ex
+                        rend="italic">er</ex> far soa rasson;</l>
                 <l n="4875">Quelli altri che li pledi contendon,</l>
                 <l n="4876"><milestone n="100V" unit="fol."/>So<ex rend="italic">n</ex> procurador
                     che moveno quistion</l>
@@ -6860,8 +6893,8 @@
                         >er</ex>don,</l>
                 <l n="4881">Se ttençonava, çon se lì avesse canpio<ex rend="italic">n</ex>.</l>
                 <l n="4882">Ugo scoltando li dixe una raxon</l>
-                <l n="4883">Versso <persName type="epic">Eneas</persName> che p<ex rend="italic">er</ex> la man
-                    lo tenon:</l>
+                <l n="4883">Versso <persName type="epic">Eneas</persName> che p<ex rend="italic"
+                        >er</ex> la man lo tenon:</l>
                 <l n="4884">"Çentil guidador, che çente questa son?</l>
                 <l n="4885">A mi me par de mia region."</l>
                 <l n="4886">Et ello a·lluy li dixe a bassa fron,</l>
@@ -6892,17 +6925,18 @@
                 <l n="4901">Di pecadori che may non averà sejor,</l>
                 <l n="4902"><milestone n="101R" unit="fol."/>Semper starano in pena et i<ex
                         rend="italic">n</ex> dolor.</l>
-                <l n="4903"><persName type="epic">San G<ex rend="italic">uielmo</ex></persName> andava inancy
-                    che de·llor iera el flor</l>
-                <l n="4904">Et <persName type="classic">Eneas</persName> ap<ex rend="italic">r</ex>esso che iera so
-                    condutor.</l>
+                <l n="4903"><persName type="epic">San G<ex rend="italic">uielmo</ex></persName>
+                    andava inancy che de·llor iera el flor</l>
+                <l n="4904">Et <persName type="classic">Eneas</persName> ap<ex rend="italic"
+                    >r</ex>esso che iera so condutor.</l>
                 <l n="4905">Quando partidi fono da quel castel altor,</l>
                 <l n="4906">Eli va p<ex rend="italic">er</ex> una via de molto gran tenebror</l>
                 <l n="4907">Che pluy de <num>.IIII.</num> lige ella dura intor.</l>
                 <l n="4908">Quando ave passado la via e·llo langor,</l>
                 <l n="4909">Sovra un'aqua arivà, rossa del mal color;</l>
                 <l n="4910">Pluy era profonda, no fo may tor,</l>
-                <l n="4911">Ni quella de <placeName type="city">Babillonia</placeName> che fo la maor,</l>
+                <l n="4911">Ni quella de <placeName type="city">Babillonia</placeName> che fo la
+                    maor,</l>
                 <l n="4912">S'ella fosse dentro, non parerave desor.</l>
                 <l n="4913">Là era serpenti che çitava gran flanbor,</l>
                 <l n="4914">Che aspetava le aneme di cativi pecator.</l>
@@ -6910,8 +6944,8 @@
             <lg type="laisse" n="192">
                 <head>Laisse 192</head>
                 <l n="4915"><hi rend="red-initial">S</hi>ovra quella aqua se presse a restere</l>
-                <l n="4916">Ugo lo conte e <persName type="epic">G<ex rend="italic">uielmo</ex></persName> so
-                    peonere</l>
+                <l n="4916">Ugo lo conte e <persName type="epic">G<ex rend="italic"
+                        >uielmo</ex></persName> so peonere</l>
                 <l n="4917">Et <persName type="epic">Eneas</persName> lo cortexe e·lli bere.</l>
                 <l n="4918">Ugo reguardà sovra quel alto mere,</l>
                 <l n="4919">No·llì vete ponte de legname ni de piere,</l>
@@ -7079,33 +7113,35 @@
                 <l n="5031">Vellada era al vixo e al mento<ex rend="italic">n</ex>,</l>
                 <l n="5032">De negro drapo vestuda che fo de siglaton,</l>
                 <l n="5033"><num>.I.</num> man tegniva una piera de cleron.</l>
-                <l n="5034">Ugo à messo <persName type="epic">Eneas</persName> p<ex rend="italic">er</ex>
-                    raxon:</l>
+                <l n="5034">Ugo à messo <persName type="epic">Eneas</persName> p<ex rend="italic"
+                        >er</ex> raxon:</l>
                 <l n="5035">"Or me dì," dix'ello, "la caxon:</l>
                 <l n="5036">Chi è quela dona che è in quel dojon?</l>
                 <l n="5037">Solla me par sença conpagnon.</l>
                 <l n="5038">E si me·l dì e no me·l celeron,</l>
                 <l n="5039"><milestone n="104R" unit="fol."/>De qual tera e de qual maxon."</l>
-                <l n="5040">Responde <persName type="classic">Eneas</persName>, "A vuy io lo diro<ex rend="italic"
-                        >n</ex>.</l>
+                <l n="5040">Responde <persName type="classic">Eneas</persName>, "A vuy io lo diro<ex
+                        rend="italic">n</ex>.</l>
                 <l n="5041">Ela fo çà de vostra region,</l>
                 <l n="5042">E' fo moiere primierament de <persName type="epic">Tibaldo lo Sclavo<ex
                             rend="italic">n</ex></persName>,</l>
-                <l n="5043">Seror fo de <persName type="epic">Renaldo</persName> che tanto nomenado son,</l>
+                <l n="5043">Seror fo de <persName type="epic">Renaldo</persName> che tanto nomenado
+                    son,</l>
                 <!-- tag seror fo de Renaldo, or just Renaldo? -->
                 <l n="5044">Fia de <persName type="epic">Naimes</persName>, si como nu trovon.</l>
                 <!-- tag fia de Naimes, or just Naimes? -->
-                <l n="5045">Ela prexe batexemo, si llassà <persName type="epic">Macon</persName>;</l>
+                <l n="5045">Ela prexe batexemo, si llassà <persName type="epic"
+                    >Macon</persName>;</l>
                 <l n="5046">P<ex rend="italic">er</ex> moier la prexe G<ex rend="italic">uielmo</ex>
                     lo prodon</l>
                 <l n="5047">Et intrano i<ex rend="italic">n</ex> un remitaço i<ex rend="italic"
                         >n</ex> una spelon,</l>
-                <l n="5048">Si demorà cun <persName type="epic">G<ex rend="italic">uielmo</ex></persName> una
-                    gran staxon.</l>
-                <l n="5049">Quando san <persName type="epic">G<ex rend="italic">uielmo</ex></persName> vene i<ex
-                        rend="italic">n</ex>
-                    <placeName type="country">França</placeName> p<ex rend="italic">er</ex> sco<ex rend="italic"
-                        >n</ex>ficer lo scalvon,<note xml:id="p5049"/></l>
+                <l n="5048">Si demorà cun <persName type="epic">G<ex rend="italic"
+                        >uielmo</ex></persName> una gran staxon.</l>
+                <l n="5049">Quando san <persName type="epic">G<ex rend="italic"
+                        >uielmo</ex></persName> vene i<ex rend="italic">n</ex>
+                    <placeName type="country">França</placeName> p<ex rend="italic">er</ex> sco<ex
+                        rend="italic">n</ex>ficer lo scalvon,<note xml:id="p5049"/></l>
                 <l n="5050">Ela romaxe solla sença co<ex rend="italic">n</ex>pagnon,</l>
                 <l n="5051">De tuti i suoi pecadi ella fè confession;</l>
                 <l n="5052">Un pecado fo ch'ela retenon.</l>
@@ -7116,10 +7152,10 @@
             </lg>
             <lg type="laisse" n="197">
                 <head>Laisse 197</head>
-                <l n="5055"><persName type="epic"><hi rend="blue-initial">G</hi>iborga</persName> la raina à
-                            <persName type="epic">G<ex rend="italic">uielmo</ex></persName>
+                <l n="5055"><persName type="epic"><hi rend="blue-initial">G</hi>iborga</persName> la
+                    raina à <persName type="epic">G<ex rend="italic">uielmo</ex></persName>
                     <choice>
-                        <corr cert="medium" resp="#SPM">v<ex rend="brackets">e</ex>çu</corr>
+                        <sic>vçu</sic><corr cert="medium" resp="#SPM">v<ex rend="brackets">e</ex>çu</corr>
                     </choice><note xml:id="p5055"/>;</l>
                 <l n="5056">Quando ella lo cognosse, meraveia fu;</l>
                 <l n="5057">Ela lo apellà p<ex rend="italic">er</ex> amigo e p<ex rend="italic"
@@ -7129,16 +7165,17 @@
                         >er</ex> p<ex rend="italic">er</ex>du?</l>
                 <l n="5060">Ben fu confessada di grandi e di menu.</l>
                 <l n="5061">Recordé-ve, quanto so ferita e abu</l>
-                <l n="5062">P<ex rend="italic">er</ex> exaltare lo nome de
-                        <persName type="deity">Jexhu</persName></l>
+                <l n="5062">P<ex rend="italic">er</ex> exaltare lo nome de <persName type="deity"
+                        >Jexhu</persName></l>
                 <l n="5063">In Glorieta <ex rend="italic">et</ex> in llo bosco foiu!"</l>
                 <l n="5064">Responde lo co<ex rend="italic">n</ex>te, "Io (ò) ben i<ex rend="italic"
                         >n</ex>tendu.</l>
                 <l n="5065"><milestone n="104V" unit="fol."/>Sovra i<ex rend="italic">n</ex> llo
                     ciello à veromente heu</l>
-                <l n="5066">Li pugnadori che da <persName type="deity">Dio</persName> fono vestu;</l>
-                <l n="5067">Tuti priegeno <persName type="deity">Dio</persName> p<ex rend="italic">er</ex> la
-                    vostra salu,</l>
+                <l n="5066">Li pugnadori che da <persName type="deity">Dio</persName> fono
+                    vestu;</l>
+                <l n="5067">Tuti priegeno <persName type="deity">Dio</persName> p<ex rend="italic"
+                        >er</ex> la vostra salu,</l>
                 <l n="5068">E la <persName type="deity">Verçene Maria</persName> ancora pregerò p<ex
                         rend="italic">er</ex> vu."</l>
                 <l n="5069">Quando la dona à questo i<ex rend="italic">n</ex>tendu,</l>
@@ -7153,16 +7190,16 @@
             </lg>
             <lg type="laisse" n="198">
                 <head>Laisse 198</head>
-                <l n="5074"><persName type="epic"><hi rend="red-initial">G</hi>iborga</persName> parlà senp<ex
-                        rend="italic">er</ex> in sopirant,</l>
+                <l n="5074"><persName type="epic"><hi rend="red-initial">G</hi>iborga</persName>
+                    parlà senp<ex rend="italic">er</ex> in sopirant,</l>
                 <l n="5075">"Conte," dix'ela, "recorda-ve atant!</l>
                 <l n="5076">Moier fui de <persName type="epic">Tibaldo</persName> l'amirant;</l>
                 <l n="5077">P<ex rend="italic">er</ex> vostro <choice>
                         <sic>amori<ex rend="italic">n</ex></sic>
                         <corr cert="high" resp="#scribe">amor</corr>
                     </choice><note xml:id="p5077"/> io prendì batiçament</l>
-                <l n="5078">E renegie <persName type="deity">Macon</persName> e
-                    <persName type="deity">Trivigant</persName>.</l>
+                <l n="5078">E renegie <persName type="deity">Macon</persName> e <persName
+                        type="deity">Trivigant</persName>.</l>
                 <l n="5079">Raina io era coronada d'or portant,</l>
                 <l n="5080">Semp<ex rend="italic">er</ex> con vui portie pena e tormant.</l>
                 <l n="5081">Da quela ora inanci ch'io sequì vostro brant</l>
@@ -7243,7 +7280,8 @@
                         <sic>veio</sic>
                         <corr cert="high" resp="#scribe"><add place="above">ve vo</add>io</corr>
                     </choice><note xml:id="p5142"/>, ché far ve giurà:</l>
-                <l n="5143">Davanti <persName type="biblic">Luçifero</persName> e a la cente de là</l>
+                <l n="5143">Davanti <persName type="biblic">Luçifero</persName> e a la cente de
+                    là</l>
                 <l n="5144">No·lli mene sup<ex rend="italic">er</ex>bia, anci ve humilià."</l>
                 <l n="5145">Ugo responde, "Vostro voler serà."</l>
             </lg>
@@ -7301,7 +7339,8 @@
                 <l n="5178">Barba io fui del dux <persName type="epic">Oliviere</persName>,</l>
                 <!-- tag dux Oliviere or just Olivere? -->
                 <l n="5179">Lo mior homo che fo di <num>.XII.</num> piere,</l>
-                <l n="5180">Defuora <persName type="epic">Rollando de Blavia</persName> l'avoiere.</l>
+                <l n="5180">Defuora <persName type="epic">Rollando de Blavia</persName>
+                    l'avoiere.</l>
                 <l n="5181"><persName type="epic">Girardo da Frata</persName> si me fi apelere."</l>
                 <l n="5182">U<ex rend="italic">go</ex> quando l'oldì se <choice>
                         <sic>prexe mereveiere</sic>
@@ -7310,8 +7349,8 @@
                     </choice><note xml:id="p5182"/>,</l>
                 <l n="5183">Aduncha se presse co<ex rend="italic">n</ex>tra luy a dreçere:<note
                         xml:id="p5183"/></l>
-                <l n="5184"><milestone n="107R" unit="fol."/>"Ai, <persName type="epic">sier Girardo</persName>,
-                    un don ve voio querie:</l>
+                <l n="5184"><milestone n="107R" unit="fol."/>"Ai, <persName type="epic">sier
+                        Girardo</persName>, un don ve voio querie:</l>
                 <l n="5185">Che vuy me digé e si m'averì contere</l>
                 <l n="5186">Qual è·llo pecado che v'à fato qua intre,</l>
                 <l n="5187">Ch'io lo possa dir quando tornerò arere</l>
@@ -7397,8 +7436,8 @@
                 <l n="5229">Ma Dio si·lli fo ben i<ex rend="italic">n</ex> ahie.</l>
                 <l n="5230">Quando el vete el tormento de quela co<ex rend="italic">n</ex>pagnie</l>
                 <l n="5231">Che stano tuta fiada i<ex rend="italic">n</ex> aqua bolie:</l>
-                <l n="5232">"Ay, <persName type="deity">Dio</persName>," dixe lo conte, "mare, s<ex rend="italic"
-                        >an</ex>c<ex rend="italic">t</ex>e <choice>
+                <l n="5232">"Ay, <persName type="deity">Dio</persName>," dixe lo conte, "mare, s<ex
+                        rend="italic">an</ex>c<ex rend="italic">t</ex>e <choice>
                         <sic>Mare</sic>
                         <corr cert="medium" resp="#SPM">Mar<ex rend="brackets">i</ex>e</corr>
                     </choice><note xml:id="p5232"/>,</l>
@@ -7409,7 +7448,8 @@
                 <l n="5237">Avanti ch'elli fosse pecado ni trecarie,</l>
                 <l n="5238">Ni al so signor tradisson ni boxie,</l>
                 <l n="5239">Taiar se llaserave finamente a l’orie.</l>
-                <l n="5240">Ay, <persName type="epic">san Guielmo</persName> façemo de qui partie.</l>
+                <l n="5240">Ay, <persName type="epic">san Guielmo</persName> façemo de qui
+                    partie.</l>
                 <l n="5241">Segondo le <choice>
                         <sic>sove ovre</sic>
                         <corr cert="medium" resp="#SPM">so ovre</corr>
@@ -7421,8 +7461,8 @@
                         rend="italic">er</ex> lo diversso païs;</l>
                 <l n="5243">Con lui <persName type="epic">san Guielmo</persName> lo marchis</l>
                 <l n="5244">Et <persName type="epic">Eneas, lo Trojan</persName>, a passi petis.</l>
-                <l n="5245">Dixe <persName type="epic">san Gu<ex rend="italic">i</ex>elmo</persName>, "Intendì,
-                    amis,</l>
+                <l n="5245">Dixe <persName type="epic">san Gu<ex rend="italic"
+                    >i</ex>elmo</persName>, "Intendì, amis,</l>
                 <l n="5246">Lo credo che vui n'abié veçu de negri e de bis</l>
                 <l n="5247">E delle pene l'un e·ll'altro devis.</l>
                 <l n="5248">De qui avanti se canbia li latins,</l>
@@ -7482,8 +7522,8 @@
                         >n</ex> guarant."</l>
                 <l n="5284">Disse lo conte, "El me fa mestier grant.</l>
                 <l n="5285">Ay, çentil conte, tré-me d'esto tromant!<note xml:id="p5285"/></l>
-                <l n="5286"><persName type="epic">Carlo Martelo</persName>, Dio te crevant,<note xml:id="p5286"
-                    /></l>
+                <l n="5286"><persName type="epic">Carlo Martelo</persName>, Dio te crevant,<note
+                        xml:id="p5286"/></l>
                 <l n="5287">Quando tu m'à mandado a duol e a troment!</l>
                 <l n="5288">Se Dio me dòna a far retornamant,</l>
                 <l n="5289">Mai no<ex rend="italic">n</ex> serò so amigo ni ben voiant."</l>
@@ -7589,7 +7629,7 @@
                 <l n="5364">P<ex rend="italic">er</ex> un trabuto querir e domander</l>
                 <l n="5365">P<ex rend="italic">er</ex>
                     <persName type="epic">Carlo Martelo</persName>, lo nobele i<ex rend="italic"
-                    >n</ex>perer,</l>
+                        >n</ex>perer,</l>
                 <l n="5366">Che tuta <ex rend="italic">crist</ex>ientteade à justixier,</l>
                 <l n="5367">Mio signor, e si me fè çurer</l>
                 <l n="5368">Ch'io vignerave a vui trabuto domander.</l>
@@ -7694,11 +7734,8 @@
                 <l n="5441">Cun una piera ch'el non è inperador</l>
                 <l n="5442">Che no la podese porter per so honor,</l>
                 <l n="5443">Una serena e una cadeleto intor,</l>
-                <l n="5444"><choice>
-                        <sic>Quasto</sic>
-                        <corr cert="medium" resp="#SPM">Qu<ex rend="brackets">e</ex>sto</corr>
-                    </choice><note xml:id="p5444"/> centurel che è de gra<ex rend="italic">n</ex>
-                    valor.</l>
+                <l n="5444">Quisto <note xml:id="p5444"/> centurel che è de gra<ex rend="italic"
+                        >n</ex> valor.</l>
                 <l n="5445"><choice>
                         <sic>Qusto</sic>
                         <corr cert="medium" resp="#SPM">Questo</corr>
@@ -7800,7 +7837,8 @@
                 <l n="5508">Vegnir qui no<ex rend="italic">n</ex> te die vegnir plui volonté.</l>
                 <l n="5509">Ancuo è gran festa in la tua co<ex rend="italic">n</ex>tré,</l>
                 <l n="5510">Medieximamente in Paris la çitadé</l>
-                <l n="5511">La festa <persName type="saint">san Çuan</persName> e anchuo è celebré.</l>
+                <l n="5511">La festa <persName type="saint">san Çuan</persName> e anchuo è
+                    celebré.</l>
                 <l n="5512">Gran corte mantien Carlo l'inperé;</l>
                 <l n="5513"><milestone n="113V" unit="fol."/>Cavallieri à fatti plu de
                         <num>.XLVI.</num></l>
@@ -7832,11 +7870,12 @@
                     <placeName type="region">Avernia</placeName> sença nula dotançe;</l>
                 <l n="5531">Sul so palaço montà sença demorançe.</l>
                 <l n="5532">Quando el fo cognossu, si fo levà la nomenançe</l>
-                <l n="5533">Che vegnudo era lo conte de <placeName type="region">Provançe</placeName>.</l>
+                <l n="5533">Che vegnudo era lo conte de <placeName type="region"
+                        >Provançe</placeName>.</l>
                 <l n="5534">So moiere l'abraçà che iera in balançe</l>
                 <l n="5535">P<ex rend="italic">er</ex> quel malvaxio che iera re de Françe;</l>
-                <l n="5536"><persName type="epic">Baldoin</persName> e <persName type="epic">Tomaxo</persName> contra tuti
-                    s'avançe,</l>
+                <l n="5536"><persName type="epic">Baldoin</persName> e <persName type="epic"
+                        >Tomaxo</persName> contra tuti s'avançe,</l>
                 <l n="5537">Granda fo la çoia co<ex rend="italic">n</ex> molto gran pietançe.</l>
                 <l n="5538">Quando lo çorno aparsse, si andè la nomenançe</l>
                 <l n="5539"><milestone n="114R" unit="fol."/>Che vegnudo è·llo conte cun tuta soa
@@ -7884,8 +7923,8 @@
                 <l n="5566">E si ve mandà tuto d'oro e d'arçant</l>
                 <l n="5567">Una serena i<ex rend="italic">n</ex> un bel luogo grant.</l>
                 <l n="5568">E vuy sederì al dì del çucamant,</l>
-                <l n="5569">Apresso de vuy serà <persName type="deity">Macon</persName> e
-                        <persName type="deity">Trivigant</persName>,</l>
+                <l n="5569">Apresso de vuy serà <persName type="deity">Macon</persName> e <persName
+                        type="deity">Trivigant</persName>,</l>
                 <l n="5570">De suo vialde over viande<note xml:id="p5570"/> ve darà sovant;</l>
                 <l n="5571">So trabuto ve manda belo e avinant,</l>
                 <l n="5572">No l'ave may si belo ni re ni amirant;</l>
@@ -7909,10 +7948,11 @@
                 <l n="5582">Che collegar ve porì, s'el ve serà grant."</l>
                 <l n="5583">Respoxe lo re, "Questo è bel prexant,</l>
                 <l n="5584">S'ell è tale como io creço davant,</l>
-                <l n="5585">No·llo darave p<ex rend="italic">er</ex> l'aver de
-                        <placeName type="region">Berbant</placeName>.</l>
+                <l n="5585">No·llo darave p<ex rend="italic">er</ex> l'aver de <placeName
+                        type="region">Berbant</placeName>.</l>
                 <l n="5586">O' è el trabuto?" dixe lo re possant.</l>
-                <l n="5587">"In <placeName type="region">Alvernia</placeName>, sier, al vostro comant."</l>
+                <l n="5587">"In <placeName type="region">Alvernia</placeName>, sier, al vostro
+                    comant."</l>
             </lg>
             <lg type="laisse" n="218">
                 <head>Laisse 218</head>
@@ -7937,8 +7977,8 @@
                     montà,</l>
                 <l n="5603">E Ugo sença demora lo trabuto li portà,</l>
                 <l n="5604">Tuto primieramente lo anello li donà.</l>
-                <l n="5605">E <persName type="epic">Carlo</persName> cu<ex rend="italic">n</ex> gran çoia
-                    l'anelo ...çà<note xml:id="p5605"/></l>
+                <l n="5605">E <persName type="epic">Carlo</persName> cu<ex rend="italic">n</ex> gran
+                    çoia l'anelo ...çà<note xml:id="p5605"/></l>
                 <l n="5606">Molto li parsse bello, la piera reguardà</l>
                 <l n="5607">E dixe a li baroni, "Chi questo anelo me mandà,</l>
                 <l n="5608">Sapié, p<ex rend="italic">er</ex> vero, gran signoria ell à."</l>
@@ -7950,11 +7990,12 @@
                         >n</ex> fè longo estaus,</l>
                 <l n="5611">El prexe el cadelleto ch'el dusse da l'infernaus</l>
                 <l n="5612">E la serena de fin oro smeraus;</l>
-                <l n="5613">Davanti <persName type="epic">Carllo</persName> lo mostrà in lo palaus.</l>
+                <l n="5613">Davanti <persName type="epic">Carllo</persName> lo mostrà in lo
+                    palaus.</l>
                 <l n="5614">Intorno lui son queli baron naturaus</l>
                 <l n="5615">E del puovollo li piçoli e·lli menus.</l>
-                <l n="5616"><persName type="epic">Charllo</persName> parllà contra Ugo humiliaus:<note
-                        xml:id="p5616"/></l>
+                <l n="5616"><persName type="epic">Charllo</persName> parllà contra Ugo
+                        humiliaus:<note xml:id="p5616"/></l>
                 <l n="5617"><milestone n="115V" unit="fol."/>"Ugo, bel fradello, no ve do far
                     maus,</l>
                 <l n="5618">Mio amigo seré plui de nul homo carnaus</l>
@@ -7966,8 +8007,8 @@
             </lg>
             <lg type="laisse" n="220">
                 <head>Laisse 220</head>
-                <l n="5621"><hi rend="blue-initial">Q</hi>uando <persName type="epic">Carlo Martelo</persName>
-                    à·llo trabuto reguardé,</l>
+                <l n="5621"><hi rend="blue-initial">Q</hi>uando <persName type="epic">Carlo
+                        Martelo</persName> à·llo trabuto reguardé,</l>
                 <l n="5622">Quel chadelleto à meraveia loldé.</l>
                 <l n="5623">Tuti li baron de la soa contré</l>
                 <l n="5624">Plui de sete fiade l'à reguardé.</l>
@@ -8005,8 +8046,10 @@
                 <l n="5648">Quando elli fo çoxo del pallaço dessendue,</l>
                 <l n="5649">Si duramente elli fo esperdue</l>
                 <l n="5650">Ch'eli non guardava a strada ni a rue.</l>
-                <l n="5651">Ver <placeName type="city">Paris</placeName> s'en vano o' elli fo atendue;</l>
-                <l n="5652"><persName type="epic">Ugo d'Alvermia</persName> sul pallaço è remansue.</l>
+                <l n="5651">Ver <placeName type="city">Paris</placeName> s'en vano o' elli fo
+                    atendue;</l>
+                <l n="5652"><persName type="epic">Ugo d'Alvermia</persName> sul pallaço è
+                    remansue.</l>
                 <l n="5653">"Dama," dixe <persName type="epic">Ugo</persName>, "Dio n'à secorue;</l>
                 <l n="5654">Da lui semo liberé, e da Dio asalue,</l>
                 <l n="5655">Da collui che me mandà in la çente p<ex rend="italic">er</ex>due,</l>
