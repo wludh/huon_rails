@@ -688,6 +688,11 @@ overflow-y: scroll;
 }
 
 hi[rend="red-initial"]{
-  color: red;
+  color: blue;
+  font-size: 26px;
+}
+
+hi[rend="blue-initial"]{
+  color: blue;
   font-size: 26px;
 }
