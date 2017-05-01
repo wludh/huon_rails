@@ -538,8 +538,8 @@ td{
 }
 
 .linenumber{
-  float: left;
-  margin-left: -50px;
+  float: right;
+  margin-right: -50px;
 }
 #introduction{
     padding-top: 68px;
