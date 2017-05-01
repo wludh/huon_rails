@@ -538,8 +538,8 @@ td{
 }
 
 .linenumber{
-  float: right;
-  margin-right: -50px;
+  float: left;
+  margin-left: -50px;
 }
 #introduction{
     padding-top: 68px;
@@ -668,7 +668,7 @@ sic{
 }
 
 .milestone{
-  margin-right: -50px;
+  margin-left: -100px;
 }
 
 #TEI_reader{
