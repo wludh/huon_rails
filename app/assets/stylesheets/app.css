@@ -538,8 +538,8 @@ td{
 }
 
 .linenumber{
-  float: left;
-  margin-left: -50px;
+  float: right;
+  margin-right: -50px;
 }
 #introduction{
     padding-top: 68px;
@@ -688,7 +688,7 @@ overflow-y: scroll;
 }
 
 hi[rend="red-initial"]{
-  color: blue;
+  color: red;
   font-size: 26px;
 }
 
