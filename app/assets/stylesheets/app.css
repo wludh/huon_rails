@@ -580,7 +580,7 @@ td{
   float: right;
   margin-top: 48px;
   padding-top: 68px;
-  width: 40%;
+  width: 35%;
   height: 100%;
   overflow: scroll;
 }
@@ -689,10 +689,10 @@ overflow-y: scroll;
 
 hi[rend="red-initial"]{
   color: red;
-  font-size: 40px;
+  font-size: 26px;
 }
 
 hi[rend="blue-initial"]{
   color: blue;
-  font-size: 40px;
+  font-size: 26px;
 }
