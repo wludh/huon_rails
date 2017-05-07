@@ -696,11 +696,3 @@ hi[rend="blue-initial"]{
   color: blue;
   font-size: 26px;
 }
-
-ex[rend="italic"]:before{
-  content:"["
-}
-
-ex[rend="italic"]:after{
-  content:"]"
-}
