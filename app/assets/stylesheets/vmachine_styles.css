@@ -89,7 +89,7 @@ div#mssArea div.panel div.panelBanner img.closePanel {
    width: 1.4em;
    height: 1.4em;
 }
-   
+
 div#mssArea div.panel div.mssContent {
    margin: 10px;
    padding: 0;
@@ -173,7 +173,7 @@ div.head {
 div.epigraph {
    text-align: center;
    margin: 4px 25px;
-   font-size: 85%; 
+   font-size: 85%;
 }
 table.mssTable {
    margin: 0 auto 0 auto;
@@ -7014,7 +7014,7 @@ top-bar{
 
 #TEI_reader{
   margin-right:50%;
-  width: 100%;
+  width: 110%;
   /*padding-left: 40px;*/
   margin-right: 27%;
 }
@@ -7232,7 +7232,7 @@ p.tagline {
 /* TEI */
 
 TEI {
-  
+
 
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   font-size: 16px;
@@ -7321,9 +7321,9 @@ ul li ul {
   border-color: gray;
   transition:1s;
 }
-ul li ul li { 
-  background: #555; 
-  display: block; 
+ul li ul li {
+  background: #555;
+  display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
   z-index: 1000;
@@ -7344,9 +7344,9 @@ ul li ul li {
   padding:0;
 }
 
-.oe { 
-font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif; 
-} 
+.oe {
+font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif;
+}
 
 #homepage-body{
   background: rgba(255,255,255,0.9);
@@ -7386,17 +7386,17 @@ text body{
 .container-4 input#search::-webkit-input-placeholder {
    color: #65737e;
 }
- 
+
 .container-4 input#search:-moz-placeholder { /* Firefox 18- */
-   color: #65737e;  
+   color: #65737e;
 }
- 
+
 .container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
-   color: #65737e;  
+   color: #65737e;
 }
- 
-.container-4 input#search:-ms-input-placeholder {  
-   color: #65737e;  
+
+.container-4 input#search:-ms-input-placeholder {
+   color: #65737e;
 }
 
 .container-4 button.icon{
@@ -7406,7 +7406,7 @@ text body{
   -moz-border-radius-bottomright: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
- 
+
   border: none;
   background: #232833;
   height: 50px;
@@ -7414,7 +7414,7 @@ text body{
   color: #4f5b66;
   opacity: 0;
   font-size: 10pt;
- 
+
   -webkit-transition: all .55s ease;
   -moz-transition: all .55s ease;
   -ms-transition: all .55s ease;
@@ -7493,7 +7493,7 @@ table, tr, th{
 td{
   padding-left:0;
   padding-right: 0;
-  display: hidden; 
+  display: hidden;
 }
 
 #bibPanel{

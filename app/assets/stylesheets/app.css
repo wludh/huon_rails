@@ -554,7 +554,7 @@ td{
 }
 
 #reader-nav{
-  width: 110%;
+  width: 100%;
   position: fixed;
   z-index: 100;
   padding-top: 48px;
