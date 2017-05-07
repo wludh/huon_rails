@@ -657,6 +657,7 @@ code, pre{
 
 .line-heading{
   margin: 0 0 1em 0;
+  font-size: 130%;
 }
 
 #note-header, #image-header, #tei-embed-header{
