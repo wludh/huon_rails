@@ -1,4 +1,5 @@
 require 'roman-numerals'
+require 'open-uri'
 
 class PagesController < ApplicationController
 
@@ -10,21 +11,38 @@ class PagesController < ApplicationController
         # convert the pages parameter into the tidy slug
         render template: "pages/#{params[:page]}"
     end
+		def text
+			branch = params[:branch]
+			msname = params[:msname]
+			if branch == nil
+				branch = "master"
+			end
+			parse_tei("#{msname}.xml", branch)
+			render template: "pages/#{msname}"
 
-    def import_tei(tei_file)
+		end
+
+
+
+
+		#these are utilit functions which should be moved outside controller
+    def import_tei(tei_file, branch="master")
         # take the tei file name and return a nokogiri object
-        return File.open( "./lib/assets/#{tei_file}" ) {
+        #return File.open( "./lib/assets/#{tei_file}" ) {
+        #        |f| Nokogiri::XML(f)
+        #    }
+				return open( "https://raw.githubusercontent.com/mccormicks/huon_texts/#{branch}/#{tei_file}" ) {
                 |f| Nokogiri::XML(f)
             }
     end
 
-    def parse_tei(tei_file, testing=false)
+    def parse_tei(tei_file, branch="master", testing=false )
         unless params.key?('edition') or not testing
             # look for the edition param to let us know if we're at the intro or not.
             # if no page / if at edition, show the intro.
 
             # import the tei
-            doc = import_tei(tei_file)
+            doc = import_tei(tei_file, branch)
 
             # get the title
             @title = doc.search('title').first.text
@@ -36,7 +54,7 @@ class PagesController < ApplicationController
         else
 
             # get the doc
-            doc = import_tei(tei_file)
+						doc = import_tei(tei_file, branch)
 
             # get the title
             @title = doc.search('title').first.text
@@ -210,20 +228,20 @@ class PagesController < ApplicationController
 
     def parse_line_groups(line_groups)
          result = ""
-         @line_groups.each do |line_group| 
+         @line_groups.each do |line_group|
              result += parse_line_group(line_group)
          end
          return result.html_safe
     end
 
     def parse_line_group(line_group)
-        #takes in a line_group and parses it 
-        result = "<lg n=#{line_group.attr('n')}>" 
-        result += parse_heading(line_group) 
+        #takes in a line_group and parses it
+        result = "<lg n=#{line_group.attr('n')}>"
+        result += parse_heading(line_group)
         result += '<div class="lines">'
-        for l in line_group.css('l') 
-             result += parse_line(l) 
-        end 
+        for l in line_group.css('l')
+             result += parse_line(l)
+        end
         result += '</div></lg>'
         return result.html_safe
     end
@@ -241,10 +259,10 @@ class PagesController < ApplicationController
             if l.css('pb').present?
                 result += parse_pb(l)
             end
-             for child in l.children 
-                 if child.name == 'choice' 
+             for child in l.children
+                 if child.name == 'choice'
                     result += parse_choice(child)
-                 elsif child.name == 'ex'     
+                 elsif child.name == 'ex'
                     result += parse_tag(child)
                      # add any new tags in the following array.
                 elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi'].include? child.name
@@ -252,10 +270,10 @@ class PagesController < ApplicationController
                 elsif child.name == 'note'
                     result += parse_note(child, @@internal_note_counter)
                     @@internal_note_counter += 1
-                 else 
-                    result += child.text 
-                 end 
-             end 
+                 else
+                    result += child.text
+                 end
+             end
         result += "</l>"
         return result.html_safe
     end
@@ -272,17 +290,17 @@ class PagesController < ApplicationController
             tei_files = ['p.xml', 'b.xml', 't.xml', 'br.xml']
             tag = INSERT_THE_TAG_TO_DRAW_FROM_HERE
             @all_tags = file.css(tag)
-            file = import_tei(tei_file)        
+            file = import_tei(tei_file)
             @loci, @rdgs = INSERT_WAY_TO_PARSE_HERE
             parsed_material += STUFF TO ADD
         end
-        
+
         parsed_material
     end
 
 
     def vmachine_parser(list_of_manuscripts)
-        
+
     end
 
 
@@ -312,6 +330,7 @@ class PagesController < ApplicationController
         render template: "pages/edition"
     end
 
+		# these routes can stay, but they may have also replaced by the text method above
     def b_manuscript
         parse_tei('b.xml')
         render template: "pages/b"
@@ -323,14 +342,15 @@ class PagesController < ApplicationController
     end
 
     def p_manuscript
-        parse_tei('p.xml')
-        render template: "pages/p"
-    end
+			parse_tei('p.xml')
+			render template: "pages/p"
+		end
 
     def br_manuscript
         parse_tei('br.xml')
         render template: "pages/br"
     end
+		# end of manuscript routes that could be replaced by text method above
 
     def hell_scene
         render template: "pages/hell_scene"
