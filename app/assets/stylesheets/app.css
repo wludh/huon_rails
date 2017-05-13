@@ -698,6 +698,6 @@ hi[rend="blue-initial"]{
   font-size: 40px;
 }
 
-choice sic hi[rend="red-corr"]{
+choice .red-corr{
   color: red;
 }
