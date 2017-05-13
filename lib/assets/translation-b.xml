@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<?xml-model href="../huon_rails/lib/assets/huonschema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TESTHuon d'Auvergne: a digital edition of Padua Biblioteca del Seminario
+                    Vescovile MS 32 </title>
+                <title type="short">Padua MS 32</title>
+                <editor xml:id="SPM">Stephen P. McCormick</editor>
+                <sponsor>
+                    <address>
+                        <addrLine>Washington and Lee University</addrLine>
+                        <addrLine>204 W. Washington St.</addrLine>
+                        <addrLine>Lexington, VA 24450</addrLine>
+                    </address>
+                </sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <principal>Stephen P. McCormick</principal>
+                <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
+                <respStmt>
+                    <name>Stephen P. McCormick</name>
+                    <resp>edition</resp>
+                    <resp>transcription</resp>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MKB">Mackenzie K. Brooks</name>
+                    <resp>TEI consultant</resp>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AK">Abdurrafey Khan</name>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="DPD">Dashiell Dericks</name>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1">
+                    <title>Version 0.1, enriched with text structure tags</title>
+                    <date when="2015">June 2015</date>
+                </edition>
+                <respStmt>
+                    <name>Stephen P. McCormick</name>
+                    <resp>Created initial digital document, developed TEI tags for text structure,
+                        and began tagging for text structure</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Natsumi D. Alvarez</name>
+                    <resp>Developed TEI tags for text structure and began tagging.</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+                <address>
+                        <name type="institution">Washington and Lee University</name>
+                        <street>204 W. Washington St.</street>
+                        <name type="city">Lexington</name>
+                        <name type="state">Virginia</name>
+                        <postCode>24405</postCode>
+                        <name type="country">USA</name>
+                    </address>
+                <availability status="free">
+                    <p>The text is freely available</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Brief notes of editorial or codicological nature are contained in a separate
+                    .html file</note>
+                <note type="ling">Notes on linguistic phenomena.</note>
+                <note type="edit">Notes indicating editorial or scribal intervention.</note>
+                <note type="codic">Notes on the codicological and material state of the
+                    manuscript.</note>
+                <note type="refer">Notes that reference other primary sources.</note>
+                <note type="biblio">Notes that reference secondary sources.</note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- xml:id ??? See Cummings 52 -->
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Padua</settlement>
+                        <repository>Biblioteca del Seminario Vescovile</repository>
+                        <idno>MS 32</idno>
+                    </msIdentifier>
+                    <head type="msHeading">
+                        <title xml:lang="FI">Huon d'Auvergne, Biblioteca del Seminario Vescovile di
+                            Padova, Manuscript 32</title>
+                        <origPlace cert="low">Padua</origPlace>
+                        <origDate cert="medium" evidence="internal">second half of fourteenth
+                            century or first half of fifteenth</origDate>
+                        <!-- <seg type="textLang" subtype="LAT">Latin</seg> ? See Cummings 55 -->
+                        <note resp="#SPM">Manuscript 32 of the Biblioteca del Seminario Vescovile di
+                            Padova (P) is a paper codex dated on palaegraphical grounds to between
+                            the second half of the fourteenth and the first half of the fifteenth
+                            centuries. Unlike B and T, the scribe does not include a completion
+                            date. The provenance of this manuscript has been difficult to determine,
+                            especially since the paper does not include a watermark, as in Br.
+                            Linguistic evidence locates the codex generally in the Veneto. The codex
+                            contains 5690 lines of text on 117 folios. The folios are bound into
+                            twelve gatherings which measure 22 cm by 29.5 cm. The contents of P were
+                            transcribed in a notebook by Pio Rajna, which is now found at the
+                            Biblioteca Marucelliana in Florence (Bibl. Marucelliana Carte Rajna
+                            XII.M.101).</note>
+                        <note resp="#SPM">
+                            <p>The manuscript entered early into the collection of the Seminario
+                                Vescovile. Michela Scattolini notes that MS P may have belonged to
+                                the collection of Alfonso Speroni-Alvarotti, and would have been
+                                acquired by the Seminario Vescovile in 1720.</p>
+                        </note>
+                    </head>
+                    <msContents>
+                        <textLang mainLang="FI">Franco-Italian</textLang>
+                        <msItem>
+                            <locus from="1r" to="117v">ff. 1r-117v</locus>
+                            <author xml:id="scribe">Anonymous</author>
+                            <!-- check foliation with Leslie -->
+                            <title xml:lang="FI">Huon d'Auvergne</title>
+                            <incipit>E perçò era Ugo d'Alvernia sevrie</incipit>
+                            <explicit>E Dio n...</explicit>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Paper</p>
+                                </support>
+                                <extent>117 manuscript folios, 5,690 lines of verse <dimensions
+                                    scope="all" type="leaves" unit="in">
+                                    <height>29.5 cm</height>
+                                    <width>22 cm</width>
+                                </dimensions>
+                                </extent>
+                                <!-- Where does <dimensions> go?  -->
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <p>In single columns</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>Written in one hand</p>
+                        </handDesc>
+                        <decoDesc>
+                            <p>Text written in laisses with colored initials alternating blue and
+                                red</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate
+                                notAfter="1350" notBefore="1300">first half of the fourteenth
+                                century</origDate>
+                            </p>
+                        </origin>
+                        <provenance>unknown</provenance>
+                        <acquisition>library acquisition information</acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup">
+                    <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
+                        choice element.</p>
+                </correction>
+                <!-- How do I include methods for abbreviations and omissions? -->
+            </editorialDecl>
+            <projectDesc>
+                <p>Text encoded for Huon d'Auvergne Project, which aims to create a digital edition
+                    for all four extant manuscripts of the Franco-Italian Huon d'Auvergne romance
+                    epic</p>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lg">Marks laisse divisions.</tagUsage>
+                    <tagUsage gi="l">Marks line divisions.</tagUsage>
+                    <tagUsage gi="head">Marks laisse divisions</tagUsage>
+                    <tagUsage gi="gap">Marks missing folios</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2017-01-02" who="SPM">added line, line group, and line number tags through
+                515</change>
+            <change when="2017-01-03" who="SPM">added milestone tages for foliation</change>
+            <change when="2017-01-05" who="SPM">added tags for red and blue initial letters</change>
+            <change when="2017-01-05" who="SPM">began adding note tags and linking to annotations
+                document</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
