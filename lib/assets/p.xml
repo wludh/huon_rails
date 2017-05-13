@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<?xml-model href="huonschema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="Huon_Customized_Schema_test.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -229,8 +229,8 @@
                         >er</ex> Dio onipotant,</l>
                 <l n="20">Si ve dirò un gran tradimant,</l>
                 <l n="21">Che fè Sufia, a chi Dio <choice>
+                        <sic>lo cuor <hi rend="red-corr">Dio</hi></sic>
                         <corr cert="medium" resp="#SPM">lo cuor </corr>
-                        <sic>Dio</sic>
                     </choice>crevant;<note xml:id="p21"/></l>
                 <l n="22">Tal cossa comete per le men esiant</l>
                 <l n="23">Unde Ugo ne fo irado e dolant.</l>
