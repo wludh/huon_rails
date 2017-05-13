@@ -210,20 +210,20 @@ class PagesController < ApplicationController
 
     def parse_line_groups(line_groups)
          result = ""
-         @line_groups.each do |line_group| 
+         @line_groups.each do |line_group|
              result += parse_line_group(line_group)
          end
          return result.html_safe
     end
 
     def parse_line_group(line_group)
-        #takes in a line_group and parses it 
-        result = "<lg n=#{line_group.attr('n')}>" 
-        result += parse_heading(line_group) 
+        #takes in a line_group and parses it
+        result = "<lg n=#{line_group.attr('n')}>"
+        result += parse_heading(line_group)
         result += '<div class="lines">'
-        for l in line_group.css('l') 
-             result += parse_line(l) 
-        end 
+        for l in line_group.css('l')
+             result += parse_line(l)
+        end
         result += '</div></lg>'
         return result.html_safe
     end
@@ -241,10 +241,10 @@ class PagesController < ApplicationController
             if l.css('pb').present?
                 result += parse_pb(l)
             end
-             for child in l.children 
-                 if child.name == 'choice' 
+             for child in l.children
+                 if child.name == 'choice'
                     result += parse_choice(child)
-                 elsif child.name == 'ex'     
+                 elsif child.name == 'ex'
                     result += parse_tag(child)
                      # add any new tags in the following array.
                 elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi'].include? child.name
@@ -252,10 +252,10 @@ class PagesController < ApplicationController
                 elsif child.name == 'note'
                     result += parse_note(child, @@internal_note_counter)
                     @@internal_note_counter += 1
-                 else 
-                    result += child.text 
-                 end 
-             end 
+                 else
+                    result += child.text
+                 end
+             end
         result += "</l>"
         return result.html_safe
     end
@@ -272,17 +272,17 @@ class PagesController < ApplicationController
             tei_files = ['p.xml', 'b.xml', 't.xml', 'br.xml']
             tag = INSERT_THE_TAG_TO_DRAW_FROM_HERE
             @all_tags = file.css(tag)
-            file = import_tei(tei_file)        
+            file = import_tei(tei_file)
             @loci, @rdgs = INSERT_WAY_TO_PARSE_HERE
             parsed_material += STUFF TO ADD
         end
-        
+
         parsed_material
     end
 
 
     def vmachine_parser(list_of_manuscripts)
-        
+
     end
 
 
@@ -331,6 +331,11 @@ class PagesController < ApplicationController
         parse_tei('br.xml')
         render template: "pages/br"
     end
+
+		def b_translation
+				parse_tei ('translation-b.xml')
+				render template: "pages/trans"
+		end
 
     def hell_scene
         render template: "pages/hell_scene"
