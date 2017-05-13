@@ -1053,7 +1053,7 @@ notesStmt {
   display: none;
 }
 num {
-  /* Empty Rule Set */
+  font-variant: small-caps;
 }
 number {
   /* Empty Rule Set */
