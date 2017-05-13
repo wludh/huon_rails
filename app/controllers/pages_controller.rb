@@ -269,7 +269,7 @@ class PagesController < ApplicationController
     # Reformat them to be in the format you want.
     parsed_material = ""
         for file in tei_files
-            tei_files = ['p.xml', 'b.xml', 't.xml', 'br.xml', 'translation-b',]
+            tei_files = ['p.xml', 'b.xml', 't.xml', 'br.xml', 'translation-b.xml',]
             tag = INSERT_THE_TAG_TO_DRAW_FROM_HERE
             @all_tags = file.css(tag)
             file = import_tei(tei_file)
