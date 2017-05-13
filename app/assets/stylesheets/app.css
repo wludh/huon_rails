@@ -699,5 +699,5 @@ hi[rend="blue-initial"]{
 }
 
 choice sic hi[rend="red-corr"]{
-  color: #ff4f23 !important;
+  color: red;
 }
