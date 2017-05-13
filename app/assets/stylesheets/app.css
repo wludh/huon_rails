@@ -666,7 +666,6 @@ code, pre{
 
 sic{
   display: none;
-  color: #520A00;
 }
 
 .milestone{
@@ -697,4 +696,8 @@ hi[rend="red-initial"]{
 hi[rend="blue-initial"]{
   color: blue;
   font-size: 40px;
+}
+
+hi[rend="red-corr"]{
+  color: #ff4f23;
 }
