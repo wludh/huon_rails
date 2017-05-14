@@ -180,7 +180,7 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <l n="1"><milestone n="1Ra" unit="fol."/>In the springtime when all the fields</l>
+                <l n="1"><milestone n="1Ra" unit="fol."/>In the springtime<note xml:id="trans1"/> when all the fields</l>
                 <l n="2">Are green again, as well as the laurel trees and bushes,</l>
                 <l n="3">When all kinds of birds fall in love,</l>
                 <l n="4">And for this reason sing and make lovely sounds,</l>
