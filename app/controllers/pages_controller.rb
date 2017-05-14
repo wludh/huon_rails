@@ -104,8 +104,8 @@ class PagesController < ApplicationController
             'p.xml' => 'notes-p.xml',
             'br.xml' => 'notes-br.xml',
             't.xml' => 'notes-t.xml',
-            'b.xml' => 'notes-b.xml'
-						'translation-b.xml' => 'notes-translation-b.xml'
+            'b.xml' => 'notes-b.xml',
+						'translation-b.xml' => 'notes-translation-b.xml',
         }
 
         # get the author and note nodes from the notes file
