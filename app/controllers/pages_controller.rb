@@ -335,7 +335,7 @@ class PagesController < ApplicationController
 
 		def b_translation
 				parse_tei ('translation-b.xml')
-				render template: "pages/trans"
+				render template: "pages/translation-b"
 		end
 
     def hell_scene

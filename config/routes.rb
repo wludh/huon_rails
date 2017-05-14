@@ -63,7 +63,6 @@ get "/pages/:page" => "pages#show"
 # match 'index', to: 'pages#index', via: [:get], as: :root
 match 'bibliography', to: 'pages#bibliography', via: [:get], as: :bibliography
 match 'editions', to: 'pages#editions', via: [:get], as: :editions
-
 match 'b_manuscript', to: 'pages#b_manuscript', via: [:get], as: :b_manuscript
 match 't_manuscript', to: 'pages#t_manuscript', via: [:get], as: :t_manuscript
 match 'p_manuscript', to: 'pages#p_manuscript', via: [:get], as: :p_manuscript
