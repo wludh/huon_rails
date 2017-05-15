@@ -706,14 +706,8 @@ ex[rend="angle"]::before{
   content: "<"
 }
 
-.angle::after
-{
-  content:">";
-}
-
-.angle::before
-{
-  content:"<";
+num{
+  font-variant: small-caps;
 }
 
 choice sic hi[rend="red-corr"]{
