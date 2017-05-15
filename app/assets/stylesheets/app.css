@@ -698,6 +698,14 @@ hi[rend="blue-initial"]{
   font-size: 40px;
 }
 
+ex[rend="angle"]::after{
+  content: ">";
+}
+
+ex[rend="angle"]::before{
+  content: "<"
+}
+
 .angle::after
 {
   content:">";
