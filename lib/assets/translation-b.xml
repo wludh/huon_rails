@@ -5,10 +5,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne: a digital edition of Turin, Biblioteca nazionale, N III
-                    19</title>
-                <title type="short">Turin MS N III 19</title>
-                <editor xml:id="SPM">Stephen P. McCormick</editor>
+                <title>Hugh of Auvergne, a Franco-Italian Romance-Epic</title>
+                <title type="short">English Translation</title>
+                <editor xml:id="SPM">Shira Schwam-Baird</editor>
                 <sponsor>
                     <address>
                         <addrLine>Washington and Lee University</addrLine>
@@ -17,42 +16,20 @@
                     </address>
                 </sponsor>
                 <funder>The National Endowment for the Humanities</funder>
-                <principal>Stephen P. McCormick</principal>
-                <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
+                <principal>Shira Schwam-Baird</principal>
                 <respStmt>
-                    <name>Leslie Zarker Morgan</name>
-                    <resp>edition</resp>
-                    <resp>transcription</resp>
-                    <resp>TEI coding and development</resp>
-                </respStmt>
-                <respStmt>
-                    <name xml:id="MKB">Mackenzie K. Brooks</name>
-                    <resp>TEI consultant</resp>
-                    <resp>TEI coding and development</resp>
-                    <resp>Web development</resp>
-                </respStmt>
-                <respStmt>
-                    <name xml:id="AK">Abdurrafey Khan</name>
-                    <resp>TEI coding and development</resp>
-                </respStmt>
-                <respStmt>
-                    <name xml:id="DPD">Dashiell Dericks</name>
-                    <resp>TEI coding and development</resp>
+                    <name xml:id="SSB">Shira Schwam-Barid</name>
+                    <resp>translation</resp>
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition n="0.1">
-                    <title>Version 0.1, enriched with text structure tags</title>
-                    <date when="2015">June 2015</date>
+                <edition n="1.0">
+                    <title>Version 1.0, enriched with text structure tags</title>
+                    <date when="2017">August 31</date>
                 </edition>
                 <respStmt>
-                    <name>Stephen P. McCormick</name>
-                    <resp>Created initial digital document, developed TEI tags for text structure,
-                        and began tagging for text structure</resp>
-                </respStmt>
-                <respStmt>
-                    <name>Natsumi D. Alvarez</name>
-                    <resp>Developed TEI tags for text structure and began tagging.</resp>
+                    <name>Shira Schwam-Baird</name>
+                    <resp>Translation of Berlin Kupferstichkabinett Hamilton 337 (78 D 8)</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -72,40 +49,36 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
-                    <!-- xml:id ??? See Cummings 52 -->
                     <msIdentifier>
-                        <country>Italy</country>
-                        <settlement>Turin</settlement>
-                        <repository>Biblioteca nazionale</repository>
-                        <idno>N III 19</idno>
+                        <country>Germany</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Kupferstichkabinett</repository>
+                        <idno>Hamilton 337 (78 D 8)</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title xml:lang="FI">Huon d'Auvergne, Turin, Biblioteca nazionale, N III
-                            19</title>
-                        <origPlace cert="low">Padua</origPlace>
-                        <origDate cert="medium" evidence="internal">second half of fourteenth
-                            century or first half of fifteenth</origDate>
-                        <note>Edition prepared by Leslie Zarker Morgan. Basic praxis inserted
-                            here.</note>
-                        <note>Note on state of manuscript - burned in Turin library file of 1904,
-                            etc.</note>
+                        <title xml:lang="en">Hugh of Auvergne, a Franco-Italian Romance-Epic</title>
+                        <origPlace cert="low">unknown</origPlace>
+                        <origDate cert="high" evidence="scribal">1341</origDate>
+                        <note>Translation prepared by Shira Schwam-Baird</note>
+                        <!--  Basic praxis inserted in note above. -->
+                        <note></note>
+                        <!-- Note on state of manuscript -->
                     </head>
                     <msContents>
-                        <textLang mainLang="FI">Franco-Italian</textLang>
+                        <textLang mainLang="fi">Franco-Italian</textLang>
                         <msItem>
-                            <locus from="1r" to="117v">ff. 1r-117v</locus>
+                            <locus from="1r" to="84v">ff. 1r-84v</locus>
                             <author xml:id="scribe">Anonymous</author>
-                            <!-- check foliation with Leslie -->
-                            <title xml:lang="FI">Huon d'Auvergne</title>
+                            <title xml:lang="fi">Huon d'Auvergne</title>
                             <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
                             <explicit/>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
-                            <supportDesc material="paper">
+                            <supportDesc material="parchment">
                                 <support>
-                                    <p>Paper</p>
+                                    <p>Parchment</p>
                                 </support>
                                 <extent>Insert manuscript folio count <dimensions scope="all"
                                         type="leaves" unit="in">
