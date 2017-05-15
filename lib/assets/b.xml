@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Huon_Customized_Schema_03152017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="Huon_Customized_Schema_test.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -3036,7 +3036,7 @@
          </lg>
          <lg type="laisse" n="76">
             <head>Laisse 76</head>
-            <l n="2031">(Laisse 76) Grant pieçe sont qui, no[n] n'ont mot p[ar]lés</l>
+            <l n="2031">Grant pieçe sont qui, no[n] n'ont mot p[ar]lés</l>
             <l n="2032">Ceus qi furent a li consoil dema[n]dés;</l>
             <l n="2033">Pués respondent, "Sir, fa or q[ue] toy ples.</l>
             <l n="2034">Bon espoir n'ais de tenir la cités.</l>
@@ -3059,7 +3059,10 @@
             <l n="2051">De celle çonse tot en remanent lés.</l>
             <l n="2052">Grant gais en maine por l'ost en v[er]ités,</l>
             <l n="2053">Si sont en pais fraciq[ue] l'ajornés.</l>
-            <l n="2054">(Laisse 77) A l'endemain, a l'aube aparisant,</l>
+         </lg>
+         <lg type="laisse" n="77">
+            <head>Laisse 77</head>
+            <l n="2054">A l'endemain, a l'aube aparisant,</l>
             <l n="2055">De la cité ceus n'i vont atardant.</l>
             <l n="2056">Bien mil de lor, [et] tot le plus vaila[n]t,</l>
             <l n="2057">Vinent a l'ost ou ert le tref plus gra[n]t.</l>
@@ -3091,6 +3094,9 @@
             <l n="2083">Prés ces afere p[ri]strent un pa[r]lema[n]t</l>
             <l n="2084">De fere un roy [et] tot novellema[n]t,</l>
             <l n="2085">Qui desormés tiegne ces casema[n]t.</l>
+         </lg>
+         <lg type="laisse" n="78">
+            <head>Laisse 78</head>
             <l n="2086">(Laisse 78) Al parlema[n]t fure[n]t maintes baron;</l>
             <l n="2087">Chascun de lor done soe licion</l>
             <l n="2088">De fere rois le pros, li sage Ugon,</l>
