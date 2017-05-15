@@ -708,6 +708,7 @@ ex[rend="angle"]::before{
 
 num{
   font-variant: small-caps;
+  color: green;
 }
 
 choice sic hi[rend="red-corr"]{
