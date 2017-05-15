@@ -706,7 +706,7 @@ ex[rend="angle"]::before{
   content: "<"
 }
 
-num{
+num[rend="smallcaps"]{
   font-variant: small-caps;
   color: green;
 }
