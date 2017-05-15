@@ -698,8 +698,15 @@ hi[rend="blue-initial"]{
   font-size: 40px;
 }
 
-.angle:after{content:">"}
-.angle:before{content:"<"}
+.angle::after
+{
+  content:">";
+}
+
+.angle::before
+{
+  content:"<";
+}
 
 choice sic hi[rend="red-corr"]{
   color: red;
