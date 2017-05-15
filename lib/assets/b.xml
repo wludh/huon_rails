@@ -3013,9 +3013,9 @@
             <l n="2011">Qui seit mielç dir, ne l'en doit pas tesire,  </l>
             <l n="2012">E nos avrons pués le meillor eslire."  </l>
          </lg>
-         <lg>
-
-            <l n="2013">(Laisse 75) "Mout bon consoil ci a," ceus li respont.</l>
+         <lg type="laisse" n="75">
+            <head>Laisse 75</head>
+            <l n="2013">"Mout bon consoil ci a," ceus li respont.</l>
             <l n="2014">"Soit donc requis se ce fere il volont."</l>
             <l n="2015">.ii. mes l'envoie qui fin la port vont;</l>
             <l n="2016">Diront l'ambasee coma[n]t fermeç i sont.</l>
@@ -3033,6 +3033,9 @@
             <l n="2028">Al rois conta tot le feit [et] diront;</l>
             <l n="2029">Mais ceus tairent tant qe li mes dit ont.</l>
             <l n="2030">Chascu[n]s fu quoy, no[n] sent dir mot del mo[n]t.</l>
+         </lg>
+         <lg type="laisse" n="76">
+            <head>Laisse 76</head>
             <l n="2031">(Laisse 76) Grant pieçe sont qui, no[n] n'ont mot p[ar]lés</l>
             <l n="2032">Ceus qi furent a li consoil dema[n]dés;</l>
             <l n="2033">Pués respondent, "Sir, fa or q[ue] toy ples.</l>
