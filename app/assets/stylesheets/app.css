@@ -566,21 +566,24 @@ td{
   padding: 0 0.9375rem;
   line-height: 2.8125rem;
 }
+
 #reader-hr{
   margin: 0.5em 0.5em 0 0;
   margin-top: -2px;
 }
+
 #reader-nav-links{
   line-height: 2.8125rem;
     padding: 0 0.9375rem;
 }
+
 #side-panel{
   margin-right: 10%;
   padding-right: 40px;
   float: right;
   margin-top: 48px;
   padding-top: 68px;
-  width: 35%;
+  width: 25%;
   height: 100%;
   overflow: scroll;
 }
@@ -705,6 +708,8 @@ ex[rend="angle"]::after{
 ex[rend="angle"]::before{
   content: "<"
 }
+
+/*tags below don't work*/
 
 num[rend="smallcaps"]{
   font-variant: small-caps;
