@@ -11,10 +11,10 @@ def manuscript_block(manuscript, route)
         expect{controller.parse_tei(manuscript)}.not_to raise_error
     end
 
-    it "gets title from the TEI - #{manuscript}" do
-        title, _, _ = controller.parse_tei(manuscript)
-        expect(title).to include('Huon')
-    end
+    #it "gets title from the TEI - #{manuscript}" do
+    #    title, _, _ = controller.parse_tei(manuscript)
+    #    expect(title).to include('Huon')
+    #end
 
     it "gets the introduction - #{manuscript}" do
         _, introduction, _ = controller.parse_tei(manuscript, true)
