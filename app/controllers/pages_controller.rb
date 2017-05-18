@@ -334,7 +334,7 @@ class PagesController < ApplicationController
     end
 
 		def b_translation
-				parse_tei ('translation-b.xml')
+				parse_tei('translation-b.xml')
 				render template: "pages/translation-b"
 		end
 
