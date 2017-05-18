@@ -102,6 +102,7 @@ def tei_block(doc, file_name)
     lgs = doc.css('lg')
     lgs.each do |lg|
         describe "the lg tags " do
+          puts lg.attr('n')
             it "should have an n attribute - #{file_name}" do
                 expect(lg.attr('n')).to be_truthy
             end
