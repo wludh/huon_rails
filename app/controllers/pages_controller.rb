@@ -17,7 +17,7 @@ class PagesController < ApplicationController
 			if branch == nil
 				branch = "master"
 			end
-			parse_tei("#{msname}.xml", branch)
+			parse_tei("#{msname}.xml", false, branch)
 			render template: "pages/#{msname}"
 
 		end
@@ -36,7 +36,7 @@ class PagesController < ApplicationController
             }
     end
 
-    def parse_tei(tei_file, branch="master", testing=false )
+    def parse_tei(tei_file, testing=false, branch="master" )
         unless params.key?('edition') or not testing
             # look for the edition param to let us know if we're at the intro or not.
             # if no page / if at edition, show the intro.
