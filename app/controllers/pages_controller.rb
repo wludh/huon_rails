@@ -333,10 +333,10 @@ class PagesController < ApplicationController
         render template: "pages/br"
     end
 
-		def b_translation
-				parse_tei('translation-b.xml')
-				render template: "pages/translation-b"
-		end
+	def b_translation
+		parse_tei('translation-b.xml')
+		render template: "pages/translation-b"
+	end
 
     def hell_scene
         render template: "pages/hell_scene"
