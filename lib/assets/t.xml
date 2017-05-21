@@ -19,10 +19,15 @@
                 <principal>Stephen P. McCormick</principal>
                 <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
                 <respStmt>
-                    <name>Leslie Zarker Morgan</name>
+                    <name xml:id="LZM">Leslie Zarker Morgan</name>
                     <resp>edition</resp>
                     <resp>transcription</resp>
                     <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xm:id="SPM">Stephen P. McCormic</name>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web development</resp>
                 </respStmt>
                 <respStmt>
                     <name xml:id="MKB">Mackenzie K. Brooks</name>
@@ -31,12 +36,13 @@
                     <resp>Web development</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="AK">Abdurrafey Khan</name>
-                    <resp>TEI coding and development</resp>
+                  <name xml:id="JCV">Jean-Claude Vallecalle</name>
+                  <resp>Literary and linguistic annotation</resp>
+                  <resp>Transcription and edition proofing</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="DPD">Dashiell Dericks</name>
-                    <resp>TEI coding and development</resp>
+                  <name xml:id="AEB">Alan E. Bernstein</name>
+                  <resp>Literary annotation for Hell scene</resp>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -83,15 +89,21 @@
                             19</title>
                         <origPlace cert="low">Turin</origPlace>
                         <origDate cert="medium" evidence="internal">s1441 included in final lines</origDate>
-                        <note>Edition prepared by Leslie Zarker Morgan. Basic praxis inserted
-                            here.</note>
+                        <note>
+                          <p>The exact line count of T is difficult to ascertain today as it was burned in the Turin Biblioteca Nazionale fire of 1904. It was restored in 1911-1912, and the central portion of most folios is legible, but the edges, where still present, are not, even under ultraviolet light; therefore many lines are now lost. Text begins on folio 1V. Möhren cites T as having 11,094 lines (« Huon d’Auvergne», 316); Graf says “circa quattordicimila versi” (“Di un poema inedito,” 92). In Rajna’s transcription, the last line of that transcription (dating the text) bears the labels 11780 (followed by one line of text and the explicit) and 11844 (at the bottom of the page). T is written in one column, and again, according Graf, to up to folio 119 generally contained 40 lines; from there to the end, no more than 32 or 33, with larger spaces and better handwriting (“Di un poema,” 93). In fact, from 58R on, the handwriting is smaller and neater, and the lining more evident. There is another change at the sheet now numbered 121, where the handwriting is again smaller and neat.</p>
+	                        <p>T is today restored, with recto pasted onto the recto of a new sheet and the verso pasted onto the verso of that same sheet. The folios have been carefully consecutively numbered in the bottom right in pencil on the recto side; there are 183 total. There is one blank sheet at the end and at the beginning (not included in the count). In a control with extant transcriptions, those sections of T already printed correspond to the current ms. configuration.
+                        	The binding is 21.5 cm. by 28.5 cm., and 11.0 cm. thick at the spine (the pages have expanding, making it thicker at the edge). Inside the front binding is the bookplate of the Biblioteca Nazionale di Torino, with Mss Ital N.III.19 in the center, and on the outside, Peyron.codices Italici Pag. 88 at the top and Cod. CVI at the bottom. In the top right-hand corner of the inside cover, in ink, "Già Ital. D.3/subito dopo l'incendio/ora Ha ff. 183." In the bottom right of the same front binding, writing in ink "No 797 del/Registro dei /Legatori/£ 20". Blank sheet (now separate from its mate, inside of front plat). Carta 1R, remains of illustration bottom of page, shield in red with insignia (no longer visible: a little gold visible at right edge), with green surround, decoration in middle- roundish donut-like shapes. Red banner unfurled around outside of that. Top left, writing in pencil: Carlo Martello/Co9.CVL/N.III.19/[g]ià Ital D.3. There is no writing at all at the end of the ms. after the text.</p>
+                        	<p>There are very few remaining visible catchwords to check signatures: 22V, 46V, 73V, 149V. In a few spots, the beginning of ink spots would seem to indicate that a catchword began shortly thereafter: 16v.  Signature size might thus have been different; at least through folio 119, of 8 folios (allowing for three inserted later blank folios at 55-57: thus signatures ending at 46, 54, 62, 70, etc.), and after that what happened is unclear. One interesting characteristic of this text in contrast to the earlier mss. is the use of Arabic numerals within the ms. text itself (e.g., f. 85V, .4. servidori) and in the final line dating the text; the earlier mss. use exclusively roman numerals. The final line of T now reads: Ternus amen de .1441. die 6. de feb (T has a line through the top= Ter[mi]nus); Rajna recorded “febrar” as the final word (181V by his count, 186V of his notebook).
+                        	T contains 54 folios with illuminations (1r, 4v, 7v, 11V, 13V, 16R, 17R, 19V, 22R, 23R, 25R, 29V, 33V, 36R, 37V, 41R, 44V, 46V, 52V, 54V, 63R, 65V, 74V, 80R, 84R, 86V, 88V, 93V, 97R, 100V, 105V, 106V, 108V, 112R, 114R, 117V, 120V, 122V, 125V, 127V, 133V, 135R, 141R, 146R, 148V, 153R, 156V, 158R, 159R, 163R, 164V, 175R, 179R, 182R); there are four pages with blank spaces (ff. 22V, 28R, 50V, 70R)– it is unclear whether illuminations were lost due to the fire and water or whether the sheets were blank from the start. There are also three completely blank sheets (55-57), which do pose the problem of their correct location since they are not described in pre-1904 commentaries. Graf mentions three blank folios at the end of the ms. (“Di un poema inedito,” 92); these could have originally been at the end. Renier defers to Graf for the ms. description. The three blank sheets bear traces of lines but no letters or other material is visible under ultraviolet light.</p>
+                        	<p>There are modern notes in pencil in the left margins; e.g., 31V "Imp. Eunio" and another more cryptic one. These are in addition to lines inserted after the completion of the original as  corrections, e.g., 31V, ' soto l' estendarde…"; 33R also has two lines inserted (right margin); 33V, one; 37R, 3, 40r, 2; 53v, 2; 59v, 2; 115v, 3; 126r, 2. Note that most of these are between 31 and 59, arguing for different (more careful) scribes in the later portion of the manuscript. Other marginalia include (where versos are relatively complete) the first letter of laisses to aid the rubricator. On 127V, there is a scribble in the original ink color, 'fon'.</p>
+                        </note>
                         <note>Note on state of manuscript - burned in Turin library file of 1904,
                             etc.</note>
                     </head>
                     <msContents>
                         <textLang mainLang="FI">Franco-Italian</textLang>
                         <msItem>
-                            <locus from="1r" to="117v">ff. 1r-117v</locus>
+                            <locus from="1r" to="117v">ff. 1r-183v</locus>
                             <author xml:id="scribe">Anonymous</author>
                             <!-- check foliation with Leslie -->
                             <title xml:lang="FI">Huon d'Auvergne</title>
@@ -107,8 +119,8 @@
                                 </support>
                                 <extent>183<dimensions scope="all"
                                         type="leaves" unit="in">
-                                        <height>29.5 cm</height>
-                                        <width>22 cm</width>
+                                        <height>27 cm</height>
+                                        <width>20 cm</width>
                                     </dimensions>
                                 </extent>
                                 <!-- Where does <dimensions> go?  -->
