@@ -60,6 +60,7 @@ Rails.application.routes.draw do
 get "/pages/:page" => "pages#show"
 # get "/pages/:page", to: "pages#show", as: ':page'
 
+get "/text/:msname" => "pages#text"
 # match 'index', to: 'pages#index', via: [:get], as: :root
 match 'bibliography', to: 'pages#bibliography', via: [:get], as: :bibliography
 match 'editions', to: 'pages#editions', via: [:get], as: :editions

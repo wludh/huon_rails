@@ -1,4 +1,5 @@
 require 'roman-numerals'
+require 'open-uri'
 
 class PagesController < ApplicationController
 
@@ -10,21 +11,38 @@ class PagesController < ApplicationController
         # convert the pages parameter into the tidy slug
         render template: "pages/#{params[:page]}"
     end
+		def text
+			branch = params[:branch]
+			msname = params[:msname]
+			if branch == nil
+				branch = "master"
+			end
+			parse_tei("#{msname}.xml", false, branch)
+			render template: "pages/#{msname}"
 
-    def import_tei(tei_file)
+		end
+
+
+
+
+		#these are utilit functions which should be moved outside controller
+    def import_tei(tei_file, branch="master")
         # take the tei file name and return a nokogiri object
-        return File.open( "./lib/assets/#{tei_file}" ) {
+        #return File.open( "./lib/assets/#{tei_file}" ) {
+        #        |f| Nokogiri::XML(f)
+        #    }
+				return open( "https://raw.githubusercontent.com/mccormicks/huon_texts/#{branch}/#{tei_file}" ) {
                 |f| Nokogiri::XML(f)
             }
     end
 
-    def parse_tei(tei_file, testing=false)
+    def parse_tei(tei_file, testing=false, branch="master" )
         unless params.key?('edition') or not testing
             # look for the edition param to let us know if we're at the intro or not.
             # if no page / if at edition, show the intro.
 
             # import the tei
-            doc = import_tei(tei_file)
+            doc = import_tei(tei_file, branch)
 
             # get the title
             @title = doc.search('title').first.text
@@ -36,7 +54,7 @@ class PagesController < ApplicationController
         else
 
             # get the doc
-            doc = import_tei(tei_file)
+						doc = import_tei(tei_file, branch)
 
             # get the title
             @title = doc.search('title').first.text
@@ -313,6 +331,7 @@ class PagesController < ApplicationController
         render template: "pages/edition"
     end
 
+		# these routes can stay, but they may have also replaced by the text method above
     def b_manuscript
         parse_tei('b.xml')
         render template: "pages/b"
@@ -324,14 +343,15 @@ class PagesController < ApplicationController
     end
 
     def p_manuscript
-        parse_tei('p.xml')
-        render template: "pages/p"
-    end
+			parse_tei('p.xml')
+			render template: "pages/p"
+		end
 
     def br_manuscript
         parse_tei('br.xml')
         render template: "pages/br"
     end
+		# end of manuscript routes that could be replaced by text method above
 
 	def b_translation
 		parse_tei('translation-b.xml')
