@@ -82,8 +82,7 @@
                         <title xml:lang="FI">Huon d'Auvergne, Turin, Biblioteca nazionale, N III
                             19</title>
                         <origPlace cert="low">Padua</origPlace>
-                        <origDate cert="medium" evidence="internal">second half of fourteenth
-                            century or first half of fifteenth</origDate>
+                        <origDate cert="medium" evidence="internal">s1441 included in final lines</origDate>
                         <note>Edition prepared by Leslie Zarker Morgan. Basic praxis inserted
                             here.</note>
                         <note>Note on state of manuscript - burned in Turin library file of 1904,
@@ -124,8 +123,7 @@
                             <p>Written in one hand</p>
                         </handDesc>
                         <decoDesc>
-                            <p>Text written in laisses with colored initials alternating blue and
-                                red</p>
+                            <p>Text written in laisses with colored initials alternating blue and red; illumination program throughout, though badly damaged in 1904 Turin library fire.</p>
                         </decoDesc>
                     </physDesc>
                     <history>
@@ -194,6 +192,7 @@
                 <l n="13">selonche che nostra cronicha ordenata,</l>
                 <l n="14">che hognomo l'apela lo re Carlo Martelo.</l>
                 <l n="15">Gran corte tenia che homo no[n] la vite zà tale</l>
+                <!-- Footnote at the end of this line: Rajna 1v or 2 left if working from microfilm -->
                 <l n="16">che una cossa adopra el ben com felo:</l>
                 <l n="17">quando un suo servo chaza de soa casa,</l>
                 <l n="18">e se l'envia a querire trabuto a Luzifero</l>

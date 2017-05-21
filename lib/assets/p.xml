@@ -200,8 +200,8 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <!--<l>(manuscript acephalous)</l>
-                <l>[...]</l>-->
+                <l>(manuscript acephalous)</l>
+                <l>[...]</l>
                 <l n="1"><gap reason="missing folios" quantity="2"/><milestone n="1R" unit="fol."/>E
                     perçò era Ugo d’Alvernia sevrie;</l>
                 <l n="2">E pluy de tre any stete in la çitie</l>
@@ -5293,8 +5293,8 @@
                 <l n="3766"><hi rend="red-initial">A</hi>llora dixe lo falsso agnolo, "Dì-me, che
                     faras?</l>
                 <l n="3767">P<ex rend="italic">er</ex>ché ve tu duncha çò che no oseras?"</l>
-                <!-- ve tu is problematic; after manuscript consultation, it is clear the e 
-                    is incorrect; the letter has a ligature to the following t, similar to 
+                <!-- ve tu is problematic; after manuscript consultation, it is clear the e
+                    is incorrect; the letter has a ligature to the following t, similar to
                     the st ligature, and a line was added to extend the letter below the line.  -->
                 <l n="3768">"Io apeterò," dixe lo conte, "oltro spirito plui veras</l>
                 <l n="3769">Vignerà p<ex rend="italic">er</ex> mi secorere, ça tu no<ex
