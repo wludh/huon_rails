@@ -33,7 +33,7 @@ p {
 
 div.example {
     font-family: "Courier New", Courier, monospace;
-    background-color: beige;
+    background-color: #00ff80;
     border: invisible;
     width: 850px;
     padding: 1.5px;
@@ -66,8 +66,3 @@ td {
 td.1 {
     width: 30px;
 }
-
-
-
-
-
