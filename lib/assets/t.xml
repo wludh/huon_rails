@@ -4,8 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Turin, Biblioteca nazionale, N III
-                    19</title>
+                <title>Turin, Biblioteca nazionale, N III 19</title>
                 <title type="short">Turin MS N III 19</title>
                 <editor xml:id="LZM">Leslie Zarker Morgan</editor>
                 <sponsor>
@@ -245,12 +244,12 @@
                 <l n="47">de Carlo Martelo che fo y[m]peradore,</l>
                 <l n="48">che y[n] suo tempo conquistò tanto onore;</l>
                 <l n="49">com più el [con]quistò più fo crudele tute hore.</l>
-                <l n="50">(50) Né à re né à prinzipo né à ducha né à valvasore </l>
+                <l n="50"><milestone ed="Rajna" n="50"/>Né à re né à prinzipo né à ducha né à valvasore </l>
                 <l n="51">né à conte né à marchese né baron dentorno</l>
                 <l n="52">che no∙l s[er]va per dotanza o per amore.</l>
                 <l n="53">Al re vene talente [et] y[n] coro un zorno</l>
                 <l n="54">del tuto vedere de soy homene lo miore</l>
-                <l n="55"><milestone ed="Rajna" n="55"/>(55) lo quale avea più forza et più valore;</l>
+                <l n="55"><milestone ed="Rajna" n="55"/>lo quale avea più forza et più valore;</l>
                 <l n="56">comseio ne presse al [con]te da Luzenborgo</l>
                 <l n="57">et a Ruzero, lo sere de Nante ancora,</l>
                 <l n="58">yn qual mainera le porà ello vedere.</l>
