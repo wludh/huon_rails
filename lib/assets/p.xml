@@ -756,7 +756,7 @@
                 <l n="413">"E como avì vuy nome? Dì-me la vérité!”</l>
                 <l n="414">Elo respoxe, “Non ve serà çelé,</l>
                 <l n="415">Ugo d’Avernia io son apelé.”</l>
-                <l n="416">Disse Gualtier, “Io te cognoso asen,</l>
+                <l n="416">Disse Gualtier, “Io te cognoso asen,<note xml:id="p416"/></l>
                 <l n="417">Ché to pare alcixe lo mio soto Paris al pré.”</l>
                 <l n="418">Quando Ugo l’intende, tuto fo smarié;</l>
                 <l n="419">Davanti el castelan el fo incenoglé</l>
@@ -1151,7 +1151,7 @@
                 <l n="706">Lo traditor che me volsse sforçare,</l>
                 <l n="707">E vuy volleva honir e vergonçere?"</l>
                 <l n="708">"Dama," diss'ello, "el si v'è fallido el penssiere.</l>
-                <l n="709">Do fiade ell m'abate del corente destriere,</l>
+                <l n="709">Do fiade ell m'abaté del corente destriere,</l>
                 <l n="710">Non lo putì prender ni bailiere,</l>
                 <l n="711">Mai qua el mavaxio liçiere</l>
                 <l n="712">Chi·l vorà, lo porà trovere</l>
@@ -1164,7 +1164,7 @@
                 <l n="716">Aduncha se porallo bem vantere</l>
                 <l n="717">De vuy unir e de mi vergonçere."</l>
                 <l n="718">"Dama," disse Sangui<ex rend="italic">n</ex>, "de niente ve dotere,</l>
-                <l n="719"><milestone n="15V" unit="fol."/>Do fiede el m'abate del corante
+                <l n="719"><milestone n="15V" unit="fol."/>Do fiede el m'abaté del corante
                     destrere,</l>
                 <l n="720">E p<ex rend="italic">er</ex> questo anderò a Paris o' troverò vostro
                     pere.</l>
@@ -1399,7 +1399,7 @@
                             >t</ex>o</corr><note xml:id="p907"/> l'à franto e fatto speçer.</l>
                 <l n="908">La bona bruna no li valsse un dener,</l>
                 <l n="909">Innaverado l'à in llo flanco darier;</l>
-                <l n="910">Si·ll’abatte a tera del core<ex rend="italic">n</ex>te destrier</l>
+                <l n="910">Si·ll’abatté a tera del core<ex rend="italic">n</ex>te destrier</l>
                 <l n="911">Innanci ch'el sse podesse levar ni drecer.</l>
                 <l n="912">La çente de Ugo lo corsse a pier,<note xml:id="p912"/></l>
                 <l n="913">In Alvernia si·l menà p<ex rend="italic">er</ex> prexoner.</l>
@@ -3267,7 +3267,7 @@
                 <l n="2315">La çente d'Alvernia se fa molto aprixiere,</l>
                 <l n="2316">Chi duncha vedesse la bataia dura e fere!</l>
                 <l n="2317">Baldoin e Thomas non fano çà cativiere;</l>
-                <l n="2318">Çascun abate lo·sso davanti l'inperere.</l>
+                <l n="2318">Çascun abate lo·sso davanti l'inperere.<note xml:id="p2318"/></l>
                 <l n="2319">Quando Carlo lo vete, el penssà de dolor ragiere;</l>
                 <l n="2320">P<ex rend="italic">er</ex> maltalento se fè so arme portere,</l>
                 <l n="2321">Veste l'osbergo e calçà le ganbiere,</l>
@@ -3280,7 +3280,7 @@
                     </choice><note xml:id="p2325"/> tençonere,</l>
                 <l n="2326">And'ello a ferir sovra lo scudo a quartere,</l>
                 <l n="2327">Lo scu li speçà fin al sbergo doplere.</l>
-                <l n="2328">Quel fo tanto bona maia, non potè falsere.</l>
+                <l n="2328">Quel fo tanto bona maia, non poté falsere.</l>
                 <l n="2329">L'asta fo grossa, ben la tene l'inperere,</l>
                 <l n="2330">O el volesse o no, lo fè a tera verssere.</l>
                 <l n="2331">Çà l'averave abudo Carlo p<ex rend="italic">er</ex> prexonere,</l>
@@ -3612,7 +3612,7 @@
                 <l n="2576">Mai no fo homo del to senblant</l>
                 <l n="2577">Che andasse a querir trabuto alla danada çant,</l>
                 <l n="2578">Ch'èno se seradi in lo profondo efundament;</l>
-                <l n="2579">Çamai no li potè andar algun homo vivant.</l>
+                <l n="2579">Çamai no li poté andar algun homo vivant.</l>
                 <l n="2580">Quelli che muore senca vera peniiteant</l>
                 <l n="2581">Là son portadi oltra ell so <choice>
                         <sic>maltalanant</sic>
@@ -4321,7 +4321,7 @@
                 <l n="3071">E le plui çovene cantar e baler.</l>
                 <l n="3072">No·sse parlava de bever ni de mançer</l>
                 <l n="3073">Se no de ssollaço e de vanitade user.</l>
-                <l n="3074">Ni·l çentil conte no·sse potè saciar</l>
+                <l n="3074">Ni·l çentil conte no·sse poté saciar</l>
                 <l n="3075">De·<choice>
                         <sic>llo</sic>
                         <corr cert="medium" resp="#SPM">llo<ex rend="brackets">r</ex></corr>
@@ -4638,7 +4638,7 @@
                 <l n="3297">Ni·lle suo voxe sonava mundana nient,</l>
                 <l n="3298">Tante glorioxe e benigne ch'el prent;</l>
                 <l n="3299">Al conte pareva del sguardar nient</l>
-                <l n="3300">No·lli potè vardar ben figurabelment</l>
+                <l n="3300">No·lli poté vardar ben figurabelment</l>
                 <l n="3301">A lui pare che·sson illi furent:</l>
                 <l n="3302">"<q xml:lang="la">Gloria in excellssis</q>" fo lo començament,</l>
                 <l n="3303">Innanci ch'elli dixesse "<q xml:lang="la">in tera pax</q>" fermame<ex
@@ -5033,7 +5033,7 @@
                 <head>Laisse 134</head>
                 <l n="3585"><hi rend="red-initial">I</hi>n quela note fo·llo conte i<ex
                         rend="italic">n</ex> gran dotançe;</l>
-                <l n="3586">Non potè dormir. Quando l'alba comançe</l>
+                <l n="3586">Non poté dormir. Quando l'alba comançe</l>
                 <l n="3587">Del pan <choice>
                         <sic>pança</sic>
                         <corr cert="medium" resp="#SPM"><ex rend="brackets">m</ex>ançà</corr>
@@ -5138,7 +5138,7 @@
                 <l n="3664">Morto lo roverssà, ben li die abelir.</l>
                 <l n="3665">Mo questo che li val romasso è i<ex rend="italic">n</ex> martir,</l>
                 <l n="3666">Or non ve·llo ni consse ni remir.</l>
-                <l n="3667"><milestone n="75V" unit="fol."/>De pietade plançe, non sse potè
+                <l n="3667"><milestone n="75V" unit="fol."/>De pietade plançe, non sse poté
                     retenir.</l>
                 <l n="3668">––Quello lo secorei ch'el mundo die fenir! ––</l>
                 <l n="3669">Ancora no fo del tal pietà de veçir.</l>
@@ -5621,7 +5621,7 @@
                 <l n="3997">Po·sse cunforta e prende ardiment</l>
                 <l n="3998">Quando lo receve lo più p<ex rend="italic">ro</ex>simo parent,</l>
                 <l n="3999">Tuto cussì lo conte chi era stà dolant</l>
-                <l n="4000">Se confortà, po che olde el bun sant,</l>
+                <l n="4000">Se confortà, po che olde<note xml:id="p4000"></note> el bun sant,</l>
                 <l n="4001">Con bona fé e no pensandament.</l>
                 <l n="4002">P<ex rend="italic">er</ex> plui aprossiman a lui leva en estant</l>
                 <l n="4003">Davanti li suo pié s'enconochiò atant,</l>
