@@ -33,7 +33,11 @@ p {
 
 div.example {
     font-family: "Courier New", Courier, monospace;
+<<<<<<< HEAD
     background-color: beige;
+=======
+    background-color: #00ff80;
+>>>>>>> huon_develop
     border: invisible;
     width: 850px;
     padding: 1.5px;
@@ -66,8 +70,11 @@ td {
 td.1 {
     width: 30px;
 }
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> huon_develop
