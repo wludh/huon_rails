@@ -188,26 +188,26 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <l n="1">Al tempo de mazo<note xml:id="t1"/> quando el fiorise le prade</l>
-                <l n="2">tute reverdise li erbe e∙lle arbosele,</l>
-                <l n="3">et y[n]n-amore vene molte mainere d'osele</l>
-                <l n="4">perzò cantano e fano li sony molte bele,</l>
-                <l n="5">tute y[n]semele fano done et donzele</l>
-                <l n="6">che per lor deleto entrano y[n] zardine;</l>
-                <l n="7"><milestone n="1R" unit="fol."/> tute le polzele ensemele com zovenzele</l>
-                <l n="8">de fiore<note xml:id="t8"/> e de rosse zascun se fa capele,</l>
-                <l n="9">se sy sbaldise perché amore lia strenze.</l>
-                <l n="10">En la Pentacosta quando (el) cavalere novele</l>
-                <l n="11">desi(d)rano zostrà e fare meraviose zambele,</l>
-                <l n="12">el steva en Franza un re molto crudele,</l>
-                <l n="13">selonche che nostra cronicha ordenata,</l>
-                <l n="14">che hognomo l'apela lo re Carlo Martelo.</l>
-                <l n="15">Gran corte tenia che homo no[n] la vite zà tale</l>
+                <l n="1"><seg resp="Rajna">Al tempo de mazo<note xml:id="t1"/> quando el fiorise le prade</seg></l>
+                <l n="2"><seg resp="Rajna">tute reverdise li erbe e∙lle arbosele,</seg></l>
+                <l n="3"><seg resp="Rajna">et y[n]n-amore vene molte mainere d'osele</seg></l>
+                <l n="4"><seg resp="Rajna">perzò cantano e fano li sony molte bele,</seg></l>
+                <l n="5"><seg resp="Rajna">tute y[n]semele fano done et donzele</seg></l>
+                <l n="6"><seg resp="Rajna">che per lor deleto entrano y[n] zardine;</seg></l>
+                <l n="7"><milestone n="1R" unit="fol."/><seg resp="Rajna">tute le polzele ensemele com zovenzele</seg></l>
+                <l n="8"><seg resp="Rajna">de fiore<note xml:id="t8"/> e de rosse zascun se fa capele,</seg></l>
+                <l n="9"><seg resp="Rajna">se sy sbaldise perché amore lia strenze.</seg></l>
+                <l n="10"><seg resp="Rajna">En la Pentacosta quando (el) cavalere novele</seg></l>
+                <l n="11"><seg resp="Rajna">desi(d)rano zostrà e fare meraviose zambele,</seg></l>
+                <l n="12"><seg resp="Rajna">el steva en Franza un re molto crudele,</seg></l>
+                <l n="13"><seg resp="Rajna">selonche che nostra cronicha ordenata,</seg></l>
+                <l n="14"><seg resp="Rajna">che hognomo l'apela lo re Carlo Martelo.</seg></l>
+                <l n="15"><seg resp="Rajna">Gran corte tenia che</seg> homo no[n] la <seg resp="Rajna">vite zà tale</seg></l>
                 <!-- Footnote at the end of this line: Rajna 1v or 2 left if working from microfilm -->
-                <l n="16">che una cossa adopra el ben com felo:</l>
-                <l n="17">quando un suo servo chaza de soa casa,</l>
-                <l n="18">e se l'envia a querire trabuto a Luzifero</l>
-                <l n="19">et a cerchare<note xml:id="t19"/> la casa y[n]fernale,</l>
+                <l n="16"><seg resp="Rajna">che una cossa ado</seg>pra el ben com <seg resp="Rajna">felo</seg>:</l>
+                <l n="17"><seg resp="Rajna">quando un suo</seg> servo chaza de soa ca<seg resp="Rajna">sa</seg>,</l>
+                <l n="18"><seg resp="Rajna">e se l'envia a que</seg>rire trabuto a Luzifero</l>
+                <l n="19"><seg resp="Rajna">et a cerchare<note xml:id="t19"/> la</seg> casa y[n]fernale,</l>
                 <l n="20"><seg resp="Rajna">solo per avere</seg> Ynida dal corpo belo.</l>
             </lg>
             <lg type="laisse" n="2">

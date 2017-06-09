@@ -1461,18 +1461,7 @@ settingDesc {
 settlement {
   /* Empty Set Rule */
 }
-sex {
-  /* Empty Rule Set */
-}
-shift {
-  /* seems a bit to complex to do anything with */
-}
-sic {
-  /* rend as choice when contained within a choice tag, perhaps as label with parenthesis after when alone */
-}
-signatures {
-  /* DON't KNOW, look again later */
-}
+
 signed {
   display: block;
   margin-top: 2em;

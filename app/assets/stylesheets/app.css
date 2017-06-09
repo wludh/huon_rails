@@ -599,6 +599,21 @@ td{
       margin-left: 27%;
 }
 
+#rajnaCheckbox{
+  display: block;
+}
+
+#rajna-form{
+  display: inline;
+  float: none;
+}
+
+#rajna-label{
+  float: none;
+  display: inline;
+  text-decoration: none;
+}
+
 #diploCheckbox{
   display: block;
 }
@@ -668,6 +683,11 @@ code, pre{
 }
 
 sic{
+  display: none;
+  color: red;
+}
+
+seg.Rajna{
   display: none;
   color: red;
 }

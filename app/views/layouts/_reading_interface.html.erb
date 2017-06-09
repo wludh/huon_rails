@@ -15,10 +15,17 @@
                     <%= will_paginate(@line_groups, :page_links => false, :next_label => "", :previous_label => "Previous") + "|" + will_paginate(@line_groups, :page_links => false, :next_label => "Next", :previous_label => "") + " |"%>
 
                 <%= link_to('Intro', url_for(params.merge(:edition => nil)), :id => 'intro-link') %>
+
+                <form id="rajna-form">
+                |
+                <label for="rajnaCheckbox" id="rajna-label"> Rajna Notebook</label>
+                <input type="checkbox" name="rajnaCheckbox" id="rajnaCheckbox" style="display: inline;"></form>
+
                 <form id="diplo-form">
                 |
                 <label for="diploCheckbox" id="diplo-label"> Diplomatic</label>
                 <input type="checkbox" name="diploCheckbox" id="diploCheckbox" style="display: inline;"> | </form>
+
 <!--                 | <div id="image-reveal">MS Image</div>
  -->                <div id="tei-reveal">TEI Embed</div>
                     <div id="tei-link-mobile">| <%= link_to('TEI', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %></div>
