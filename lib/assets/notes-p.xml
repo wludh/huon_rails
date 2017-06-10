@@ -47,26 +47,30 @@
         </front>
         <body>
             <div>
+                <note xml:id="p1" type="interp" resp="#SPM">Laisse division not marked in manuscript.</note>
                 <note xml:id="p3" type="codic" resp="#SPM">Space for illumination.</note>
                 <note xml:id="p21" type="edit" resp="#SPM">MS <hi rend="italic">lo cuor Dio
                         crevant</hi></note>
                 <note xml:id="p44" type="edit" resp="#SPM">MS <hi rend="italic">sangui</hi>; missing
                     titulus over <hi rend="italic">i</hi></note>
-                <note xml:id="p55" type="refer" resp="#SPM"> Cf. <title rend="italic"
+                <note xml:id="p55" type="refer" resp="#SPM"> Formulaic expression; cf. <title rend="italic"
                         >Macario</title>, "<hi>Cil le confonde li qual formò Adam</hi>," ll. 15339,
                     15346.</note>
                 <note xml:id="p62" type="edit" resp="#SPM">MS <hi rend="italic">rica e amant</hi>;
                     apparent scribal error, cf. <title rend="italic">Macario</title>,<hi
                         rend="italic">Ancora per moi sera rico e manent</hi>," ll. 14756,
-                    14762.</note>
+                    14762; <hi>mant</hi> = "manant", syncopated typical in Franco-Italian.</note>
+<!-- bibliography of syncopation of syllables -->
                 <note xml:id="p64.1" type="edit" resp="#SPM">MS <hi rend="italic">vii</hi>; missing
                     minim</note>
                 <note xml:id="p64.2" type="edit" resp="#SPM">MS <hi rend="italic"
                     >comadere</hi></note>
                 <note xml:id="p72" type="edit" resp="#SPM">MS <hi rend="italic">tintende</hi></note>
                 <note xml:id="p73" type="interp" resp="#SPM">"ço"</note>
+                <note xml:id="90" type="interp" resp="#SPM">Barberino m<hi>olto volentieri</hi>; 
+                    scribal error? The sense is, "I will sit gladly."</note>
                 <note xml:id="p102" type="edit" resp="#SPM">MS <hi rend="italic">msso</hi>; cf. <hi
-                        rend="italic">permesso</hi>, l. 107</note>
+                        rend="italic">permesso</hi>, v. 107</note>
                 <note xml:id="p111.1" type="ling" resp="#SPM"><hi rend="italic">Guardé</hi>, example
                     of metathesis; cf. Ludovisi 56, note 4: "<quote>Parrebbe strano ed errato di
                         trovare guradè e subito sopo al v. 115 guardè. Ma reggono foneticamente
@@ -89,7 +93,7 @@
                         Since, furthermore, the form appears six times in this manuscript (plus one
                         as doclé), it seems unlikely to be an error each time.</quote>”</note>
                 <note xml:id="p142" type="edit" resp="#SPM">"conseiller"</note>
-                <note xml:id="p164" type="ling" resp="#SPM"><hi rend="italic">torment</hi>,
+                <note xml:id="p164" type="ling" resp="#SPM">"torment",
                     metathesis</note>
                 <note xml:id="p169" type="edit" resp="#SPM">MS <hi rend="italic">de cuor
                     luii</hi></note>
@@ -102,44 +106,70 @@
                     to <hi rend="italic">tarda</hi> from <hi rend="italic">trada</hi></note>
                 <note xml:id="p193" type="edit" resp="#SPM">MS <hi rend="italic">no</hi></note>
                 <note xml:id="p198" type="edit" resp="scribe">MS <hi rend="italic"
-                    >cortexiae</hi></note>
+                    >cortexiae</hi>; scribal correction with strike through a.</note>
                 <note xml:id="p218" type="ling" resp="#SPM"><hi rend="italic">dié</hi>, altered form
-                    in rhymed position.</note>
+                    in rhymed position; would otherwise be <hi>dié</hi>.</note>
                 <note xml:id="p230" type="edit" resp="#SPM">This line appears to be missing a verb.
                     A possible resolution would be <hi rend="italic">la polver al vent çitiere</hi>
                     considering that <hi rend="italic">çitiere</hi> appears frequently in this
                     formulaic expression. In <title rend="italic">La Geste francor</title>, however,
                         <hi rend="italic">aventere</hi> does occur as an infinitive verb: <hi
-                        rend="italic">Arso fo en fois, la polvere a ventere</hi> (l. 15406, 15413)
-                    and <hi rend="italic">E in apreso la polvere aventer</hi> (l. 13541). This act
+                        rend="italic">Arso fo en fois, la polvere a ventere</hi> (v. 15406, 15413)
+                    and <hi rend="italic">E in apreso la polvere aventer</hi> (v. 13541). This act
                     would deny Huon a Christian burial since his body would not enter the Earth, a
                     fate reserved for traitors.</note>
                 <note xml:id="p234" type="ling" resp="#SPM">Ludovisi proposes <hi rend="italic"
-                        >involussere</hi>, and notes that "<quote>involussar per involgere è proprio
+                        >involussere</hi> and notes that "<quote>involussar per involgere è proprio
                         della parlata Veneta ma specialmente del Friulano: involussar, involussât,
                         etc."</quote>"</note>
-                <note xml:id="p241" type="codic" resp="#SPM">Space for illumination.</note>
-                <note xml:id="p243" type="edit" resp="#SPM">MS <hi rend="italic">sanguuy</hi></note>
-                <note xml:id="p312" type="ling" resp="#SPM">lenition, <hi rend="italic">d</hi> > <hi
+                <note xml:id="p241" type="codic" resp="#SPM">MS <hi rend="italic">sanguy</hi></note>
+                <note xml:id="p243" type="edit" resp="#SPM">Space for illumination.</note>
+                <note xml:id="p280" type="edit" resp="#SPM">MS <hi>sanguy</hi>; missing titulus.</note>
+                <note xml:id="p281" type="edit" resp="#SPM">MS <hi>campagnon tal</hi></note>
+                <note xml:id="p282" type="edit" resp="#SPM">MS <hi>tral</hi></note>
+                <note xml:id="p289" type="interp" resp="#SPM">"indorato"</note>
+                <note xml:id="p302" type="edit" resp="#scribe">MS <hi>lonte</hi>; scribal correction with superscript <hi>co</hi></note>
+                <note xml:id="p312" type="ling" resp="#SPM">"spada"; lenition, <hi rend="italic">d</hi> > <hi
                         rend="italic">t</hi></note>
+                <note xml:id="p315" type="edit" resp="#SPM">MS <hi>Chonpagno</hi>; missing titulus.</note>
+                <note xml:id="p319" type="edit" resp="#SPM">MS <hi>sanguy</hi>; missing titulus.</note>
                 <note xml:id="p325" type="codic" resp="#SPM">This page begins with a space for an
                     illumination.</note>
-                <note n="27" xml:id="p479" type="edit" resp="#scribe">Small cross written above <hi
-                        rend="italic">fene</hi>to indicate that this word should be
-                    disregarded.</note>
+                <note xml:id="p335" type="edit" resp="#scribe">MS <hi>arant</hi>; scribal correction, first <hi>a</hi> corrected to <hi>e</hi>.</note>
+                <note xml:id="p341" type="interp" resp="#SPM"><hi>en</hi> + <hi>il</hi></note>
+                <note xml:id="p348" type="edit" resp="#scribe">MS <hi>chvalier</hi>; scribal correction with superscript <hi>a</hi>.</note>
+                <note xml:id="p353" type="edit" resp="#SPM">MS <hi>sanguy</hi>; missing titulus.</note>
+                <note xml:id="p362" type="edit" resp="#SPM">MS <hi>sanguy</hi>; missing titulus.</note>
+                <note xml:id="p370" type="edit" resp="#SPM">MS <hi>sanguy</hi>; missing titulus.</note>
+                <note xml:id="p372" type="edit" resp="#scribe">MS <hi>insemant</hi>; scribal correction 
+                    with superscript <hi>e</hi> over <hi>a</hi>.</note>
                 <note xml:id="p394" type="codic" resp="#SPM">Catchwords <hi rend="italic">puo
-                        tolse</hi>.</note>
+                    tolse</hi>.</note>
                 <note xml:id="p401" type="ling" resp="#SPM">"tormant," metathesis.</note>
+                <note xml:id="p407" type="interp" resp="#SPM"> Meaning unclear, a possible <hi>saute du même 
+                    au même</hi> with belamant above? May be an article of clothing; cf. Andrea da Barberino 
+                    <hi>giuberello</hi> (pg. 14). Cf. v. 58</note>
                 <note xml:id="p416" type="interp" resp="#SPM">"asé"</note>
-                <note xml:id="p511" type="interp" resp="#SPM">Cf. l. 308, <hi rend="italic"
+                <note xml:id="p421" type="edit" resp="#scribe">MS <hi>dee</hi> corrected by scribe to <hi>die</hi>.</note>
+                <note xml:id="p446" type="edit" resp="#SPM">MS <hi>adaste</hi></note>
+                <note xml:id="p458.1" type="edit" resp="#SPM">MS <hi>sanguy</hi>; missing titulus</note>
+                <note xml:id="p458.2" type="edit" resp="#SPM">MS <hi>sul sul</hi></note>
+                <note xml:id="p450" type="edit" resp="#SPM">MS <hi>sanguy</hi>; missing titulus.</note>
+                <note xml:id="p474" type="interp" resp="#SPM">"come l'hai pensato"</note>
+                <note xml:id="p479" type="edit" resp="#scribe">Small cross written above <hi
+                    rend="italic">fene</hi> to indicate that this word should be
+                    disregarded.</note>
+                <note xml:id="p511" type="interp" resp="#SPM">Cf. v. 308, <hi rend="italic"
                         >onfesso</hi>.</note>
                 <note xml:id="p512" type="codic" resp="#SPM">Space for illumination.</note>
-                <note xml:id="p516" type="ling" resp="#SPM"><hi rend="italic">benedizione</hi>; the
-                        <hi rend="italic">d</hi> was lost in lenition.</note>
+                <note xml:id="p516" type="ling" resp="#SPM">"benedizione"; the
+                        <hi rend="italic">d</hi> is lost in lenition.</note>
                 <note xml:id="p530" type="edit" resp="#scribe">MS <hi rend="italic">tulo</hi>;
                     corrected to <hi rend="italic">tuto</hi>.</note>
                 <note xml:id="p535" type="edit" resp="#SPM">MS <hi rend="italic"
                     >comanda</hi>.</note>
+                <note xml:id="p537" type="interp" resp="#SPM">"disturere"; modified form in rhymed 
+                    position of OF droiturier.</note>
                 <note xml:id="p565" type="edit" resp="#scribe">MS <hi rend="italic">guarndo</hi>;
                     small <hi rend="italic">i</hi> written in superscript.</note>
                 <note xml:id="p568" type="edit" resp="#SPM">MS <hi rend="italic"
@@ -147,11 +177,17 @@
                 <note xml:id="p579" type="interp" resp="#SPM">"come"</note>
                 <note xml:id="p585" type="ling" resp="#SPM">Elsewhere <hi rend="italic"
                     >pl-</hi></note>
+                <note xml:id="p595" type="interp" resp="#SPM">The final letter looks like a capital 
+                    <hi>R</hi>, however, after consulting, it is clear that the scribe retraced the letter 
+                    into an <hi>e</hi>.</note>
                 <note xml:id="p597" type="edit" resp="#scrive">MS <hi rend="italic">Responde al
                         antolin</hi>; <hi rend="italic">al</hi>struck through.</note>
                 <note xml:id="p601" type="edit" resp="#SPM">MS <hi rend="italic">defende
                         fendero</hi></note>
                 <note xml:id="p605" type="edit" resp="#SPM">MS <hi rend="italic">Che</hi></note>
+                <note xml:id="p612" type="edit" resp="#SPM">MS <hi>vne</hi></note>
+                <note xml:id="p633" type="interp" resp="#SPM">"neanche"; see Geste francor niant; B nianch; 
+                    see also anc / an appearing with in; in B, nianch</note>
                 <note xml:id="p647" type="edit" resp="#SPM">MS <hi rend="italic">gurier</hi></note>
                 <note xml:id="p667" type="edit" resp="#SPM">MS <hi rend="italic">san</hi></note>
                 <note xml:id="p685" type="cod" resp="#SPM">Space for illumination</note>
