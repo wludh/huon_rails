@@ -326,11 +326,12 @@
                 <note xml:id="p1372" type="interp" resp="#SPM">"plui"</note>
                 <note xml:id="p1390" type="codic" resp="#SPM">MS <hi>pali</hi> with strike through descender of p.</note>
                 <note xml:id="p1399" type="edit" resp="#SPM">MS <hi rend="#italic">pre</hi></note>
-                <note xml:id="p1404" type="edit" resp="#SPM">MS <hi>Çohe li par</hi>; scribe omits the c.</note>
+                <note xml:id="p1404" type="edit" resp="#SPM">MS Çohe li par, scribe omits the c</note>
                 <note xml:id="p1433" type="edit" resp="#SPM">This line repeats.</note>
                 <note xml:id="p1434" type="edit" resp="#SPM">MS <hi rend="#italic">Sico</hi>.</note>
                 <note xml:id="p1450" type="ling" resp="#SPM"><hi rend="#italic">circondar</hi>,
                     metathesis.</note>
+                <note xml:id="p1487" type="ling" resp="#SPM">Past participle of <hi>absoudre</hi> (latin absoluta).</note>
                 <note xml:id="p1491" type="codic" resp="#SPM">Space for illumination; this line
                     repeats.</note>
                 <!-- What happens when one note should have two types, as is the case for the above: codic and edit? -->
@@ -339,8 +340,8 @@
                 <note xml:id="p1511" type="edit" resp="scribe">MS <hi rend="#italic">odior</hi>;
                     scribal correction with <hi rend="#italic">e</hi> written above <hi
                         rend="#italic">or</hi>.</note>
-                <note xml:id="p1554" type="edit" resp="#SPM">MS <hi rend="#italic">so</hi>; scrive
-                    forgot the cross bar for <hi rend="#italic">f</hi>.</note>
+                <note xml:id="p1554" type="edit" resp="#SPM">MS <hi rend="#italic">so</hi>; scribe
+                    forgets cross bar for <hi rend="#italic">f</hi>.</note>
                 <note xml:id="p1565" type="edit" resp="#SPM">MS <hi rend="#italic"
                     >cavalvaliro</hi>.</note>
                 <note xml:id="p1598" type="edit" resp="#SPM">This line repeats.</note>
@@ -355,11 +356,15 @@
                         rend="#italic">i</hi> an <hi rend="#italic">r</hi>.</note>
                 <note xml:id="p1671" type="interp" resp="#SPM">Read <hi rend="italic">llor</hi> as
                     "lui" in rhymed position.</note>
+                <note xml:id="p1680" type="ling" resp="#SPM"><hi>sedersi</hi>, with unvoiced d.</note>
                 <note xml:id="p1691" type="edit" resp="scribe">MS <hi rend="#italic">cholo</hi>;
                     scribal correction, with line drawn through top of first <hi rend="#italic"
                         >o</hi> to make it an <hi rend="#italic">e</hi>.</note>
+                <note xml:id="p1720" type="interp" resp="#SPM">B "la gente desfaé"</note>
+                <note xml:id="p1743" type="interp" resp="#SPM">"fosse"</note>
                 <note xml:id="p1746" type="edit" resp="scribe">MS <hi rend="#italic"
                     >stu</hi>.</note>
+                <note xml:id="p1752" type="edit" resp="#SPM">MS <hi>cunssentie</hi>, scribal error with last e stuck through.</note>
                 <note xml:id="p1760.1" type="interp" resp="#SPM">"non è"</note>
                 <note xml:id="p1760.2" type="interp" resp="#SPM"><hi rend="#italic">già</hi>, from
                         <hi rend="#italic">gire</hi>, to go; "he did not go willing."</note>
@@ -369,6 +374,7 @@
                         rend="#italic">v</hi>.</note>
                 <note xml:id="p1780" type="codic" resp="#SPM">Catchwords <hi rend="#italic">lo
                         conte</hi>.</note>
+                <note xml:id="p1790" type="interp" resp="#SPM">"menant"</note>
                 <note xml:id="p1809" type="interp" resp="#SPM">"çaxeva"</note>
                 <note xml:id="p1824" type="codic" resp="#SPM">Space for illumination.</note>
                 <note xml:id="p1855" type="interp" resp="#SPM">"pietançe"</note>
@@ -407,7 +413,7 @@
                 <note xml:id="p1968" type="edit" resp="#SPM">MS <hi rend="#italic">La si
                     si</hi>.</note>
                 <note xml:id="p1969" type="edit" resp="#SPM">MS <hi rend="#italic">du</hi>.</note>
-                <note xml:id="p1980" type="ling" resp="#SPM"><hi rend="#italic">prese</hi>;
+                <note xml:id="p1980" type="ling" resp="#SPM">"prese";
                     metathesis.</note>
                 <note xml:id="p1984" type="ling" resp="#SPM">Cf. modern French <hi rend="#italic"
                         >lisons</hi>.</note>
@@ -416,7 +422,7 @@
                     reversed.</note>
                 <note xml:id="p2003" type="interp" resp="#SPM">Ll. 2002 and 2003 may be
                     reversed.</note>
-                <note xml:id="p2209" type="edit" resp="scribe">MS <hi rend="#italic"
+                <note xml:id="p2009" type="edit" resp="scribe">MS <hi rend="#italic"
                         >pelegiis</hi>/<hi rend="#italic">pelegns</hi>; the two minims may be
                     interpreted as <hi rend="#italic">ii</hi> or <hi rend="#italic">n</hi>. The
                     scribe corrects this with an abbreviation for <hi rend="#italic">r</hi>
@@ -426,6 +432,7 @@
                         rend="#italic">o</hi>.</note>
                 <note xml:id="p2029" type="interp" resp="#SPM">"çà"</note>
                 <note xml:id="p2032" type="edit" resp="#SPM">MS <hi rend="#italic">e</hi>.</note>
+                <note xml:id="p2035" type="interp" resp="#SPM">"qui"</note>
                 <note xml:id="p2038" type="edit" resp="scribe">MS <hi rend="#italic">vite</hi>;
                     scribal correction with <hi rend="#italic">e</hi> written above <hi
                         rend="#italic">i</hi>.</note>

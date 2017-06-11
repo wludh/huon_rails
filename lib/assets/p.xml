@@ -2093,7 +2093,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         s<ex rend="italic">er</ex>mon:</l>
                 <l n="1389">El non è homo in tuto lo mun</l>
                 <l n="1390">Che p<ex rend="italic">er</ex> conplaxer non pa<ex rend="italic"
-                    >r</ex>li<note xml:id="p1390"/> a bandon;</l>
+                        >r</ex>li<note xml:id="p1390"/> a bandon;</l>
                 <!-- Does parli make sense in this line? Different resolution for abbreviation? If so, change in INTRO. -->
                 <l n="1391">El non è alguna si savia dona ni hom</l>
                 <l n="1392">Che dal diavolo no abia temptacion.</l>
@@ -2211,13 +2211,15 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1482">Li dixe la messa, si·lli fè comuneger,</l>
                 <l n="1483">Dè-lli el corpo de <ex rend="italic">Crist</ex>o p<ex rend="italic"
                         >er</ex> so corpi conforter</l>
+                <!-- hyphen, dè-lli -->
                 <l n="1484">E p<ex rend="italic">er</ex>ché in -llo fuogo abia menor pene durer.</l>
                 <l n="1485">Quando ello ave fato questo, si li ave signer</l>
                 <l n="1486">E lo santo vançelio sov<ex rend="italic">r</ex>a li à çanter</l>
-                <l n="1487">Delli·ssuo pecadi si·lli à sauter,</l>
+                <l n="1487">Delli·ssuo pecadi si·lli à sauter,<note xml:id="p1487"/></l>
                 <l n="1488">Puo in -llo fuogo elle fo messe a bruxer.</l>
                 <l n="1489">Oldì, signori, che fè l'inperier,</l>
                 <l n="1490">Si como soa fia vene a finer,</l>
+                <!-- Si como, "and how" - see note on sicomo/si como above. -->
                 <l n="1491">Che l'ave amorir e trapasser.</l>
                 <l n="1492"><milestone n="31R" unit="fol."/>Del fuogo la fè trare sença demorer,</l>
                 <l n="1493">Si·lla fè in aqua e in -llate bagner</l>
@@ -2242,6 +2244,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1508">Del conte Ugo ve voio cunter,</l>
                 <l n="1509">E de Sangui<ex rend="italic">n</ex> che penssà ben de du<ex
                         rend="italic">o</ex>lo raier</l>
+                <!-- compare duolo with AdaB -->
                 <l n="1510">P<ex rend="italic">er</ex> soa muier che·l volsse vergonçer;</l>
                 <l n="1511">E si penssà bem che Charlo l'abia in <choice>
                         <sic>odior</sic>
@@ -2260,9 +2263,11 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1517">E p<ex rend="italic">er</ex> meio afermer soa amisté,</l>
                 <l n="1518">De soa gesta San<ex rend="italic">guin</ex> li à muier doné,</l>
                 <l n="1519">Plui bela dona non iera in cristienté.</l>
+                <!-- i era vs. iera -->
                 <l n="1520">E p<ex rend="italic">er</ex> quela dona e per belté,</l>
                 <l n="1521">Carlo Martelo fo de lie i<ex rend="italic">n</ex>amoré,</l>
                 <l n="1522">Si ché Charlo, l'inperador apressié,</l>
+                <!-- Subject of mandà in line 1525, which is repeated with the El. -->
                 <l n="1523">P<ex rend="italic">er</ex> aver la dona a soa volenté,</l>
                 <l n="1524">Sicomo Sandin li aveva dito e conssié,</l>
                 <l n="1525">El mandà Ugo d'Avernia a gran falsité</l>
@@ -2363,6 +2368,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         l'Asenssion,<note xml:id="p1598"/></l>
                 <l n="1599">A quela festa andè cavalieri e pedon,</l>
                 <l n="1600">Dame e damissile si vano a li perdon,</l>
+                <!-- Note damissile, vowel harmonization -->
                 <l n="1601">E la cuntessa, che <choice>
                         <sic>Nia</sic>
                         <corr cert="medium" resp="#SPM">Ni<ex rend="brackets">d</ex>a</corr>
@@ -2385,8 +2391,10 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1617">Molto li plaxete, al cuor à gran fugon,</l>
                 <l n="1618">Si·lla presse a doniar -ssi·lli contà p<ex rend="italic">er</ex>
                     raxon,</l>
+                <!-- adoniar? -->
                 <l n="1619">"Dona," dix'ello, "çà no ve·ll- çeleron</l>
                 <l n="1620">Como io ve viti, intendì sto s<ex rend="italic">er</ex>mon,</l>
+                <!-- Note viti, vowel harmonization -->
                 <l n="1621">El non è dona in tuto questo mon</l>
                 <l n="1622">Che tanto me plassesse che dir no·l poron,</l>
                 <l n="1623">Chomo vui fé a mi, p<ex rend="italic">er</ex> lo Signor del mon,</l>
@@ -2468,7 +2476,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     sença nul demor;</l>
                 <l n="1678">El vene a lui como s<ex rend="italic">er</ex>vo a signor.</l>
                 <l n="1679">Quando lo re lo vete, si·lli mostrà dol e amor;</l>
-                <l n="1680">Per la man lo presse, si ll'aseta apresso lor.</l>
+                <l n="1680">Per la man lo presse, si ll'aseta<note xml:id="p1680"/> apresso lor.</l>
                 <l n="1681">"Sandin," diss'ello, "intendì ell- mio volor;</l>
                 <l n="1682">Plui amo ti cha principo ni contor,</l>
                 <l n="1683">Sovra tuti i mie baroni te tegno la flor,</l>
@@ -2497,6 +2505,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1704">P<ex rend="italic">er</ex> tuta cristintade inviron e intor.</l>
                 <l n="1705">Ma un lì è che ssentì maçor</l>
                 <l n="1706">Che no ve mandà trabuto unde vui sé in eror:</l>
+                <!-- Check these two lines with Andrea; Giacon nì de vuy se meror -->
                 <l n="1707">Quello è Lucifero del gran tenebror;</l>
                 <l n="1708">Se da lui no l'averì, si morirì da dolor.</l>
                 <l n="1709">Tanto è llial Ugo lo contor,</l>
@@ -2514,7 +2523,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <head>Laisse 52</head>
                 <l n="1718"><hi rend="red-initial">Q</hi>uando Sandin à lo re ascolté,</l>
                 <l n="1719">Che tal conssio li à doné,</l>
-                <l n="1720">De mandar Ugo a la çente defaé,</l>
+                <l n="1720">De mandar Ugo a la çente defaé,<note xml:id="p1720"/></l>
                 <l n="1721">“Sandin,” diss'ello, “ben m’avi <ex rend="italic">con</ex>sié.”</l>
                 <l n="1722">Amantinente à un messaço domandé,</l>
                 <l n="1723">P<ex rend="italic">er</ex> lo conte Ugo à tosto mandé;</l>
@@ -2537,7 +2546,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1740">Ai, siere re," disse Ugo li menbré,</l>
                 <l n="1741">"Chi oldì mai contar tal ambassé,</l>
                 <l n="1742">Che mai nulo homo fo là dentro intré</l>
-                <l n="1743">Che indrié fesse mai retorné."</l>
+                <l n="1743">Che indrié fesse<note xml:id="p1743"/> mai retorné."</l>
                 <l n="1744">Lo re l’oldì, si·n fo un puocho coroçé;</l>
                 <l n="1745">El dixe a Ugo, "Sire, or me parlé,</l>
                 <l n="1746">Dì-me <choice>
@@ -2605,7 +2614,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1787">Sul pallaço muntà in la·ssala plu grant,</l>
                 <l n="1788">Chontra li viem so barni e so çant,</l>
                 <l n="1789">Si li vie<ex rend="italic">n</ex> la contessa dal cuor avinant.</l>
-                <l n="1790">Da lui vano gran çoia menat,</l>
+                <l n="1790">Da lui vano gran çoia menat,<note xml:id="p1790"/></l>
                 <l n="1791">Quando ella sape da lui 'l convinant,</l>
                 <l n="1792">Si dolente non fo a tuto el so vivant.</l>
                 <l n="1793">Dixe Ugo, "Dama, non -ssié in spavent,</l>
@@ -2692,6 +2701,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1860">Che per ela l’inperador de Françe</l>
                 <l n="1861">Si·l manda alla scura abitançe</l>
                 <l n="1862">A domandar trabuto a Lucifero so ça<ex rend="italic">n</ex>çe.</l>
+                <!-- "Soggiorno”? Check Andrea da Barberino, ll. 1858-1862. -->
             </lg>
             <lg type="laisse" n="57">
                 <head>Laisse 57</head>
@@ -2810,6 +2820,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
             <lg type="laisse" n="61">
                 <head>Laisse 61</head>
                 <l n="1939"><hi rend="red-initial">Q</hi>uando Ugo intendu li mercant,</l>
+                <!-- Amend to (à) intendu ? -->
                 <l n="1940">Quele novele tien elo p<ex rend="italic">er</ex> niant,</l>
                 <l n="1941">A Dio se rende, lo Pare onipotant.</l>
                 <l n="1942">De là se parte, no fè demoramant,</l>
@@ -2864,6 +2875,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1976">Quando Ugo l'intende, p<ex rend="italic">er</ex> puoco ch'el no se
                     repent</l>
                 <l n="1977">Ma tanto el s'enfidò in Dio o<ex rend="italic">n</ex>ipotant</l>
+                <!-- Infidarsi? Or s'en fidò? -->
                 <l n="1978">Ch'el no tornerà indriedo, anci anderà plui avant.</l>
                 <l n="1979">El se pensò de non tornar niant,</l>
                 <l n="1980">Dal remito persse<note xml:id="p1980"/>
@@ -2881,6 +2893,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1987">El reguardà a·llo meço del mon,</l>
                 <l n="1988">Inssir devete gran fuogo e carbon:</l>
                 <l n="1989">Queli che è là dentro nua à perdon.</l>
+                <!-- Extra a ? Check Pope, lenition of occlusive; T-L nul – no one, 
+                    anyone (as substantive); nus à / nul à, palatized lost, nessuna (l. 3534). -->
                 <l n="1990">A prossumar vol a quela habitasson,</l>
                 <l n="1991">Ma ello non può miga, lo nobel baron,</l>
                 <l n="1992">Che andar no lì vuol el so destrier ‘ragon;<note xml:id="p1992"/></l>
@@ -2928,6 +2942,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2020">No·llì lassà bosco ni river,</l>
                 <l n="2021">Prevedi ni abado, glexia ni monestier.</l>
                 <l n="2022">A Santa Maria andà ad alberger</l>
+                <!-- Santa Maria a place? -->
                 <l n="2023"><milestone n="42R" unit="fol."/>A la doman, quando aparsse lo jorno
                     cler,</l>
                 <l n="2024">Sovra quel mar ell- se va arester,</l>
@@ -2939,6 +2954,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     </choice><note xml:id="p2027"/> quelo merer,</l>
                 <l n="2028">La soa lança presse dentro a ficher,</l>
                 <l n="2029">No lì posseva cà<note xml:id="p2029"/> fondi trover.</l>
+                <!-- "He began to put his lance in / he couldn't find the bottom of it." -->
                 <l n="2030">Quando soa lança el volsse indrié torner,</l>
                 <l n="2031">Çà no la poté versso si tirer,</l>
                 <l n="2032">O vollesse <choice>
@@ -2947,7 +2963,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     </choice><note xml:id="p2028"/> non, lì la convin laser,</l>
                 <l n="2033">Unde lo conte se presse a maraviar,</l>
                 <l n="2034">Enfra·ssi dir e parler:</l>
-                <l n="2035">"Io creço che da chi inanci nessun pò ander."</l>
+                <l n="2035">"Io creço che da chi<note xml:id="p2035"></note> inanci nessun pò ander."</l>
                 <l n="2036">E al partir ch'el -sse voleva sevrer,</l>
                 <l n="2037">El presse davanti·ssi a guarder,</l>
                 <l n="2038">Si <choice>
@@ -3085,11 +3101,12 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2130">E de piçolli che pareva biachin.<note xml:id="p2130"/></l>
                 <l n="2131">Dragoni e s<ex rend="italic">er</ex>penti el trovà oltra fin,</l>
                 <l n="2132">Çascun lo lassà andar quando ‘lo li è da vessin;</l>
+                <!-- Note 'lo pronoun form -->
                 <l n="2133">No·lli faxeva nul cumtrasto al conte palladin.</l>
+                <!-- Note mt consonant nexus -->
                 <l n="2134">Tanto chavalcà ch'el no li mete fin,</l>
                 <l n="2135">Ch'el arivà a uno flume claro como Texin.</l>
                 <l n="2136">Tigris l'apela quelli che va p<ex rend="italic">er</ex> lo camin.</l>
-                <!-- STOP HERE -->
             </lg>
             <lg type="laisse" n="68">
                 <head>Laisse 68</head>
@@ -3139,6 +3156,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2169">Quando luogo e tenpo seron.</l>
                 <l n="2170">De Carlo Martello nui si ve diron,</l>
                 <l n="2171">Como 'lo mandà ad Alvernia lo bufon,</l>
+                <!-- Note 'lo pronoun form -->
                 <l n="2172">Colui che Sandin aveva non.</l>
                 <l n="2173">Dio lo confonda che sofrì passio<ex rend="italic">n</ex>,</l>
                 <l n="2174">Che p<ex rend="italic">er</ex> so consseio lo re Carlon</l>
@@ -3149,7 +3167,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2179">Ch’el penssà p<ex rend="italic">er</ex> conseio si gran tradisson.</l>
                 <l n="2180">Charlo Martelo disse a Sandin lo bricon:</l>
                 <l n="2181">“Ora t'en va alla dona e no far demoraxon;</l>
-                <l n="2182">E da mia parte conta-li la raxon</l>
+                <l n="2182">E da mia parte contà-li la raxon</l>
+                <!-- hyphen -->
                 <l n="2183">Como io l’amo plui de cossa del mon,</l>
                 <l n="2184">E como io ò per questa caxan</l>
                 <l n="2185">Mandado ell- sso signor all- p<ex rend="italic">er</ex>duta maxo<ex
@@ -3189,6 +3208,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <corr cert="medium" resp="#SPM">andè</corr>
                     </choice><note xml:id="p2205"/> a dona Nida a conter e a parler</l>
                 <l n="2206">E a çelladamente si·lli prexon:</l>
+                <!-- Vallecalle équivalent de l’adverbe ancien français « celeement » 
+                    (“en secret”), précédé de « a ». Also, prexon comes from pregare.  -->
                 <l n="2207">"Madona," diss'elo, "anch'io sia çubler,</l>
                 <l n="2208">De Carlo Martelo io·sson messaçer</l>
                 <l n="2209">E so anbaxada non ve die celer.</l>
@@ -3209,6 +3230,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2223">E s'ell- ve plaxe, ve l'averò çurer."</l>
                 <l n="2224">Responde la dona, "Vui parllé como ber.</l>
                 <l n="2225">Or me lassé un puoco per pensser</l>
+                <!-- one word perpenser ? OF pourpenser -->
                 <l n="2226">Ché un gran don li voio mander</l>
                 <l n="2227">P<ex rend="italic">er</ex> la mia perssona plui afider e afiner."</l>
                 <l n="2228">In -lla camera lo lassà alla celler</l>
