@@ -4,15 +4,15 @@
     <%= javascript_include_tag('vmachine') %>
     <script type="text/javascript">
       var witnesses = new Array();
-      
+
          witnesses["B"] = "B";
-      
+
          witnesses["Br"] = "Br";
-      
+
          witnesses["P"] = "P";
-      
+
          witnesses["T"] = "T";
-      
+
       var maxPanels = 4;
     </script>
   </head>
@@ -29,9 +29,9 @@
       <div class="large-8 large-offset-2 columns">
 
         <p>Carlo Martello, emperor of France, sends Huon count of Auvergne on an impossible mission to seek out the entrance to Hell and get tribute from Lucifer. Huon travels through many lands and kingdoms, including France, Provence, Hungary, Germany, Santiago de Compostela, Rome, Mount Etna, Armenia, Egypt, and the legendary lands of Prester John. Huon's seven-year journey ultimately leads him to the entrance to Hell, where he must battle a dragon. He is then greeted by a devil disguised as a pilgrim, and two guides, Aeneas and William of Orange, an Old French epic hero.</p>
- 
-        <p>The Hell scene is the only narrative segment preserved in all four Franco-Italian manuscript witnesses. Scholars have noted the complex relationship this scene has with its Dantean precedent (Morgan, Bennett, Scattolini) and with the popularity of Hell narratives after Dante's poem (McCormick). The following Hell scene comparison uses <a href="http://v-machine.org/index.php">Versioning Machine</a>, an interactive web interface developed by Susan Schreibman at the Maryland Institute of Technology for displaying manuscript versions side-by-side.</p>
-         
+
+        <p>The Hell scene is the only narrative segment preserved in all four Franco-Italian manuscript witnesses. Scholars have noted the complex relationship this scene has with its Dantean precedent (Morgan, Bennett, Scattolini) and with the popularity of Hell narratives after Dante's poem (McCormick). The following Hell scene comparison uses <a href="http://v-machine.org/index.php">Versioning Machine</a>, an interactive web interface developed by Susan Schreibman at the Maryland Institute of Technology, now director of An Foras Feasa, at Maynooth University. The need for a synoptic edition of Huon d'Auvergne has long been acknowedged, yet the constraints of print have complicated all atempts. Through displaying manuscript versions side-by-side, Versioning Machine has been able to bridge theory and practice.</p>
+
         <p>The following text is being made available for demonstration purposes only. It may not be reproduced without consent. For further information, please contact Leslie Zarker Morgan (lmorgan@loyola.edu), Shira Schwam-Baird (sschwam@unf.edu), or Stephen P. McCormick (mccormicks@wlu.edu).</p>
 
                 <hr>
@@ -39,7 +39,7 @@
         <input type="button" id="newPanel" value="New Version" onclick="openPanel();" style="visibility:hidden;">
           <div class="center-outer">
           <div id="mainControls" class="center-inner">
-            <div id="add_witness"><input type="button" id="newPanel" value="New Version" onclick="openPanel();"></div> 
+            <div id="add_witness"><input type="button" id="newPanel" value="New Version" onclick="openPanel();"></div>
             <div id="line_toggle"><label for="toggleLineNumbers">Line Numbers</label><input type="checkbox" id="toggleLineNumbers" onclick="toggleLineNumbers(this.checked);"></div>
           </div>
         </div>
@@ -59,7 +59,7 @@
                 <ul></ul>
                 <h4>Textual Notes</h4>
                 <div class="note">
-                    There are four manuscript witnesses of this epic: Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)(dated 1341); Padua, Biblioteca del Seminario Vescovile MS 32 (late fourteenth/early fifteenth century); Turin, Biblioteca Nazionale N III 19 (dated 1441); and the Barbieri fragment, Bologna, Biblioteca dell'Archiginnasio B. 3489 (fourteenth century). 
+                    There are four manuscript witnesses of this epic: Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)(dated 1341); Padua, Biblioteca del Seminario Vescovile MS 32 (late fourteenth/early fifteenth century); Turin, Biblioteca Nazionale N III 19 (dated 1441); and the Barbieri fragment, Bologna, Biblioteca dell'Archiginnasio B. 3489 (fourteenth century).
                 </div>
                 <h4>Electronic Edition Information:</h4>
                 <h5>Responsibility Statement:</h5>
@@ -95,7 +95,7 @@
                  <tr>
                     <td width="265px">
                         <div class="head"><span class="hi"><span class="apparatus app-d0e61 clickable" onclick="matchApp('app-d0e61');"><span class="reading B Br P T">Huon d'Auvergne</span></span></span></div>
-                        
+
                         <div class="line lined0e64">
                           <div class="linenumber" style="visibility: hidden;">1</div>
                           <span class="apparatus loc-35" onclick="matchApp(this.className);">
@@ -219,7 +219,7 @@
     <div class="viewerRoot" id="panel_imageViewer">
        <div title="Click to drag panel." class="viewerHandle" id="handle_imageViewer">
           <span class="viewerHandleLt" id="title_imageViewer">Image Viewer</span>
-          <img class="viewerHandleRt" onclick="return hidePanel('imageViewer');" 
+          <img class="viewerHandleRt" onclick="return hidePanel('imageViewer');"
           <%= image_tag('closePanel.png', class: 'viewerHandleRt', onclick: "return hidePanel('imageViewer');", alt: 'X') %>
         </div>
        <div class="viewerContent" id="content_imageViewer"></div>
