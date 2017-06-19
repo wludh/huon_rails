@@ -13,5 +13,5 @@ Rails.application.config.assets.precompile += %w( dh_at_wandl.png )
 Rails.application.config.assets.precompile += %w( base_styles.css )
 Rails.application.config.assets.precompile += %w( app.css )
 Rails.application.config.assets.precompile += %w( tei_styles.css )
-
 Rails.application.config.assets.precompile += %w( vmachine.js )
+Rails.application.config.assets.precompile += %w( praxis.css )

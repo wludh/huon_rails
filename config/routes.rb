@@ -63,6 +63,12 @@ get "/pages/:page" => "pages#show"
 # match 'index', to: 'pages#index', via: [:get], as: :root
 match 'bibliography', to: 'pages#bibliography', via: [:get], as: :bibliography
 match 'editions', to: 'pages#editions', via: [:get], as: :editions
+match 'intro_praxis', to: 'pages#intro_praxis', via: [:get], as: :intro_praxis
+match 'b_praxis', to: 'pages#b_praxis', via: [:get], as: :b_praxis
+match 't_praxis', to: 'pages#t_praxis', via: [:get], as: :t_praxis
+match 'p_praxis', to: 'pages#p_praxis', via: [:get], as: :p_praxis
+match 'br_praxis', to: 'pages#br_praxis', via: [:get], as: :br_praxis
+match 'encod_praxis', to: 'pages#encod_praxis', via: [:get], as: :encod_praxis
 match 'b_manuscript', to: 'pages#b_manuscript', via: [:get], as: :b_manuscript
 match 't_manuscript', to: 'pages#t_manuscript', via: [:get], as: :t_manuscript
 match 'p_manuscript', to: 'pages#p_manuscript', via: [:get], as: :p_manuscript

@@ -32,6 +32,19 @@
             </li>
           </ul>
         </section>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li><%= link_to 'Praxis', intro_praxis_path() %>
+              <ul data-options="mobile_show_parent_link: true">
+                <li> <%= link_to 'B Criteria', b_praxis_path() %></li>
+                <li> <%= link_to 'T Criteria', t_praxis_path() %></li>
+                <li> <%= link_to 'P Criteria', p_praxis_path() %></li>
+                <li> <%= link_to 'Br Criteria', br_praxis_path() %></li>
+                <li> <%= link_to 'Encoding Guidelines', encod_praxis_path() %></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
       </nav>
     </div>
   <!--end top bar nav-->
