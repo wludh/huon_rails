@@ -1,3 +1,21 @@
+/* Homepage ---------------------------------------------------- */
+
+img.initial {
+    max-width: 20%;
+    float: left;
+    padding-right: 10px;
+    margin-top: -118px;
+    margin-left: -70px;
+}
+
+p.intro {
+    font-weight: normal;
+    font-family: 'Open Sans', Arial, 'Liberation Sans', FreeSans, sans-serif;
+    font-size: 18px;
+}
+
+/* --------------------------------------------------------------- */
+
 .lg{
   padding-bottom: 24px;
 }
@@ -104,10 +122,6 @@ section ul li a{
 
 #clear{
   clear:both;
-}
-
-p {
-  font-weight:normal;
 }
 
 .fullWidth {
