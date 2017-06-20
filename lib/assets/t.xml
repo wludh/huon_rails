@@ -24,7 +24,7 @@
                     <resp>TEI coding and development</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="SPM">Stephen P. McCormic</name>
+                    <name xml:id="SPM">Stephen P. McCormick</name>
                     <resp>TEI coding and development</resp>
                     <resp>Web development</resp>
                 </respStmt>
@@ -212,26 +212,26 @@
             </lg>
             <lg type="laisse" n="2">
                 <head>Laisse 2</head>
-                <l n="21">Odite signore, che Dio ve benedicha,</l>
-                <l n="22">bona canzon dire ve vole del soy antesore,</l>
-                <l n="23">del fio del re Loi che Franza avea y[n] ba(i)lia,</l>
-                <l n="24">che Carlo Martelo fo anomà a tuta soa vita.</l>
-                <l n="25">Quel Carlo ne fo del molte gra[n] nomenanza</l>
-                <l n="26">de tute le tere che ello avea y[n] soa ba(i)lia,</l>
-                <l n="27">doncha non perdé zamay un sol pede</l>
-                <l n="28">per son argollio e per sova lezeria.</l>
-                <l n="29">Molte stranie tere el n'avè a querire</l>
-                <l n="30">tanto che luy li avè soto sova segnoria.</l>
-                <l n="31">Tuto el mondo et non è y[n] la pagania</l>
-                <l n="32">l'obediseno, non è sỳ ardỳ che a luy desdiga</l>
-                <l n="33">quando luy vole fare soy coma[n]damente;</l>
-                <l n="34">e s'el volese mandare per soa gra[n] baronia,</l>
-                <l n="35">senza longo termene li menò y[n] ba(i)lia,</l>
+                <l n="21"><seg resp="Rajna">Odite signor</seg>e, che Dio ve ben<seg resp="Rajna">edicha</seg>,</l>
+                <l n="22"><seg resp="Rajna">bona canzo</seg>n dire ve vole del soy antesore,</l>
+                <l n="23"><seg resp="Rajna">del fio del re Loi che</seg> Franza avea y[n] ba(i)lia,</l>
+                <l n="24"><seg resp="Rajna">che</seg> Carlo Martelo fo anomà a tuta soa vita.</l>
+                <l n="25"><seg resp="Rajna">Quel Carlo</seg> ne fo del molte gra[n] nomenanza</l>
+                <l n="26"><seg resp="Rajna">de tute le tere ch</seg>e ello avea y[n] soa ba(i)lia,</l>
+                <l n="27"><seg resp="Rajna">doncha non perdé</seg> zamay un sol pede</l>
+                <l n="28"><seg resp="Rajna">per son argollio</seg> e per sova lezeria.</l>
+                <l n="29"><seg resp="Rajna">Molte stranie tere</seg> el n'avè a querire</l>
+                <l n="30"><seg resp="Rajna">tanto che luy li avè</seg> soto sova segnoria.</l>
+                <l n="31"><seg resp="Rajna">Tuto el mondo et</seg> non è y[n] la pagania</l>
+                <l n="32"><seg resp="Rajna">l'obediseno, non è sỳ</seg> ardỳ che a luy desdiga</l>
+                <l n="33"><seg resp="Rajna">quando luy vole</seg> fare soy coma[n]damente;</l>
+                <l n="34"><seg resp="Rajna">e s'el volese manda</seg>re per soa gra[n] baronia,</l>
+                <l n="35"<seg resp="Rajna">senza longo termene</seg> li menò y[n] ba(i)lia,</l>
                 <l n="36">v cente milia homene de bona zente be[n] guarnita</l>
-                <l n="37">senza li pedone e tute ly bone arzere,</l>
-                <l n="38">che la rota non poria aver miga.</l>
-                <l n="39">Perzò che lo re se sente tanto avanzare</l>
-                <l n="40">più che doncha no[n] fo sỳ anticho miga,</l>
+                <l n="37"><seg resp="Rajna">senza li pedone e tu</seg>te ly bone arzere,</l>
+                <l n="38"><seg resp="Rajna">che la rota non poria</seg> aver miga.</l>
+                <l n="39"><seg resp="Rajna">Perzò che lo re se</seg> sente tanto avanzare</l>
+                <l n="40"><seg resp="Rajna">più che doncha no[n] fo</seg> sỳ anticho miga,</l>
                 <l n="41"><milestone n="1V" unit="fol."/> più orgoioso ne fo et più che zudice.</l>
                 <l n="42">A torto il tole altruy l'avere [et] altruy el des[er]ta,</l>
                 <l n="43">et molte done à vergognà et hodiate,</l>
