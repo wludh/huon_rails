@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 def manuscript_block(manuscript, route)
+    puts "testing manuscript block"
     it "returns http success header - #{manuscript}" do
         get route
         expect(response).to be_success
@@ -55,6 +56,7 @@ def manuscript_block(manuscript, route)
 end
 
 def note_block(note, file)
+  puts "testing notes"
     unless note.parent.name == "notesStmt" or note.parent.name == 'head'
         it "should have an xml id - note for #{file}: #{note}" do
             expect(note.attributes['id'].namespace.prefix).to eq("xml")
@@ -90,7 +92,7 @@ def note_block(note, file)
 end
 
 def tei_block(doc, file_name)
-
+    puts "testing tei block"
     it "should have a short title" do
         expect(doc.css('title[type="short"]').length).to be > 0
     end
@@ -109,6 +111,7 @@ def tei_block(doc, file_name)
         end
 
         describe "the lg tags " do
+          puts lg.attr('n')
             it "should have an <l> tag - manuscript #{file_name}" do
                 expect(lg.css('l').length).to be >= 1
             end
@@ -116,6 +119,7 @@ def tei_block(doc, file_name)
 
         lg.css('l').each do |line|
             describe "the <l> tag " do
+              puts lg.attr('n')
                 it "should have an n attribute - #{file_name}: #{line}" do
                     expect(line.attr('n').to_i).to be > 0
                 end
@@ -155,6 +159,7 @@ describe PagesController do
         end
 
         for manuscript_file in manuscript_files
+          puts "manuscript_file notes"
             doc = File.open("./lib/assets/#{manuscript_file}"){
                     |f| Nokogiri::XML(f)
                 }
