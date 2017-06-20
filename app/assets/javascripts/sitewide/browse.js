@@ -151,6 +151,19 @@ console.log('ready');
 
     $(function diplo_toggle(){
         // if the corrections checkbox is checked, corr tags get highlighted
+        $('#rajnaCheckbox').click(function(){
+            var checked = $('#rajnaCheckbox').prop('checked');
+            if (checked) {
+                $('seg[resp="Rajna"]').addClass('Rajna');
+            }
+            else {
+                $('seg[resp="Rajna"]').removeClass('Rajna');
+            }
+        });
+    });
+
+    $(function diplo_toggle(){
+        // if the corrections checkbox is checked, corr tags get highlighted
         $('#diploCheckbox').click(function(){
             var checked = $('#diploCheckbox').prop('checked');
             if (checked) {

@@ -229,6 +229,13 @@ class PagesController < ApplicationController
         return result.html_safe
     end
 
+		def parse_seg(child)
+			result = "<seg resp=#{child.attr('resp')}>"
+			result += child.text
+			result += "</seg>"
+			return result.html_safe
+		end
+
     def parse_line(l)
         result =""
         # parses a line where 'l' is a line_nodeset
@@ -250,6 +257,8 @@ class PagesController < ApplicationController
                      # add any new tags in the following array.
                 elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi'].include? child.name
                     result += parse_tag(child)
+								elsif child.name == 'seg'
+										result += parse_seg(child)
                 elsif child.name == 'note'
                     result += parse_note(child, @@internal_note_counter)
                     @@internal_note_counter += 1
