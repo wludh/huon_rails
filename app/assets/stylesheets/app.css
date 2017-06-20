@@ -597,7 +597,7 @@ td{
   float: right;
   margin-top: 48px;
   padding-top: 68px;
-  width: 25%;
+  width: 35%;
   height: 100%;
   overflow: scroll;
 }
@@ -644,7 +644,7 @@ td{
 }
 
 #tei_wrapper{
-  width: 38% !important;
+  width: 25% !important;
 }
 
 #image-reveal, #tei-reveal, #all-note-reveal{
