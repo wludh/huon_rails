@@ -68,7 +68,7 @@
                     >comadere</hi></note>
                 <note xml:id="p72" type="edit" resp="#SPM">MS <hi rend="italic">tintende</hi></note>
                 <note xml:id="p73" type="interp" resp="#SPM">"ço"</note>
-                <note xml:id="p90" type="interp" resp="#SPM">Barberino m<hi>olto volentieri</hi>;
+                <note xml:id="90" type="interp" resp="#SPM">Barberino m<hi>olto volentieri</hi>;
                     scribal error? The sense is, "I will sit gladly."</note>
                 <note xml:id="p102" type="edit" resp="#SPM">MS <hi rend="italic">msso</hi>; cf. <hi
                         rend="italic">permesso</hi>, v. 107</note>
@@ -324,14 +324,17 @@
                     scribal correction with an <hi rend="#italic">e</hi> written above the <hi
                         rend="#italic">rq</hi>.</note>
                 <note xml:id="p1372" type="interp" resp="#SPM">"plui"</note>
-                <note xml:id="p1390" type="codic" resp="#SPM">MS <hi>pali</hi> with strike through descender of p.</note>
+                <note xml:id="p1390" type="codic" resp="#SPM">MS <hi>pali</hi> with strike through
+                    descender of p.</note>
                 <note xml:id="p1399" type="edit" resp="#SPM">MS <hi rend="#italic">pre</hi></note>
-                <note xml:id="p1404" type="edit" resp="#SPM">MS Çohe li par, scribe omits the c</note>
+                <note xml:id="p1404" type="edit" resp="#SPM">MS Çohe li par, scribe omits the
+                    c</note>
                 <note xml:id="p1433" type="edit" resp="#SPM">This line repeats.</note>
                 <note xml:id="p1434" type="edit" resp="#SPM">MS <hi rend="#italic">Sico</hi>.</note>
                 <note xml:id="p1450" type="ling" resp="#SPM"><hi rend="#italic">circondar</hi>,
                     metathesis.</note>
-                <note xml:id="p1487" type="ling" resp="#SPM">Past participle of <hi>absoudre</hi> (latin absoluta).</note>
+                <note xml:id="p1487" type="ling" resp="#SPM">Past participle of <hi>absoudre</hi>
+                    (latin absoluta).</note>
                 <note xml:id="p1491" type="codic" resp="#SPM">Space for illumination; this line
                     repeats.</note>
                 <!-- What happens when one note should have two types, as is the case for the above: codic and edit? -->
@@ -356,7 +359,8 @@
                         rend="#italic">i</hi> an <hi rend="#italic">r</hi>.</note>
                 <note xml:id="p1671" type="interp" resp="#SPM">Read <hi rend="italic">llor</hi> as
                     "lui" in rhymed position.</note>
-                <note xml:id="p1680" type="ling" resp="#SPM"><hi>sedersi</hi>, with unvoiced d.</note>
+                <note xml:id="p1680" type="ling" resp="#SPM"><hi>sedersi</hi>, with unvoiced
+                    d.</note>
                 <note xml:id="p1691" type="edit" resp="scribe">MS <hi rend="#italic">cholo</hi>;
                     scribal correction, with line drawn through top of first <hi rend="#italic"
                         >o</hi> to make it an <hi rend="#italic">e</hi>.</note>
@@ -364,7 +368,8 @@
                 <note xml:id="p1743" type="interp" resp="#SPM">"fosse"</note>
                 <note xml:id="p1746" type="edit" resp="scribe">MS <hi rend="#italic"
                     >stu</hi>.</note>
-                <note xml:id="p1752" type="edit" resp="#SPM">MS <hi>cunssentie</hi>, scribal error with last e stuck through.</note>
+                <note xml:id="p1752" type="edit" resp="#SPM">MS <hi>cunssentie</hi>, scribal error
+                    with last e stuck through.</note>
                 <note xml:id="p1760.1" type="interp" resp="#SPM">"non è"</note>
                 <note xml:id="p1760.2" type="interp" resp="#SPM"><hi rend="#italic">già</hi>, from
                         <hi rend="#italic">gire</hi>, to go; "he did not go willing."</note>
@@ -413,8 +418,7 @@
                 <note xml:id="p1968" type="edit" resp="#SPM">MS <hi rend="#italic">La si
                     si</hi>.</note>
                 <note xml:id="p1969" type="edit" resp="#SPM">MS <hi rend="#italic">du</hi>.</note>
-                <note xml:id="p1980" type="ling" resp="#SPM">"prese";
-                    metathesis.</note>
+                <note xml:id="p1980" type="ling" resp="#SPM">"prese"; metathesis.</note>
                 <note xml:id="p1984" type="ling" resp="#SPM">Cf. modern French <hi rend="#italic"
                         >lisons</hi>.</note>
                 <note xml:id="p1992" type="codic" resp="#SPM">Space for illumination.</note>
@@ -515,6 +519,7 @@
                     is unclear. This suggests that the word is erroneous, and I have emmended
                     according to context. Cf. l. 1639.</note>
                 <note xml:id="p2346" type="edit" resp="#SPM">MS <hi rend="italic">ta</hi>.</note>
+                <note xml:id="p2367" type="interp" resp="#SPM">"fosse"</note>
                 <note xml:id="p2369" type="edit" resp="#SPM">MS <hi rend="italic">De ço che
                     ço</hi>.</note>
                 <note xml:id="p2388" type="edit" resp="#SPM">MS <hi rend="italic">quae</hi>; scribe
@@ -539,11 +544,16 @@
                     cf. ll. 814, 2606, 4854.</note>
                 <note xml:id="p2537" type="edit" resp="#SPM">MS <hi rend="italic"
                     >parsse</hi>.</note>
+                <note xml:id="p2546" type="ling" resp="#SPM">Rohlfs, Italia meridionale, §336. Ne
+                    paragogico.</note>
                 <note xml:id="p2548" type="edit" resp="scribe">MS <hi rend="italic">questa</hi>;
                     scribal correction, superscript <hi rend="italic">o</hi> above <hi rend="italic"
                         >a</hi>.</note>
                 <note xml:id="p2553" type="edit" resp="#SPM">MS <hi rend="italic"
                     >critor</hi>.</note>
+                <note xml:id="p2574" type="ling" resp="#SPM">"in garant"; an example devoiced velar
+                    plosive. Cf. l. 1951 and the variant <hi>guarant</hi> l. 357 passim.</note>
+                <note xml:id="p2575" type="interp" resp="#SPM">"franchant"</note>
                 <note xml:id="p2581" type="edit" resp="#SPM">MS <hi rend="italic"
                     >maltalanant</hi>.</note>
                 <note xml:id="p2583" type="edit" resp="scribe">MS <hi rend="italic">pant</hi>; with
@@ -558,6 +568,7 @@
                     >popris</hi>.</note>
                 <note xml:id="p2665" type="edit" resp="#SPM">MS <hi rend="italic">P</hi>; scribe
                     forgot the strike through the descender.</note>
+                <note xml:id="p2672" type="edit" resp="#SPM">MS Fian</note>
                 <note xml:id="p2716" type="edit" resp="#SPM">MS <hi rend="italic">sana</hi>.</note>
                 <note xml:id="p2753" type="edit" resp="#SPM">MS <hi rend="italic"
                     >clalma</hi>.</note>
@@ -613,9 +624,9 @@
                     bar on this initial.</note>
                 <note xml:id="p2918" type="edit" resp="#SPM">MS <hi rend="italic">un mio
                     mio</hi>.</note>
-                <note xml:id="p2935" type="edit" resp="scrive">Errasure after <hi rend="italic"
+                <note xml:id="p2935" type="edit" resp="scrive">Erasure after <hi rend="italic"
                         >questa</hi>.</note>
-                <note xml:id="p2943" type="ling" resp="#SPM">"Bretagne," etathesis</note>
+                <note xml:id="p2943" type="ling" resp="#SPM">"Bretagne," metathesis</note>
                 <note xml:id="p2974" type="edit" resp="#SPM">MS <hi rend="italic">fra</hi>.</note>
                 <note xml:id="p3014" type="edit" resp="#SPM">MS <hi rend="italic">L p<hi
                             rend="noitalic">er</hi></hi>.</note>

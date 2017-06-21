@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
 <?xml-model href="Huon_Customized_Schema_052217.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
@@ -65,7 +65,7 @@
                         <name type="country">USA</name>
                     </address>
                 <availability status="free">
-                    <p>The text is freely available.</p>
+                    <p>The text is freely available</p>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -75,21 +75,21 @@
                 <note type="edit">Notes indicating editorial or scribal intervention.</note>
                 <note type="codic">Notes on the codicological and material state of the
                     manuscript.</note>
-                <note type="interp">Notes that facilitate reading the text.</note>
                 <note type="refer">Notes that reference other primary sources.</note>
                 <note type="biblio">Notes that reference secondary sources.</note>
             </notesStmt>
             <sourceDesc>
-                <msDesc xml:id="P" xml:lang="fi">
-                    <!-- For an example msDesc see Cummings 52 -->
+                <msDesc xml:lang="en">
+                    <!-- xml:id ??? See Cummings 52 -->
                     <msIdentifier>
                         <country>Italy</country>
                         <settlement>Padua</settlement>
                         <repository>Biblioteca del Seminario Vescovile</repository>
-                        <idno>32</idno>
+                        <idno>MS 32</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title>Huon d'Auvergne, Padia version</title>
+                        <title xml:lang="FI">Huon d'Auvergne, Biblioteca del Seminario Vescovile di
+                            Padova, Manuscript 32</title>
                         <origPlace cert="low">Padua</origPlace>
                         <origDate cert="medium" evidence="internal">second half of fourteenth
                             century or first half of fifteenth</origDate>
@@ -155,8 +155,9 @@
                     <history>
                         <origin>
                             <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate
-                            notAfter="1350" notBefore="1300">first half of the fourteenth
-                            century</origDate></p>
+                                    notAfter="1350" notBefore="1300">first half of the fourteenth
+                                    century</origDate>
+                            </p>
                         </origin>
                         <provenance>unknown</provenance>
                         <acquisition>library acquisition information</acquisition>
@@ -195,17 +196,12 @@
                 document</change>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <surface xml:id="f1r">
-            <graphic url="f1r.jpg"/>
-        </surface>
-    </facsimile>
     <text>
         <body>
             <lg type="laisse" n="1">
                 <note xml:id="p1"/>
                 <head>Laisse 1</head>
-                <l n="1"><gap reason="missing folios" quantity="2"/><milestone n="1R" unit="fol." facs="#f1r"/>E
+                <l n="1"><gap reason="missing folios" quantity="2"/><milestone n="1R" unit="fol." facs="1r"/>E
                     perçò era Ugo d’Alvernia sevrie;</l>
                 <l n="2">E pluy de tre any stete in la çitie</l>
                 <l n="3">Ch’el non fo a so tera tornie,<note xml:id="p3"/></l>
@@ -2967,7 +2963,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     </choice><note xml:id="p2028"/> non, lì la convin laser,</l>
                 <l n="2033">Unde lo conte se presse a maraviar,</l>
                 <l n="2034">Enfra·ssi dir e parler:</l>
-                <l n="2035">"Io creço che da chi<note xml:id="p2035"></note> inanci nessun pò ander."</l>
+                <l n="2035">"Io creço che da chi<note xml:id="p2035"/> inanci nessun pò ander."</l>
                 <l n="2036">E al partir ch'el -sse voleva sevrer,</l>
                 <l n="2037">El presse davanti·ssi a guarder,</l>
                 <l n="2038">Si <choice>
@@ -3271,6 +3267,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2254">P<ex rend="italic">er</ex>ch'ello aveva fatto tal parlamant,</l>
                 <l n="2255">E de·ssulla faça lo naxo insenbemant.<note xml:id="p2255"/></l>
                 <l n="2256">Puo li disse, "Tornevene indriedo tosto isnelament</l>
+                <!-- hyphen? -->
                 <l n="2257">Al vostro siere che qua v'à mandant</l>
                 <l n="2258">E da mia parte si·lli averì contant</l>
                 <l n="2259">Che tal è lo don e·llo pressant</l>
@@ -3281,6 +3278,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <corr cert="medium" resp="#SPM">puo<ex rend="brackets">c</ex>ho</corr>
                     </choice><note xml:id="p2261"/>, fel traito, ch'io no v'apant.</l>
                 <l n="2262">Può dire a Carlo ch'el so penssier li è falant,</l>
+                <!-- può = puoi? -->
                 <l n="2263">Tuto quelo ch'el à penssado li è tornà a niant."</l>
                 <l n="2264">Lo çublaro se parte coroçosso e dolant</l>
                 <l n="2265">Tanto s'en va per monte e per pendant</l>
@@ -3345,6 +3343,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2303">Montar a cavalo isnelamans;</l>
                 <l n="2304">Le porte fè avrir de maltallans.</l>
                 <l n="2305">Quando fono<note xml:id="p2305"/> fuora al pra' verdoians,</l>
+                <!-- check other occurances of pra' -->
                 <l n="2306">Eli arssaltà l'oste dadrié e davanss,</l>
                 <l n="2307">Tende e paveion quente ne pò prens,</l>
                 <l n="2308">Si·lle fa cacer e roverssar al capns</l>
@@ -3413,6 +3412,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2352"><hi rend="blue-initial">C</hi>arlo Martello no<ex rend="italic">n</ex>
                     fè çà demorie,</l>
                 <l n="2353">Un mexe e plui à·lla çitade asidie</l>
+                <!-- LZM "raised dot here correct" ...because replacing a in alla ? 
+                    But wouldn't asidie take a direct object? à asidie lla çitade? ≠alla çitade ? -->
                 <l n="2354">Ch'el no li podeva intrar pan ni vin ni blie,</l>
                 <l n="2355">Quando el vete che della dama non à nule sperie,</l>
                 <l n="2356">Ne de lie aver in tuta la so vie,</l>
@@ -3428,12 +3429,13 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2365"><milestone n="49R" unit="fol."/>Avanti se llaserave tute le menbre
                     colpere</l>
                 <l n="2366">E in -llo fuogo ardere e bruxie</l>
-                <l n="2367">Che all- so signor ella fesse falsie.</l>
+                <l n="2367">Che all- so signor ella fesse<note xml:id="p2367"/> falsie.</l>
                 <l n="2368">Charlo s'en torna a Pa<ex rend="italic">r</ex>is so citie,</l>
                 <l n="2369"><choice>
                         <sic>De ço che ço</sic>
                         <corr cert="medium" resp="#SPM">De çò</corr>
                     </choice><note xml:id="p2369"/> ch'el aveva fato puo defo(i)rie.</l>
+                <!-- Possibly: "Because of what he had done he raged." Check with other versions. -->
             </lg>
             <lg type="laisse" n="75">
                 <head>Laisse 75</head>
@@ -3483,6 +3485,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2404">Bestie salvadege vete a gran plantés;</l>
                 <l n="2405">Alora cavalcà molto corocés.</l>
                 <l n="2406">El no fo migo do lige andés</l>
+                <!-- Scribal error, should read miga; correct? -->
                 <l n="2407">Ch'el reguardà al fondo d'una valés</l>
                 <l n="2408">Si vete molto fumere fuogo abraxés.</l>
                 <l n="2409">"Santa Maria," disse Ugo l'insenés,</l>
@@ -3495,6 +3498,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2416">Elo guardà fuora p<ex rend="italic">er</ex> queli prés.</l>
                 <l n="2417"><milestone n="50R" unit="fol."/>El vete cente dalli altri deformés,</l>
                 <l n="2418">Ch'el monte e·l rivaço avete tuto cargés</l>
+                <!-- à vete ? -->
                 <l n="2419">Et erano tuti piçoli, lo maçor de lor nés</l>
                 <l n="2420">Pareva in -lla etade de cinque ani pasés.</l>
                 <l n="2421">"Santa Maria," disse Ugo lo menbrés,</l>
@@ -3509,13 +3513,16 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2430">Quando elli oldiva che là si cridés,</l>
                 <l n="2431">Eli s'è assé plui spaventés</l>
                 <l n="2432">E plu tosto se metu a scanpés.<note xml:id="p2432"/></l>
+                <!-- Note form, se metu -->
             </lg>
             <lg type="laisse" n="77">
                 <head>Laisse 77</head>
                 <l n="2433"><milestone n="50V" unit="fol."/><hi rend="red-initial">A</hi> gran
                     meraveia lo conte fo dolans.</l>
                 <l n="2434">Quando ello non truova algun ho<ex rend="italic">m</ex> vivant</l>
+                <!-- Note dipthong, truova -->
                 <l n="2435">Che·l domandi ne apella de niant.</l>
+                <!-- Note verb form, domandi -->
                 <l n="2436">A una maxon el desmontà de l'auferant,</l>
                 <l n="2437">Ni non truovà pan ni vin ni plumant.</l>
                 <l n="2438">Inver lo·sso chavallo el disse altamant:</l>
@@ -3660,10 +3667,15 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2540">Como per lo so signor, l'inperador de Françe</l>
                 <l n="2541">--Carlo à nome si tien el mondo in balançe</l>
                 <l n="2542">Tanto à in -ssi orogoio e possançe--:</l>
+                <!-- Vallecalle - si l’on met entre parenthèses la précision sur le nom de Charles, 
+                    il faudrait intégrer aussi dans la parenthèse la fin du vers et le vers suivant 
+                    qui indiquent sa puissance. La construction de la phrase est interrompue par 
+                    cette longue coupure et par le passage au style direct, et l’interrogative 
+                    indirecte « como per lo signor » reste en suspens. -->
                 <l n="2543">"Al inferno me manda o' è gran pietançe,</l>
                 <l n="2544">P<ex rend="italic">er</ex> querir trabuto a quel che fè partançe</l>
                 <l n="2545">Dell'alto segolo per -sso superbançe,</l>
-                <l n="2546">Ch'èno seradi in la scura habitançe."</l>
+                <l n="2546">Ch'èno<note xml:id="p2546"/> seradi in la scura habitançe."</l>
                 <l n="2547">"Dio," disse Tadio, "questa è granda ignorançe.</l>
                 <l n="2548">Colui che <choice>
                         <sic>questa</sic>
@@ -3694,6 +3706,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2564">P<ex rend="italic">er</ex> dir novelle a pare ni a signor.</l>
                 <l n="2565">Mal à fatto ell- vostro i<ex rend="italic">n</ex>perador</l>
                 <l n="2566">Quando el ve mandà cercando p<ex rend="italic">er</ex> tal fator.</l>
+                <!-- Descender without bow, struck through. -->
                 <l n="2567">El fè gra<ex rend="italic">n</ex> mal, e vui fé piçor;</l>
                 <l n="2568">Meior ve·ffesse, e de plui gran honor,</l>
                 <l n="2569">Aver lasado l'amor de l'almansor,</l>
@@ -3705,8 +3718,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <head>Laisse 84</head>
                 <l n="2573"><hi rend="red-initial">T</hi>adio parlò al conte in oldant:</l>
                 <l n="2574">"ch<ex rend="italic">avalie</ex>r siere," al conte, "Dio te·ssia in
-                    quarant,</l>
-                <l n="2575">Ver lo to signor tu è lo cuor franchit</l>
+                    quarant,<note xml:id="p2574"/></l>
+                <l n="2575">Ver lo to signor tu è lo cuor franchit<note xml:id="p2575"/></l>
                 <l n="2576">Mai no fo homo del to senblant</l>
                 <l n="2577">Che andasse a querir trabuto alla danada çant,</l>
                 <l n="2578">Ch'èno se seradi in lo profondo efundament;</l>
@@ -3733,6 +3746,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2589"><milestone n="53V" unit="fol."/>O' senpre dolor e plant.</l>
                 <l n="2590">No li val so posança un dener valisant;</l>
                 <l n="2591">Co maçor e plui tromant</l>
+                <!-- LZM com aç or e plui tromant; “for he has then (=now) greater torment.” -->
                 <l n="2592">Tuto lo mondo no li val un guant."</l>
                 <l n="2593">Quando Ugo l'intende, a meraveia se spavant.</l>
                 <l n="2594">Aduncha parlà a Tadio dolçemant:</l>
@@ -3757,6 +3771,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <head>Laisse 85</head>
                 <l n="2605"><hi rend="blue-initial">A</hi> la doman quando la messa fo cantie,</l>
                 <l n="2606">Lo conte d'Alvernia no·sse vol tardar ne mie;</l>
+                <!-- nemie ? -->
                 <l n="2607">Lo signor apellà della cità de Antie</l>
                 <l n="2608">Apresso lui la <choice>
                         <sic>nobe</sic>
@@ -3773,6 +3788,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2616">P<ex rend="italic">er</ex> mi ovré la vostra pregiere</l>
                 <l n="2617">E a quel Dio che n'à<note xml:id="p2617"/> in balie,</l>
                 <l n="2618">Ché questo viaço no tegna i<ex rend="italic">n</ex>tra quidie,</l>
+                <!-- Meaning of these lines obscure ; Gdfry OF cuidié, “pensée”; note quidie, 
+                    vowel harmonization -->
                 <l n="2619">Quando io vo cercando lo regno diabloie.</l>
                 <l n="2620">Se plui vivesse che non fè Isachie,</l>
                 <l n="2621">No tornerò mai a la mia signorie,</l>
@@ -3814,6 +3831,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2651">E traça a fin çò che tanto è inquis.</l>
                 <l n="2652">Lo cuor me disse, si creço es<ex rend="italic">er</ex> fis,</l>
                 <l n="2653">Che gran miracolo p<ex rend="italic">er</ex> tal contuïs</l>
+                <!-- LZM con tu is -->
                 <l n="2654">Farà p<ex rend="italic">er</ex> ti lo re de paradis.</l>
                 <l n="2655">S'io non credesse ch'el desplaxesse a Dis,</l>
                 <l n="2656">Con ti vignerave, tanto sun voluntaris."</l>
@@ -3842,12 +3860,14 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2669">La chu sperança lo cundusse i<ex rend="italic">n</ex> avant.</l>
                 <l n="2670">P<ex rend="italic">er</ex> mé lo fren el menà l'auferant,</l>
                 <l n="2671">Çamai non ave tal estorinant;</l>
-                <l n="2672">Fin apresso ell- monte che Tadio lo valant</l>
+                <l n="2672">Fin<note xml:id="p2672"/> apresso ell- monte che Tadio lo valant</l>
+                <!-- insert corr tag for Fin -->
                 <l n="2673">Li aveva mostrado e dito certanamant</l>
                 <l n="2674">Che criatura de questo siegolo vivant</l>
                 <l n="2675">No troverave de·llà da quel derupant,</l>
                 <l n="2676">E là lo conte prexe la note albergamant.</l>
                 <l n="2677">Al cavalo dòn'avena al so talant.</l>
+                <!-- LZM dòn'avena ? -->
                 <l n="2678">In cenochion se mete versso oriant,</l>
                 <l n="2679">Soe man lieva versso Dio onipotant,</l>
                 <l n="2680">Rende a·llui gracia e alla so mare inse<ex rend="italic"
@@ -3894,6 +3914,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2713">In l'aqua clara lo menà como cristal;</l>
                 <l n="2714">Lui e lo cunte ne beve, ch'el -sso viver fo tal,</l>
                 <l n="2715">Puo ché d'Antona se partì lo jornal.</l>
+                <!-- puoché ? -->
                 <l n="2716">Plui <choice>
                         <sic>sana</sic>
                         <corr cert="medium" resp="#SPM">san<ex rend="brackets">t</ex>a</corr>
@@ -3988,6 +4009,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2779">Cun un dolçe ochio e benigna çiere.</l>
                 <l n="2780">Donà l'avena a chaval strangrisere,</l>
                 <l n="2781">Poi prende le so arme e puoia la rocere</l>
+                <!-- OFr puiier (T-L col. 2053) -->
                 <l n="2782">Tuto a pié o' <choice>
                         <sic>ella erra</sic>
                         <corr cert="medium" resp="#SPM">ell erra</corr>
@@ -4024,6 +4046,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2797">Una riva truovà che molto li abelist.</l>
                 <l n="2798">Della gran çoia lo buon caval ognist</l>
                 <l n="2799">P<ex rend="italic">er</ex> tal força ch'el aval entendist,</l>
+                <!-- unclear: "ch'el aval" -->
                 <l n="2800">Assé li·ffesse meio che çò no feist</l>
                 <l n="2801">Ch'el no andè tropo che do lionpardi s'en ist,</l>
                 <l n="2802">Unde el conte gran paura en prist.</l>
@@ -4070,6 +4093,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2826">Una liona che molto se fa timir.</l>
                 <l n="2827">Chaçando lì andava p<ex rend="italic">er</ex> so fioli norir;</l>
                 <l n="2828">Vete lo cavalo si començò înglotir.</l>
+                <!-- LZM començo a inglotir; vowel united with i (can it be two different vowels? 
+                    phonetic term for this?) -->
                 <l n="2829">Lo cunte la guardà, no à talento de rir,</l>
                 <l n="2830">Ben vete del tuto, de·llà no<ex rend="italic">n</ex> pò partir.</l>
                 <l n="2831"><milestone n="58V" unit="fol."/>El trasse la spada, si·lla corsse a
@@ -4078,6 +4103,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <sic>incontir</sic>
                         <corr cert="medium" resp="#SPM">incont<ex rend="brackets">r</ex>ir</corr>
                     </choice><note xml:id="p2832"/> ne i<ex rend="italic">n</ex> dexir;</l>
+                <!-- n'è ? -->
                 <l n="2833">Ben <num>.VI.</num> braça fè al primo saïr,</l>
                 <l n="2834">E della so destra branca lo vol <choice>
                         <sic>feirr</sic>
@@ -4089,6 +4115,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2838">Lo brando avançà avanti so retegnir,</l>
                 <l n="2839">Una parte li à fato della testa partir.</l>
                 <l n="2840">Morto l'abate, po prende a benedir</l>
+                <!-- abate : present or past? -->
                 <l n="2841">Lo nome de J<ex rend="italic">ex</ex>hu Cristo alturir.</l>
             </lg>
             <lg type="laisse" n="96">
@@ -4097,6 +4124,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2843">Deverave cognos<ex rend="italic">er</ex> lo·sso dalmaço sove<ex
                         rend="italic">n</ex>t</l>
                 <l n="2844">E saver -sse partir prestament</l>
+                <!-- saver-sse? -->
                 <l n="2845">Dal rio luogo p<ex rend="italic">er</ex> l'altri tromant,<note
                         xml:id="p2845"/></l>
                 <l n="2846">Sicomo lo conte Ugo, plen d'ardiment,</l>
@@ -4142,6 +4170,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     </choice><note xml:id="p2871"/> sulla riva Tigrone</l>
                 <!-- del? -->
                 <l n="2872">A muodo de tre doncele quando be<ex rend="italic">n</ex> se refaçone</l>
+                <!-- Meaning of line unclear -->
                 <l n="2873">Chantando canto, lor coraço tuto amor done,</l>
                 <l n="2874">Chussì vete lo conte in -lla via felone</l>
                 <l n="2875">Çugar tre damissele, çasçuna<note xml:id="p2875"/> pur i<ex
@@ -4166,11 +4195,13 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         >n</ex>ver ele trois;</l>
                 <l n="2887">Quando ello fo apresso, si tene l'arganois,</l>
                 <l n="2888">Vete la beleça di·sso vissi clari e frais,</l>
+                <!-- Note ai in frais, while oi for rest of laisse -->
                 <l n="2889">Le so robe fate alla guissa françois,</l>
                 <l n="2890">De gran meraveia <choice>
                         <sic>sebla</sic>
                         <corr cert="medium" resp="#SPM">se<ex rend="brackets">n</ex>bla</corr>
                     </choice><note xml:id="p2890"/> fe' crois;</l>
+                <!-- meaning unclear: "senbla fe' crois" -->
                 <l n="2891">Ele altrosì <choice>
                         <sic>quan</sic>
                         <corr cert="high" resp="#scribe">quan<add place="above">do</add></corr>
@@ -4193,7 +4224,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <!-- how to rend E blue and within brackets? Also, sic C blue? -->
                 <l n="2897">Ele altrossì respoxe sença demor:</l>
                 <l n="2898">"Ben si' vegnudo homo stranior!</l>
-                <l n="2899">Unde è tu vegnu? Trane de questo eror</l>
+                <l n="2899">Unde è-tu vegnu? Trane de questo eror</l>
+                <!-- hyphen? è-tu? -->
                 <l n="2900">Ancora no vedessemo meraveia maçor;</l>
                 <l n="2901">In questa parte de gran tenpo ancior</l>
                 <l n="2902">No arivà mai omo pecador."</l>
@@ -4236,14 +4268,16 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2929">Plui dolente homo mai no nassé de mer.</l>
                 <l n="2930">Vui che me fé la mia ventura retrer,</l>
                 <l n="2931">Chontento m’avì del mio mereveler,</l>
+                <!-- meaning of line unclear -->
                 <l n="2932">Quando vui savessi lo dretro camin parler."</l>
             </lg>
             <lg type="laisse" n="102">
                 <head>Laisse 102</head>
                 <l n="2933">"<hi rend="red-initial">C</hi>omo," disse lo conte, "bele conpagne,</l>
                 <l n="2934">Chi ve condusse in questa tera stragne</l>
-                <l n="2935"><milestone n="60V" unit="fol."/>E demoré vui i<ex rend="italic">n</ex>
+                <l n="2935"><milestone n="60V" unit="fol."/>E demoré-vui i<ex rend="italic">n</ex>
                         questa<note xml:id="p2935"/> des<ex rend="italic">er</ex>tagne?</l>
+                <!-- hyphen -->
                 <l n="2936">Vui me resenblé, sicomo li ogli m'e<ex rend="italic">n</ex>çagne,</l>
                 <l n="2937">Del bel païs che fo de Carlomaine."</l>
                 <l n="2938">E l'una dixe, "Quando tu de·<ex rend="italic">n</ex> domagne</l>
@@ -4261,6 +4295,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
             <lg type="laisse" n="103">
                 <head>Laisse 103</head>
                 <l n="2949"><hi rend="blue-initial">A</hi>ncora te digo, vasal, se tu viem</l>
+                <!-- MS Aancora ; make consistent with Rr and Nn elsewhere. -->
                 <l n="2950">Veder la dona che tanto è d'altre brin</l>
                 <l n="2951">No te porà saciar lo maitin.</l>
                 <l n="2952">La bela vila, le aque, e li çardin</l>
