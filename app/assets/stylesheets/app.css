@@ -555,11 +555,14 @@ td{
   float: right;
   margin-right: -50px;
 }
-#introduction{
+
+#introduction {
     padding-top: 68px;
     height: 100%;
     text-align: justify;
+    margin-top: -200px
 }
+
 #title{
       font-size: 28px;
 }
