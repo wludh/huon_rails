@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carte Rajna, Quaderno del MS 32 della Biblioteca del Seminario di Padova</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>All rights reserved.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Notebook of Pio Rajna containing a transcription of Huon d'Auvergne, MS 32 of the
+               Seminario Vescovile of Padia. The article consists of 8 fascicules, none of which are
+               bound to each other. The stamp of the Mareculliana library, a blue oval, appears on
+               the first and last page of each fascicule. Additionally, a small black stamp, also
+               from the Mareculliana, appears on the first page of each fascicule. There are thre
+               foliation systems. The first, in the upper left corner, is in pencil and begins with
+               26 and goes to 33. The second is in black ink and is located in the upper right
+               corner. The first fascicule is numbered "1.". The second fascicule does is not
+               numbered here. All subsequent fascicules are numbered 3 to 8. The foliation in the
+               upper right hand appears to be Rajna's. Finally, a pink foliation system appears in
+               the upper right area of the recto side of every page. The first number of each
+               fascicules are: 1, 14, 29, 41, 53, 65, 77, 89</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="header">
+            <head>Biblioteca</head>
+            <lb/>
+            <head>del Seminario di Padova</head>
+            <lb/>
+            <ab>Amicus et Amelius ... [difficult to decipher]</ab>
+         </div>
+         <div type="MSDesc">
+            <head>Cod. 32.</head>
+            <lb/>
+            <p>Cod. cart. in f<hi rend="super">o</hi> di c<hi rend="super">e</hi>
+               <del type="scribble" cert="low">[scribble]</del> 117 la <hi rend="super"
+               >pen</hi>ultima delle <abbr>qli</abbr> porta<lb/> il num. 129 -- <del type="scribble"
+                  >[long sentence scribbled out]</del><lb/>
+               <del type="scribble">[scribble contines from previous line]</del> mut. in <unclear
+                  reason="handwriting">gr.</unclear>, in fine e a <abbr>qto</abbr>
+               <unclear reason="handwriting">fare manc.(?)</unclear><lb/> di f<hi rend="super"
+                  >o</hi> anche nel corpo del <abbr>vol-</abbr> Scrittura del <abbr>sec</abbr>
+               XIV,<lb/> 2<hi rend="super">a</hi> meta <metamark rend="above">?</metamark>,
+               somigliante assai a <unclear reason="handwriting">[two undlear
+               words]</unclear>laurenz del Bovo__<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

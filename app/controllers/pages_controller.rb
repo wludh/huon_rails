@@ -44,7 +44,7 @@ class PagesController < ApplicationController
             if doc.search('title[type="short"]').length > 1
                 @short_title = doc.search('title[type="short"]').text
             else
-                @short_title = "Placeholder Short Title"
+                @short_title = "Navigation"
             end
 
             # get the introduction
