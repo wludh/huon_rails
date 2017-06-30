@@ -893,7 +893,16 @@ textarea {
 select {
   width: 100%; }
 
-/* This section controls the mise-en-page of the home page. Other pages too? Move to app.css? */
+/* This section controls the mise-en-page of the home page. Other pages too? Move to app.css? Create "general layout" section?*/
+
+.praxispage {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+
 .row {
   width: 100%;
   margin-left: auto;
@@ -916,13 +925,13 @@ select {
   .row.collapse .row {
     margin-left: 0;
     margin-right: 0; }
-  .row .row {
+  /* .row .row {
     width: auto;
     margin-left: -0.9375rem;
     margin-right: -0.9375rem;
     margin-top: 0;
     margin-bottom: 0;
-    max-width: none; }
+    max-width: none; } */
     .row .row:before, .row .row:after {
       content: " ";
       display: table; }
