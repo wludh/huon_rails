@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-05-22T12:20:38Z. .
+# Schema generated from ODD source 2017-07-03T21:34:15Z. .
 # TEI Edition: Version 3.1.0. Last updated on
 #	15th December 2016, revision d3f5e70
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
@@ -287,7 +287,7 @@ tei_att.datable.w3c.attribute.to =
   }?
 sch:pattern [
   id =
-    "Huon_Customized_Schema_052217-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
+    "huon-schema-07032017-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -307,7 +307,7 @@ sch:pattern [
 ]
 sch:pattern [
   id =
-    "Huon_Customized_Schema_052217-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
+    "huon-schema-07032017-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -327,7 +327,7 @@ sch:pattern [
 ]
 sch:pattern [
   id =
-    "Huon_Customized_Schema_052217-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
+    "huon-schema-07032017-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -357,7 +357,7 @@ tei_att.datable.attribute.calendar =
   attribute calendar { xsd:anyURI }?
 sch:pattern [
   id =
-    "Huon_Customized_Schema_052217-att.datable-calendar-calendar-constraint-rule-4"
+    "huon-schema-07032017-att.datable-calendar-calendar-constraint-rule-4"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -766,8 +766,7 @@ tei_att.typed.attribute.subtype =
     xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
 sch:pattern [
-  id =
-    "Huon_Customized_Schema_052217-att.typed-subtypeTyped-constraint-rule-5"
+  id = "huon-schema-07032017-att.typed-subtypeTyped-constraint-rule-5"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -801,7 +800,7 @@ tei_att.pointing.attribute.targetLang =
   }?
 sch:pattern [
   id =
-    "Huon_Customized_Schema_052217-att.pointing-targetLang-targetLang-constraint-rule-6"
+    "huon-schema-07032017-att.pointing-targetLang-targetLang-constraint-rule-6"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -881,7 +880,7 @@ tei_att.spanning.attribute.spanTo =
   attribute spanTo { xsd:anyURI }?
 sch:pattern [
   id =
-    "Huon_Customized_Schema_052217-att.spanning-spanTo-spanTo-2-constraint-rule-7"
+    "huon-schema-07032017-att.spanning-spanTo-spanTo-2-constraint-rule-7"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -1423,7 +1422,7 @@ tei_p =
     tei_macro.paraContent
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-p-abstractModel-p-constraint-report-4"
+           "huon-schema-07032017-p-abstractModel-p-constraint-report-4"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1445,7 +1444,7 @@ tei_p =
        ]
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-p-abstractModel-structure-l-constraint-report-5"
+           "huon-schema-07032017-p-abstractModel-structure-l-constraint-report-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2049,7 +2048,7 @@ tei_l =
       | tei_model.global)*)
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-l-abstractModel-structure-l-constraint-report-6"
+           "huon-schema-07032017-l-abstractModel-structure-l-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2089,7 +2088,7 @@ tei_lg =
      (tei_model.divBottom, tei_model.global*)*)
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-lg-atleast1oflggapl-constraint-assert-5"
+           "huon-schema-07032017-lg-atleast1oflggapl-constraint-assert-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2110,7 +2109,7 @@ tei_lg =
        ]
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-lg-abstractModel-structure-l-constraint-report-7"
+           "huon-schema-07032017-lg-abstractModel-structure-l-constraint-report-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2472,7 +2471,7 @@ tei_quotation =
     (tei_model.pLike*)
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-quotation-quotationContents-constraint-report-8"
+           "huon-schema-07032017-quotation-quotationContents-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2851,7 +2850,7 @@ tei_div =
       (tei_model.divBottom, tei_model.global*)*)?)
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-div-abstractModel-structure-l-constraint-report-9"
+           "huon-schema-07032017-div-abstractModel-structure-l-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2872,7 +2871,7 @@ tei_div =
        ]
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-div-abstractModel-structure-p-constraint-report-10"
+           "huon-schema-07032017-div-abstractModel-structure-p-constraint-report-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3321,8 +3320,7 @@ tei_s =
   element s {
     tei_macro.phraseSeq
     >> sch:pattern [
-         id =
-           "Huon_Customized_Schema_052217-s-noNestedS-constraint-report-11"
+         id = "huon-schema-07032017-s-noNestedS-constraint-report-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3460,7 +3458,7 @@ tei_span =
     tei_macro.phraseSeq.limited
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-span-targetfrom-constraint-report-12"
+           "huon-schema-07032017-span-targetfrom-constraint-report-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3482,8 +3480,7 @@ tei_span =
          "         "
        ]
     >> sch:pattern [
-         id =
-           "Huon_Customized_Schema_052217-span-targetto-constraint-report-13"
+         id = "huon-schema-07032017-span-targetto-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3505,8 +3502,7 @@ tei_span =
          "         "
        ]
     >> sch:pattern [
-         id =
-           "Huon_Customized_Schema_052217-span-tonotfrom-constraint-report-14"
+         id = "huon-schema-07032017-span-tonotfrom-constraint-report-14"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3527,8 +3523,7 @@ tei_span =
          "         "
        ]
     >> sch:pattern [
-         id =
-           "Huon_Customized_Schema_052217-span-tofrom-constraint-report-15"
+         id = "huon-schema-07032017-span-tofrom-constraint-report-15"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3626,7 +3621,7 @@ tei_catchwords =
     tei_macro.phraseSeq
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-catchwords-catchword_in_msDesc-constraint-assert-6"
+           "huon-schema-07032017-catchwords-catchword_in_msDesc-constraint-assert-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3656,7 +3651,7 @@ tei_dimensions =
     ((tei_dim | tei_model.dimLike)*)
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-dimensions-duplicateDim-constraint-report-16"
+           "huon-schema-07032017-dimensions-duplicateDim-constraint-report-16"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3679,7 +3674,7 @@ tei_dimensions =
        ]
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-dimensions-duplicateDim-constraint-report-17"
+           "huon-schema-07032017-dimensions-duplicateDim-constraint-report-17"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3702,7 +3697,7 @@ tei_dimensions =
        ]
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-dimensions-duplicateDim-constraint-report-18"
+           "huon-schema-07032017-dimensions-duplicateDim-constraint-report-18"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3857,7 +3852,7 @@ tei_secFol =
     tei_macro.phraseSeq
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-secFol-secFol_in_msDesc-constraint-assert-7"
+           "huon-schema-07032017-secFol-secFol_in_msDesc-constraint-assert-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3887,7 +3882,7 @@ tei_signatures =
     tei_macro.specialPara
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-signatures-signatures_in_msDesc-constraint-assert-8"
+           "huon-schema-07032017-signatures-signatures_in_msDesc-constraint-assert-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3941,7 +3936,7 @@ tei_msIdentifier =
      (tei_msName | tei_altIdentifier)*)
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-msIdentifier-msId_minimal-constraint-report-19"
+           "huon-schema-07032017-msIdentifier-msId_minimal-constraint-report-19"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4815,8 +4810,7 @@ tei_rdgGrp =
       | (tei_wit?, (tei_model.rdgLike, tei_wit?))*
       | tei_model.noteLike*)+)
     >> sch:pattern [
-         id =
-           "Huon_Customized_Schema_052217-rdgGrp-only1lem-constraint-assert-9"
+         id = "huon-schema-07032017-rdgGrp-only1lem-constraint-assert-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4907,7 +4901,7 @@ tei_damageSpan =
     empty
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-damageSpan-spanTo-constraint-assert-12"
+           "huon-schema-07032017-damageSpan-spanTo-constraint-assert-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4929,7 +4923,7 @@ tei_damageSpan =
        ]
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-damageSpan-spanTo_fr-constraint-assert-13"
+           "huon-schema-07032017-damageSpan-spanTo_fr-constraint-assert-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4958,8 +4952,7 @@ tei_delSpan =
   element delSpan {
     empty
     >> sch:pattern [
-         id =
-           "Huon_Customized_Schema_052217-delSpan-spanTo-constraint-assert-14"
+         id = "huon-schema-07032017-delSpan-spanTo-constraint-assert-14"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4980,7 +4973,7 @@ tei_delSpan =
        ]
     >> sch:pattern [
          id =
-           "Huon_Customized_Schema_052217-delSpan-spanTo_fr-constraint-assert-15"
+           "huon-schema-07032017-delSpan-spanTo_fr-constraint-assert-15"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5161,17 +5154,5 @@ tei_att.global.linking.attribute.select =
 tei_seg =
   
   ## (arbitrary segment) represents any segmentation of text below the chunk level. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
-  element seg {
-    tei_macro.paraContent,
-    
-    ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an editor or transcriber.
-    attribute resp {
-      list {
-        (
-         ##
-         "Rajna")+
-      }
-    },
-    empty
-  }
+  element seg { tei_macro.paraContent }
 start = tei_TEI | tei_teiCorpus

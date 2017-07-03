@@ -911,6 +911,10 @@ select {
   margin-bottom: 0;
   max-width: 62.5rem; }
 
+span {
+  color: #a10d09;
+}
+
 /* End here? -------------------------------------------------------------------------------- */
 
   .row:before, .row:after {

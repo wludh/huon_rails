@@ -1,5 +1,5 @@
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<?xml-model href="Huon_Customized_Schema_052217.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-07032017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -201,7 +201,7 @@
             <lg type="laisse" n="1">
                 <note xml:id="p1"/>
                 <head>Laisse 1</head>
-                <l n="1"><gap reason="missing folios" quantity="2"/><milestone n="1R" unit="fol." facs="1r"/>E
+                <l n="1"><gap reason="missing folios" quantity="2"/><milestone n="1R" unit="fol."/>E
                     perçò era Ugo d’Alvernia sevrie;</l>
                 <l n="2">E pluy de tre any stete in la çitie</l>
                 <l n="3">Ch’el non fo a so tera tornie,<note xml:id="p3"/></l>

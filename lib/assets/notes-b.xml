@@ -34,9 +34,9 @@
         </front>
         <body>
             <div>
-                <note n="1" xml:id="b1" type="ling" resp="#SPM">prael "meadow"</note>
-                <note n="2" xml:id="b16" type="ling" resp="#SPM">zonse "thing"</note>
-                <note n="3" xml:id="b19" type="ling" resp="#SPM">lou "place"</note>
+                <note xml:id="b1" type="ling" resp="#SPM">prael "meadow"</note>
+                <note xml:id="b16" type="ling" resp="#SPM">zonse "thing"</note>
+                <note xml:id="b19" type="ling" resp="#SPM">lou "place"</note>
             </div>
         </body>
     </text>
