@@ -5424,7 +5424,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <head>Laisse 141</head>
                 <l n="3766"><hi rend="red-initial">A</hi>llora dixe lo falsso agnolo, "Dì-me, che
                     faras?</l>
-                <l n="3767">P<ex rend="italic">er</ex>ché ve tu duncha çò che no oseras?"</l>
+                <l n="3767">P<ex rend="italic">er</ex>ché ve-tu duncha çò che no oseras?"</l>
                 <!-- ve tu is problematic; after manuscript consultation, it is clear the e
                     is incorrect; the letter has a ligature to the following t, similar to
                     the st ligature, and a line was added to extend the letter below the line.  -->
@@ -5441,6 +5441,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="3776">Io era defuora a muodo de u<ex rend="italic">n</ex> povero lais,</l>
                 <l n="3777">E·l to mançar sol p<ex rend="italic">er</ex> mi molto <ex rend="italic"
                         >con</ex>pasionais;</l>
+                <!-- E·l to mançar - "E il tuo" vs. "Il tuo" - leave El unseparated? Check throughout, include in introduction -->
                 <l n="3778">Io sun colui che pan e capon grais</l>
                 <l n="3779">Portie dalla tavola lo vin e·lle <choice>
                         <sic>elesalvais</sic>
@@ -5722,6 +5723,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <corr cert="medium" resp="#SPM">mio<ex rend="brackets">r</ex></corr>
                     </choice><note xml:id="p3975"/></l>
                 <l n="3976">P<ex rend="italic">er</ex> mi condur in -llo gran tenebror,</l>
+                <!-- ATTN: in -llo -->
                 <l n="3977">Gracia te rendo como s<ex rend="italic">er</ex>vo a signor</l>
                 <l n="3978">Ch'io no muora in lo eterno plor:</l>
                 <l n="3979">In le toe parole me terò tuto jor."</l>
@@ -5882,6 +5884,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="4093">Che aspeteno lo messaço sacroi:</l>
                 <l n="4094">Çò è el Mexia che nasserà contra la loi.</l>
                 <l n="4095">Li Moissant che sequeno quel planoi</l>
+                <!-- Moissant: Jews, ie. those who follow Moses. In which case, caps? -->
                 <l n="4096">Çà li vederé intrar plui de <num>.XX.</num> doi</l>
                 <l n="4097">P<ex rend="italic">er</ex> quela porta, se tu reguardi un poi,</l>
                 <l n="4098">Che mai non averà se no male aloi."</l>
@@ -5900,6 +5903,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="4107"><milestone n="84V" unit="fol."/>Che <persName type="deity">Jexhu <ex
                             rend="italic">Crist</ex>o</persName> ny <persName type="biblic"
                         >Moisés</persName> no<ex rend="italic">n</ex> dagne,</l>
+                <!-- Moisés / Moises ? Is this French (stress already on end) or Italian?  -->
                 <l n="4108">Serveno a <persName type="deity">Macu<ex rend="italic">n</ex></persName>
                     chi a morir l'i<ex rend="italic">n</ex>sagne."</l>
                 <l n="4109">"Dolçe guida," dixe Ugo lo magne,</l>
@@ -7730,6 +7734,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="5337">Non fo meraveia s'el s'ave a spave<ex rend="italic">n</ex>tir;</l>
                 <l n="5338">In lo so cuor el getà un sospir</l>
                 <l n="5339">Unde ell- prexe infra·ssi Charlo a maledir:</l>
+                <!-- ATTN ell- prexe -->
                 <l n="5340">"Malvaxio re, Dio te possa confondir!</l>
                 <l n="5341">Quando tu m'à fato i<ex rend="italic">n</ex> tal luogo vegnir</l>
                 <l n="5342">Onde io no<ex rend="italic">n</ex> posso ni andar ni fuçir,</l>

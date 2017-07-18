@@ -209,145 +209,133 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <l n="1"><seg resp="Rajna">Al tempo de mazo<note xml:id="t1"/> quando el fiorise le
+                <l n="1"><seg>Al tempo de mazo<note xml:id="t1"/> quando el fiorise le
                         prade</seg></l>
-                <l n="2"><seg resp="Rajna">tute reverdise li erbe e∙lle arbosele,</seg></l>
-                <l n="3"><seg resp="Rajna">et y<ex rend="italic">n</ex>n-amore vene molte mainere d'osele</seg></l>
-                <l n="4"><seg resp="Rajna">perzò cantano e fano li sony molte bele,</seg></l>
-                <l n="5"><seg resp="Rajna">tute y<ex rend="italic">n</ex>semele fano done et donzele</seg></l>
-                <l n="6"><seg resp="Rajna">che per lor deleto entrano y<ex rend="italic">n</ex> zardine;</seg></l>
-                <l n="7"><milestone n="1R" unit="fol."/><seg resp="Rajna">tute le polzele ensemele
+                <l n="2"><seg>tute reverdise li erbe e∙lle arbosele,</seg></l>
+                <l n="3"><seg>et y<ex rend="italic">n</ex>n-amore vene molte mainere d'osele</seg></l>
+                <l n="4"><seg>perzò cantano e fano li sony molte bele,</seg></l>
+                <l n="5"><seg>tute y<ex rend="italic">n</ex>semele fano done et donzele</seg></l>
+                <l n="6"><seg>che per lor deleto entrano y<ex rend="italic">n</ex> zardine;</seg></l>
+                <l n="7"><milestone n="1R" unit="fol."/><seg>tute le polzele ensemele
                         com zovenzele</seg></l>
-                <l n="8"><seg resp="Rajna">de fiore<note xml:id="t8"/> e de rosse zascun se fa
+                <l n="8"><seg>de fiore<note xml:id="t8"/> e de rosse zascun se fa
                         capele,</seg></l>
-                <l n="9"><seg resp="Rajna">se sy sbaldise perché amore lia strenze.</seg></l>
-                <l n="10"><seg resp="Rajna">En la Pentacosta quando (el) cavalere novele</seg></l>
-                <l n="11"><seg resp="Rajna">desi(d)rano zostrà e fare meraviose zambele,</seg></l>
-                <l n="12"><seg resp="Rajna">el steva en Franza un re molto crudele,</seg></l>
-                <l n="13"><seg resp="Rajna">selonche che nostra cronicha ordenata,</seg></l>
-                <l n="14"><seg resp="Rajna">che hognomo l'apela lo re Carlo Martelo.</seg></l>
-                <l n="15"><seg resp="Rajna">Gran corte tenia che</seg> homo no<ex rend="italic">n</ex> la <seg
-                        resp="Rajna">vite zà tale</seg></l>
+                <l n="9"><seg>se sy sbaldise perché amore lia strenze.</seg></l>
+                <l n="10"><seg>En la Pentacosta quando (el) cavalere novele</seg></l>
+                <l n="11"><seg>desi(d)rano zostrà e fare meraviose zambele,</seg></l>
+                <l n="12"><seg>el steva en Franza un re molto crudele,</seg></l>
+                <l n="13"><seg>selonche che nostra cronicha ordenata,</seg></l>
+                <l n="14"><seg>che hognomo l'apela lo re Carlo Martelo.</seg></l>
+                <l n="15"><seg>Gran corte tenia che</seg> homo no<ex rend="italic">n</ex> la <seg>vite zà tale</seg></l>
                 <!-- Footnote at the end of this line: Rajna 1v or 2 left if working from microfilm -->
-                <l n="16"><seg resp="Rajna">che una cossa ado</seg>pra el ben com <seg resp="Rajna"
-                        >felo</seg>:</l>
-                <l n="17"><seg resp="Rajna">quando un suo</seg> servo chaza de soa ca<seg
-                        resp="Rajna">sa</seg>,</l>
-                <l n="18"><seg resp="Rajna">e se l'envia a que</seg>rire trabuto a Luzifero</l>
-                <l n="19"><seg resp="Rajna">et a cerchare<note xml:id="t19"/> la</seg> casa
+                <l n="16"><seg>che una cossa ado</seg>pra el ben com <seg>felo</seg>:</l>
+                <l n="17"><seg>quando un suo</seg> servo chaza de soa ca<seg>sa</seg>,</l>
+                <l n="18"><seg>e se l'envia a que</seg>rire trabuto a Luzifero</l>
+                <l n="19"><seg>et a cerchare<note xml:id="t19"/> la</seg> casa
                     y<ex rend="italic">n</ex>fernale,</l>
-                <l n="20"><seg resp="Rajna">solo per avere</seg> Ynida dal corpo belo.</l>
+                <l n="20"><seg>solo per avere</seg> Ynida dal corpo belo.</l>
             </lg>
             <lg type="laisse" n="2">
                 <head>Laisse 2</head>
-                <l n="21"><seg resp="Rajna">Odite signor</seg>e, che Dio ve ben<seg resp="Rajna"
-                        >edicha</seg>,</l>
-                <l n="22"><seg resp="Rajna">bona canzo</seg>n dire ve vole del soy antesore,</l>
-                <l n="23"><seg resp="Rajna">del fio del re Loi che</seg> Franza avea y<ex rend="italic">n</ex>
+                <l n="21"><seg>Odite signor</seg>e, che Dio ve ben<seg>edicha</seg>,</l>
+                <l n="22"><seg>bona canzo</seg>n dire ve vole del soy antesore,</l>
+                <l n="23"><seg>del fio del re Loi che</seg> Franza avea y<ex rend="italic">n</ex>
                     ba(i)lia,</l>
-                <l n="24"><seg resp="Rajna">che</seg> Carlo Martelo fo anomà a tuta soa vita.</l>
-                <l n="25"><seg resp="Rajna">Quel Carlo</seg> ne fo del molte gra<ex rend="italic">n</ex> nomenanza</l>
-                <l n="26"><seg resp="Rajna">de tute le tere ch</seg>e ello avea y<ex rend="italic">n</ex> soa
+                <l n="24"><seg>che</seg> Carlo Martelo fo anomà a tuta soa vita.</l>
+                <l n="25"><seg>Quel Carlo</seg> ne fo del molte gra<ex rend="italic">n</ex> nomenanza</l>
+                <l n="26"><seg>de tute le tere ch</seg>e ello avea y<ex rend="italic">n</ex> soa
                     ba(i)lia,</l>
-                <l n="27"><seg resp="Rajna">doncha non perdé</seg> zamay un sol pede</l>
-                <l n="28"><seg resp="Rajna">per son argollio</seg> e per sova lezeria.</l>
-                <l n="29"><seg resp="Rajna">Molte stranie tere</seg> el n'avè a querire</l>
-                <l n="30"><seg resp="Rajna">tanto che luy li avè</seg> soto sova segnoria.</l>
-                <l n="31"><seg resp="Rajna">Tuto el mondo et</seg> non è y<ex rend="italic">n</ex> la pagania</l>
-                <l n="32"><seg resp="Rajna">l'obediseno, non è sỳ</seg> ardỳ che a luy desdiga</l>
-                <l n="33"><seg resp="Rajna">quando luy vole</seg> fare soy coma<ex rend="italic">n</ex>damente;</l>
-                <l n="34"><seg resp="Rajna">e s'el volese manda</seg>re per soa gra<ex rend="italic">n</ex> baronia,</l>
-                <l n="35"><seg resp="Rajna">senza longo termene</seg> li menò y<ex rend="italic">n</ex> ba(i)lia,</l>
+                <l n="27"><seg>doncha non perdé</seg> zamay un sol pede</l>
+                <l n="28"><seg>per son argollio</seg> e per sova lezeria.</l>
+                <l n="29"><seg>Molte stranie tere</seg> el n'avè a querire</l>
+                <l n="30"><seg>tanto che luy li avè</seg> soto sova segnoria.</l>
+                <l n="31"><seg>Tuto el mondo et</seg> non è y<ex rend="italic">n</ex> la pagania</l>
+                <l n="32"><seg>l'obediseno, non è sỳ</seg> ardỳ che a luy desdiga</l>
+                <l n="33"><seg>quando luy vole</seg> fare soy coma<ex rend="italic">n</ex>damente;</l>
+                <l n="34"><seg>e s'el volese manda</seg>re per soa gra<ex rend="italic">n</ex> baronia,</l>
+                <l n="35"><seg>senza longo termene</seg> li menò y<ex rend="italic">n</ex> ba(i)lia,</l>
                 <l n="36">v cente milia homene de bona zente be<ex rend="italic">n</ex> guarnita</l>
-                <l n="37"><seg resp="Rajna">senza li pedone e tu</seg>te ly bone arzere,</l>
-                <l n="38"><seg resp="Rajna">che la rota non poria</seg> aver miga.</l>
-                <l n="39"><seg resp="Rajna">Perzò che lo re se</seg> sente tanto avanzare</l>
-                <l n="40"><seg resp="Rajna">più che doncha no<ex rend="italic">n</ex> fo</seg> sỳ anticho miga,</l>
+                <l n="37"><seg>senza li pedone e tu</seg>te ly bone arzere,</l>
+                <l n="38"><seg>che la rota non poria</seg> aver miga.</l>
+                <l n="39"><seg>Perzò che lo re se</seg> sente tanto avanzare</l>
+                <l n="40"><seg>più che doncha no<ex rend="italic">n</ex> fo</seg> sỳ anticho miga,</l>
                 <l n="41"><milestone n="1V" unit="fol."/>
-                    <seg resp="Rajna">più orgoioso ne fo et più che zudice.</seg></l>
-                <l n="42"><seg resp="Rajna">A torto il tole altruy l'avere <ex rend="italic">et</ex> altruy el
+                    <seg>più orgoioso ne fo et più che zudice.</seg></l>
+                <l n="42"><seg>A torto il tole altruy l'avere <ex rend="italic">et</ex> altruy el
                         des<ex rend="italic">er</ex>ta,</seg></l>
-                <l n="43"><seg resp="Rajna">et molte done à vergognà et hodiate,</seg></l>
-                <l n="44"><seg resp="Rajna">et perzò non è miga da la zente agabà,</seg></l>
-                <l n="45"><seg resp="Rajna">anzo li era la zente d'el acontrà.</seg></l>
+                <l n="43"><seg>et molte done à vergognà et hodiate,</seg></l>
+                <l n="44"><seg>et perzò non è miga da la zente agabà,</seg></l>
+                <l n="45"><seg>anzo li era la zente d'el acontrà.</seg></l>
             </lg>
             <lg type="laisse" n="3">
                 <head>Laisse 3</head>
-                <l n="46"><seg resp="Rajna">Ora fate paze et atendite, signore</seg>,</l>
-                <l n="47"><seg resp="Rajna">de Carlo Martelo che fo y<ex rend="italic">m</ex>peradore</seg>,</l>
-                <l n="48"><seg resp="Rajna">che y<ex rend="italic">n</ex> suo tempo conquistò tanto onore;</seg></l>
-                <l n="49"><seg resp="Rajna">com più el</seg> <ex rend="italic">con</ex>quistò più fo crud<seg
-                        resp="Rajna">ele tute hore</seg>.</l>
-                <l n="50">(50)<seg resp="Rajna">Né à re</seg> né à prinzipo né à ducha <seg
-                        resp="Rajna">né à valvasore</seg>
+                <l n="46"><seg>Ora fate paze et atendite, signore</seg>,</l>
+                <l n="47"><seg>de Carlo Martelo che fo y<ex rend="italic">m</ex>peradore</seg>,</l>
+                <l n="48"><seg>che y<ex rend="italic">n</ex> suo tempo conquistò tanto onore;</seg></l>
+                <l n="49"><seg>com più el</seg> <ex rend="italic">con</ex>quistò più fo crud<seg>ele tute hore.</seg></l>
+                <l n="50">(50)<seg>Né à re</seg> né à prinzipo né à ducha <seg>né à valvasore</seg>
                 </l>
                 <!-- Solution for alternate Rajna line numbers? <milestone ed="Rajna" n="50"/> -->
-                <l n="51"><seg resp="Rajna">né à</seg> conte né à marchese né baron <seg
-                        resp="Rajna">dentorno</seg></l>
-                <l n="52"><seg resp="Rajna">che</seg> no∙l s<ex rend="italic">er</ex>va per dotanza o per <seg
-                        resp="Rajna">amore</seg>.</l>
-                <l n="53">Al re vene talente <ex rend="italic">et</ex> y<ex rend="italic">n</ex> coro un <seg resp="Rajna">zorno</seg></l>
-                <l n="54">del tuto vedere de soy homene lo <seg resp="Rajna">miore</seg></l>
-                <l n="55">(55)lo quale avea più forza et più <seg resp="Rajna">valore</seg>;</l>
-                <l n="56">comseio ne presse al <ex rend="italic">con</ex>te da Luzen<seg resp="Rajna">borgo</seg></l>
-                <l n="57">et a Ruzero, lo sere de Nante an<seg resp="Rajna">cora</seg>,</l>
-                <l n="58">yn qual mainera le porà ello ve<seg resp="Rajna">dere</seg>.</l>
-                <l n="59">Queste respondeno: "Fate bandire <seg resp="Rajna"><ex rend="italic">per</ex> tuto
+                <l n="51"><seg>né à</seg> conte né à marchese né baron <seg>dentorno</seg></l>
+                <l n="52"><seg>che</seg> no∙l s<ex rend="italic">er</ex>va per dotanza o per <seg>amore</seg>.</l>
+                <l n="53">Al re vene talente <ex rend="italic">et</ex> y<ex rend="italic">n</ex> coro un <seg>zorno</seg></l>
+                <l n="54">del tuto vedere de soy homene lo <seg>miore</seg></l>
+                <l n="55">(55)lo quale avea più forza et più <seg>valore</seg>;</l>
+                <l n="56">comseio ne presse al <ex rend="italic">con</ex>te da Luzen<seg>borgo</seg></l>
+                <l n="57">et a Ruzero, lo sere de Nante an<seg>cora</seg>,</l>
+                <l n="58">yn qual mainera le porà ello ve<seg>dere</seg>.</l>
+                <l n="59">Queste respondeno: "Fate bandire <seg><ex rend="italic">per</ex> tuto
                         y<ex rend="italic">n</ex>torno</seg></l>
-                <l n="60">(60) che el non romagna li grande né ly <seg resp="Rajna">menore</seg></l>
-                <l n="61">che tene da ty feu né tere né <seg resp="Rajna">honore</seg>,</l>
-                <l n="62">che a Pentacosta vegna tuty a t<seg resp="Rajna">oa corte</seg>.</l>
-                <l n="63">E zascun mene sego soa filia <seg resp="Rajna">ho soa usor</seg>, </l>
-                <l n="64">over cosina over mene soa <seg resp="Rajna">sorela</seg>; </l>
-                <l n="65">(65) e chi a polzele tu trovaray sign<seg resp="Rajna">ore</seg>, </l>
-                <l n="66">et ancha le maridà tu faray gra<ex rend="italic">n</ex><seg resp="Rajna">de honore</seg>. </l>
-                <l n="67">Et ancora faray dy chavaler<seg resp="Rajna">y più e più</seg>
+                <l n="60">(60) che el non romagna li grande né ly <seg>menore</seg></l>
+                <l n="61">che tene da ty feu né tere né <seg>honore</seg>,</l>
+                <l n="62">che a Pentacosta vegna tuty a t<seg>oa corte</seg>.</l>
+                <l n="63">E zascun mene sego soa filia <seg>ho soa usor</seg>, </l>
+                <l n="64">over cosina over mene soa <seg>sorela</seg>; </l>
+                <l n="65">(65) e chi a polzele tu trovaray sign<seg>ore</seg>, </l>
+                <l n="66">et ancha le maridà tu faray gra<ex rend="italic">n</ex><seg>de honore</seg>. </l>
+                <l n="67">Et ancora faray dy chavaler<seg>y più e più</seg>
                 </l>
-                <l n="68">et lor adobaranse de b<seg resp="Rajna">on drapo de colore</seg>;</l>
-                <l n="69">e quily che no<ex rend="italic">n</ex> virano si p<seg resp="Rajna">erderano tuo
+                <l n="68">et lor adobaranse de b<seg>on drapo de colore</seg>;</l>
+                <l n="69">e quily che no<ex rend="italic">n</ex> virano si p<seg>erderano tuo
                     amore</seg>."</l>
-                <l n="70">(70) "Per fede," dize Carlo, "cosỳ far<seg resp="Rajna">azo senza
+                <l n="70">(70) "Per fede," dize Carlo, "cosỳ far<seg>azo senza
                         demora</seg>."</l>
-                <l n="71">Alora feze domandare pr<seg resp="Rajna">esto li banditore</seg></l>
-                <l n="72">e luy l(i) comandò, li feze cha<seg resp="Rajna">valcare
+                <l n="71">Alora feze domandare pr<seg>esto li banditore</seg></l>
+                <l n="72">e luy l(i) comandò, li feze cha<seg>valcare
                     dentorno</seg></l>
-                <l n="73">e bandise la corte da parte <seg resp="Rajna">de lo'mperadore</seg>.</l>
+                <l n="73">e bandise la corte da parte <seg>de lo'mperadore</seg>.</l>
             </lg>
             <lg type="laisse" n="4">
                 <head>Laisse 4</head>
-                <l n="74"><milestone n="2R" unit="fol."/><seg resp="Rajna">En Pentacosta apresso
-                        l'Asensione</seg>
-                </l>
-                <l n="75">(75) <seg resp="Rajna">e n'à bandita la corte, tute ne verano,</seg></l>
-                <l n="76"><seg resp="Rajna">che debe durare quatro mese al de longo</seg>.</l>
-                <l n="77"><seg resp="Rajna">E perzò voleano lo'mperio Carlone</seg></l>
-                <l n="78"><seg resp="Rajna">che le done vegnano com lor <ex rend="italic">com</ex>pagnone</seg></l>
-                <l n="79"><seg resp="Rajna">per honorare la raina dal chapo biondo</seg></l>
-                <l n="80">(80) <seg resp="Rajna">che de done dè tenire corte da nove;</seg></l>
-                <l n="81"><seg resp="Rajna">et lo re la vole tenire de sty barone</seg>.</l>
-                <l n="82"><seg resp="Rajna">Apresso a la festa che devis</seg>à nuy abiam<seg
-                        resp="Rajna">o</seg></l>
-                <l n="83"><seg resp="Rajna">ly vene de le zente una</seg> sì gra<ex rend="italic">n</ex> frota</l>
-                <l n="84"><seg resp="Rajna">che <num>.XII.</num> re ly sono tu</seg>te de
-                    corona:</l>
-                <l n="85">(85) àno <seg resp="Rajna">bon corazo et le</seg> zente guarnỳ sono. </l>
-                <l n="86"><seg resp="Rajna">E stare ly ducha e ly</seg> prenzipy et li <ex rend="italic">con</ex>te,</l>
-                <l n="87"><seg resp="Rajna">et zente li fo de m</seg>olte noble rasone:</l>
-                <l n="88"><seg resp="Rajna">lo <ex rend="italic">con</ex>te d'Artos li fo et</seg> lo conte de
+                <l n="74"><milestone n="2R" unit="fol."/><seg>En Pentacosta apresso l'Asensione</seg></l>
+                <l n="75">(75) <seg>e n'à bandita la corte, tute ne verano,</seg></l>
+                <l n="76"><seg>che debe durare quatro mese al de longo</seg>.</l>
+                <l n="77"><seg>E perzò voleano lo'mperio Carlone</seg></l>
+                <l n="78"><seg>che le done vegnano com lor <ex rend="italic">com</ex>pagnone</seg></l>
+                <l n="79"><seg>per honorare la raina dal chapo biondo</seg></l>
+                <l n="80">(80) <seg>che de done dè tenire corte da nove;</seg></l>
+                <l n="81"><seg>et lo re la vole tenire de sty barone</seg>.</l>
+                <l n="82"><seg>Apresso a la festa che devis</seg>à nuy abiam<seg>o</seg></l>
+                <l n="83"><seg>ly vene de le zente una</seg> sì gra<ex rend="italic">n</ex> frota</l>
+                <l n="84"><seg>che <num>.XII.</num> re ly sono tu</seg>te decorona:</l>
+                <l n="85">(85) <seg>àno bon corazo et le</seg> zente guarnỳ sono. </l>
+                <l n="86"><seg>E stare ly ducha e ly</seg> prenzipy et li <ex rend="italic">con</ex>te,</l>
+                <l n="87"><seg>et zente li fo de m</seg>olte noble rasone:</l>
+                <l n="88"><seg>lo <ex rend="italic">con</ex>te d'Artos li fo et</seg> lo conte de
                     Sansogna,</l>
-                <l n="89"><seg resp="Rajna">et quelo de Luzen</seg>borgo, lo vasal Mergone;</l>
-                <l n="90">(90) <seg resp="Rajna">e∙l <ex rend="italic">con</ex>te d'Alve<ex rend="italic">r</ex>gna c</seg>h'el mena a so
+                <l n="89"><seg>et quelo de Luzen</seg>borgo, lo vasal Mergone;</l>
+                <l n="90">(90) <seg>e·l <ex rend="italic">con</ex>te d'Alve<ex rend="italic">r</ex>gna c</seg>h'el mena a so
                     galon</l>
-                <l n="91"><seg resp="Rajna">la bela Ynida da la c</seg>hiara fazone.</l>
-                <l n="92"><seg resp="Rajna">Com luy mena B</seg>erardo suo cosin bone </l>
-                <l n="93"><seg resp="Rajna">e Baldovy(no) chi a coro</seg> de lione</l>
-                <l n="94"><seg resp="Rajna">e Tomaso de Fiandri</seg>a, chie d'una nasione</l>
-                <l n="95">(95) <seg resp="Rajna">fono strate tute</seg>, chosỳ com nuy lezemo:</l>
-                <l n="96"><seg resp="Rajna">adoncha sono frade</seg>ly de Ynida da la chiara
+                <l n="91"><seg>la bela Ynida da la c</seg>hiara fazone.</l>
+                <l n="92"><seg>Com luy mena B</seg>erardo suo cosin bone </l>
+                <l n="93"><seg>e Baldovy(no) chi a coro</seg> de lione</l>
+                <l n="94"><seg>e Tomaso de Fiandri</seg>a, chie d'una nasione</l>
+                <l n="95">(95) <seg>fono strate tute</seg>, chosỳ com nuy lezemo:</l>
+                <l n="96"><seg>adoncha sono frade</seg>ly de Ynida da la chiara
                     fazone</l>
-                <l n="97"><seg resp="Rajna">e sone cognate del</seg> bon <ex rend="italic">con</ex>te Ugone.</l>
-                <l n="98"><seg resp="Rajna">Lo <ex rend="italic">con</ex>te no<ex rend="italic">n</ex> ge vene a</seg> guisa de bricone:</l>
-                <l n="99"><seg resp="Rajna">com luy mena ii<hi rend="superscript">c</hi></seg>
+                <l n="97"><seg>e sone cognate del</seg> bon <ex rend="italic">con</ex>te Ugone.</l>
+                <l n="98"><seg>Lo <ex rend="italic">con</ex>te no<ex rend="italic">n</ex> ge vene a</seg> guisa de bricone:</l>
+                <l n="99"><seg>com luy mena ii<hi rend="superscript">c</hi></seg>
                     compagnone,</l>
                 <!-- double check superscript attribute -->
                 <l n="100">(100) tute li miore che sono de soa nasione.</l>
@@ -439,8 +427,8 @@
                 <l n="176"><seg>Soa zente el prega dizendo: "Yo ve requero</seg></l>
                 <l n="177">(175) <seg>che al comenzare de la bataia <ex rend="italic">et</ex> del tornire,</seg> </l>
                 <l n="178"><seg>chavalere, dite 'Avergnose!' a nomare."</seg></l>
-                <l n="179"><seg>Responde zascun: "De grazia et volontera!"<seg></seg></l>
-                <l n="180"></seg>En lo campo entrano onda feze lo re aparechiare</l>
+                <l n="179"><seg>Responde zascun: "De grazia et volontera!"</seg></l>
+                <l n="180"><seg>En lo campo entrano onda feze lo re aparechiare</seg></l>
                 <l n="181"><seg>cento e ci<ex rend="italic">n</ex>quanta de soy miliore guerere.</seg></l>
                 <l n="182">(180) <seg>Lo <ex rend="italic">con</ex>te d'Artos ly fo e d'Orliens Guinemeri,</seg></l>
                 <l n="183"><seg>Bianchin</seg> del Mens e de Sanso<seg>gna lo prinzipe,</seg></l>
@@ -455,305 +443,329 @@
             <lg type="laisse" n="8">
                 <head>Laisse 8</head>
                 <l n="191"><seg>T</seg>osto che Berardo staseva ap<seg>arechiato</seg></l>
-                <l n="192">(190) ch'el primo che sia al campo <seg>venuto</seg></l>
-                <l n="193">lo destrero brocha, dy speron el fere; </l>
-                <l n="194">e fere el <ex rend="italic">con</ex>te d'Artos, del chavalo <seg>l'abate zos</seg>. </l>
+                <l n="192">(190) ch'el primo che sia al campo<seg>venuto</seg></l>
+                <l n="193">lo destrero brocha, dy speron el fere;</l>
+                <l n="194">e fere el <ex rend="italic">con</ex>te d'Artos, del chavalo <seg>l'abate zos.</seg></l>
                 <l n="195">E d'Orliens Guinimer lo bon du<seg>cha</seg></l>
-                <l n="196">Tomaso lo pro e Baldovi<ex rend="italic">n</ex>o lo gue<seg>rero</seg>,</l>
+                <l n="196">Tomaso lo pro e Baldovi<ex rend="italic">n</ex>o lo gue<seg>rero,</seg></l>
                 <l n="197">(195) Morando et Sanson che no<ex rend="italic">n</ex>n-è p<seg>erduto</seg></l>
                 <l n="198">lor seguita a speron batudo;</l>
-                <l n="199">zascun de lor a ben le sono abatud<seg>e</seg>.</l>
-                <l n="200">May com lion quando forte e chaldo</l>
+                <l n="199">zascun de lor a ben le sono abatud<seg>e.</seg></l>
+                <l n="200">May com lion quando forte e cha<seg>ldo</seg></l>
                 <l n="201">sopra li animale menute,</l>
-                <l n="202">(200) tute ensemele steva li <ex rend="italic">con</ex>te e ly ducha.</l>
-                <l n="203">En pocho d'ora avè tuto lo campo vento</l>
-                <l n="204">e sopra tute li altre avè lo presio retenuto.</l>
-                <l n="205">Charlo Martelo lo vite, e∙l coro li fo movudo,</l>
-                <l n="206">un falso pensero enfra suo coro avè pensado:</l>
-                <l n="207">"Se questo vasalo logamente averà vento</l>
-                <l n="208">(205) et se Ugo lo vole, y sonto re de queste;</l>
-                <l n="209">ch'el no<ex rend="italic">n</ex> avè d'ora tal fina quỳ el bon Artuso. </l>
-                <l n="210"><milestone n="4R" unit="fol."/> Ma, per mia fede, no<ex rend="italic">n</ex> averoie in lo mio
-                    regno nula </l>
-                <l n="211">tanto posente soto mia ombra, né sì grande, né sỳ ardito</l>
-                <l n="212">che yo non (n)∙aza tuta la posanza tolta."</l>
+                <l n="202">(200) tute ensemele steva li <ex rend="italic">con</ex>te e l<seg>y ducha.</seg></l>
+                <l n="203">En pocho d'ora avè tuto lo c<seg>ampo vento</seg></l>
+                <l n="204">e sopra tute li altre avè lo <seg>presio retenuto.</seg></l>
+                <l n="205">Charlo Martelo lo vite, e∙l <seg>coro li fo movudo,</seg></l>
+                <l n="206">un falso pensero enfra suo cor<seg>o avè pensado:</seg></l>
+                <l n="207">"Se questo vasalo logament<seg>e averà vento</seg></l>
+                <l n="208">(205) et se Ugo lo vole, y sonto r<seg>e de queste;</seg></l>
+                <l n="209">ch'el no<ex rend="italic">n</ex> avè d'ora tal fin<seg>a quỳ el bon Artuso.</seg></l>
+                <l n="210"><milestone n="4R" unit="fol."/><seg>Ma, per mia fede, no<ex rend="italic">n</ex> averoie in lo mio
+                    regno nula</seg> </l>
+                <l n="211"><seg>tanto posente soto mia ombra, né sì grande, né sỳ ardito</seg></l>
+                <l n="212"><seg>che yo non (n)·aza tuta la posanza tolta."</seg></l>
             </lg>
             <lg type="laisse" n="9">
                 <head>Laisse 9</head>
-                <l n="213">(210) En quel zorno avè l'onore e lo presio</l>
-                <l n="214">de tuta zente Berardo lo pro <ex rend="italic">et</ex> l'ardito;</l>
-                <l n="215">e l'altro zorno apresso, e∙l terzo così è.</l>
-                <l n="216">May lo quarto zorno lo re, volontaroso</l>
-                <l n="217">che el grande honore che avea Berardo aquistado</l>
-                <l n="218">(215) abatù fose e del tuto cazeto,</l>
-                <l n="219">armé è de arme tute y<ex rend="italic">n</ex>segnà a fior de lise,</l>
-                <l n="220">entra y<ex rend="italic">n</ex> campo. <ex rend="italic">Et</ex> luy et el marchese</l>
-                <l n="221">(zò fo Ugo<ex rend="italic">n</ex>, che no<ex rend="italic">n</ex> l'averave ponto elziso);</l>
-                <l n="222">com luy cento di altre che l'avea alety.</l>
-                <l n="223">(220) Lo re fere sopra lo <ex rend="italic">con</ex>te Baldovino,</l>
-                <l n="224">che luy l'abate del bon caval corente;</l>
-                <l n="225">e possa apreso Tomaso lo segnorile</l>
-                <l n="226">avante che lo re sofrischa a retenirse</l>
-                <l n="227">n'avè abatù de lor ben vintesey.</l>
-                <l n="228">(225) May lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> no<ex rend="italic">n</ex> fo ponto atento</l>
-                <l n="229">a zostrare ferame<ex rend="italic">n</ex>te verso soy bony amize,</l>
-                <l n="230">fora solamente quando el vole dal re lo presio.</l>
-                <l n="231">Lo re reguardò e vite Berardo l'ardito:</l>
-                <l n="232">en<ex rend="italic">con</ex>tra li vene e Berardo no lo refuda,</l>
-                <l n="233">(230) anze se fereno de coro e de fede</l>
-                <l n="234">che trambe se s'abate per desopra el terene.</l>
-                <l n="235">Ugo<ex rend="italic">n</ex> desende del bon chavalo chorente,</l>
-                <l n="236">a lo re l'aida <ex rend="italic">et</ex> quelo era susa salito;</l>
-                <l n="237">e suo cosin Avergnose el l'avè represo:</l>
-                <l n="238">(235) "Vero," dize Berardo, "sia quelo che vole Yh<ex rend="italic">es</ex>u Criste:</l>
-                <l n="239">yo puro defenderazo l'onore del mio paiese."</l>
-                <l n="240">Lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> molto ne fo y<ex rend="italic">n</ex>namorato</l>
-                <l n="241">e suo cosỳ el feze remontare cosìe.</l>
-                <l n="242">Ma li <ex rend="italic">com</ex>pagny de lo re dy franzese </l>
-                <l n="243">(240)<milestone n="4V" unit="fol."/> fono a quelo ponto sì feramente
-                    corezate </l>
-                <l n="244">che al remore sone li Avergnase mise, </l>
-                <l n="245">no<ex rend="italic">n</ex> fo lỳ lo <ex rend="italic">con</ex>te né Berardo l'ardito </l>
-                <l n="246">che ly sofrise <ex rend="italic">con</ex> lor chiaro brando forbito.</l>
-                <l n="247">Charlo ne zurò per li ochi del suo viso</l>
-                <l n="248">(245) ch'el vole aprovare Ugo<ex rend="italic">n</ex> lo segnorile:</l>
-                <l n="249"><milestone n="5R" unit="fol."/> "Ben sazo p<ex rend="italic">er</ex> vero, tanto com fose
-                    vivo,</l>
-                <l n="250">de quele insegne che portono le lor antyche</l>
-                <l n="251">zà lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> no<ex rend="italic">n</ex> l'averia asaltado."</l>
-                <l n="252">Perzò da la bataia amantenente se parte</l>
-                <l n="253">(250) et si entra soto uno archo voltado, </l>
-                <l n="254">et una y<ex rend="italic">n</ex>segna se veste che fo d'un color biso,</l>
-                <l n="255">e depenta era ad anzoli volante</l>
-                <l n="256">tute metù d'arzento ch'el parea ch'el sol schiarise.</l>
-                <l n="257">Lo re lo prende, en suo doso l'à mese;</l>
-                <l n="258">(255) a tal partỳ e tal sembiante fo coperto el destrero,</l>
-                <l n="259">tuto simelmente era coperto lo scundo.</l>
-                <l n="260">Al tornire tornò, che nula termene no<ex rend="italic">n</ex> mise.</l>
+                <l n="213">(210) <seg>En quel zorno avè l'onore e lo presio</seg></l>
+                <l n="214"><seg>de tuta zente Berardo lo pro <ex rend="italic">et</ex> l'ardito;</seg></l>
+                <l n="215"><seg>e l'altro zorno apresso, e·l terzo così è.</seg></l>
+                <l n="216"><seg>May lo quarto zorno lo re, volontaroso</seg></l>
+                <l n="217"><seg>che el grande honore che avea Berardo aquistado</seg></l>
+                <l n="218">(215) <seg>abatù fose e del tuto ca</seg>zeto,</l>
+                <l n="219"><seg>armé è de arme tute y<ex rend="italic">n</ex></seg>segnà a fior de lise,</l>
+                <l n="220"><seg>entra y<ex rend="italic">n</ex> campo. <ex rend="italic">Et</ex> l</seg>uy et el marchese</l>
+                <l n="221"><seg>(zò fo Ugo<ex rend="italic">n</ex>, che no<ex rend="italic">n</ex> l</seg>'averave ponto elziso);</l>
+                <l n="222"><seg>com luy cento di al</seg>tre che l'avea alety.</l>
+                <l n="223">(220) <seg>Lo re fere sopra</seg> lo <ex rend="italic">con</ex>te Baldovino,</l>
+                <l n="224"><seg>che luy l'abate de</seg>l bon caval corente;</l>
+                <l n="225"><seg>e possa apreso Tom</seg>aso lo segnorile</l>
+                <l n="226"><seg>avante che lo re</seg> sofrischa a retenirse</l>
+                <l n="227"><seg>n'avè abatù de lo</seg>r ben vintesey.</l>
+                <l n="228">(225) <seg>May lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> n</seg>o<ex rend="italic">n</ex> fo ponto atento</l>
+                <l n="229"><seg>a zostrare ferame<ex rend="italic">n</ex>t</seg>e verso soy bony amize,</l>
+                <l n="230"><seg>fora solamente qu</seg>ando el vole dal re lo presio.</l>
+                <l n="231"><seg>Lo re reguardò e</seg> vite Berardo l'ardito:</l>
+                <l n="232"><seg>en<ex rend="italic">con</ex>tra li vene e</seg> Berardo no lo refuda,</l>
+                <l n="233">(230) <seg>anze se fereno</seg> de coro e de fede</l>
+                <l n="234"><seg>che trambe se s'ab</seg>ate per desopra el terene.</l>
+                <l n="235"><seg>Ugo<ex rend="italic">n</ex> desende del</seg> bon chavalo chorente,</l>
+                <l n="236"><seg>a lo re l'aida <ex rend="italic">et</ex> que</seg>lo era susa salito;</l>
+                <l n="237"><seg>e suo cosin Avergn</seg>ose el l'avè represo:</l>
+                <l n="238">(235)<seg>"Vero," dize Berardo, "s</seg>ia quelo che vole Yh<ex rend="italic">es</ex>u Criste:</l>
+                <l n="239"><seg>yo puro defendera</seg>zo l'onore del mio paiese."</l>
+                <l n="240"><seg>Lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> molto n</seg>e fo y<ex rend="italic">n</ex>namorato</l>
+                <l n="241"><seg>e suo cosỳ el feze rem</seg>ontare cosìe.</l>
+                <l n="242"><seg>Ma li <ex rend="italic">com</ex>pagny de lo re d</seg>y franzese </l>
+                <l n="243">(240)<milestone n="4V" unit="fol."/><seg>fono a quelo ponto sì feramente
+                    corezate</seg></l>
+                <l n="244"><seg>che al remore sone li Avergnase mise,</seg></l>
+                <l n="245"><seg>no<ex rend="italic">n</ex> fo lỳ lo <ex rend="italic">con</ex>te né Berardo l'ardito</seg></l>
+                <l n="246"><seg>che ly sofrise <ex rend="italic">con</ex> lor chiaro brando forbito.</seg></l>
+                <l n="247">Charlo ne zurò per li <seg>ochi del suo viso</seg></l>
+                <l n="248">(245) ch'el vole aprovare <seg>Ugo<ex rend="italic">n</ex> lo segnorile:</seg></l>
+                <l n="249"><milestone n="5R" unit="fol."/> <seg>"Ben sazo p<ex rend="italic">er</ex> vero, tanto com fose
+                    vivo,</seg></l>
+                <l n="250"><seg>de quele insegne che portono le lor antyche</seg></l>
+                <l n="251"><seg>zà lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> no<ex rend="italic">n</ex> l'averia asaltado."</seg></l>
+                <l n="252"><seg>Perzò da la bataia amantenente se parte</seg></l>
+                <l n="253">(250)<seg>et si entra soto uno archo voltado,</seg></l>
+                <l n="254"><seg>et una y<ex rend="italic">n</ex>segna se veste che fo d'un color biso,</seg></l>
+                <l n="255"><seg>e depenta era ad anzoli volante</seg></l>
+                <l n="256"><seg>tute metù d'arzento c</seg>h'el parea ch'el sol <seg>schiarise.</seg></l>
+                <l n="257"><seg>Lo re lo prende, en s</seg>uo doso l'à mese;</l>
+                <l n="258">(255) <seg>a tal partỳ e tal se</seg>mbiante fo coperto el destrer<seg>o,</seg></l>
+                <l n="259"><seg>tuto simelmente</seg> era coperto lo scundo.</l>
+                <l n="260"><seg>Al tornire tornò, ch</seg>e nula termene no<ex rend="italic">n</ex> mise.</l>
             </lg>
             <lg type="laisse" n="10">
                 <head>Laisse 10</head>
-                <l n="261"> Al tornire tornò el gra<ex rend="italic">n</ex> cesaro, </l>
-                <l n="262">che ahoro avea lo <ex rend="italic">con</ex>seio d'aversario.</l>
-                <l n="263">Perzò che Ugo<ex rend="italic">n</ex> lo zentil cavalero</l>
-                <l n="264">(260) tene alora la parte de quily de soie aitante,</l>
-                <l n="265">Charlo se lasa andare verso luy com a <ex rend="italic">con</ex>trario</l>
-                <l n="266">e fere Ugo<ex rend="italic">n</ex> desopra el scudo devisato,</l>
-                <l n="267">e del brando com mortal enemigo lo fere.</l>
-                <l n="268">(265) Ugo<ex rend="italic">n</ex> fere luy, che zà no∙l conose ponto,</l>
-                <l n="269">che del chavalo l'abate stesso y<ex rend="italic">n</ex> tera.</l>
-                <l n="270">Al chazere ch'el fize el grande y<ex rend="italic">m</ex>peradore</l>
-                <l n="271">li chascò l'elmo de grande afare;</l>
-                <l n="272">Ugo<ex rend="italic">n</ex> lo chonose e dize: "Ay, laso my, pechadore,</l>
-                <l n="273">(270) quando al mio signore azo fato tanto oltrazo!"</l>
-                <l n="274">Alora desende del bon chaval corente,</l>
-                <l n="275">la spada el prende per la ponta senza folia,</l>
-                <l n="276">e dize a l'emperio: "Prendite signor cesaro,</l>
-                <l n="277">prendite, signore, dal traditore de mal corazo</l>
-                <l n="278">(275) chi à mesa soa man donda el no<ex rend="italic">n</ex> dè fare!"</l>
-                <l n="279">L'emperio li feze bel visso e chiaro,</l>
-                <l n="280">"Ugo<ex rend="italic">n</ex>," dize, "Non dotate signor francho,</l>
-                <l n="281">yo sonto coluy chi à fato el gra<ex rend="italic">n</ex> fato:</l>
-                <l n="282">el m'è aviso, se trason no<ex rend="italic">n</ex> deschaze,</l>
-                <l n="283">(280) che fa oltraza doveria adrito esere hoponito."</l>
-                <l n="284"><milestone n="5V" unit="fol."/> Laisse 11 "Hugo<ex rend="italic">n</ex>, dolze amicho, no<ex rend="italic">n</ex>
-                    siate y<ex rend="italic">n</ex> dotanza:</l>
-                <l n="285">zoiosso ne sonte che yo azo sentito vostra posanza.</l>
-                <l n="286">Ben sazo che non è y<ex rend="italic">n</ex> questo mondo mior lanza</l>
-                <l n="287">com è la vostra; ora azo en vuy più fidanza;</l>
-                <l n="288">(285) zà perzò no<ex rend="italic">n</ex> perderite mia amistanza.</l>
-                <l n="289">A questo ponto romase el gran tornire:</l>
-                <l n="290">andiamo nuy a vostra abitanzia,</l>
-                <l n="291">là saremo nuy en zoia et y<ex rend="italic">n</ex> pazienzia."</l>
-                <l n="292">"Volontera," dize Ugon, "senza nula tardanza."</l>
-                <l n="293">(290) Da parte del re fo fato el coma<ex rend="italic">n</ex>damento</l>
-                <l n="294">che del tornire romagna oramay la dansa:</l>
-                <l n="295">queste lo fezeno senza demoranza.</l>
-                <l n="296">Apreso Ugo<ex rend="italic">n</ex> tornò lo re de Franza</l>
-                <l n="297">al gra<ex rend="italic">n</ex> palazo, y<ex rend="italic">n</ex> quel locho fezeno demoranza;</l>
-                <l n="298">(295) com luy la gra<ex rend="italic">n</ex> zente de posanza.</l>
+                <l n="261"><seg>Al tornire torn</seg>ò el gra<ex rend="italic">n</ex> cesaro, </l>
+                <l n="262"><seg>che ahoro ave</seg>a lo <ex rend="italic">con</ex>seio d'aversario.</l>
+                <l n="263"><seg>Perzò che Ugo<ex rend="italic">n</ex> lo</seg> zentil cavalero</l>
+                <l n="264">(260) <seg>tene alora la pa</seg>rte de quily de soie aitante,</l>
+                <l n="265"><seg>Charlo se lasa and</seg>are verso luy com a <ex rend="italic">con</ex>trario</l>
+                <l n="266"><seg>e fere Ugo<ex rend="italic">n</ex> desopra</seg> el scudo devisato,</l>
+                <l n="267"><seg>e del brando com</seg> mortal enemigo lo fere.</l>
+                <l n="268">(265) <seg>Ugo<ex rend="italic">n</ex> fere luy, ch</seg>e zà no∙l conose ponto,</l>
+                <l n="269"><seg>che del chavalo l'</seg>abate stesso y<ex rend="italic">n</ex> tera.</l>
+                <l n="270"><seg>Al chazere ch'el fize</seg> el grande y<ex rend="italic">m</ex>peradore</l>
+                <l n="271"><seg>li chascò l'elmo d</seg>e grande afare;</l>
+                <l n="272"><seg>Ugo<ex rend="italic">n</ex> lo chonose e di</seg>ze: "Ay, laso my, pechadore,</l>
+                <l n="273">(270) <seg>quando al mio</seg> signore azo fato tanto oltrazo!"</l>
+                <l n="274"><seg>Alora desende d</seg>el bon chaval corente,</l>
+                <l n="275"><seg>la spada el prende</seg> per la ponta senza folia,</l>
+                <l n="276"><seg>e dize a l'emperio:</seg> "Prendite signor cesaro,</l>
+                <l n="277"><seg>prendite, signore, da</seg>l traditore de mal corazo</l>
+                <l n="278">(275) <seg>chi à mesa soa ma</seg>n donda el no<ex rend="italic">n</ex> dè fare!"</l>
+                <l n="279"><seg>L'emperio li feze bel</seg> visso e chiaro,</l>
+                <l n="280"><seg>"Ugo<ex rend="italic">n</ex>," dize, "Non dotate</seg> signor francho,</l>
+                <l n="281"><seg>yo sonto coluy chi</seg> à fato <seg>el gra<ex rend="italic">n</ex> fato:</seg></l>
+                <l n="282"><seg>el m'è aviso, se tras</seg>on no<ex rend="italic">n</ex> deschaze,</l>
+                <l n="283">(280) <seg>che fa oltraza dove</seg>ria adrito esere hoponito."</l>
+            </lg>
+            <lg type="laisse" n="11">
+                <head>Laisse 11</head>
+                <l n="284"><milestone n="5V" unit="fol."/><seg>"Hugo<ex rend="italic">n</ex>, dolze amicho, no<ex rend="italic">n</ex>
+                    siate y<ex rend="italic">n</ex> dotanza:</seg></l>
+                <l n="285"><seg>zoiosso ne sonte che yo azo sentito vostra posanza.</seg></l>
+                <l n="286"><seg>Ben sazo che non è y<ex rend="italic">n</ex> questo mondo mior lanza</seg></l>
+                <l n="287"><seg>com è la vostra; ora azo en vuy più fidanza;</seg></l>
+                <l n="288">(285) <seg>zà perzò no<ex rend="italic">n</ex> perderite mia amistanza.</seg></l>
+                <l n="289"><seg>A questo ponto romase el gran tornire:</seg></l>
+                <l n="290"><seg>andiamo nuy a vostra abitanzia,</seg></l>
+                <l n="291"><seg>là saremo nuy en zoia et y<ex rend="italic">n</ex> pazienzia."</seg></l>
+                <l n="292"><seg>"Volontera," dize Ugon, "senza nula tardanza."</seg></l>
+                <l n="293">(290) <seg>Da parte del re fo</seg> fato e<seg>l coma<ex rend="italic">n</ex>damento</seg></l>
+                <l n="294"><seg>che del torni</seg>re romagna ora<seg>may la dansa:</seg></l>
+                <l n="295"><seg>ques</seg>te lo fezeno senza demora<seg>nza.</seg></l>
+                <l n="296"><seg>Apre</seg>so Ugo<ex rend="italic">n</ex> tornò lo re de Fra<seg>nza</seg></l>
+                <l n="297">al gra<ex rend="italic">n</ex> palazo, y<ex rend="italic">n</ex> quel locho feze<seg>no demoranza;</seg></l>
+                <l n="298">(295) com luy la gra<ex rend="italic">n</ex> zente de posanz<seg>a.</seg></l>
                 <l n="299">Torna lo re en pey et y<ex rend="italic">n</ex> sienzia;</l>
-                <l n="300">in quel zorno donò molte destrere de posanza</l>
+                <l n="300">in quel zorno donò molte destrer<seg>e de posanza</seg></l>
                 <l n="301">e vary grisy e molte altre manze</l>
-                <l n="302">a soy baron, sealonga lor <ex rend="italic">con</ex>tenanze,</l>
-                <l n="303">(300) e fano lor honore et apreso reverenzia.</l>
-                <l n="304">Laisse 12 Quando avè el re a zascun fato donare</l>
-                <l n="305">del suo arzento e chavaly e destrere</l>
-                <l n="306">falcon e mule et astore e sparavere,</l>
-                <l n="307">lo'mperadore comandò a ly .XII. re che tornasene</l>
-                <l n="308">en suo paiese onda lor solevano abitare;</l>
-                <l n="309">(305) et aparechià sono d'arme et destrere</l>
-                <l n="310">cosỳ tosto co<ex rend="italic">m</ex> lor oldeno el suo coma<ex rend="italic">n</ex>dame<ex rend="italic">n</ex>to,</l>
-                <l n="311">che lor no<ex rend="italic">n</ex>n-ano più termene che a chaval mo<ex rend="italic">n</ex>tare,</l>
-                <l n="312">queste se'n tornono de grazia e volontera.</l>
-                <l n="313">Lo'mperadore retene el <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> li bero,</l>
-                <l n="314">(310) el <ex rend="italic">con</ex>te d'Artose, el vasal Ruzero,</l>
-                <l n="315">e da Luzenborgo done Ey<ex rend="italic">n</ex>merigo,</l>
-                <l n="316"><milestone n="6R" unit="fol."/> e molte di altre che yo no<ex rend="italic">n</ex> sazo
-                    anomare.</l>
-                <l n="317">Lo re prende Ugo<ex rend="italic">n</ex> per la mane,</l>
-                <l n="318">che avea lo presio abuto del gra<ex rend="italic">n</ex> tornire,</l>
-                <l n="319">(315) donda ne parlava franzose e lor moiere.</l>
-                <l n="320">Charlo lo mena onda è le altre done</l>
-                <l n="321">a vedere la raina che tanto avea el viso chiaro</l>
-                <l n="322">che tene la corte de done cosỳ piena.</l>
-                <l n="323">Encontra sono levate quando àno vedu lo'mperio;</l>
-                <l n="324">(320) el suo saluto presto li responde y<ex rend="italic">n</ex>dreto,</l>
-                <l n="325">e possa (a)presso la raina presse a domandare: </l>
-                <l n="326">"Signore," diz ela, "una grazia ve domando: </l>
-                <l n="327">che doman dovemo la festa celybrare</l>
-                <l n="328">de Santo Donise chi è nostro avochato;</l>
-                <l n="329">(325) molta granda gente lì sono per andare.</l>
-                <l n="330">Ora vuy, mio dolze signore, pregare</l>
-                <l n="331">che da vostra parte vuy fate cridare</l>
-                <l n="332">che apresso lo zorno de la festa pasare</l>
-                <l n="333">non sia sỳ ardỳ pedon ne chavalero</l>
-                <l n="334">(330) che y<ex rend="italic">n</ex> lo chamy<ex rend="italic">n</ex> del santo se lase atrovare.</l>
-                <l n="335">S'el serà pedon lo pè li averà lasato,</l>
-                <l n="336">e s'el serà zentil lo chapo li averà a lasare,</l>
-                <l n="337">perzò che volemo, signore, doman festare</l>
-                <l n="338">et a la dona et a Ugon dar disnare,</l>
-                <l n="339">(335) e possa a la festa volemo, signor, andar a guardare</l>
-                <l n="340">che da nesun homo no<ex rend="italic">n</ex> abiamo nula y<ex rend="italic">m</ex>pazo."</l>
-                <l n="341">Lo re l'entende, sì n'avè un riso zetado:</l>
-                <l n="342">"Che dite vuy, sire Ugo<ex rend="italic">n</ex>, bel fradello?"</l>
-                <l n="343">"Per mia fede, signore, el è da fare."</l>
-                <l n="344">(340) Responde Charlo: "Per la fede che yo do a San Pero,</l>
-                <l n="345">possa che vuy volite, mal aza che∙l vole vedare."</l>
-                <l n="346">Laisse 13 Lo re entrò y<ex rend="italic">n</ex> lo domo tuto aquetamente.</l>
-                <l n="347">Lo zorno del Santo Donise zascun andoe</l>
-                <l n="348"><milestone n="6V" unit="fol."/> e Charlo e li altre cavalere
-                    simelmente</l>
-                <l n="349">(345) a vedere la festa, e possa se'n tornarane.</l>
-                <l n="350">Lo zorno secondo, se lo libro no<ex rend="italic">n</ex> mente,</l>
-                <l n="351">lỳ siè andà la raina dal coro zentile;</l>
-                <l n="352">com ley Ynida la bela dal cor piazente,</l>
-                <l n="353">e molte de le altre, lo nome no<ex rend="italic">n</ex> ve dirazo.</l>
-                <l n="354">(350) Vestite fono tute a una guisa tute simelme<ex rend="italic">n</ex>te,</l>
-                <l n="355">d'una chiara saia de grana che resplende.</l>
-                <l n="356">A dove a dove le done s'a<ex rend="italic">com</ex>pagnane;</l>
-                <l n="357">e pur davante andava donzele che chantane;</l>
-                <l n="358">altre sonava viole che com lo chanto s'acordano</l>
-                <l n="359">(355) tanto noble et graziosamente</l>
-                <l n="360">che lor canto resomilia d'anzoli che da zel desendà.</l>
-                <l n="361">Laisse 14 Cosỳ se'n vano le done et le meschine </l>
-                <l n="362">a vedere la festa onda va la zente pelegrina.</l>
-                <l n="363">Mé en prima avante vene la raina; </l>
-                <l n="364">(360) Ynida fo dedreto che apreso ley chamina,</l>
-                <l n="365">che era vestita de la saia rosina;</l>
-                <l n="366">ly chapily biondesopra so spale s'enclina,</l>
-                <l n="367">un cerchelo al chapo che d'oro val gra<ex rend="italic">n</ex> qua<ex rend="italic">n</ex>titade, </l>
-                <l n="368">et avea una colana al colo chy valea gra<ex rend="italic">n</ex> tesoro;</l>
-                <l n="369">(365) le mamele ponzente sopra la petorina,</l>
-                <l n="370">bocha pizola, dentadura avea menuta;</l>
-                <l n="371">hochy vary e grosy enridando de tal <ex rend="italic">con</ex>venente</l>
-                <l n="372">com de falcon quando el prende salvadesina.</l>
-                <l n="373">Non n'ave homo tanto male a le sove fine</l>
-                <l n="374">(370) che pur veder podese la dama paladina</l>
-                <l n="375">che ello no<ex rend="italic">n</ex> fose <ex rend="italic">con</ex>tento de no<ex rend="italic">n</ex> avere altra medezina.</l>
-                <l n="376">Laisse 15 De gran beleza fo Ynida revestita,</l>
-                <l n="377">che tute li altre parevano a ley noniente.</l>
-                <l n="378">Lasemo de ley, s'el v'è y<ex rend="italic">n</ex> piazere,</l>
-                <l n="379">(375)<milestone n="7R" unit="fol."/> e diremo del re Carlo chi fo y<ex rend="italic">n</ex>
-                    camara venuto.</l>
-                <l n="380">Dormire volea; quando li fo e∙l sono,(el) sorpresse </l>
-                <l n="381">una desgrazia che mal el l'avè veduta:</l>
-                <l n="382">che un befon che Sandin avea nome</l>
-                <l n="383">entra en chamara senza nula tardanza;</l>
-                <l n="384">(380) lo y<ex rend="italic">m</ex>peradore trova sopra la cotra a or tesuta.</l>
-                <l n="385">Sandỳ vene cantando; vene apresso, lo saluta:</l>
-                <l n="386">"Che fay, segnor lo re? Levate susa senza restanza;</l>
-                <l n="387">la zente ora dorme: chavalchemo per le strade!</l>
-                <l n="388">Vedray, stranie zascun ora se renova;</l>
-                <l n="389">(385) andiemo a vedere le done che sono venute </l>
-                <l n="390">a tova corte: più e più stano come mute,</l>
-                <l n="391">che lor beleza a vuy era aculta, pare a me."</l>
-                <l n="392">"Vero," dize lo re, "se Dio me dia vita</l>
-                <l n="393">yo puro virazo, a<ex rend="italic">n</ex>che che sia folia tenuta."</l>
-                <l n="394">(390) Laisse 16 Lo'mperadore se muda de pany che avè molte zorne,</l>
-                <l n="395">era revestito de più fresche colore;</l>
-                <l n="396">li altre drapy dona a Sandy<ex rend="italic">n</ex> lo zugolaro,</l>
-                <l n="397">e sono montà a chavalo tramby duy.</l>
-                <l n="398">Non tenea via né sentere ancora;</l>
-                <l n="399">(395) per una via vano tosto, senza demora,</l>
-                <l n="400">che chaminà sono el trare d'un archo</l>
-                <l n="401">apreso Santo Donise onda Franzose faseano orazione;</l>
-                <l n="402">zà era la raina en la giesia mazore.</l>
-                <l n="403">Lo re desende a l'ombra d'un narboro</l>
-                <l n="404">(400) per asconderse da gra<ex rend="italic">n</ex>dy et a menore;</l>
-                <l n="405">e la soa bereta se tira sopra li oche</l>
-                <l n="406">e sembiante el fazea ch'el dormise y<ex rend="italic">n</ex> quell'ora.</l>
-                <l n="407">Quando tene lo man sopra la spala al zugolaro</l>
-                <l n="408">li oche tene chiose, ma bene vedea tutora,</l>
-                <l n="409">(405) e guardava qual avea più beleza,</l>
-                <l n="410">atanto ch'el vite Ynida dal fresco colore</l>
-                <l n="411">che y<ex rend="italic">n</ex> soa man portava una rosa e fiore.</l>
-                <l n="412">Sovente l'anasa, molto li abelise li odore.</l>
-                <l n="413">Ma Sandin dise a lo'mperadore:</l>
-                <l n="414">(410)<milestone n="7V" unit="fol."/> "Vedite, vedite la più altera!"</l>
-                <l n="415">Charlo lỳ vene, verso ley vene senza demora</l>
-                <l n="416">saludò ley dizendo: "Quel magno redentore</l>
-                <l n="417">si salve tal dona, e ben credo de vero</l>
-                <l n="418">quando vuy formò el nostro Criatore</l>
-                <l n="419">(415) ch'el n'avè a fare nula altro lavoro;</l>
-                <l n="420"><milestone n="8R" unit="fol."/> may dona chy sey vestita de tanta
-                    beleza.</l>
-                <l n="421">Vui site y<ex rend="italic">n</ex>grata se d'amore no<ex rend="italic">n</ex> sentite:</l>
-                <l n="422">ora ve requero per lo vostro honore</l>
-                <l n="423">che quel fiore me∙l donate, che yo lo portarazo;</l>
-                <l n="424">(420) io la guardarò sol p<ex rend="italic">er</ex> vostro amore</l>
-                <l n="425">per tal covinente com vuy olderite desopra:</l>
-                <l n="426">che y serazo vostro lialle s<ex rend="italic">er</ex>vedore."</l>
-                <l n="427">Laisse 17Quando la parola la duchesa oldete, </l>
-                <l n="428">ben sape y<ex rend="italic">n</ex> quel locho la parola atende;</l>
-                <l n="429">(425) ben lo conose mé nula sembiante no<ex rend="italic">n</ex> feze.</l>
-                <l n="430">Como quela ch'avea lo coro ben guarnyto,</l>
-                <l n="431">de gra<ex rend="italic">n</ex> sapere cortesmente li responde:</l>
-                <l n="432">"Mes<ex rend="italic">er</ex> lo cavalero, mile grazie e merzede;</l>
-                <l n="433">de questo che vuy dite sỳ ve prego y<ex rend="italic">n</ex> caritade</l>
-                <l n="434">(430) ch'el vostro amore no<ex rend="italic">n</ex> sia y<ex rend="italic">n</ex> tal locho metuto</l>
-                <l n="435">onda vuy posite atendre lo merito.</l>
-                <l n="436">L'omo chy s<ex rend="italic">er</ex>ve non è miga agradito</l>
-                <l n="437">a my siè avisso suo amore siè falito.</l>
-                <l n="438">Amate tal dona, bel sire, yo v'e<ex rend="italic">n</ex> prego,</l>
-                <l n="439">(435) che vuy retegna per suo lial amicho.</l>
-                <l n="440">De vuy amare, ny altre ansỳ <ex rend="italic">...</ex></l>
-                <l n="441">afora che Domenedé ordenà ancor stabelỳ:</l>
-                <l n="442">zò siè lo <ex rend="italic">con</ex>te d'Alvergna lo segnorile</l>
-                <l n="443">che a matrimonio andiamo nuy y<ex rend="italic">n</ex> covine<ex rend="italic">n</ex>te.</l>
-                <l n="444">(440) La fior che y azo, sì ve dicho ben de fede,</l>
-                <l n="445">guardarò ben tanto com el mio coro è vivente,</l>
-                <l n="446">e sỳ lo rendrò al conte mio marito</l>
-                <l n="447">quando lỳ torniray che da luy me pa<ex rend="italic">r</ex>tyte."</l>
-                <l n="448">Laisse 18 Charlon l'entende, che feze cera smarita. </l>
-                <l n="449">(445) "Dona," dize ello, "no<ex rend="italic">n</ex> tenite miga a vilania;</l>
-                <l n="450">che a mal y<ex rend="italic">n</ex>tende yo no<ex rend="italic">n</ex> ve∙l chero miga.</l>
-                <l n="451">Mé amor vole che yo aza la segnoria</l>
-                <l n="452">sopra duy amante comunable balia;</l>
-                <l n="453"><milestone n="8V" unit="fol."/> quando lo s<ex rend="italic">er</ex>ve de bon cor senza
-                    folia</l>
-                <l n="454">(450) suo s<ex rend="italic">er</ex>visio quere che l'ovra li sia merità.</l>
-                <l n="455">Se a my donate la roxa encholorita </l>
-                <l n="456">zoiosso ne serò en tute y<ex rend="italic">n</ex> tempe de mia vita,</l>
-                <l n="457">e vuy medesme en serite più zolia.</l>
-                <l n="458">Dona, chre d'amore alquanto asentire </l>
-                <l n="459">(455) non vale zà ponto la moneta d'una lia.</l>
-                <l n="460">Li amorose done chy sono avisate</l>
-                <l n="461">si vano tropo melio avante più polite."</l>
-                <l n="462">"Sere," dize Ynida, "se Dio me benedicha</l>
-                <l n="463">coluy siè falso che so amor ne piga</l>
-                <l n="464">(460) desopra coluy che luy no<ex rend="italic">n</ex> ama miga.</l>
-                <l n="465">Lasateme stare, per vostra cortesia,</l>
-                <l n="466">e se ve tornate, bel signor, a la vostra via."</l>
-                <l n="467">"Dona," dize ello, "nuy ve faremo compagnia." </l>
-                <l n="468">Dize la duchesa: "Più tazere no<ex rend="italic">n</ex> posso miga:</l>
-                <l n="469">(465) quando lo re de Franza core a la stoltie,</l>
+                <l n="302">a soy baron, sealonga lor <ex rend="italic">con</ex>tenan<seg>ze,</seg></l>
+                <l n="303">(300) e fano lor honore et apreso re<seg>verenzia.</seg></l>
+            </lg>
+            <lg type="laisse" n="12">
+                <head>Laisse 12</head>
+                <l n="304">Quando avè el re a zascun <seg>fato donare</seg></l>
+                <l n="305">del suo arzento e chavaly e d<seg>estrere</seg></l>
+                <l n="306">falcon e mule et astore e spara<seg>vere,</seg></l>
+                <l n="307">lo'mperadore comandò a ly .<num>XII</num>. r<seg>e che tornasene</seg></l>
+                <l n="308">en suo paiese onda lor solevano a<seg>bitare;</seg></l>
+                <l n="309">(305) et aparechià sono d'arme et destr<seg>ere</seg></l>
+                <l n="310">cosỳ tosto co<ex rend="italic">m</ex> lor oldeno el suo co<seg>ma<ex rend="italic">n</ex>dame<ex rend="italic">n</ex>to,</seg></l>
+                <l n="311">che lor no<ex rend="italic">n</ex>n-ano più termene <seg>che a chaval mo<ex rend="italic">n</ex>tare,</seg></l>
+                <l n="312">queste se'n tornono de grazia <seg>e volontera.</seg></l>
+                <l n="313">Lo'mperadore retene el <ex rend="italic">con</ex>te <seg>Ugo<ex rend="italic">n</ex> li bero,</seg></l>
+                <l n="314">(310) el <ex rend="italic">con</ex>te d'Artose, el vasal Ruze<seg>ro,</seg></l>
+                <l n="315">e da Luzenborgo done Ey<ex rend="italic">n</ex>m<seg>erigo</seg>,</l>
+                <l n="316"><milestone n="6R" unit="fol."/><seg>e molte di altre che yo no<ex rend="italic">n</ex> sazo
+                    anomare.</seg></l>
+                <l n="317"><seg>Lo re prende Ugo<ex rend="italic">n</ex> per la mane,</seg></l>
+                <l n="318"><seg>che avea lo presio abuto del gra<ex rend="italic">n</ex> tornire,</seg></l>
+                <l n="319">(315) <seg>donda ne parlava franzose e lor moiere.</seg></l>
+                <l n="320"><seg>Charlo lo mena onda è le altre done</seg></l>
+                <l n="321"><seg>a vedere la raina che tanto avea el viso chiaro</seg></l>
+                <l n="322"><seg>che tene la corte de done cosỳ piena.</seg></l>
+                <l n="323"><seg>Encontra sono levate</seg> quando àno ve<seg>du lo'mperio;</seg></l>
+                <l n="324">(320)<seg>el suo saluto prest</seg>o li responde y<ex rend="italic">n</ex>dreto,</l>
+                <l n="325"><seg>e possa (a)presso la ra</seg>ina presse a domandare: </l>
+                <l n="326"><seg>"Signore," diz ela, "un</seg>a grazia ve domando: </l>
+                <l n="327"><seg>che doman dovem</seg>o la festa celybrare</l>
+                <l n="328"><seg>de Santo Donise</seg> chi è nostro avochato;</l>
+                <l n="329">(325) <seg>molta granda ge</seg>nte lì sono per andare.</l>
+                <l n="330"><seg>Ora vuy, mio dolz</seg>e signore, pregare</l>
+                <l n="331"><seg>che da vostra p</seg>arte vuy fate cridare</l>
+                <l n="332"><seg>che apresso lo zo</seg>rno de la festa pasare</l>
+                <l n="333"><seg>non sia sỳ ardỳ</seg> pedon ne chavalero</l>
+                <l n="334">(330) <seg>che y<ex rend="italic">n</ex> lo chamy<ex rend="italic">n</ex></seg> del santo se lase atrovare.</l>
+                <l n="335"><seg>S'el serà pedon lo p</seg>è li averà lasato,</l>
+                <l n="336"><seg>e s'el serà zentil l</seg>o chapo li averà a lasare,</l>
+                <l n="337"><seg>perzò che volemo,</seg> signore, doman festare</l>
+                <l n="338"><seg>et a la dona et a</seg> Ugon dar disnare,</l>
+                <l n="339">(335) <seg>e possa a la festa vol</seg>emo, signor, andar a guardare</l>
+                <l n="340"><seg>che da nesun hom</seg>o no<ex rend="italic">n</ex> abiamo nula y<ex rend="italic">m</ex>pazo."</l>
+                <l n="341"><seg>Lo re l'entende, sì n'a</seg>vè un riso zetado:</l>
+                <l n="342"><seg>"Che dite vuy, sire U</seg>go<ex rend="italic">n</ex>, bel fradello?"</l>
+                <l n="343"><seg>"Per mia fede, signo</seg>re, el è da fare."</l>
+                <l n="344">(340) <seg>Responde Charlo: "Pe</seg>r la fede che yo do a San Pero,</l>
+                <l n="345"><seg>possa che vuy volite,</seg> mal aza che∙l vole vedare."</l>
+            </lg>
+            <lg type="laisse" n="13">
+                <head>Laisse 13</head>
+                <l n="346"><seg>Lo re entrò y<ex rend="italic">n</ex> lo do</seg>mo tuto aquetamente.</l>
+                <l n="347"><seg>Lo zorno del Sant</seg>o Donise zascun andoe</l>
+                <l n="348"><milestone n="6V" unit="fol."/><seg>e Charlo e li altre cavalere
+                    simelmente</seg></l>
+                <l n="349">(345) <seg>a vedere la festa, e possa se'n tornarane.</seg></l>
+                <l n="350"><seg>Lo zorno secondo, se lo libro no<ex rend="italic">n</ex> mente,</seg></l>
+                <l n="351"><seg>lỳ siè andà la raina dal coro zentile;</seg></l>
+                <l n="352"><seg>com ley Ynida la bela dal cor piazente,</seg></l>
+                <l n="353"><seg>e molte de le altre, lo nome no<ex rend="italic">n</ex> ve dirazo.</seg></l>
+                <l n="354">(350) <seg>Vestite fono tute</seg> a una g<seg>uisa tute simelme<ex rend="italic">n</ex>te,</seg></l>
+                <l n="355"><seg>d'una chia</seg>ra saia de grana <seg>che resplende.</seg></l>
+                <l n="356"><seg>A dov</seg>e a dove le done s'a<ex rend="italic">com</ex>pagn<seg>ane;</seg></l>
+                <l n="357"><seg>e</seg> pur davante andava donze<seg>le che chantane;</seg></l>
+                <l n="358">altre sonava viole che com <seg>lo chanto s'acordano</seg></l>
+                <l n="359">(355) tanto noble et graziosamen<seg>te</seg></l>
+                <l n="360">che lor canto resomilia d'anzo<seg>li che da zel desendà.</seg></l>
+            </lg>
+            <lg type="laisse" n="14">
+                <head>Laisse 14</head>
+                <l n="361"><seg>C</seg>osỳ se'n vano le done et le <seg>meschine</seg></l>
+                <l n="362">a vedere la festa onda va la <seg>zente pelegrina.</seg></l>
+                <l n="363">Mé en prima avante vene la <seg>raina;</seg></l>
+                <l n="364">(360) Ynida fo dedreto che apreso <seg>ley chamina,</seg></l>
+                <l n="365">che era vestita de la saia ros<seg>ina;</seg></l>
+                <l n="366">ly chapily biondesopra so spal<seg>e s'enclina,</seg></l>
+                <l n="367">un cerchelo al chapo che d'oro <seg>val gra<ex rend="italic">n</ex> qua<ex rend="italic">n</ex>titade,</seg></l>
+                <l n="368">et avea una colana al colo ch<seg>y valea gra<ex rend="italic">n</ex> tesoro;</seg></l>
+                <l n="369">(365) le mamele ponzente sopra <seg>la petorina,</seg></l>
+                <l n="370">bocha pizola, dentadura ave<seg>a menuta;</seg></l>
+                <l n="371">hochy vary e grosy enridan<seg>do de tal <ex rend="italic">con</ex>venente</seg></l>
+                <l n="372">com de falcon quando <seg>el prende salvadesina.</seg></l>
+                <l n="373">Non n'ave homo tanto ma<seg>le a le sove fine</seg></l>
+                <l n="374">(370) che pur veder podese la d<seg>ama paladina</seg></l>
+                <l n="375">che ello no<ex rend="italic">n</ex> fose <ex rend="italic">con</ex>tento d<seg>e no<ex rend="italic">n</ex> avere altra medezina.</seg></l>
+            </lg>
+            <lg type="laisse" n="15">
+                <head>Laisse 15</head>
+                <l n="376">De gran beleza fo Ynida <seg>revestita,</seg></l>
+                <l n="377">che tute li altre pare<seg>vano a ley noniente.</seg></l>
+                <l n="378">Lasemo de ley, s'el v'è y<ex rend="italic">n</ex> pi<seg>azere,</seg></l>
+                <l n="379">(375)<milestone n="7R" unit="fol."/><seg>e diremo del re Carlo chi fo y<ex rend="italic">n</ex>
+                    camara venuto.</seg></l>
+                <l n="380"><seg>Dormire volea; quando li fo e∙l sono,(el) sorpresse</seg></l>
+                <l n="381"><seg>una desgrazia che mal el l'avè veduta:</seg></l>
+                <l n="382"><seg>che un befon che Sandin avea nome</seg></l>
+                <l n="383"><seg>entra en chamara senza nula tardanza;</seg></l>
+                <l n="384">(380) <seg>lo y<ex rend="italic">m</ex>peradore trova sopra la cotra a or tesuta.</seg></l>
+                <l n="385"><seg>Sandỳ vene cantando; vene apresso, lo saluta:</seg></l>
+                <l n="386"><seg>"Che fay, segnor lo re? Levate susa senza restanza;</seg></l>
+                <l n="387"><seg>la zente ora dorme:</seg> chavalchemo p<seg>er le strade!</seg></l>
+                <l n="388"><seg>Vedray, stranie za</seg>scun ora se renova;</l>
+                <l n="389">(385) <seg>andiemo a vede</seg>re le done che sono venu<seg>te</seg></l>
+                <l n="390"><seg>a tova corte: più</seg> e più stano come mute,</l>
+                <l n="391"><seg>che lor beleza a</seg> vuy era aculta, pare a me."</l>
+                <l n="392"><seg>"Vero," dize lo re,</seg> "se Dio me dia vita</l>
+                <l n="393"><seg>yo puro virazo,</seg> a<ex rend="italic">n</ex>che che sia folia tenuta."</l>
+            </lg>
+            <lg type="laisse" n="16">
+                <head>Laisse 16</head>
+                <l n="394">(390) <seg>Lo'mperadore</seg> se muda de pany che avè molte zorne,</l>
+                <l n="395"><seg>era revestit</seg>o de più fresche colore;</l>
+                <l n="396"><seg>li altre drapy d</seg>ona a Sandy<ex rend="italic">n</ex> lo zugolaro,</l>
+                <l n="397"><seg>e sono montà a</seg> chavalo tramby duy.</l>
+                <l n="398"><seg>Non tenea via</seg> né sentere ancora;</l>
+                <l n="399">(395) <seg>per una via va</seg>no tosto, senza demora,</l>
+                <l n="400"><seg>che chaminà s</seg>ono el trare d'un archo</l>
+                <l n="401"><seg>apreso Santo D</seg>onise onda Franzose faseano orazione;</l>
+                <l n="402"><seg>zà era la raina</seg> en la giesia mazore.</l>
+                <l n="403"><seg>Lo re desende a</seg> l'ombra d'un narboro</l>
+                <l n="404">(400) <seg>per asconderse d</seg>a gra<ex rend="italic">n</ex>dy et a menore;</l>
+                <l n="405"><seg>e la soa bereta se</seg> tira sopra li oche</l>
+                <l n="406"><seg>e sembiante el fa</seg>zea ch'el dormise y<ex rend="italic">n</ex> quell'ora.</l>
+                <l n="407"><seg>Quando tene lo m</seg>an sopra la spala al zugolaro</l>
+                <l n="408"><seg>li oche tene chiose,</seg> ma bene vedea tutora,</l>
+                <l n="409">(405) <seg>e guardava qual</seg> avea più beleza,</l>
+                <l n="410"><seg>atanto ch'el vite</seg> Ynida dal fresco colore</l>
+                <l n="411"><seg>che y<ex rend="italic">n</ex> soa man p</seg>ortava una rosa e fiore.</l>
+                <l n="412"><seg>Sovente l'anasa,</seg> molto li abelise li odore.</l>
+                <l n="413"><seg>Ma Sandin dise a l</seg>o'mperadore:</l>
+                <l n="414">(410)<milestone n="7V" unit="fol."/><seg>"Vedite, vedite la più altera!"</seg></l>
+                <l n="415"><seg>Charlo lỳ vene, verso ley vene senza demora</seg></l>
+                <l n="416"><seg>saludò ley dizendo: "Quel magno redentore</seg></l>
+                <l n="417"><seg>si salve tal dona, e ben credo de vero</seg></l>
+                <l n="418">quando vuy formò el <seg>nostro Criatore</seg></l>
+                <l n="419">(415) ch'el n'avè a fare nula <seg>altro lavoro;</seg></l>
+                <l n="420"><milestone n="8R" unit="fol."/><seg>may dona chy sey vestita de tanta
+                    beleza.</seg></l>
+                <l n="421"><seg>Vui site y<ex rend="italic">n</ex>grata se d'amore no<ex rend="italic">n</ex> sentite:</seg></l>
+                <l n="422"><seg>ora ve requero per lo vostro honore</seg></l>
+                <l n="423"><seg>che quel fiore me∙l donate, che yo lo portarazo;</seg></l>
+                <l n="424">(420) <seg>io la guardarò sol p<ex rend="italic">er</ex> vostro amore</seg></l>
+                <l n="425"><seg>per tal covinente com vuy olderite desopra:</seg></l>
+                <l n="426"><seg>che y serazo vostro lialle s<ex rend="italic">er</ex>vedore."</seg></l>
+            </lg>
+            <lg type="laisse" n="17">
+                <head>Laisse 17</head>
+                <l n="427"><seg>Quando la parola la duchesa oldete,</seg></l>
+                <l n="428"><seg>ben sape y<ex rend="italic">n</ex> quel</seg> locho la parol<seg>a atende;</seg></l>
+                <l n="429">(425) <seg>ben lo conose m</seg>é nula sembiante no<ex rend="italic">n</ex> fe<seg>ze.</seg></l>
+                <l n="430"><seg>Como quela ch'</seg>avea lo coro ben guarnyto,</l>
+                <l n="431"><seg>de gra<ex rend="italic">n</ex> sapere c</seg>ortesmente li responde:</l>
+                <l n="432"><seg>"Mes<ex rend="italic">er</ex> lo cavaler</seg>o, mile grazie e merzede;</l>
+                <l n="433"><seg>de questo che</seg> vuy dite sỳ ve prego y<ex rend="italic">n</ex> caritade</l>
+                <l n="434">(430) <seg>ch'el vostro a</seg>more no<ex rend="italic">n</ex> sia y<ex rend="italic">n</ex> tal locho metuto</l>
+                <l n="435"><seg>onda vuy posi</seg>te atendre lo merito.</l>
+                <l n="436"><seg>L'omo chy s<ex rend="italic">er</ex>ve n</seg>on è miga agradito</l>
+                <l n="437"><seg>a my siè avisso</seg> suo amore siè falito.</l>
+                <l n="438"><seg>Amate tal don</seg>a, bel sire, yo v'e<ex rend="italic">n</ex> prego,</l>
+                <l n="439">(435) <seg>che vuy rete</seg>gna per suo lial amicho.</l>
+                <l n="440"><seg>De vuy amare,</seg> ny altre ansỳ <ex rend="italic">...</ex></l>
+                <l n="441"><seg>afora che Dom</seg>enedé ordenà ancor stabelỳ:</l>
+                <l n="442"><seg>zò siè lo <ex rend="italic">con</ex>te d'Al</seg>vergna lo segnorile</l>
+                <l n="443"><seg>che a matrimo</seg>nio andiamo nuy y<ex rend="italic">n</ex> covine<ex rend="italic">n</ex>te.</l>
+                <l n="444">(440) <seg>La fior che y az</seg>o, sì ve dicho ben de fede,</l>
+                <l n="445"><seg>guardarò ben t</seg>anto com el mio coro è vivente,</l>
+                <l n="446"><seg>e sỳ lo rendrò al co</seg>nte mio marito</l>
+                <l n="447"><seg>quando lỳ torni</seg>ray che da luy me pa<ex rend="italic">r</ex>tyte."</l>
+            </lg>
+            <lg type="laisse" n="18">
+                <head>Laisse 18</head>
+                <l n="448"><seg>Charlon l'ent</seg>ende, che feze cera smarita. </l>
+                <l n="449">(445) <seg>"Dona," dize ell</seg>o, "no<ex rend="italic">n</ex> tenite miga a vilania;</l>
+                <l n="450"><seg>che a mal y<ex rend="italic">n</ex>tende</seg> yo no<ex rend="italic">n</ex> ve∙l chero miga.</l>
+                <l n="451"><seg>Mé amor vole che</seg> yo aza la segnoria</l>
+                <l n="452"><seg>sopra duy amante</seg> comunable balia;</l>
+                <l n="453"><milestone n="8V" unit="fol."/><seg>quando lo s<ex rend="italic">er</ex>ve de bon cor senza
+                    folia</seg></l>
+                <l n="454">(450) <seg>suo s<ex rend="italic">er</ex>visio quere che l'ovra li sia merità.</seg></l>
+                <l n="455"><seg>Se a my donate la roxa encholorita</seg></l>
+                <l n="456"><seg>zoiosso ne serò en tute y<ex rend="italic">n</ex> tempe de mia vita,</seg></l>
+                <l n="457"><seg>e vuy medesme en serite più zolia.</seg></l>
+                <l n="458"><seg>Dona, chre d'amore alquanto asentire</seg></l>
+                <l n="459">(455) <seg>non vale zà ponto la moneta d'una lia.</seg></l>
+                <l n="460"><seg>Li amorose do</seg>ne chy s<seg>ono avisate</seg></l>
+                <l n="461"><seg>si vano</seg> tropo melio avante <seg>più polite."</seg></l>
+                <l n="462"><seg>"Sere,"</seg> dize Ynida, "se Dio me bene<seg>dicha</seg></l>
+                <l n="463">coluy siè falso che so amor n<seg>e piga</seg></l>
+                <l n="464">(460) desopra coluy che luy no<ex rend="italic">n</ex> ama <seg>miga.</seg></l>
+                <l n="465">Lasateme stare, per vostra cort<seg>esia,</seg></l>
+                <l n="466">e se ve tornate, bel signor, a la v<seg>ostra via."</seg></l>
+                <l n="467">"Dona," dize ello, "nuy ve faremo <seg>compagnia."</seg></l>
+                <l n="468">Dize la duchesa: "Più tazere no<ex rend="italic">n</ex> po<seg>sso miga:</seg></l>
+                <l n="469">(465) quando lo re de Franza core a la <seg>stoltie,</seg></l>
                 <l n="470">del mal fare altruy mal castiga.</l>
-                <l n="471">Al <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> quando yo serazo retornata</l>
-                <l n="472">e se li dirazo quanto malvasità azo abuta;</l>
-                <l n="473">se a luy piazerà tuta vostra volontade</l>
-                <l n="474">(470) a vostra volontà serazo per my hobligata."</l>
-                <l n="475">Lo y<ex rend="italic">m</ex>peradore l'entende, no<ex rend="italic">n</ex> sa ch'el dicha.</l>
+                <l n="471">Al <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex> quando yo serazo ret<seg>ornata</seg></l>
+                <l n="472">e se li dirazo quanto malvasità azo <seg>abuta;</seg></l>
+                <l n="473">se a luy piazerà tuta vostra vol<seg>ontade</seg></l>
+                <l n="474">(470) a vostra volontà serazo per my ho<seg>bligata."</seg></l>
+                <l n="475">Lo y<ex rend="italic">m</ex>peradore l'entende, no<ex rend="italic">n</ex> sa <seg>ch'el dicha.</seg></l>
                 <l n="476">Tuto smarito, com donzela smarita,</l>
                 <l n="477">quando a sy <ex rend="italic">con</ex>sente e possa siè repentito</l>
                 <l n="478">del falo ch'el avea fato, e morto se tene y<ex rend="italic">n</ex>tra ello; </l>
@@ -1493,7 +1505,8 @@
                 <l n="1188">al <ex rend="italic">con</ex>te à dito, "Fradelo, no<ex rend="italic">n</ex> siate punto p(e)<ex rend="italic">r</ex>duto</l>
                 <l n="1189">de quanto che yo azo per vuy averazo metuto;</l>
                 <l n="1190">(1185) en curto termene mio hosto averite veduto,</l>
-                <l n="1191"> 20 right </ex> de chavaly e lanze et brande nude,</l>
+                <l n="1191">de chavaly e lanze et brande nude,</l>
+                <!-- begin 1191 [Rajna 20 right] -->
                 <l n="1192">più de cento milia senza pedone,</l>
                 <l n="1193">e senza li arzere chi àno lor arche tendute.</l>
                 <l n="1194">Sotilmente lo re sera ben asaltato;</l>
@@ -2595,6 +2608,7 @@
                 <l n="2256">"Vuy comandate che ancora fati tal labore,</l>
                 <l n="2257"><milestone n="37V" unit="fol."/> che per deleto mon<ex rend="italic">da</ex> non p<ex rend="italic">er</ex>da la
                     zoia mazore.</l>
+                    2258	<ex rend="italic"> Vuy avite i[n]teso p[er] miraclo mazore</ex>
                 <l n="2258">Quele ovre avite fate chi era vostro signore;</l>
                 <l n="2259">(2240) servite luy de bon coro e se ly portaty onore.</l>
                 <l n="2260">Eio non posso romanere, non p(i)asse al Criatore:</l>
@@ -2950,6 +2964,7 @@
                 <l n="2602">mé p<ex rend="italic">er</ex> un mal paso chi trovo lo <ex rend="italic">con</ex>te</l>
                 <l n="2603"><milestone n="42V" unit="fol."/> non pose andare tosto me si va
                     pianame<ex rend="italic">n</ex>ty</l>
+                    2605	<ex rend="italic">Tanto siè caminà che a la piana el è venuto</ex>;
                 <l n="2604">(2580) pasa l'avea la selva, al maro el è venuto.</l>
                 <l n="2605">Alora el guarda p<ex rend="italic">er</ex> denanzo e p<ex rend="italic">er</ex> dedreto</l>
                 <l n="2606">el crede ben trovare soa galeia e soa zente</l>
@@ -3364,6 +3379,7 @@
                 <l n="3004">(2990) che non se driza y<ex rend="italic">n</ex> pe; anze, vene y<ex rend="italic">n</ex> rampgon.</l>
                 <l n="3005">La coda el squasa, e sgagnolando con cridy</l>
                 <l n="3006">quando Ugo<ex rend="italic">n</ex> il menaza, più vene pedonando.</l>
+                <l n="3009">	<ex rend="italic">Inclina el capo</ex> e fa segno de umelità.</l>
                 <l n="3007">"Ai Dio," dise Ugone, "gran meravia quỳ sono!</l>
                 <l n="3008">(2995) Questo mostra dè conosere lo s<ex rend="italic">er</ex>visio che fato li avemo;</l>
                 <l n="3009">aprosimando a my l'afare mostra adoncha.</l>
@@ -5630,7 +5646,7 @@
                 <l n="5210">Con gran dolore avè resposso Ynida a quelo:</l>
                 <l n="5211">"Che site vuy, amicho, che y<ex rend="italic">n</ex>si me favela? </l>
                 <l n="5212">No<ex rend="italic">n</ex> ve reconoscho, ma vuy site Flame<ex rend="italic">n</ex>go a la liquela.</l>
-                <l n="5213">Sy vero signore, ne fina a Bordera?"</l>
+                <l n="5213">Sy vero signore, né fina a Bordera?"</l>
                 <l n="5214">"El è vero," dize el, "sire eio fuy sopra Bordela.</l>
                 <l n="5215">De ci<ex rend="italic">n</ex>quantaquatroany ne fuy signore a bacheta.</l>
                 <l n="5216">(5200) Nodrigare te feze dedentro mia camera bela;</l>
@@ -6273,7 +6289,7 @@
                 <l n="5834">la quale speranza lo <ex rend="italic">con</ex>ducha a bon finno.</l>
                 <l n="5835">A piè se'n va como homo pedonante,</l>
                 <l n="5836">e per lo fren mena lo cavalo.</l>
-                <l n="5837">Doncha mé y<ex rend="italic">n </ex>nave si avea tal y<ex rend="italic">n</ex>stormento,</l>
+                <l n="5837">Doncha mé y<ex rend="italic">n</ex> nave si avea tal y<ex rend="italic">n</ex>stormento,</l>
                 <l n="5838">(5820) coss lo mena lo bon destrero corente.</l>
                 <l n="5839">Lo <ex rend="italic">con</ex>te che mena tuto al sole s'a<ex rend="italic">con</ex>zava;</l>
                 <l n="5840">et elo s'aloza quando la note prosima;</l>
@@ -7906,8 +7922,8 @@
                 <l n="7421">(7395) arestate vuy un pocho da parte de Quelo chi non a pare.</l>
                 <l n="7422">Non vollio zamay sofrire, yo ve∙l dicho senza falire;</l>
                 <l n="7423">zò staty pary, falsy sperite, da parte de Dio vivo.</l>
-                <l n="7424"><milestone n="1R" unit="fol."/> 112V) Cosỳ sofrite a obedirme tuto zò
-                    che a my piaze</l>
+                <l n="7424"><milestone n="1R" unit="fol."/> 112V) <ex rend="italic"Cosỳ como verasemente lo credo de coro verase
+                <l n="7428"> Cosỳ sofrite a obedirme tuto zò che a my piaze </l>
                 <l n="7425">(7400) ny ponto y<ex rend="italic">n</ex>pazo per vuy zà nula no<ex rend="italic">n</ex>n-aze."</l>
                 <l n="7426">Laisse 300 Lo <ex rend="italic">con</ex>te li avè s<ex rend="italic">con</ex>zurà, "Che dite vuy a bona fede? </l>
                 <l n="7427">Eio ve asconzuro, dizelo da parte de quel Re</l>
@@ -8504,7 +8520,12 @@
                 <l n="8001"> Y<ex rend="italic">n</ex>tra lor cantano e dizeno bely s<ex rend="italic">er</ex>mone:</l>
                 <l n="8002">l'uno comenza e l'altro el sechonda,</l>
                 <l n="8003">e quelo oldire bele meludie e sone:</l>
-                <l n="8004">"E Dio como, a belo abitacolo le <ex rend="italic"> </ex>."</l>
+                <l n="8004">"E Dio como, a belo abitacolo le ate."</l>
+                <!-- rend ate strikethrough. Note - There is a smear, or perhaps a
+                    bleed-through from the verso, that makes reading impossible.
+                    Rajna too notes that the whole word is problematic ("qui tutta
+                    la parola fr / ƣubly, rompy anche / la carta"); he ends the line
+                    with -ate (crossed out). -->
                 <l n="8005">(7980) Questo salmo dize bene, e ben l'entende Ugone;</l>
                 <l n="8006">de zò che l'olde e ch'el vite, el zentil homo</l>
                 <l n="8007">molto se meravia; la croze se feze al fronte,</l>
@@ -8957,7 +8978,7 @@
                 <l n="8436">de soto u<ex rend="italic">n</ex>n-arboro, donda la foia era chazuta.</l>
                 <l n="8437">A guissa d'un pelegry ly siè una ombra vestuta</l>
                 <l n="8438">una cota bissa, y<ex rend="italic">n</ex> più e y<ex rend="italic">n</ex> più lochy el è romputa;</l>
-                <l n="8439"> lo chapelo e∙l suo capo non vale una latuga,</l>
+                <l n="8439"> lo chapelo el suo capo non vale una latuga,</l>
                 <l n="8440">li ochy avea pizoly com sscura vista, </l>
                 <l n="8441">(8415) la bocha lar<ex rend="italic">g</ex>a, la dentadura cornuta,</l>
                 <l n="8442">aversaryo sembiante che d'inferno pare y<ex rend="italic">n</ex>sito.</l>
@@ -10199,7 +10220,8 @@
                 <l n="9641">oltra pasono, no<ex rend="italic">n</ex> fano arestamento.</l>
                 <l n="9642">Laisse 383 Arivà sono a la porta quartana;</l>
                 <l n="9643">(9610) denanzo li era un gran fosso altano,</l>
-                <l n="9644"> 151 right</ex> forta siè la porta, <ex rend="italic">et</ex> alte le mura sovrane</l>
+                <l n="9644">forta siè la porta, <ex rend="italic">et</ex> alte le mura sovrane</l>
+                <!-- begin 9644 [Rajna 151 right] -->
                 <l n="9645">de grande afare. Senza ardore e senza pene,</l>
                 <l n="9646">lỳ no<ex rend="italic">n</ex> pò y<ex rend="italic">n</ex>trare nula criatura umana;</l>
                 <l n="9647">la beleza de la porta tuta de li altre el è strania:</l>

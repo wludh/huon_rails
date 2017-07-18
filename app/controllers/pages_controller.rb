@@ -2,13 +2,34 @@ require 'roman-numerals'
 
 class PagesController < ApplicationController
 
-	skip_before_action :verify_authenticity_token
+    skip_before_action :verify_authenticity_token
     # patch for using will-paginate gem to paginate through laisses
     require 'active_support/core_ext/array/conversions.rb'
 
     def show
         # convert the pages parameter into the tidy slug
         render template: "pages/#{params[:page]}"
+    end
+
+    # Nokogiri processes html files in ./lib/assets
+    def import_html(html_file)
+
+    # take the html file name and return a nokogiri object
+        return File.open( "./lib/assets/#{html_file}") {
+            |f| Nokogiri::HTML(f)
+        }
+
+    end
+
+    def parse_html(html_file, testing=false)
+
+        #import the html file
+        doc = import_html(html_file)
+
+        @gen_intro = doc.xpath("//section[@class='introduction']").text
+        @abbr = doc.xpath("//section[@class='abbreviations']").text
+
+        return @gen_intro
     end
 
     def import_tei(tei_file)
@@ -277,6 +298,7 @@ class PagesController < ApplicationController
     # For each of the files in that list, pull in the TEI
     # Get the lines you want.
     # Reformat them to be in the format you want.
+
     parsed_material = ""
         for file in tei_files
             tei_files = ['p.xml', 'b.xml', 't.xml', 'br.xml', 'translation-b.xml',]
@@ -322,54 +344,55 @@ class PagesController < ApplicationController
         render template: "pages/edition"
     end
 
-		def encod_praxis
-			render template: "pages/encod_praxis"
-		end
+	def encod_praxis
+		render template: "pages/encod_praxis"
+	end
 
-		def intro_praxis
-				render template: "pages/intro_praxis"
-		end
+	def intro_praxis
+			render template: "pages/intro_praxis"
+	end
 
-		def b_manuscript
-        parse_tei('b.xml')
-        render template: "pages/b"
+	def b_manuscript
+    parse_tei('b.xml')
+    render template: "pages/b"
     end
 
-		def b_praxis
-			render template: "pages/b_praxis"
-		end
+	def b_praxis
+		render template: "pages/b_praxis"
+	end
 
     def t_manuscript
         parse_tei('t.xml')
         render template: "pages/t"
     end
 
-		def t_praxis
-			render template: "pages/t_praxis"
-		end
+	def t_praxis
+		render template: "pages/t_praxis"
+	end
 
     def p_manuscript
         parse_tei('p.xml')
         render template: "pages/p"
     end
 
-		def p_praxis
-			render template: "pages/p_praxis"
-		end
+	def p_praxis
+        parse_html('p-praxis.html')
+        render template: "pages/p_praxis"
+     end
 
     def br_manuscript
         parse_tei('br.xml')
         render template: "pages/br"
     end
 
-		def br_praxis
-			render template: "pages/br_praxis"
-		end
+	def br_praxis
+		render template: "pages/br_praxis"
+	end
 
-		def b_translation
-			parse_tei('translation-b.xml')
-			render template: "pages/translation-b"
-		end
+	def b_translation
+		parse_tei('translation-b.xml')
+		render template: "pages/translation-b"
+	end
 
     def hell_scene
         render template: "pages/hell_scene"

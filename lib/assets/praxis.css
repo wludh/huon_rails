@@ -1,3 +1,7 @@
+html{
+    background: #e6e9e9;
+}
+
 body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
@@ -5,19 +9,9 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: auto;
+    margin: 0 auto;
     max-width: 900px;
     padding: 2em 2em 4em;
-}
-
-div.example {
-    font-family: "Courier New", Courier, monospace;
-    background-color: beige;
-    width: 850px;
-    padding: 1.5px;
-    width: 850px;
-    margin: auto;
-    text-align: left;
 }
 
 h1, h3 {
@@ -33,28 +27,31 @@ h2 {
     font-family: "Courier New", Courier, monospace;
 }
 
-hi {
-    font-style: italic;
-}
-
-html{
-    background: #e6e9e9;
-}
-
-li {
-  margin: 1em 0;
-}
-
-ol {
-    font-family: "Courier New", Courier, monospace;
-}
-
 p {
      font-family: "Courier New", Courier, monospace;
 }
 
-span {
-  color: #a10d09;
+div.example {
+    font-family: "Courier New", Courier, monospace;
+<<<<<<< HEAD
+    background-color: beige;
+=======
+    background-color: #00ff80;
+>>>>>>> huon_develop
+    border: invisible;
+    width: 850px;
+    padding: 1.5px;
+    width: 850px;
+    margin: auto;
+    text-align: left;
+}
+
+hi {
+    font-style: italic;
+}
+
+ol {
+    font-family: "Courier New", Courier, monospace;
 }
 
 table.center {
@@ -73,3 +70,11 @@ td {
 td.1 {
     width: 30px;
 }
+<<<<<<< HEAD
+
+
+
+
+
+=======
+>>>>>>> huon_develop
