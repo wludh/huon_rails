@@ -1,11 +1,12 @@
 /* Homepage ---------------------------------------------------- */
 
 img.initial {
-    max-width: 20%;
+    max-width: 29%;
     float: left;
     padding-right: 10px;
-    margin-top: -118px;
-    margin-left: -70px;
+    margin-top: -145px;
+    margin-left: -230px;
+    margin-bottom: -450px;
 }
 
 p.intro {
@@ -31,13 +32,13 @@ p.intro {
   font-weight: normal;
 }
 
-#special-footer hr{
+#special-footer hr {
   width:66.7%;
   text-align:center; margin: 0 auto;
 }
 
-body{
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+body {
+  font-family: 'Open Sans', Arial, 'Liberation Sans', FreeSans, sans-serif;
   background: rgba(255,255,255,0.9);
   text-rendering:optimizeLegibility;
   font-feature-settings: "kern" 1;
