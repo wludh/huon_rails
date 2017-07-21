@@ -154,10 +154,10 @@ console.log('ready');
         $('#rajnaCheckbox').click(function(){
             var checked = $('#rajnaCheckbox').prop('checked');
             if (checked) {
-                $('seg[resp="Rajna"]').addClass('Rajna');
+                $('seg').addClass('Rajna');
             }
             else {
-                $('seg[resp="Rajna"]').removeClass('Rajna');
+                $('seg').removeClass('Rajna');
             }
         });
     });
