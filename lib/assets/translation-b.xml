@@ -349,7 +349,7 @@
                 <l n="173">In order to begin the tournament, led everyone [to the field] </l>
                 <l n="174">Under a banner decorated with a raging lion</l>
                 <l n="175">As well as spots of red on a field of gold.</l>
-                <!-- NOTE Gutty gueles, William H. Whitmore, The Elements of Heraldry (Rutland VT: Tuttle, 1968), p. 97. -->
+                <!-- NOTE Gutty gueles, William H. Whitmore, <em>The Elements of Heraldry</em> (Rutland VT: Tuttle, 1968), p. 97. -->
                 <l n="176">Berart addressed his men, saying, "I pray you, </l>
                 <l n="177">At the start of the tournament charge,</l>
                 <l n="178">O knights, call out the name 'Auvergne!'"</l>
@@ -391,7 +391,7 @@
                 <l n="208">"If this vassal lives for a long time,</l>
                 <l n="209">And if Huon desires it, I shall be overthrown as king,</l>
                 <l n="210">Because there are not two such ones within the bounds of the world.</l>
-                <!--NOTE The expression "les bornes d'Artus" refers to the eastern limits of the known world. See Roman d'Alexandre, Book 1, line 128. -->
+                <!--NOTE The expression "les bornes d'Artus" refers to the eastern limits of the known world. See <em>Roman d'Alexandre</em>, Book 1, line 128. -->
                 <l n="211">But by my head, I will not have any tree in my kingdom</l>
                 <l n="212">So large, so leafy, so full,</l>
                 <l n="213">Without cutting all its branches."</l>
@@ -1122,7 +1122,7 @@
                 <l n="830">I am seeking something impossible, I know it well.</l>
                 <l n="831">Still, I shall try to the best of my ability to do it as long as I have
                     the leisure;</l>
-                    <!--NOTE "Leisure" here expresses time available to Huon before he dies. See OED 2b, sub voce, consulted 8/1/14. -->
+                    <!--NOTE "Leisure" here expresses time available to Huon before he dies. See OED 2b, <em>sub voce</em>, consulted 8/1/14. -->
                 <l n="832">If it pleases God I will not be a liar.</l>
                 <l n="833">I commend my wife to your keeping, and all my heritage;</l>
                 <l n="834">I don't ask for more than a month of time to prepare,</l>
@@ -1289,6 +1289,7 @@
                 <l n="968"><milestone n="7Vb" unit="fol."/>He spoke not a word to Huon.</l>
                 <l n="969">A round table was placed before him</l>
                 <l n="970">Piled with meat and good bread,</l>
+                <!--NOTE The text has <em>de bon pein bofu</em>, but it is unclear what <em>bofu</em> indicates about the bread. -->
                 <l n="971">And spiced wine that would please anyone.</l>
                 <l n="972">Huon said to the pilgrim, "My very good friend,</l>
                 <l n="973">Eat, in the name of Jesus, all that pleases you."</l>
@@ -1433,7 +1434,10 @@
                 <l n="1091">Just like one who is wise, he began to remember</l>
                 <l n="1092">When he had read Caton as a young schoolboy:</l>
                 <l n="1093">"You absolutely mustn't believe a wife rashly or easily;</l>
+                <!--italicize 'You absolutely mustn't believe a wife' -->
                 <l n="1094">Frequently a woman hates the one whom her husband has loved."</l>
+                <!--italicize 'Frequently a woman hates' -->
+                <!--NOTE <em>Distich of Cato</em> -->
                 <l n="1095">Anger overtook him; he lashed out with a kick</l>
                 <l n="1096">That knocked her down hard onto the floor</l>
                 <l n="1097">So that he made her belly burst in her body.</l>
@@ -1469,6 +1473,7 @@
                 <l n="1123">He treated her affectionately and comforted her,</l>
                 <l n="1124">Saying that if it pleased God he would come back soon,</l>
                 <l n="1125">And that Berart, his brother, would never neglect her.</l>
+                <!--NOTE At the time, "frère" meant not only "brother" but also was a term of affection; see line 790 above when Charles Martel calls Huon "frère." -->
                 <l n="1126">If the king thought to act foolishly, he would defend her,</l>
                 <l n="1127">And he himself would return within seven years, if it so pleased
                     God.</l>
@@ -1527,6 +1532,8 @@
                 <l n="1172">But above all, he didn't forget this,</l>
                 <l n="1173">To begin a psalm that we find in the psalter:</l>
                 <l n="1174">Keep steady my steps. All the way to the end,</l>
+                <!--italicize 'Keep steady my steps' -->
+                <!--NOTE "Keep steady my steps according to thy promise [...]" (Psalm 118.133). -->
                 <l n="1175">He recited it in its entirety with great feeling.</l>
                 <l n="1176">He kept himself from wrath, and from other vices of the world;</l>
                 <l n="1177">Often he beseeched God to grant him and others pardon,</l>
@@ -1550,6 +1557,7 @@
                 <l n="1191">The king recognized him, and received him gladly,</l>
                 <l n="1192">Saying, "Welcome, my very good and dear friend,</l>
                 <l n="1193">Why are you traveling, why have you come?</l>
+                <!--NOTE The words <em>quier la voie</em> literally mean "seek the road," a way of asking why he is traveling. -->
                 <l n="1194">Whatever you seek, if I happen to have it,</l>
                 <l n="1195">I will give you as much of it as you want."</l>
                 <l n="1196">Huon, who had uncovered his head, thanked him;</l>
@@ -5104,7 +5112,7 @@
                 <!--italicize 'Remember me, O Lord' -->
                 <l n="4248">Then he would recite another that he remembered:</l>
                 <l n="4249">"Troubled, [I come] to You, Lord Jesus,</l>
-                <!--italicize 'Troubled, [I come] to You, O Lord' -->
+                <!--italicize 'Troubled, [I come] to You' -->
                 <l n="4250">I cried out to You, O Lord, and we render thanks to You</l>
                 <!--italicize 'I cried out to You, O Lord' -->
                 <l n="4251">For all the care we have received from You."</l>
@@ -11149,24 +11157,25 @@
                 <l n="9904">Aeneas and the count speaking in this way.</l>
                 <l n="9905">They traveled until they arrived</l>
                 <l n="9906">At a castle that was not in the world.</l>
-                <l n="9907">Seven great gates were in the forefront;</l>
-                <l n="9908">They belonged to the castle, as the story explains.</l>
-                <l n="9909">From the great moat and from the wall that were right there</l>
-                <l n="9910">Many souls would perish in that very place.</l>
+                <l n="9907">Seven great gates were in the first wall;</l>
+                <l n="9908">They belonged to the castle, as the story explains;</l>
+                <l n="9909">As for the great moats and walls that are there,</l>
+                <l n="9910">There in that place, many souls will perish.</l>
                 <l n="9911">Aeneas said, "Thus there are seven walls</l>
                 <l n="9912">Where you must enter; now you mustn't be afraid.</l>
                 <l n="9913">Absolutely nothing that you see will harm you.</l>
-                <l n="9914">(Folio 69 Ra) If you look carefully and see beyond this bridge,</l>
+                <l n="9914">(Folio 69 Ra) If you look carefully and see beyond that bridge,</l>
                 <l n="9915">On the seat of the round capital,</l>
                 <l n="9916">You see there the fair-headed master Tholomeus,</l>
                 <l n="9917">Who in astrology was the best in the world.</l>
-                <l n="9918">The magicians who are with him— </l>
+                <l n="9918">The magicians are with him.</l>
                 <l n="9919">See how they set about studying!</l>
-                <l n="9920">More than all the others who are still scholars,</l>
+                <l n="9920">More than all the others who are still studying,</l>
                 <l n="9921">He wants to know if they will [ever] leave that place.</l>
-                <l n="9922">They turn over the cards, but they don't find the bridge.282</l>
+                <l n="9922">They turn over the cards, but they don't find the point they seek.</l>
+                <!--NOTE They turn over cards to predict their future and don't get the "point" that would give them the answer they want, that they can leave. See TL: col 2106 line 20-21. -->
                 <l n="9923">They will keep up this practice, dear friend,</l>
-                <l n="9924">Until the days when the angels will come</l>
+                <l n="9924">Until the day when the angels will come</l>
                 <l n="9925">To sound the trumpets by which the dead will be revived.</l>
                 <l n="9926">(Laisse 380) They passed through the first gate of the scholars,</l>
                 <l n="9927">The messenger [Huon] entered alongside Aeneas.</l>
@@ -11174,21 +11183,21 @@
                 <l n="9929">They recognized nothing, they strove to move.</l>
                 <l n="9930">But the crying disturbed them greatly;</l>
                 <l n="9931">It made [their] heads ring thoroughly with it;</l>
-                <l n="9932">The more they moved forward, the more the cries were increasing.</l>
+                <l n="9932">The more they moved forward, the more the cries kept increasing.</l>
                 <l n="9933">The count of Auvergne began to be amazed,</l>
-                <l n="9934">He couldn't see nor ask from whom [it came].</l>
+                <l n="9934">He couldn't see nor ask from whom [the cries came].</l>
                 <l n="9935">Nicomacus began to blaspheme:</l>
                 <l n="9936">"Be quiet for a while, [you] demon enemies!"</l>
-                <l n="9937">Aeneas said, "One can't suppress this.</l>
+                <l n="9937">Aeneas said, "One can't do anything to stop this.</l>
                 <l n="9938">These [people] applied their effort and their thought</l>
-                <l n="9939">To teach and accustom [others] to that knowledge; </l>
-                <l n="9940">They certainly weren't willing to remember God.</l>
+                <l n="9939">To learn and teach that knowledge; </l>
+                <l n="9940">They didn't want to remember God.</l>
                 <l n="9941">This is their torment—cries and quarrels,</l>
-                <l n="9942">And getting heated up by their excess of shouting."</l>
+                <l n="9942">And getting worked up by their excessive shouting."</l>
                 <l n="9943">The good saint said, "Let's leave these [people] to quarrel,</l>
                 <l n="9944">And let's go by another path."</l>
                 <l n="9945">(Laisse 381) They passed through the opening of the second gate</l>
-                <l n="9946">That people call by the name Nicomacus.</l>
+                <l n="9946">When someone called Nicomacus by name.</l>
                 <l n="9947">A man had written [something] up above the gate;</l>
                 <l n="9948">The least letter was as large as a shield.</l>
                 <l n="9949">The saint said to the lost ones,</l>
