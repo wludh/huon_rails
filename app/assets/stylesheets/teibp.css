@@ -844,20 +844,7 @@ lb:after {
   content: '\a';
   white-space: pre;
 }
-lbl {
-  /* Empty Rule Set */
-}
-leaf {
-  /* Empty Rule Set */
-}
-lem {
-  /* Empty Rule Set */
-}
-lg {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
+
 link {
   /* Empty Rule Set */
 }
@@ -1430,12 +1417,7 @@ secFol:before {
   font-weight: bold;
   content: "Second Folio: ";
 }
-seg {
-  /* Empty Set Rule */
-}
-segmentation {
-  /* Empty Rule Set */
-}
+
 sense {
   display: block;
   margin-top: 0;

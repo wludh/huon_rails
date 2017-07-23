@@ -1,4 +1,4 @@
-/* Homepage ---------------------------------------------------- */
+/* Homepage and HTML shell style */
 
 img.initial {
     max-width: 29%;
@@ -16,27 +16,41 @@ p.intro {
     font-weight: 400;
 }
 
-/* --------------------------------------------------------------- */
-
-.lg {
-  padding-bottom: 24px;
-}
-
-.l {
-  margin-bottom: 0px;
-}
-#disclaimer{
-  color:red;
-}
-
-.top-bar .toggle-topbar a {
+body {
+  background: rgba(255,255,255,0.9);
+  color: #222;
+  padding: 0;
+  margin: 0;
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif !important;
   font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  position: relative;
+  cursor: auto; 
+  width: 100%;
+  max-width: 100%;
+  overflow-x:hidden;
 }
 
-#special-footer hr {
-  width:66.7%;
-  text-align:center; margin: 0 auto;
+.large-offset-2 {
+  margin-left: 10.66667% !important;
 }
+
+.large-8 {
+  width: 80.66667%;
+}
+
+section div ul li {
+  clear: left;
+}
+
+#banner {
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
 
 /* Header styles */
 h1, h2, h3, h4, h5, h6 {
@@ -100,43 +114,6 @@ hr {
   clear: both;
   margin: 1.25rem 0 1.1875rem;
   height: 0; }
-
-/* HTML shell style */
-
-body {
-  background: rgba(255,255,255,0.9);
-  color: #222;
-  padding: 0;
-  margin: 0;
-  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif !important;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 25px;
-  position: relative;
-  cursor: auto; 
-  width: 100%;
-  max-width: 100%;
-  overflow-x:hidden;
-}
-
-.large-offset-2 {
-  margin-left: 10.66667% !important;
-}
-
-.large-8 {
-  width: 80.66667%;
-}
-
-section div ul li {
-  clear: left;
-}
-
-#banner {
-  padding-top:15px;
-  padding-bottom: 15px;
-}
 
 /*Top bar*/
 
@@ -207,6 +184,26 @@ section div ul li {
 
 
 /*Content */
+
+.lg {
+  padding-bottom: 24px;
+}
+
+.l {
+  margin-bottom: 0px;
+}
+#disclaimer{
+  color:red;
+}
+
+.top-bar .toggle-topbar a {
+  font-weight: normal;
+}
+
+#special-footer hr {
+  width:66.7%;
+  text-align:center; margin: 0 auto;
+}
 
 #clear {
   clear:both;
@@ -469,12 +466,6 @@ footnote{
   height:100%;
 }
 
-#TEI_reader{
-  margin-top: 48px;
-  padding-top: 44px;
-  border-right: 1px;
-}
-
 header{
   padding-top: 92px !important;
 }
@@ -651,13 +642,119 @@ td {
   text-align: center;
 }
 
-#reader-nav{
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-  padding-top: 48px;
-  background-color: rgba(245,246,246,1)
+/* Edition page */
+
+#reader-nav {
+    width: 100%;
+    position: static;
+    z-index: 100;
+    padding-top: 10px;
+    background-color: rgba(245,246,246,1);
 }
+
+/* TEI Reading Environment */
+
+/* Top bar button navigation */
+
+#rajnaCheckbox {
+  display: block;
+}
+
+#rajna-form {
+  display: inline;
+  float: none;
+}
+
+#rajna-label {
+  float: none;
+  display: inline;
+  text-decoration: none;
+}
+
+seg {
+  font-style: italic;
+}
+
+.Rajna {
+  color: red;
+}
+
+#diploCheckbox {
+  display: block;
+}
+
+#diplo-form {
+  display: inline;
+  float: none;
+}
+
+#diplo-label {
+  float: none;
+  display: inline;
+  text-decoration: none;
+}
+
+sic {
+  display: none;
+  color: red;
+}
+
+
+/* wraps around TEI and MS image */
+
+#TEI_reader{
+  width: 150%;
+  margin-top: 48px;
+  border: none;
+  /* height: 99%
+  padding-left: 40px;
+  margin-top: 48px;
+  padding-top: 44px;
+  border-right: 1px; */
+}
+
+#ms-image-container{
+    margin: 1.5em auto 1.5em auto;
+    padding: .5em 1.5em 1.5em 1.5em;
+}
+
+
+/* wraps around MS image */
+
+#side-panel{
+  margin-right: 150px;
+  margin-top: 47px;
+  margin-bottom: 47px;
+  float: right;
+  padding-top: 25px;
+  width: 39%;
+  border: groove 5px;
+  /* height: 100%;
+  overflow: scroll; */
+}
+
+#tei_wrapper{
+  margin-left: 150px;
+  width: 25% !important;
+  /* border: groove 5px; */
+  width: 30%;
+  height: 100%;
+  padding-bottom: 277px;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+lg {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.milestone{
+  margin-left: -100px;
+}
+
+/* CSS not yet organized */
 
 #sub-title{
   float: left;
@@ -675,17 +772,6 @@ td {
     padding: 0 0.9375rem;
 }
 
-#side-panel{
-  margin-right: 10%;
-  padding-right: 40px;
-  float: right;
-  margin-top: 48px;
-  padding-top: 68px;
-  width: 35%;
-  height: 100%;
-  overflow: scroll;
-}
-
 #note-close{
   float: left;
   margin-top: -2px;
@@ -697,49 +783,10 @@ td {
       margin-left: 27%;
 }
 
-#rajnaCheckbox{
-  display: block;
-}
-
-#rajna-form{
-  display: inline;
-  float: none;
-}
-
-#rajna-label{
-  float: none;
-  display: inline;
-  text-decoration: none;
-}
-
-#diploCheckbox{
-  display: block;
-}
-
-#diplo-form{
-  display: inline;
-  float: none;
-}
-
-#diplo-label{
-  float: none;
-  display: inline;
-  text-decoration: none;
-}
-
-#tei_wrapper{
-  width: 25% !important;
-}
-
 #image-reveal, #tei-reveal, #all-note-reveal{
   display: inline;
   cursor: pointer;
   cursor: hand;
-}
-
-#ms-image-container{
-    margin: 1.5em auto 1.5em auto;
-    padding: .5em 1.5em 1.5em 1.5em;
 }
 
 #page-break{
@@ -780,30 +827,7 @@ code, pre{
   margin-bottom: 1em;
 }
 
-sic{
-  display: none;
-  color: red;
-}
 
-seg {
-  font-style: italic;
-}
-
-.Rajna {
-  color: red;
-}
-
-.milestone{
-  margin-left: -100px;
-}
-
-#TEI_reader{
-  height: 99%;
-}
-
-#tei_wrapper{
-  height: 100%;
-}
 .divider{
   display: none;
 }

@@ -62,7 +62,7 @@ console.log('ready');
     function open_sidepanel(){
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
-        $('#tei_wrapper').css('border-right', '1px #DDDDDD solid');
+        $('#tei_wrapper').css('border', 'groove', '5px #DDDDDD solid');
         $('.milestone').css('margin-right', '50px');
         $('#note-close').addClass('active');
         $('#tei_wrapper').css('overflow', 'scroll');
@@ -107,7 +107,7 @@ console.log('ready');
            if (notePanel.style.display != "none") {
                 notePanel.style.display = "none";
                 $('#TEI_reader').wrap('<div id="reader-center-div">');
-                $('#tei_wrapper').css('border-right', 'none');
+                $('#tei_wrapper').css('border', 'none');
            } else {
               notePanel.style.display = "block";
            }
@@ -149,7 +149,7 @@ console.log('ready');
         hide_footer();
     }
 
-    $(function diplo_toggle(){
+    $(function rajna_toggle(){
         // if the corrections checkbox is checked, corr tags get highlighted
         $('#rajnaCheckbox').click(function(){
             var checked = $('#rajnaCheckbox').prop('checked');

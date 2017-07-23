@@ -7011,12 +7011,6 @@ th.hide-for-touch {
   width: 80%;
 }
 
-#tei_wrapper{
-  margin-left: 7%;
-  margin-right: 10%;
-  width: 30%;
-}
-
 top-bar{
   position: fixed;
 }
@@ -7038,12 +7032,16 @@ top-bar{
   }
 }
 
+/* moved to app.css:664
+
 #TEI_reader{
   margin-right:50%;
   width: 150%;
-  /*padding-left: 40px;*/
+  /*padding-left: 40px;*//*
   margin-right: 27%;
 }
+
+*/
 
 .top-bar .toggle-topbar a{
   font-weight: normal;
@@ -7284,11 +7282,6 @@ padding-bottom: 1px;
 
 #top-buttons a:hover, #bottom-buttons a:hover{
   text-decoration: none;
-}
-
-lg{
-  padding-top: 24px;
-  margin-top: 0px;
 }
 
 tei-title {
