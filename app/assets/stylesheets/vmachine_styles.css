@@ -4446,7 +4446,9 @@ p {
     line-height: 1.35;
     font-style: italic; }
 
+
 /* Default header styles */
+/*
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -4456,7 +4458,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
     color: #6f6f6f;
     line-height: 0; }
@@ -4492,6 +4495,8 @@ hr {
   clear: both;
   margin: 1.25rem 0 1.1875rem;
   height: 0; }
+
+*/
 
 /* Helpful Typography Defaults */
 em,
@@ -7111,6 +7116,7 @@ section div ul li {
   padding-bottom: 15px;
 }
 
+/* moved to app.css:75
 header{
   padding-top:3em;
   padding-bottom: 4em;
@@ -7125,6 +7131,8 @@ header{
 
 #editorial_staff{
 }
+
+*/
 
 /*Top bar*/
 
