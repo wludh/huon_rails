@@ -250,22 +250,22 @@ class PagesController < ApplicationController
         return result.html_safe
     end
 
-		def parse_seg(child)
-			result = "<seg resp=#{child.attr('resp')}>"
-			result += child.text
-			result += "</seg>"
-			return result.html_safe
-		end
+	def parse_seg(child)
+		result = "<seg resp=#{child.attr('resp')}>"
+		result += child.text
+		result += "</seg>"
+		return result.html_safe
+	end
 
     def parse_line(l)
         result =""
         # parses a line where 'l' is a line_nodeset
         if (l.attr('n').to_i % 5) == 0
             result += "<div class=\"linenumber\">" + l.attr('n').to_s + "</div>"
-        end
+    end
         if l.css('milestone').present?
             result += parse_milestone(l)
-        end
+    end
         result += "<l n=\"#{l.attr('n')}\">"
             if l.css('pb').present?
                 result += parse_pb(l)
