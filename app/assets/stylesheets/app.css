@@ -496,49 +496,37 @@ header{
 
 }
 
-#back_to_intro{
+#back_to_intro {
   display: none;
   cursor: pointer;
   cursor:hand;
   text-decoration: underline;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.lines note sup{
+.lines note sup {
   curser: pointer;
 }
 
-.pagination, #jump_form{
+.pagination, #jump_form {
   display:inline;
 }
 
-#jump_button{
-  border: none;
-  background-color: transparent;
-  text-decoration-color: #5f0000;
-  color: #5f0000;
-}
-
-#jump_button:hover{
-  text-decoration: underline;
-  color: #0078a0;
-}
-
-.resp{
+.resp {
   float: right;
   padding: 24px;
 }
 
 
-#tei-hr-1, #tei-hr-2{
+#tei-hr-1, #tei-hr-2 {
   width:40%;
   text-align:center; margin: 0 auto;
 }
 
-#tei-hr-1{
+#tei-hr-1 {
   display:none;
 }
 
@@ -573,7 +561,7 @@ td {
 }
 
 @media only screen and (max-width: 500px){
-  #TEI_left_panel{
+  #TEI_left_panel {
 /*    display:none !important;
 */
     float: none !important;
@@ -583,33 +571,33 @@ td {
     margin-right: 10% !important;
     height: auto !important;
   }
-  #left-content{
+  #left-content {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
 
-  #hidden-title{
+  #hidden-title {
     padding-left: 0px !important;
   }
 
-  #num_laisses{
+  #num_laisses {
     display: none !important;
   }
 
   #TEI_left_panel hr{
     display: none !important;
   }
-  #side-panel{
+  #side-panel {
     display: none !important;
   }
-  #top-half{
+  #top-half {
 /*    display:none;
 */  }
-  #TEI_reader{
+  #TEI_reader {
     margin-left: 0px !important;
     padding-left: 0px !important;
   }
-  #tei_wrapper{
+  #tei_wrapper {
     width: 80% !important;
   }
 
@@ -642,7 +630,9 @@ td {
   text-align: center;
 }
 
-/* Edition page */
+/* TEI Reading Environment */
+
+/* Top bar button navigation */
 
 #reader-nav {
     width: 100%;
@@ -652,9 +642,38 @@ td {
     background-color: rgba(245,246,246,1);
 }
 
-/* TEI Reading Environment */
+#reader-nav-links{
+  line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+}
 
-/* Top bar button navigation */
+#sub-title{
+  float: left;
+  padding: 0 0.9375rem;
+  line-height: 2.8125rem;
+}
+
+span.translation_missing {
+  color: #a10d09;
+}
+
+#selected_laisse{
+  max-width: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+#jump_button{
+  border: none;
+  background-color: transparent;
+  text-decoration-color: #5f0000;
+  color: #5f0000;
+}
+
+#jump_button:hover{
+  text-decoration: underline;
+  color: #0078a0;
+}
 
 #rajnaCheckbox {
   display: block;
@@ -669,14 +688,6 @@ td {
   float: none;
   display: inline;
   text-decoration: none;
-}
-
-seg {
-  font-style: italic;
-}
-
-.Rajna {
-  color: red;
 }
 
 #diploCheckbox {
@@ -694,8 +705,34 @@ seg {
   text-decoration: none;
 }
 
+/* Reading Panel Style and Formatting */
+
+.line-heading{
+  margin: 0 0 1em 0;
+  font-size: 20pt;
+  color: #a10d09;
+}
+
+.pb {
+  float: left;
+  color: #a10d09;
+  font-size: 11pt;
+}
+
+.milestone{
+  margin-left: -100px;
+}
+
+seg {
+  font-style: italic;
+}
+
 sic {
   display: none;
+  color: red;
+}
+
+.Rajna {
   color: red;
 }
 
@@ -706,16 +743,16 @@ sic {
   width: 150%;
   margin-top: 48px;
   border: none;
-  /* height: 99%
-  padding-left: 40px;
-  margin-top: 48px;
-  padding-top: 44px;
-  border-right: 1px; */
 }
 
-#ms-image-container{
-    margin: 1.5em auto 1.5em auto;
-    padding: .5em 1.5em 1.5em 1.5em;
+#tei_wrapper{
+  margin-left: 150px;
+  width: 25% !important;
+  width: 30%;
+  height: 100%;
+  padding-bottom: 265px;
+  padding-top: 25px;
+  padding-left: 20px;
 }
 
 
@@ -723,60 +760,38 @@ sic {
 
 #side-panel{
   margin-right: 150px;
-  margin-top: 47px;
+  margin-top: 48px;
   margin-bottom: 47px;
   float: right;
   padding-top: 25px;
   width: 39%;
   border: groove 5px;
-  /* height: 100%;
-  overflow: scroll; */
 }
 
-#tei_wrapper{
-  margin-left: 150px;
-  width: 25% !important;
-  /* border: groove 5px; */
-  width: 30%;
-  height: 100%;
-  padding-bottom: 277px;
-  padding-top: 25px;
-  padding-left: 20px;
-}
-
-lg {
-  display: inline-block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.milestone{
-  margin-left: -100px;
-}
-
-/* CSS not yet organized */
-
-#sub-title{
-  float: left;
-  padding: 0 0.9375rem;
-  line-height: 2.8125rem;
-}
-
-#reader-hr{
-  margin: 0.5em 0.5em 0 0;
-  margin-top: -2px;
-}
-
-#reader-nav-links{
-  line-height: 2.8125rem;
-    padding: 0 0.9375rem;
+#ms-image-container{
+    margin: 1.5em auto 1.5em auto;
+    padding: .5em 1.5em 1.5em 1.5em;
 }
 
 #note-close{
   float: left;
-  margin-top: -2px;
+  margin-top: -20px;
+  margin-left: 3px;
   cursor: pointer;
   cursor: hand;
+}
+
+lg {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+/* CSS not yet organized */
+
+#reader-hr{
+  margin: 0.5em 0.5em 0 0;
+  margin-top: -2px;
 }
 
 #reader-center-div{
@@ -816,11 +831,6 @@ code, pre{
 
 #tei-link-mobile{
   display: none;
-}
-
-.line-heading{
-  margin: 0 0 1em 0;
-  font-size: 130%;
 }
 
 #note-header, #image-header, #tei-embed-header{

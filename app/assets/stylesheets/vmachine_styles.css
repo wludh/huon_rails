@@ -915,10 +915,6 @@ select {
   margin-bottom: 0;
   max-width: 62.5rem; }
 
-span {
-  color: #a10d09;
-}
-
 /* End here? -------------------------------------------------------------------------------- */
 
   .row:before, .row:after {
@@ -7053,14 +7049,6 @@ top-bar{
 
 .hidden{
   display: none;
-}
-
-#selected_laisse{
-  max-width: 40px;
-  margin: auto;
-/*  display: inline;
-*/  text-align: center;
-
 }
 
 .center{

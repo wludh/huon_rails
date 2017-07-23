@@ -62,8 +62,8 @@ console.log('ready');
     function open_sidepanel(){
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
-        $('#tei_wrapper').css('border', 'groove', '5px #DDDDDD solid');
-        $('.milestone').css('margin-right', '50px');
+        $('#tei_wrapper').css('border', 'groove', '10px #DDDDDD solid');
+        $('.pb').css('float', 'left')
         $('#note-close').addClass('active');
         $('#tei_wrapper').css('overflow', 'scroll');
     }
