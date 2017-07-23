@@ -123,9 +123,9 @@
                     <msContents>
                         <textLang mainLang="FI">Franco-Italian</textLang>
                         <msItem>
-                            <locus from="1r" to="117v">ff. 1r-183v</locus>
+                            <locus from="1r" to="183v">ff. 1r-183v</locus>
                             <author xml:id="scribe">Anonymous</author>
-                            <!-- check foliation with Leslie -->
+                            <!-- checked foliation with Leslie OK-->
                             <title xml:lang="FI">Huon d'Auvergne</title>
                             <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
                             <explicit/>
@@ -151,7 +151,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p>Written in one hand</p>
+                            <p>Written in several hands (corrections in different ink: Rajna)</p>
                         </handDesc>
                         <decoDesc>
                             <p>Text written in laisses; illumination program throughout, though
@@ -771,7 +771,10 @@
                 <l n="478">del falo ch'el avea fato, e morto se tene y<ex rend="italic">n</ex>tra ello; </l>
                 <l n="479">(475) tuto cosỳ fo lo re quando la resposta oldote.</l>
                 <l n="480">Endré se'n reto(r)na, da la festa se de(s)partia. </l>
-                <l n="481">Laisse 19 Lo re entra en soa zambra serata; </l>
+              </lg>
+              <lg type="laisse" n="19">
+                  <head>Laisse 19</head>
+                <l n="481">Lo re entra en soa zambra serata; </l>
                 <l n="482">desopra un leto che molto è chiaro e belo</l>
                 <l n="483">s'aseta lo re, che lo coro avea destruto;</l>
                 <l n="484">(480) com falsy pensery pensery el <ex rend="italic">com</ex>batea. </l>
@@ -791,7 +794,10 @@
                 <l n="498">May a descoprirse <ex rend="italic">con</ex>tra nesun no<ex rend="italic">n</ex> s'osava,</l>
                 <l n="499">(495) né suo pensero tutavia no<ex rend="italic">n</ex> cesava</l>
                 <l n="500">com suo volere a sequezion el poria. </l>
-                <l n="501">Laisse 20 Charlo Martelo sopra questo molto penssa</l>
+              </lg>
+              <lg type="laisse" n="20">
+                  <head>Laisse 20</head>
+                <l n="501">Charlo Martelo sopra questo molto penssa</l>
                 <l n="502">como averà ello la <ex rend="italic">con</ex>tesa e lo <ex rend="italic">con</ex>te cazarà,</l>
                 <l n="503">se per forza el volle fare ben conose ch'el no<ex rend="italic">n</ex> poria: </l>
                 <l n="504">(500) molto à forza d'amize e molte bon ch<ex rend="italic">avale</ex>r n'avea,</l>
@@ -820,7 +826,10 @@
                 <l n="525">Zascun desidra de tornare y<ex rend="italic">n</ex> so paiese,</l>
                 <l n="526">(520) mé no<ex rend="italic">n</ex>n-osano fina a tanto che lo re vira,</l>
                 <l n="527">per lo corazo del re che zaschun se dota.</l>
-                <l n="528">Laisse 21 Lo quarto zorno apresso studevelmente </l>
+              </lg>
+              <lg type="laisse" n="21">
+                  <head>Laisse 21</head>
+                <l n="528">Lo quarto zorno apresso studevelmente </l>
                 <l n="529">molto di baron (no<ex rend="italic">n</ex>) n∙ano ardimento</l>
                 <l n="530">d'entrare en la camara onda lo re sta a zasere;</l>
                 <l n="531">(525) pur adomandare no<ex rend="italic">n</ex> requereno niente,</l>
@@ -843,7 +852,10 @@
                 <l n="548">justizia ne sia, e preso a vostro coma<ex rend="italic">n</ex>dame<ex rend="italic">n</ex>to,</l>
                 <l n="549">e vuy de questo no<ex rend="italic">n</ex> abiate nesun pensame<ex rend="italic">n</ex>to.</l>
                 <l n="550">Mostrate vostro corazo e tuto vostro ardime<ex rend="italic">n</ex>to."</l>
-                <l n="551">(545) Laisse 22 "Ay," dize Sandy<ex rend="italic">n</ex>, "per Dio, mio signore,</l>
+              </lg>
+              <lg type="laisse" n="22">
+                  <head>Laisse 22</head>
+                <l n="551">(545)"Ay," dize Sandy<ex rend="italic">n</ex>, "per Dio, mio signore,</l>
                 <l n="552">no<ex rend="italic">n</ex> ve lamenta(de), e non abiate nesun pe<ex rend="italic">n</ex>sero:</l>
                 <l n="553">non è homo al mondo perché abiate temore,</l>
                 <l n="554">abiate pensero (e) coro de bon y<ex rend="italic">m</ex>peradore</l>
@@ -867,6 +879,7 @@
                 <l n="571">(565) che yo no<ex rend="italic">n</ex> faza per vuy, se morte sostegnese ancora.</l>
                 <l n="572">Seguramente li dize che ancha no<ex rend="italic">n</ex> fo bosadro;</l>
                 <l n="573">a mio podere lo farazo com vuy olderite tute zorne."</l>
+              </lg>
                 <l n="574">Laisse 23 "Sandy<ex rend="italic">n</ex>," dize lo re, "desopra, entendite a my: </l>
                 <l n="575">una cossa te dirazo, zò serà y<ex rend="italic">n</ex> sacreto.</l>
                 <l n="576">(570) Guarda, no∙l dire a nesun fora a quily che dir lo deze.</l>
