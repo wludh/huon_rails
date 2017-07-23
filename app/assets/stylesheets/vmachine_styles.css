@@ -830,6 +830,9 @@ html,
 body {
   font-size: 100%; }
 
+
+/* moved to app.css:48 
+
 body {
   background: #fff;
   color: #222;
@@ -841,6 +844,7 @@ body {
   line-height: 25px;
   position: relative;
   cursor: auto; }
+*/
 
 a:hover {
   cursor: pointer; }
@@ -7076,6 +7080,7 @@ padding-top: 8px;
   text-align:center; margin: 0 auto;
 }
 
+/* moved to app.css:48
 body{
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   background: rgba(255,255,255,0.9);
@@ -7087,6 +7092,7 @@ body{
   overflow-x:hidden;
 
 }
+*/
 
 .large-offset-2 {
   margin-left: 10.66667% !important;
@@ -7181,13 +7187,6 @@ p {
 
 .participant_section{
   padding-bottom: 10px;
-}
-
-h1, h4, h5 {
-  color:#333;
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif !important;
-  margin-bottom:0;
-  text-align: center;
 }
 
 p.tagline {
