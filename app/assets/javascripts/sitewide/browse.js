@@ -63,9 +63,11 @@ console.log('ready');
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
         $('#tei_wrapper').css('border', 'groove', '10px #DDDDDD solid');
-        $('.pb').css('float', 'left')
-        $('#note-close').addClass('active');
         $('#tei_wrapper').css('overflow', 'scroll');
+        $('#tei_wrapper').css('width', '25%');
+        $('#tei_wrapper').css('padding-bottom', '191px');
+        $('.pb').css('float', 'left');
+        $('#note-close').addClass('active');
     }
 
     function hide_image(){
