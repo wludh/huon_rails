@@ -866,11 +866,9 @@ ex[rend="angle"]::before{
 
 /*tags below don't work*/
 
-num[rend="smallcaps"]{
+num {
   font-variant: small-caps;
   color: green;
 }
 
-choice sic hi[rend="red-corr"]{
-  color: red;
-}
+

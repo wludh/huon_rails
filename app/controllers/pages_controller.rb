@@ -7,7 +7,7 @@ class PagesController < ApplicationController
     require 'active_support/core_ext/array/conversions.rb'
 
     def show
-        # convert the pages parameter into the tidy slug
+    # convert the pages parameter into the tidy slug
         render template: "pages/#{params[:page]}"
     end
 
@@ -126,7 +126,7 @@ class PagesController < ApplicationController
             'br.xml' => 'notes-br.xml',
             't.xml' => 'notes-t.xml',
             'b.xml' => 'notes-b.xml',
-						'translation-b.xml' => 'notes-translation-b.xml',
+			'translation-b.xml' => 'notes-translation-b.xml',
         }
 
         # get the author and note nodes from the notes file
@@ -252,8 +252,14 @@ class PagesController < ApplicationController
 
 	def parse_seg(child)
 		result = "<seg resp=#{child.attr('resp')}>"
-		result += child.text
+        for seg_child in child.children
+            if seg_child.name == 'text'
+                result += seg_child.text
+            else
+                result += parse_tag(seg_child)
+            end
 		result += "</seg>"
+        end
 		return result.html_safe
 	end
 
@@ -275,11 +281,11 @@ class PagesController < ApplicationController
                     result += parse_choice(child)
                  elsif child.name == 'ex'
                     result += parse_tag(child)
-                     # add any new tags in the following array.
-                elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi'].include? child.name
+                     # add any new tags in the following array, Steve.
+                elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi', 'num', 'q'].include? child.name
                     result += parse_tag(child)
-								elsif child.name == 'seg'
-										result += parse_seg(child)
+				elsif child.name == 'seg'
+					result += parse_seg(child)
                 elsif child.name == 'note'
                     result += parse_note(child, @@internal_note_counter)
                     @@internal_note_counter += 1

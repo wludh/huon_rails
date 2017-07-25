@@ -1039,49 +1039,11 @@ notesStmt {
 
   display: none;
 }
-num {
-  font-variant: small-caps;
-}
-number {
-  /* Empty Rule Set */
-}
-numeric {
-  /* not sure, depends how we're dealing with <f>'s */
-}
-nym {
-  /* not really sure here */
-}
-/* o */
-oRef {
-  /* not sure, think do nothing */
-}
+
 oVar {
   font-style: italic;
 }
-objectDesc {
-  /* Empty Rule Set */
-}
-objectType {
-  /* Empty Rule Set */
-}
-occupation {
-  /* Empty Rule Set */
-}
-offset {
-  /* Empty Rule Set */
-}
-opener {
-  /* Empty Rule Set */
-}
-org {
-  /* Empty Rule Set */
-}
-orgName {
-  /* Empty Rule Set */
-}
-origDate {
-  /* Empty Rule Set */
-}
+
 origPlace {
   font-weight: bold;
 }
