@@ -151,19 +151,19 @@ div.line {
    padding: 0;
    cursor: pointer;
 }
-div.line div.linenumber,
+/*div.line div.linenumber,
 div.line div.emptynumber {
    float: left;
    margin-left: -2.5em;
    width: 2em;
   background-color: rgba(0, 0, 0, 0);
-}
-div.line div.linenumber {
+}*/
+/*div.line div.linenumber {
    text-align: right;
    color: #003366;
    text-decoration: underline;
    cursor: pointer;
-}
+}*/
 div.head {
    font-size: 115%;
    color: #003366;

@@ -259,8 +259,7 @@
                 <l n="38"><seg>che la rota non poria</seg> aver miga.</l>
                 <l n="39"><seg>Perzò che lo re se</seg> sente tanto avanzare</l>
                 <l n="40"><seg>più che doncha no<ex rend="italic">n</ex> fo</seg> sỳ anticho miga,</l>
-                <l n="41"><milestone n="1V" unit="fol."/>
-                    <seg>più orgoioso ne fo et più che zudice.</seg></l>
+                <l n="41"><milestone n="1V" unit="fol."/><seg>più orgoioso ne fo et più che zudice.</seg></l>
                 <l n="42"><seg>A torto il tole altruy l'avere <ex rend="italic">et</ex> altruy el
                         des<ex rend="italic">er</ex>ta,</seg></l>
                 <l n="43"><seg>et molte done à vergognà et hodiate,</seg></l>
@@ -273,7 +272,7 @@
                 <l n="47"><seg>de Carlo Martelo che fo y<ex rend="italic">m</ex>peradore</seg>,</l>
                 <l n="48"><seg>che y<ex rend="italic">n</ex> suo tempo conquistò tanto onore;</seg></l>
                 <l n="49"><seg>com più el</seg> <ex rend="italic">con</ex>quistò più fo crud<seg>ele tute hore.</seg></l>
-                <l n="50">(50)<seg>Né à re</seg> né à prinzipo né à ducha <seg>né à valvasore</seg>
+                <l n="50"><anchor resp="Rajna" n="50"/>(50)<seg>Né à re</seg> né à prinzipo né à ducha <seg>né à valvasore</seg>
                 </l>
                 <!-- Solution for alternate Rajna line numbers? <milestone ed="Rajna" n="50"/> -->
                 <l n="51"><seg>né à</seg> conte né à marchese né baron <seg>dentorno</seg></l>

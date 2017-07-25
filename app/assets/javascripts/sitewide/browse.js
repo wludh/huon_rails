@@ -113,6 +113,9 @@ console.log('ready');
               notePanel.style.display = "block";
            }
            $('.milestone').css('margin-right', '-50px');
+//inserted code for anchor
+           $('anchor').css('margin-right'), '-60px');
+//end anchor code
            $('#note-close').removeClass('active');
            $('#tei_wrapper').css('overflow', 'visible');
         });

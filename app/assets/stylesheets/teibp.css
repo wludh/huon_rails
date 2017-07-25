@@ -126,11 +126,7 @@ activity {
 activity:before {
   content: "activity: ";
 }
-actor {
-  /* Empty Rule Set */
-}
-/* add */
-/* Could add other [place=] variations */
+
 add {
   vertical-align: super;
   font-size: 90%;
@@ -139,12 +135,7 @@ add[place=below] {
   vertical-align: sub;
   font-size: 90%;
 }
-addName {
-  /* Empty Rule Set */
-}
-addSpan {
-  /* Empty Rule Set */
-}
+
 additional {
   display: block;
 }
@@ -157,9 +148,7 @@ additions:before {
 addrLine {
   display: block;
 }
-address {
-  /* Empty Rule Set */
-}
+
 address[rend~="block"],
 addresss[rendition~="#block"] {
   display: block;
@@ -167,36 +156,15 @@ addresss[rendition~="#block"] {
 adminInfo {
   display: block;
 }
-affiliation {
-  /* Empty Rule Set */
-}
-age {
-  /* Empty Rule Set */
-}
-alt {
-  /* Empty Rule Set */
-}
-altGrp {
-  /* Empty Rule Set */
-}
-altIdent {
-  /* Empty Rule Set */
-}
+
 altIdentifier {
   display: block;
 }
 altIdentifier:before {
   content: "Alternate ID: ";
 }
-am {
-  /* Empty Rule Set */
-}
-analytic {
-  /* Empty Rule Set */
-}
-anchor {
-  /* Empty Rule Set */
-}
+
+
 app {
   display: block;
 }
@@ -941,7 +909,7 @@ metDecl {
 metSym {
   /* Empty Rule Set */
 }
-milestone {
+/*milestone {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -949,7 +917,7 @@ milestone {
 }
 milestone:before {
   content: "* * * * *";
-}
+}*/
 moduleRef {
   /* probably hide, not sure how we want to deal */
 }

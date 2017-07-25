@@ -191,6 +191,11 @@ class PagesController < ApplicationController
     def parse_milestone(line)
         (('<div class="milestone pb">') + line.css('milestone').attr('unit') + ' ' + line.css('milestone').attr('n').text + '</div>').html_safe
     end
+# inserted code for anchor
+    def parse_anchor(line)
+        (('<div class="anchor">') + line.css('anchor').attr('resp') + ' ' + line.css('anchor').attr('n').text + '</div>').html_safe
+    end
+# end anchor code
 
     def parse_heading(line_group)
         # parses line group
@@ -272,6 +277,12 @@ class PagesController < ApplicationController
         if l.css('milestone').present?
             result += parse_milestone(l)
     end
+# inserted code for anchor
+        if l.css('anchor').present?
+            result += parse_anchor(l)
+    end
+# end inserted code for anchor
+
         result += "<l n=\"#{l.attr('n')}\">"
             if l.css('pb').present?
                 result += parse_pb(l)
@@ -282,7 +293,7 @@ class PagesController < ApplicationController
                  elsif child.name == 'ex'
                     result += parse_tag(child)
                      # add any new tags in the following array, Steve.
-                elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi', 'num', 'q'].include? child.name
+                elsif ['cb', 'corr', 'rubric', 'ab', 'lb', 'hi', 'num', 'anchor', 'q'].include? child.name
                     result += parse_tag(child)
 				elsif child.name == 'seg'
 					result += parse_seg(child)
