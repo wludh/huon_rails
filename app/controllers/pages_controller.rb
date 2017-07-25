@@ -15,7 +15,7 @@ class PagesController < ApplicationController
     def import_html(html_file)
 
     # take the html file name and return a nokogiri object
-        return File.open( "./lib/assets/#{html_file}") {
+    return File.open( "./lib/assets/#{html_file}") {
             |f| Nokogiri::HTML(f)
         }
 
@@ -91,7 +91,7 @@ class PagesController < ApplicationController
     def parsing_for_tei_embed(doc, page_num)
         # restructures TEI and throws away all but the laisse we're looking at.
 
-        # it no page_num is present assume page one.
+        # if no page_num is present assume page one.
         page_num ||= "1"
 
         # grab the active laisse and store it for next step
