@@ -263,8 +263,8 @@ class PagesController < ApplicationController
             else
                 result += parse_tag(seg_child)
             end
-		result += "</seg>"
         end
+      result += "</seg>"
 		return result.html_safe
 	end
 
