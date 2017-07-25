@@ -366,12 +366,12 @@ class PagesController < ApplicationController
 	end
 
 	def intro_praxis
-			render template: "pages/intro_praxis"
+		render template: "pages/intro_praxis"
 	end
 
 	def b_manuscript
-    parse_tei('b.xml')
-    render template: "pages/b"
+        parse_tei('b.xml')
+        render template: "pages/b"
     end
 
 	def b_praxis
