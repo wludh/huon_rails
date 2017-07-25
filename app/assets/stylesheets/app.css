@@ -725,6 +725,11 @@ span.translation_missing {
   margin-left: -100px;
 }
 
+num {
+  font-variant: small-caps;
+  color: indianred;
+}
+
 seg {
   font-style: italic;
 }
@@ -845,6 +850,8 @@ height:100px;
 overflow-y: scroll;
 }
 
+/* Other CSS solutions */
+
 hi[rend="red-initial"]{
   color: red;
   font-size: 40px;
@@ -863,12 +870,5 @@ ex[rend="angle"]::before{
   content: "<"
 }
 
-
-/*tags below don't work*/
-
-num {
-  font-variant: small-caps;
-  color: green;
-}
 
 
