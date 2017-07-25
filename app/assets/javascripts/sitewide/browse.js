@@ -64,8 +64,7 @@ console.log('ready');
         $('#TEI_reader').css('margin-left', '0%');
         $('#tei_wrapper').css('border', 'groove', '10px #DDDDDD solid');
         $('#tei_wrapper').css('overflow', 'scroll');
-        $('#tei_wrapper').css('width', '25%');
-        $('#tei_wrapper').css('padding-bottom', '191px');
+        $('#tei_wrapper').css('width', '28%');
         $('.pb').css('float', 'left');
         $('#note-close').addClass('active');
     }
