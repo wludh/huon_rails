@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-07032017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-07252017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -259,7 +259,8 @@
                 <l n="38"><seg>che la rota non poria</seg> aver miga.</l>
                 <l n="39"><seg>Perzò che lo re se</seg> sente tanto avanzare</l>
                 <l n="40"><seg>più che doncha no<ex rend="italic">n</ex> fo</seg> sỳ anticho miga,</l>
-                <l n="41"><milestone n="1V" unit="fol."/><seg>più orgoioso ne fo et più che zudice.</seg></l>
+                <l n="41"><milestone n="1V" unit="fol."/>
+                    <seg>più orgoioso ne fo et più che zudice.</seg></l>
                 <l n="42"><seg>A torto il tole altruy l'avere <ex rend="italic">et</ex> altruy el
                         des<ex rend="italic">er</ex>ta,</seg></l>
                 <l n="43"><seg>et molte done à vergognà et hodiate,</seg></l>
@@ -272,7 +273,7 @@
                 <l n="47"><seg>de Carlo Martelo che fo y<ex rend="italic">m</ex>peradore</seg>,</l>
                 <l n="48"><seg>che y<ex rend="italic">n</ex> suo tempo conquistò tanto onore;</seg></l>
                 <l n="49"><seg>com più el</seg> <ex rend="italic">con</ex>quistò più fo crud<seg>ele tute hore.</seg></l>
-                <l n="50"><anchor resp="Rajna" n="50"/>(50)<seg>Né à re</seg> né à prinzipo né à ducha <seg>né à valvasore</seg>
+                <l n="50"><anchor resp="Rajna" n="50"/><seg>Né à re</seg> né à prinzipo né à ducha <seg>né à valvasore</seg>
                 </l>
                 <!-- Solution for alternate Rajna line numbers? <milestone ed="Rajna" n="50"/> -->
                 <l n="51"><seg>né à</seg> conte né à marchese né baron <seg>dentorno</seg></l>
@@ -316,7 +317,7 @@
                 <l n="81"><seg>et lo re la vole tenire de sty barone</seg>.</l>
                 <l n="82"><seg>Apresso a la festa che devis</seg>à nuy abiam<seg>o</seg></l>
                 <l n="83"><seg>ly vene de le zente una</seg> sì gra<ex rend="italic">n</ex> frota</l>
-                <l n="84"><seg>che <num>.xii.</num> re ly sono tu</seg>te decorona:</l>
+                <l n="84"><seg>che <num>.XII.</num> re ly sono tu</seg>te decorona:</l>
                 <l n="85">(85) <seg>àno bon corazo et le</seg> zente guarnỳ sono. </l>
                 <l n="86"><seg>E stare ly ducha e ly</seg> prenzipy et li <ex rend="italic">con</ex>te,</l>
                 <l n="87"><seg>et zente li fo de m</seg>olte noble rasone:</l>
@@ -356,7 +357,7 @@
                 <l n="113"><seg>manzare e bevere; (da) anpò li fede à dato</seg></l>
                 <l n="114"><seg>tuta la costum</seg>a che ten<seg>ea Orlando lo bon ducha.</seg></l>
                 <l n="115">(115) <seg>E cosỳ avea</seg> lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex>e del tut<seg>o mantenuta</seg></l>
-                <l n="116"><seg>più de <num>.ii.</num></seg><hi rend="superscript">M</hi> povre zasc(ad)un zorn<seg>o à pasuto,</seg></l>
+                <l n="116"><seg>più de <num>.II.</num></seg><hi rend="superscript">M</hi> povre zasc(ad)un zorn<seg>o à pasuto,</seg></l>
                 <!-- check superscript tag -->
                 <l n="117"><seg>e sen</seg>za li altre de zentyl home<seg>ne ch<ex rend="italic">e</ex> so<ex rend="italic">n</ex>te:</seg></l>
                 <l n="118">cosỳ a soa corte lor sono ben c<seg>orute</seg></l>
@@ -370,7 +371,7 @@
                 <l n="126">e molte di altre ch'el tenea p<ex rend="italic">er</ex> dr<seg>ute:</seg></l>
                 <l n="127">(125) "Signore," diz elo, "bon grato a vuy <seg>v'azo re<ex rend="italic">n</ex>duto</seg></l>
                 <l n="128">quando per me honore vuy sit<seg>e tuty venute.</seg></l>
-                <l n="129">Oramay el è ben <num>.x.</num> any, grazia <seg>n'abia Yh<ex rend="italic">es</ex>u,</seg> </l>
+                <l n="129">Oramay el è ben <num>.X.</num> any, grazia <seg>n'abia Yh<ex rend="italic">es</ex>u,</seg> </l>
                 <l n="130">ch'el non è re i<ex rend="italic">n</ex> <ex rend="italic">crist</ex>ianetà né sỳ <seg>posente</seg></l>
                 <l n="131">che m'osase amoverme gue<seg>ra,</seg></l>
                 <l n="132">(130) né del guerezare né farme ho<seg>ltrazo.</seg></l>
@@ -573,7 +574,7 @@
                 <l n="304">Quando avè el re a zascun <seg>fato donare</seg></l>
                 <l n="305">del suo arzento e chavaly e d<seg>estrere</seg></l>
                 <l n="306">falcon e mule et astore e spara<seg>vere,</seg></l>
-                <l n="307">lo'mperadore comandò a ly .<num>.xii.</num>. r<seg>e che tornasene</seg></l>
+                <l n="307">lo'mperadore comandò a ly .<num>XII</num>. r<seg>e che tornasene</seg></l>
                 <l n="308">en suo paiese onda lor solevano a<seg>bitare;</seg></l>
                 <l n="309">(305) et aparechià sono d'arme et destr<seg>ere</seg></l>
                 <l n="310">cosỳ tosto co<ex rend="italic">m</ex> lor oldeno el suo co<seg>ma<ex rend="italic">n</ex>dame<ex rend="italic">n</ex>to,</seg></l>
@@ -1426,12 +1427,11 @@
                 <l n="1050">né lo <ex rend="italic">con</ex>te d'Alvergna refrenare no<ex rend="italic">n</ex> ly posea.</l>
                 <l n="1051">Quando Ynida l'entende de dolor spasima;</l>
                 <l n="1052">lo <ex rend="italic">con</ex>te quando el la vite de piatà se strenzea.</l>
-                <l n="1053">(1045)<milestone n="18V" unit="fol."/>
               </lg>
               <lg type="laisse" n="41">
                   <head>Laisse 41</head>
-                 Quando fo y<ex rend="italic">n</ex> sỳ
-                    retornà la dona el bon <ex rend="italic">con</ex>te </l>
+                <l n="1053">(1045)<milestone n="18V" unit="fol."/>Quando fo y<ex rend="italic">n</ex> sỳ
+                    retornà la dona el bon <ex rend="italic">con</ex>te</l>
                 <l n="1054">E ley li dize, "Così me lasarite cosỳ adoncha</l>
                 <l n="1055">quando vuy fuste dado a my per <ex rend="italic">com</ex>pagnone?</l>
                 <l n="1056">Eio no<ex rend="italic">n</ex> credeva zamay venire a tal ponto</l>
@@ -1690,11 +1690,10 @@
                 <l n="1279">Et ello l'avè asolto; pocho trova y<ex rend="italic">n</ex> luy folia.</l>
                 <l n="1280">Posa lo feze levare quando el l'avè benedeto, </l>
                 <l n="1281">che sapere el vole più avante de soa vita. </l>
-                <l n="1282">(1275)<milestone n="23R" unit="fol."/>
               </lg>
               <lg type="laisse" n="49">
                   <head>Laisse 49</head>
-                  Denanzo a l'Apostolo staseva lo <ex rend="italic">con</ex>te Ugone; </l>
+                <l n="1282">(1275)<milestone n="23R" unit="fol."/>Denanzo a l'Apostolo staseva lo <ex rend="italic">con</ex>te Ugone;</l>
                 <l n="1283">lo requerre ch<ex rend="italic">e</ex> luy si dicha el so nome,</l>
                 <l n="1284">de qual lignazo et qual nasione,</l>
                 <l n="1285">"Zurare eio posso senza danazione</l>
@@ -1702,7 +1701,7 @@
                 <l n="1287">(1280) Se zò mantene ch<ex rend="italic">e</ex> tu ai dito i<ex rend="italic">n</ex> to s<ex rend="italic">er</ex>mone,</l>
                 <l n="1288">p<ex rend="italic">er</ex> ty miracholo e<ex rend="italic">n</ex> farà lo Dio del trone.</l>
                 <l n="1289"><milestone n="23V" unit="fol."/> Dite∙me vostro es<ex rend="italic">er</ex>re, che molto el
-                    disederemo." </l>
+                    disederemo."</l>
                 <l n="1290">Quelo li <ex rend="italic">con</ex>tò a moto a moto <ex rend="italic">con</ex> ponto e<ex rend="italic">n</ex> ponto;</l>
                 <l n="1291">quando l'Apostolo l'olde de soa nasio, de soy ochi del fron</l>
                 <l n="1292">(1285) teneramente plura, e disse, "Ai, zentil homo,</l>
@@ -1821,11 +1820,10 @@
                 <l n="1394">(1385) in quelo loco sono li maistri molty sotile</l>
                 <l n="1395">che p<ex rend="italic">er</ex> gran sotilieza ben costionar porà</l>
                 <l n="1396">tuto zò ch'el cerca, se nula trovare se porà.</l>
-                <l n="1397"><milestone n="25R" unit="fol."/>
               </lg>
               <lg type="laisse" n="53">
                   <head>Laisse 53</head>
-                Hugon i<ex rend="italic">n</ex>tende la parola, fermamente li agreva</l>
+                <l n="1397"><milestone n="25R" unit="fol."/>Hugon i<ex rend="italic">n</ex>tende la parola, fermamente li agreva</l>
                 <l n="1398">a loro i<ex rend="italic">n</ex> rende marzede. Da loro el feze dep<ex rend="italic">ar</ex>ta<ex rend="italic">n</ex>za</l>
                 <l n="1399">(1390) drito pur luy siè venuto, non feze demoranza</l>
                 <l n="1400">p<ex rend="italic">er</ex> puy tosto ch'el posea s'envia p<ex rend="italic">er</ex> i<ex rend="italic">n</ex>trare e<ex rend="italic">n</ex> mare.</l>
@@ -2803,7 +2801,8 @@
                 <l n="2256">"Vuy comandate che ancora fati tal labore,</l>
                 <l n="2257"><milestone n="37V" unit="fol."/> che per deleto mon<ex rend="italic">da</ex> non p<ex rend="italic">er</ex>da la
                     zoia mazore.</l>
-                    2258	<ex rend="italic"> Vuy avite i[n]teso p[er] miraclo mazore</ex>
+                <l n="2258">Vuy avite i[n]teso p[er] miraclo mazore</l>
+                    <!-- render this line italic -->
                 <l n="2258">Quele ovre avite fate chi era vostro signore;</l>
                 <l n="2259">(2240) servite luy de bon coro e se ly portaty onore.</l>
                 <l n="2260">Eio non posso romanere, non p(i)asse al Criatore:</l>
@@ -3199,9 +3198,9 @@
                 <l n="2600">sovente guardano luy <ex rend="italic">et</ex> luy lor simelmente</l>
                 <l n="2601">oltra si è pasà asa tostamente</l>
                 <l n="2602">mé p<ex rend="italic">er</ex> un mal paso chi trovo lo <ex rend="italic">con</ex>te</l>
-                <l n="2603"><milestone n="42V" unit="fol."/> non pose andare tosto me si va
-                    pianame<ex rend="italic">n</ex>ty</l>
-                    2605	<ex rend="italic">Tanto siè caminà che a la piana el è venuto</ex>;
+                <l n="2603"><milestone n="42V" unit="fol."/>non pose andare tosto me si va pianame<ex rend="italic">n</ex>ty</l>
+                <l n="2605">Tanto siè caminà che a la piana el è venuto;</l>
+                <!-- one of the missing lines, render in italics -->
                 <l n="2604">(2580) pasa l'avea la selva, al maro el è venuto.</l>
                 <l n="2605">Alora el guarda p<ex rend="italic">er</ex> denanzo e p<ex rend="italic">er</ex> dedreto</l>
                 <l n="2606">el crede ben trovare soa galeia e soa zente</l>
@@ -8244,7 +8243,8 @@
                 <l n="7421">(7395) arestate vuy un pocho da parte de Quelo chi non a pare.</l>
                 <l n="7422">Non vollio zamay sofrire, yo ve∙l dicho senza falire;</l>
                 <l n="7423">zò staty pary, falsy sperite, da parte de Dio vivo.</l>
-                <l n="7424"><milestone n="1R" unit="fol."/> 112V) <ex rend="italic"Cosỳ como verasemente lo credo de coro verase
+                <l n="7424"><milestone n="1R" unit="fol."/>(112V)Cosỳ como verasemente lo credo de coro verase</l>
+                <!-- one of the missing lines, render in italics -->
                 <l n="7428"> Cosỳ sofrite a obedirme tuto zò che a my piaze </l>
                 <l n="7425">(7400) ny ponto y<ex rend="italic">n</ex>pazo per vuy zà nula no<ex rend="italic">n</ex>n-aze."</l>
                 <l n="7426">Laisse 300 Lo <ex rend="italic">con</ex>te li avè s<ex rend="italic">con</ex>zurà, "Che dite vuy a bona fede? </l>
