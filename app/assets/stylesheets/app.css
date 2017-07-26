@@ -725,9 +725,10 @@ num {
 }
 
 .anchor {
+  display: none;
   float: left;
   margin-left: -150px;
-  color: #a10d09;
+  color: red;
 }
 
 /* inserted code for anchor */

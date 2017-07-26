@@ -115,7 +115,7 @@ console.log('ready');
            }
            $('.milestone').css('margin-right', '-50px');
 //inserted code for anchor
-           $('anchor').css('margin-right', '-60px');
+           // $('anchor').css('margin-right', '-60px');
 //end anchor code
            $('#note-close').removeClass('active');
            $('#tei_wrapper').css('overflow', 'visible');
@@ -155,14 +155,16 @@ console.log('ready');
     }
 
     $(function rajna_toggle(){
-        // if the corrections checkbox is checked, seg tags get highlighted
+// if the corrections checkbox is checked, seg and anchor tags highlight red
         $('#rajnaCheckbox').click(function(){
             var checked = $('#rajnaCheckbox').prop('checked');
             if (checked) {
-                $('seg').addClass('Rajna');
+                $('seg').addClass('Rajna').fadeIn;
+                $('.anchor').fadeIn();
             }
             else {
-                $('seg').removeClass('Rajna');
+                $('seg').removeClass('Rajna').fadeOut;
+                $('.anchor').fadeOut();
             }
         });
     });
@@ -183,6 +185,7 @@ console.log('ready');
             }
         });
     });
+
 
     // Not implementing yet, but will be used for the diplomatic/scribal bits.
     function toggle_sic_on(){
