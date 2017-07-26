@@ -1,10 +1,60 @@
-<section class="row">
+<!-- Reading Grid for Manuscript Introductions -->
+<div class="container">
+
+<!-- Title Cell -->
+    <div class="row">
+        <div class="col-12">
+            <%= @title %>
+        </div>
+    </div>
+
+<!-- Intro Data Row -->
+    <div class="row">
+        <div class="col-4">
+            Title: Huon d'Auvergne
+        </div>
+        <div class="col-4">
+            Date: 1441
+        </div>
+        <div class="col-4">
+            Parchment
+        </div>
+    </div>
+
+<!-- Image and Intro Row -->
+<!-- Image Cell -->
+    <div class="row">
+        <div class="col-6">
+            <%= image_tag('rajna_1.jpg', id: 'ms-image', alt: 'Manuscript image') %>
+        </div>
+
+<!-- Introduction Cell -->
+        <div class="col-6">
+            <%= @introduction %>
+        </div>
+    </div>
+
+<!-- Link Cell -->
+    <div class="row">
+        <div class="col-3">
+            <%= link_to('Read', url_for(params.merge(:edition => true))) %>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<!-- <section class="row">
     <div class="large-8 large-offset-2 columns">
         <div id="introduction">
             <div id="title">
                 <%= @title %>
             </div>
             <hr>
+            <div id="intro-image">
+            </div>
             <div id="introduction-text">
                 <%= @introduction %>
             </div>
@@ -13,4 +63,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
