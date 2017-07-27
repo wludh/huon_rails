@@ -305,7 +305,7 @@ header{
 
     list-style: none;
     font-weight: lighter;
-    width: 100%;
+    width: auto;
     text-align: center;
     background-color: #000000;
     height: 13%;
@@ -315,7 +315,7 @@ header{
     list-style-type: none;
     margin: 0px;
     padding: 0;
-    width: 100%;
+    width: auto;
     background-color: black;
 }
 
@@ -335,7 +335,7 @@ header{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    width: 150px;
+    width: auto;
 }
 
 #title a {
