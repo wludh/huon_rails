@@ -201,6 +201,7 @@ p.intro {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  margin-top: 25%;
 }
 
 hr {
@@ -215,7 +216,7 @@ hr {
 }
 
 .large-8 {
-  width: 80.66667%;
+  width: 66.66667%;
 }
 
 section div ul li {
