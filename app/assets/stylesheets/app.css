@@ -308,7 +308,7 @@ header{
     width: 100%;
     text-align: center;
     background-color: #000000;
-    height:53px;
+    height: 13%;
     }
 
 #nav ul {
@@ -321,13 +321,13 @@ header{
 
 #nav li {
     float: right;
-    border-left: 1px solid #bbb;
+    /*border-left: 1px solid #bbb;*/
     font-style: white;
 }
 
-#nav li:last-child {
+/*#nav li:last-child {
     border-right: none;
-}
+}*/
 
 #nav li a, .dropbtn {
     display: inline-block;
