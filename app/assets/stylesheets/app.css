@@ -165,6 +165,18 @@
   }
 }
 
+.footer-row-1 {
+  float: left;
+}
+
+.footer-row-2 {
+  float: left;
+}
+
+.footer-row-3 {
+  float: right;
+}
+
 
 /* Homepage and HTML shell style */
 
@@ -188,7 +200,7 @@ body {
 }
 
 img.initial {
-  max-width: 29%;
+  max-width: 35%;
   float: left;
   padding-right: 10px;
   margin-top: -145px;
@@ -794,6 +806,14 @@ td {
 }
 #links{
   text-align: center;
+}
+
+
+/* MS Introduction Page */
+
+.row-intro-image {
+  border: black;
+  border-width: 1px;
 }
 
 /* TEI Reading Environment */
