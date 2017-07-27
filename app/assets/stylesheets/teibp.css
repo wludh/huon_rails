@@ -1611,97 +1611,11 @@ typeDesc {
 u:before {
   content: "-";
 }
-unicodeName {
-  /* Empty Rule Set */
-}
-usg {
-  /* Empty Rule Set */
-}
-/* v */
-vAlt {
-  /* Empty Rule Set */
-}
-vColl {
-  /* Empty Rule Set */
-}
-vDefault {
-  /* Empty Rule Set */
-}
-vLabel {
-  /* Empty Rule Set */
-}
-vMerge {
-  /* Empty Rule Set */
-}
-vNot {
-  /* Empty Rule Set */
-}
-vRange {
-  /* Empty Rule Set */
-}
-val {
-  /* Empty Rule Set */
-}
-valDesc {
-  /* Empty Rule Set */
-}
-valItem {
-  /* Empty Rule Set */
-}
-valList {
-  /* Empty Rule Set */
-}
-value {
-  /* Empty Rule Set */
-}
-variantEncoding {
-  /* Empty Rule Set */
-}
+
 view {
   font-style: italic;
 }
-vocal {
-  /* Empty Rule Set */
-}
-/* w */
-w {
-  /* Empty Rule Set */
-}
-watermark {
-  /* Empty Rule Set */
-}
-when {
-  /* Empty Rule Set */
-}
-width {
-  /* Empty Rule Set */
-}
-wit {
-  /* Empty Rule Set */
-}
-witDetail {
-  /* Empty Rule Set */
-}
-witEnd {
-  /* Empty Rule Set */
-}
-witStart {
-  /* Empty Rule Set */
-}
-witness {
-  /* Empty Rule Set */
-}
-writing {
-  /* Empty Rule Set */
-}
-/* x */
-xr {
-  /* Empty Rule Set */
-}
-/* z */
-zone {
-  /* Empty Rule Set */
-}
+
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
 html > body {
   margin: 0;
@@ -1728,7 +1642,7 @@ footer {
   padding-top: .5em;
   font-size: 12pt;
 }
-a:link,
+/*a:link,
 a:visited,
 a:active {
   color: #5f0000;
@@ -1737,7 +1651,7 @@ a:active {
 a:hover {
   color: #5f0000;
   text-decoration: underline;
-}
+}*/
 #teibpToolbox {
   left: 56em;
   top: 25px;

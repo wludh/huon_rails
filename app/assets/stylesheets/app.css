@@ -224,13 +224,13 @@ hr {
   margin: 1.25rem 0 1.1875rem;
   height: 0; }
 
-.large-offset-2 {
+/*.large-offset-2 {
   margin-left: 10.66667% !important;
 }
 
 .large-8 {
   width: 66.66667%;
-}
+}*/
 
 section div ul li {
   clear: left;
@@ -239,6 +239,11 @@ section div ul li {
 #banner {
   padding-top:15px;
   padding-bottom: 15px;
+}
+
+a {
+    color: #5f0000;
+    text-decoration: none;
 }
 
 
@@ -333,7 +338,7 @@ header{
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
     width: auto;
 }
@@ -378,14 +383,20 @@ header{
 }
 
 .title {
-    font-size: 70px;
-    font-variant: small-caps;
+    color: whitesmoke;
+    line-height: 103%;
+    font-size: 4em;
     padding-top: 2%;
     padding-left: 2%;
     background: black;
-    line-height: 80%
+    font-family: fantasy;
   }
 
+span {
+  font-family: lucida blackletter;
+  /*color: red;*/
+  font-size: 1.5em;
+}
 
 /*Content */
 

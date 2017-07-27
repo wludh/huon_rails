@@ -445,18 +445,18 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 
-a {
+/*a {
   background-color: transparent;
-}
+}*/
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active,
+/*a:active,
 a:hover {
   outline: 0;
-}
+}*/
 
 /* Text-level semantics
    ========================================================================== */
@@ -4418,14 +4418,14 @@ td {
   padding: 0; }
 
 /* Default Link Styles */
-a {
+/*a {
   color: #008CBA;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
     color: #0078a0; }
   a img {
-    border: none; }
+    border: none; }*/
 
 /* Default paragraph styles */
 p {
