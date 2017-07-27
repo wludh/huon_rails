@@ -304,8 +304,7 @@ header{
 #nav {
 
     list-style: none;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: lighter;
     width: 100%;
     text-align: center;
     background-color: #000000;
@@ -339,6 +338,10 @@ header{
     width: 150px;
 }
 
+#title a {
+  color: white;
+}
+
 #nav li a:hover, .dropdown:hover {
     background-color: gray;
 }
@@ -365,6 +368,23 @@ header{
 #nav .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.deco-strip {
+    height: 3%;
+    background: #5f0000;
+    margin-top: 0%;
+    z-index: -1;
+    width: auto;
+}
+
+.title {
+    font-size: 70px;
+    font-variant: small-caps;
+    padding-top: 2%;
+    padding-left: 2%;
+    background: black;
+    line-height: 80%
+  }
 
 
 /*Content */
@@ -714,12 +734,12 @@ header {
   display:none;
 }
 
-#comparison-hr{
+#comparison-hr {
   width:66.7%;
   text-align:center; margin: 0 auto;
 }
 
-.witnessMenu{
+.witnessMenu {
   width: 69%;
 }
 
@@ -729,22 +749,22 @@ td {
   display: hidden;
 }
 
-#bibPanel{
+#bibPanel {
   display: none;
 }
 
-#TEI_left_panel TEI{
+#TEI_left_panel TEI {
   max-width: none;
   margin: none;
 }
 
-@media only screen and (min-width: 501px){
+@media only screen and (min-width: 501px) {
   #mobile_reader{
     display: none;
   }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
   #TEI_left_panel {
 /*    display:none !important;
 */
@@ -755,6 +775,7 @@ td {
     margin-right: 10% !important;
     height: auto !important;
   }
+
   #left-content {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -791,7 +812,7 @@ td {
 
 }
 
-#unf_logo{
+#unf_logo {
   padding-bottom: 22px;
 }
 
@@ -802,10 +823,10 @@ td {
     margin-top: -200px
 }
 
-#title{
+#title {
       font-size: 28px;
 }
-#links{
+#links {
   text-align: center;
 }
 
@@ -829,12 +850,12 @@ td {
   background-color: rgba(245,246,246,1);
 }
 
-#reader-nav-links{
+#reader-nav-links {
   line-height: 2.8125rem;
   padding: 0 0.9375rem;
 }
 
-#sub-title{
+#sub-title {
   float: left;
   padding: 0 0.9375rem;
   line-height: 2.8125rem;
@@ -844,20 +865,20 @@ span.translation_missing {
   color: #a10d09;
 }
 
-#selected_laisse{
+#selected_laisse {
   max-width: 40px;
   margin: auto;
   text-align: center;
 }
 
-#jump_button{
+#jump_button {
   border: none;
   background-color: transparent;
   text-decoration-color: #5f0000;
   color: #5f0000;
 }
 
-#jump_button:hover{
+#jump_button:hover {
   text-decoration: underline;
   color: #0078a0;
 }
@@ -951,13 +972,13 @@ sic {
 
 /* wraps around TEI and MS image */
 
-#TEI_reader{
+#TEI_reader {
   width: 150%;
   margin-top: 48px;
   border: none;
 }
 
-#tei_wrapper{
+#tei_wrapper {
   margin-left: 35px !important;
   height: 100% !important;
   /*padding-left: 20px !important;*/
@@ -967,7 +988,7 @@ sic {
 
 /* wraps around MS image */
 
-#side-panel{
+#side-panel {
   margin-right: 150px;
   margin-top: 48px;
   margin-bottom: 47px;
@@ -977,12 +998,12 @@ sic {
   border: groove 5px;
 }
 
-#ms-image-container{
+#ms-image-container {
   margin: 1.5em auto 1.5em auto;
   padding: .5em 1.5em 1.5em 1.5em;
 }
 
-#note-close{
+#note-close {
   float: left;
   margin-top: -20px;
   margin-left: 3px;
@@ -998,7 +1019,7 @@ lg {
 
 /* CSS not yet organized */
 
-#reader-hr{
+#reader-hr {
   margin: 0.5em 0.5em 0 0;
   margin-top: -2px;
 }
