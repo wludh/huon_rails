@@ -313,7 +313,7 @@ header{
     width: auto;
     text-align: center;
     background-color: #000000;
-    height: 13%;
+    height: 50px;
     }
 
 #nav ul {
@@ -335,12 +335,14 @@ header{
 }*/
 
 #nav li a, .dropbtn {
-    display: inline-block;
+    /*display: inline-block;*/
     color: white;
     text-align: center;
-    padding: 14px 30px;
+    padding: 0em 3em;
     text-decoration: none;
     width: auto;
+    font-size: 1.25em;
+    font-weight: bolder;
 }
 
 #title a {
@@ -375,7 +377,7 @@ header{
 }
 
 .deco-strip {
-    height: 3%;
+    height: 10px;
     background: #5f0000;
     margin-top: 0%;
     z-index: -1;
@@ -389,7 +391,8 @@ header{
     padding-top: 2%;
     padding-left: 2%;
     background: black;
-    font-family: fantasy;
+    font-weight: lighter;
+    height: 150px;
   }
 
 span {
