@@ -846,6 +846,42 @@ td {
   border-width: 1px;
 }
 
+p.ms-intro-h1 {
+    color: #5f0000;
+    font-weight: bolder;
+    font-size: .75em;
+    margin-top: 1.5em;
+    margin-bottom: -1em;
+}
+
+p.ms-intro-h2 {
+    color: #5f0000;
+    font-weight: bolder;
+    margin-bottom: 0em;
+}
+
+
+p.ms-intro-h3 {
+    color: #5f0000;
+    font-weight: bolder;
+    font-size: .75em;
+}
+
+p.ms-intro {
+  font-style: italic;
+}
+
+p.ms-resp {
+    margin-bottom: 0em;
+}
+
+p.copyright {
+    font-style: italic;
+    font-size: .75em;
+    padding: 2.5em 0em 2.5em 0em;
+}
+
+
 /* TEI Reading Environment */
 
 /* Top bar button navigation */

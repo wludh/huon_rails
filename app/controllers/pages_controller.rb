@@ -29,7 +29,7 @@ class PagesController < ApplicationController
         @gen_intro = doc.xpath("//section[@class='introduction']").text
         @abbr = doc.xpath("//section[@class='abbreviations']").text
 
-        return @gen_intro
+        return @gen_intro, @abbr
     end
 
     def import_tei(tei_file)
@@ -47,13 +47,50 @@ class PagesController < ApplicationController
             # import the tei
             doc = import_tei(tei_file)
 
-            # get the title
-            @title = doc.search('title').first.text
+            # get editor's name
+            @editor = doc.search('editor').first.text
 
-            # get the introduction
-            @introduction = doc.search('note').first.text
+            # get name(s) of encoder(s)
+            @encoder = doc.search('respStmt[type="encoder"]/name').first.text
 
-            return @title, @introduction
+            # get manuscript collocation 
+            @city = doc.search('settlement').first.text
+            @repository = doc.search('repository').first.text
+            @shelflisting = doc.search('idno').first.text
+
+            # get incipit and explicit
+            @incipit = doc.search('incipit').first.text
+            @explicit = doc.search('explicit').first.text
+
+            # get text title
+            @title = doc.search('title[type="text"]').first.text
+
+            # get manuscript introduction
+            @introduction = doc.search('/note').first.text
+
+            # get manuscript origin information
+            @origin = doc.search('origin').first.text
+
+            # get manuscript provenance information
+            @provenance = doc.search('provenance').first.text
+
+            # get manuscript acquisition history
+
+            @acquisition = doc.search('acquisition').first.text
+
+            # get manuscript date
+
+            @date = doc.search('origDate').first.text
+
+            # get copyright information
+
+            @copyright = doc.search('availability').first.text
+
+            return @title, @introduction, @origin, @provenance, @acquisition, 
+            @date, @city, @repository, @shelflisting, @incipit, @explicit, @copyright, 
+            @editor, @encoder
+
+
         else
 
             # get the doc
@@ -68,8 +105,44 @@ class PagesController < ApplicationController
                 @short_title = "Navigation"
             end
 
+            # get text title
+            @title = doc.search('title[type="text"]').first.text
+
+            # get editor's name
+            @editor = doc.search('editor').first.text
+
+            # get name(s) of encoder(s)
+            @encoder = doc.search('respStmt[type="encoder"]/name').first.text
+
+             # get manuscript collocation 
+            @city = doc.search('settlement').first.text
+            @repository = doc.search('repository').first.text
+            @shelflisting = doc.search('idno').first.text
+
+            # get incipit and explicit
+            @incipit = doc.search('incipit').first.text
+            @explicit = doc.search('explicit').first.text
+
             # get the introduction
             @introduction = doc.search('note').first.text
+
+            # get manuscript origin information
+            @origin = doc.search('origin').first.text
+
+            # get manuscript provenance information
+            @provenance = doc.search('provenance').first.text
+
+            # get manuscript acquisition history
+
+            @acquisition = doc.search('acquisition').first.text
+
+            # get manuscript date
+
+            @date = doc.search('origDate').first.text
+
+            # get copyright information
+
+            @copyright = doc.search('availability').first.text
 
             # get all line groups but paginate through them so only showing the current one.
             @line_groups = doc.css('lg').to_a.paginate(:page => params[:page], :per_page => 1)

@@ -4,22 +4,57 @@
 <!-- Title Cell -->
     <div class="row">
         <div class="col-12">
-            <%= @title %>
+            <p class="ms-intro-h1"><%= @city %>, <%= @repository %> <%= @shelflisting %></p>
         </div>
     </div>
 
     <hr>
 
-<!-- Intro Data Row -->
+<!-- Intro Data Row 1 -->
     <div class="row">
-        <div class="col-4">
-            Title: Huon d'Auvergne
+        <div class="col-6">
+            <p class="ms-resp">Edition prepared by <%= @editor %></p>
+            <p class="ms-resp">TEI encoding by <%= @encoder %></p>
         </div>
-        <div class="col-4">
-            Date: 1441
+        <div class="col-6">
         </div>
-        <div class="col-4">
-            Parchment
+    </div>
+
+<!-- Intro Data Row 2 -->
+    <div class="row">
+        <div class="col-6">
+            <p class="ms-intro-h2">Date</p>
+            <p class="ms-intro"><%= @date %></p>
+        </div>
+        <div class="col-6">
+            <p class="ms-intro-h2">Origin</p>
+            <p class="ms-intro"><%= @origin %></p>
+        </div>
+    </div>
+
+<!-- Intro Data Row 3 -->        
+    <div class="row"> 
+        <div class="col-6">
+            <p class="ms-intro-h2">Incipit</p>  
+            <p class="ms-intro"><%= @incipit %></p>
+        </div>
+        <div class="col-6">
+            <p class="ms-intro-h2">Excipit</p>
+            <p class="ms-intro"><%= @explicit %></p>
+        </div>
+    </div>
+
+<!-- Copyright Statement Row 4 -->
+    <div class="row">
+        <p class="copyright">© <%= @copyright %></p>
+
+<hr>
+
+<!-- Introduction Cell -->
+    <div class="row">
+        <div class="col-12">
+            <p class="ms-intro-h3">Introduction to Edition</p>
+            <p><%= @introduction %></p>
         </div>
     </div>
 
@@ -27,42 +62,21 @@
 <!-- Image Cell -->
     <div class="row">
         <div class="col-6">
-            <%= image_tag('t-120v.jpg', id: 'ms-image', alt: 'Manuscript image') %>
+            <p class="ms-image"><%= image_tag('t-120v.jpg', id: 'ms-image', alt: 'Manuscript image') %></p>
         </div>
 
-<!-- Introduction Cell -->
+<!-- Table of Contents Cell -->
         <div class="col-6">
-            <%= @introduction %>
+            <p class="ms-intro-h3">Table of Contents</p>
+            <p class="ms-toc">1. Introduction</p>
+            <p class="ms-toc">2. Editorial Criteria</p>
+            <p class="ms-toc"><%= link_to 'III. Encoding Criteria', t_praxis_path() %></p>
+            <p class="ms-toc"><%= link_to('IV. Digital Edition', url_for(params.merge(:edition => true))) %></p>
+            <p class="ms-toc">5. Digital Facsimile</p>
+            <p class="ms-toc">6. Concordance</p>
+            <p class="ms-toc">7. Codicology</p>
         </div>
     </div>
 
-<!-- Link Cell -->
-    <div class="row">
-        <div class="col-3">
-            <%= link_to('Read', url_for(params.merge(:edition => true))) %>
-        </div>
-    </div>
 
-</div>
-
-
-
-
-<!-- <section class="row">
-    <div class="large-8 large-offset-2 columns">
-        <div id="introduction">
-            <div id="title">
-                <%= @title %>
-            </div>
-            <hr>
-            <div id="intro-image">
-            </div>
-            <div id="introduction-text">
-                <%= @introduction %>
-            </div>
-            <div id="links">
-                <%= link_to('Read', url_for(params.merge(:edition => true))) %>
-            </div>
-        </div>
-    </div>
 </section> -->
