@@ -66,7 +66,7 @@ class PagesController < ApplicationController
             @explicit = doc.search('explicit').first.text
 
             # get manuscript introduction
-            @introduction = doc.search('/note').first.text
+            @introduction = doc.search('note').first.text
 
             # get manuscript origin information
             @origin = doc.search('origin').first.text
