@@ -986,14 +986,6 @@ num {
   color: red;
 }
 
-/* inserted code for anchor */
-/*anchor {
-  margin-left: -110px;
-  color: #a10d09;
-  font-size: 11pt; 
-}*/
-/* end anchor code */
-
 .pb {
   float: left;
   color: #a10d09;
@@ -1025,7 +1017,6 @@ sic {
 #tei_wrapper {
   margin-left: 35px !important;
   height: 100% !important;
-  /*padding-left: 20px !important;*/
   padding-bottom: 140px !important;
 }
 
@@ -1059,6 +1050,16 @@ lg {
   display: inline-block;
   margin-top: 15px;
   margin-left: 100px;
+}
+
+img {
+  max-width: 100%;
+  height: auto; 
+  border: 3px solid #5f0000;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: -1em;
+  -ms-interpolation-mode: bicubic; 
 }
 
 /* CSS not yet organized */

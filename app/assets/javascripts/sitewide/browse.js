@@ -1,3 +1,4 @@
+
 var ready;
 console.log('ready');
     ready = function(){
@@ -62,9 +63,7 @@ console.log('ready');
     function open_sidepanel(){
         $('#TEI_reader').unwrap();
         $('#TEI_reader').css('margin-left', '0%');
-        $('#tei_wrapper').css('border', 'groove', '10px #DDDDDD solid');
         $('#tei_wrapper').css('overflow', 'scroll');
-        // $('#tei_wrapper').css('width', '30%');
         $('#tei_wrapper').css('padding-left', '1%');
         $('.pb').css('float', 'left');
         $('#note-close').addClass('active');

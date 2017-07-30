@@ -63,20 +63,36 @@
     <div class="row">
         <div class="col-6">
             <p class="ms-image"><%= image_tag('t-120v.jpg', id: 'ms-image', alt: 'Manuscript image') %></p>
+            <p class="ms-caption">Turin, N III 19, fol. 120v.<lb>Rajna: "Ug e gli uccelli."</p>
         </div>
 
 <!-- Table of Contents Cell -->
         <div class="col-6">
-            <p class="ms-intro-h3">Table of Contents</p>
-            <p class="ms-toc">1. Introduction</p>
-            <p class="ms-toc">2. Editorial Criteria</p>
-            <p class="ms-toc"><%= link_to 'III. Encoding Criteria', t_praxis_path() %></p>
-            <p class="ms-toc"><%= link_to('IV. Digital Edition', url_for(params.merge(:edition => true))) %></p>
-            <p class="ms-toc">5. Digital Facsimile</p>
-            <p class="ms-toc">6. Concordance</p>
-            <p class="ms-toc">7. Codicology</p>
+            <div class="ms-toc">
+            <head class="ms-toc">
+            <ol>
+                <li>Introduction</li>
+                <li>Editorial Criteria</li>
+                <li><%= link_to('III. Encoding Criteria', url_for(params.merge(:t_praxis => true))) %></li>
+                <li><%= link_to('IV. Digital Edition', url_for(params.merge(:edition => true))) %></li>
+                <li>Digital Facsimile</li>
+                <li>Concordance</li>
+                <li>Codicology</li>
+                </ol>
+                </head>
+            </ol>
+
+
+                <p class="ms-intro-h3">Table of Contents</p>
+                <p class="ms-toc">I. Introduction</p>
+                <p class="ms-toc">II. Editorial Criteria</p>
+                <p class="ms-toc"><%= link_to('III. Encoding Criteria', url_for(params.merge(:t_praxis => true))) %></p>
+                <p class="ms-toc"><%= link_to('IV. Digital Edition', url_for(params.merge(:edition => true))) %></p>
+                <p class="ms-toc">V. Digital Facsimile</p>
+                <p class="ms-toc">VI. Concordance</p>
+                <p class="ms-toc">VII. Codicology</p>
+            </div>
         </div>
     </div>
 
 
-</section> -->
