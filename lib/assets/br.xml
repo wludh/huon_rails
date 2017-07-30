@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-07032017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-07252017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bologna Biblioteca dell'Archiginnasio B. 3489</title>
+                <title type="text"></title>
+                <title type="manuscript">Bologna Biblioteca dell'Archiginnasio B. 3489</title>
                 <title type="short">Bologna MS B. 3489</title>
                 <editor xml:id="SPM">Stephen P. McCormick</editor>
                 <sponsor>
@@ -15,20 +16,14 @@
                     </address>
                 </sponsor>
                 <funder>The National Endowment for the Humanities</funder>
-                <principal>Stephen P. McCormick</principal>
-                <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
+                <respStmt type="editor">
+                    <name>Stephen P. McCormick</name>
+                    <resp>Edition of Br</resp>
+                </respStmt>
                 <respStmt>
                     <name>Stephen P. McCormick</name>
-                    <resp>edition of witnesses P and Br</resp>
-                    <resp>TEI encoding and customization</resp>
-                </respStmt>
-                <respStmt>
-                    <name xml:id="LZM">Leslie Zarker Morgan</name>
-                    <resp>edition of witnesses B and T</resp>
-                </respStmt>
-                <respStmt>
-                    <name xml:id="SSB">Shira Schwam-Baird</name>
-                    <resp>translation of B</resp>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web interface development</resp>
                 </respStmt>
                 <respStmt>
                     <name xml:id="NDQ">Natsumi D. Alvarez</name>

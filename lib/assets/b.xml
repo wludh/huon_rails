@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Huon_Customized_Schema_052217.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-07252017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)</title>
+            <title type="text"></title>
+            <title type="manuscript">Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)</title>
             <title type="short">Berlin MS Hamilton 337</title>
             <editor xml:id="LZM">Leslie Zarker Morgan</editor>
-            <sponsor>
-               <address>
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-               <!-- Add Leslie's address -->
-            </sponsor>
+           <sponsor>
+             <address>
+               <addrLine>Washington and Lee University</addrLine>
+               <addrLine>204 W. Washington St.</addrLine>
+               <addrLine>Lexington, VA 24450</addrLine>
+             </address>
+           </sponsor>
             <funder>The National Endowment for the Humanities</funder>
-            <principal>Leslie Zarker Morgan</principal>
-            <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
-            <respStmt>
+            <respStmt type="editor">
                <name>Leslie Zarker Morgan</name>
-               <resp>edition of witnesses B and T</resp>
+               <resp>Edition of B</resp>
             </respStmt>
-            <respStmt>
+            <respStmt type="encoder">
                <name xml:id="SPM">Stephen Patrick McCormick</name>
-               <resp>edition of witnesses P and Br</resp>
-               <resp>TEI encoding and customization</resp>
+               <resp>TEI coding and development</resp>
+               <resp>Web interface development</resp>
             </respStmt>
             <respStmt>
                <name xml:id="SSB">Shira Schwam-Baird</name>
                <resp>translation of B</resp>
-            </respStmt>
-            <respStmt>
-               <name xml:id="NDQ">Natsumi D. Alvarez</name>
-               <resp>TEI encoding and customization</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>

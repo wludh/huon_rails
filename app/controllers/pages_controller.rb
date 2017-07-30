@@ -47,6 +47,9 @@ class PagesController < ApplicationController
             # import the tei
             doc = import_tei(tei_file)
 
+            # get title
+            @title = doc.search('title').first.text
+
             # get editor's name
             @editor = doc.search('editor').first.text
 
@@ -61,9 +64,6 @@ class PagesController < ApplicationController
             # get incipit and explicit
             @incipit = doc.search('incipit').first.text
             @explicit = doc.search('explicit').first.text
-
-            # get text title
-            @title = doc.search('title[type="text"]').first.text
 
             # get manuscript introduction
             @introduction = doc.search('/note').first.text
@@ -105,8 +105,8 @@ class PagesController < ApplicationController
                 @short_title = "Navigation"
             end
 
-            # get text title
-            @title = doc.search('title[type="text"]').first.text
+            # get title
+            @title = doc.search('title').first.text
 
             # get editor's name
             @editor = doc.search('editor').first.text

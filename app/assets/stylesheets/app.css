@@ -881,6 +881,23 @@ p.copyright {
     padding: 2.5em 0em 2.5em 0em;
 }
 
+p.ms-toc {
+    color: #5f0000;
+    font-weight: bolder;
+    font-size: 1.75em;
+}
+
+.ms-toc {
+    padding-left: 2em;
+    font-variant: small-caps;
+}
+
+ol.ms-toc {
+    font-variant: small-caps;
+    font-size: 1.5em;
+    list-style-type: lower-roman;
+}
+
 
 /* TEI Reading Environment */
 
