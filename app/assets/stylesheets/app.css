@@ -177,6 +177,9 @@
   float: right;
 }
 
+.stackem div {
+  width: 100%;
+}
 
 /* Homepage and HTML shell style */
 
@@ -885,6 +888,8 @@ p.ms-toc {
     color: #5f0000;
     font-weight: bolder;
     font-size: 1.75em;
+    padding-left: 2.5em;
+    padding-top: 1em;
 }
 
 .ms-toc {
@@ -896,6 +901,7 @@ ol.ms-toc {
     font-variant: small-caps;
     font-size: 1.5em;
     list-style-type: lower-roman;
+    padding-left: 3.5em;
 }
 
 
