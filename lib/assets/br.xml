@@ -20,7 +20,7 @@
                     <name>Stephen P. McCormick</name>
                     <resp>Edition of Br</resp>
                 </respStmt>
-                <respStmt>
+                <respStmt type="encoder">
                     <name>Stephen P. McCormick</name>
                     <resp>TEI coding and development</resp>
                     <resp>Web interface development</resp>
