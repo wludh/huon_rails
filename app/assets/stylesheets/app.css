@@ -325,20 +325,15 @@ header{
     padding: 0;
     width: auto;
     background-color: black;
+    line-height: 2.5;
 }
 
 #nav li {
     float: right;
-    /*border-left: 1px solid #bbb;*/
     font-style: white;
 }
 
-/*#nav li:last-child {
-    border-right: none;
-}*/
-
 #nav li a, .dropbtn {
-    /*display: inline-block;*/
     color: white;
     text-align: center;
     padding: 0em 3em;
@@ -556,7 +551,7 @@ ul li ul li {
   z-index: 1000;
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 850px) {
   ul li ul li:hover { background: #666; }
   ul li:hover ul {
     display: block;
@@ -578,24 +573,24 @@ font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, O
 
   /*Versioning Machine*/
 
-#line_toggle, label{
+#line_toggle, label {
   float:left;
   text-decoration: underline;
   font-size: 16px;
   color: black;
 }
 
-input[type="button"]{
+input[type="button"] {
   border-style: none;
   text-decoration: underline;
   background-color: rgba(0, 0, 0, 0);
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
   display:none;
 }
 
-#add_witness{
+#add_witness {
   display: inline;
   border-style:none;
   float:left;
@@ -604,7 +599,7 @@ input[type="checkbox"]{
   padding-right: 20px;
 }
 
-.panelBanner, .witnessMenu{
+.panelBanner, .witnessMenu {
 font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif !important;
   background-color: rgba(0, 0, 0, 0);
   height: 30px;
@@ -615,7 +610,7 @@ font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', G
   text-align:left;
 }
 
-table{
+table {
   border:none;
 }
 
@@ -637,7 +632,7 @@ table, tr, th{
   width: 69%;
 }
 
-td{
+td {
   padding-left:0;
   padding-right: 0;
   display: hidden;
@@ -854,7 +849,7 @@ p.ms-intro-h1 {
     font-weight: bolder;
     font-size: .75em;
     margin-top: 1.5em;
-    margin-bottom: -1em;
+    margin-bottom: 0em;
 }
 
 p.ms-intro-h2 {
@@ -902,6 +897,7 @@ ol.ms-toc {
     font-size: 1.5em;
     list-style-type: lower-roman;
     padding-left: 3.5em;
+    line-height: 2.5em;
 }
 
 
