@@ -457,7 +457,16 @@ p.tagline {
   padding-top: 25px;
 }
 
-.footer{
+#hidden-title{
+  font-size: 24px !important;
+  padding-top: 48px;
+  padding-bottom:24px;
+}
+
+
+/* Footer Main Page */
+
+/*.footer{
   color:#cccccc !important;
   width:100%;
   text-align: center;
@@ -469,21 +478,42 @@ p.tagline {
   padding-top: 0px;
   position: absolute;
   border-top: none;
+}*/
+
+img#wludh_logo {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-top: 0em;
 }
 
-.footer img{
-  padding-right: 15px;
-  margin-top: 15px;
-  max-width: 183px;
+img#neh_logo {
+  float: left;
+  width: 105%;
+  display: block;
+  margin-top: 0em;
 }
 
-#hidden-title{
-  font-size: 24px !important;
-  padding-top: 48px;
-  padding-bottom:24px;
+img#loyola_logo {
+  float:  left;
+  width: 100%;
+  margin-top: 0em;
 }
 
-.footer a{
+img#unf_logo {
+  float: left;
+  width: 100%;
+  margin-top: 0em;
+  padding-bottom: 0em;
+}
+
+img#marucelliana_logo {
+  float: left;
+  width: 70%;
+  margin-top: 0em;
+}
+
+.footer a {
   color:#cccccc !important;
 }
 
