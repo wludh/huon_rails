@@ -334,7 +334,7 @@ header{
 
 #nav li {
     float: right;
-    font-style: white;
+    font-variant: small-caps;
 }
 
 #nav li a, .dropbtn {
@@ -381,11 +381,12 @@ header{
 .title {
     color: whitesmoke;
     line-height: 103%;
-    font-size: 140%;
+    font-size: 170%;
     padding-top: 2%;
     background: black;
     font-weight: lighter;
     height: 35%;
+    font-variant: small-caps;
   }
 
 /*Content */

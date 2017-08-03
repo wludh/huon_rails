@@ -1,83 +1,3 @@
-
-
-<!--start top bar nav-->
-
-
-<!-- <!DOCTYPE html>
-
-<html>
-
-<body>
-
-
-
-  <div class="title">
-
-    <div class="row-title">
-
-        <div class="col-12">
-
-            Huon d'Auvergne Digital Archive
-
-        </div>
-
-    </div>
-
-  </div>
-
-
-    <div class="nav">
-
-    <ul>
-    <div class="row-nav">
-
-        <div class="col-8"></div>
-
-        <div class="col-1">          
-              <li><%= link_to 'Bibliography', bibliography_path() %></li>
-        </div>
-
-        <div class="col-1">
-              <li class="dropdown">
-                <%= link_to 'Praxis', intro_praxis_path() %>
-                <div class="dropdown-content">
-                  <a href="#"><%= link_to 'B Criteria', b_praxis_path() %></a>
-                  <a href="#"><%= link_to 'T Criteria', t_praxis_path() %></a>
-                  <a href="#"><%= link_to 'P Criteria', p_praxis_path() %></a>
-                  <a href="#"><%= link_to 'Br Criteria', br_praxis_path() %></a>
-                  <a href="#"><%= link_to 'Encoding Guidelines', encod_praxis_path() %></a>
-                </div>
-              </li>
-        </div>
-
-        <div class="col-1">
-                <li class="dropdown">
-                <%= link_to 'Editions', editions_path() %>
-                  <div class="dropdown-content">
-                    <a href="#"><%= link_to 'Berlin (B)', b_manuscript_path() %></a>
-                    <a href="#"><%= link_to 'Turin (T)', t_manuscript_path() %></a>
-                    <a href="#"><%= link_to 'Padua (P)', p_manuscript_path() %></a>
-                    <a href="#"><%= link_to 'Barbieri Fragment (Br)', br_manuscript_path() %></a>
-                    <a href="#"><%= link_to 'Berlin Translation', b_translation_path() %></a>
-                    <a href="#"><%= link_to 'Encoding Guidelines', encod_praxis_path() %></a>
-                  </div>
-              </li>
-        </div>
-
-        <div class="col-1">
-              <li><%= link_to 'Home', root_path() %></li>
-        </div>
-
-    </div>
-
-    </ul>
-
-    </div>
-
-</body>
-
-</html> -->
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -100,7 +20,6 @@
 </div>
 
 
-
 <!-- Navigation Bar -->
 
 <div id="nav">
@@ -111,21 +30,8 @@
 
                   <div class="col-8"></div>
 
-                  <div class="col-1">          
-                            <li><%= link_to 'Bibliography', bibliography_path() %></li>
-                  </div>
-
                   <div class="col-1">
-                            <li class="dropdown">
-                              <%= link_to 'Praxis', intro_praxis_path() %>
-                              <div class="dropdown-content">
-                                <a href="#"><%= link_to 'B Criteria', b_praxis_path() %></a>
-                                <a href="#"><%= link_to 'T Criteria', t_praxis_path() %></a>
-                                <a href="#"><%= link_to 'P Criteria', p_praxis_path() %></a>
-                                <a href="#"><%= link_to 'Br Criteria', br_praxis_path() %></a>
-                                <a href="#"><%= link_to 'Encoding Guidelines', encod_praxis_path() %></a>
-                              </div>
-                            </li>
+                            <li><%= link_to 'Home', root_path() %></li>
                   </div>
 
                   <div class="col-1">
@@ -143,7 +49,20 @@
                   </div>
 
                   <div class="col-1">
-                            <li><%= link_to 'Home', root_path() %></li>
+                            <li class="dropdown">
+                              <%= link_to 'Praxis', intro_praxis_path() %>
+                              <div class="dropdown-content">
+                                <a href="#"><%= link_to 'B Criteria', b_praxis_path() %></a>
+                                <a href="#"><%= link_to 'T Criteria', t_praxis_path() %></a>
+                                <a href="#"><%= link_to 'P Criteria', p_praxis_path() %></a>
+                                <a href="#"><%= link_to 'Br Criteria', br_praxis_path() %></a>
+                                <a href="#"><%= link_to 'Encoding Guidelines', encod_praxis_path() %></a>
+                              </div>
+                            </li>
+                  </div>
+
+                   <div class="col-1">          
+                            <li><%= link_to 'Bibliography', bibliography_path() %></li>
                   </div>
 
             </div>
@@ -151,7 +70,6 @@
       </ul>
 
 </div>
-
 
 
 </body>
