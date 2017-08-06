@@ -69,7 +69,7 @@
                     <name type="country">USA</name>
                 </address>
                 <availability>
-                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities, 
+                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities,
                         offers freely on a non-commercial basis the text of each edition and the accompanying
                         English translation . The appropriate editor or translator must be cited when
                         referencing the texts. The images are not available for
@@ -95,7 +95,7 @@
                         <origDate cert="medium" evidence="internal">1441 (date included in final
                             lines)</origDate>
                         <note>
-                            <p>The Turin version of Huon d'Auvergne is conserved in a paper codex
+                            <p>The Turin version of Huon d'Auvergne is conserved in a restored paper codex
                                 measuring 27 cm by 20 cm. The scribe dates the work to 1441 in the
                                 final line of the text. Manuscript T survives today despite a
                                 tortuous history. In 1904, a fire ravaged the Biblioteca nazione di
@@ -128,6 +128,8 @@
                             <locus from="1r" to="183v">ff. 1r-183v</locus>
                             <author xml:id="scribe">Anonymous</author>
                             <!-- checked foliation with Leslie OK-->
+                            <locus from "1r" to "183v" Rajna> ff. 1r-188v</locus>
+                            <!-- Steve, how do we include this too?-->
                             <title xml:lang="FI">Huon d'Auvergne</title>
                             <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
                             <explicit>Ternus amen de .1441. die .6. de febrar.</explicit>
@@ -172,6 +174,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <!-- how do we include Rajna's notebook infor here too?-->
         <encodingDesc>
             <editorialDecl>
                 <correction method="markup">

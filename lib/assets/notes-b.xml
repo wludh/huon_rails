@@ -37,6 +37,11 @@
                 <note n="1" xml:id="b1" type="ling" resp="#SPM">prael "meadow"</note>
                 <note n="2" xml:id="b16" type="ling" resp="#SPM">zonse "thing"</note>
                 <note n="3" xml:id="b19" type="ling" resp="#SPM">lou "place"</note>
+                <note n="253" xml:id="b9915" type="codic" resp="#LZM">ill "hell"</note>
+                <note n="254" xml:id="b9935" type="refer" resp="#LZM">Nicomachus "details here"</note>
+                <note n="255" xml:id="b9950" type="refer" resp="#LZM">Farabus "details here"</note>
+                <note n="256" xml:id="b9951" type="interp" resp="#LZM"> See translation for a delineation of speakers in this exchange."</note>
+                <note n="257" xml: id="b9972" type="codic" resp="#LZM">-t of ce<hi rend="italic">r</hi>t very smeared and difficult to distinguish exc. in ms. itself.</note>
             </div>
         </body>
     </text>

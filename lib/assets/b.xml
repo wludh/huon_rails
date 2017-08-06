@@ -57,7 +57,7 @@
                         <name type="country">USA</name>
                     </address>
             <availability status="free">
-              <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities, 
+              <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities,
                 offers freely on a non-commercial basis the text of each edition and the accompanying
                 English translation . The appropriate editor or translator must be cited when
                 referencing the texts. The images are not available for
@@ -86,7 +86,7 @@
                   <!-- Is there a way to say how the date is determined? -->
                   <note>
                      <p>This is the manuscript listed in the Gonzaga inventory of 1407. The first
-                        folio bears the coat of arms of the Gozaga family. The manuscript passed
+                        folio bears three copies of the coat of arms of the Gonzaga family. The manuscript passed
                         through noble families in the Italian peninsula and then to the English
                         Hamilton family. In the 19th century, the Prussian government bought a group of the Hamilton
                         manuscripts that included B. The manuscript was first described by Adolf Tobler in 1884.</p>
@@ -109,7 +109,7 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>117 manuscript folios, 5,690 lines of verse <dimensions scope="all"
+                        <extent>84 manuscript folios, 12224 lines of verse <dimensions scope="all"
                               type="leaves" unit="in">
                               <height>38 cm</height>
                               <width>27 cm</width>
@@ -11929,15 +11929,16 @@
             <l n="9904">Ensi parlant Eneas et li cont.</l>
             <l n="9905">Tant ont he<ex rend="italics">r</ex>ré que ariveç i sont</l>
             <l n="9906">A un chastel que non fu pas en mont.</l>
-            <l n="9907">.vii. grant portes furent al p<ex rend="italics">ri</ex>mer front,</l>
-            <l n="9908">Sont al chastel, cum l'istoire despont,</l>
+            <l n="9907">.<ex rend="up">vii</ex>. grant portes furent al p<ex rend="italics">ri</ex>mer front,</l>
+            <l n="9908">Sont al chastel, cum l'istoire despont;</l>
             <l n="9909">De grant fossé et de mur qui li sont</l>
             <l n="9910">La mai<ex rend="italics">n</ex>tes armes par iluech periront.</l>
-            <l n="9911">Dit Eneas, "Enci .vii. mur i ont</l>
+            <l n="9911">Dit Eneas, "Enci .<ex rend="up">vii</ex>. mur i ont</l>
             <l n="9912">Ou dois entrer; or non dote<ex rend="italics">r</ex> tu pont.</l>
             <l n="9913">Riens que tu vois ja pas no te nosiro<ex rend="italics">n</ex>t.</l>
-            <l n="9914">(Folio 69 Ra) Se tu bien garde et vois out<ex rend="italics">re</ex> cil pont,</l>
-            <l n="9915">Sor la charere del capitel reont,</l>
+            <milestone n='69Ra'unit="fol."/>
+            <l n="9914">Se tu bien garde et vois out<ex rend="italics">re</ex> cil pont,</l>
+            <l n="9915">Sor la charere del capitel reont<note xml:id="b9915/>",</l>
             <l n="9916">Vois la le mastre Tholomé al chief blont,</l>
             <l n="9917">Que en strologie fu le p<ex rend="italics">ri</ex>mer dou mont.</l>
             <l n="9918">Le nigroma<ex rend="italics">n</ex>s aveque luy si stont.</l>
@@ -11958,9 +11959,9 @@
             <l n="9930">Més g<ex rend="italics">ra</ex>nt destorbe le fesoit le crier;</l>
             <l n="9931">Tote la teste l'en feisent tintiner;</l>
             <l n="9932">Plus cum va avant, le criç veit enforcier.</l>
-            <l n="9933">Le quue<ex rend="italics">n</ex>s d'Auv<ex rend="italics">er</ex>gne se prist a estoner,</l>
+            <l n="9933">Le quue<ex rend="italics">n</ex>s d'Auv<ex rend="italics">er</ex>gne se prist a estoner</l>
             <l n="9934">Par qui el no<ex rend="italics">n</ex> poit veoir ni demander.</l>
-            <l n="9935">Nicomacus coma<ex rend="italics">n</ex>ce a blastemer:</l>
+            <l n="9935">Nicomacus coma<ex rend="italics">n</ex>ce a blastemer:<note xml:id="b9935"/></l>
             <l n="9936">"Taiseç un poy, diables av<ex rend="italics">er</ex>ser!"</l>
             <l n="9937">Dit Eneas, "Ce no<ex rend="italics">n</ex> poit enco<ex rend="italics">n</ex>trer.</l>
             <l n="9938">Cestor mistrent lor ovre <ex rend="italics">et</ex> lor pe<ex rend="italics">n</ex>ser</l>
@@ -11975,17 +11976,19 @@
            <head>Laisse 381</head>
             <l n="9945">De la segonde porte paserent li p<ex rend="italics">er</ex>tus</l>
             <l n="9946">Que l'om apelle p<ex rend="italics">er</ex> nom Nicomacus.</l>
-            <l n="9947">Un hom escris sor la porte desus;</l>
+            <l n="9947">Un hom escris sor la porte desus,<note xml:ide="b9947"></l>
             <l n="9948">La mendre letre ert grande cu<ex rend="italics">m</ex> un schus.</l>
             <l n="9949">Le sainct oit dit a le p<ex rend="italics">er</ex>dus,</l>
-            <l n="9950">"La letre dit qu'il ot nom Farabus."</l>
-            <l n="9951">(Folio 69 Rb) "Pues que tu ais come<ex rend="italics">n</ex>cé <ex rend="italics">et</ex> movus</l>
-            <l n="9952">A desclarer ce que vos ert co<ex rend="italics">n</ex>fus,</l>
-            <l n="9953">Cestor qui sont qui si aut est enclus,</l>
+            <l n="9950">"La letre dit qu'il ot nom Farabus."<note xml:id="b9950"></l>
+            <l n="9951">
+            <milestone n='69Rb' unit ="fol."/>
+            "Pues que tu ais come<ex rend="italics">n</ex>cé <ex rend="italics">et</ex> movus<note xml:id="b9951"/></l>
+            <l n="9952">A desclarer ce que nos ert co<ex rend="italics">n</ex>fus,</l>
+            <l n="9953">Cestor qui sont qui si aut est enclus:</l>
             <l n="9954">Cel spir ydos, a cil regart agus,</l>
             <l n="9955">Qui tient li doy sor la carte estendus,</l>
             <l n="9956">N'a il pooir de sovrava<ex rend="italics">n</ex>cer plus</l>
-            <l n="9957">Trestot les autre. Cum aigle a oisel menus, </l>
+            <l n="9957">Trestot les autre. Cum aigle a oisel menus</l>
             <l n="9958">Pasa les autre de sciance or plus."</l>
             <l n="9959">Dit Eneas, "Celuy trova les hus</l>
             <l n="9960">De dialetiche et des aut<ex rend="italics">re</ex> v<ex rend="italics">er</ex>tus."</l>
@@ -12003,7 +12006,7 @@
             <l n="9969">Il bien savront sentencer droiteme<ex rend="italics">n</ex>t."</l>
             <l n="9970">Dit Eneas, "Il vait tot autrement,</l>
             <l n="9971">De son tencer n'i a voir mie talent;</l>
-            <l n="9972">Par ce<ex rend="italics">r</ex>t, chascu<ex rend="italics">n</ex>s autre senta<ex rend="italics">n</ex>ce atent.</l>
+            <l n="9972">Par ce<ex rend="italics">r</ex>t, chascu<ex rend="italics">n</ex>s autre senta<ex rend="italics">n</ex>ce atent<note xml:id='p9972' type="codic"codic"resp="#LZM"</note>
             <l n="9973">Tu crois qu'il leçe le letre qu'il verent,</l>
             <l n="9974">E les estoille et les moviment,</l>
             <l n="9975">E n'aigent poine? Més ce estoit nient;</l>
