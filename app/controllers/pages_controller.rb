@@ -114,7 +114,7 @@ class PagesController < ApplicationController
             # get name(s) of encoder(s)
             @encoder = doc.search('respStmt[type="encoder"]/name').first.text
 
-             # get manuscript collocation 
+            # get manuscript collocation 
             @city = doc.search('settlement').first.text
             @repository = doc.search('repository').first.text
             @shelflisting = doc.search('idno').first.text

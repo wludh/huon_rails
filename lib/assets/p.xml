@@ -80,6 +80,13 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
+                <listWit>
+                    <!-- TEI P5 12.1.4.3 -->
+                    <witness xml:id="B"></witness>
+                    <witness xml:id="T"></witness>
+                    <witness xml:id="P"></witness>
+                    <witness xml:id="Br"></witness>
+                </listWit>
                 <msDesc xml:lang="en">
                     <!-- xml:id ??? See Cummings 52 -->
                     <msIdentifier>
@@ -164,6 +171,7 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <variantEncoding method="location-referenced" location="external"/>
             <editorialDecl>
                 <correction method="markup">
                     <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a

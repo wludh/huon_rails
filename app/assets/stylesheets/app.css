@@ -310,7 +310,6 @@ header{
 /* Top bar */
 
 #nav {
-
     list-style: none;
     font-weight: lighter;
     width: auto;
@@ -381,12 +380,12 @@ header{
 .title {
     color: whitesmoke;
     line-height: 103%;
-    font-size: 170%;
-    padding-top: 2%;
+    font-size: 250%;
+    padding-top: 1%;
     background: black;
     font-weight: lighter;
-    height: 35%;
     font-variant: small-caps;
+    text-align: left;
   }
 
 /*Content */
@@ -849,14 +848,14 @@ td {
 }
 
 #introduction {
-    padding-top: 68px;
-    height: 100%;
-    text-align: justify;
-    margin-top: -200px
+  padding-top: 68px;
+  height: 100%;
+  text-align: justify;
+  margin-top: -200px
 }
 
 #title {
-      font-size: 28px;
+  font-size: 28px;
 }
 #links {
   text-align: center;

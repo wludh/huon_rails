@@ -21,6 +21,11 @@
                     <name xml:id="SSB">Shira Schwam-Barid</name>
                     <resp>translation</resp>
                 </respStmt>
+                <respStmt type="encoder">
+                    <name>Stephen P. McCormick</name>
+                    <resp>Web interface development</resp>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition n="1.0">
@@ -602,7 +607,7 @@
                 <l n="391">Let each of us change into a costume,</l>
                 <l n="392">Let's go see the ladies who have come</l>
                 <l n="393">To your court; many of them have come outdoors,</l>
-                <!--NOTE Literally: "... many [ladies] have not remained hidden inside" -->
+                <!--NOTE Literally: [...] many have not remained hidden inside -->
                 <l n="394">Therefore their beauty will be visible to us today."</l>
                 <l n="395">"Indeed," said the king, "so help me God,</l>
                 <l n="396">I will see them, whoever may think it foolish."</l>
@@ -683,8 +688,8 @@
                 <l n="460">I will be joyful for the rest of my life,</l>
                 <l n="461">And you yourself will be all the more beautiful for having done it:</l>
                 <l n="462">A lady who has never accepted love even a little</l>
-                <l n="463">Is not worth the lees [of a wine cask].</l>
-                <!--There are many such expressions indicating little value. See also lines 988, 1233, 1703, 2559, 3609, 3911, 4097, 4228, 4827, 8686, 8768, 9558, 10047, 10066, 10617, 10773, 10862 and 11793.-->
+                <l n="463">Is not worth the lees [in a wine cask].</l>
+                <!--There are many such expressions indicating little value. See also lines 988, 1233, 1703, 2559, 3609, 3911, 4097, 4228, 4827, 5905, 6547, 8440, 8686, 8768, 9558, 9697, 10047, 10066, 10236, 10241, 10617, 10773, 10862 and 11793.-->
                 <l n="464">A man or a woman in love</l>
                 <l n="465">Is worth much more and is made more gracious for it."</l>
                 <l n="466">"Sire," said Ynide, "may God bless me,</l>
@@ -947,7 +952,7 @@
                     kingdom of shadow</l>
                 <l n="684">[And] all the fortresses appertaining thereto,</l>
                 <l n="685">And he can hold [for you] all the land around there.</l>
-                <!--NOTE Lines 683-85 indicate that Huon should demand homage for Charles from the Devil as well as tribute. The terminology used is largely that of warfare (besiege, seize, etc.) but of course Huon does not have an army with him. For line 685, it is not clear who is to hold the land from Charles, Huon or the Devil.-->
+                <!--NOTE Lines 683-685 indicate that Huon should demand homage for Charles from the Devil as well as tribute. The terminology used is largely that of warfare (besiege, seize, etc.) but of course Huon does not have an army with him. For line 685, it is not clear who is to hold the land from Charles, Huon or the Devil.-->
                 <l n="686">Before he returns from that land</l>
                 <l n="687">Let him speak to him who is the greatest of them all,</l>
                 <!--NOTE Referring to Lucifer. -->
@@ -973,7 +978,7 @@
                 <l n="705">In this enterprise I believe today that [Huon] will win.</l>
                 <l n="706">As soon as he travels there, let him lay waste to the land all around. </l>
                 <l n="707">You will have, sire, his service for all his possessions;</l>
-                <!--NOTE I.e., he will owe you homage for all he has. -->
+                <!--NOTE That is, he will owe you homage for all he has. -->
                 <l n="708">He will send such tribute as is fitting to your honor.</l>
                 <l n="709"><milestone n="6Ra" unit="fol."/>Send then, sire, for Huon the count;</l>
                 <l n="710">Make him swear before [knowing] this task;</l>
@@ -1082,7 +1087,7 @@
                 <l n="794">Established on earth, both on hill and in dale,</l>
                 <l n="795">And that is the infernal domain.</l>
                 <l n="796">Now you will carry my letter and my seal;</l>
-                <l n="797">I want to know(be it for good or for evil(</l>
+                <l n="797">I want to know--be it for good or for evil--</l>
                 <l n="798">Whether this felon Lucifer will bow to me.</l>
                 <!--NOTE "Lucibial" is an alternate form of the name Lucifer here because it appears in rhyme position in the original text. -->
                 <l n="799">If it turns out that he won't, he'll face a deadly war;</l>
@@ -1123,7 +1128,7 @@
                 <l n="830">I am seeking something impossible, I know it well.</l>
                 <l n="831">Still, I shall try to the best of my ability to do it as long as I have
                     the leisure;</l>
-                    <!--NOTE "Leisure" here expresses time available to Huon before he dies. See OED 2b, <em>sub voce</em>, consulted 8/1/14. -->
+                    <!--NOTE "Leisure" here expresses time available to Huon before he dies. See OED 2b, <em>sub voce</em>, consulted 08/01/2014. -->
                 <l n="832">If it pleases God I will not be a liar.</l>
                 <l n="833">I commend my wife to your keeping, and all my heritage;</l>
                 <l n="834">I don't ask for more than a month of time to prepare,</l>
@@ -1263,8 +1268,7 @@
                 <l n="945">He slapped him several times and then said, "Get up right away</l>
                 <l n="946">And mount behind me; don't you dare complain.</l>
                 <l n="947">If you utter a word about this, before daybreak </l>
-                <l n="948">You will die at my hands, so help me God!"</l>
-                <!--NOTE Literally: "so I fix it unchangeably right now"; like the French "ainsi je le destine or maintenant."-->
+                <l n="948">You'll die at my hands, so I foretell right now!"</l>
                 <l n="949">Whether he wanted to or not, the pilgrim promised that day,</l>
                 <l n="950">That he would say nothing to any man born of woman.</l>
                 <l n="951">But if Huon's servant had really known</l>
@@ -1289,8 +1293,7 @@
                 <l n="967">[Huon] gave him water, but [the pilgrim] was silent and mute;</l>
                 <l n="968"><milestone n="7Vb" unit="fol."/>He spoke not a word to Huon.</l>
                 <l n="969">A round table was placed before him</l>
-                <l n="970">Piled with meat and good bread,</l>
-                <!--NOTE The text has <em>de bon pein bofu</em>, but it is unclear what <em>bofu</em> indicates about the bread. -->
+                <l n="970">Piled with meat and good, well-risen bread,</l>
                 <l n="971">And spiced wine that would please anyone.</l>
                 <l n="972">Huon said to the pilgrim, "My very good friend,</l>
                 <l n="973">Eat, in the name of Jesus, all that pleases you."</l>
@@ -1435,9 +1438,9 @@
                 <l n="1091">Just like one who is wise, he began to remember</l>
                 <l n="1092">When he had read Caton as a young schoolboy:</l>
                 <l n="1093">"You absolutely mustn't believe a wife rashly or easily;</l>
-                <!--italicize 'You absolutely mustn't believe a wife' -->
+                <!--BOLD You absolutely mustn't believe a wife -->
                 <l n="1094">Frequently a woman hates the one whom her husband has loved."</l>
-                <!--italicize 'Frequently a woman hates' -->
+                <!--BOLD Frequently a woman hates -->
                 <!--NOTE <em>Distich of Cato</em> -->
                 <l n="1095">Anger overtook him; he lashed out with a kick</l>
                 <l n="1096">That knocked her down hard onto the floor</l>
@@ -1533,7 +1536,7 @@
                 <l n="1172">But above all, he didn't forget this,</l>
                 <l n="1173">To begin a psalm that we find in the psalter:</l>
                 <l n="1174">Keep steady my steps. All the way to the end,</l>
-                <!--italicize 'Keep steady my steps' -->
+                <!--BOLD Keep steady my steps -->
                 <!--NOTE "Keep steady my steps according to thy promise [...]" (Psalm 118.133). -->
                 <l n="1175">He recited it in its entirety with great feeling.</l>
                 <l n="1176">He kept himself from wrath, and from other vices of the world;</l>
@@ -1558,7 +1561,7 @@
                 <l n="1191">The king recognized him, and received him gladly,</l>
                 <l n="1192">Saying, "Welcome, my very good and dear friend,</l>
                 <l n="1193">Why are you traveling, why have you come?</l>
-                <!--NOTE The words <em>quier la voie</em> literally mean "seek the road," a way of asking why he is traveling. -->
+                <!--NOTE Literally: Why seek the road [...] -->
                 <l n="1194">Whatever you seek, if I happen to have it,</l>
                 <l n="1195">I will give you as much of it as you want."</l>
                 <l n="1196">Huon, who had uncovered his head, thanked him;</l>
@@ -1606,6 +1609,7 @@
                 <l n="1231">Even though I know that I will find nothing there.</l>
                 <l n="1232">In other matters, one finds much strife,</l>
                 <l n="1233">Because of hope that isn't worth a fig.</l>
+                <!--NOTE Literally: [...] that isn't worth chervil -->
                 <l n="1234">I know well, [my] lord, that I labor for nothing."</l>
                 <l n="1235">"Huon, noble brother," said the king right away,</l>
                 <l n="1236">"Out of love for you I will obey him."</l>
@@ -1613,6 +1617,7 @@
                 <l n="1238">Then he commended him to God and left</l>
                 <l n="1239">To go where chance led him and his horse</l>
                 <l n="1240">To whom he gave free rein,</l>
+                <!--NOTE Literally: On whose neck in front of him he put the bridle -->
                 <l n="1241">Saying, "Go forth for the honor of the Holy Cross,</l>
                 <l n="1242">For I see no other alternative."</l>
                 <l n="1243">From land to land he traveled as he could,</l>
@@ -5110,12 +5115,12 @@
                 <l n="4245">Rather repeating the liturgy, hour by hour;</l>
                 <l n="4246">He recited a psalm that he had learned as a boy:</l>
                 <l n="4247">"Remember me, O Lord," until its end.</l>
-                <!--italicize 'Remember me, O Lord' -->
+                <!--BOLD 'Remember me, O Lord' -->
                 <l n="4248">Then he would recite another that he remembered:</l>
                 <l n="4249">"Troubled, [I come] to You, Lord Jesus,</l>
-                <!--italicize 'Troubled, [I come] to You' -->
+                <!--BOLD 'Troubled, [I come] to You' -->
                 <l n="4250">I cried out to You, O Lord, and we render thanks to You</l>
-                <!--italicize 'I cried out to You, O Lord' -->
+                <!--BOLD 'I cried out to You, O Lord' -->
                 <l n="4251">For all the care we have received from You."</l>
                 <l n="4252">He rode until he came to the top of a hill</l>
                 <l n="4253">By a shore where there was very deep water;</l>
@@ -5594,7 +5599,7 @@
                 <l n="4648">The more they thought about it, the more they wondered;</l>
                 <l n="4649">Indeed they knew of no way to get any good advice.</l>
                 <l n="4650">He was getting a ship prepared in the best way possible:</l>
-                <l n="4651">They loaded it with hard tack, together with other provisions.</l>
+                <l n="4651">They loaded it with hardtack, together with other provisions.</l>
                 <l n="4652">They said for sure</l>
                 <l n="4653">That he would need nothing else for a year.</l>
                 <l n="4654">And other things that he might want,</l>
@@ -6865,9 +6870,9 @@
                 <l n="5782">They held a discussion there that would not please others;</l>
                 <l n="5783">It couldn't be otherwise, according to what Isaias,</l>
                 <l n="5784">Who discerned the truth, stated in Latin,</l>
-                <!--italicize 'discerned' -->
+                <!--BOLD 'discerned' -->
                 <l n="5785">For one cannot serve two lords.</l>
-                <!--italicize 'two' -->
+                <!--BOLD 'two' -->
                 <l n="5786">This Zenat has told you, who concluded this verse.144</l>
                 <l n="5787">(Laisse 224) After Ynide all her barons entered,</l>
                 <l n="5788">One spoke to the other, settiing out many ideas;</l>
@@ -6889,7 +6894,7 @@
                 <l n="5803">And even more, He lit up [the world],</l>
                 <l n="5804">And with His mouth He said to us and commanded</l>
                 <l n="5805">Forgive us to those who will forgive [others].</l>
-                <!--italicize 'Forgive us' -->
+                <!--BOLD 'Forgive us' -->
                 <l n="5806">Those who have mercy on others, God likewise will have [mercy] on
                     them.</l>
                 <l n="5807">Rather, if possible, it should be observed particularly among us.</l>
@@ -6897,10 +6902,10 @@
                 <l n="5809">[They say that] one acts wrongly ever to take pity on traitors;</l>
                 <l n="5810">On the contrary one should hang [them] right away without delay.</l>
                 <l n="5811">But people who read used to say a verse</l>
-                <!--italicize 'who read' -->
+                <!--BOLD 'who read' -->
                 <l n="5812">(Folio 40 Rb) 'It is shameful for a wise man when [his own] guilt blames
-                    him,146</l>
-                <!--italicize 'It is shameful for a wise man when [his own] guilt' -->
+                    him,</l>
+                <!--BOLD 'It is shameful for a wise man when [his own] guilt' -->
                 <l n="5813">Nor should a man be in a hurry to be zealous.'</l>
                 <l n="5814">So think hard [about it], for we are all sinners,</l>
                 <l n="5815">[And] rather, out of reverence for our Redeemer,</l>
@@ -6928,7 +6933,7 @@
                 <l n="5836">Absolutely everyone great and small ran to the main square,</l>
                 <l n="5837">Men and women crying out with all their might:</l>
                 <l n="5838">"May all these traitorous scoundrels die!"</l>
-                <!--italicize 'May all' & 'die' -->
+                <!--BOLD 'May all' & 'die' -->
                 <l n="5839">At this point, the lady came out of her chamber,</l>
                 <l n="5840">Princes, counts and dukes accompanying her.</l>
                 <l n="5841">The ambassadors had already been completely stripped;</l>
@@ -7085,7 +7090,7 @@
                 <l n="5980">When he felt the sweet smooth hand</l>
                 <l n="5981">That first formed him into this life,</l>
                 <l n="5982">When it was said "Here is [My] hand"--for I've indeed heard it,</l>
-                <!--italicize:  it was said "Here is [My] hand"-->
+                <!--BOLD  it was said "Here is [My] hand"-->
                 <l n="5983">That He formed us most holy and sweet and pious--</l>
                 <l n="5984">Nor did the prophets have [greater joy] with their company</l>
                 <l n="5985">When they were led into that holy life,</l>
@@ -7171,11 +7176,11 @@
                 <l n="6061">They stretched their hands out to God,</l>
                 <l n="6062">Most gratefully did they greet and thank Him:</l>
                 <l n="6063">"Remember us, O Lord, for we needed [it],</l>
-                <!--ITALICIZE Remember us, O Lord -->
+                <!--BOLD Remember us, O Lord -->
                 <l n="6064">According to Your great mercy."</l>
-                <!--ITALICIZE According to  ... great mercy -->
+                <!--BOLD According to  ... great mercy -->
                 <l n="6065">And once they had recited the Gloria refrain,</l>
-                <!--ITALICIZE Gloria -->
+                <!--BOLD Gloria -->
                 <l n="6066">[And] beaten their breasts, they set off on the road,</l>
                 <l n="6067">Grieving and weeping over what had happened to them.</l>
                 <l n="6068">(Laisse 236) (Folio 43 Ra) The next day once mass had been heard,</l>
@@ -7184,73 +7189,77 @@
                 <l n="6071">With him [were] all the noble barons:</l>
                 <l n="6072">"[My] lord," he said, "it is now incumbent upon me</l>
                 <l n="6073">To leave your company, which saddens my heart. </l>
-                <l n="6074">If I wouldn't be reproached of cowardice,</l>
-                <l n="6075">And [if] I wouldn't be dealing deceitfully toward my lord,</l>
+                <l n="6074">If people wouldn't reproach me with cowardice,</l>
+                <l n="6075">And I wouldn't be betraying my lord,</l>
                 <l n="6076">I wouldn't leave here for any riches whatsoever.</l>
                 <l n="6077">I have been very pleased by your holy life</l>
                 <l n="6078">In which you practice no deception among yourselves.</l>
                 <l n="6079">Please direct your prayers for me</l>
-                <l n="6080">To that God, who has all of us in his keeping,</l>
-                <l n="6081">So that He send me where I desire [to go].</l>
-                <l n="6082">However much one might find it foolish</l>
-                <l n="6083">That I go seeking the Devil's kingdom,</l>
+                <l n="6080">To that God who has all of us in His keeping,</l>
+                <l n="6081">So that He send me what I desire,</l>
+                <l n="6082">However much I might find it foolish</l>
+                <l n="6083">To go seeking the Devil's kingdom.</l>
                 <l n="6084">Even if I live as long as Jeremiah,</l>
                 <l n="6085">I will never return to my lands</l>
-                <l n="6086">If it is possible for me to carry out </l>
+                <l n="6086">--If that's [even] possible--until I carry out </l>
                 <l n="6087">My mission in the great place of darkness,</l>
-                <l n="6088">Or I will die, so that no one speaks ill of me.152</l>
+                <l n="6088">Or I will die, so that no one speaks ill of me.</l>
+                <!--NOTE T 5823: <em>anze che</em> nesun de my mal ne diga -->
                 <l n="6089">I thank you for the great courtesy</l>
                 <l n="6090">Of having provisioned this ship</l>
-                <l n="6091">With hard tack and grain for the horse;</l>
+                <l n="6091">With hardtack and grain for the horse;</l>
                 <l n="6092">For a whole year and more I'm now well-supplied;</l>
                 <l n="6093">May God grant you a good reward for my sake."</l>
-                <l n="6094">(Laisse 237) All around the count the lamentation was great</l>
-                <l n="6095">By knights, ladies, the young and the hoary.</l>
+                <l n="6094">(Laisse 237) All around the count there was great lamentation</l>
+                <l n="6095">From knights, ladies, the young and the white-bearded.</l>
                 <l n="6096">Tadeus, who was bailiff of the town,</l>
-                <l n="6097">Weeping, took hold of him by his chain mail hauberk:</l>
-                <l n="6098">"Loyal man, brother, you have truly seized my heart,</l>
-                <l n="6099">When you are going to such a cruel country</l>
+                <l n="6097">Weeping, took hold of him by his chain-mail hauberk:</l>
+                <l n="6098">"Loyal man, brother, you have truly upset me,</l>
+                <!--NOTE Literally: [...] you have truly seized my heart -->
+                <l n="6099">When I hear you are going to a cruel country</l>
+                <!--NOTE T 5794: <em>quando andare</em> vuy y[n]tendo y[n] crudele paiesse -->
                 <l n="6100">Where no man who has ever been alive has gone. </l>
-                <l n="6101">It is quite impossible, so it is written;153</l>
-                <l n="6102">May God grant [it] to you, as to a good son.</l>
+                <l n="6101">It is quite impossible, so it is written;</l>
+                <!--NOTE Literally: [...] the story writes it -->
+                <l n="6102">May God grant [it] to you, since you have good faith.</l>
                 <l n="6103">I don't know what else to say; may He have mercy on you;</l>
                 <l n="6104">One thing I will say, don't think it foolish:</l>
-                <l n="6105">(Folio 43 Rb) Once you will have passed through these high
-                    mountains,</l>
+                <l n="6105">(Folio 43 Rb) Once you have passed this high mountain in one piece,</l>
                 <l n="6106">You'll find no more humans of living flesh.</l>
                 <l n="6107">Indeed you won't find gardens or blooming woods;</l>
                 <l n="6108">Only leopards, lions and ferocious bears,</l>
                 <l n="6109">Serpents, vermin, huge flying birds.</l>
                 <l n="6110">Indeed, believe me, I don't think that will be the worst:</l>
-                <l n="6111">So you should leave here this prize war horse,</l>
+                <l n="6111">So you should leave this prize war horse here,</l>
                 <l n="6112">Who is so good and of great worth:</l>
-                <l n="6113">The dangerous beasts will [soon] kill your horse.</l>
+                <l n="6113">The dangerous beasts will kill him.</l>
                 <l n="6114">I'll pray to God and [His] Holy Mother</l>
-                <l n="6115">That He watch over both of you, that you not be killed.</l>
+                <l n="6115">That they both watch over both of you, that you not be killed.</l>
+                <!--NOTE This could also be translated as: That He watch over both of you, that you not be killed -->
                 <l n="6116">By the faith I owe the Holy Spirit,</l>
                 <l n="6117">You have aroused much pity in my heart,</l>
                 <l n="6118">Such that I am grieving seeing that you ever came here.</l>
                 <l n="6119">Huon, dear brother, my good close friend,</l>
-                <l n="6120">May the One who was crucified grant you favor,</l>
-                <l n="6121">And may I see you once again healthy and hearty,</l>
-                <l n="6122">And may you also find all that you have been seeking.</l>
+                <l n="6120">May the One who was crucified grant you grace,</l>
+                <l n="6121">That I may see you once again healthy and hearty,</l>
+                <l n="6122">May you also find all that you have been seeking.</l>
                 <l n="6123">My heart says to me, thus I feel certain and sure of it,</l>
                 <l n="6124">That for such a one as you are</l>
                 <l n="6125">The Lord of Paradise will do great wonders.</l>
-                <l n="6126">Indeed I wouldn't believe that you wronged God,</l>
+                <l n="6126">If you didn't believe that you would be wronging God,</l>
                 <l n="6127">I would come with you, so willing am I;</l>
-                <l n="6128">[But] you wish to go alone in order not to be held back."</l>
+                <l n="6128">[But] you wish to go alone in order not to be reproached."</l>
                 <l n="6129">Huon replied, "May God reward you."</l>
-                <l n="6130">John's nephew put his arms around [Huon's] neck;</l>
+                <l n="6130">[Prester] John's nephew put his arms around [Huon's] neck;</l>
                 <l n="6131">Huon kissed him and said, "Noble Tadeus,</l>
                 <l n="6132">This man of Auvergne is leaving you,</l>
                 <l n="6133">Whom he loves more than a brother or cousin.</l>
                 <l n="6134">Pray to our Lord Jesus Christ for me,</l>
                 <l n="6135">May He allow me to accomplish everything I have undertaken."</l>
                 <l n="6136">With these words he took hold of the prize war horse,</l>
-                <l n="6137">Put the ship's rope over the horse's chest,</l>
+                <l n="6137">Put the ship's rope over the [horse's] chest,</l>
                 <l n="6138">And the nobleman led him by the bit</l>
-                <l n="6139">Up the bank of the river Tigris;</l>
+                <l n="6139">Along the bank of the river Tigris;</l>
                 <l n="6140">Everyone big and small wept for him.</l>
                 <l n="6141">(Laisse 238) The good people grieved exceedingly</l>
                 <l n="6142">(Folio 43 Va) For the nobleman who was enduring such an arduous
@@ -7259,38 +7268,38 @@
                 <l n="6144">To [the place] to which hope led him forward.</l>
                 <l n="6145">He traveled by foot like a wanderer,</l>
                 <l n="6146">Leading the charger by the bit;</l>
-                <l n="6147">Never before had a ship had such a crew;</l>
+                <l n="6147">Never before had a ship been equipped like this;</l>
                 <l n="6148">Thus the good war horse pulled [the ship] at a trot.</l>
                 <l n="6149">The count traveled until the sun set;</l>
                 <l n="6150">He made camp once night was near.</l>
                 <l n="6151">He provided for himself and for the charger as well;</l>
                 <l n="6152">[Huon] gave him as much grain as he wanted.</l>
-                <l n="6153">He satisfied himself with bread [and] water;</l>
+                <l n="6153">He satisfied himself with bread [and] water,</l>
                 <l n="6154">He required no other food at all.</l>
                 <l n="6155">As day dawned, he set out traveling;</l>
                 <l n="6156">He continued his journey, going by foot every day.</l>
                 <l n="6157">I'm not going to recount to you their journey,</l>
                 <l n="6158">Except that he always endured great hardship.</l>
-                <l n="6159">He rested little and yet it was satisfying;</l>
-                <l n="6160">There has never been a man of such character!</l>
-                <l n="6161">However much he had [it], yet evil comes seeking you.</l>
-                <l n="6162">He had walked for so long along the flowing river</l>
-                <l n="6163">That he had passed over the great mountain,</l>
-                <l n="6164">The one about which Tadeus said that from there [going] forward</l>
-                <l n="6165">He would not find any living creature</l>
-                <l n="6166">Except for dangerous beasts, serpents, and flying birds.</l>
-                <l n="6167">Because of this, the count, as he walked, remembering [this],</l>
+                <l n="6159">He rested little and yet he was satisfied;</l>
+                <l n="6160">There has never been a man of such good sense!</l>
+                <l n="6161">He could have had an easy life, yet he went off seeking hardship.</l>
+                <l n="6162">He traveled a long time on the flowing river</l>
+                <l n="6163">Until he passed beyond the great mountain,</l>
+                <l n="6164">Where, Tadeus said, from there [going] forward</l>
+                <l n="6165">He wouldn't find any living creature</l>
+                <l n="6166">Except for dangerous beasts, serpents and flying birds.</l>
+                <l n="6167">The count, as he walked, remembering this,</l>
                 <l n="6168">Called upon God the Father frequently and repeatedly.</l>
                 <l n="6169">And then in that place he made camp,</l>
                 <l n="6170">Giving the horse as much oats as he wanted.</l>
-                <l n="6171">On his knees he turned himself toward the East;</l>
+                <l n="6171">On his knees he turned toward the east;</l>
                 <l n="6172">He stretched his hands toward Almighty God,</l>
                 <l n="6173">Rendered thanks both to Him and to His Mother;</l>
-                <l n="6174">He prayed devoutly as it pleased him,</l>
-                <l n="6175">That he be able to accomplish what he wanted,</l>
-                <l n="6176">He wouldn't give up because of pain or anguish;</l>
-                <l n="6177">If God permitted it to him, "so long as I am alive,</l>
-                <l n="6178">Why mightn't my ability carry out what I've been striving for?"</l>
+                <l n="6174">He prayed devoutly as it pleased him</l>
+                <l n="6175">That he be able to accomplish what he wanted.</l>
+                <l n="6176">He wouldn't give up because of pain or anguish,</l>
+                <l n="6177">God willing, so long as he was alive,</l>
+                <l n="6178">"Or not do my utmost because I am suffering."</l>
                 <l n="6179">(Laisse 239) (Folio 43 Vb) The count arose once he had finished his
                     prayers;</l>
                 <l n="6180">Went to the ship and then boarded it.</l>
@@ -9479,7 +9488,7 @@
                 <l n="8282">Never before had he been so lighthearted any day of his life,</l>
                 <l n="8283">He thanked God profusely, he recited many psalms:</l>
                 <l n="8284">He recited Beati imaculati to its conclusion.</l>
-                <!--italicize Beati imaculati -->
+                <!--BOLD Beati imaculati -->
                 <l n="8285">He made his way along the river Tigris,</l>
                 <l n="8286">(Folio 58 Ra) Once he had found it, he didn't leave it.</l>
                 <l n="8287">The birds went ahead, always flying.</l>
@@ -9642,11 +9651,11 @@
                 <l n="8439">He didn't care one bit about his body;</l>
                 <l n="8440">After that, he read his psalms</l>
                 <l n="8441">"De profundis clamavi," such was the beginning,</l>
-                <!--italicize De profundis clamavi -->
+                <!--BOLD De profundis clamavi -->
                 <l n="8442">"Ad te domine domine," so that he might be heard,</l>
-                <!--italicize Ad te domine domine -->
+                <!--BOLD Ad te domine domine -->
                 <l n="8443">[And] "Oracionem meam" until its conclusion.</l>
-                <!--italicize Oracionem meam -->
+                <!--BOLD Oracionem meam -->
                 <l n="8444">And when he had finished those, he recalled others,</l>
                 <l n="8445">And then he straightened up as a man who has had a realization.</l>
                 <l n="8446">He spoke aloud, he didn't keep it quiet,</l>
