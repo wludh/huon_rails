@@ -18,13 +18,8 @@
                 <funder>The National Endowment for the Humanities</funder>
                 <principal>Shira Schwam-Baird</principal>
                 <respStmt>
-                    <name xml:id="SSB">Shira Schwam-Barid</name>
+                    <name xml:id="SSB">Shira Schwam-Baird</name>
                     <resp>translation</resp>
-                </respStmt>
-                <respStmt type="encoder">
-                    <name>Stephen P. McCormick</name>
-                    <resp>Web interface development</resp>
-                    <resp>TEI coding and development</resp>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -158,7 +153,7 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <l n="1"><milestone n="1Ra" unit="fol."/>In the springtime<note xml:id="trans1"/>
+                <l n="1"><milestone n="1Ra" unit="fol."/>TEST In the springtime<note xml:id="trans1"/>
                     when all the fields</l>
                 <l n="2">Are green again, as well as the laurel trees and bushes,</l>
                 <l n="3">When all kinds of birds fall in love,</l>
@@ -221,7 +216,7 @@
                 <l n="54">To see clearly the best of his men, </l>
                 <l n="55">[To know] which one was the most daring and valiant.</l>
                 <l n="56">He took counsel with the count of Luxembourg,</l>
-                <l n="57">And furthermore with Roger, the Lord of Nantes,</l>
+                <l n="57">And furthermore with Roger, the lord of Nantes,</l>
                 <l n="58">As to how he could see them in action.</l>
                 <l n="59">They answered, "Have it announced everywhere</l>
                 <l n="60">That there not remain behind anyone great or small</l>
@@ -6064,21 +6059,21 @@
                 <l n="5036">Dressed in black, pious and virtuous,</l>
                 <l n="5037">There were hot tears [coursing] down her robe and gown;</l>
                 <l n="5038">The pilgrim had not yet left.</l>
-                <l n="5039">Now you'll hear the deliberation of [this] lamentable affair;</l>
+                <l n="5039">Now you'll hear the deliberation of a lamentable affair;</l>
                 <l n="5040">Roger, who had very great authority, began:</l>
                 <l n="5041">"That Lord of glory, from whom all good appears,</l>
                 <l n="5042">May He grant complete joy to everyone, young and old,</l>
                 <l n="5043">And most of all to the great king [here] on earth;</l>
                 <l n="5044">And to you, noble lady, and to all your family.</l>
-                <l n="5045">The emperor, who possesses this in torment,</l>
+                <l n="5045">The emperor, who possesses this world in torment,</l>
                 <l n="5046">Has sent us here and the reason is this:</l>
                 <l n="5047"><milestone n="35Rb" unit="fol."/>[It is] out of love for your lord, whom
                     he loves more than Orestes</l>
                 <l n="5048">[Loved] Calisor or the king of Guineste,</l>
                 <l n="5049">Or Achilles [loved] Patroclus of Floreste.</l>
-                <l n="5050">Indeed it is thus, he is making the truth known</l>
-                <l n="5051">By sending for you, entreating you with all his being</l>
-                <l n="5052">Solely in order to honor you, in the name of God the heavenly King.</l>
+                <l n="5050">Indeed it is thus, he makes the truth known</l>
+                <l n="5051">When for your sake he sends high-level representatives</l>
+                <l n="5052">Solely to honor you, in the name of God the heavenly King.</l>
                 <l n="5053">You will be together with his wife and his daughter,</l>
                 <l n="5054">Part of [their] exalted company; I don't know what happens
                     afterward.</l>
@@ -7340,7 +7335,7 @@
                 <l n="6215">Let's turn back now to [our] subject.</l>
                 <l n="6216">(Folio 44 Ra) The pure-hearted baron fed [the horse],</l>
                 <l n="6217">Then he seated himself in a wild spot.</l>
-                <l n="6218">Once he had prayed to the Heavenly King</l>
+                <l n="6218">Once he had prayed to the heavenly King</l>
                 <l n="6219">That what he was seeking to do would not turn out badly,</l>
                 <l n="6220">He ate his bread, for he wished for nothing else</l>
                 <l n="6221">Other than the final hour he disappeared from his earthly life. </l>
@@ -7369,7 +7364,7 @@
                 <l n="6244">I feel very great pity for you;</l>
                 <l n="6245">You cannot understand and the great sin of that lies upon me."</l>
                 <l n="6246">Having said that, he tarried there no longer;</l>
-                <l n="6247">He tied the rope around the golden saddle tree,</l>
+                <l n="6247">He tied the rope around the golden saddle-bow,</l>
                 <l n="6248">He struck the horse on his round rump,</l>
                 <l n="6249">And then he cried, saying "Come on, let's go."</l>
                 <l n="6250">So [the horse] set out along the river;</l>
@@ -7435,7 +7430,7 @@
                 <l n="6310">Indeed I'll carry out the emperor's desire."</l>
                 <l n="6311">He made the sign of the cross over his face.</l>
                 <l n="6312">(Laisse 244) The count descended from the high hill;</l>
-                <l n="6313">He took the rope and tied it to the saddle tree.</l>
+                <l n="6313">He took the rope and tied it to the saddle-bow.</l>
                 <l n="6314">"Let's go on, in the name of Jesus Christ,</l>
                 <l n="6315">May He grant me what I have asked for."</l>
                 <l n="6316">The good horse set himself on the tough road,</l>
@@ -7679,7 +7674,7 @@
                 <l n="6549">(Folio 46 Rb) All spices bloom there, [including] mandrake.169</l>
                 <l n="6550">If you go there (there is no disbelieving this),</l>
                 <l n="6551">You could never get enough;170</l>
-                <l n="6552">We never have trouble except for from planning.171</l>
+                <l n="6552">We never have trouble only providing that we take care.</l>
                 <l n="6553">(Laisse 255) Furthermore, vassal, I tell you, if you go there</l>
                 <l n="6554">To see this lady of great power,</l>
                 <l n="6555">You wouldn't be able to leave in the morning.</l>
@@ -7710,14 +7705,13 @@
                 <l n="6579">In order to see your lady [and] speak to your barons;</l>
                 <l n="6580">None of her magic or any lesson</l>
                 <l n="6581">Can make me change my intention.</l>
-                <l n="6582">This thing that I am asking about,</l>
-                <l n="6583">I know it's impossible, and I know it well,</l>
+                <l n="6582">This thing that I'm asking about,</l>
+                <l n="6583">I know [it's] impossible, and I know it well,</l>
                 <l n="6584">Indeed it doesn't please the Lord of Heaven.</l>
                 <l n="6585">Scripture speaks of it, we know that well.</l>
-                <l n="6586">(Folio 46 Va) It weighs on me greatly to explain in [that place of]
-                    shadow where</l>
-                <l n="6587">I have never been (frankly one must be there in person),</l>
-                <l n="6588">And to relate my mission to [the Devil] for Charles.</l>
+                <l n="6586">(Folio 46 Va) It can truly reveal to me when I am not in darkness,</l>
+                <l n="6587">However I clearly must be there in person</l>
+                <l n="6588">And relate my mission to [the Devil] for Charles.</l>
                 <l n="6589">I know well this cannot be; you speak in vain.</l>
                 <l n="6590">But I am quite troubled about something:</l>
                 <l n="6591">I fear that in these parts where I now am,</l>
@@ -8158,7 +8152,7 @@
                 <l n="7018">The count feared that he had been tricked.</l>
                 <l n="7019">Then the next day once the sun had risen,</l>
                 <l n="7020">He brought the horse off his ship,</l>
-                <l n="7021">And attached the rope to the golden saddle tree.</l>
+                <l n="7021">And attached the rope to the golden saddle-bow.</l>
                 <l n="7022">He cried out to the horse saying, "Forward, let's go!"</l>
                 <l n="7023">He made his way along the bank of the river;</l>
                 <l n="7024">He was hindered by absolutely nothing</l>
@@ -8189,7 +8183,7 @@
                 <l n="7049">He sliced his neck, down to his chest.</l>
                 <l n="7050">The trunk of the body fell to the ground;</l>
                 <l n="7051">It resembled a stone thrown by a catapult.</l>
-                <l n="7052">May God, the Heavenly Father, help the count,</l>
+                <l n="7052">May God, the heavenly Father, help the count,</l>
                 <l n="7053">May He soon bring him out of [this] great racket!</l>
                 <l n="7054">(Laisse 276) The count, having killed the huge bird,</l>
                 <l n="7055">Was then gravely attacked by the others.185</l>
@@ -8198,7 +8192,7 @@
                 <l n="7058">First [he picked up] the Arab war horse's coverlet</l>
                 <l n="7059">Made of two [kinds of] brocade and rich samite;</l>
                 <l n="7060">As quickly as he could, he placed it over [the horse],</l>
-                <l n="7061">Then he arranged the rope around the golden saddle tree.</l>
+                <l n="7061">Then he arranged the rope around the golden saddle-bow.</l>
                 <l n="7062">With a spear in his hand, he took his path;</l>
                 <l n="7063">He laced up his polished helmet.</l>
                 <l n="7064">He took hold of his curved shield by the leather straps;</l>
@@ -8416,7 +8410,7 @@
                 <l n="7271">Often he entreated the great Holy Glory190</l>
                 <l n="7272">To save him always from sinning.</l>
                 <l n="7273">He lamented his sins and thus moaned a lot [over them]</l>
-                <l n="7274">Through intense praying, he didn't cease to pray to the Almighty
+                <l n="7274">Through intense praying, he didn't cease to pray to the almighty
                     Lord</l>
                 <l n="7275">That He watch over him and the war horse, that no evil overpower
                     them;</l>
@@ -8583,7 +8577,7 @@
                 <l n="7429">He has demonstrated it to me through many good examples, </l>
                 <l n="7430">And He has indeed saved me from many great perils.</l>
                 <l n="7431">Nor do I want to cause harm to my horse as I am doing now.</l>
-                <l n="7432">The Pope and Prester John already told me, I know,</l>
+                <l n="7432">The pope and Prester John already told me, I know,</l>
                 <l n="7433">Not to go seeking this, and to turn myself to good deeds.</l>
                 <l n="7434">They'll absolve me, if I have any sins from it.</l>
                 <l n="7435">And many other wise men told me often,</l>
@@ -11172,8 +11166,8 @@
                 <l n="9900">For that glorious place where no one roars nor cries.</l>
                 <l n="9901">Now that you have heard their entire story,</l>
                 <l n="9902">Let's go forward; my explanation is finished."</l>
-                <l n="9903">(Laisse 379) Through the land of the spirits they went</l>
-                <l n="9904">Aeneas and the count speaking in this way.</l>
+                <l n="9903">(Laisse 379) Through the land of the spirits they went,</l>
+                <l n="9904">Aeneas and the count, speaking in this way.</l>
                 <l n="9905">They traveled until they arrived</l>
                 <l n="9906">At a castle that was not in the world.</l>
                 <l n="9907">Seven great gates were in the first wall;</l>
@@ -11191,7 +11185,7 @@
                 <l n="9919">See how they set about studying!</l>
                 <l n="9920">More than all the others who are still studying,</l>
                 <l n="9921">He wants to know if they will [ever] leave that place.</l>
-                <l n="9922">They turn over the cards, but they don't find the point they seek.</l>
+                <l n="9922">They turn over the cards, but they don't find the point [they seek].</l>
                 <!--NOTE They turn over cards to predict their future and don't get the "point" that would give them the answer they want, that they can leave. See TL: col 2106 line 20-21. -->
                 <l n="9923">They will keep up this practice, dear friend,</l>
                 <l n="9924">Until the day when the angels will come</l>
@@ -11236,9 +11230,9 @@
                 <l n="9963">"You who pointed out Farabus who studies</l>
                 <l n="9964">Dialectic as well as other arts,</l>
                 <l n="9965">Do they have any other use?"</l>
-                <l n="9966">He said, "Indeed not until the Judgment [Day]."</l>
+                <l n="9966">He said, "Indeed not until the Judgement [Day]."</l>
                 <l n="9967">The count replied, "By almighty God!</l>
-                <l n="9968">Thus they will have to study for such a long time,</l>
+                <l n="9968">Thus they will have to study such a long time,</l>
                 <l n="9969">They will know well how to reason properly."</l>
                 <l n="9970">Aeneas said, "Just the opposite,</l>
                 <l n="9971">There is indeed no desire at all for his disputation;</l>
@@ -11251,7 +11245,7 @@
                 <l n="9978">And explains and speaks of the firmament to come,</l>
                 <l n="9979">Where each one will have the punishment [befitting] his conduct.</l>
                 <l n="9980">They are very afraid of the great assembly</l>
-                <l n="9981">That will double their torment on Judgment Day;</l>
+                <l n="9981">That will double their torment on Judgement Day;</l>
                 <l n="9982">Bow your head, pass on in safety."</l>
                 <l n="9983">William took hold of the count by the hand,</l>
                 <l n="9984">They closed the narrow gate behind them</l>
@@ -11268,7 +11262,7 @@
                 <l n="9995">A great obstacle. Without intense effort and without pain,</l>
                 <l n="9996">No human creature could enter there.</l>
                 <l n="9997">The beauty of the gate distinguished it from all the
-                    others;283</l>
+                    others;</l>
                 <l n="9998">They found beautiful young people, fresh and healthy;</l>
                 <l n="9999">Their clothing appeared white and scarlet-colored,</l>
                 <l n="10000">[Made] long like [the clothing of] people from far away</l>
@@ -11286,10 +11280,10 @@
                 <l n="10010">"Here is the flower of the first people</l>
                 <l n="10011">Of the Trojans and the Greeks who hated each other."</l>
                 <l n="10012">With his finger he pointed out many eminent noblemen:</l>
-                <l n="10013">"This was so and so fighting that one," he said, giving the correct
+                <l n="10013">"This was so-and-so fighting that one," he said, giving the correct
                     names,</l>
                     <!--NOTE Literally: "This was that one with that one," he certainly said the names -->
-                <l n="10014">He explained to him the matter; most of them were locked in combat,</l>
+                <l n="10014">He explained the matter to him; most of them were locked in combat,</l>
                 <l n="10015">Fighting each other; in this they had the hearts of Romans;</l>
                 <l n="10016">They would get little rest. "You can see well their fatigue.</l>
                 <l n="10017">Friend," said Aeneas, "such is their destiny.</l>
@@ -11356,7 +11350,7 @@
                 <l n="10075">"O God," said the count, "Justice, how pure you are!</l>
                 <l n="10076">He was truly a man of valor, he never committed savagery!</l>
                 <l n="10077">He had great tribulation in this life because of the Saracens,</l>
-                <!--NOTE Literally: ... the despicable people (epithet for Saracens) -->
+                <!--NOTE Literally: [...] the despicable people (epithet for Saracens) -->
                 <l n="10078">In order to maintain justice and to serve the right.</l>
                 <l n="10079">I would willingly help him if I had the courage."</l>
                 <l n="10080">(Laisse 386) The count departed, his heart was very sorrowful</l>
@@ -11373,7 +11367,7 @@
                 <l n="10091">He asked Aeneas, "What people are these then?"</l>
                 <l n="10092">And [Aeneas] replied, "They are King Agollant,</l>
                 <!--NOTE  These are Saracen kings from the chanson de geste <em>Aspremont</em>.-->
-                <l n="10093">Uliens the brave and Helmont the valiant.287</l>
+                <l n="10093">Uliens the brave and Helmont the valiant, to him</l>
                 <l n="10094">That combative group who were on the field of Aspremont</l>
                 <l n="10095">Because during their lives they loved neither God nor saints</l>
                 <l n="10096">And thought to destroy Christianity,</l>
@@ -11817,14 +11811,14 @@
                 <l n="10514">(Laisse 402) "Friend Huon, you are now without fail</l>
                 <l n="10515">In deep Hell where there is the most woe.</l>
                 <l n="10516">The greatest sin indeed has this dwelling place;</l>
-                <l n="10517">In their case it is Our Lord who gives such penance to them.297</l>
+                <l n="10517">In their case it is our Lord who gives such penance to them.297</l>
                 <l n="10518">This one is Cain who committed that wickedness,</l>
                 <l n="10519">Who killed his brother through cruel affection.</l>
                 <l n="10520">This criminal committed the first homicide;</l>
                 <l n="10521">The other is Ham who committed that wrongdoing;298</l>
                 <l n="10522">The other is Pharoah, who had so much power in the world.</l>
                 <l n="10523">All of these people, I tell you with certainty,</l>
-                <l n="10524">Come before the decision of Our Lord."</l>
+                <l n="10524">Come before the decision of our Lord."</l>
                 <l n="10525">(Laisse 403) Aeneas said to Charles' messenger,</l>
                 <l n="10526">"See there Lucifer, with that strange form,</l>
                 <l n="10527">Who is filthy and dark and has a loud voice;</l>
@@ -12355,7 +12349,7 @@
                 <l n="11027">We know that Charles left a daughter,</l>
                 <l n="11028">She is quite wise and of beautiful appearance;</l>
                 <l n="11029">I'm not at all saying that she be put in power,</l>
-                <l n="11030">[But rather] in the custody of the Pope; for we'll bestow her into [his
+                <l n="11030">[But rather] in the custody of the pope; for we'll bestow her into [his
                     keeping]</l>
                 <l n="11031">Until the court assembles in a year and a half,</l>
                 <l n="11032">Then there will be people from many regions.</l>
@@ -12533,7 +12527,7 @@
                 <l n="11194">Until the day named when the court assembled.</l>
                 <l n="11195">A lot of men came there from many places;</l>
                 <l n="11196">I'm not able to recount all the names correctly.</l>
-                <l n="11197">The Pope was there, there were great clergymen:</l>
+                <l n="11197">The pope was there, there were great clergymen:</l>
                 <l n="11198">Bishops and archbishops, priests, I believe,</l>
                 <l n="11199">And dukes and counts and other noblemen;</l>
                 <l n="11200">[And] princes and kings who support Christians.</l>
@@ -12574,12 +12568,12 @@
                 <l n="11233">That the court take place without any delay.</l>
                 <l n="11234">Everyone thought it was a good idea;311</l>
                 <l n="11235">Each one of course went [along], then it was agreed.</l>
-                <l n="11236">The Pope had brought the young woman there;</l>
+                <l n="11236">The pope had brought the young woman there;</l>
                 <l n="11237">He had her seated upon a canopied throne.312</l>
                 <l n="11238">(Laisse 425) When the young lady was brought to the baldachin,</l>
                 <l n="11239">The four wise men got ready then</l>
                 <l n="11240">To recount everything that they had done.</l>
-                <l n="11241">But the Pope spoke before the others;</l>
+                <l n="11241">But the pope spoke before the others;</l>
                 <l n="11242">He explained everything to them in a good speech,</l>
                 <l n="11243">And then afterward he blessed everyone.</l>
                 <l n="11244">Thereupon he looked out across the field:</l>
@@ -12590,7 +12584,7 @@
                 <l n="11249">They passed the crowd, they stopped at the baldachin,</l>
                 <l n="11250">That which they had to say, they presented in writing,</l>
                 <l n="11251">For they knew little of [the locals'] spoken language.</l>
-                <l n="11252">The letters were quickly grasped by the Pope;</l>
+                <l n="11252">The letters were quickly grasped by the pope;</l>
                 <l n="11253">The messengers departed, they were watched by many people.</l>
                 <l n="11254">They couldn't be properly greeted by anyone,</l>
                 <l n="11255">For no one was able to say where they had gone to.</l>
@@ -12598,7 +12592,7 @@
                 <l n="11257">Some people praised God, others said completely confidently:</l>
                 <l n="11258">"We are certain now that we are bewitched."</l>
                 <l n="11259">At that moment then others dropped that affair.</l>
-                <l n="11260">(Laisse 426) The Pope said, "[My] lords, listen to me!</l>
+                <l n="11260">(Laisse 426) The pope said, "[My] lords, listen to me!</l>
                 <l n="11261">This is a miracle from God, so I believe.</l>
                 <l n="11262">I'll read this letter; no one should touch them arrogantly,</l>
                 <l n="11263">I don't know who might have sent it. Now remain completely quiet."</l>
@@ -12625,9 +12619,9 @@
                 <l n="11282">(Laisse 427) Now I'll tell you about the other letter,</l>
                 <l n="11283">Whence it came, and afterward who sent it:</l>
                 <l n="11284">It came in this way from the Land of Truth.</l>
-                <l n="11285">Prester John sent it to the worthy Pope;</l>
+                <l n="11285">Prester John sent it to the worthy pope;</l>
                 <l n="11286">He sent him greetings, and love for the present.</l>
-                <l n="11287">[The Pope] made it known to everyone what the letter said,</l>
+                <l n="11287">[The pope] made it known to everyone what the letter said,</l>
                 <l n="11288">That he, [Prester John], was really and truly doing well, saying:</l>
                 <l n="11289">"God revealed [Huon] to me one day while I was praying."</l>
                 <l n="11290">He narrated [in the letter] the entire situation concerning Huon the
@@ -12664,7 +12658,7 @@
                 <l n="11318">Give heed to the one who will be elected by you."</l>
                 <l n="11319">(Folio 78 Va) And then he fell silent; everyone was silent and
                     mute.</l>
-                <l n="11320">(Laisse 429) The Pope spoke, the people were silent.</l>
+                <l n="11320">(Laisse 429) The pope spoke, the people were silent.</l>
                 <l n="11321">"[My] lords," he said, "now listen a little.</l>
                 <l n="11322">We are meeting here at God's command</l>
                 <l n="11323">To choose a new lord who is noble and valiant,</l>
@@ -12703,15 +12697,15 @@
                 <l n="11352">Everyone called him William Capet.</l>
                 <l n="11353">He was a small man, courageous and valiant,</l>
                 <l n="11354">And a generous donor, not loving envy,</l>
-                <l n="11355">Very worthy, he was loved by those he knew;</l>
+                <l n="11355">He was much loved by those who knew him;</l>
                 <l n="11356">(Folio 78 Vb) It seemed that destiny was falling on this choice.</l>
-                <l n="11357">(Laisse 430) The Pope said, "You have heard, [my] lords;</l>
+                <l n="11357">(Laisse 430) The pope said, "You have heard, [my] lords;</l>
                 <l n="11358">This one must be emperor over you.</l>
                 <l n="11359">Come forward, William, receive this kingdom;</l>
                 <l n="11360">You will be crowned here this very day."</l>
                 <l n="11361">Indeed a king and a count led him to the baldachin</l>
                 <l n="11362">Singing Te Deum laudamus with joy and jubilation.</l>
-                <l n="11363">They then presented him to the Pope;</l>
+                <l n="11363">They then presented him to the pope;</l>
                 <l n="11364">On his knees he began to weep and cry;</l>
                 <l n="11365">He was crowned as many people watched it,</l>
                 <l n="11366">Through the common consent [of those] who were round about him.</l>
@@ -12739,17 +12733,17 @@
                 <l n="11386">There were thus four hundred thousand [of them] by count;</l>
                 <l n="11387">There were fifteen kings and a sultan.</l>
                 <l n="11388">All had sworn that they would destroy Rome,</l>
-                <l n="11389">And the Pope, if they could find him,</l>
+                <l n="11389">And the pope, if they could find him,</l>
                 <l n="11390">They would burn, or they would drive him out.</l>
                 <l n="11391">They besieged the land, from three sides they would take it;</l>
                 <l n="11392">They would pillage and lay waste the surrounding land,</l>
                 <l n="11393">(Folio 79 Ra) Everyone would be killed if he had not fled.</l>
-                <l n="11394">When the Pope saw such a battle imminent,</l>
+                <l n="11394">When the pope saw such a battle imminent,</l>
                 <l n="11395">He knew of no advice, nor of any guardians that might be,</l>
                 <l n="11396">Except within the land in which they would be enclosed,</l>
                 <l n="11397">For he [himself] had never at all been accustomed to wage war.</l>
                 <l n="11398">They defended the land as best they could.</l>
-                <l n="11399">Later [the Pope] sent some messengers ([who] would speak extremely
+                <l n="11399">Later [the pope] sent some messengers ([who] would speak extremely
                     well)</l>
                 <l n="11400">To William Capet, the king of the world,</l>
                 <l n="11401">That he give him help and not wait at all,</l>
@@ -12770,7 +12764,7 @@
                 <l n="11414">[The messenger] heard these words, right away he dismounted;317</l>
                 <l n="11415">He came to the king before whom he bowed.</l>
                 <l n="11416">In a loud voice he explained his message,</l>
-                <l n="11417">He revealed what the Pope demanded of [William],</l>
+                <l n="11417">He revealed what the pope demanded of [William],</l>
                 <l n="11418">And the great need for which he sought aid.</l>
                 <l n="11419">He gave him the letter and [William] opened it quickly;</l>
                 <l n="11420">He read the letter, then he raised it above his head;</l>
@@ -12813,7 +12807,7 @@
                 <l n="11456">And if they deigned to do this willingly,</l>
                 <l n="11457">Let them come to the capital, the enemy would fall.</l>
                 <l n="11458">Should they come, then whatever might befall,</l>
-                <l n="11459">He, [the Pope], would place the crown of the empire on a German,</l>
+                <l n="11459">He, [the pope], would place the crown of the empire on a German,</l>
                 <l n="11460">And he would always maintain it for them </l>
                 <l n="11461">Against all those who should wish to challenge [it].</l>
                 <l n="11462">[The Germans] sent him arrogance and disgrace,319</l>
@@ -12824,11 +12818,11 @@
                 <l n="11467">(Folio 79 Va) When the Germans heard this, they rejoiced;</l>
                 <l n="11468">They sought each other out in ones and twos.</l>
                 <l n="11469">Then they consulted among themselves:</l>
-                <l n="11470">If the Pope was willing to do what he intended,</l>
+                <l n="11470">If the pope was willing to do what he intended,</l>
                 <l n="11471">And he truly meant to offer it to them</l>
                 <l n="11472">Then let him have assistance without any delay.</l>
                 <l n="11473">"An awful lord, we don't esteem him at all;</l>
-                <l n="11474">Among all other people he is a stinking dwarf!</l>
+                <l n="11474">Next to anyone else he would be a stinking dwarf!</l>
                 <l n="11475">We aren't willing to obey him steadfastly."</l>
                 <l n="11476">Because of their arrogance, which they exhibited quite often,</l>
                 <l n="11477">They desired authority and they would be [its] servants.</l>
@@ -12837,7 +12831,7 @@
                 <l n="11480">They speedily settled the matter to be obedient;320</l>
                 <l n="11481">By agreement, they levied the troops for the sake of God.</l>
                 <l n="11482">Certainly each one summoned [troops] for himself,</l>
-                <l n="11483">Until they had them assembled fifteen days [later].</l>
+                <l n="11483">Within fifteen days they had them assembled.</l>
                 <l n="11484">A good hundred thousand men assembled;</l>
                 <l n="11485">They started out on the road without more delay.</l>
                 <l n="11486">As for their journey, I can't tell you anything about it;</l>
@@ -12853,7 +12847,7 @@
                 <l n="11495">(Laisse 435) Huon came to the court with all the men he had,</l>
                 <l n="11496">He brought four thousand knights with him.</l>
                 <l n="11497">William heard it spoken of, he came to meet him;</l>
-                <l n="11498">He received [Huon] cordially as the one who him loved greatly.</l>
+                <l n="11498">He received [Huon] cordially as one who him loved greatly.</l>
                 <l n="11499">To him he complained about what had occurred there:</l>
                 <l n="11500">"The majority of the barons forswore;</l>
                 <l n="11501">They said they wouldn't come for any reason at all.</l>
@@ -12865,14 +12859,14 @@
                 <l n="11505">Just as they held this conversation and spoke,</l>
                 <l n="11506">A messenger arrived who brought news:</l>
                 <l n="11507">That the Germans had set out with all the troops they had</l>
-                <l n="11508">To come to the rescue of the Pope; they had indeed gone to Rome,</l>
-                <l n="11509">And [the Pope] had promised them, if they concluded the war
+                <l n="11508">To come to the rescue of the pope; they had indeed gone to Rome,</l>
+                <l n="11509">And [the pope] had promised them, if they concluded the war
                     successfully,</l>
                 <l n="11510">[That] he would give the crown of the empire to the Germans;</l>
                 <l n="11511">He said that he would defend [it] for them against all other men.</l>
-                <l n="11512">"I heard the letter read [aloud], and he actually swore,</l>
+                <l n="11512">"I heard the letter read [aloud], and he actually swore</l>
                 <l n="11513">That he would never consider you his lord anymore."</l>
-                <l n="11514">"By my faith," said Huon, "great harm will come out of this.</l>
+                <l n="11514">"By [my] faith," said Huon, "great harm will come out of this.</l>
                 <l n="11515">Before this thing might be carried out,</l>
                 <l n="11516">I want to go seek the one who has made a mistake.</l>
                 <l n="11517">I am thinking about warning him so much that he'll return [to you]</l>
@@ -12907,13 +12901,13 @@
                 <l n="11544">For the Germans held them for themselves.</l>
                 <l n="11545">Nobody was willing to leave them; rather [the Germans] mocked [the
                     French].</l>
-                <l n="11546">William sent word to the Pope [asking] him to come,</l>
+                <l n="11546">William sent word to the pope [asking] him to come,</l>
                 <l n="11547">"Have them removed from lodgings, let them camp on one side,</l>
                 <l n="11548">For remaining like this might go really badly.</l>
-                <l n="11549">The enemies are [out] there who oppose [the Pope];322</l>
-                <l n="11550">It would be fitting [for the Pope] to handle this in a better
+                <l n="11549">The enemies are [out] there who oppose [the pope];322</l>
+                <l n="11550">It would be fitting [for the pope] to handle this in a better
                     way."323</l>
-                <l n="11551">As to this, when he heard this speech, the Pope</l>
+                <l n="11551">As to this, when he heard this speech, the pope</l>
                 <l n="11552">Thanked God and the barons all together.324</l>
                 <l n="11553">Afterward he sent a message telling the Germans to restrict
                     themselves,</l>
@@ -12969,7 +12963,7 @@
                 <l n="11599">In this affair, which was instigated deliberately,</l>
                 <l n="11600">It went badly for the Germans.</l>
                 <l n="11601">They lost a good ten thousand of their men.</l>
-                <l n="11602">When the Pope heard the news,</l>
+                <l n="11602">When the pope heard the news,</l>
                 <l n="11603">He came to the [site of the] dispute with a large group of his men.</l>
                 <l n="11604">He passed through the throng where it was greatest,</l>
                 <l n="11605">He found the lord who commanded his men.</l>
@@ -12981,13 +12975,13 @@
                 <l n="11611">But [the French] didn't respect them as much as a passing puff of
                     wind.</l>
                 <l n="11612">They put aside the matter; each one was finding shelter;</l>
-                <l n="11613">The Pope was splitting the area in half;</l>
+                <l n="11613">The pope was splitting the area in half;</l>
                 <l n="11614">The waters of the Tiber split it in two parts.</l>
                 <l n="11615">(Laisse 441) The French were lodged on one side of the Tiber,</l>
                 <l n="11616">And the Germans were on the other side.</l>
-                <l n="11617">The French king spoke to the Pope,</l>
+                <l n="11617">The French king spoke to the pope,</l>
                 <l n="11618">He excused himself vigorously for this affair.</l>
-                <l n="11619">Then he told [the Pope] that he would sally forth in the morning</l>
+                <l n="11619">Then he told [the pope] that he would sally forth in the morning</l>
                 <l n="11620">Against the Saracens in order to test them;</l>
                 <l n="11621">He didn't believe he'd ever turn back into [the city],</l>
                 <l n="11622">If he didn't break the siege.</l>
@@ -12995,7 +12989,7 @@
                 <l n="11624">That they should sally forth toward [the Saracens] from the other
                     side;</l>
                 <l n="11625">Then you will be able to know who will have fought the best."</l>
-                <l n="11626">The Pope said to him, "It will certainly be announced to them,</l>
+                <l n="11626">The pope said to him, "It will certainly be announced to them,</l>
                 <l n="11627">But I quite believe, with certainty, that they will do quite a lot</l>
                 <l n="11628">In order not to move, so angry have they become."</l>
                 <l n="11629">Then he said in his heart, "I was badly advised</l>
@@ -13009,20 +13003,20 @@
                 <l n="11637">Now let the matter be as it must be;</l>
                 <l n="11638">What I have promised will be observed by me."</l>
                 <l n="11639">At this moment, he separated from the king;</l>
-                <l n="11640">[The Pope] came to the Germans, he saw them quite angry.</l>
+                <l n="11640">[The pope] came to the Germans, he saw them quite angry.</l>
                 <l n="11641">No matter what he said, they did not acquiesce;</l>
                 <l n="11642">The battle would now be completed without them;</l>
                 <l n="11643">Concerning their situation they would never be pleased.</l>
                 <l n="11644">They would have threatened the French a lot:</l>
                 <l n="11645">They thought to do such things so that [the French] would never be
                     happy again.</l>
-                <l n="11646">Ah, alas! Why did [the Pope] say [what he did]? For it did indeed
+                <l n="11646">Ah, alas! Why did [the pope] say [what he did]? For it did indeed
                     happen</l>
                 <l n="11647">That one side and the other carried great pain owing to it,</l>
-                <l n="11648">And even the Pope would be dismayed.</l>
+                <l n="11648">And even the pope would be dismayed.</l>
                 <l n="11649">He never did anything that weighed on him more;</l>
                 <l n="11650">So this situation was left thus.</l>
-                <l n="11651">The Pope departed, he sent word to the French king</l>
+                <l n="11651">The pope departed, he sent word to the French king</l>
                 <l n="11652">(Folio 80 Vb) To take care of the matter, for they would not be helped
                     [by the Germans].</l>
                 <l n="11653">King William laughed and said, "In the name of God!"</l>
@@ -13220,9 +13214,9 @@
                 <l n="11834">They thought [themselves] avenged of their earlier shame.</l>
                 <l n="11835">Alas! their wretched people had acted badly,</l>
                 <l n="11836">And afterward, what comportment did they consent to!</l>
-                <l n="11837">(Folio 82 Ra) It was the Pope who experienced a large part [of it],</l>
+                <l n="11837">(Folio 82 Ra) It was the pope who experienced a large part [of it],</l>
                 <l n="11838">He told one thing, then he acted differently;</l>
-                <l n="11839">If [the Pope] doesn't think about God and His good work,</l>
+                <l n="11839">If [the pope] doesn't think about God and His good work,</l>
                 <l n="11840">All of Christendom will remain in disorder;</l>
                 <l n="11841">The remnant [of Christendom] will be worth quite little.</l>
                 <l n="11842">I'll stop speaking of this situation, but I will say briefly:</l>
@@ -13275,11 +13269,11 @@
                 <l n="11888">Until they had spent three days in great rest.</l>
                 <l n="11889">On the fourth day they heard some news,</l>
                 <l n="11890">That some of the Germans were going </l>
-                <l n="11891">To the Pope, who had indeed promised them</l>
+                <l n="11891">To the pope, who had indeed promised them</l>
                 <l n="11892">That he would give them the crown of the empire;</l>
                 <l n="11893">They wanted to leave, they didn't want to remain any longer.</l>
                 <l n="11894">And then afterward they were threatening the French,</l>
-                <l n="11895">And the Pope excused himself and refused:</l>
+                <l n="11895">And the pope excused himself and refused:</l>
                 <l n="11896">"That can't be, nor is there reason in it,</l>
                 <l n="11897">For in the battle you weren't there one little bit,</l>
                 <l n="11898">Except to rob, revealing your goings-on.</l>
@@ -13290,18 +13284,18 @@
                 <l n="11903">If not, before they left,</l>
                 <l n="11904">They would set in motion such a battle within Rome</l>
                 <l n="11905">That twenty thousand people would die in it.</l>
-                <l n="11906">The Pope was indeed very upset about this,</l>
+                <l n="11906">The pope was indeed very upset about this,</l>
                 <l n="11907">Whether to do [it] or let [it] go he didn't know of any advice in the
                     world;</l>
                 <l n="11908">Nor did he want to renege on a promise, on any condition.</l>
-                <l n="11909">(Laisse 451) Because of this the Pope was in great apprehension;</l>
+                <l n="11909">(Laisse 451) Because of this the pope was in great apprehension;</l>
                 <l n="11910">He didn't know what counsel to take that might be the best.</l>
                 <l n="11911">(Folio 82 Va) He saw the Germans entirely filled with rage;</l>
                 <l n="11912">He wanted to uphold what he had promised them.</l>
-                <l n="11913">[The Pope] spoke, "Behold, here come the French;</l>
+                <l n="11913">[The pope] spoke, "Behold, here come the French;</l>
                 <l n="11914">They will certainly know the news, it has been several days now.</l>
                 <l n="11915">From one side of the hall they came without clamor,</l>
-                <l n="11916">They remained near in front of the Pope.</l>
+                <l n="11916">They remained near in front of the pope.</l>
                 <l n="11917">William threw himself to the ground and said, "Great Shepherd,</l>
                 <l n="11918">Let my appeal be made to God and to you,</l>
                 <l n="11919">Above all else may my honor be maintained.</l>
@@ -13324,10 +13318,10 @@
                 <l n="11936">When they are served, and have no nobility within themselves."328</l>
                 <l n="11937">Of course, at this moment, a brawl broke out among [the Germans and the
                     French],</l>
-                <l n="11938">At which moment the Pope cried out, "Beware, don't act foolishly!</l>
+                <l n="11938">At which moment the pope cried out, "Beware, don't act foolishly!</l>
                 <l n="11939">Those who stir up quarrels or rush into a fury,</l>
                 <l n="11940">They will always be beyond my mercy."</l>
-                <l n="11941">(Laisse 452) After these goings on, the Pope spoke:</l>
+                <l n="11941">(Laisse 452) After these goings on, the pope spoke:</l>
                 <l n="11942">"Take care that fighting never break out among you,</l>
                 <l n="11943">And make peace; listen to me here.</l>
                 <l n="11944">Do not disparage what I will say.</l>
@@ -13350,7 +13344,7 @@
                 <l n="11961">Such was the situation, as everyone knew now.</l>
                 <l n="11962">"No one will be praised or blamed by me,</l>
                 <l n="11963">The very situation will demonstrate that clearly."</l>
-                <l n="11964">(Laisse 453) "Let's let this be," the Pope replied,</l>
+                <l n="11964">(Laisse 453) "Let's let this be," the pope replied,</l>
                 <l n="11965">"I ask for advice from you all:</l>
                 <l n="11966">What am I to do about what I promised?</l>
                 <l n="11967">I will then take the best judgement;</l>
@@ -13439,14 +13433,14 @@
                 <l n="12046">On both sides there are people of great valor;</l>
                 <l n="12047">Let us fight faithfully on this day.</l>
                 <l n="12048">Let each one be confessed of his major sins.</l>
-                <l n="12049">The Pope who is here, to whom the tower belongs,</l>
+                <l n="12049">The pope who is here, to whom the tower belongs,</l>
                 <l n="12050">Must absolve them of all their error.</l>
                 <l n="12051">Let no one be forced, rather everything in this affair</l>
                 <l n="12052">Must be carried out willingly, for the sake of God our Lord.</l>
                 <l n="12053">The one to whom God shows grace, let him have the empire,</l>
                 <l n="12054">Understanding, nevertheless (I say to you with particular meaning),</l>
                 <l n="12055">That the kingdom of France will always be free,330</l>
-                <l n="12056">So that it not ever be in a sorry plight because of the Pope and the
+                <l n="12056">So that it not ever be in a sorry plight because of the pope and the
                     emperor,</l>
                 <l n="12057">Never will it be coerced against its will;</l>
                 <l n="12058">Rather it is an independent realm, as it must always be.</l>
@@ -13458,7 +13452,7 @@
                 <l n="12064">Without having everyone great and small die.</l>
                 <l n="12065">Now carry out your will." Each one then replied,</l>
                 <l n="12066">"This is good advice; we'll take the best [option]."</l>
-                <l n="12067">The Pope replied, "I consent to it completely."</l>
+                <l n="12067">The pope replied, "I consent to it completely."</l>
                 <l n="12068">Both sides came forward without making a long delay</l>
                 <l n="12069">To swear to uphold this [decision] faithfully and willingly.</l>
                 <l n="12070">Next the champions were found there</l>
@@ -13482,7 +13476,7 @@
                 <l n="12087">And other great barons and [those] of high-ranking households,</l>
                 <l n="12088">So many that a hundred and fifty were indeed chosen,</l>
                 <l n="12089">Who would do battle completely willingly.</l>
-                <l n="12090">Each one was confessed, the Pope going around absolving [them];</l>
+                <l n="12090">Each one was confessed, the pope going around absolving [them];</l>
                 <l n="12091">Afterward he made the sign of the cross over them, and rendered them to
                     God,</l>
                 <l n="12092">And prayed that among them they have good understanding,</l>
@@ -13566,10 +13560,10 @@
                 <l n="12164">That He have mercy on their souls, for they could hold on no
                     longer.</l>
                 <l n="12165">Once that was said, there was great weeping;</l>
-                <l n="12166">The Pope was quickly called there,</l>
+                <l n="12166">The pope was quickly called there,</l>
                 <l n="12167">And other wise men ran to observe</l>
                 <l n="12168">The two champions whom they saw on the ground,</l>
-                <l n="12169">How [the Pope] might speak to them.</l>
+                <l n="12169">How [the pope] might speak to them.</l>
                 <l n="12170">(Folio 84 Rb) Listen, [my] lords, how the story is told:</l>
                 <l n="12171">He saw them dead, passed away from this earthly life.</l>
                 <l n="12172">(Laisse 459) Listen, [my] lords, how the story describes</l>
