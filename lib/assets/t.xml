@@ -1,3 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="huon-schema-07032017.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Turin, Biblioteca nazionale, N III 19</title>
+                <title type="short">Turin MS N III 19</title>
+                <editor xml:id="LZM">Leslie Zarker Morgan</editor>
+                <sponsor>
+                    <address>
+                        <addrLine>Washington and Lee University</addrLine>
+                        <addrLine>204 W. Washington St.</addrLine>
+                        <addrLine>Lexington, VA 24450</addrLine>
+                    </address>
+                </sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <principal>Stephen P. McCormick</principal>
+                <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
+                <respStmt>
+                    <name>Leslie Zarker Morgan</name>
+                    <resp>edition</resp>
+                    <resp>transcription</resp>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="SPM">Stephen P. McCormick</name>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MKB">Mackenzie K. Brooks</name>
+                    <resp>TEI consultant</resp>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JCV">Jean-Claude Vallecalle</name>
+                    <resp>Literary and linguistic annotation</resp>
+                    <resp>Transcription and edition proofing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AEB">Alan E. Bernstein</name>
+                    <resp>Literary annotation for Hell scene</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1">
+                    <title>Version 0.1, enriched with text structure tags</title>
+                    <date when="2015">June 2015</date>
+                </edition>
+                <respStmt>
+                    <name>Stephen P. McCormick</name>
+                    <resp>Created initial digital document, developed TEI tags for text structure,
+                        and began tagging for text structure</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Natsumi D. Alvarez</name>
+                    <resp>Developed TEI tags for text structure and began tagging.</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+                <address>
+                    <name type="institution">Washington and Lee University</name>
+                    <street>204 W. Washington St.</street>
+                    <name type="city">Lexington</name>
+                    <name type="state">Virginia</name>
+                    <postCode>24405</postCode>
+                    <name type="country">USA</name>
+                </address>
+                <availability status="free">
+                    <p>The text is freely available</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- xml:id ??? See Cummings 52 -->
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Turin</settlement>
+                        <repository>Biblioteca nazionale universitaria</repository>
+                        <idno>N III 19</idno>
+                    </msIdentifier>
+                    <head type="msHeading">
+                        <title xml:lang="FI">Huon d'Auvergne, Turin, Biblioteca nazionale, N III
+                            19</title>
+                        <origPlace cert="low">Turin</origPlace>
+                        <origDate cert="medium" evidence="internal">1441 included in final
+                            lines</origDate>
+                        <note>
+                            <p>The scribe of manuscript N.III.19 of the Turin Biblioteca Nazionale
+                                dates the work to 1441. A paper codex measuring 27 cm by 20 cm,
+                                manuscript T survives today despite a tortuous history. In 1904, a
+                                fire ravaged the Biblioteca Nazionale, destroying or badly damaging
+                                many of the library’s holdings. The Turin Huon d’Auvergne survived,
+                                even if the text and illuminations that extended into the outer
+                                margins of the manuscript are missing or damaged beyond repair.
+                                Fortunately, the nineteenth-century philologist Pio Rajna made a
+                                personal transcription of the text of manuscript T, and a notebook
+                                of this transcription, alongside another of manuscript 32 of the
+                                Biblioteca del Seminario Vescovile (manuscript P), are conserved at
+                                the Biblioteca Marucelliana of Florence.</p>
+                            <p>T has since been restored, with recto pasted onto the recto of a new
+                                sheet and the verso pasted onto the verso of that same sheet. The
+                                folios have been carefully consecutively numbered in the bottom
+                                right in pencil on the recto side; there are 183 total. There is one
+                                blank sheet at the end and at the beginning (not included in the
+                                count).</p>
+                            <p>The following pages represent a digital reconstruction of the Turin
+                                Huon d’Auvergne, drawing from the Rajna notebook when the text is
+                                not legible in the manuscript. We are careful to make it clear to
+                                the reader which portions of the text arrive to us secondarily
+                                through the Rajna transcription. In the navigation bar, the “Rajna
+                                notebook” button will highlight in red all portions of the text
+                                taken from the notebook, leaving in black the portions of the text
+                                transcribed from the manuscript. Additionally, the “MS Image” button
+                                will allow for a side-by-side comparison of manuscript T and the
+                                transcription.</p>
+                        </note>
+                    </head>
+                    <msContents>
+                        <textLang mainLang="FI">Franco-Italian</textLang>
+                        <msItem>
+                            <locus from="1r" to="117v">ff. 1r-183v</locus>
+                            <author xml:id="scribe">Anonymous</author>
+                            <!-- check foliation with Leslie -->
+                            <title xml:lang="FI">Huon d'Auvergne</title>
+                            <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
+                            <explicit/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Paper</p>
+                                </support>
+                                <extent>183<dimensions scope="all" type="leaves" unit="in">
+                                        <height>27 cm</height>
+                                        <width>20 cm</width>
+                                    </dimensions>
+                                </extent>
+                                <!-- Where does <dimensions> go?  -->
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <p>In single column</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>Written in one hand</p>
+                        </handDesc>
+                        <decoDesc>
+                            <p>Text written in laisses; illumination program throughout, though
+                                badly damaged in 1904 Turin library fire.</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Written in <origPlace>Northern Italy</origPlace>in the
+                                    <origDate>Manuscript dated by scribe to 1441</origDate>
+                            </p>
+                        </origin>
+                        <provenance>unknown</provenance>
+                        <acquisition>library acquisition information</acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup">
+                    <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
+                        choice element.</p>
+                </correction>
+                <!-- How do I include methods for abbreviations and omissions? -->
+            </editorialDecl>
+            <projectDesc>
+                <p>Text encoded for Huon d'Auvergne Project, which aims to create a digital edition
+                    for all four extant manuscripts of the Franco-Italian Huon d'Auvergne romance
+                    epic</p>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lg">Marks laisse divisions.</tagUsage>
+                    <tagUsage gi="l">Marks line divisions.</tagUsage>
+                    <tagUsage gi="head">Marks laisse divisions</tagUsage>
+                    <tagUsage gi="gap">Marks missing folios</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2017-01-02" who="#SPM">added line, line group, and line number tags
+                through 515</change>
+            <change when="2017-01-03" who="#SPM">added pb tages for foliation</change>
+            <change when="2017-01-05" who="#SPM">added tags for red and blue initial
+                letters</change>
+            <change when="2017-01-05" who="#SPM">began adding note tags and linking to annotations
+                document</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
 <lg type="laisse" n="1">
 <head>Laisse 1</head>
 <l n="1"><seg>Al tempo de mazo<note xml:id="t1"/> quando el fiorise le
