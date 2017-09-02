@@ -51,10 +51,10 @@ class PagesController < ApplicationController
             @title = doc.search('title').first.text
 
             # get editor's name
-            @editor = doc.search('editor').first.text
+            @editor = doc.search('respStmt[type="editor"]').first.text
 
             # get name(s) of encoder(s)
-            @encoder = doc.search('respStmt[type="encoder"]/name').first.text
+            @encoder = doc.search('respStmt[type="encoder"]').first.text
 
             # get manuscript collocation 
             @city = doc.search('settlement').first.text
@@ -105,14 +105,11 @@ class PagesController < ApplicationController
                 @short_title = "Navigation"
             end
 
-            # get title
-            @title = doc.search('title').first.text
-
             # get editor's name
-            @editor = doc.search('editor').first.text
+            @editor = doc.search('respStmt[type="editor"]').first.text
 
             # get name(s) of encoder(s)
-            @encoder = doc.search('respStmt[type="encoder"]/name').first.text
+            @encoder = doc.search('respStmt[type="encoder"]').first.text
 
             # get manuscript collocation 
             @city = doc.search('settlement').first.text
