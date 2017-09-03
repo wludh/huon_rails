@@ -764,7 +764,7 @@ optgroup {
  * Remove most spacing between table cells.
  */
 
-table {
+/*table {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -772,7 +772,7 @@ table {
 td,
 th {
   padding: 0;
-}
+}*/
 
 meta.foundation-version {
   font-family: "/5.5.1/"; }
@@ -4388,7 +4388,7 @@ ul.pagination {
   .xxlarge-text-justify {
     text-align: justify !important; } }
 /* Typography resets */
-div,
+/*div,
 dl,
 dt,
 dd,
@@ -4408,7 +4408,7 @@ blockquote,
 th,
 td {
   margin: 0;
-  padding: 0; }
+  padding: 0; }*/
 
 /* Default Link Styles */
 /*a {
@@ -4489,7 +4489,7 @@ hr {
 */
 
 /* Helpful Typography Defaults */
-em,
+/*em,
 i {
   font-style: italic;
   line-height: inherit; }
@@ -4501,7 +4501,7 @@ b {
 
 small {
   font-size: 60%;
-  line-height: inherit; }
+  line-height: inherit; }*/
 
 /* Lists */
 ul,
@@ -4612,7 +4612,7 @@ blockquote p {
   border: none;
   padding: 0 0.0625rem; }
 
-@media only screen and (min-width: 40.063em) {
+/*@media only screen and (min-width: 40.063em) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
 
@@ -4836,7 +4836,7 @@ blockquote p {
     right: 1.375rem;
     color: #AAAAAA;
     font-weight: bold;
-    cursor: pointer; }
+    cursor: pointer; }*/
 
 /* Tooltips */
 .has-tip {
@@ -5999,7 +5999,7 @@ ul.off-canvas-list {
     .f-dropdown.mega.open {
       left: 0 !important; }
 
-table {
+/*table {
   background: #FFFFFF;
   margin-bottom: 1.25rem;
   border: solid 1px #DDDDDD;
@@ -6024,14 +6024,14 @@ table {
       padding: 0.5rem 0.625rem 0.625rem;
       font-size: 0.875rem;
       font-weight: bold;
-      color: #222222; }
-  table tr th,
-  table tr td {
+      color: #222222; }*/
+  /*table tr th,
+  table tr td {*/
 /*    padding: 0.5625rem 0.625rem;
-*/    font-size: 0.875rem;
+*/    /*font-size: 0.875rem;
     color: #222222;
-    text-align: left; }
-  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    text-align: left; }*/
+  /*table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #F9F9F9; }
   table thead tr th,
   table tfoot tr th,
@@ -6040,7 +6040,7 @@ table {
   table tbody tr td,
   table tr td {
     display: table-cell;
-    line-height: 1.125rem; }
+    line-height: 1.125rem; }*/
 
 .range-slider {
   position: relative;
@@ -7161,9 +7161,9 @@ section ul li a{
   clear:both;
 }
 
-p {
+/*p {
   font-weight:normal;
-}
+}*/
 
 .fullWidth {
   width: 100%;
@@ -7489,11 +7489,11 @@ table, tr, th{
   width: 69%;
 }
 
-td{
+/*td{
   padding-left:0;
   padding-right: 0;
   display: hidden;
-}
+}*/
 
 #bibPanel{
   display: none;

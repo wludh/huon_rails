@@ -1524,13 +1524,13 @@ symbol {
   /* Empty Set Rule */
 }
 /* t */
-TEI {
+/*TEI {
   display: block;
 }
 table {
   border-collapse: separate;
   border-spacing: 2px;
-}
+}*/
 /* Why is this selector "TEI table" instead of just "table"? */
 TEI table {
   display: block;

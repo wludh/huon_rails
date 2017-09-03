@@ -27,9 +27,13 @@ h2 {
     font-family: "Courier New", Courier, monospace;
 }
 
-p {
-     font-family: "Courier New", Courier, monospace;
+p.subsection {
+    margin-left: 3em;
 }
+
+/*p {
+     font-family: "Courier New", Courier, monospace;
+}*/
 
 div.example {
     font-family: "Courier New", Courier, monospace;
