@@ -34,15 +34,16 @@
         </front>
         <body>
             <div>
-                <note xml:id="b1" type="ling" resp="#SPM">praël "meadow"</note>
-                <note xml:id="b12" type="codic" resp="#LZM">MS: <hi rend="italic">une</hi> (final -e is expunctuated)</note>
-                <note xml:id="b16" type="ling" resp="#SPM">zonse "thing"</note>
-                <note xml:id="b19" type="ling" resp="#SPM">lou "place"</note>
-                <note xml:id="b55" type="codic" resp="#LZM">MS: <hi rend = "italic">quilens</hi> with a dot under the <ex rend="italic">i</ex>."</note>
+                <note xml:id="b12" type="codic" resp="#LZM">MS: <hi rend="italic">une</hi>,(final -e is expunctuated)</note>
+                <note xml:id="b55" type="codic" resp="#LZM"><hi rend = "italic">queus</hi> MS: <hi rend = "italic">quilens</hi> with a dot under each letter, "il" <ex rend="italic">i</ex>."</note>
                 <note xml:id="b136" type="codic" resp="#LZM"> All text that is written above the line in the original is enclosed in parentheses in this transcription. </note>
+                <note xml:id="b200" type="interp" resp="#LZM"> This line is problematic for sense; the Turin version is also unclear. </note>
                 <note xml:id="b245" type="codic" resp="#LZM">MS: <hi rend="italic">revser</hi> </note>
-                <note xml:id="b343" type="codic" resp="#LZM">MS: <hi rend="italic">nolōs</hi> </note>
+                <note xml:id="b343" type="codic" resp="#LZM">MS: <hi rend="italic">nolōs</hi> This is an interesting slip: <hi rend="italic">non</hi> added to a form of <hi rend="italic">voloir</hi>.</note>
                 <note xml:id="b415" type="codic" resp="#LZM"> <hi rend="italic">ia belist</hi>. This is a hapax. Elsewhere in the text, we find <hi rend="italic">l'abelist</hi>, e.g., 4169, 6321, etc.</note>
+                <note xml:id="b508" type="codic" resp="#LZM"> There is a "+" in the right margin in light brown ink, perhas inserted by a nineteenth-century reader.</note>
+                <note xml:id="b542" type="ling" resp="#LZM"> Cf. <hi rend="italic">Entrée d'Espagne, gaumenter</hi> (TL <hi rend="italic">gaimenter</hi>)</note>
+                note xml:id="b5000" type="Rajna" resp="#LZM">Template note</note>
                 <note xml:id="b9915" type="codic" resp="#LZM">illumination "hell"</note>
                 <note xml:id="b9935" type="refer" resp="#LZM">Nicomachus "details here"</note>
                 <note xml:id="b9950" type="refer" resp="#LZM">Farabus "details here"</note>
