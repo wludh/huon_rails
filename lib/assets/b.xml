@@ -1,10 +1,11 @@
-païs<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="huon-schema-07252017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)</title>
+            <title type="text">Huon d'Auvergne</title>
+            <title type="manuscript">Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)</title>
             <title type="short">Berlin MS Hamilton 337</title>
             <editor xml:id="LZM">Leslie Zarker Morgan</editor>
            <sponsor>
