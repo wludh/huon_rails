@@ -309,7 +309,7 @@ header {
 /* Top bar */
 
 
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -318,19 +318,23 @@ ul {
     border-bottom: #5f0000;
 	border-style: solid;
 	border-bottom-width: .5em;
+	width: 100%;
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }
 
 li {
     float: right;
 }
 
-li.nav {
+/*li.nav {
 	display: inline-block;
     color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+}*/
 
 li.title {
 	float: left;
@@ -547,6 +551,16 @@ td {
     padding-left: 1.5em;
 }
 
+/* MS Introduction Pages */
+
+img#ms-intro {
+    width: 100%;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5f0000;
+}
+
 /* TEI */
 
 TEI {
@@ -609,6 +623,7 @@ ul li ul li {
 	color: #fff;
 	text-shadow: 0 -1px 0 #000;
 	z-index: 1000;
+	float: left;
 }
 
 @media screen and (min-width: 850px) {
@@ -965,6 +980,12 @@ ol.ms-toc {
 		padding-left: 3.5em;
 		line-height: 2.5em;
 }
+
+/*ol.ms-toc > li:last-child {
+    line-height: 7.5em;
+    float: left;
+    margin-left: -6.8em;
+}*/
 
 
 /* TEI Reading Environment */

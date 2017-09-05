@@ -4504,14 +4504,14 @@ small {
   line-height: inherit; }*/
 
 /* Lists */
-ul,
+/*ul,
 ol,
 dl {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
-  font-family: inherit; }
+  font-family: inherit; }*/
 
 /*ul {
   margin-left: 1.1rem; }
@@ -4543,12 +4543,12 @@ ul.no-bullet {
   list-style: none; }
 
 /* Ordered Lists */
-ol {
+/*ol {
   margin-left: 1.4rem; }
   ol li ul,
   ol li ol {
     margin-left: 1.25rem;
-    margin-bottom: 0; }
+    margin-bottom: 0; }*/
 
 /* Definition Lists */
 dl dt {

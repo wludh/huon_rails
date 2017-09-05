@@ -17,8 +17,8 @@
                 <funder>The National Endowment for the Humanities</funder>
                 <principal>Stephen P. McCormick</principal>
                 <!-- Should Leslie and Shira be included, or is the principal for the P manuscript only? -->
-                <respStmt type="editor">
-                    <name>Leslie Zarker Morgan</name>
+                <respStmt>
+                    <name type="editor">Leslie Zarker Morgan</name>
                     <resp>edition</resp>
                     <resp>transcription</resp>
                     <resp>TEI coding and development</resp>
@@ -71,7 +71,14 @@
                     <name type="country">USA</name>
                 </address>
                 <availability status="free">
-                    <p>The text is freely available</p>
+                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities,
+                offers freely on a non-commercial basis the text of each edition and the accompanying
+                English translation . The appropriate editor or translator must be cited when
+                referencing the texts. The images are not available for
+                download, and any user wishing to use the manuscript images for personal or
+                academic use must obtain written permission from the appropriate holding
+                library and pay all related fees. For more information on reproductions and
+                image use, visit the website of the respective library.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>

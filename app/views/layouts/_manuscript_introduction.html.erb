@@ -60,8 +60,22 @@
 <!-- Image Cell -->
     <div class="row">
         <div class="col-6">
-            <p class="ms-image"><%= image_tag('t-120v.jpg', id: 'ms-image', alt: 'Manuscript image') %></p>
+            <% if @current_page_short == 't' %>
+            <p class="ms-image"><%= image_tag('t-120v.jpg', id: 'ms-intro', alt: 'Turin Sample') %></p>
             <p class="ms-caption">Turin, N III 19, fol. 120v.<lb> Rajna: <em>Ug. e gli uccelli.</em></p>
+            <% elsif @current_page_short == 'p' %>
+            <p class="ms-image"><%= image_tag('p-111r.png', id: 'ms-intro', alt: 'Padua Sample') %></p>
+            <p class="ms-caption">Padua, Biblioteca del Seminario Vescovile MS 32, fol. 111r</p>
+            <% elsif @current_page_short == 'br' %>
+            <p class="ms-image"><%= image_tag('br-9r.jpg', id: 'ms-intro', alt: 'Bologna Sample') %></p>
+            <p class="ms-caption">Bologna, Biblioteca dell'Archiginnasio B. 3489, fol. 9r</p>
+            <% elsif @current_page_short == 'b' %>
+            <p class="ms-image"><%= image_tag('b-69r.png', id: 'ms-intro', alt: 'Berlin Sample') %></p>
+            <p class="ms-caption">Berlin, Kupferstichkabinett 78 D 8, fol. 69r</p>
+            <% else @current_page_short == 'b-translation' %>
+            <p class="ms-image"><%= image_tag('b-69r.png', id: 'ms-intro', alt: 'Berlin Sample') %></p>
+            <p class="ms-caption">Berlin, Kupferstichkabinett 78 D 8, fol. 69r</p>
+            <% end %>
         </div>
 
 <!-- Table of Contents Cell -->

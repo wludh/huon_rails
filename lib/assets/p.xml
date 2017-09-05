@@ -19,12 +19,9 @@
                 <principal>Stephen P. McCormick</principal>
                 <respStmt type="editor">
                     <name>Stephen P. McCormick</name>
-                    <resp>Edition of P</resp>
                 </respStmt>
                 <respStmt type="encoder">
                     <name>Stephen P. McCormick</name>
-                    <resp>Web interface development</resp>
-                    <resp>TEI coding and development</resp>
                 </respStmt>
                 <respStmt>
                     <name xml:id="MKB">Mackenzie K. Brooks</name>
