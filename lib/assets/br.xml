@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-07252017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-09062017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="text"></title>
+                <title type="text">Huon d'Auvergne</title>
                 <title type="manuscript">Bologna Biblioteca dell'Archiginnasio B. 3489</title>
-                <title type="short">Bologna MS B. 3489</title>
-                <editor xml:id="SPM">Stephen P. McCormick</editor>
+                <title type="short">Barbieri</title>
                 <sponsor>
                     <address>
                         <addrLine>Washington and Lee University</addrLine>
@@ -16,12 +15,12 @@
                     </address>
                 </sponsor>
                 <funder>The National Endowment for the Humanities</funder>
-                <respStmt type="editor">
-                    <name>Stephen P. McCormick</name>
+                <respStmt>
+                    <name resp="editor" xml:id="SPM">Stephen P. McCormick</name>
                     <resp>Edition of Br</resp>
                 </respStmt>
-                <respStmt type="encoder">
-                    <name>Stephen P. McCormick</name>
+                <respStmt>
+                    <name resp="encoder">Stephen P. McCormick</name>
                     <resp>TEI coding and development</resp>
                     <resp>Web interface development</resp>
                 </respStmt>
@@ -35,7 +34,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition n="0.1">
+                <edition n="1.0.0">
                     <title>Version 0.1, enriched with text structure tags</title>
                     <date when="2015">June 2015</date>
                 </edition>
@@ -61,14 +60,7 @@
                     <name type="country">USA</name>
                 </address>
                 <availability status="free">
-                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities,
-                offers freely on a non-commercial basis the text of each edition and the accompanying
-                English translation . The appropriate editor or translator must be cited when
-                referencing the texts. The images are not available for
-                download, and any user wishing to use the manuscript images for personal or
-                academic use must obtain written permission from the appropriate holding
-                library and pay all related fees. For more information on reproductions and
-                image use, visit the website of the respective library.</p>
+                    <p>The text is freely available</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>

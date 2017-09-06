@@ -1,13 +1,12 @@
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<?xml-model href="huon-schema-07252017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-09062017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="text">Huon d'Auvergne</title>
                 <title type="manuscript">Padua Biblioteca del Seminario Vescovile MS 32 </title>
-                <title type="short">Padua MS 32</title>
-                <editor xml:id="SPM">Stephen P. McCormick</editor>
+                <title type="short">Padua</title>
                 <sponsor>
                     <address>
                         <addrLine>Washington and Lee University</addrLine>
@@ -17,11 +16,14 @@
                 </sponsor>
                 <funder>The National Endowment for the Humanities</funder>
                 <principal>Stephen P. McCormick</principal>
-                <respStmt type="editor">
-                    <name>Stephen P. McCormick</name>
+                <respStmt>
+                    <name resp="editor">Stephen P. McCormick</name>
+                    <resp>Edition of P</resp>
                 </respStmt>
-                <respStmt type="encoder">
-                    <name>Stephen P. McCormick</name>
+                <respStmt>
+                    <name resp="encoder">Stephen P. McCormick</name>
+                    <resp>Web interface development</resp>
+                    <resp>TEI coding and development</resp>
                 </respStmt>
                 <respStmt>
                     <name xml:id="MKB">Mackenzie K. Brooks</name>
@@ -39,7 +41,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition n="0.1">
+                <edition n="1.0.0">
                     <title>Version 0.1, enriched with text structure tags</title>
                     <date when="2015">June 2015</date>
                 </edition>
@@ -168,7 +170,8 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <variantEncoding method="location-referenced" location="external"/>
+            <!-- <variantEncoding method="location-referenced" location="external"/> -->
+            <!-- Why won't this validate? -->
             <editorialDecl>
                 <correction method="markup">
                     <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
@@ -6891,7 +6894,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="4786">Lo santo sp<ex rend="italic">irit</ex>o n'à u<ex rend="italic">n</ex>
                     risso çité,</l>
                 <l n="4787">Puo benedì la divina magesté.</l>
-                <l n="4788">La <num>V</num><hi rend="superscript">a</hi> porta lo <num>.V.</num>
+                <l n="4788">La <num>V</num><hi rend="super">a</hi> porta lo <num>.V.</num>
                     muro lo <num>.V.</num> fossé</l>
                 <!-- how to tag superscript for quinta, second word of line 4788? -->
                 <l n="4789">Si trovano lo p<ex rend="italic">ri</ex>mo rethoriché.</l>
