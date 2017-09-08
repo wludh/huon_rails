@@ -216,7 +216,7 @@ class PagesController < ApplicationController
                 if note.attributes['resp'] != nil
                     @resp = note.attributes['resp'].value
                 else
-                    @resp = "Anonymous"
+                    @resp = "LZM"
                 end
 
                 if note.attributes['type'] != nil
@@ -234,7 +234,7 @@ class PagesController < ApplicationController
                 if @author_hash[@resp.sub(/#/, '')] != nil
                     @author = @author_hash[note.attributes['resp'].value.sub(/#/, '')]
                 else
-                    @author = "Anonymous"
+                    @author = "LZM"
                 end
 
                 html += "<note n=\"#{note_counter}\" resp=\"#{@resp}\" type=\"#{@type}\" xml=\"#{@xmlid}\">#{note_counter}: #{note.text}<div class=\"resp\">--#{@author}</div></note><div id=\"clear\"></div><hr class=\"divider\" n=\"#{note_counter}\">"
