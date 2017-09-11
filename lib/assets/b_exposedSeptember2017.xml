@@ -1,4 +1,4 @@
-païs<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="huon-schema-07252017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
@@ -98,7 +98,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
                      <locus from="1r" to="84v">ff. 1r-84v</locus>
                      <!-- check foliation with Leslie -->
                      <title xml:lang="FI">Huon d'Auvergne</title>
-                     <incipit>Al tamps de may quand furent li praël</incipit>
+                     <incipit>Al tamps de may quand furent li prael</incipit>
                      <explicit>En son saint regne o chante li kerubin</explicit>
                      <!-- Checked 22 July 2017 LZM -->
                   </msItem>
@@ -126,7 +126,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
                      <p>Written in one hand</p>
                   </handDesc>
                   <decoDesc>
-                     <p>Text written in laisses with colored initials alternating blue and red</p>
+                     <p>Text written in laisses with colored initials alternating blue and red with occasional missed alternation</p>
                   </decoDesc>
                </physDesc>
                <history>
@@ -144,8 +144,8 @@ païs<?xml version="1.0" encoding="UTF-8"?>
          <editorialDecl>
             <correction method="markup">
                <p>I have attempted to correct the text as little as possible and only in passages in
-                  which meaning would be difficult to decipher. All emendations are in parentheses (
-                  ) and I include a footnote with the original manuscript reading and any other
+                  which meaning would be difficult to decipher. All emendations are in angle brackets <
+                  > and I include a footnote with the original manuscript reading and any other
                   comments concerning the manuscript context and discussing my rationale behind
                   proposing an emendation.</p>
             </correction>
@@ -176,8 +176,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
          <lg type="laisse" n="1">
             <head>Laisse 1</head>
             <l n="1">﻿<milestone n="1Ra" unit="fol."/>Al tamps de may quand furent li <note
-                  xml:id="b1"/>praël</l>
-                  <!-- test-->
+                  xml:id="b1"/>prael</l>
             <l n="2">Tot reverdis, lorer et arboisel,  </l>
             <l n="3">Que en amors vient maintes mainer d'oisel,  </l>
             <l n="4">Por ce chantent et font li son mout bel,  </l>
@@ -214,7 +213,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
             <l n="29">Maintes estranges en avoit aquitie,  </l>
             <l n="30">Tant qu'il en oit desot sa segnorie  </l>
             <l n="31">Tretot le mont. Neis la paienie  </l>
-            <l n="32">L'en obeist; n'a si hardi qe desdie  </l>
+            <l n="32">L'en obeïst; n'a si hardi qe desdie  </l>
             <l n="33">Au fiuç Loïs qua<ex rend="italic">n</ex>t feit soe coma<ex rend="italic"
                   >n</ex>die.  </l>
             <l n="34">Si ou rois vousist mander soe baro<ex rend="italic">n</ex>ie,  </l>
@@ -427,14 +426,14 @@ païs<?xml version="1.0" encoding="UTF-8"?>
             <l n="193">Que li primer qui sont al ca<ex rend="italic">m</ex>p ve<ex rend="italic"
                   >n</ex>c<ex rend="italic">us</ex>,  </l>
             <l n="194">Le destrer broce de li sperons agus.  </l>
-            <l n="195">Fiert quuens d'Arthois, dou cival l'abat ju<ex rend="italic">s</ex>.  </l>
+            <l n="195">Fiert quuens d'Arthois dou cival l'abat ju<ex rend="italic">s</ex>.  </l>
             <l n="196">E d'Orliens Guinimer le bon dus,  </l>
             <l n="197">Thomais le pros et Baudoi<ex rend="italic">n</ex> le cremus,  </l>
             <l n="198">Morant, Sanson, qui ne sont esp<ex rend="italic">er</ex>dus,  </l>
             <l n="199">Le seguirent ad esperons batus.  </l>
             <l n="200">Chascun de lor cent a 'l son abatus, <note xml:id="b200"/>  </l>
             <l n="201">Mais, cu<ex rend="italic">m</ex> lion qua<ex rend="italic">n</ex>t plus
-                  fo<ex rend="italic">r</ex>t irascus  </l>
+                  fo<ex rend="italic">r</ex>t irascus,  </l>
             <l n="202">Estoit doté sor animal menus,  </l>
             <l n="203">Tot ensemant fu le quisin le dux.  </l>
             <l n="204">Em petit d'ore, a tot le ca<ex rend="italic">m</ex>ps vencus,  </l>
@@ -451,6 +450,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
             <l n="213">Que ge no<ex rend="italic">n</ex> aige tot lor brance to<ex rend="italic"
                   >n</ex>dus."  </l>
          </lg>
+         <!--rECORRECTED TO HERE 10 SEPTEMBER 2017 -->
          <lg type="laisse" n="9">
             <head>Laisse 9</head>
             <l n="214"><hi rend="blue-initial">E</hi>n celui jor ot l'onor et le pris  </l>
@@ -785,7 +785,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
                   rev<ex rend="italic">er</ex>tie,  </l>
             <l n="476">Si le diray qua<ex rend="italic">n</ex>t que m'avés gehie.  </l>
             <l n="477">S'a lui pleira tot vetre comandie,  </l>
-            <l n="478">Vos volonté sera p<ex rend="italic">er</ex> moy obeïe."  </l>
+            <l n="478">Vos volonté sera p<ex rend="italic">or</ex> moy obeïe."  </l>
             <l n="479">Le rois la entent, plus no<ex rend="italic">n</ex> seit qu'il se die.  </l>
             <l n="480">Tot ensemant cu<ex rend="italic">m</ex> pulcelle esfraïe  </l>
             <l n="481">Qua<ex rend="italic">n</ex>t soi co<ex rend="italic">n</ex>sent e pués ert
@@ -826,7 +826,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
             <l n="505">(<hi rend="red-initial">K</hi>arlle Martel sor ice mout pensa—  </l>
             <l n="506">Cum avra la duchoise <ex rend="italic">et</ex> li que<ex rend="italic"
                   >n</ex>s scace<ex rend="italic">r</ex>a,  </l>
-            <l n="507">Se p<ex rend="italic">er</ex> force il veut fer, bie<ex rend="italic"
+            <l n="507">Se p<ex rend="italic">ar</ex> force il veut fer, bie<ex rend="italic"
                   >n</ex> voit q<ex rend="italic">ue</ex> il no<ex rend="italic">n</ex> pora.
                 </l>
             <l n="508">Mout en force d'amis ma<ex rend="italic">n</ex>t bon ch<ex rend="italic"
@@ -909,7 +909,7 @@ païs<?xml version="1.0" encoding="UTF-8"?>
             <l n="573">Pués a dit a Saudin, "Mout vos aim por douço<ex rend="italic">r</ex>;  </l>
             <l n="574">Me poise en vos fier." "Oïl, mon bon segnor,  </l>
             <l n="575">Çonse n'est a cist siegle, si pois avoit laisor,  </l>
-            <l n="576">Qui non face p<ex rend="italic">er</ex> vos si mort sostiengn ancor.  </l>
+            <l n="576">Qui non face p<ex rend="italic">or</ex> vos si mort sostiengn ancor.  </l>
             <l n="577">Seüremant le dites car anch ni fui bosdior.  </l>
             <l n="578">A mon pooir ferai cum vos voldreç tutor."  </l>
          </lg>
