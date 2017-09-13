@@ -499,6 +499,10 @@ img#marucelliana_logo {
 
 /* Praxis Pages */
 
+div.abbr-examples {
+	margin-left: 20%;
+}
+
 div.praxis {
 	margin-top: 4em;
     margin-left: 7em;
