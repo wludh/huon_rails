@@ -75,5 +75,7 @@ match 'p_manuscript', to: 'pages#p_manuscript', via: [:get], as: :p_manuscript
 match 'br_manuscript', to: 'pages#br_manuscript', via: [:get], as: :br_manuscript
 match 'b_translation', to: 'pages#b_translation', via: [:get], as: :b_translation
 match 'hell_scene', to: 'pages#hell_scene', via: [:get], as: :hell_scene
+match 'versioning', to: 'pages#versioning', via: [:get], as: :versioning
+match 'cite', to: 'pages#cite', via: [:get], as: :cite
 
 end

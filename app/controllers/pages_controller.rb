@@ -419,69 +419,90 @@ class PagesController < ApplicationController
     helper_method :parse_and_store_notes
 
 
+# Home Page
+
     def index
         render template: 'pages/index'
     end
 
-    def bibliography
-        render template: "pages/bibliography"
+# About Pages
+
+    def versioning
+        render template: 'pages/versioning'
     end
+
+    def cite
+        render template: 'pages/cite'
+    end
+
+# Praxis and Guidelines
+    
+	def intro_praxis
+		render template: "pages/intro_praxis"
+	end
+
+	def b_praxis
+		render template: "pages/b_praxis"
+	end
+
+	def t_praxis
+		render template: "pages/t_praxis"
+	end
+
+	def p_praxis
+        parse_html('p-praxis.html')
+        render template: "pages/p_praxis"
+    end
+
+    def br_praxis
+        render template: "pages/br_praxis"
+    end
+
+    def encod_praxis
+        render template: "pages/encod_praxis"
+    end
+
+# Edition Pages
 
     def editions
         render template: "pages/edition"
     end
 
-	def encod_praxis
-		render template: "pages/encod_praxis"
-	end
-
-	def intro_praxis
-		render template: "pages/intro_praxis"
-	end
-
-	def b_manuscript
+    def b_manuscript
         parse_tei('b.xml')
         render template: "pages/b"
     end
-
-	def b_praxis
-		render template: "pages/b_praxis"
-	end
 
     def t_manuscript
         parse_tei('t.xml')
         render template: "pages/t"
     end
 
-	def t_praxis
-		render template: "pages/t_praxis"
-	end
-
     def p_manuscript
         parse_tei('p.xml')
         render template: "pages/p"
     end
-
-	def p_praxis
-        parse_html('p-praxis.html')
-        render template: "pages/p_praxis"
-     end
 
     def br_manuscript
         parse_tei('br.xml')
         render template: "pages/br"
     end
 
-	def br_praxis
-		render template: "pages/br_praxis"
-	end
+    def b_translation
+        parse_tei('translation-b.xml')
+        render template: "pages/translation-b"
+    end
 
-	def b_translation
-		parse_tei('translation-b.xml')
-		render template: "pages/translation-b"
-	end
+# Versioning Machine Pages
 
     def hell_scene
         render template: "pages/hell_scene"
     end
+
+# Bibliography Page
+
+    def bibliography
+        render template: "pages/bibliography"
+    end
+
 end
