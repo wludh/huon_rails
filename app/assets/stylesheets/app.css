@@ -509,6 +509,10 @@ div.praxis {
     margin-right: 7em;
 }
 
+dl dd {
+	line-height: 100%
+}
+
 div.table {
     margin-left: 4em;
 }
@@ -539,9 +543,10 @@ h4.praxis {
 li.praxis {
 	margin-left: 4em;
 	float: left;
+	display: block;
 }
 
-ol.praxis {
+.praxis ol ul {
 	margin-top: 0em;
 	float: left;
 }
@@ -689,14 +694,6 @@ font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', G
 	text-align:left;
 }
 
-/*table {
-	border:none;
-}
-
-table, tr, th {
-	padding:none;
-}*/
-
 #tei-hr {
 	width:40%;
 	text-align:center; margin: 0 auto;
@@ -710,12 +707,6 @@ table, tr, th {
 .witnessMenu {
 	width: 69%;
 }
-
-/*td {
-	padding-left:0;
-	padding-right: 0;
-	display: hidden;
-}*/
 
 #bibPanel{
 	display: none;

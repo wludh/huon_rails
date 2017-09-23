@@ -274,7 +274,7 @@
                             des<ex rend="italic">er</ex>ta,</seg></l>
                 <l n="43"><seg>et molte done à vergognà et hodiate,</seg></l>
                 <l n="44"><seg>et perzò non è miga da la zente agabà,</seg></l>
-                <l n="45"><seg>anzo li era la zente d'el acontrà.</seg></l>
+                <l n="45"><seg>anzo lì era la zente d'el acontrà.</seg></l>
             </lg>
             <lg type="laisse" n="3">
                 <head>Laisse 3</head>
@@ -297,7 +297,7 @@
                     Luzen<seg>borgo</seg></l>
                 <l n="57">et a Ruzero, lo sere de Nante an<seg>cora</seg>,</l>
                 <l n="58">yn qual mainera le porà ello ve<seg>dere</seg>.</l>
-                <l n="59">Queste respondeno: "Fate bandire <seg><ex rend="italic">per</ex> tuto y<ex
+                <l n="59">Queste respondeno: "Fate bandire <seg>p<ex rend="italic">er</ex> tuto y<ex
                             rend="italic">n</ex>torno</seg></l>
                 <l n="60">che el non romagna li grande né ly <seg>menore</seg></l>
                 <l n="61">che tene da ty feu né tere né <seg>honore</seg>,</l>
@@ -305,10 +305,10 @@
                 <l n="63">E zascun mene sego soa filia <seg>ho soa usor</seg>, </l>
                 <l n="64">over cosina over mene soa <seg>sorela</seg>; </l>
                 <l n="65"> e chi a polzele tu trovaray sign<seg>ore</seg>, </l>
-                <l n="66">et ancha le maridà tu faray gra<ex rend="italic">n</ex><seg>de
+                <l n="66">et anch'a le maridà tu faray gra<ex rend="italic">n</ex><seg>de
                         honore.</seg></l>
                 <l n="67">Et ancora faray dy chavaler<seg>y più e più</seg></l>
-                <l n="68">et lor adobaranse de b<seg>on drapo de colore</seg>;</l>
+                <l n="68">et lor adobaran-se de b<seg>on drapo de colore</seg>;</l>
                 <l n="69">e quily che no<ex rend="italic">n</ex> virano si p<seg>erderano tuo
                         amore."</seg></l>
                 <l n="70">"Per fede," dize Carlo, "cosỳ far<seg>azo senza demora."</seg></l>
@@ -320,7 +320,7 @@
                 <head>Laisse 4</head>
                 <l n="74"><milestone n="2R" unit="fol."/><seg>En Pentacosta apresso
                         l'Asensione</seg></l>
-                <l n="75"><seg>e n'à bandita la corte, tute ne verano,</seg></l>
+                <l n="75"><seg>e' n'à bandita la corte, tute ne verano,</seg></l>
                 <l n="76"><seg>che debe durare quatro mese al delongo</seg>. <note xml:id="t76"/></l>
                 <l n="77"><seg>E perzò voleano lo'mperio Carlone</seg></l>
                 <l n="78"><seg>che le done vegnano com lor <ex rend="italic"
@@ -329,9 +329,9 @@
                 <l n="80"><seg>che de done dè tenire corte da nove;</seg></l>
                 <l n="81"><seg>et lo re la vole tenire de sty barone</seg>.</l>
                 <l n="82"><seg>Apresso a la festa che devis</seg>à nuy abiam<seg>o</seg></l>
-                <l n="83"><seg>ly vene de le zente una</seg> sì gra<ex rend="italic">n</ex>
+                <l n="83"><seg>lỳ vene de le zente una</seg> sì gra<ex rend="italic">n</ex>
                     frota</l>
-                <l n="84"><seg>che <num>.XII.</num> re ly sono tu</seg>te de corona:</l>
+                <l n="84"><seg>che <num>.XII.</num> re lỳ sono tu</seg>te de corona:</l>
                 <l n="85"><seg>àno bon corazo et le</seg> zente guarnỳ sono. </l>
                 <l n="86"><seg>E stare ly ducha e ly</seg> prenzipy et li <ex rend="italic"
                     >con</ex>te,</l>
@@ -358,7 +358,7 @@
                 <l n="103"><seg>Drito a Parise vene sen</seg>za restasone;</l>
                 <l n="104"><seg>en la <ex rend="italic">con</ex>trà de Santo Pa</seg>olo, com nuy
                     atrovemo,</l>
-                <l n="105"><seg>sono desendute che de f</seg>renta trovà l'ano</l>
+                <l n="105"><seg>sono desendute che de f</seg>renta trovà l'àno</l>
                 <l n="106"><seg>una chasa che Ynida l</seg>a vite de longo,</l>
                 <l n="107"><milestone n="2V" unit="fol."/>
                     <seg>che ben fornita era de fen, et lỳ andono,</seg>
@@ -404,8 +404,8 @@
                             rend="italic">es</ex>u,</seg> </l>
                 <l n="130">ch'el non è re i<ex rend="italic">n</ex>
                     <ex rend="italic">crist</ex>ianetà né sỳ <seg>posente</seg></l>
-                <l n="131">che m'osase amoverme gue<seg>ra,</seg></l>
-                <l n="132"><anchor resp="Rajna" n="130"/> né del guerezare né farme ho<seg>ltrazo.</seg></l>
+                <l n="131">che m'osase amover-me gue<seg>ra,</seg></l>
+                <l n="132"><anchor resp="Rajna" n="130"/> né del guerezare né far-me ho<seg>ltrazo.</seg></l>
                 <l n="133">S'el fose alcuno che holtrazo ne <seg>volese fare,</seg></l>
                 <l n="134">se puro el besognase sopra n<seg>uy defesa</seg></l>
                 <l n="135">per lo reposo che nuy abiamo abute,</l>
@@ -426,6 +426,7 @@
                 <l n="145"><seg>Che dite vuy?" E quiste àno respondute:</seg></l>
                 <l n="146"><seg>"Ben dize, ben dize! Suo <ex rend="italic">con</ex>seio sia
                         tenuto."</seg></l>
+                        <!--rechecked to here 19 September 2017 -->
             </lg>
             <lg type="laisse" n="6">
                 <head>Laisse 6</head>
