@@ -497,6 +497,13 @@ img#marucelliana_logo {
 	color:#cccccc !important;
 }
 
+/* About Pages */
+
+p.indent {
+    padding-left: 4em;
+    text-indent: -2em;
+}
+
 /* Praxis Pages */
 
 div.abbr-examples {
@@ -507,6 +514,7 @@ div.praxis {
 	margin-top: 4em;
     margin-left: 7em;
     margin-right: 7em;
+    margin-bottom: 3em;
 }
 
 dl dd {
