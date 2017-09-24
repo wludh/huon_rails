@@ -5246,6 +5246,8 @@
                 <l n="3337">Dize lo diavlo, "Ora <ex rend="italic">con</ex>ta toa volontà,</l>
                 <l n="3338">che te risponderò, da ché non posso altro fare."</l>
             </lg>
+            
+<!--
             <lg type="laisse" n="125">
                 <head>Laisse 125</head>
                 <l n="3339">(3320)<milestone n="1R" unit="fol."/> 53R)Lo conte el dise, "Chi è tu
@@ -6378,8 +6380,8 @@
                 <l n="4251">afora uno novo /re/ chi è batezato,</l>
                 <l n="4252">chi è .re. de Capetozia chi è quỳ da preso;</l>
                 <l n="4253">eio non so ancora se luy ben l'os<ex rend="italic">er</ex>varà</l>
-                <l n="4254">(4235) la fé chi comanda Dio padre, puro de la soa el è, $!--? è lé? |
-                        po<ex rend="italic">r</ex> la soe lés' 4296 B--*</l>
+                <l n="4254">(4235) la fé chi comanda Dio padre, puro de la soa el è, $!-? è lé? |
+                        po<ex rend="italic">r</ex> la soe lés' 4296 B-*</l>
                 <l n="4255">mé p<ex rend="italic">er</ex> vero sapio che y<ex rend="italic">n</ex>
                     cristianità el è nato.</l>
                 <l n="4256">Bon signore àno, a la soa fede loro àno zurado.</l>
@@ -9422,8 +9424,8 @@
                 <l n="6738">(6715) possa per li altre fu feramente afadigato.</l>
                 <l n="6739">Adoncha s'aparechia cossỳ com homo manovale;</l>
                 <l n="6740">entromento entrò y<ex rend="italic">n</ex> soa nave lo marchesse,</l>
-                <l n="6741">prende le coverte del destrero ardito--</l>
-                <l n="6742">de duy pany e' fu d'un richo tapeto--</l>
+                <l n="6741">prende le coverte del destrero ardito-</l>
+                <l n="6742">de duy pany e' fu d'un richo tapeto-</l>
                 <l n="6743">(6720) più tosto che elo pose p<ex rend="italic">er</ex> desopra se·l
                     mete.</l>
                 <l n="6744">Possa avè la corda a l'arzon d'or metuda,</l>
@@ -10346,7 +10348,9 @@
                 <l n="7426">zò staty pary, falsy sperite, da parte de Dio vivo.</l>
                 <l n="7427"><milestone n="1R" unit="fol."/>(112V)Cosỳ como verasemente lo credo de
                     coro verase</l>
+      -->
                 <!-- one of the missing lines, render in italics -->
+      <!--
                 <l n="7428"> Cosỳ sofrite a obedirme tuto zò che a my piaze </l>
                 <l n="7429">(7400) ny ponto y<ex rend="italic">n</ex>pazo per vuy zà nula no<ex
                         rend="italic">n</ex>n-aze."</l>
@@ -10830,7 +10834,7 @@
                 <l n="7785"> Laisse 314 Quando Ugo<ex rend="italic">n</ex> fo sopra la montagna
                     azonto,</l>
                 <l n="7786">molto fo alegro che montà l'era desuso.</l>
-                <l n="7787">Intanto vedea-- per lo campo avea guardato--</l>
+                <l n="7787">Intanto vedea- per lo campo avea guardato-</l>
                 <l n="7788">molty anymaly vite che may no<ex rend="italic">n</ex> avea veduto,</l>
                 <l n="7789">(7760) che sono desfegurate da quily che vedute avea.</l>
                 <l n="7790">Nesuno no<ex rend="italic">n</ex> vite crudele né y<ex rend="italic"
@@ -11131,11 +11135,13 @@
                 <l n="8006">l'uno comenza e l'altro el sechonda,</l>
                 <l n="8007">e quelo oldire bele meludie e sone:</l>
                 <l n="8008">"E Dio como, a belo abitacolo le ate."</l>
+            -->
                 <!-- rend ate strikethrough. Note - There is a smear, or perhaps a
 bleed-through from the verso, that makes reading impossible.
 Rajna too notes that the whole word is problematic ("qui tutta
 la parola fr / ƣubly, rompy anche / la carta"); he ends the line
 with -ate (crossed out). -->
+            <!--
                 <l n="8009">(7980) Questo salmo dize bene, e ben l'entende Ugone;</l>
                 <l n="8010">de zò che l'olde e ch'el vite, el zentil homo</l>
                 <l n="8011">molto se meravia; la croze se feze al fronte,</l>
@@ -13144,7 +13150,9 @@ with -ate (crossed out). -->
                 <l n="9646">Laisse 383 Arivà sono a la porta quartana;</l>
                 <l n="9647">(9610) denanzo li era un gran fosso altano,</l>
                 <l n="9648">forta siè la porta, <ex rend="italic">et</ex> alte le mura sovrane</l>
+        -->
                 <!-- begin 9644 [Rajna 151 right] -->
+       <!--
                 <l n="9649">de grande afare. Senza ardore e senza pene,</l>
                 <l n="9650">lỳ no<ex rend="italic">n</ex> pò y<ex rend="italic">n</ex>trare nula
                     criatura umana;</l>
@@ -15984,6 +15992,7 @@ with -ate (crossed out). -->
                         >n</ex> me faza danazione.</l>
                 <l n="11841">Ternus amen de .1441. die.6. de Feb<ex rend="italic">rar</ex>.</l>
             </lg>
+            -->
         </body>
     </text>
 </TEI>
