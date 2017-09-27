@@ -204,13 +204,13 @@ describe PagesController do
         end
     end
 
-    describe "GET " 'bibliography' do
-        it "returns http success header" do
-            get 'bibliography'
-            expect(response).to be_success
-            expect(response).to have_http_status(200)
-        end
-    end
+    # describe "GET " 'bibliography' do
+    #    it "returns http success header" do
+    #        get 'bibliography'
+    #        expect(response).to be_success
+    #        expect(response).to have_http_status(200)
+    #    end
+    #end
 
     describe "the parser" do
         it "should parse choice tag 1" do
