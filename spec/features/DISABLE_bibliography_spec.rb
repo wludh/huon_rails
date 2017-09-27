@@ -13,3 +13,4 @@ describe "GET" 'bibliography' do
         expect(page).to have_selector('.bibshowhide')
     end
 end
+
