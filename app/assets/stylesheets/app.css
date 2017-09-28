@@ -328,14 +328,6 @@ li {
     float: right;
 }
 
-/*li.nav {
-	display: inline-block;
-    color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}*/
-
 li.title {
 	float: left;
 	color: whitesmoke;
@@ -569,7 +561,7 @@ td {
     padding-left: 1.5em;
 }
 
-/* Bibliography Page */
+/* Temporary Bibliography Page */
 
 h1.biblio {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -969,8 +961,9 @@ header {
 }
 
 li.ms-toc {
-	color: grey;
+	color: lightgray;
     float: left;
+    padding-right: 25%;
 }
 
 p.ms-intro-h1 {
