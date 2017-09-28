@@ -61,7 +61,6 @@ get "/pages/:page" => "pages#show"
 # get "/pages/:page", to: "pages#show", as: ':page'
 
 # match 'index', to: 'pages#index', via: [:get], as: :root
-match 'bibliography', to: 'pages#bibliography', via: [:get], as: :bibliography
 match 'editions', to: 'pages#editions', via: [:get], as: :editions
 match 'intro_praxis', to: 'pages#intro_praxis', via: [:get], as: :intro_praxis
 match 'b_praxis', to: 'pages#b_praxis', via: [:get], as: :b_praxis
@@ -77,5 +76,7 @@ match 'b_translation', to: 'pages#b_translation', via: [:get], as: :b_translatio
 match 'hell_scene', to: 'pages#hell_scene', via: [:get], as: :hell_scene
 match 'versioning', to: 'pages#versioning', via: [:get], as: :versioning
 match 'cite', to: 'pages#cite', via: [:get], as: :cite
+# match 'bibliography', to: 'pages#bibliography', via: [:get], as: :bibliography
+match 'biblio_temp', to: 'pages#biblio_temp', via: [:get], as: :biblio_temp
 
 end

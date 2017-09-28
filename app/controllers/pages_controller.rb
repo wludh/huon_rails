@@ -500,9 +500,13 @@ class PagesController < ApplicationController
     end
 
 # Bibliography Page
-
-    def bibliography
-        render template: "pages/bibliography"
+    
+    def biblio_temp
+        render template: "pages/biblio_temp" 
     end
+
+    #def bibliography
+    #    render template: "pages/bibliography"
+    #end
 
 end
