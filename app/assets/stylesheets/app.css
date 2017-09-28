@@ -1038,7 +1038,16 @@ ol.ms-toc {
 
 #reader-nav-links {
 	line-height: 2.8125rem;
-	padding: 0 0.9375rem;
+	padding-top: 1%;
+	padding-left: 1%;
+}
+
+#reader-nav-title {
+	color: #5f0000;
+	padding-left: 1%;
+	padding-top: 2%;
+	font-size: xx-large;
+
 }
 
 #sub-title {
