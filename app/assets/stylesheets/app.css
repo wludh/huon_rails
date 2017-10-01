@@ -584,11 +584,15 @@ li.biblio {
     padding-right: 25%;
     padding-left: 2em;
     text-indent: -2em;
-    padding-top: 0.5em;
+    padding-top: 1.5em;
 }
 
-ul.biblio {
+ol.biblio {
 	list-style: none;
+}
+
+p.biblio {
+    width: auto;
 }
 
 .biblio {
@@ -777,7 +781,6 @@ footnote {
 }
 
 .top-bar {
-	/*position:fixed !important;*/
 	z-index: 1000;
 }
 
@@ -859,12 +862,6 @@ header {
 	width: 69%;
 }
 
-/*td {
-	padding-left:0;
-	padding-right: 0;
-	display: hidden;
-}*/
-
 #bibPanel {
 	display: none;
 }
@@ -882,8 +879,6 @@ header {
 
 @media only screen and (max-width: 500px) {
 	#TEI_left_panel {
-/*    display:none !important;
-*/
 		float: none !important;
 		width: 80% !important;
 		border-right:none !important;
@@ -911,9 +906,10 @@ header {
 	#side-panel {
 		display: none !important;
 	}
+
 	#top-half {
-/*    display:none;
-*/  }
+	}
+
 	#TEI_reader {
 		margin-left: 0px !important;
 		padding-left: 0px !important;
@@ -1016,13 +1012,6 @@ ol.ms-toc {
 		padding-left: 3.5em;
 		line-height: 2.5em;
 }
-
-/*ol.ms-toc > li:last-child {
-    line-height: 7.5em;
-    float: left;
-    margin-left: -6.8em;
-}*/
-
 
 /* TEI Reading Environment */
 
