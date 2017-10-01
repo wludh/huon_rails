@@ -43,11 +43,21 @@
                 <note xml:id="b415" type="codic" resp="#LZM"> <hi rend="italic">ia belist</hi>. This is a hapax. Elsewhere in the text, we find <hi rend="italic">l'abelist</hi>, e.g., 4169, 6321, etc.</note>
                 <note xml:id="b508" type="codic" resp="#LZM"> There is a "+" in the right margin in light brown ink, perhas inserted by a nineteenth-century reader.</note>
                 <note xml:id="b542" type="ling" resp="#LZM"> Cf. <hi rend="italic">Entrée d'Espagne, gaumenter</hi> (TL <hi rend="italic">gaimenter</hi>)</note>
-                note xml:id="b5000" type="Rajna" resp="#LZM">Template note</note>
-                <note xml:id="b9915" type="codic" resp="#LZM">illumination "hell"</note>
-                <note xml:id="b9935" type="refer" resp="#LZM">Nicomachus "details here"</note>
-                <note xml:id="b9950" type="refer" resp="#LZM">Farabus "details here"</note>
-                <note xml:id="b9951" type="interp" resp="#LZM"> See translation for a delineation of speakers in this exchange."</note>
+                <note xml:id="b674" type="codic" resp="#LZM"> The MS is difficult to read: 'r'of <hi rend="italic">complira</hi> is unclear.</note>
+                <note xml:id="b751" type="codic" resp="#LZM">p<hi rend="italic">re</hi>gant: the "g" has an unusual form; it looks more like a "y"</note>
+                <note xml:id="b790" type="interp" resp="#LZM">MS: <hi rend="italic">empial</hi>. Cf. vv. 47, 73, 373, etc., where we see <hi rend="italic">emp[er]ial</hi>. However, see <hi rend="italic">empir</hi> in the <hi rend="italic">Prise de Pampelune</hi> (v. 4970) and the many other variants. As one of the most frequent words in epic vocabulary, it is greatly varied in rhyme. Furthermore, in Italian, "empio" means "irreligioso, sacrilego, profanatore" and "spietato, crudele" (Zingarelli) so while there is the hint of emperor, there is also the sense of merciless, sacrilegious ruler.</note>
+                <note xml:id="b818" type="ling" resp="#LZM"> MS:<hi rend="italic">abosdivoir</hi>. Cf. <hi rend="italic">Entrée d'Espagne bosdeor</hi>; <hi rend="italic">Guerra d'Attila bosder, bosdeor, bosdera, bosdie</hi>, etc.</note>
+                <note xml:id="b888" type="codic" resp="#LZM">MS:<hi rend="italic">confortas ɾoe</hi> </note>
+                <note xml:id="b923" type="ling" resp="#LZM"><hi rend="italic">Tutore</hi>: cf. www.treccani.it/enciclopedia/tuttora_(Enciclopedia-Dantesca)/. Typical of Old Italian, found in Dante, the <hi rend="italic">Fiore</hi>, etc. Consulted Nov. 26, 2016.</note>
+                <note xml:id="b948" type="codic" resp="#LZM">MS: <hi rend="italic">monreç</hi> </note>
+                <note xml:id="b960" type="ling" resp="#LZM">Note the Italianate construction of definite article + possessive.</note>
+                <note xml:id="b977" type="interp" resp="#LZM"><hi rend="italic">hair</hi>: this could be haïr, anger, but we are interpreting it as "air" to go with the Turin reading and also the sense here: out the window and into the air, the sky.</note>
+                
+                <note xml:id="b5000" type="codic" resp="#LZM"> Template note </note>
+                <note xml:id="b9915" type="codic" resp="#LZM"> illumination "hell"</note>
+                <note xml:id="b9935" type="refer" resp="#LZM"> Nicomachus "details here"</note>
+                <note xml:id="b9950" type="refer" resp="#LZM"> Farabus "details here"</note>
+                <note xml:id="b9951" type="interp" resp="#LZM">  See translation for a delineation of speakers in this exchange."</note>
                 <note xml:id="b9972" type="codic" resp="#LZM">-t of ce<hi rend="italic">r</hi>t very smeared and difficult to distinguish exc. in ms. itself.</note>
             </div>
         </body>

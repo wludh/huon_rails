@@ -261,11 +261,11 @@ class PagesController < ApplicationController
     def parse_milestone(line)
         (('<div class="milestone pb">') + line.css('milestone').attr('unit') + ' ' + line.css('milestone').attr('n').text + '</div>').html_safe
     end
-# inserted code for anchor
+        # inserted code for anchor
     def parse_anchor(line)
         (('<div class="anchor">') + line.css('anchor').attr('resp') + ' ' + line.css('anchor').attr('n').text + '</div>').html_safe
     end
-# end anchor code
+        # end anchor code
 
     def parse_heading(line_group)
         # parses line group
