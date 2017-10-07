@@ -1506,8 +1506,7 @@
             <l n="1000">Come dira l'estoire co<ex rend="italic">m</ex> avreç enta<ex rend="italic"
                   >n</ex>du.  </l>
          </lg>
-         <!--LZM stopped here 30 Sept 2017 -->
-   <!-- <lg type="laisse" n="39">
+         <lg type="laisse" n="39">
             <head>Laisse 39</head>
             <l n="1001"><hi rend="blue-initial">O</hi>ï aveç, segnor, la me<ex rend="italic"
                >r</ex>veille grant  </l>
@@ -1515,9 +1514,9 @@
             <l n="1003">La gient fu smarie, de peor vont sfreant,  </l>
             <l n="1004">Non si sa co<ex rend="italic">n</ex>seiller; chascu<ex rend="italic"
                   >n</ex>s fu in atant,</l>
-            <l n="1005"><milestone n="8Ra" unit="fol."/>(De ma<ex rend="italic">n</ex>gier ni font
+            <l n="1005"><milestone n="8Ra" unit="fol."/> De ma<ex rend="italic">n</ex>gier ni font
                mie ja de lor nus se<ex rend="italic">m</ex>blant.  </l>
-            <l n="1006">Mes le jantis cons Hue li veit tot <ex rend="italic">con</ex>fortant  </l>
+            <l n="1006">Més le jantis cons Hue li veit tot <ex rend="italic">con</ex>fortant  </l>
             <l n="1007">De maint belles parolles le lor veit s<ex rend="italic">er</ex>mona<ex
                   rend="italic">n</ex>t.  </l>
             <l n="1008">Pués li a dit, "Signo<ex rend="italic">r</ex>, esteç seüremant;  </l>
@@ -1531,9 +1530,9 @@
             <l n="1014">Çascu<ex rend="italic">n</ex>s ma<ex rend="italic">n</ex>jue pois dou tot
                a son tala<ex rend="italic">n</ex>t.  </l>
             <l n="1015">Mais quue<ex rend="italic">n</ex>s Hue d'Auv<ex rend="italic">er</ex>gne
-                  n<ex rend="italic">on</ex> q<ex rend="italic">u</ex>e<ex rend="italic">r</ex>t
+                  n<ex rend="italic">on</ex> q<ex rend="italic">ui</ex>e<ex rend="italic">r</ex>t
                   dig<ex rend="italic">ni</ex>té g<ex rend="italic">ra</ex>nt;  </l>
-            <l n="1016">For .I. quartier de pein, de ce si va saolant  </l>
+            <l n="1016">For <num rend="smallcaps">.i.</num> quartier de pein, de ce si va saolant  </l>
             <l n="1017">E de l'eve il boit s'il le vint a talant;  </l>
             <l n="1018">De tiel viande l'oit useç a mout g<ex rend="italic">ra</ex>nt ta<ex
                   rend="italic">m</ex>pt.  </l>
@@ -1558,7 +1557,7 @@
             <l n="1030"><hi rend="red-initial">A</hi>prés disner, le quuens Hue parlla  </l>
             <l n="1031">A maint de soe gient que iluech s'aresta;  </l>
             <l n="1032">De maintes çonse bien les amaistra,  </l>
-            <l n="1033">Com il dont fere com il l'encontrera;  </l>
+            <l n="1033">Com il dont fere, com il l'encontrera,  </l>
             <l n="1034">De tretot ce qu'il cuide ja ve<ex rend="italic">r</ex>ra.  </l>
             <l n="1035">Aprés de ce, sa querelle dit i a,  </l>
             <l n="1036">Com K<ex rend="italic">ar</ex>lle<ex rend="italic">s</ex> Martel dou
@@ -1576,14 +1575,14 @@
                   rend="italic">r</ex>a.  </l>
             <l n="1044">D'une riens je vos proy, qua<ex rend="italic">n</ex>t hom p<ex
                   rend="italic">ar</ex>tiç sera,  </l>
-            <l n="1045">Que endolosier p<ex rend="italic">er</ex> moy ni vos i meteç ja;  </l>
+            <l n="1045">Que endolosier p<ex rend="italic">or</ex> moy ni vos i meteç ja;  </l>
             <l n="1046">Riens ni valdroit, més daumage sera.  </l>
             <l n="1047">Teneç vos bellema<ex rend="italic">n</ex>t au miel qe l'om po<ex
                   rend="italic">r</ex>a.  </l>
-            <l n="1048">Proieç p<ex rend="italic">er</ex> moy Yh<ex rend="italic">es</ex>u, q<ex
+            <l n="1048">Proieç p<ex rend="italic">or</ex> moy Yh<ex rend="italic">es</ex>u, q<ex
                   rend="italic">ue</ex> Laçare suscita,  </l>
             <l n="1049">Qu'il moy laist aco<ex rend="italic">m</ex>plir tot ce p<ex rend="italic"
-                  >er</ex> q<ex rend="italic">ue</ex> hom va  </l>
+                  >or</ex> q<ex rend="italic">ue</ex> hom va  </l>
             <l n="1050">En ce bien metra fin Yh<ex rend="italic">es</ex>u qua<ex rend="italic"
                   >n</ex> le pleira.  </l>
             <l n="1051">A Diex vos en coma<ex rend="italic">n</ex>t. Le t<ex rend="italic"
@@ -1597,7 +1596,7 @@
                za <ex rend="italic">et</ex> la."  </l>
             <l n="1056">A cestui mot q'oit dit, li criç si ensforça  </l>
             <l n="1057">Qu'il n'ait ja si co<ex rend="italic">r</ex>s dur d<ex rend="italic"
-                  >e</ex> ceus q<ex rend="italic">ue</ex> l'escouta,  </l>
+                  >e</ex> ceus q<ex rend="italic">ui</ex> l'escouta,  </l>
             <l n="1058">Qu'il poüst refrener qu'il no<ex rend="italic">n</ex> plorast pieça,  </l>
             <l n="1059">Ni lor le cons d'Auv<ex rend="italic">er</ex>gne refrene<ex rend="italic"
                   >r</ex> posu a.  </l>
@@ -1611,7 +1610,7 @@
             <l n="1062"><hi rend="blue-initial">Q</hi>ua<ex rend="italic">n</ex>d fu en soy revenue
                la dame del bo<ex rend="italic">n</ex> cons,  </l>
             <l n="1063">"Hey," dit elle, "sire, si moy leireç adons  </l>
-            <l n="1064">Quant vos fustes doné a moy p<ex rend="italic">er</ex>
+            <l n="1064">Quant vos fustes doné a moy p<ex rend="italic">or</ex>
                <ex rend="italic">com</ex>peigno<ex rend="italic">n</ex>s?  </l>
             <l n="1065">Je non cuidoge més de ve<ex rend="italic">n</ex>ir a tiel pons  </l>
             <l n="1066">Que ou loial mariage feïst devisons,  </l>
@@ -1638,7 +1637,7 @@
             <l n="1080">Q'avant qu'il l'en aüst, voldroi a<ex rend="italic">r</ex>dre a ca<ex
                   rend="italic">r</ex>bo<ex rend="italic">n</ex>s.  </l>
             <l n="1081">Por ce vos mande, sire, a l'et<ex rend="italic">er</ex>nal p<ex
-                  rend="italic">ri</ex>sons.  </l>
+                  rend="italic">ar</ex>fons.  </l>
             <l n="1082">Je ne·l voloi dire po<ex rend="italic">r</ex> no<ex rend="italic">n</ex>
                metre te<ex rend="italic">n</ex>çons,  </l>
             <l n="1083">Més plus covrir ne·l pois, qua<ex rend="italic">n</ex>t le p<ex
@@ -1669,10 +1668,9 @@
                   >r</ex>re verser  </l>
             <l n="1097">A pués qu'il non li a feit a ve<ex rend="italic">n</ex>tre e·l co<ex
                   rend="italic">r</ex>s crev<ex rend="italic">er</ex>.  </l> -->
-<!--Wife beating!!! Comments and article references?? -->
-<!--
+                  <!--Wife beating!!! Comments and article references?? -->
             <l n="1098">Mais qua<ex rend="italic">n</ex>t la vit a te<ex rend="italic">r</ex>re
-               pasmee cheue est<ex rend="italic">er</ex>,  </l>
+               pasmee cheüe est<ex rend="italic">er</ex>,  </l>
             <l n="1099">Gra<ex rend="italic">n</ex>t pité l'en a pris, si la vait sus lever.  </l>
             <l n="1100">Em plora<ex rend="italic">n</ex>t li a dit, "Ni vos doteç, moiler,  </l>
             <l n="1101">Da vos no<ex rend="italic">n</ex> pa<ex rend="italic">r</ex>tirai; savrai
@@ -1680,7 +1678,7 @@
             <l n="1102">Tretot le mon afaire q<ex rend="italic">ue</ex> pou poreç doter."  </l>
             <l n="1103">Le quue<ex rend="italic">n</ex>s la coma<ex rend="italic">n</ex>da sor un
                lit apo<ex rend="italic">r</ex>ter;  </l>
-            <l n="1104">Be<ex rend="italic">r</ex>rart saisi p<ex rend="italic">ri</ex>man <ex
+            <l n="1104">Be<ex rend="italic">r</ex>rart saisi p<ex rend="italic">or</ex> man <ex
                   rend="italic">et</ex> Tomais li guere<ex rend="italic">r</ex>,  </l>
             <l n="1105">Baudoin <ex rend="italic">et</ex> Mora<ex rend="italic">n</ex>t, Sanson
                son baçale<ex rend="italic">r</ex>;  </l>
@@ -1702,7 +1700,7 @@
                   rend="italic">r</ex>,  </l>
             <l n="1116"><milestone n="8Vb" unit="fol."/>Does cité en ma te<ex rend="italic"
                >r</ex>re lor en voge laiser.  </l>
-            <l n="1117">Jusq<ex rend="italic">ue</ex>ma<ex rend="italic">n</ex>t a .VII. ans moy
+            <l n="1117">Jusq<ex rend="italic">ue</ex>ma<ex rend="italic">n</ex>t a <num rend="smallcaps">.VII.</num> ans moy
                deveç respiter;  </l>
             <l n="1118">Se in cest t<ex rend="italic">er</ex>mine ni veeç moy torner,  </l>
             <l n="1119">Sacés, tot mes amis, més plus ni to<ex rend="italic">r</ex>n are<ex
@@ -1719,11 +1717,11 @@
             <l n="1124">Disant que s'a Deu plest mout tost il reve<ex rend="italic">r</ex>a,  </l>
             <l n="1125">E que Be<ex rend="italic">r</ex>ra<ex rend="italic">r</ex>t son frere ja
                   no<ex rend="italic">n</ex> la obliera,  </l>
-            <l n="1126">Sil roy pe<ex rend="italic">n</ex>sast folie, qe il la defendra,  </l>
-            <l n="1127">E qe jusq<ex rend="italic">ue</ex> a .VII. ans, se Diex plest, to<ex
+            <l n="1126">Si'l roy pe<ex rend="italic">n</ex>sast folie, qe il la defendra,  </l>
+            <l n="1127">E qe jusq<ex rend="italic">ue</ex> a <num rend="smallcaps">.VII.</num> ans, se Diex plest, to<ex
                   rend="italic">r</ex>nera.  </l>
             <l n="1128">Tant le oit dit le quue<ex rend="italic">n</ex>s qe elle do<ex
-                  rend="italic">r</ex>me<ex rend="italic">r</ex>ra.  </l>
+                  rend="italic">r</ex>me<ex rend="italic">n</ex>ta.  </l>
             <l n="1129">En l'ore mienuit, qua<ex rend="italic">n</ex>t elle sona,  </l>
             <l n="1130">Soi leve li quue<ex rend="italic">n</ex>s Hue; sveill<ex rend="italic"
                   >e</ex>r no<ex rend="italic">n</ex> la digna.  </l>
@@ -1755,20 +1753,17 @@
             <l n="1148">Qua<ex rend="italic">n</ex>t vint en la domain Ynide soy sveilla;  </l>
             <l n="1149">Son sir, qua<ex rend="italic">n</ex>t la non trove, ta<ex rend="italic"
                   >n</ex>t debatue s'a  </l> -->
-            <!--Note:  la is almost unreadable in the manuscript. It is unclear whether this was intentional or not on the part of the scribe or was done later; it seems to be something painted over those letters, but similar to a spot on the left side of the page of a chocolate or cafeaulait color. -->
-<!--
-            <l n="1150">Que a bien par un petit qu'elle no<ex rend="italic">n</ex> s'atua.  </l>
+            <l n="1150">Qu'e a bien par un petit qu'elle no<ex rend="italic">n</ex> s'atua.  </l>
             <l n="1151">Be<ex rend="italic">r</ex>rart li vient a li, si la reconforta,  </l>
-            <l n="1152">E Ynide plus en luy d'autre home s'en fia.  </l> -->
-            <!--Note: Catchword at the bottom of the page, almost entirely washed out: si -->
-<!--
+            <l n="1152">E Ynide plus en luy d'autre home s'en fia. <note xml:id="b1152"/>  </l>
             <l n="1153"><milestone n="9Ra" unit="fol."/>Si p<ex rend="italic">ri</ex>strent un
                   co<ex rend="italic">n</ex>soil q<ex rend="italic">ue</ex> Alv<ex rend="italic"
                   >er</ex>gne fera  </l>
             <l n="1154">Garnir et reforcer <ex rend="italic">et</ex> vitaille y metra  </l>
-            <l n="1155">Qe enfracique a .VII. ans ja no<ex rend="italic">n</ex> li falira.  </l>
+            <l n="1155">Qe enfracique a <num rend="smallcaps">.vii.</num> ans ja no<ex rend="italic">n</ex> li falira.  </l>
             <l n="1156">Et ensi ont il feit com il se porpensa.  </l>
          </lg>
+         <!-- LZM stopped here 02 October 2017
          <lg type="laisse" n="44">
             <head>Laisse 44</head>
             <l n="1157"><hi rend="red-initial">D</hi>e sa te<ex rend="italic">r</ex>re s'estoit

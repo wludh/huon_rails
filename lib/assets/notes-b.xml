@@ -52,7 +52,9 @@
                 <note xml:id="b948" type="codic" resp="#LZM">MS: <hi rend="italic">monreç</hi> </note>
                 <note xml:id="b960" type="ling" resp="#LZM">Note the Italianate construction of definite article + possessive.</note>
                 <note xml:id="b977" type="interp" resp="#LZM"><hi rend="italic">hair</hi>: this could be haïr, anger, but we are interpreting it as "air" to go with the Turin reading and also the sense here: out the window and into the air, the sky.</note>
-                
+                <note xml:id="b1149" type="codic" resp="#LZM"> <hi rend="italic">la</hi> is almost unreadable in the manuscript. It is unclear whether this was intentional or not on the part of the scribe or was done later; it seems to be something painted over those letters, but similar to a spot on the left side of the page of a chocolate or cafeaulait color.</note>
+                <note xml:id="b1152" type="codic" resp="#LZM">Catchword at the bottom of the page, almost entirely washed out:<hi rend="italic">si</hi> </note>
+
                 <note xml:id="b5000" type="codic" resp="#LZM"> Template note </note>
                 <note xml:id="b9915" type="codic" resp="#LZM"> illumination "hell"</note>
                 <note xml:id="b9935" type="refer" resp="#LZM"> Nicomachus "details here"</note>
