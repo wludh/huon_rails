@@ -1,5 +1,5 @@
-<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
-<?xml-model href="huon-schema-09062017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="huon-schema-10092017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -1094,7 +1094,7 @@
                 <l n="794">Established on earth, both on hill and in dale,</l>
                 <l n="795">And that is the infernal domain.</l>
                 <l n="796">Now you will carry my letter and my seal;</l>
-                <l n="797">I want to know--be it for good or for evil--</l>
+                <l n="797">I want to know-be it for good or for evil-</l>
                 <l n="798">Whether this felon Lucifer will bow to me.</l> -->
                 <!--NOTE "Lucibial" is an alternate form of the name Lucifer here because it appears in rhyme position in the original text. -->
             <!--<l n="799">If it turns out that he won't, he'll face a deadly war;</l>
@@ -6870,8 +6870,8 @@
                 <l n="5776">"Indeed," said Baudoin, "let [him] be taken,</l>
                 <l n="5777">For I consider it a dishonor that we have endured [this] for so
                     long."</l>
-                <l n="5778">As soon as he said that, [Saudin] was seized and held---</l>
-                <l n="5779">What he said then couldn't be believed---</l>
+                <l n="5778">As soon as he said that, [Saudin] was seized and held-</l>
+                <l n="5779">What he said then couldn't be believed-</l>
                 <l n="5780">Before [anyone] had eaten or drunk.</l>
                 <l n="5781">Ynide and her barons gathered in a chamber;</l>
                 <l n="5782">They held a discussion there that would not please others;</l>
@@ -6911,8 +6911,8 @@
                 <l n="5811">But people who read used to say a verse</l>-->
                 <!--BOLD 'who read' -->
             <!--<l n="5812">(Folio 40 Rb) 'It is shameful for a wise man when [his own] guilt blames
-                    him,</l>
-                <!--BOLD 'It is shameful for a wise man when [his own] guilt' -->
+                    him,</l> -->
+                <!-- BOLD 'It is shameful for a wise man when [his own] guilt' -->
             <!--<l n="5813">Nor should a man be in a hurry to be zealous.'</l>
                 <l n="5814">So think hard [about it], for we are all sinners,</l>
                 <l n="5815">[And] rather, out of reverence for our Redeemer,</l>
@@ -7096,9 +7096,9 @@
                 <!--NOTE Literally: At the ancient Prime [hour] -->
             <!--<l n="5980">When he felt the sweet smooth hand</l>
                 <l n="5981">That first formed him into this life,</l>
-                <l n="5982">When it was said "Here is [My] hand"--for I've indeed heard it,</l>-->
+                <l n="5982">When it was said "Here is [My] hand"-for I've indeed heard it,</l>-->
                 <!--BOLD  it was said "Here is [My] hand"-->
-            <!--<l n="5983">That He formed us most holy and sweet and pious--</l>
+            <!--<l n="5983">That He formed us most holy and sweet and pious-</l>
                 <l n="5984">Nor did the prophets have [greater joy] with their company</l>
                 <l n="5985">When they were led into that holy life,</l>
                 <l n="5986">Than the joy that the archbishop and that group of barons</l>
@@ -7208,7 +7208,7 @@
                 <l n="6083">To go seeking the Devil's kingdom.</l>
                 <l n="6084">Even if I live as long as Jeremiah,</l>
                 <l n="6085">I will never return to my lands</l>
-                <l n="6086">--If that's [even] possible--until I carry out </l>
+                <l n="6086">-If that's [even] possible-until I carry out </l>
                 <l n="6087">My mission in the great place of darkness,</l>
                 <l n="6088">Or I will die, so that no one speaks ill of me.</l>-->
                 <!--NOTE T 5823: <em>anze che</em> nesun de my mal ne diga -->
@@ -9524,7 +9524,7 @@
                 <l n="8309">Without finding any harm from them,</l>
                 <l n="8310">For God, whose wish it was, did not allow it.</l>
                 <l n="8311">(Laisse 321) The baron rode energetically,</l>
-                <l n="8312">--I can't tell you about his travels--</l>
+                <l n="8312">-I can't tell you about his travels-</l>
                 <l n="8313">Until one day he arrived before the foot of a mountain.</l>
                 <l n="8314">Between the river Tigris and the side of the summit,</l>
                 <l n="8315">There was a little sheltered spot in a lovely meadow.</l>
@@ -9541,7 +9541,7 @@
                 <l n="8326">Among themselves they sang and spoke beautifully;</l>
                 <l n="8327">One would start, another would follow.</l>
                 <l n="8328">As he listened to this, a beautiful song rang out,</l>-->
-                <!--NOTE Literally: "Hearing this, a beautiful song came about from the sound" -->
+                <!-- NOTE Literally: "Hearing this, a beautiful song came about from the sound" -->
             <!--<l n="8329">"God, how good it is for brothersto live in unity."</l>-->
                 <!--NOTE Psalm 133:1 "How good and pleasant it is for brothers to dwell together in unity"-->
             <!--<l n="8330">Huon recited this psalm and meant it completely,</l>
@@ -11197,8 +11197,8 @@
                 <l n="9919">See how they set about studying!</l>
                 <l n="9920">More than all the others who are still studying,</l>
                 <l n="9921">He wants to know if they will [ever] leave that place.</l>
-                <l n="9922">They turn over the cards, but they don't find the point [they seek].</l>
-                <!--NOTE They turn over cards to predict their future and don't get the "point" that would give them the answer they want, that they can leave. See TL: col 2106 line 20-21. -->
+                <l n="9922">They turn over the cards, but they don't find the point [they seek].</l> -->
+                <!-- NOTE They turn over cards to predict their future and don't get the "point" that would give them the answer they want, that they can leave. See TL: col 2106 line 20-21. -->
             <!--<l n="9923">They will keep up this practice, dear friend,</l>
                 <l n="9924">Until the day when the angels will come</l>
                 <l n="9925">To sound the trumpets by which the dead will be revived.</l>
@@ -13632,7 +13632,7 @@
                 <l n="12222">Did the writing and all the storytelling as well;</l>
                 <l n="12223">[May he be] one whom God receives when he will come to his end,</l>
                 <l n="12224">In His holy kingdom, where the cherubim sing.</l>
-                <l n="12225">Amen. Amen. Amen.</l>-->
+                <l n="12225">Amen. Amen. Amen.</l> -->
             </lg>
         </body>
     </text>
