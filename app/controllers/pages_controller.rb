@@ -82,6 +82,10 @@ class PagesController < ApplicationController
 
             @date = doc.search('origDate').first.text
 
+            # get laisse number
+
+            @head = doc.search('head').first.text
+
             # get copyright information
 
             @copyright = doc.search('availability').first.text
@@ -136,6 +140,10 @@ class PagesController < ApplicationController
             # get manuscript date
 
             @date = doc.search('origDate').first.text
+
+            # get laisse number
+
+            @head = doc.search('head').first.text
 
             # get copyright information
 
@@ -269,8 +277,8 @@ class PagesController < ApplicationController
 
     def parse_heading(line_group)
         # parses line group
-        heading_number = line_group.search('head').text.gsub(/Laisse /, '').to_i
-        ('<div class="line-heading">Laisse ' + RomanNumerals.to_roman(heading_number) + "</div>").html_safe
+        heading_number = line_group.search('head').text.gsub(/Laisse /, '')
+        ('<div class="line-heading">Laisse ' + (heading_number) + "</div>").html_safe
     end
 
     def parse_tag(tag_child)
