@@ -27,7 +27,7 @@
                     <date when="2017">August 31</date>
                 </edition>
                 <respStmt>
-                    <name resp="translator">Shira Schwam-Baird</name>
+                    <name resp="editor">Shira Schwam-Baird</name>
                     <resp>Translation of Berlin Kupferstichkabinett Hamilton 337 (78 D 8)</resp>
                 </respStmt>
                 <respStmt>
@@ -160,7 +160,7 @@
         <body>
             <lg type="laisse" n="1">
                 <head>Laisse 1</head>
-                <l n="1"><milestone n="1Ra" unit="fol."/>TEST In the springtime<note xml:id="trans1"/>
+                <l n="1"><milestone n="1Ra" unit="fol."/>In the springtime<note xml:id="trans1"/>
                     when all the fields</l>
                 <l n="2">Are green again, as well as the laurel trees and bushes,</l>
                 <l n="3">When all kinds of birds fall in love,</l>
