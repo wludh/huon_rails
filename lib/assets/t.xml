@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-10092017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-10222017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -63,7 +63,14 @@
                     <name type="country">USA</name>
                 </address>
                 <availability status="free">
-                    <p>The text is freely available</p>
+                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities, 
+                        offers freely on a non-commercial basis the text of each edition and the accompanying
+                        English translation . The appropriate editor or translator must be cited when
+                        referencing the texts. The images are not available for
+                        download, and any user wishing to use the manuscript images for personal or
+                        academic use must obtain written permission from the appropriate holding
+                        library and pay all related fees. For more information on reproductions and
+                        image use, visit the website of the respective library.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>

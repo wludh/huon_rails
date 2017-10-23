@@ -4421,7 +4421,8 @@ td {
     border: none; }*/
 
 /* Default paragraph styles */
-p {
+
+/* p {
   font-family: inherit;
   font-weight: normal;
   font-size: 1rem;

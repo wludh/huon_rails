@@ -1023,7 +1023,7 @@ origin {
   /* Empty Rule Set */
 }
 /* p */
-p {
+/* p {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -1037,13 +1037,13 @@ availability > p:first-child {
 }
 pRef {
   /* rend attribute target */
-}
+/* }
 pVar {
   /* rend attribute target */
-}
+/* }
 particDesc {
   /* Empty Rule Set */
-}
+/* }
 pause {
   /* Empty Rule Set*/
 }
@@ -1370,12 +1370,12 @@ settlement {
   /* Empty Set Rule */
 }
 
-signed {
+/* signed {
   display: block;
   margin-top: 2em;
   /*should make name a block when contained within  */
 
-}
+/* }
 soCalled {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
 }
@@ -1393,7 +1393,7 @@ soCalled[prev]:before {
 }
 socecStatus {
   /* Empty Set Rule */
-}
+/* }
 sound {
   font-style: italic;
 }
@@ -1407,7 +1407,7 @@ sourceDesc {
 }
 sp {
   /*empty rule set*/
-}
+/* }
 space:before {
   font-weight: bold;
   content: "";
@@ -1417,7 +1417,7 @@ TEI span {
 
   /* .hide; */
 
-}
+/* }
 TEI egXML span {
   display: inline;
 }
