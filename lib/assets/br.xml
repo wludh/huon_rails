@@ -87,6 +87,9 @@
                         <!-- Research theories on origin -->
                         <origDate cert="medium" evidence="internal">Fourteenth century</origDate>
                         <!-- Is there a way to say how the date is determined? -->
+                        <note>
+                            <p>Barbieri fragment introduction - coming soon.</p>
+                        </note>
                     </head>
                     <msContents>
                         <textLang mainLang="FI">Franco-Italian</textLang>
@@ -97,9 +100,6 @@
                             <incipit>E perçò era Ugo d'Alvernia sevrie</incipit>
                             <explicit>E Dio n...</explicit>
                         </msItem>
-                        <note>
-                            <p>Barbieri fragment introduction - coming soon.</p>
-                        </note>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
