@@ -42,7 +42,7 @@ class PagesController < ApplicationController
     def parse_tei(tei_file, testing=false)
         unless params.key?('edition') or not testing
             # look for the edition param to let us know if we're at the intro or not.
-            # if no page / if at edition, show the introduction.
+            # if no page / if at edition, show the intro.
 
             # import the tei
             doc = import_tei(tei_file)
