@@ -180,9 +180,7 @@ application {
 application:after {
   content: " " attr(version);
 }
-arc {
-  /* Empty Rule Set */
-}
+
 argument {
   display: block;
 }
@@ -192,27 +190,15 @@ att {
 att:before {
   content: "@";
 }
-attDef {
-  /* Empty Rule Set */
-}
-attList {
-  /* Empty Rule Set */
-}
-attRef {
-  /* Empty Rule Set */
-}
-author {
-  /* Empty Rule Set */
-}
+
 titleStmt > author {
   display: block;
   font-family: Arvo, sans-serif;
   font-weight: normal;
   margin-bottom: 1em;
 }
-authority {
-  /* Empty Rule Set */
-}
+
+
 publicationStmt > availability {
   font-size: 80%;
 }
@@ -228,9 +214,7 @@ publicationStmt > availability[status]:before {
 back {
   display: block;
 }
-bibl {
-  /* Empty Rule Set */
-}
+
 bibl[rend~="block"],
 bibl[rendition~="#block"] {
   display: block;
@@ -240,21 +224,7 @@ bibl[rendition~="#block"] {
 biblFull {
   display: block;
 }
-biblScope {
-  /* Empty Rule Set */
-}
-biblStruct {
-  /* Empty Rule Set */
-}
-bicond {
-  /* Empty Rule Set */
-}
-binary {
-  /* Empty Rule Set */
-}
-binaryObject {
-  /* Empty Rule Set */
-}
+
 binding {
   display: block;
 }
@@ -278,28 +248,7 @@ birth {
 birth:before {
   content: "Birth: ";
 }
-bloc {
-  /* Empty Rule Set */
-}
-broadcast {
-  /* Empty Rule Set */
-}
-byline {
-  /* Empty Rule Set */
-}
-/* c */
-c {
-  /* Empty Rule Set */
-}
-cRefPattern {
-  display: none;
-}
-caesura {
-  /* Empty Rule Set */
-}
-camera {
-  /* Empty Rule Set */
-}
+
 caption {
   display: block;
   margin-top: 1em;
@@ -324,15 +273,7 @@ castList {
   margin-bottom: 1em;
   margin-left: 2em;
 }
-catDesc {
-  /* Empty Rule Set */
-}
-catRef {
-  /* Empty Rule Set */
-}
-category {
-  /* Empty Rule Set */
-}
+
 cb {
   display: block;
   margin-top: 1em;
@@ -356,48 +297,8 @@ border-top:2px solid @border-color;
 [role=label] {
   font-weight: bold;
 }
-certainty {
-  /* Empty Rule Set */
-}
-change {
-  /* Empty Rule Set */
-}
-channel {
-  /* Empty Rule Set */
-}
-charDecl {
-  display: none;
-}
-charName {
-  /* Empty Rule Set */
-}
-charProp {
-  /* Empty Rule Set */
-}
-choice {
-  /* Empty Rule Set */
-}
-cit {
-  /* Empty Rule Set */
-}
-cl {
-  /* Empty Rule Set */
-}
-classCode {
-  /* Empty Rule Set */
-}
-classDecl {
-  /* Empty Rule Set */
-}
-classRef {
-  /* Empty Rule Set */
-}
-classSpec {
-  /* Empty Rule Set */
-}
-classes {
-  /* Empty Rule Set */
-}
+
+
 climate {
   display: block;
   margin-top: 1em;
@@ -407,9 +308,7 @@ climate:before {
   font-weight: bold;
   content: "Climate: ";
 }
-closer {
-  /* Empty Rule Set */
-}
+
 code {
   font-family: Courier,monospace;
 }
@@ -423,20 +322,13 @@ collation {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-collection {
-  /* Empty Rule Set */
-}
-colloc {
-  /* Empty Rule Set */
-}
+
 colophon {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-cond {
-  /* Empty Rule Set */
-}
+
 condition {
   display: block;
   margin-top: 1em;
@@ -469,29 +361,7 @@ constitution[type=frags]:before {
   font-weight: bold;
   content: "Constitution (fragments): ";
 }
-constraint {
-  /* Empty Rule Set */
-}
-constraintSpec {
-  /* Empty Rule Set */
-}
-content {
-  /* Empty Rule Set */
-}
-/* jawalsh:
-Need to discuss and coordinate handling of sic/corr, abbr/expan, and orig/reg */
-corr {
-  /* Empty Rule Set */
-}
-correction {
-  /* Empty Rule Set */
-}
-country {
-  /* Empty Rule Set */
-}
-creation {
-  /* Empty Rule Set */
-}
+
 /*jawalsh:
 Need to handle attributes for custEvent. All the att.datable* attributes will be tricky.
 custodialHist and custEvent may normally be hidden along with other header metadata, but
@@ -540,35 +410,7 @@ figure {
   margin-left: auto;
   margin-right: auto;
 }
-/* g */
-g {
-  /* Empty Rule Set */
-}
-gap {
-  /* GLS: Depending upon how we handle gap and lacuna, we may want to enclose in [] */
 
-}
-gb {
-  /* Empty Rule Set */
-}
-gen {
-  /* Empty Rule Set */
-}
-genName {
-  /* Empty Rule Set */
-}
-geo {
-  /* Empty Rule Set */
-}
-geoDecl {
-  /* Empty Rule Set */
-}
-geogFeat {
-  /* Empty Rule Set */
-}
-geogName {
-  /* Empty Rule Set */
-}
 gi {
   font-family: Courier,monospace;
 }
@@ -578,44 +420,12 @@ gi:before {
 gi:after {
   content: ">";
 }
-gloss {
-  /* Empty Rule Set */
-}
-glyph {
-  /* Empty Rule Set */
-}
-glyphName {
-  /* Empty Rule Set */
-}
-gram {
-  /* Empty Rule Set */
-}
-gramGrp {
-  /* Empty Rule Set */
-}
-graph {
-  /* Empty for now */
 
 }
 graphic {
   display: none;
 }
-group {
-  /* Empty Rule Set */
-}
-/* h */
-handDesc {
-  /* Empty Rule Set */
-}
-handNote {
-  /* Empty Rule Set */
-}
-handNotes {
-  /* Empty Rule Set */
-}
-handShift {
-  /* Empty Rule Set */
-}
+
 /* Need head with TEI parent to distinguish from HTML head */
 TEI head {
   display: block;
@@ -668,80 +478,11 @@ figure > head {
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
 }
-headItem {
-  /* Empty Rule Set */
-}
-headLabel {
-  /* Empty Rule Set */
-}
-height {
-  /* Empty Rule Set */
-}
-heraldry {
-  /* Empty Rule Set */
-}
-hi {
-  /* GLS: do we want to bold this or change the background color? */
 
-}
-history {
-  /* Empty Rule Set */
-}
-hom {
-  /* Empty Rule Set */
-}
-hyph {
-  /* Empty Rule Set */
-}
-hyphenation {
-  /* Empty Rule Set */
-}
-/* i */
-iNode {
-  /* Empty Rule Set */
-}
-iType {
-  /* Empty Rule Set */
-}
 ident {
   font-family: Courier,monospace;
 }
-idno {
-  /* Empty Rule Set */
-}
-if {
-  /* Empty Rule Set */
-}
-iff {
-  /* Empty Rule Set */
-}
-imprimatur {
-  /* Empty Rule Set */
-}
-imprint {
-  /* Empty Rule Set */
-}
-incident {
-  /* Empty Rule Set */
-}
-incipit {
-  /* Empty Rule Set */
-}
-index {
-  /* Empty Rule Set */
-}
-institution {
-  /* Empty Rule Set */
-}
-interaction {
-  /* Empty Rule Set */
-}
-interpGrp {
-  /* Empty Rule Set */
-}
-interpretation {
-  /* Empty Rule Set */
-}
+
 item {
   display: list-item;
   margin-left: 1em;
@@ -752,20 +493,7 @@ cell item {
 list[type="gloss"] > item {
   margin-left: 2em;
 }
-/* j */
-join {
-  /* Empty Rule Set */
-}
-joinGrp {
-  /* Empty Rule Set */
-}
-/* k */
-keywords {
-  /* Empty Rule Set */
-}
-kinesic {
-  /* Empty Rule Set */
-}
+
 /* l */
 l {
   display: block;
@@ -778,47 +506,13 @@ list[type="gloss"] > label {
   margin-bottom: 0.25em;
   font-weight: bold;
 }
-lacunaEnd {
-  /* Empty Rule Set */
-}
-lacunaStart {
-  /* Empty Rule Set */
-}
-lang {
-  /* Empty Rule Set */
-}
-langKnowledge {
-  /* Empty Rule Set */
-}
-langKnown {
-  /* Empty Rule Set */
-}
-langUsage {
-  /* Empty Rule Set */
-}
-language {
-  /* Empty Rule Set */
-}
-layout {
-  /* Empty Rule Set */
-}
-layoutDesc {
-  /* Empty Rule Set */
-}
-lb {
-  /* Empty Rule Set */
-}
+
 lb:after {
   content: '\a';
   white-space: pre;
 }
 
-link {
-  /* Empty Rule Set */
-}
-linkGrp {
-  /* Empty Rule Set */
-}
+
 list {
   display: block;
   margin-top: 1em;
@@ -857,105 +551,13 @@ text list[type=gloss] {
 item > list[type=ordered] {
   margin-left: 1em;
 }
-localName {
-  /* Empty Rule Set */
-}
-locale {
-  /* Empty Rule Set */
-}
-location {
-  /* Empty Rule Set */
-}
-locus {
-  /* Empty Rule Set */
-}
-locusGrp {
-  /* Empty Rule Set */
-}
-/* m */
-m {
-  /* Empty Rule Set */
-}
-macroRef {
-  /* Empty Rule Set NOT SURE WHAT EXACTLY*/
-}
-macroSpec {
-  /* dunno */
-}
-mapping {
-  /* not sure, maybe create rends for a few standard types, maybe hide */
-}
-material {
-  /* Empty Rule Set */
-}
-measure {
-  /* Empty Rule Set */
-}
-measureGrp {
-  /* probably want to display attributes, at least units and type */
-}
-meeting {
-  /*Block */
-}
-memberOf {
-  /* Empty Rule Set */
-}
-mentioned {
-  /* think do nothing, not real clear on function, maybe hide? */
-}
-metDecl {
-  /* Empty Rule Set */
-}
-metSym {
-  /* Empty Rule Set */
-}
-/*milestone {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-milestone:before {
-  content: "* * * * *";
-}*/
-moduleRef {
-  /* probably hide, not sure how we want to deal */
-}
-moduleSpec {
-  /* probably hide, not sure how we want to deal */
-}
-monogr {
-  /* block with space above, below */
-}
-mood {
-  /* Empty Rule Set */
-}
-move {
-  /* not sure, block, maybe just ital, maybe in parenths*/
-}
+
 msContents .block-margins {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-msDesc {
-  /* block with space above, below */
-}
-msIdentifier {
-  /* block */
-}
-msItem {
-  /* block */
-}
-msItemStruct {
-  /* block */
-}
-msName {
-  /* Empty Rule Set */
-}
-msPart {
-  /* not sure, think block */
-}
+
 musicNotation {
   font-weight: bold;
 }
@@ -963,25 +565,11 @@ musicNotation:before {
   font-weight: bold;
   content: "Musical Notation: ";
 }
-/* n */
-name {
-  /* Empty Rule Set */
-}
-nameLink {
-  /* Empty Rule Set */
-}
-namespace {
-  /* not sure, hide? */
-}
-nationality {
-  /* Empty Rule Set */
-}
+
 node {
   display: none;
 }
-normalization {
-  /* Empty Rule Set */
-}
+
 #notes note {
   display: block;
   margin: 1.5em auto 1.5em auto;
@@ -1022,31 +610,7 @@ origPlace:before {
 origin {
   /* Empty Rule Set */
 }
-/* p */
-/* p {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  text-align: justify;
-}
-*[rendition~="#center"] p {
-  text-align: center;
-}
-availability > p:first-child {
-  margin-top: 0em;
-}
-pRef {
-  /* rend attribute target */
-/* }
-pVar {
-  /* rend attribute target */
-/* }
-particDesc {
-  /* Empty Rule Set */
-/* }
-pause {
-  /* Empty Rule Set*/
-}
+
 pb {
   display: block;
   width: 100%;

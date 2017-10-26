@@ -228,7 +228,8 @@ hr {
 	border-width: 1px 0 0;
 	clear: both;
 	margin: 1.25rem 0 1.1875rem;
-	height: 0; }
+	height: 0; 
+}
 
 /*.large-offset-2 {
 	margin-left: 10.66667% !important;
@@ -392,7 +393,8 @@ li.dropdown {
 .l {
 	margin-bottom: 0px;
 }
-#disclaimer{
+
+#disclaimer {
 	color:red;
 }
 
@@ -425,9 +427,10 @@ p.tagline {
 	margin-top:-15px;
 }
 
-#manuscript_list_index{
+#manuscript_list_index {
 	text-align: center;
 }
+
 #manuscript_list_editions{
 	padding-left: 10%;
 	padding-right: 10%;
@@ -640,7 +643,7 @@ TEI head{
 	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
 
-teiHeader{
+teiHeader {
 	display: none;
 }
 
