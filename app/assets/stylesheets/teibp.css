@@ -495,11 +495,7 @@ list[type="gloss"] > item {
 }
 
 /* l */
-l {
-  display: block;
-  padding-left: 2em;
-  text-indent: -2em;
-}
+
 list[type="gloss"] > label {
   display: block;
   margin-top: 0.25em;
@@ -957,72 +953,7 @@ stamp:before {
   font-weight: bold;
   content: "Stamped: ";
 }
-state {
-  /* Empty Set Rule */
-}
-stdVals {
-  /* Empty Set Rule */
-}
-street {
-  /* Empty Set Rule */
-}
-stress {
-  /* Empty Set Rule */
-}
-string {
-  /* Empty Set Rule */
-}
-stringVal {
-  /* doesn't seem to be part of tei 5 */
-}
-subc {
-  /* Empty Set Rule */
-}
-subst {
-  /* Empty Set Rule */
-}
-summary {
-  /* Empty Set Rule */
-}
-superEntry {
-  /* Block with space above and below, maybe have no block and space for <entry> when contained by this element */
-}
-supplied {
-  /* not sure on this one, seems like we should indicate somehow. Is there a standard way to do this? */
-}
-support {
-  /* Empty Set Rule */
-}
-supportDesc {
-  /* do nothing with or maybe block */
-}
-surface {
-  /* choice */
-}
-surname {
-  /* Empty Set Rule */
-}
-surplus {
-  display: none;
-}
-surrogates {
-  /*Empty Rule Set */
-}
-syll {
-  /* Empty Set Rule */
-}
-symbol {
-  /* Empty Set Rule */
-}
-/* t */
-/*TEI {
-  display: block;
-}
-table {
-  border-collapse: separate;
-  border-spacing: 2px;
-}*/
-/* Why is this selector "TEI table" instead of just "table"? */
+
 TEI table {
   display: block;
   margin-top: 2em;
@@ -1034,11 +965,6 @@ table > head {
 }
 teiHeader {
   display: block;
-  /*
-border-radius: 15px;
-border: 1px solid black;
-background:white;
-*/
 
   margin-top: 2em;
   margin-bottom: 2em;
@@ -1046,11 +972,7 @@ background:white;
 }
 TEI > text {
   display: block;
-  /*
-border-radius: 15px;
-border: 1px solid black;
-background:white;
-*/
+
 
   line-height: 1.5;
 }
@@ -1060,8 +982,7 @@ textClass {
 textDesc {
   display: none;
 }
-/* title */
-/* Need TEI ancestor to distinguish TEI title from HTML title */
+
 TEI title {
   display: inline;
 }
@@ -1112,18 +1033,7 @@ html > body {
   margin: 0;
   padding: 0;
 }
-html {
-  margin: 0;
-  padding: 0;
-  margin-left: 2em;
-  margin-right: 4em;
-  padding: 2.5em;
-  font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
-  font-size: 14pt;
-  background-color: #ebebeb;
-  color: #292929;
-  width: 33em;
-}
+
 
 footer {
   margin-top: 1em;
@@ -1131,16 +1041,7 @@ footer {
   padding-top: .5em;
   font-size: 12pt;
 }
-/*a:link,
-a:visited,
-a:active {
-  color: #5f0000;
-  text-decoration: none;
-}
-a:hover {
-  color: #5f0000;
-  text-decoration: underline;
-}*/
+
 #teibpToolbox {
   left: 56em;
   top: 25px;
