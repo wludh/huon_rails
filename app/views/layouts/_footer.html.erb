@@ -30,8 +30,12 @@
 
 	<div class="date-stamp">
 
-<script language="javascript"> 
-document.write("<i>Last updated "+document.lastModified+"<I>"); 
+<script type="text/javascript">
+
+var m = "This page was last updated: " + document.lastModified;
+var p = m.length-8;
+document.body.appendChild(document.createElement("center")).innerText = "Last modified: " + document.lastModified
+
 </script>
 
 </div>
