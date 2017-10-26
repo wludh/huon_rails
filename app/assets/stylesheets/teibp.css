@@ -919,91 +919,18 @@ series {
 seriesStmt {
   display: none;
 }
-set {
-  /* Empty Set Rule */
-}
+
 setting {
   display: block;
   margin-top: 0;
   margin-bottom: 0;
 }
-settingDesc {
-  /* Empty Set Rule */
-}
-settlement {
-  /* Empty Set Rule */
-}
 
-/* signed {
-  display: block;
-  margin-top: 2em;
-  /*should make name a block when contained within  */
-
-/* }
-soCalled {
-  quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
-}
-soCalled:before {
-  content: open-quote;
-}
-soCalled:after {
-  content: close-quote;
-}
-soCalled[next]:after {
-  content: "" !important;
-}
-soCalled[prev]:before {
-  content: "" !important;
-}
-socecStatus {
-  /* Empty Set Rule */
-/* }
-sound {
-  font-style: italic;
-}
-source {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-sourceDesc {
-  display: none;
-}
-sp {
-  /*empty rule set*/
-/* }
-space:before {
-  font-weight: bold;
-  content: "";
-}
-TEI span {
-  /* jawalsh: why were we hiding this? */
-
-  /* .hide; */
-
-/* }
-TEI egXML span {
-  display: inline;
-}
-spanGrp {
-  /* NOT SURE, look back on */
-}
 speaker {
   font-weight: bold;
   margin-right: 0;
 }
-specDesc {
-  /* NOT SURE, look back on */
-}
-specGrp {
-  /* NOT SURE, look back on */
-}
-specGrpRef {
-  /* NOT SURE, look back on */
-}
-specList {
-  /* Empty Set Rule */
-}
+
 sponsor {
   display: block;
   margin-top: 0;
