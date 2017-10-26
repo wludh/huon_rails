@@ -572,6 +572,11 @@ td {
 
 /* Temporary Bibliography Page */
 
+a.biblio {
+	color: #a10d09;
+	float: initial;
+}
+
 h1.biblio {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #5f0000;
@@ -714,7 +719,7 @@ ul li ul li {
 font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif;
 }
 
-	/*Versioning Machine*/
+/*Versioning Machine*/
 
 #line_toggle, label {
 	float:left;
