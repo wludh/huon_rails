@@ -463,36 +463,48 @@ p.tagline {
 
 img#logo_wludh {
 	float: left;
-	width: 100%;
+	width: 25%;
 	display: block;
 	margin-top: 0em;
 	margin-bottom: 3.5em;
+	margin-left: 4em;
 }
 
 img#logo_neh {
 	float: left;
-	width: 105%;
+	width: 25%;
 	display: block;
 	margin-top: 0em;
+	margin-left: 4em;
 }
 
 img#logo_loyola {
 	float:  left;
-	width: 100%;
+	width: 25%;
 	margin-top: 0em;
+	margin-left: 4em;
 }
 
 img#logo_unf {
 	float: left;
-	width: 100%;
+	width: 25%;
 	margin-top: 0em;
 	padding-bottom: 0em;
+	margin-left: 4em;
 }
 
 img#logo_marucelliana {
 	float: left;
-	width: 70%;
+	width: 20%;
 	margin-top: 0em;
+	margin-left: 6em;
+}
+
+img#logo_archiginnasio {
+	float: left;
+	width: 20%;
+	margin-top: 0em;
+	margin-left: 7em;
 }
 
 .footer a {
