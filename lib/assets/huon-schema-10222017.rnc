@@ -4831,7 +4831,7 @@ tei_rdgGrp =
   ## (reading group) within a textual variation, groups two or more readings perceived to have a genetic relationship or other affinity. [12.1. The Apparatus Entry, Readings, and Witnesses]
   element rdgGrp {
     (((tei_rdgGrp, tei_wit?)
-      | (tei_wit??, (tei_model.rdgLike, tei_wit?))*
+      | (tei_wit?, (tei_model.rdgLike, tei_wit?))*
       | tei_model.noteLike*)+)
     >> sch:pattern [
          id = "huon-schema-07032017-rdgGrp-only1lem-constraint-assert-9"

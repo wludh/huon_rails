@@ -51,7 +51,7 @@
                     <name type="country">USA</name>
                 </address>
                 <availability status="free">
-                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities, 
+                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities,
                         offers freely on a non-commercial basis the text of each edition and the accompanying
                         English translation . The appropriate editor or translator must be cited when
                         referencing the texts. The images are not available for
@@ -1725,6 +1725,7 @@
                 <l n="1324">Then, above all, he placed confidence in me, therefore</l>
                 <l n="1325">I am truly obliged to make an effort to accomplish his purpose,</l>
                 <l n="1326">And I insist on doing it, without any proof to the contrary.</l>
+                <!--NOTE Literally: ... without bad circumstances -->
                 <l n="1327">I will never be against King Charles;</l>
                 <l n="1328">Either I will carry out his wishes, or indeed I will die;</l>
                 <l n="1329">I cannot follow any other path at this time.</l>
@@ -1750,6 +1751,7 @@
                 <l n="1344">And I, for my part, wish to promise this:</l>
                 <l n="1345">For seven years you will be able to count on</l>
                 <l n="1346">This advantage that I will explain:</l>
+                <!--NOTE The pope seems to be saying that Huon can leave his spiritual good in his care as he will be praying for him for seven years. -->
                 <l n="1347">I grant you a gift (may God consent to it),</l>
                 <l n="1348">And may you be able to return one day</l>
                 <l n="1349">In fact to your lord just as you desire,</l>
@@ -1787,6 +1789,7 @@
                     dallied;</l>
                 <l n="1377">He traveled for a long time through hills and mountains,</l>
                 <l n="1378">Until he arrived in Sicily, but did not stay long,</l>
+                <!--NOTE Could this possibly be a reference to or confusion with Cilicia, a pagan land? See Moisan, <em>Répertoire des noms propres</em>, Tome II Volume 3 (Droz: 1986), p. 872. On the other hand, Huon's next stop is Calabria, so Sicily is more likely the translation. -->
                 <l n="1379">Concerning his quest, he could find no one</l>
                 <l n="1380">Who would tell him the truth; on the contrary, they took him for a
                     madman!</l>
@@ -1803,6 +1806,8 @@
                 <l n="1388">He beat his breast because of the many sins that lay upon him;</l>
                 <l n="1389">He never ceased reciting every prayer he knew.</l>
                 <l n="1390">He began the Magnificat animam domine,</l>
+                <!--BOLD Magnificat animam domine -->
+                <!--NOTE My soul magnifies the Lord. -->
                 <l n="1391">And he chanted and recited it to the very end;</l>
                 <l n="1392">Not even in the face of distress or danger did he ever stop,</l>
                 <l n="1393">So that he chanted it well, since had so much time to do so.</l>
@@ -1840,6 +1845,7 @@
                 <l n="1419">That was about to leave to rob and pillage</l>
                 <l n="1420">As was their custom(there were many of them pledged together</l>
                 <l n="1421">Who lived on nothing other than evil deeds.</l>
+                <!--NOTE That is, piracy against those they happen upon. -->
                 <l n="1422">When they saw the count coming up the road,</l>
                 <l n="1423">The group's master remarked to them:</l>
                 <l n="1424">"We will have gained some excellent merchandise</l>
@@ -1890,6 +1896,7 @@
                 <l n="1465">We don't trust you or your supposed goodness;</l>
                 <l n="1466">When we want our pay upon arrival at the port,</l>
                 <l n="1467">You will not run away there for that reason.</l>
+                <!--NOTE That is, because of his supposed madness. -->
                 <l n="1468">Give us all your wealth(we'll put you in our brig,</l>
                 <l n="1469">And it will truly go well with you if you ever escape alive."</l>
             </lg>
@@ -2031,6 +2038,7 @@
                 <l n="1584">This we now understand well; and, yes, without indeed any deceit,</l>
                 <l n="1585">May God, the son of holy Mary, permit us</l>
                 <l n="1586">Not to lose our souls by this false path."</l>
+                <!--NOTE Play on words, "via/vita" in Italian, or "vie/voie" in French. -->
                 <l n="1587">Then the count said, "We are indeed at peace."</l>
             </lg>
             <lg type="laisse" n="59">
@@ -2063,6 +2071,7 @@
                 <l n="1609">With a truly grateful heart he thanked God yet again,</l>
                 <l n="1610">And was doing it as always with weeping and tears.</l>
                 <l n="1611">Then he made the sign of the cross in the name of God the Creator.</l>
+                <!--NOTE <em>Seigner son vis</em> will always be translated as "to make the sign of the cross" or "to cross himself." -->
                 <l n="1612">He entered Athens feeling both buoyant and joyful,</l>
                 <l n="1613">Bringing Samson with him and many others from the crew.</l>
                 <l n="1614">The others he left to watch the horses</l>
@@ -2175,6 +2184,7 @@
                 <l n="1701">How four Christian kings have been besieging Jerusalem</l>
                 <l n="1702">For a year and a half already, for people knew for certain</l>
                 <l n="1703">That they would not surrender for anything,</l>
+                <!--NOTE Literally: That they wouldn't surrender for the worth of a spur -->
                 <l n="1704">For otherwise their people would be destroyed by Slavs.</l>
             </lg>
             <lg type="laisse" n="63">
@@ -2256,6 +2266,7 @@
                 <l n="1771">Huon was reassured by this first assault;</l>
                 <l n="1772">Moderation is good and so is fear many times;</l>
                 <l n="1773">These cowards were worth more than fifty-three of the others.</l>
+                <!--NOTE The narrator is impressed with how well the men following Huon's example fight despite their fear. -->
             </lg>
             <lg type="laisse" n="66">
                 <head>Laisse 66</head>
@@ -2406,8 +2417,9 @@
                 <l n="1895">When Huon saw the barons before him</l>
                 <l n="1896">All offering themselves to him without restraint</l>
                 <l n="1897">To serve him well with good intention,</l>
-                <l n="1898">The nobleman wept much from the eyes in his face,</l>
-                <l n="1899">Knelt humbly, looked down at the ground,</l>
+                <l n="1898">Tears streamed down the nobleman's face,</l>
+                <!--NOTE Literally: The nobleman wept much from the eyes in his face -->
+                <l n="1899">He knelt humbly, looked down at the ground,</l>
                 <l n="1900">And wanted to kiss the feet of each and every one of them.</l>
                 <l n="1901">They would not allow this, and raised him up again:</l>
                 <l n="1902">"You must not do this, for God's sake, most noble man!</l>
@@ -2457,7 +2469,7 @@
                 <l n="1940">I am not so important nor should I be;</l>
                 <l n="1941">I am a servant; you are lords and kings.</l>
                 <l n="1942">For this reason it is fitting that I lodge somewhere</l>
-                <l n="1943">That is inferior. As for this task, I believe</l>
+                <l n="1943">That is inferior.<!--NOTE The original text has a double negative. --> As for this task, I believe</l>
                 <l n="1944">I won't tell you more at this point;</l>
                 <l n="1945">On the contrary, I urge you(if you see any other task,</l>
                 <l n="1946">If you have something to be done that is troubling you,</l>
@@ -2465,6 +2477,7 @@
                 <l n="1948">I'll advise you and tell you in good faith.</l>
                 <l n="1949">If not, I want to leave right away;</l>
                 <l n="1950">I have too much to do, God surely knows the worst.</l>
+                <!--NOTE Translation is based on understanding <em>sorpoy</em> as "sordoy." The latter appears in <em>Guerra d'Attila</em> (II, 1272), another Franco-Italian text. -->
                 <l n="1951">I have been on a quest now for several months;</l>
                 <l n="1952">Nor will I accomplish my task before at least three years have
                     passed</l>
@@ -2508,7 +2521,8 @@
                 <l n="1986">While those who were to mount guard did so.</l>
                 <l n="1987">The four kings explained the situation clearly,</l>
                 <l n="1988">About those of Jerusalem who didn't fear an attack:</l>
-                <l n="1989">They would not give themselves up if famine did not reach them.</l>
+                <l n="1989">They would not give themselves up if they are not starved out.</l>
+                <!--NOTE Literally: [...] if famine did not reach them -->
                 <l n="1990">Whoever had advice to give, now let him present it.</l>
             </lg>
             <lg type="laisse" n="74">
@@ -7780,51 +7794,54 @@
                 <l n="6565">The noble lady to whom we are devoted</l>
                 <l n="6566">Is very knowledgeable in magic.</l>
                 <l n="6567">If you can get close to her,</l>
-                <!--NOTE Literally: If you can consider her a neighbor. See T 6256: Se tu te say acostare a ley vesin -->
+                <!--NOTE Literally: If you can consider her a neighbor. Cf. T 6256: Se tu te say acostare a ley vesin -->
                 <l n="6568">You will have land and control of land.</l>
                 <l n="6569">And then you will know everything you have to do,</l>
                 <l n="6570">How you might enter [the land of] the fallen angels."</l>
-            <!--<l n="6571">(Laisse 256) "May it not please God," answered Count Huon,</l>
+                <l n="6571">(Laisse 256) "May it not please God," answered Count Huon,</l>
                 <l n="6572">"That trickery ever be stirred up through blunder,</l>
                 <l n="6573">Nor [that it be stirred up] against my wife concerning whom I have so
                     much reason</l>
                 <l n="6574">To love her without any betrayal.</l>
                 <l n="6575">She will never have any occasion owing to my misdeeds</l>
                 <l n="6576">To act any way but well toward me,</l>
-                <l n="6577">For I have no wish to have discourse with the Devil.</l>
+                <l n="6577">For I have no wish to make words of the Devil.</l>
                 <l n="6578">But I will certainly come to your dwelling,</l>
                 <l n="6579">In order to see your lady [and] speak to your barons;</l>
                 <l n="6580">None of her magic or any lesson</l>
+                <!--NOTE Cf. T 6269 which has <em>carne</em> (flesh).  Could this be a play on words between "charme" and "carne"? -->
                 <l n="6581">Can make me change my intention.</l>
                 <l n="6582">This thing that I'm asking about,</l>
                 <l n="6583">I know [it's] impossible, and I know it well,</l>
-                <l n="6584">Indeed it doesn't please the Lord of Heaven.</l>
+                <l n="6584">If it doesn't please the Lord of Heaven.</l>
                 <l n="6585">Scripture speaks of it, we know that well.</l>
-                <l n="6586">(Folio 46 Va) It can truly reveal to me when I am not in darkness,</l>
+                <l n="6586">(Folio 46 Va) They can truly reveal to me shadows that don't exist,</l>
+                <!--NOTE There seems to be a problem here in the manuscript. Cf. T 6275: ben me posite mostrare ombre chy no[n] <em>sono</em>-->
                 <l n="6587">However I clearly must be there in person</l>
-                <l n="6588">And relate my mission to [the Devil] for Charles.</l>
+                <l n="6588">And relate my message to [the Devil] for Charles.</l>
                 <l n="6589">I know well this cannot be; you speak in vain.</l>
                 <l n="6590">But I am quite troubled about something:</l>
                 <l n="6591">I fear that in these parts where I now am,</l>
                 <l n="6592">There are no living creatures other than spirits.</l>
                 <l n="6593">In parting from me, Tadeus in Libya</l>
-                <l n="6594">Swore to me, having heard [it from] many worthy men,</l>
+                <l n="6594">Swore to me in the presence of many worthy men,</l>
                 <l n="6595">That in this region here where I have come,</l>
-                <l n="6596">I would find no one from a true nation.</l>
+                <l n="6596">I would find no one of normal birth.</l>
                 <l n="6597">Almost two months while I have been wandering in misery,</l>
                 <l n="6598">I have found nothing except for evil beasts</l>
                 <l n="6599">And vermin, of which there has been an abundance.</l>
                 <l n="6600">I have suffered greatly much hardship;</l>
-                <l n="6601">How can this be, how can you live</l>
-                <l n="6602">In a savage place where no one can find there anything good?"</l>
+                <l n="6601">How can this be, that you live</l>
+                <l n="6602">In a savage place from which no one takes anything good?"</l>
                 <l n="6603">They said, "Vassal, we have told you</l>
-                <l n="6604">What people we are and what our way of life is.</l>
+                <l n="6604">What people we are and what [kind of] life we lead.</l>
                 <l n="6605">We have both body and soul together,</l>
-                <l n="6606">And if you have no doubt about that,</l>
-                <l n="6607">Touch us on the sides and chin;</l>
+                <l n="6606">And if you have any doubt about that,</l>
+                <l n="6607">Touch us on the hips and chin;</l>
                 <l n="6608">Then you'll feel whether we are flesh or not."</l>
-                <l n="6609">The count swore in the name of Saint Peter of Pré Neiron:</l>
-                <l n="6610">"I'll come with you, be it well or ill."</l>
+                <l n="6609">The count swore in the name of Saint Peter of Rome:</l>
+                <!--NOTE Literally: [...] Nero's Field -->
+                <l n="6610">"I'll come to you, be it well or ill."</l>
                 <l n="6611">(Laisse 257) The noble count, without bad intent,</l>
                 <l n="6612">Came to a tree, cut off a branch of it.</l>
                 <l n="6613">He shaped it into a stake with his sharp sword;</l>
@@ -8810,7 +8827,7 @@
                 <l n="7565">I would do it willingly, according to my knowledge.</l>
                 <l n="7566">I am of little value, as you can clearly see;</l>
                 <l n="7567">I can no longer remain; I commend you to God."</l>
-                <l n="7568">At these words, the count was in deep thought;</l>
+                <l n="7568">After he spoke, the count was in deep thought;</l>
                 <l n="7569">He lowered his head, fell prostrate to the ground.</l>
                 <l n="7570">When he raised his head, he saw nothing.</l>
                 <l n="7571">"Holy Mary, what has happened to the young man?</l>
@@ -9348,7 +9365,7 @@
                 <l n="8076">In two and a half days you couldn't climb up there</l>
                 <l n="8077">Without risk that now appears quite horrible.</l>
                 <l n="8078">Since these birds are here to lead you,</l>
-                <l n="8079">Have them carry you now up over there,</l>-->
+                <l n="8079">Have them carry you now up over there,</l>
                 <!-- NOTE Literally: "Have yourself carried at present [by them] above forward" -->
             <!--<l n="8080">And we'll follow behind you at a slower step;</l>
                 <l n="8081">Thus they will be able to spare you much dangerous country."</l>
@@ -11755,7 +11772,7 @@
                 <l n="10370">When there the true Master will have to deliver</l>
                 <l n="10371">Judgement—He who suffered anguish</l>
                 <l n="10372">In order to save everyone from the everlasting shadow.</l>
-                <l n="10373">He who receives a favorable [judgement] will have a happy final hour;</l>
+                <l n="10373">He who receives a favorable [judgement] will have a good destiny;</l>
                 <l n="10374">He who doesn't prepare for it, I believe, it will go very badly for him.</l>
                 <l n="10375">His singing means the same as</l>
                 <l n="10376">That of the oriole that laments its little chicks.</l>
@@ -13712,6 +13729,7 @@
                 <l n="12224">In His holy kingdom, where the cherubim sing.</l>
                 <l n="12225">Amen. Amen. Amen.</l> -->
             </lg>
-        </body>
+        </body>          
     </text>
 </TEI>
+
