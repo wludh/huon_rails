@@ -831,7 +831,7 @@ body {
   font-size: 100%; }
 
 
-/* moved to app.css:48 
+/* moved to app.css:48
 
 body {
   background: #fff;
@@ -3677,7 +3677,7 @@ meta.foundation-mq-topbar {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
-    
+
 /* Orbit Graceful Loading */
 .slideshow-wrapper {
   position: relative; }
@@ -7204,6 +7204,7 @@ p.tagline {
   padding-top: 25px;
 }
 
+/*
 .footer{
   text-align: center;
   font-weight:normal;
@@ -7216,6 +7217,7 @@ p.tagline {
   border-top: none;
   width: 100%;
 }
+*/
 
 /*.footer img{
   max-height: 50px;

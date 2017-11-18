@@ -462,48 +462,65 @@ p.tagline {
 
 /* Footer Main Page */
 
-img#logo_wludh {
-	float: left;
-	width: 25%;
-	display: block;
-	margin-top: 0em;
-	margin-bottom: 3.5em;
-	margin-left: 4em;
-}
-
-img#logo_neh {
-	float: left;
-	width: 25%;
-	display: block;
-	margin-top: 0em;
-	margin-left: 4em;
-}
+/* Row 1 */
 
 img#logo_loyola {
 	float:  left;
-	width: 25%;
+	width: 20%;
 	margin-top: 0em;
-	margin-left: 4em;
+	margin-left: 2em;
+	margin-top: 2.5em;
 }
 
 img#logo_unf {
 	float: left;
-	width: 25%;
+	width: 20%;
 	margin-top: 0em;
 	padding-bottom: 0em;
-	margin-left: 4em;
+	margin-left: 2em;
 }
 
-img#logo_marucelliana {
+img#logo_wludh {
 	float: left;
-	width: 15%;
+	width: 20%;
+	display: block;
 	margin-top: 0em;
-	margin-left: 6em;
+	margin-bottom: 3.5em;
+	margin-left: 2em;
+	margin-top: 2.5em;
 }
+
+img#logo_neh {
+	float: left;
+	width: 20%;
+	display: block;
+	margin-top: 0em;
+	margin-left: 2em;
+	margin-top: 2.5em;
+}
+
+/* Row 2 */
 
 img#logo_archiginnasio {
 	float: left;
+	width: 11%;
+	margin-top: 0em;
+	margin-left: 7em;
+}
+
+
+img#logo_marucelliana {
+	float: left;
+	width: 12%;
+	margin-top: 0em;
+	margin-left: 11em;
+}
+
+
+img#logo_tei {
+	float: left;
 	width: 15%;
+	display: block;
 	margin-top: 0em;
 	margin-left: 7em;
 }
