@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-10092017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-10222017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -1628,7 +1628,7 @@
                         desti<seg>na</seg>:</l>
                 <l n="919"><anchor resp="Rajna" n="910"/>che la zente de la tera et àno vedut<seg>o un zopo</seg></l>
                 <l n="920">che y<ex rend="italic">n</ex> pelegrỳ per lo chamỳ venea,</l>
-                <l n="921">che a suo sembiante molto stanco e<seg>l parea.</seg></l> -->
+                <l n="921">che a suo sembiante molto stanco e<seg>l parea.</seg></l>
                 <!-- #lzm check l on el-->
                 <l n="922">Quando lo <ex rend="italic">con</ex>te lo vite, un suo donzelo
                         <seg>chiamò</seg>:</l>
@@ -1640,7 +1640,7 @@
             </lg>
             <lg type="laisse" n="37">
                 <head>Laisse 37</head>
-                <l n="927">Quel se partỳ quando'l avè oldù su<seg>o signore</seg>, </l> -->
+                <l n="927">Quel se partỳ quando'l avè oldù su<seg>o signore</seg>, </l>
                 <!-- #lzm check on suo-->
                 <l n="928">a chaval montò senza far gra<ex rend="italic">n</ex>
                     de<seg>mora</seg>.</l>
@@ -1648,7 +1648,7 @@
                 <l n="930">che al pelegrỳ arivò a l'ombria d'un a<seg>rboro</seg>.</l>
                 <l n="931">Quelo no∙l salutò né ponto né miga, né l<seg>uy ancora</seg>,</l>
                 <l n="932">e quelo li dize: "Fiolo de putana, tristo <seg>poltrone</seg>,</l>
-                <l n="933">quando per vuy siè torbeda un<seg>a corte</seg>!</l> -->
+                <l n="933">quando per vuy siè torbeda un<seg>a corte</seg>!</l>
                 <!-- #lzm check a on una-->
                 <l n="934"><anchor resp="Rajna" n="925"/>Zà tute averesemo disnà e serese<seg>mo a balare</seg></l>
                 <l n="935">e de altre solaze fareve li mazo<seg>re</seg>,</l>
@@ -1758,7 +1758,7 @@
                 <l n="1003">Posa la vianda segna e dize alegra<seg>mente</seg>:</l>
                 <l n="1004"><anchor resp="Rajna" n="995"/>"Manzate ora, signore, al nome di Di<seg>o honypotente</seg>,</l>
                 <!-- #lzm check o on Dio-->
-                <l n="1005">che apreso disnare parlaremo pi<seg>ù avante</seg>."</l> -->
+                <l n="1005">che apreso disnare parlaremo pi<seg>ù avante</seg>."</l>
                 <!-- #lzm check on più-->
                 <l n="1006">A questo moto se vano tuti asegu<seg>rando</seg>,</l>
                 <l n="1007">zaschun manzò posa del tuto a su<seg>o talento</seg>.</l>
@@ -1850,7 +1850,7 @@
                 <l n="1059"><anchor resp="Rajna" n="1050"/><seg>Sire, no∙l poso sofrire né tenire ascosso</seg>,</l>
                 <l n="1060"><seg>che de duy partỳ</seg> vuy pren<seg>dite lo più miore</seg>:</l>
                 <l n="1061"><seg>voy comenz</seg>ate guera al re Ca<seg>rlone</seg>,</l>
-                <l n="1062"><seg>a my</seg> taiate la testa com el vostro <seg><ex rend="angle">e</ex>b</ex>rand dal
+                <l n="1062"><seg>a my</seg> taiate la testa com el vostro <seg><ex rend="angle">b</ex>rand dal
                         galone</seg>; </l>
                 <l n="1063">e posa serite vuy fora de questo ch<seg>amin felone</seg>.</l>
                 <l n="1064"><anchor resp="Rajna" n="1055"/>Signore, sapere dovite, lo zorno che n<seg>uy festa
@@ -1869,10 +1869,10 @@
                 <l n="1073">Cosỳ tosto com serite de vostre tere y<ex rend="italic"
                         >n</ex><seg>sito</seg>,</l>
                 <l n="1074"><anchor resp="Rajna" n="1065"/> elo a nuy ne ponerà l'asedio per pian <seg>e p<ex rend="italic"
-                            >er</ex> monte</seg>."</l> -->
+                            >er</ex> monte</seg>."</l>
                 <!-- #lzm check e after pian-->
                 <l n="1075">La duchesa li <ex rend="italic">con</ex>tò l'afare tuto a ponto <seg>a
-                    ponto</seg></l> -->
+                    ponto</seg></l>
                 <!-- #lzm check a after ponto-->
                 <l n="1076">quando li dise lo re, et Ugo romane <seg>y<ex rend="italic">n</ex>
                         pensere</seg>.</l>
@@ -1893,12 +1893,13 @@
                 <!-- #lzm check e on dioe-->
                 <l n="1083">sapite e oldite molliere quele ch'e<seg>l mary(to) amano</seg>." <note xml:id="t1083"/> </l>
                 <!-- #lzm check l on ch'el-->
-                <l n="1084"><anchor resp="Rajna" n="1075"/>Una yra li sorprende, lasa lo pi<seg>è andare</seg>, <note xml:id="1084"/></l>
+                <l n="1084"><anchor resp="Rajna" n="1075"/>Una yra li sorprende, lasa lo pi<seg>è andare</seg>, <note xml:id="t1084"/></l>
                 <l n="1085">sì che luy la fa avale <ex rend="italic">con</ex>tra tera
                         <seg>trabucare</seg>,</l>
                 <l n="1086"><milestone n="19R" unit="fol."/>
-                    <seg>ch'<ex rend="italic"><ex rend="angle">è</ex></ex> p<ex rend="italic">er</ex> (p)ocho (che) non li
-                        feze al ventre alora crepare</seg>. <note xml:id="t1088"/></l>
+                    <seg>ch'<ex rend="italic">è</ex> p<ex rend="italic">er</ex> (p)ocho (che) non li
+                        feze al ventre alora crepare</seg>. <note xml:id="t1086"/></l>
+                <!-- angle brackets around è -->
                 <l n="1087"><seg>May quando el la vite a tera spasemà e chazù estare</seg></l>
                 <l n="1088"><seg>gran piatà li prese, si la va susa a levare</seg> <note xml:id="t1088"/></l>
                 <l n="1089"><anchor resp="Rajna" n="1085"/><seg>e pianzando li dize: "Non ve dotate, molliere</seg>,</l>
@@ -2024,7 +2025,7 @@
                 <l n="1162"><milestone n="20V" unit="fol."/>
                     <seg>de cominzare un salmo che y<ex rend="italic">n</ex> lo saltero
                     trovò</seg>, <note xml:id="t1162"/></l>
-                <l n="1163"><seg><q xml:lang="la">dirige gressus meos</la> fina alla fenita</seg>.</l>
+                <l n="1163"><seg><q xml:lang="la">dirige gressus meos</q> fina alla fenita</seg>.</l>
                 <l n="1164"><anchor resp="Rajna" n="1160"/><seg>E'l'à tuto dita per bona y<ex rend="italic"
                         >n</ex>tinsione</seg>;</l>
                 <l n="1165"><seg>sovente prega Dio che altruy e luy per(d)one</seg>,</l>
@@ -2059,7 +2060,7 @@
                 <l n="1185">Ugo<ex rend="italic">n</ex> l'en rengrazia, chi à el cha<seg>po
                         nudo</seg><note xml:id="b..."/></l>
                 <l n="1186">Ap<ex rend="italic">r</ex>esso li dize, "Perché site
-                    venut<seg>o</seg>?"</l> -->
+                    venut<seg>o</seg>?"</l>
                 <!-- #lzm check o on venuto-->
                 <l n="1187">Lo re l'entende, no<ex rend="italic">n</ex> lì à ponto b<seg>on
                         coro</seg>;</l>
@@ -2153,7 +2154,7 @@
                         sa<seg>creto</seg>,</l>
                 <l n="1239">"Ora m'ascoltate, dolze mio ca<seg>ro fio</seg>:</l>
                 <l n="1240"><anchor resp="Rajna" n="1235"/>posa ch'el my signore e∙l vostro <seg>ansỳ</seg></l>
-                <l n="1241">se nè andà, yo no<ex rend="italic">n</ex> voio romane<seg>r quỳ</seg>. </l> -->
+                <l n="1241">se nè andà, yo no<ex rend="italic">n</ex> voio romane<seg>r quỳ</seg>. </l>
                 <!-- #lzm check r on romaner-->
                 <l n="1242">Andiamo nuy doman y<ex rend="italic">n</ex>nanzo <seg>zorno si
                         schiarita</seg> <note xml:id="t1242"/>
@@ -2162,7 +2163,7 @@
                 <l n="1244">Sapiate per vero, zamay no<ex rend="italic">n</ex> me p<seg>artirò da
                         luy</seg>,</l>
                 <l n="1245"><anchor resp="Rajna" n="1240"/>se drito la morte no<ex rend="italic">n</ex> m'à
-                        despar<seg>tit<ex rend="angle">e</ex>o</ex></seg>, <note xml:id="t1245"/> </l>
+                        despar<seg>tit<ex rend="angle">o</ex></seg>, <note xml:id="t1245"/> </l>
                 <l n="1246">drito a l'enferno entraremo apr<seg>eso luy</seg>.</l>
                 <l n="1247">Volite lỳ venire, filio?" E quelo res<seg>ponde, "Sỳ."</seg></l>
                 <l n="1248">E posa no<ex rend="italic">n</ex> meteno termene nie<seg>nte</seg>,</l>
@@ -2210,7 +2211,7 @@
                 <l n="1273"><seg>Mé avante ch'el vada fora de la zità</seg>,</l>
                 <l n="1274"><seg>tanto</seg> avè cerchà che l'A<seg>postolo trova</seg>,<note xml:id="t1274"/></l>
                 <l n="1275"><seg>e</seg> posa con gra<ex rend="italic">n</ex> reverenzia <seg>se
-                        mete avante soy pede</seg>.</l> -->
+                        mete avante soy pede</seg>.</l>
                 <!-- #lzm check e at beginning-->
                 <l n="1276">Avante a l'Apostolo el se <ex rend="italic">con</ex>fesa; <note xml:id="t1276"/></l>
                 <l n="1277"><anchor resp="Rajna" n="1270"/>molto lo baro<ex rend="italic">n</ex> li dize tute soy
@@ -2270,7 +2271,7 @@
                 <l n="1306">ch'el è <ex rend="italic">con</ex>tra la fede: de zò ben lo
                         ve<seg>demo</seg>."</l>
                 <l n="1307"><anchor resp="Rajna" n="1300"/>"Ai, meo signore," responde el conte U<seg>gone</seg>,</l>
-                <l n="1308">"per Dio ve prego, che dezo non <ex rend="angle">e</ex>faç</ex>a homo.<note xml:id="t1308"/></l>
+                <l n="1308">"per Dio ve prego, che dezo non <ex rend="angle">faç</ex>a homo.<note xml:id="t1308"/></l>
                 <l n="1309">Tuto zò ch'el fa, lo dovemo tenire a <seg>bone</seg>,</l>
                 <l n="1310">possa che sopra tuty i<ex rend="italic">n</ex> my se fida, p<seg>iù che
                             i<ex rend="italic">n</ex> altro omo</seg>.<note xml:id="t1310"/></l>

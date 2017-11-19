@@ -323,10 +323,10 @@ ul.nav {
     overflow: hidden;
     background-color: #000000;
     border-bottom: #5f0000;
-	border-style: solid;
-	border-bottom-width: .5em;
-	width: 100%;
-	display: inline-block;
+		border-style: solid;
+		border-bottom-width: .5em;
+		width: 100%;
+		display: inline-block;
     text-align: center;
     text-decoration: none;
 }
@@ -352,7 +352,7 @@ li a.nav, .dropbtn {
 }
 
 li a.nav:hover, .dropdown:hover .dropbtn {
-    background-color: #5f0000;
+    background-color: #lightgray;
 }
 
 li.title {
@@ -381,7 +381,9 @@ li.dropdown {
     text-align: left;
 }
 
+/*
 .dropdown-content a:hover {background-color: #f1f1f1}
+*/
 
 .dropdown:hover .dropdown-content {
     display: block;

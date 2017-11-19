@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-10092017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-10222017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -33,6 +33,8 @@
             <edition n="1.0.0">
                <title>Version 0.1, enriched with text structure tags</title>
                <date when="2015">June 2015</date>
+               <title>Version 1.0, enriched with TEI markup, full transcription of MS</title>
+              <date when="2017">August 2017</date>
             </edition>
             <respStmt>
                <name>Stephen P. McCormick</name>
@@ -73,8 +75,8 @@
                <msIdentifier>
                   <country>Germany</country>
                   <settlement>Berlin</settlement>
-                  <repository>Kupferstichkabinett 78 D 8 (olim Hamilton 337)</repository>
-                  <idno>B. 3489</idno>
+                  <repository>Kupferstichkabinett</repository>
+                  <idno>78 D 8 (olim Hamilton 337)</idno>
                </msIdentifier>
                <head type="msHeading">
                   <title xml:lang="fi">Huon d'Auvergne</title>
@@ -347,7 +349,7 @@
             <l n="134">Par le repois qe nos avons eü  </l>
             <l n="135">M'estoit avis qui l'usage ert p<ex rend="italic">er</ex>du.  </l>
             <l n="136">Por (ce) voil ge qui un torner ma<ex rend="italic">n</ex>tenu <note xml:id="b136"/></l>
-            <l n="137">Seit quatre jors por avoir aprendu <note xml:id="b136"/>  </l>
+            <l n="137">Seit quatre jors por avoir aprendu <note xml:id="b137"/>  </l>
             <l n="138">Cil qi en bataille n'avent long ta<ex rend="italic">m</ex>ps feru  </l>
             <l n="139">Si li ferai armer sor le crenu.  </l>
             <l n="140">En ma <ex rend="italic">com</ex>pagne, dans Hue li me<ex rend="italic"
@@ -2079,9 +2081,9 @@
             <l n="1387">Reclame soi a Deu, pecheor soi clama;     </l>
             <l n="1388">Bati soe boce, da quant pechieç q'il a,  </l>
             <l n="1389">Non cesse de dir maint oraison q'il sa.  </l>
-           <l n="1390"><q rend="bold" xml:lang="la">Magnificat a<ex rend="italic">n</ex>i<ex rend="italic">m</ex>am D<ex
+            <l n="1390"><q rend="bold" xml:lang="la">Magnificat a<ex rend="italic">n</ex>i<ex rend="italic">m</ex>am D<ex
                   rend="italic">omi</ex>ne</q> come<ex rend="italic">n</ex>ça,  </l>
-           <!-- #LZM: check this line, what's italic and what's not? --a[n]i[m]am D[omi]ne: all in brackets = italics-->
+           <!-- All Latin in BOLD and bracketed material in italics. I had fixed this.-->
             <l n="1391">Trosq<ex rend="italic">ue</ex>mant en la fin la dit <ex rend="italic"
                   >et</ex> derasna,  </l>
             <l n="1392">Ne por ja nul mesais ni por dan ni leisa  </l>
@@ -2267,9 +2269,8 @@
                   rend="italic">n</ex>t;  </l>
             <l n="1521">Més ja de le lor estre ja pas no<ex rend="italic">n</ex> mostrere<ex
                   rend="italic">n</ex>t.  </l>
-  <!--
-            <!-- LZM stopped here 1 Nov 2017
          </lg>
+        <!-- LZM stopped here 1 Nov 2017
          <lg type="laisse" n="56">
             <head>Laisse 56</head>
             <l n="1522"><hi rend="red-initial">O</hi>r veit li quue<ex rend="italic">n</ex>s Huon a
@@ -2311,8 +2312,8 @@
                tron,  </l>
             <l n="1541">Q'e·loiauté dirai de ce que dir devron."  </l> -->
             <!-- Note: MS: q eloiaute; an 'n' seems to be elided, which would have read: "Q'en loiauté."-->
-<!--
-            <l n="1542">De tretot son afaire s'en mostra la raison:  </l>
+           <!--
+           <l n="1542">De tretot son afaire s'en mostra la raison:  </l>
             <l n="1543">"Sachieç q'i en son pechiere a tant cu<ex rend="italic">m</ex> ho<ex
                   rend="italic">m</ex> del mon;  </l>
             <l n="1544">De tote le pechieç qui or t<ex rend="italic">r</ex>(o)ver devon,  </l>
