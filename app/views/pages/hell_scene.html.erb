@@ -1,0 +1,226 @@
+
+  <head>
+<!--     <link rel="stylesheet" type="text/css" href="/build/css/vmachine_styles.css"> -->
+    <%= javascript_include_tag('vmachine') %>
+    <script type="text/javascript">
+      var witnesses = new Array();
+
+         witnesses["B"] = "B";
+
+         witnesses["Br"] = "Br";
+
+         witnesses["P"] = "P";
+
+         witnesses["T"] = "T";
+
+      var maxPanels = 4;
+    </script>
+  </head>
+
+  <body onload="init();">
+
+    <header class="row">
+      <div class="large-12 columns text-center">
+        <h1>Hell Scene Comparison</h1>
+      </div>
+    </header>
+
+    <section class="row">
+      <div class="large-8 large-offset-2 columns">
+
+        <p>Carlo Martello, emperor of France, sends Huon count of Auvergne on an impossible mission to seek out the entrance to Hell and get tribute from Lucifer. Huon travels through many lands and kingdoms, including France, Provence, Hungary, Germany, Santiago de Compostela, Rome, Mount Etna, Armenia, Egypt, and the legendary lands of Prester John. Huon's seven-year journey ultimately leads him to the entrance to Hell, where he must battle a dragon. He is then greeted by a devil disguised as a pilgrim, and two guides, Aeneas and William of Orange, an Old French epic hero.</p>
+
+        <p>The Hell scene is the only narrative segment preserved in all four Franco-Italian manuscript witnesses. Scholars have noted the complex relationship this scene has with its Dantean precedent (Morgan, Bennett, Scattolini) and with the popularity of Hell narratives after Dante's poem (McCormick). The following Hell scene comparison uses <a href="http://v-machine.org/index.php">Versioning Machine</a>, an interactive web interface developed by <a href="https://www.maynoothuniversity.ie/people/susan-schreibman">Susan Schreibman</a> at the Maryland Institute of Technology, now director of <a href="https://www.maynoothuniversity.ie/foras-feasa">An Foras Feasa</a>, at Maynooth University. The need for a synoptic edition of Huon d'Auvergne has long been acknowedged, yet the constraints of print have been a major obstacle to this goal. Using an interface to display manuscript versions side-by-side, Versioning Machine bridges theory and practice.</p>
+
+        <p>The following text is made available for demonstration purposes only. It may not be reproduced without consent. For further information, please contact <a href="mccormicks@wlu.edu">Stephen P. McCormick</a> or <a href="lmorgan@loyola.edu">Leslie Zarker Morgan.</p>
+
+                <hr>
+            <!-- Note: for whatever reason deleting this first button breaks the functionality on the panels. Keeping it hidden allows them to keep working. -->
+        <input type="button" id="newPanel" value="New Version" onclick="openPanel();" style="visibility:hidden;">
+          <div class="center-outer">
+          <div id="mainControls" class="center-inner">
+            <div id="add_witness"><input type="button" id="newPanel" value="New Version" onclick="openPanel();"></div>
+            <div id="line_toggle"><label for="toggleLineNumbers">Line Numbers</label><input type="checkbox" id="toggleLineNumbers" onclick="toggleLineNumbers(this.checked);"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="panel" id="bibPanel">
+      <div class="panelBanner">
+      <%= image_tag('closePanel.png', class: 'closePanel', onclick: 'toggleBiblio();', alt: 'X') %>
+         Bibliographic Information
+      </div>
+      <div class="bibContent">
+                <h2>Huon d'Auvergne, a Franco-Italian Epic</h2>
+                <h4>Original Source</h4>
+                <p>Editions of the text are by Leslie Zarker Morgan (Berlin and Turin) and Stephen P. McCormick (Padua and Bologna). Translation is by Shira Schwam-Baird
+                </p>
+                <h4>Witness List</h4>
+                <ul></ul>
+                <h4>Textual Notes</h4>
+                <div class="note">
+                    There are four manuscript witnesses of this epic: Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)(dated 1341); Padua, Biblioteca del Seminario Vescovile MS 32 (late fourteenth/early fifteenth century); Turin, Biblioteca Nazionale N III 19 (dated 1441); and the Barbieri fragment, Bologna, Biblioteca dell'Archiginnasio B. 3489 (fourteenth century).
+                </div>
+                <h4>Electronic Edition Information:</h4>
+                <h5>Responsibility Statement:</h5>
+                <ul>
+                  <li>Text Encoding by  Stephen P. McCormick and  Mackenzie Brooks</li>
+                  <li>Edited by  Leslie Zarker Morgan and  Stephen P. McCormick</li>
+                  <li>Translated by Shira Schwam-Baird</li>
+                </ul>
+                <h5>Publication Details:</h5>
+                <p>Published by Washington and Lee University.</p>
+                <p>
+                This poem is being made available for demonstration purposes only. It may not be reproduced without consent. For further information, please contact Stephen P. McCormick at mccormicks@wlu.edu
+                </p>
+                <h4>Encoding Principles</h4>
+                <p>Test document for versioning machine project. Marked-up collation of Huon d'Auvergne.</p>
+                <p>DTD constructed from TEI poetry base with tagsets for linking, figures, analysis, transcr, textcrit.
+                </p>
+      </div>
+    </div>
+    <div id="mssArea" class="outer">
+      <div id="manuscripts" class="inner">
+        <div class="panel mssPanel">
+          <div class="panelBanner">
+          <%= image_tag('closePanel.png', class: 'closePanel', onclick: 'closePanel(this.parentNode.parentNode);', alt: 'X') %>
+          Witness <select class="witnessMenu" onchange="changeWitness(this.value,this.parentNode.parentNode);">
+                        <option selected value="B">1: Berlin</option>
+                        <option value="Br">2: Barbieri Fragment</option>
+                        <option value="P">3: Padua</option>
+                        <option value="T">4: Turin</option></select>
+                    </div>
+          <div class="mssContent">
+              <table style="table-layout:fixed; width:310px">
+                 <tr>
+                    <td width="265px">
+                        <div class="head"><span class="hi"><span class="apparatus app-d0e61 clickable" onclick="matchApp('app-d0e61');"><span class="reading B Br P T">Huon d'Auvergne</span></span></span></div>
+
+                        <div class="line lined0e64">
+                          <div class="linenumber" style="visibility: hidden;">1</div>
+                          <span class="apparatus loc-35" onclick="matchApp(this.className);">
+                            <span class="reading B">Grant dol en oit quant delec lui le vi,</span>
+                            <span class="reading T">Gran dolo n'avea quando davante s'el vide</span>
+                          </span>
+                          <span class="apparatus loc-10" onclick="matchApp(this.className);">
+                            <span class="reading Br">come li filc vait (au pere secors) gerire.</span>
+                          </span>
+                          <span class="apparatus loc-1" onclick="matchApp(this.className);">
+                            <span class="reading P">A questo exemplo, signor, pod&eacute; oldir</span>
+                          </span>
+                        </div>
+                        <div class="line lined0e76">
+                          <div class="linenumber" style="visibility: hidden;">2</div>
+                          <span class="apparatus loc-2" onclick="matchApp(this.className);">
+                            <span class="reading Br">"Sire, feit il, "qi ton fil&ccedil; mandast jus,</span>
+                            <span class="reading P">"Sier Dio", dix'ello, "che conseio mandase jus,</span>
+                          </span>
+                          <span class="apparatus loc-23" onclick="matchApp(this.className);">
+                            <span class="reading B">devotemant cun il poit onques plus.</span>
+                            <span class="reading T">devotamente como el posea piue.</span>
+                            </span>
+                          </div>
+                        <div class="line lined0e87">
+                          <div class="linenumber" style="visibility: hidden;">3</div><span class="apparatus loc-4" onclick="matchApp(this.className);"><span class="reading Br">qe fu por moi e por &ccedil;aschum pendus</span><span class="reading P">che fosse per mi e per &ccedil;ascun pendus</span></span><span class="apparatus loc-5" onclick="matchApp(this.className);"><span class="reading B">De ce ben dir acostume&ccedil; il fus,</span><span class="reading T">E del suo ben dire acostum&agrave; l&#8217;era</span></span></div>
+                        <div class="line lined0e98">
+                          <div class="linenumber" style="visibility: hidden;">4</div><span class="apparatus loc-6" onclick="matchApp(this.className);"><span class="reading Br">sus &ccedil;el crois ou fu nostre salus,</span><span class="reading P">su quela croxe che fo nostra salus,</span></span><span class="apparatus loc-7" onclick="matchApp(this.className);"><span class="reading B">de jor en jor ja ne&#8217;l mist en refus:</span><span class="reading T">de zorno yn zorno za non misse yn refuso:</span></span></div>
+                        <div class="line lined0e109">
+                          <div class="linenumber" style="visibility: hidden;">5</div><span class="apparatus loc-8" onclick="matchApp(this.className);"><span class="reading Br">qant fust fragil&eacute; e batus</span><span class="reading P">quando vui fossi flagelado e batus</span></span><span class="apparatus loc-2" onclick="matchApp(this.className);"><span class="reading B">&laquo;Ay, sire Diex, quel consoil moy das tus</span><span class="reading T">&laquo;Ay, signor Dio, tal conseis me des tuy</span></span></div>
+                        <div class="line lined0e120">
+                          <div class="linenumber" style="visibility: hidden;">6</div><span class="apparatus loc-9" onclick="matchApp(this.className);"><span class="reading Br">e su la crois inclav&eacute; tot nus,</span><span class="reading P">e sulla croxe inclavado tuto nus,</span></span><span class="apparatus loc-10" onclick="matchApp(this.className);"><span class="reading B">cum tu feisis as prophete perdus</span><span class="reading T">como tu fessy ay profeta ch'era perduty</span></span></div>
+                        <div class="line lined0e131">
+                          <div class="linenumber" style="visibility: hidden;">7</div><span class="apparatus loc-11" onclick="matchApp(this.className);"><span class="reading Br">dedans le Limbe ou il erente enclus.</span><span class="reading P">de dentro lo Limbo onda li erano rechiousy.</span></span><span class="apparatus loc-12" onclick="matchApp(this.className);"><span class="reading B">qant de la lan&ccedil;a en fu fet le pertus</span><span class="reading T">quando de lla lan&ccedil;a ve fe fato lo pertus</span></span></div>
+                        <div class="line lined0e142">
+                          <div class="linenumber" style="visibility: hidden;">8</div><span class="apparatus loc-13" onclick="matchApp(this.className);"><span class="reading Br">qe jusque au cor pasa parmi le bus;</span><span class="reading P">che de fin al cuor passa per m&eacute; lo bus;</span></span><span class="apparatus loc-4" onclick="matchApp(this.className);"><span class="reading B">Por lor et nos fus sor la crois pendus,</span><span class="reading T">Per lor e per nuy foste sopra la croze miso,</span></span></div>
+                        <div class="line lined0e153">
+                          <div class="linenumber" style="visibility: hidden;">9</div><span class="apparatus loc-14" onclick="matchApp(this.className);"><span class="reading Br">por &ccedil;ele santa piet&eacute; de vertus</span><span class="reading P">per quella santa pietade de vertus</span></span><span class="apparatus loc-6" onclick="matchApp(this.className);"><span class="reading B">toe mort fu rechat de nos salus,</span><span class="reading T">la toa morte fo rechuza de nostry saluty,</span></span></div>
+                        <div class="line lined0e164">
+                          <div class="linenumber" style="visibility: hidden;">10</div><span class="apparatus loc-15" onclick="matchApp(this.className);"><span class="reading Br">qe en tenebre aporta clere lus</span><span class="reading P">che [en] tenebrie porta chiara lus</span><span class="reading B">en tenebrie aporta clere lux</span><span class="reading T">en tenembre portasty chiary luzy</span></span></div>
+                        <div class="line lined0e174">
+                          <div class="linenumber" style="visibility: hidden;">11</div><span class="apparatus loc-16" onclick="matchApp(this.className);"><span class="reading Br">a ceaus qi estoient ens le linbo metus,</span><span class="reading P">a queli chi era in llo linbo suspendus,</span><span class="reading B">a cil ch'erent au Limbe suspendus.</span><span class="reading T">e choloro ch'erano al limbo sostinuty</span></span></div>
+                        <div class="line lined0e184">
+                          <div class="linenumber" style="visibility: hidden;">12</div><span class="apparatus loc-17" onclick="matchApp(this.className);"><span class="reading Br">tot les pech&eacute;s che mai furent e plus</span><span class="reading P">tuti li pecati che mai fono e plus</span></span><span class="apparatus loc-14" onclick="matchApp(this.className);"><span class="reading B">Par celle saincte piet&eacute; et vertus</span><span class="reading T">per quela santa piat&agrave; apristily.</span></span></div>
+                        <div class="line lined0e195">
+                          <div class="linenumber" style="visibility: hidden;">13</div><span class="apparatus loc-18" onclick="matchApp(this.className);"><span class="reading Br">por la piet&eacute;, biau sire Yhesus,</span></span><span class="apparatus loc-19" onclick="matchApp(this.className);"><span class="reading P">fono perdonadi e per ti demetus</span></span><span class="apparatus loc-8" onclick="matchApp(this.className);"><span class="reading B">par qui vos fustes flagele&ccedil; et batus</span><span class="reading T">E perch&eacute; vuy fusty fragil&agrave; e batuto</span></span></div>
+                        <div class="line lined0e207">
+                          <div class="linenumber" style="visibility: hidden;">14</div><span class="apparatus loc-20" onclick="matchApp(this.className);"><span class="reading Br">qe nos en osta su la crois, sor le fus</span></span><span class="apparatus loc-18" onclick="matchApp(this.className);"><span class="reading P">per la pietade, bel sier Dio Jhesus</span></span><span class="apparatus loc-9" onclick="matchApp(this.className);"><span class="reading B">e sor la crois encloe&ccedil; et metus,</span><span class="reading T">en su la croze ynchiod&agrave; e metuto,</span></span></div>
+                        <div class="line lined0e219">
+                          <div class="linenumber" style="visibility: hidden;">15</div><span class="apparatus loc-21" onclick="matchApp(this.className);"><span class="reading Br">de vestre mere qe avoit le cor enclus</span></span><span class="apparatus loc-20" onclick="matchApp(this.className);"><span class="reading P">che vui avesse su la croxe sor lo fus</span></span><span class="apparatus loc-22" onclick="matchApp(this.className);"><span class="reading B">quant de la lance vos fu feit li pertus</span><span class="reading T">quando de la lanza a voy fo fato lo pertuso</span></span></div>
+                        </td>
+<!--                     <td align="right" valign="top"></td>
+ -->                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="panel mssPanel">
+               <div class="panelBanner"><%= image_tag('closePanel.png', class: 'closePanel', onclick: 'closePanel(this.parentNode.parentNode);', alt: 'X') %>
+               Witness <select class="witnessMenu" onchange="changeWitness(this.value,this.parentNode.parentNode);">
+                     <option value="B">1: Berlin</option>
+                     <option selected value="Br">2: Barbieri Fragment</option>
+                     <option value="P">3: Padua</option>
+                     <option value="T">4: Turin</option></select></div>
+               <div class="mssContent">
+                  <table style="table-layout:fixed; width:310px">
+                     <tr>
+              <td width="265px">
+                 <div class="head"><span class="hi"><span class="apparatus app-d0e61 clickable" onclick="matchApp('app-d0e61');"><span class="reading B Br P T">Huon d'Auvergne</span></span></span></div>
+                 <div class="line lined0e64">
+                    <div class="linenumber" style="visibility: hidden;">1</div><span class="apparatus loc-35" onclick="matchApp(this.className);"><span class="reading B">Grant dol en oit quant delec lui le vi,</span><span class="reading T">Gran dolo n'avea quando davante s'el vide</span></span><span class="apparatus loc-10" onclick="matchApp(this.className);"><span class="reading Br">come li filc vait (au pere secors) gerire.</span></span><span class="apparatus loc-1" onclick="matchApp(this.className);"><span class="reading P">A questo exemplo, signor, pod&eacute; oldir</span></span></div>
+                 <div class="line lined0e76">
+                    <div class="linenumber" style="visibility: hidden;">2</div><span class="apparatus loc-2" onclick="matchApp(this.className);"><span class="reading Br">"Sire, feit il, "qi ton fil&ccedil; mandast jus,</span><span class="reading P">"Sier Dio", dix'ello, "che conseio mandase jus,</span></span><span class="apparatus loc-23" onclick="matchApp(this.className);"><span class="reading B">devotemant cun il poit onques plus.</span><span class="reading T">devotamente como el posea piue.</span></span></div>
+                 <div class="line lined0e87">
+                    <div class="linenumber" style="visibility: hidden;">3</div><span class="apparatus loc-4" onclick="matchApp(this.className);"><span class="reading Br">qe fu por moi e por &ccedil;aschum pendus</span><span class="reading P">che fosse per mi e per &ccedil;ascun pendus</span></span><span class="apparatus loc-5" onclick="matchApp(this.className);"><span class="reading B">De ce ben dir acostume&ccedil; il fus,</span><span class="reading T">E del suo ben dire acostum&agrave; l&#8217;era</span></span></div>
+                 <div class="line lined0e98">
+                    <div class="linenumber" style="visibility: hidden;">4</div><span class="apparatus loc-6" onclick="matchApp(this.className);"><span class="reading Br">sus &ccedil;el crois ou fu nostre salus,</span><span class="reading P">su quela croxe che fo nostra salus,</span></span><span class="apparatus loc-7" onclick="matchApp(this.className);"><span class="reading B">de jor en jor ja ne&#8217;l mist en refus:</span><span class="reading T">de zorno yn zorno za non misse yn refuso:</span></span></div>
+                 <div class="line lined0e109">
+                    <div class="linenumber" style="visibility: hidden;">5</div><span class="apparatus loc-8" onclick="matchApp(this.className);"><span class="reading Br">qant fust fragil&eacute; e batus</span><span class="reading P">quando vui fossi flagelado e batus</span></span><span class="apparatus loc-2" onclick="matchApp(this.className);"><span class="reading B">&laquo;Ay, sire Diex, quel consoil moy das tus</span><span class="reading T">&laquo;Ay, signor Dio, tal conseis me des tuy</span></span></div>
+                 <div class="line lined0e120">
+                    <div class="linenumber" style="visibility: hidden;">6</div><span class="apparatus loc-9" onclick="matchApp(this.className);"><span class="reading Br">e su la crois inclav&eacute; tot nus,</span><span class="reading P">e sulla croxe inclavado tuto nus,</span></span><span class="apparatus loc-10" onclick="matchApp(this.className);"><span class="reading B">cum tu feisis as prophete perdus</span><span class="reading T">como tu fessy ay profeta ch'era perduty</span></span></div>
+                 <div class="line lined0e131">
+                    <div class="linenumber" style="visibility: hidden;">7</div><span class="apparatus loc-11" onclick="matchApp(this.className);"><span class="reading Br">dedans le Limbe ou il erente enclus.</span><span class="reading P">de dentro lo Limbo onda li erano rechiousy.</span></span><span class="apparatus loc-12" onclick="matchApp(this.className);"><span class="reading B">qant de la lan&ccedil;a en fu fet le pertus</span><span class="reading T">quando de lla lan&ccedil;a ve fe fato lo pertus</span></span></div>
+                 <div class="line lined0e142">
+                    <div class="linenumber" style="visibility: hidden;">8</div>
+                    <span class="apparatus loc-13" onclick="matchApp(this.className);">
+                    <span class="reading Br">qe jusque au cor pasa parmi le bus;</span>
+                    <span class="reading P">che de fin al cuor passa per m&eacute; lo bus;</span>
+                    </span><span class="apparatus loc-4" onclick="matchApp(this.className);"><span class="reading B">Por lor et nos fus sor la crois pendus,</span><span class="reading T">Per lor e per nuy foste sopra la croze miso,</span></span></div>
+                 <div class="line lined0e153">
+                    <div class="linenumber" style="visibility: hidden;">9</div><span class="apparatus loc-14" onclick="matchApp(this.className);"><span class="reading Br">por &ccedil;ele santa piet&eacute; de vertus</span><span class="reading P">per quella santa pietade de vertus</span></span><span class="apparatus loc-6" onclick="matchApp(this.className);"><span class="reading B">toe mort fu rechat de nos salus,</span><span class="reading T">la toa morte fo rechuza de nostry saluty,</span></span></div>
+                 <div class="line lined0e164">
+                    <div class="linenumber" style="visibility: hidden;">10</div><span class="apparatus loc-15" onclick="matchApp(this.className);"><span class="reading Br">qe en tenebre aporta clere lus</span><span class="reading P">che [en] tenebrie porta chiara lus</span><span class="reading B">en tenebrie aporta clere lux</span><span class="reading T">en tenembre portasty chiary luzy</span></span></div>
+                 <div class="line lined0e174">
+                    <div class="linenumber" style="visibility: hidden;">11</div><span class="apparatus loc-16" onclick="matchApp(this.className);"><span class="reading Br">a ceaus qi estoient ens le linbo metus,</span><span class="reading P">a queli chi era in llo linbo suspendus,</span><span class="reading B">a cil ch'erent au Limbe suspendus.</span><span class="reading T">e choloro ch'erano al limbo sostinuty</span></span></div>
+                 <div class="line lined0e184">
+                    <div class="linenumber" style="visibility: hidden;">12</div><span class="apparatus loc-17" onclick="matchApp(this.className);"><span class="reading Br">tot les pech&eacute;s che mai furent e plus</span><span class="reading P">tuti li pecati che mai fono e plus</span></span><span class="apparatus loc-14" onclick="matchApp(this.className);"><span class="reading B">Par celle saincte piet&eacute; et vertus</span><span class="reading T">per quela santa piat&agrave; apristily.</span></span></div>
+                 <div class="line lined0e195">
+                    <div class="linenumber" style="visibility: hidden;">13</div><span class="apparatus loc-18" onclick="matchApp(this.className);"><span class="reading Br">por la piet&eacute;, biau sire Yhesus,</span></span><span class="apparatus loc-19" onclick="matchApp(this.className);"><span class="reading P">fono perdonadi e per ti demetus</span></span><span class="apparatus loc-8" onclick="matchApp(this.className);"><span class="reading B">par qui vos fustes flagele&ccedil; et batus</span><span class="reading T">E perch&eacute; vuy fusty fragil&agrave; e batuto</span></span></div>
+                 <div class="line lined0e207">
+                    <div class="linenumber" style="visibility: hidden;">14</div><span class="apparatus loc-20" onclick="matchApp(this.className);"><span class="reading Br">qe nos en osta su la crois, sor le fus</span></span><span class="apparatus loc-18" onclick="matchApp(this.className);"><span class="reading P">per la pietade, bel sier Dio Jhesus</span></span><span class="apparatus loc-9" onclick="matchApp(this.className);"><span class="reading B">e sor la crois encloe&ccedil; et metus,</span><span class="reading T">en su la croze ynchiod&agrave; e metuto,</span></span></div>
+                 <div class="line lined0e219">
+                    <div class="linenumber" style="visibility: hidden;">15</div><span class="apparatus loc-21" onclick="matchApp(this.className);"><span class="reading Br">de vestre mere qe avoit le cor enclus</span></span><span class="apparatus loc-20" onclick="matchApp(this.className);"><span class="reading P">che vui avesse su la croxe sor lo fus</span></span><span class="apparatus loc-22" onclick="matchApp(this.className);"><span class="reading B">quant de la lance vos fu feit li pertus</span><span class="reading T">quando de la lanza a voy fo fato lo pertuso</span></span></div>
+                  </td>
+<!--                 <td align="right" valign="top"></td>
+ -->              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="panel" id="notesPanel" style="display: none;">
+        <div class="panelBanner">
+          <%= image_tag('closePanel.png', class: 'closePanel', onclick: 'hideNotesPanel()', alt: 'X') %>
+          Textual Notes
+        </div>
+        <div id="noNotesFound" class="noteContent">
+          Sorry, but there are no notes associated with any currently displayed witness.
+        </div>
+      </div>
+      <br class="clear">
+    </div>
+    <div class="viewerRoot" id="panel_imageViewer">
+       <div title="Click to drag panel." class="viewerHandle" id="handle_imageViewer">
+          <span class="viewerHandleLt" id="title_imageViewer">Image Viewer</span>
+          <img class="viewerHandleRt" onclick="return hidePanel('imageViewer');"
+          <%= image_tag('closePanel.png', class: 'viewerHandleRt', onclick: "return hidePanel('imageViewer');", alt: 'X') %>
+        </div>
+       <div class="viewerContent" id="content_imageViewer"></div>
+    </div>

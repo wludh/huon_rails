@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="DH, digital humanities, Huon d'Auvergne, manuscript, edition, franco-italian, TEI">
+    <meta name="description" content="A digital edition of the Huon d'Auvergne, a pre-modern, Franco-Italian Epic">
+  <title>Huon d'Auvergne</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+<%= render 'layouts/nav' %>
+
+<%= yield %>
+    <script>
+       $(document).foundation();
+    </script>
+</body>
+</html>

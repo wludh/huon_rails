@@ -1,0 +1,50 @@
+<div>
+
+      <ul class="nav">
+
+        <li class="title"><%= link_to "Huon d'Auvergne Digital Archive", root_path(), class: "nav" %></li>
+
+        <li><%= link_to 'Bibliography', biblio_temp_path(), class: "nav" %></a></li>
+
+        <li class="dropdown">
+          <a class="nav" href="javascript:void(0)" class="dropbtn">Translation</a>
+          <div class="dropdown-content">
+            <a class="nav" href="#"><%= link_to 'Berlin Translation', b_translation_path() %></a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a class="nav" href="javascript:void(0)" class="dropbtn">Editions</a>
+          <div class="dropdown-content">
+            <a class="nav" href="#"><%= link_to 'Berlin (B)', b_manuscript_path() %></a>
+            <a class="nav" href="#"><%= link_to 'Turin (T)', t_manuscript_path() %></a>
+            <a class="nav" href="#"><%= link_to 'Padua (P)', p_manuscript_path() %></a>
+            <a class="nav" href="#"><%= link_to 'Barbieri Fragment (Br)', br_manuscript_path() %></a>
+            <!-- <a class="nav" href="#"><%= link_to 'Hell Scene Comparison', hell_scene_path() %></a> -->
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a class="nav" href="javascript:void(0)" class="dropbtn">Praxis</a>
+          <div class="dropdown-content">
+            <a class="nav" href="#"><%= link_to 'B Criteria', b_praxis_path() %></a>
+            <!-- <a class="nav" href="#"><%= link_to 'T Criteria', t_praxis_path() %></a> -->
+            <a class="nav" href="#"><%= link_to 'P Criteria', p_praxis_path() %></a>
+            <!-- <a class="nav" href="#"><%= link_to 'Br Criteria', br_praxis_path() %></a> -->
+            <!-- <a class="nav" href="#"><%= link_to 'Encoding Guidelines', encod_praxis_path() %></a> -->
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a class="nav" href="javascript:void(0)" class="dropbtn">About</a>
+          <div class="dropdown-content">
+            <a class="nav" href="#"><%= link_to 'Versioning', versioning_path() %></a>
+            <a class="nav" href="#"><%= link_to 'Cite our work', cite_path() %>
+          </div>
+        </li>
+      
+      </ul>
+
+</div>
+
+

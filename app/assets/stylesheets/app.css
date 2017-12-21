@@ -1,0 +1,1336 @@
+/* ==== GRID SYSTEM ==== */
+/**
+*** SIMPLE GRID created by
+*** (C) ZACH COLE 2016
+**/
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	position: relative;
+	width: 100%;
+}
+
+.row [class^="col"] {
+	float: left;
+	margin: 0.5rem 2%;
+	min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+	width: 96%;
+}
+
+/** Why is a font size necessary here?
+ .col-12 {
+	font-size: 40px;
+}
+**/
+
+.col-1-sm {
+	width: 4.33%;
+}
+
+.col-2-sm {
+	width: 12.66%;
+}
+
+.col-3-sm {
+	width: 21%;
+}
+
+.col-4-sm {
+	width: 29.33%;
+}
+
+.col-5-sm {
+	width: 37.66%;
+}
+
+.col-6-sm {
+	width: 46%;
+}
+
+.col-7-sm {
+	width: 54.33%;
+}
+
+.col-8-sm {
+	width: 62.66%;
+}
+
+.col-9-sm {
+	width: 71%;
+}
+
+.col-10-sm {
+	width: 79.33%;
+}
+
+.col-11-sm {
+	width: 87.66%;
+}
+
+.col-12-sm {
+	width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+	display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+	.container {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+	.col-1 {
+		width: 4.33%;
+	}
+
+	.col-2 {
+		width: 12.66%;
+	}
+
+	.col-3 {
+		width: 21%;
+	}
+
+	.col-4 {
+		width: 29.33%;
+	}
+
+	.col-5 {
+		width: 37.66%;
+	}
+
+	.col-6 {
+		width: 46%;
+	}
+
+	.col-7 {
+		width: 54.33%;
+	}
+
+	.col-8 {
+		width: 62.66%;
+	}
+
+	.col-9 {
+		width: 71%;
+	}
+
+	.col-10 {
+		width: 79.33%;
+	}
+
+	.col-11 {
+		width: 87.66%;
+	}
+
+	.col-12 {
+		width: 96%;
+	}
+
+	.hidden-sm {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+	.container {
+		width: 75%;
+		max-width: 60rem;
+	}
+}
+
+.footer-row-1 {
+	float: left;
+}
+
+.footer-row-2 {
+	float: left;
+}
+
+.footer-row-3 {
+	float: right;
+}
+
+.stackem div {
+	width: 100%;
+}
+
+/* Homepage and HTML shell style */
+
+body {
+	background: rgba(255,255,255,0.9);
+	color: #222;
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	position: relative;
+	cursor: auto;
+	width: 100%;
+	max-width: 100%;
+	overflow-x:hidden;
+}
+
+img.initial {
+		max-width: 29%;
+		float: left;
+		padding-right: 10px;
+		margin-top: -145px;
+		margin-left: -222px;
+		margin-bottom: -450px;
+}
+
+
+p.intro {
+	font-weight: normal;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 25%;
+	line-height: 1.6;
+	text-align: justify;
+	text-rendering: optimizeLegibility;
+
+}
+
+hr {
+	border: solid #DDDDDD;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 1.25rem 0 1.1875rem;
+	height: 0;
+}
+
+/*.large-offset-2 {
+	margin-left: 10.66667% !important;
+}
+
+.large-8 {
+	width: 66.66667%;
+}*/
+
+section div ul li {
+	clear: left;
+}
+
+#banner {
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+a {
+		color: #5f0000;
+		text-decoration: none;
+}
+
+
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #222222;
+	text-rendering: optimizeLegibility;
+	margin-top: 0.2rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.4; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	font-size: 60%;
+	color: #6f6f6f;
+	line-height: 0; }
+
+h1 {
+	font-size: 2.125rem; }
+
+h2 {
+	font-size: 1.6875rem; }
+
+h3 {
+	font-size: 1.375rem; }
+
+h4 {
+	font-size: 1.125rem; }
+
+h5 {
+	font-size: 1.125rem; }
+
+h6 {
+	font-size: 1rem; }
+
+header {
+	padding-top:3em;
+	padding-bottom: 4em;
+	margin-bottom: 1.5em;
+}
+
+#sub-header {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#editorial_staff {
+}
+
+.subheader {
+	line-height: 1.4;
+	color: #6f6f6f;
+	font-weight: normal;
+	margin-top: 0.2rem;
+	margin-bottom: 0.5rem; }
+
+
+/* Top bar */
+
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    border-bottom: #5f0000;
+		border-style: solid;
+		border-bottom-width: .5em;
+		width: 100%;
+		display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    float: right;
+}
+
+li.title {
+	float: left;
+	color: whitesmoke;
+}
+
+li a.nav, .dropbtn {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    font-size: 120%;
+}
+
+li a.nav:hover, .dropdown:hover .dropbtn {
+    background-color: #lightgray;
+}
+
+li.title {
+	float: left;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+		padding-left: 12px;
+		padding-right: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*
+.dropdown-content a:hover {background-color: #f1f1f1}
+*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Content */
+
+.lg {
+	padding-bottom: 24px;
+}
+
+.l {
+	margin-bottom: 0px;
+}
+
+#disclaimer {
+	color:red;
+}
+
+.top-bar .toggle-topbar a {
+	font-weight: normal;
+}
+
+#special-footer hr {
+	width:66.7%;
+	text-align:center; margin: 0 auto;
+}
+
+#clear {
+	clear:both;
+}
+
+.fullWidth {
+	width: 100%;
+	max-width: 100%;
+	height: 100px;
+}
+
+
+.participant_section{
+	padding-bottom: 10px;
+}
+
+p.tagline {
+	font-size:1.5em;
+	margin-top:-15px;
+}
+
+#manuscript_list_index {
+	text-align: center;
+}
+
+#manuscript_list_editions{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 20px;
+}
+
+.imgprofile {
+	float:left;
+	padding-right: 25px;
+	border-color: rgb(233, 233, 233);
+	border-style: solid;
+	border-width: 1px;
+	max-width: 200px;
+}
+
+.participant_profile{
+	padding-top: 25px;
+}
+
+#hidden-title{
+	font-size: 24px !important;
+	padding-top: 48px;
+	padding-bottom:24px;
+}
+
+
+/* Footer Main Page */
+
+/* Row 1 */
+
+img#logo_loyola {
+	float:  left;
+	width: 20%;
+	margin-top: 0em;
+	margin-left: 2em;
+	margin-top: 2.5em;
+}
+
+img#logo_unf {
+	float: left;
+	width: 20%;
+	margin-top: 0em;
+	padding-bottom: 0em;
+	margin-left: 2em;
+}
+
+img#logo_wludh {
+	float: left;
+	width: 20%;
+	display: block;
+	margin-top: 0em;
+	margin-bottom: 3.5em;
+	margin-left: 2em;
+	margin-top: 2.5em;
+}
+
+img#logo_neh {
+	float: left;
+	width: 20%;
+	display: block;
+	margin-top: 0em;
+	margin-left: 2em;
+	margin-top: 2.5em;
+}
+
+/* Row 2 */
+
+img#logo_archiginnasio {
+	float: left;
+	width: 11%;
+	margin-top: 0em;
+	margin-left: 7em;
+}
+
+
+img#logo_marucelliana {
+	float: left;
+	width: 12%;
+	margin-top: 0em;
+	margin-left: 11em;
+}
+
+
+img#logo_tei {
+	float: left;
+	width: 15%;
+	display: block;
+	margin-top: 0em;
+	margin-left: 7em;
+}
+
+.footer a {
+	color:#cccccc !important;
+}
+
+/* About Pages */
+
+p.indent {
+    padding-left: 4em;
+    text-indent: -2em;
+}
+
+/* Praxis Pages */
+
+div.abbr-examples {
+	margin-left: 20%;
+}
+
+div.praxis {
+	margin-top: 4em;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-bottom: 3em;
+}
+
+dl dd {
+	line-height: 100%
+}
+
+div.table {
+    margin-left: 4em;
+}
+
+h1.praxis {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5f0000;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 1em;
+}
+
+h2.praxis {
+    color: #5f0000;
+    margin-top: 1.3em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3.praxis {
+	color: #5f0000;
+	margin-left: 2.25em;
+}
+
+h4.praxis {
+	color: #5f0000;
+}
+
+li.praxis {
+	margin-left: 4em;
+	float: left;
+	display: block;
+}
+
+.praxis ol ul {
+	margin-top: 0em;
+	float: left;
+}
+
+p.subsection {
+	margin-left: 3em;
+}
+
+td {
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+}
+
+/* Temporary Bibliography Page */
+
+a.biblio {
+	color: #a10d09;
+	float: initial;
+}
+
+h1.biblio {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5f0000;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+h2.biblio {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5f0000;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: .5em;
+}
+
+li.biblio {
+    padding-right: 25%;
+    padding-left: 2em;
+    text-indent: -2em;
+    padding-top: 1.5em;
+}
+
+ol.biblio {
+	list-style: none;
+	margin-top: -1em;
+	margin-bottom: 3em;
+}
+
+p.biblio {
+    width: auto;
+    margin-top: 0em;
+}
+
+.biblio {
+    float: left;
+}
+
+.bibl-section {
+	float: left;
+}
+
+
+/* MS Introduction Pages */
+
+img#ms-intro {
+    width: 100%;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5f0000;
+}
+
+/* TEI */
+
+TEI {
+	margin: auto;
+	max-width: 40%;
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 16px;
+	padding-bottom: 1px;
+}
+
+ex[rend="italics"] {
+	font-style: italic;
+}
+
+tei-title {
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif !important;
+}
+
+TEI head{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+
+teiHeader {
+	display: none;
+}
+
+l {
+  display: block;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/*dropdown/side menus*/
+
+ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	right: 0;
+	width: 150px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+	z-index: 1000;
+	border-left: 1px;
+	border-bottom: 1px;
+	border-top: 1px;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: gray;
+	transition:1s;
+}
+
+ul li ul li {
+	background: #555;
+	display: block;
+	color: #fff;
+	text-shadow: 0 -1px 0 #000;
+	z-index: 1000;
+	float: left;
+}
+
+@media screen and (min-width: 850px) {
+	ul li ul li:hover { background: #666; }
+	ul li:hover ul {
+		display: block;
+		opacity: 1;
+		visibility: visible;
+		z-index: 1000;
+		transition:1s;
+	}
+}
+
+#homepage {
+	margin:0;
+	padding:0;
+}
+
+.oe {
+font-family: Mathematica6 Bold, Old English Text MT, Engravers Old English BT, Old English, Collins Old English, New Old English, serif;
+}
+
+/*Versioning Machine*/
+
+#line_toggle, label {
+	float:left;
+	text-decoration: underline;
+	font-size: 16px;
+	color: black;
+}
+
+input[type="button"] {
+	border-style: none;
+	text-decoration: underline;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+input[type="checkbox"] {
+	display:none;
+}
+
+#add_witness {
+	display: inline;
+	border-style:none;
+	float:left;
+	text-decoration: underline;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+.panelBanner, .witnessMenu {
+font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif !important;
+	background-color: rgba(0, 0, 0, 0);
+	height: 30px;
+	margin-bottom: 0;
+	padding:0;
+	border:none;
+	font-size: 16px;
+	text-align:left;
+}
+
+#tei-hr {
+	width:40%;
+	text-align:center; margin: 0 auto;
+}
+
+#comparison-hr {
+	width:66.7%;
+	text-align:center; margin: 0 auto;
+}
+
+.witnessMenu {
+	width: 69%;
+}
+
+#bibPanel{
+	display: none;
+}
+
+/* New styles in rails */
+
+#page-break {
+	display: block;
+	width: 100%;
+	text-align: right;
+	color: gray;
+	margin: 2em 0 2em 0;
+	font-size: 11pt;
+}
+
+ex {
+	font-style: italic;
+}
+
+l sup {
+	cursor: pointer;
+	cursor:hand;
+}
+
+footnote {
+	display:none;
+}
+
+.top-bar {
+	z-index: 1000;
+}
+
+#TEI_left_panel {
+	padding-top: 44px;
+	height:100%;
+}
+
+header {
+	padding-top: 92px !important;
+}
+
+#selected_laisse {
+	display:inline;
+}
+
+.center-inner {
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-bottom: 20px
+}
+
+
+#num_laisses, #bot_reader {
+	padding-right: 4px;
+}
+
+#note-header {
+}
+
+#side-panel note {
+	display: none;
+}
+
+#note-contents note{
+
+}
+
+#back_to_intro {
+	display: none;
+	cursor: pointer;
+	cursor:hand;
+	text-decoration: underline;
+}
+
+.hidden {
+	display: none;
+}
+
+.lines note sup {
+	curser: pointer;
+}
+
+.pagination, #jump_form {
+	display:inline;
+}
+
+.resp {
+	float: right;
+	padding: 24px;
+}
+
+
+#tei-hr-1, #tei-hr-2 {
+	width:40%;
+	text-align:center; margin: 0 auto;
+}
+
+#tei-hr-1 {
+	display:none;
+}
+
+#comparison-hr {
+	width:66.7%;
+	text-align:center; margin: 0 auto;
+}
+
+.witnessMenu {
+	width: 69%;
+}
+
+#bibPanel {
+	display: none;
+}
+
+#TEI_left_panel TEI {
+	max-width: none;
+	margin: none;
+}
+
+@media only screen and (min-width: 501px) {
+	#mobile_reader{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#TEI_left_panel {
+		float: none !important;
+		width: 80% !important;
+		border-right:none !important;
+		margin-left: 10% !important;
+		margin-right: 10% !important;
+		height: auto !important;
+	}
+
+	#left-content {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	#hidden-title {
+		padding-left: 0px !important;
+	}
+
+	#num_laisses {
+		display: none !important;
+	}
+
+	#TEI_left_panel hr{
+		display: none !important;
+	}
+	#side-panel {
+		display: none !important;
+	}
+
+	#top-half {
+	}
+
+	#TEI_reader {
+		margin-left: 0px !important;
+		padding-left: 0px !important;
+	}
+	#tei_wrapper {
+		width: 80% !important;
+	}
+
+	#diploCheckbox, #diplo-label, #image-reveal, #tei-reveal, #diplo-form, #all-note-reveal{
+		display: none !important;
+	}
+
+}
+
+#logo_unf {
+	padding-bottom: 22px;
+}
+
+#introduction {
+	padding-top: 68px;
+	height: 100%;
+	text-align: justify;
+	margin-top: -200px
+}
+
+#title {
+	font-size: 28px;
+}
+#links {
+	text-align: center;
+}
+
+
+/* MS Introduction Page */
+
+
+.ms-toc {
+	padding-left: 2em;
+	font-variant: small-caps;
+}
+
+.row-intro-image {
+	border: black;
+	border-width: 1px;
+}
+
+li.ms-toc {
+	color: lightgray;
+    float: left;
+    padding-right: 25%;
+}
+
+p.ms-intro-h1 {
+	color: #5f0000;
+	font-weight: bolder;
+	font-size: 2em;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+}
+
+p.ms-intro-h2 {
+		color: #5f0000;
+		font-weight: bolder;
+		margin-bottom: 0em;
+}
+
+
+p.ms-intro-h3 {
+		color: #5f0000;
+		font-weight: bolder;
+		font-size: .75em;
+}
+
+p.ms-intro {
+	font-style: italic;
+}
+
+p.ms-resp {
+		margin-bottom: 0em;
+}
+
+p.copyright {
+		font-style: italic;
+		font-size: .75em;
+		padding: 2.5em 0em 2.5em 0em;
+}
+
+p.ms-toc {
+		color: #5f0000;
+		font-weight: bolder;
+		font-size: 1.75em;
+		padding-left: 2.5em;
+		padding-top: 1em;
+}
+
+ol.ms-toc {
+		font-variant: small-caps;
+		font-size: 1.5em;
+		list-style-type: lower-roman;
+		padding-left: 3.5em;
+		line-height: 2.5em;
+}
+
+/* TEI Reading Environment */
+
+/* Top bar button navigation */
+
+#reader-nav {
+	width: 100%;
+	position: static;
+	z-index: 100;
+	padding-top: 10px;
+	background-color: rgba(245,246,246,1);
+}
+
+#reader-nav-links {
+	line-height: 2.8125rem;
+	padding-top: 1%;
+	padding-left: 1%;
+}
+
+#reader-nav-title {
+	color: #5f0000;
+	padding-left: 1%;
+	padding-top: 2%;
+	font-size: xx-large;
+
+}
+
+#sub-title {
+	float: left;
+	padding: 0 0.9375rem;
+	line-height: 2.8125rem;
+}
+
+span.translation_missing {
+	color: #a10d09;
+}
+
+#selected_laisse {
+	max-width: 40px;
+	margin: auto;
+	text-align: center;
+}
+
+#jump_button {
+	border: none;
+	background-color: transparent;
+	text-decoration-color: #5f0000;
+	color: #5f0000;
+}
+
+#jump_button:hover {
+	text-decoration: underline;
+	color: #0078a0;
+}
+
+#rajnaCheckbox {
+	display: block;
+}
+
+#rajna-form {
+	display: inline;
+	float: none;
+}
+
+#rajna-label {
+	float: none;
+	display: inline;
+	text-decoration: none;
+}
+
+#diploCheckbox {
+	display: block;
+}
+
+#diplo-form {
+	display: inline;
+	float: none;
+}
+
+#diplo-label {
+	float: none;
+	display: inline;
+	text-decoration: none;
+}
+
+/* Reading Panel Style and Formatting */
+
+.line-heading {
+	margin: 0 0 1em 0;
+	font-size: 20pt;
+	color: #a10d09;
+}
+
+.linenumber {
+	float: right;
+	margin-right: -50px;
+}
+
+.milestone {
+	margin-left: -100px;
+}
+
+num {
+	font-variant: small-caps;
+}
+
+.anchor {
+	display: none;
+	float: left;
+	margin-left: -96px;
+	color: red;
+}
+
+.pb {
+	float: left;
+	color: #a10d09;
+	font-size: 11pt;
+}
+
+seg {
+	font-style: italic;
+}
+
+sic {
+	display: none;
+	color: red;
+}
+
+.Rajna {
+	color: red;
+}
+
+
+/* wraps around TEI and MS image */
+
+#TEI_reader {
+	width: 150%;
+	margin-top: 48px;
+	border: none;
+}
+
+#tei_wrapper {
+	margin-left: 35px !important;
+	height: 100% !important;
+	padding-bottom: 140px !important;
+}
+
+
+/* wraps around MS image */
+
+#side-panel {
+	margin-right: 150px;
+	margin-top: 48px;
+	margin-bottom: 47px;
+	float: right;
+	padding-top: 25px;
+	width: 39%;
+	border: groove 5px;
+}
+
+#ms-image-container {
+	margin: 1.5em auto 1.5em auto;
+	padding: .5em 1.5em 1.5em 1.5em;
+}
+
+#note-close {
+	float: left;
+	margin-top: -20px;
+	margin-left: 3px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+lg {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 100px;
+}
+
+#ms-image {
+	max-width: 100%;
+	height: auto;
+	border: 3px solid #5f0000;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: -1em;
+	-ms-interpolation-mode: bicubic;
+}
+
+/* CSS not yet organized */
+
+#reader-hr {
+	margin: 0.5em 0.5em 0 0;
+	margin-top: -2px;
+}
+
+#reader-center-div{
+	margin-left: 27%;
+}
+
+#image-reveal, #tei-reveal, #all-note-reveal{
+	display: inline;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#page-break {
+	padding-right: 40px;
+}
+
+#tei-embed-container {
+	display: none;
+}
+
+code, pre{
+	height: 500px;
+	width: 130%;
+	border: 1px solid #DDDDDD;
+	border-bottom-style: solid;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	margin: 1.5em auto 1.5em auto;
+	padding: .5em 1.5em 1.5em 1.5em;
+}
+
+#tei-embed{
+	font-size: inherit !important;
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+#tei-link-mobile{
+	display: none;
+}
+
+#note-header, #image-header, #tei-embed-header{
+	margin-bottom: 1em;
+}
+
+.divider{
+	display: none;
+}
+
+.mssPanel{
+height:100px;
+overflow-y: scroll;
+}
+
+/* Other CSS solutions */
+
+hi[rend="red-initial"]{
+	color: red;
+	font-size: 40px;
+}
+
+hi[rend="blue-initial"]{
+	color: blue;
+	font-size: 40px;
+}
+
+ex[rend="angle"]::after{
+	content: ">";
+}
+
+ex[rend="angle"]::before{
+	content: "<"
+}

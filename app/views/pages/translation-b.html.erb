@@ -1,0 +1,9 @@
+<% unless params.key?('edition') %>
+    <% @current_page = 'b_translation' %>
+    <% @current_page_short = 'b-trans' %>
+    <%= render 'layouts/manuscript_introduction' %>
+<% else %>
+    <% @current_page = 'b_translation' %>
+    <% @current_page_short = 'b-trans' %>
+    <%= render 'layouts/reading_interface' %>
+<% end %>
