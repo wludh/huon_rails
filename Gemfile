@@ -71,4 +71,8 @@ group :development do
   gem 'spring'
 end
 
+<<<<<<< HEAD
 gem 'travis'
+=======
+gem 'travis'
+>>>>>>> 0043285aff2dd9b2c554509ddf8cdfda3d2106c1
