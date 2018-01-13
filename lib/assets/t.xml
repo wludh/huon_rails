@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<?xml-model href="huon-schema-12192017.rnc" type="application/relax-ng-compact-syntax"?>
-=======
-<<<<<<< HEAD
-<?xml-model href="huon-schema-12192017.rnc" type="application/relax-ng-compact-syntax"?>
-=======
 <?xml-model href="huon-schema-10222017.rnc" type="application/relax-ng-compact-syntax"?>
->>>>>>> 0043285aff2dd9b2c554509ddf8cdfda3d2106c1
->>>>>>> 0cd37a4ce6358c378ad0ff897ca3530949cde5b7
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -5108,7 +5100,7 @@
                 <l n="3206">"Per fede," dize le donzele, "questo è bon cavalero; </l>
                 <l n="3207">ancha p<ex rend="italic">er</ex> besogno no·l vite ay puy soprano.</l>
                 <l n="3208">Quando el trova fortuna, ben se sa reparare, </l>
-                <l n="3209"><anchor resp="Rajna" n="3190"/><milestone n="1R" unit="fol."/>como à fato con questa bestia
+                <l n="3209"><anchor resp="Rajna" n="3190"/><milestone n="51R" unit="fol."/>como à fato con questa bestia
                     salvaza defora.</l>
                 <l n="3210">Eio medesma no·l credo zamay desmentegare,</l>
                 <l n="3211">e con luy à fato compagnia tuta y<ex rend="italic">n</ex>trega</l>
@@ -5210,7 +5202,7 @@
                 <l n="3285">Vite gran devision che <ex rend="italic">com</ex>predre non sa;</l>
                 <l n="3286">fina a la doman cosỳ demora.</l>
                 <l n="3287">El dize sova orazione, e po' se signa.</l>
-                <l n="3288"><milestone n="1R" unit="fol."/>Gran parte olde la vose mormorare p<ex
+                <l n="3288"><milestone n="52R" unit="fol."/>Gran parte olde la vose mormorare p<ex
                         rend="italic">er</ex> delà,</l>
                 <l n="3289"><anchor resp="Rajna" n="3270"/>mé ponto non l'entende; soa lengua non sa.</l>
                 <l n="3290">P<ex rend="italic">er</ex> vero el crede ben che bona cosa el sia;</l>
@@ -5256,7 +5248,7 @@
                 <l n="3324"><anchor resp="Rajna" n="3305"/>Quando el diavlo vite questo, el prese a cridare,</l>
                 <l n="3325">"Ay, zentil omo, tra·te un poco y<ex rend="italic">n</ex>dreto!</l>
                 <l n="3326">Quelo che tu ay y<ex rend="italic">n</ex> man non poso guardare;</l>
-                <l n="3327"><milestone n="1R" unit="fol."/> 52V) vuy me faty languire <ex
+                <l n="3327"><milestone n="52V" unit="fol."/>vuy me faty languire <ex
                         rend="italic">et</ex> y<ex rend="italic">n</ex> gran dolor stare."</l>
                 <l n="3328">Ugon responde, "Adoncha è tu uno de li malfatore</l>
                 <l n="3329"><anchor resp="Rajna" n="3310"/>che desendisty zossa? Non podite romanire!</l>
@@ -5273,7 +5265,7 @@
             </lg>
             <lg type="laisse" n="125">
                 <head>Laisse 125</head>
-                <l n="3339"><anchor resp="Rajna" n="3320"/><milestone n="1R" unit="fol."/> 53R)Lo conte el dise, "Chi è tu
+                <l n="3339"><anchor resp="Rajna" n="3320"/><milestone n="53R" unit="fol."/>Lo conte el dise, "Chi è tu
                         <ex rend="italic">et</ex> como à tu nome?" </l>
                 <l n="3340">Quilo responde, "Quanto sapere vò tu doncha,</l>
                 <l n="3341">veramente eio sonto de quily che piovono.</l>
@@ -5326,7 +5318,7 @@
                         >n</ex>tregy.</l>
                 <l n="3378">Unn-ora n'avisty ancora de reposo;</l>
                 <l n="3379"><anchor resp="Rajna" n="3360"/>diavolo requere; quỳ me pò atrovare,</l>
-                <l n="3380"><milestone n="1R" unit="fol."/> 53V) de zorno y<ex rend="italic">n</ex>
+                <l n="3380"><milestone n="53V" unit="fol."/>de zorno y<ex rend="italic">n</ex>
                     zorno senza y<ex rend="italic">n</ex>nanzo più andare."</l>
                 <l n="3381">Ugon responde, "Dé, tasy ti, aversario,</l>
                 <l n="3382">parte del to dire sono tute menzongne.</l>
@@ -5377,7 +5369,7 @@
                 <l n="3417">Lo loco era pericoloso ben nuy siemo arivà.</l>
                 <l n="3418">Ora andemo y<ex rend="italic">n</ex>nanzo, vederemo delà;</l>
                 <l n="3419"><anchor resp="Rajna" n="3400"/>posa lo miore party piaremo."</l>
-                <l n="3420"><milestone n="1R" unit="fol."/> 54R) A questa parola lo lion se mise
+                <l n="3420"><milestone n="54R" unit="fol."/>A questa parola lo lion se mise
                     ynanzo;</l>
                 <l n="3421">denanzo loro se mise, possa se sono y<ex rend="italic">n</ex>viade.</l>
                 <l n="3422">La montagna pasono, p<ex rend="italic">er</ex> la spelonca andone;</l>
@@ -5426,7 +5418,7 @@
                 <l n="3456">Mé sopra de my fala justizia e la razone;</l>
                 <l n="3457">Ay corazo de prodomo che eio non trovo campio<ex rend="italic"
                     >n</ex></l>
-                <l n="3458"><milestone n="1R" unit="fol."/> 54V) chi me defenda da le man d'un
+                <l n="3458"><milestone n="54V" unit="fol."/>chi me defenda da le man d'un
                     crudel omo</l>
                 <l n="3459"><anchor resp="Rajna" n="3440"/>p<ex rend="italic">er</ex>ché eio no<ex rend="italic">n</ex>
                     volio fare altro ch'al dovero.</l>
@@ -5439,7 +5431,7 @@
                         rend="italic">con</ex>trade</l>
                 <l n="3466">Mo vedite. Non mi fa altro cha male,</l>
                 <l n="3467">perch'el è traditore e molto felonne.</l>
-                <l n="3468"><milestone n="1R" unit="fol."/> 58R) Eio lo refuday como far dovemo;</l>
+                <l n="3468"><milestone n="58R" unit="fol."/>Eio lo refuday como far dovemo;</l>
                 <l n="3469"><anchor resp="Rajna" n="3450"/>e luy presse la parola sopra male y<ex rend="italic"
                     >n</ex>tenzione.</l>
                 <l n="3470">El sape tanto fare mia sorela ch'ela·l prese p<ex rend="italic">er</ex>
@@ -5501,7 +5493,7 @@
                 <l n="3506">Lo lion ge vene, e le donzele y<ex rend="italic">n</ex> presente,</l>
                 <l n="3507">che gran parte de la zente p<ex rend="italic">er</ex> luy se'n fuze.</l>
                 <l n="3508">Lo signore de la tera fo molto smarito,</l>
-                <l n="3509"><anchor resp="Rajna" n="3490"/><milestone n="1R" unit="fol."/> 58V) el dota del cavalero <ex
+                <l n="3509"><anchor resp="Rajna" n="3490"/><milestone n="58V" unit="fol."/>el dota del cavalero <ex
                         rend="italic">et</ex> del lion salvazo.</l>
                 <l n="3510">Ugon l'asegura che zà non dote ponto,</l>
                 <l n="3511">mé che a la justizia venese <ex rend="italic">et</ex> ascoltase</l>
@@ -5560,7 +5552,7 @@
             </lg>
             <lg type="laisse" n="132">
                 <head>Laisse 132</head>
-                <l n="3548"><milestone n="1R" unit="fol."/> 59R) "Ora te va armare," dize
+                <l n="3548"><milestone n="59R" unit="fol."/>"Ora te va armare," dize
                     lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex>, </l>
                 <l n="3549"><anchor resp="Rajna" n="3530"/>che quỳ y<ex rend="italic">n</ex>drito la verità dezeneremo.</l>
                 <l n="3550"> Non aver dotanza fora che de my, p<ex rend="italic">er</ex> zerto;</l>
@@ -5609,7 +5601,7 @@
                 <l n="3584"><anchor resp="Rajna" n="3565"/>Quele ovre da tute parte ben se sape, </l>
                 <l n="3585">como la dona fo venta e quelo fo sconfoduto.</l>
                 <l n="3586"> zascun dize, "Dio Macometo aida la rasone!</l>
-                <l n="3587"><milestone n="1R" unit="fol."/> 59V) Questo siè miraclo de cosse che
+                <l n="3587"><milestone n="59V" unit="fol."/>Questo siè miraclo de cosse che
                     sono perdute!"</l>
                 <l n="3588">Prendono soa dona e si l'ano molto ben revestita,</l>
                 <l n="3589"><anchor resp="Rajna" n="3570"/>a ley àno tuta soa fede ben prometuda,</l>
@@ -5660,7 +5652,7 @@
                 <l n="3625">pagon li <ex rend="italic">con</ex>forta e molto li dona baldanza.</l>
                 <l n="3626">"Farite quelo ch'eio dirò p<ex rend="italic">er</ex> lo vostro
                     miore;</l>
-                <l n="3627"><milestone n="1R" unit="fol."/> 60R) eio romarò quỳ p<ex rend="italic"
+                <l n="3627"><milestone n="60R" unit="fol."/>eio romarò quỳ p<ex rend="italic"
                         >er</ex> vostro avocato,</l>
                 <l n="3628">e a bona fede ve prendo amarve p<ex rend="italic">er</ex> amore."</l>
                 <l n="3629"><anchor resp="Rajna" n="3610"/>"Nuy siamo presty de s<ex rend="italic">er</ex>irve a tuty
@@ -5709,7 +5701,7 @@
                 <l n="3663">credite y<ex rend="italic">n</ex> luy tuty de bona fede,</l>
                 <l n="3664"><anchor resp="Rajna" n="3645"/>et y<ex rend="italic">n</ex> soa madre <ex rend="italic">et</ex>
                         y<ex rend="italic">n</ex> lor santy apresso.</l>
-                <l n="3665"><milestone n="1R" unit="fol."/> 60V) Tenite l'un l'altro e si
+                <l n="3665"><milestone n="60V" unit="fol."/>Tenite l'un l'altro e si
                     v'amate;</l>
                 <l n="3666">tuty cosỳ como fradely posa si se salvate."</l>
                 <l n="3667">Loro respondero che così farano,</l>
@@ -5759,7 +5751,7 @@
                 <l n="3701">se de costoro yustiza alcuna y<ex rend="italic">n</ex> farà.</l>
                 <l n="3702">Ancora pò essere che pezor serà:</l>
                 <l n="3703"><anchor resp="Rajna" n="3685"/>cristiany sono ancora; gran ben far porano.</l>
-                <l n="3704"><milestone n="1R" unit="fol."/> 61R) Si sono pechadory, ancora mendar
+                <l n="3704"><milestone n="61R" unit="fol."/>Si sono pechadory, ancora mendar
                     porano,</l>
                 <l n="3705">ancora p<ex rend="italic">er</ex> loro cristianità se asalterà.</l>
                 <l n="3706">Alora se pensa che un de loro signore el farà,</l>
@@ -5812,7 +5804,7 @@
                 <l n="3740">Apreso manzare, le tavole se levà; </l>
                 <l n="3741">Ugon lo <ex rend="italic">con</ex>te apreso li rasona.</l>
                 <l n="3742">De molte bele parole dito li à.</l>
-                <l n="3743"><milestone n="1R" unit="fol."/> 61V) Tanto feze lo <ex rend="italic"
+                <l n="3743"><milestone n="61V" unit="fol."/>Tanto feze lo <ex rend="italic"
                         >con</ex>te <ex rend="italic">con</ex> la dona</l>
                 <l n="3744"><anchor resp="Rajna" n="3725"/>che la raina de la tera li prometea</l>
                 <l n="3745">de obedire zò che a luy piaserà,</l>
@@ -5863,7 +5855,7 @@
                 <l n="3779"><anchor resp="Rajna" n="3760"/>"Vedite queste done ch'(a)my neson signore?</l>
                 <l n="3780">Che lo veuoiano <ex rend="italic">con</ex>tare la ventura de loro,</l>
                 <l n="3781">de gran piatà ve tenerirà lo coro.</l>
-                <l n="3782"><milestone n="1R" unit="fol."/> 62R) L'una siè raina de Tarsia, <ex
+                <l n="3782"><milestone n="62" unit="fol."/>L'una siè raina de Tarsia, <ex
                         rend="italic">et</ex> da ley aperte l'onore;</l>
                 <l n="3783">l'altra siè <ex rend="italic">con</ex>tesa grande tere dentorno;</l>
                 <l n="3784"><anchor resp="Rajna" n="3765"/>molto s'amano y<ex rend="italic">n</ex>trambe p<ex rend="italic"
@@ -5914,7 +5906,7 @@
                 <l n="3819"><anchor resp="Rajna" n="3800"/>La questione era como ve dirò amantenente:</l>
                 <l n="3820">lor signore era morto tuto novelamente,</l>
                 <l n="3821">e li baron volevano alezere un signore a so talente.</l>
-                <l n="3822"><milestone n="1R" unit="fol."/> 62V) E lo populo no·l voleva <ex
+                <l n="3822"><milestone n="62V" unit="fol."/> E lo populo no·l voleva <ex
                         rend="italic">con</ex>sentire p<ex rend="italic">er</ex> niente;</l>
                 <l n="3823">ancha volevano che la tera romanesse comuna.</l>
                 <l n="3824"><anchor resp="Rajna" n="3805"/>Questa era la tenzon p<ex rend="italic">er</ex>ché loro se vano
@@ -5972,7 +5964,7 @@
             </lg>
             <lg type="laisse" n="143">
                 <head>Laisse 143</head>
-                <l n="3861"><milestone n="1R" unit="fol."/> 63R) Lo populo guarda la dona
+                <l n="3861"><milestone n="63R" unit="fol."/>Lo populo guarda la dona
                     e lo cavalero</l>
                 <l n="3862">e lo lion chy pare esere molto fero.</l>
                 <l n="3863">A tuty loro pare ch'el se vorà mesedere.</l>
@@ -5985,7 +5977,7 @@
                 <l n="3870">A una vose comenzono tuty loro a cridare,</l>
                 <l n="3871">"A vy volemo del tuto credere;</l>
                 <l n="3872">"comandaty a nuy, tuty lo faremo volontera."</l>
-                <l n="3873"><milestone n="1R" unit="fol."/> 63V) Lo <ex rend="italic">con</ex>te
+                <l n="3873"><milestone n="63V" unit="fol."/>Lo <ex rend="italic">con</ex>te
                     responde, "Se vuy me volite amare</l>
                 <l n="3874"><anchor resp="Rajna" n="3855"/>Trevigante e Macometo ve coventa lasare</l>
                 <l n="3875">che vostra leze non vale un sol dinare</l>
@@ -6034,7 +6026,7 @@
                 <l n="3910">che le bone ovre l'insignà.</l>
                 <l n="3911">E posa y<ex rend="italic">n</ex> loco de presente la dona marida:</l>
                 <l n="3912">a un fiolo de Sanson, Ansise, la dona.</l>
-                <l n="3913"><milestone n="1R" unit="fol."/> 64R) E tuta la zente fedelità a luy
+                <l n="3913"><milestone n="64R" unit="fol."/>E tuta la zente fedelità a luy
                     zura;</l>
                 <l n="3914"><anchor resp="Rajna" n="3895"/>yusto omo asay da ora y<ex rend="italic">n</ex>nanzo
                     s'atrova.</l>
@@ -6093,7 +6085,7 @@
                 <l n="3952">che a la leze verase se sono mantenude.</l>
                 <l n="3953">L'uno siè l'i<ex rend="italic">n</ex>perio de Jerosalem,</l>
                 <l n="3954"><anchor resp="Rajna" n="3935"/>e tute quele tere che a luy pende;</l>
-                <l n="3955"><milestone n="1R" unit="fol."/> 64V) l'altra siè Nobia, una tera moto
+                <l n="3955"><milestone n="64V" unit="fol."/> l'altra siè Nobia, una tera moto
                     grande </l>
                 <l n="3956">chi aveon chastele e molte achasame<ex rend="italic">n</ex>te.</l>
                 <l n="3957">L'altro siè lo regno de Tarsia l'avinante;</l>
@@ -6147,7 +6139,7 @@
                     Sanson;</l>
                 <l n="3994"><anchor resp="Rajna" n="3975"/>como el prese a guardare, lor come<ex rend="italic">n</ex>zano a
                     ferire.</l>
-                <l n="3995"><milestone n="1R" unit="fol."/> 65R) Lor sono venuty y<ex rend="italic"
+                <l n="3995"><milestone n="65R" unit="fol."/>Lor sono venuty y<ex rend="italic"
                         >n</ex>semele a ferire, le criderano a sele.</l>
                 <l n="3996">L'un core sopra l'altro senza restare;</l>
                 <l n="3997">de gran colpy l'un l'altro se dona,</l>
@@ -6202,7 +6194,7 @@
                 <l n="4036">El vene y<ex rend="italic">n</ex>nanzo p<ex rend="italic">er</ex> lo
                     campo abandone,</l>
                 <l n="4037">batando e ferando quily che lor trovano;</l>
-                <l n="4038"><milestone n="1R" unit="fol."/> 65V) asay ne fo morty <ex rend="italic"
+                <l n="4038"><milestone n="65V" unit="fol."/>asay ne fo morty <ex rend="italic"
                         >et</ex> asay y<ex rend="italic">n</ex> fuzia.</l>
                 <l n="4039"><anchor resp="Rajna" n="4020"/>Tuta la roba del campo lasono,</l>
                 <l n="4040">e quily de la zità zà fora venuty sono</l>
@@ -6220,7 +6212,7 @@
                 <l n="4048">li cavalery trovano. Belamente li saluda:</l>
                 <l n="4049"><anchor resp="Rajna" n="4030"/>"Signory, queste robe sono salvade,</l>
                 <l n="4050">che p<ex rend="italic">er</ex> vuy avemo la vetoria venta,</l>
-                <l n="4051"><milestone n="1R" unit="fol."/> 66R) che nostro signore è morto,
+                <l n="4051"><milestone n="66R" unit="fol."/>che nostro signore è morto,
                     Machometo li p<ex rend="italic">er</ex>done.</l>
                 <l n="4052">La tera e l'onore a vuy sera renduta,</l>
                 <l n="4053">ora comandate a nuy; ben serite obedito;</l>
@@ -6276,7 +6268,7 @@
                 <l n="4088">L'entrada li dona, soy omeny veneano,</l>
                 <l n="4089"><anchor resp="Rajna" n="4070"/>e sposa la dona che tute le tere li apende,</l>
                 <l n="4090">che fiola fo del signore chy moria.</l>
-                <l n="4091"><milestone n="1R" unit="fol."/> 66V) La cità lo <ex rend="italic"
+                <l n="4091"><milestone n="66V" unit="fol."/>La cità lo <ex rend="italic"
                         >con</ex>te a Sanson la donava,</l>
                 <l n="4092">ch'el fo prodomo, e savio, e ben la mantenea:</l>
                 <l n="4093">luy amava yustizia e bon <ex rend="italic">con</ex>seio tenea.</l>
@@ -6329,7 +6321,7 @@
                 <l n="4128">Como alegra faza el levò el viso</l>
                 <l n="4129"><anchor resp="Rajna" n="4110"/>dize a Sanson, "Ora y<ex rend="italic">n</ex>tendite, dolze
                     amigo,</l>
-                <l n="4130"><milestone n="1R" unit="fol."/> 67R) pensate d'esere prodomo a Dio <ex
+                <l n="4130"><milestone n="67R" unit="fol."/>pensate d'esere prodomo a Dio <ex
                         rend="italic">et</ex> a lor servisio.</l>
                 <l n="4131">Amate yustizia <ex rend="italic">et</ex> lialtà altresie,</l>
                 <l n="4132">piatoso siate y<ex rend="italic">n</ex> vostre rasone e caritevele.</l>
@@ -6386,7 +6378,7 @@
                 <l n="4169"><anchor resp="Rajna" n="4150"/>Quelo lo rengrazia, dizendo che ben el mantirà: </l>
                 <l n="4170">"De questo abio ben lo coro e·l volere."</l>
                 <l n="4171">Lo <ex rend="italic">con</ex>te li signà; tuty li prese a benedire</l>
-                <l n="4172"><milestone n="1R" unit="fol."/> 67V) dizendo a tuty, "Dio ve done lo
+                <l n="4172"><milestone n="67V" unit="fol."/> dizendo a tuty, "Dio ve done lo
                     podere."</l>
             </lg>
             <lg type="laisse" n="156">
@@ -6447,7 +6439,7 @@
                 <l n="4213">Reposar voleno, che più zorny caminà $s*o$n*o</l>
                 <l n="4214"><anchor resp="Rajna" n="4195"/>ch'el nave reposò p<ex rend="italic">er</ex>ché el fo y<ex
                         rend="italic">n</ex> fortuna.</l>
-                <l n="4215"><milestone n="1R" unit="fol."/> 68R) Del grande omezido che y<ex
+                <l n="4215"><milestone n="68R" unit="fol."/>Del grande omezido che y<ex
                         rend="italic">n</ex> Capetozia sono</l>
                 <l n="4216">non sapea ben la cossa como era doncha, </l>
                 <l n="4217">quily chi sono venzidore, né quily che p<ex rend="italic"
@@ -6514,7 +6506,7 @@
                 <l n="4257">Dio padre li <ex rend="italic">con</ex>serve, da che vene tuty y
                     bene."</l>
                 <l n="4258">Quando li mercadante oldeno la parola, ascoltano.</l>
-                <l n="4259"><anchor resp="Rajna" n="4240"/><milestone n="1R" unit="fol."/> 68V) "Che dite vy de quelo bon
+                <l n="4259"><anchor resp="Rajna" n="4240"/><milestone n="68V" unit="fol."/>"Che dite vy de quelo bon
                     regname</l>
                 <l n="4260">chi aza fato questo? Lì g'era .X. re,</l>
                 <l n="4261">senza .II. soldan chi lì erano acampate,</l>
@@ -6577,7 +6569,7 @@
                 <l n="4300">el te coventa pur pecare molte e sovente.</l>
                 <l n="4301">Zoè, soa fede dè esere del tuto repentente:</l>
                 <l n="4302">dè guardarse et amare Dio onipotente</l>
-                <l n="4303"><milestone n="1R" unit="fol."/> 69R) et amendare s'el poy coloy
+                <l n="4303"><milestone n="69R" unit="fol."/>et amendare s'el poy coloy
                     rialmente.</l>
                 <l n="4304"><anchor resp="Rajna" n="4285"/>Mé coluy che y<ex rend="italic">n</ex> mal zorno e note va pur
                     pensando</l>
@@ -6631,7 +6623,7 @@
                 <l n="4343">Altry vende, altry canta como sono acostumà.</l>
                 <l n="4344"><anchor resp="Rajna" n="4325"/>Quando questo vite lo <ex rend="italic">con</ex>te si à soa fé
                     zurà</l>
-                <l n="4345"><milestone n="1R" unit="fol."/> 69V) tute altre tere sono fora queste
+                <l n="4345"><milestone n="69V" unit="fol."/>tute altre tere sono fora queste
                     vanità.</l>
             </lg>
             <lg type="laisse" n="163">
@@ -6693,7 +6685,7 @@
             </lg>
             <lg type="laisse" n="165">
                 <head>Laisse 165</head>
-                <l n="4386"><milestone n="1R" unit="fol."/> 70R) Ugo<ex rend="italic"
+                <l n="4386"><milestone n="70R" unit="fol."/>Ugo<ex rend="italic"
                         >n</ex> intrò y<ex rend="italic">n</ex> la glesia, possa se guarda y<ex
                         rend="italic">n</ex>torno. </l>
                 <l n="4387">La giesia era tuta piena de <ex rend="italic">con</ex>te ch'el vede
@@ -6705,7 +6697,7 @@
                 <l n="4391">chy parlano de dire l'ofizio y<ex rend="italic">n</ex>tra loro.</l>
                 <l n="4392">Tuty guardono quando viteno lo <ex rend="italic">con</ex>te;</l>
                 <l n="4393">dize l'uno a l'altro: "Donda pò venire questo omo de valore?"</l>
-                <l n="4394"><anchor resp="Rajna" n="4375"/><milestone n="1R" unit="fol."/> 70V) Quando zò viteno, Ugo, lo
+                <l n="4394"><anchor resp="Rajna" n="4375"/><milestone n="70V" unit="fol."/>Quando zò viteno, Ugo, lo
                     noble ambasadore,</l>
                 <l n="4395">davante a soy pedy s'enzinochia senza demoro, </l>
                 <l n="4396">possa dize a luy <ex rend="italic">con</ex> gran voze altane:</l>
@@ -6765,7 +6757,7 @@
             <lg type="laisse" n="167">
                 <head>Laisse 167</head>
                 <l n="4437">"Ay, signore, y<ex rend="italic">n</ex>tendite∙me, </l>
-                <l n="4438"><milestone n="1R" unit="fol."/> 71R) de mey pechaty, che eio azo fato de
+                <l n="4438"><milestone n="71R" unit="fol."/>de mey pechaty, che eio azo fato de
                     zorno y<ex rend="italic">n</ex> zorno:</l>
                 <l n="4439"><anchor resp="Rajna" n="4420"/>ancha mazor pechadore non è de my, zò chredo". </l>
                 <l n="4440">"Possa azo Dio y<ex rend="italic">n</ex> lo coro mio, ben crede eio,</l>
@@ -6823,7 +6815,7 @@
                 <l n="4478">lazate andare che questo sono penser vanne; </l>
                 <l n="4479"><anchor resp="Rajna" n="4560"/>eio ve∙l dico da ora y<ex rend="italic">n</ex>nanzo,</l>
                 <l n="4480">questo non è y<ex rend="italic">m</ex>posible del tuto a omo teren."</l>
-                <l n="4481"><milestone n="1R" unit="fol."/> 71V) Tuto a questo sape respondere lo
+                <l n="4481"><milestone n="71V" unit="fol."/>Tuto a questo sape respondere lo
                     baron.</l>
                 <l n="4482">Alora s'enclina e dizò: "Homo altan,</l>
                 <l n="4483">de zò che vuy dite, mile merzede ve∙n rendo.</l>
@@ -6881,7 +6873,7 @@
                 <head>Laisse 171</head>
                 <l n="4526">Prete Yane al <ex rend="italic">con</ex>te belamente
                     responde: </l>
-                <l n="4527"><milestone n="1R" unit="fol."/> 72R) "Non dotate ponto, ch<ex
+                <l n="4527"><milestone n="72R" unit="fol."/>"Non dotate ponto, ch<ex
                         rend="italic">e</ex> bon albergo averemo."</l>
                 <l n="4528">Apreso manzare se lavono e beveno,</l>
                 <l n="4529"><anchor resp="Rajna" n="4510"/>possa a loro (despone) l'aventure despone</l>
@@ -6943,7 +6935,7 @@
                 <l n="4569"><anchor resp="Rajna" n="4550"/>Romanite vuy quỳ, vuy serite gran signore,</l>
                 <l n="4570">compagno vuy serite del grande y<ex rend="italic">m</ex>peradore."</l>
                 <l n="4571">Quelo lo rengrazia a lagremare <ex rend="italic">et</ex> da plurare, </l>
-                <l n="4572"><milestone n="1R" unit="fol."/> 72V) molto se umilia li bero y<ex
+                <l n="4572"><milestone n="72V" unit="fol."/> molto se umilia li bero y<ex
                         rend="italic">n</ex>versso de lor:</l>
                 <l n="4573">"Zà no<ex rend="italic">n</ex> posso stare," cosỳ dize el <ex
                         rend="italic">con</ex>te,</l>
@@ -7000,7 +6992,7 @@
                 <l n="4613">e y<ex rend="italic">n</ex> la fin che li preste soa benedizion li
                     renda.</l>
                 <l n="4614"><anchor resp="Rajna" n="4595"/>E quỳ lasaremo de Ugo un pocho alquanto,</l>
-                <l n="4615"><milestone n="1R" unit="fol."/> 73R) e diremo de Carlo Martelo lo
+                <l n="4615"><milestone n="73R" unit="fol."/>e diremo de Carlo Martelo lo
                     posente,</l>
                 <l n="4616">che y<ex rend="italic">n</ex>verso lo <ex rend="italic">con</ex>te el
                     tene ovra e tormento</l>
@@ -7057,7 +7049,7 @@
                 <l n="4653">e∙l befon Sandyn (luy <ex rend="italic">con</ex> el verso davante).</l>
                 <l n="4654"><anchor resp="Rajna" n="4635"/>A Ynida mandò p<ex rend="italic">er</ex> letre scrite </l>
                 <l n="4655">e così a bocha senza nula tardamento </l>
-                <l n="4656"><milestone n="1R" unit="fol."/> 73V) ch'ela vegna a corte, da luy averà
+                <l n="4656"><milestone n="73V" unit="fol."/>ch'ela vegna a corte, da luy averà
                     bona guarda;</l>
                 <l n="4657">desopra l'anima soa l'à tolta da ora y<ex rend="italic">n</ex>nante </l>
                 <l n="4658">Ch'ela porà fare tuto zò che li virà a talente;</l>
@@ -7110,7 +7102,7 @@
                 <l n="4694"><anchor resp="Rajna" n="4675"/>"Rugero," dize, "andate! Vuy avite bon rason,</l>
                 <l n="4695">che nemizi site del mio signore Ugon.</l>
                 <l n="4696">Ora ve partite amantinente de questo <ex rend="italic">con</ex>torno, </l>
-                <l n="4697"><milestone n="1R" unit="fol."/> 74R) e retornaty al vostro signore
+                <l n="4697"><milestone n="74R" unit="fol."/>e retornaty al vostro signore
                     Carlone,</l>
                 <l n="4698">zamay non tornaty y<ex rend="italic">n</ex> questo paiesse</l>
                 <l n="4699"><anchor resp="Rajna" n=""/><anchor resp="Rajna" n="4680"/>p<ex rend="italic">er</ex> si fate ovre ne p<ex rend="italic"
@@ -7170,7 +7162,7 @@
                 <l n="4735"><anchor resp="Rajna" n="4715"/>Se vuy me <ex rend="italic">con</ex>tentady, non faty più demoro </l>
                 <l n="4736">d'andare p<ex rend="italic">er</ex> la dona del <ex rend="italic"
                         >con</ex>te Ugone."</l>
-                <l n="4737"><milestone n="1R" unit="fol."/> 74V) L'arcevescovo de Maganza feze
+                <l n="4737"><milestone n="74V" unit="fol."/>L'arcevescovo de Maganza feze
                     sembiante de pluro,</l>
                 <l n="4738">Dizendo, "Ay, Dio de gloria, veraze Criatore, </l>
                 <l n="4739">non fo zamay al mondo più natural signore!</l>
@@ -7196,7 +7188,7 @@
                 <l n="4753">che quela dona tropo l'à seno asentita."</l>
                 <l n="4754">Alora lo re suo anelo li avè donato, </l>
                 <l n="4755"><anchor resp="Rajna" n="4735"/>e la magna corona onda el fo y<ex rend="italic">n</ex>(co)ronato. </l>
-                <l n="4756"><milestone n="1R" unit="fol."/> 75R) "Signore," dize lo re, "vuy dire
+                <l n="4756"><milestone n="75R" unit="fol."/>"Signore," dize lo re, "vuy dire
                     ben podite</l>
                 <l n="4757">ch<ex rend="italic">e</ex> questo siè el cor mie che vuy li portate. </l>
                 <l n="4758">Nonn-è niente al mondo che a so piasere non sia,</l>
@@ -7251,7 +7243,7 @@
                 <l n="4793">"E la gente è batezà, a nostra leze è tornata.</l>
                 <l n="4794">Fare el voleano re la zente grande e menuta,</l>
                 <l n="4795">(4775) e de la terena gloria prendisty l'àn restudo, </l>
-                <l n="4796"><milestone n="1R" unit="fol."/> 75V) che p<ex rend="italic">er</ex> suo
+                <l n="4796"><milestone n="75V" unit="fol."/>che p<ex rend="italic">er</ex> suo
                     amore tuta Soria è movesta, </l>
                 <l n="4797">Grezie <ex rend="italic">et</ex> Turchy e Baldachy <ex rend="italic"
                         >et</ex> la Valesoa,</l>
@@ -7311,7 +7303,7 @@
                 <l n="4834">dizendo, "Ay, lasa! Che faray? P<ex rend="italic">er</ex>duto ay el
                     $mio* signore</l>
                 <l n="4835">(4815) ch'el se'n va p<ex rend="italic">er</ex> my, topina pecadora! </l>
-                <l n="4836"><milestone n="1R" unit="fol."/> 76R) Se non coluy che tardy farà so
+                <l n="4836"><milestone n="76R" unit="fol."/>Se non coluy che tardy farà so
                     retorno,</l>
                 <l n="4837">et eio morirò p<ex rend="italic">er</ex> luy a mal tormento."</l>
                 <l n="4838">Alora se crite spasimare; è tramorta <ex rend="italic">con</ex>
@@ -7368,7 +7360,7 @@
                 <l n="4873">vestita de negro e piatosa e onesta</l>
                 <l n="4874">de caldo avea l'animo e la p<ex rend="italic">er</ex>sona tuta;</l>
                 <l n="4875">(4855) lo pelegry ancora non era de li movesto.</l>
-                <l n="4876"><milestone n="1R" unit="fol."/> 76V) dezà vene parlamento de dolorose
+                <l n="4876"><milestone n="76V" unit="fol."/>dezà vene parlamento de dolorose
                     feste:</l>
                 <l n="4877">Rugero comenza, chi à molto gran podestà.</l>
                 <l n="4878">"Quelo Sire de gloria, da chi tuty y ben s'aprestà,</l>
@@ -7432,7 +7424,7 @@
                 <head>Laisse 196</head>
                 <l n="4915">(4895)Dize Belenzero, "Dona, y<ex rend="italic"
                     >n</ex>tendite zò che di roy.</l>
-                <l n="4916"><milestone n="1R" unit="fol."/> 77R) L'emperadore che quỳ nuy si n'ay
+                <l n="4916"><milestone n="77R" unit="fol."/>L'emperadore che quỳ nuy si n'ay
                     mandato</l>
                 <l n="4917">p<ex rend="italic">er</ex> vuy onorare, dona. Se a vy piazeray,</l>
                 <l n="4918">tra quỳ o in Franza, como a vy piazerae,</l>
@@ -7492,7 +7484,7 @@
                     mantene</l>
                 <l n="4955">(4935) vuy avite p<ex rend="italic">er</ex> vuy tramiso, <ex
                         rend="italic">et</ex> zò e my y<ex rend="italic">n</ex>seme siemo.</l>
-                <l n="4956"><milestone n="1R" unit="fol."/> 77V) Quando vuy li <ex rend="italic"
+                <l n="4956"><milestone n="77V" unit="fol."/>Quando vuy li <ex rend="italic"
                         >con</ex>trariarite, molto poria tornare y<ex rend="italic">n</ex> pena;</l>
                 <l n="4957">non è miga lo re muto ne stulto.</l>
                 <l n="4958">Questa è grande meravia, p<ex rend="italic">er</ex> lo vero Dio;</l>
@@ -7551,7 +7543,7 @@
                 <l n="4993">"Ugero, fato è lo formento malvase, e la stopia.</l>
                 <l n="4994">Quando volite sapere lo sacreto p<ex rend="italic">er</ex> vero,</l>
                 <l n="4995">(4975) avite vuy adoncha puro cos a gaba, meschino,</l>
-                <l n="4996"><milestone n="1R" unit="fol."/> 78R) che el mio core non conosse el vero
+                <l n="4996"><milestone n="78R" unit="fol."/>che el mio core non conosse el vero
                     del rio∙n bene?</l>
                 <l n="4997">Non sonto ponto nodriga y<ex rend="italic">n</ex> bene né y<ex
                         rend="italic">n</ex> galdere: </l>
@@ -7610,7 +7602,7 @@
                 <l n="5034">Molto fu fino l'arceveschovo, <ex rend="italic">et</ex> avea
                         gra<ex rend="italic">n</ex> sienzia; </l>
                 <l n="5035">molto dolzemente suo s<ex rend="italic">er</ex>mon comenza.</l>
-                <l n="5036">(5015)<milestone n="1R" unit="fol."/> 78V) Li ochy versso Dio leva como
+                <l n="5036">(5015)<milestone n="78V" unit="fol."/>Li ochy versso Dio leva como
                     una demostranza </l>
                 <l n="5037">che l'anima del corpo dovese fare demostranza de partire,</l>
                 <l n="5038">dizendo, "Ay verasse sire, da che tuty y ben achomenza,</l>
@@ -7664,7 +7656,7 @@
                 <l n="5073">omay <ex rend="italic">com</ex>plisse senza più tenire</l>
                 <l n="5074">lo volere de costuy grande <ex rend="italic">Con</ex>stantino.</l>
                 <l n="5075">Avrite la porta del piatoso zardino,</l>
-                <l n="5076"><milestone n="1R" unit="fol."/> 79R) (5055) omay metite la triache onda
+                <l n="5076"><milestone n="79R" unit="fol."/> (5055) omay metite la triache onda
                     sta lo venino!</l>
                 <l n="5077">Vedite Guy, Tomaso <ex rend="italic">et</ex> ancora Baldovino,</l>
                 <l n="5078">Girardo lo pro e Terise et Elie,</l>
@@ -7719,7 +7711,7 @@
                 <l n="5114">Sandin fo savio et y<ex rend="italic">n</ex>zigno pien; </l>
                 <l n="5115">(5095) "Tomaso," dize, "el conosco p<ex rend="italic">er</ex>
                     zertanza,</l>
-                <l n="5116"><milestone n="1R" unit="fol."/> 79V) che vuy amate el re lialmente.</l>
+                <l n="5116"><milestone n="79V" unit="fol."/>che vuy amate el re lialmente.</l>
                 <l n="5117">mò pregate vostra sorela dolzemente</l>
                 <l n="5118">che de lo re faza el suo <ex rend="italic">com</ex>mandamento.</l>
                 <l n="5119">Y<ex rend="italic">n</ex>n-altramente ve dicho p<ex rend="italic"
@@ -7770,7 +7762,7 @@
                 <l n="5154">Recevite l'anima mia chi è y<ex rend="italic">n</ex> questo vaselo,</l>
                 <l n="5155">(5135) azo che p<ex rend="italic">er</ex> my, cativa, non sia a <ex
                         rend="italic">con</ex>fusione!</l>
-                <l n="5156"><milestone n="1R" unit="fol."/> 80R) Avante voria esere y<ex
+                <l n="5156"><milestone n="80R" unit="fol."/>Avante voria esere y<ex
                         rend="italic">n</ex> fogo et y<ex rend="italic">n</ex> carbone,</l>
                 <l n="5157">veramente pendere con se fa a li ladrone,</l>
                 <l n="5158">che del mio signore fase ne pensase tradimente."</l>
@@ -7785,7 +7777,7 @@
                 <l n="5164">Avante ch<ex rend="italic">e</ex> y duy salmy foseno y<ex rend="italic"
                         >n</ex> gloria dite</l>
                 <l n="5165">(5145) tanto se fere Ynida, e ta$n*to se bate,</l>
-                <l n="5166"><milestone n="1R" unit="fol."/> 80V) o vole o no, spasimada siè
+                <l n="5166"><milestone n="80V" unit="fol."/>o vole o no, spasimada siè
                     chaduta.</l>
                 <l n="5167">Tobia la guardò, gran dobitanza n'avè;</l>
                 <l n="5168">asay done vene; ochy né bocha non sente.</l>
@@ -7838,7 +7830,7 @@
             <lg type="laisse" n="209">
                 <head>Laisse 209</head>
                 <l n="5205">(5185) Lo cavalero con bassa lochela</l>
-                <l n="5206"><milestone n="1R" unit="fol."/> 81R) dize a Ynida, "Ma bela damasela, </l>
+                <l n="5206"><milestone n="81R" unit="fol."/>dize a Ynida, "Ma bela damasela, </l>
                 <l n="5207">sempre al re suo volere non li consentire,</l>
                 <l n="5208">e reguarda ben tuto p<ex rend="italic">er</ex> la Vergene polzela</l>
                 <l n="5209">de non fare cossa desonesta ny fela,</l>
@@ -7893,7 +7885,7 @@
             </lg>
             <lg type="laisse" n="211">
                 <head>Laisse 211</head>
-                <l n="5247"><milestone n="1R" unit="fol."/> 81V) Lo zorno fo chiaro et
+                <l n="5247"><milestone n="81V" unit="fol."/>Lo zorno fo chiaro et
                     l'aira serena, </l>
                 <l n="5248">el sole spandea per la pianura.</l>
                 <l n="5249">(5230) Baldovino e Tomasso, e Berardo <ex rend="italic">et</ex> Uliane </l>
@@ -7947,7 +7939,7 @@
                 <l n="5285">y<ex rend="italic">n</ex>n-astante se leva p<ex rend="italic">er</ex>
                     suo volere y<ex rend="italic">n</ex>zignere.</l>
                 <l n="5286">Piatossa <ex rend="italic">et</ex> onesta chomenza a rengraziare</l>
-                <l n="5287"><milestone n="1R" unit="fol."/> 82R) lo re de Franzia et chi l'avè
+                <l n="5287"><milestone n="82R" unit="fol."/>lo re de Franzia et chi l'avè
                     asegurato:</l>
                 <l n="5288">"Quando si alta ambasà luy se digna de mandar-me,</l>
                 <l n="5289">(5270) honorato y<ex rend="italic">n</ex> seria Dido, che de casa
@@ -7995,7 +7987,7 @@
                 <l n="5324">Dio aviste da mia parte, che più l'averà biasemato,</l>
                 <l n="5325">(5305) quando el nostro signore vuy e my e vuy l'abiate aità." </l>
                 <l n="5326">"Sire," dize Ynida, "guardate che torto avite</l>
-                <l n="5327"><milestone n="1R" unit="fol."/> 82V) quando contra lo vero coss me
+                <l n="5327"><milestone n="82V" unit="fol."/>quando contra lo vero coss me
                     biasemate,</l>
                 <l n="5328">che più amo mio onore che criatura nata.</l>
                 <l n="5329">Gran pezo vezo mio volere desbratado</l>
@@ -8048,7 +8040,7 @@
                 <l n="5365">(5345) "Dona," zò dise Sandin "ch'è zò che vuy dite?</l>
                 <l n="5366">Non sapite vuy che <ex rend="italic">con</ex>tra amore, posa<ex
                         rend="italic">n</ex>za nula aver posite?</l>
-                <l n="5367"><milestone n="1R" unit="fol."/> 83R) Una cossa ve diroy, nol tenite
+                <l n="5367"><milestone n="83R" unit="fol."/>Una cossa ve diroy, nol tenite
                     miga a gabare,</l>
                 <l n="5368">non andarave p<ex rend="italic">er</ex> Tomasso, chi è liale e drito e
                     bone,</l>
@@ -8103,7 +8095,7 @@
                 <l n="5404">che tuty ly baron feze venire apresso luy.</l>
                 <l n="5405">(5385) (A) zentile Ynida, e tuty y altry, à zò dito: </l>
                 <l n="5406"> "Signori," dize, "el non pò esere falito,</l>
-                <l n="5407"><milestone n="1R" unit="fol."/> 83V) che lo coro zentile n'abia piatà
+                <l n="5407"><milestone n="83V" unit="fol."/>che lo coro zentile n'abia piatà
                         y<ex rend="italic">n</ex> luy,</l>
                 <l n="5408">quando il fala sovente à remetuto</l>
                 <l n="5409">y<ex rend="italic">n</ex> quela mainera poy avere merito renduta</l>
@@ -8155,7 +8147,7 @@
             </lg>
             <lg type="laisse" n="219">
                 <head>Laisse 219</head>
-                <l n="5447"><milestone n="1R" unit="fol."/> 84R) (S)i dize a Sandin che
+                <l n="5447"><milestone n="84R" unit="fol."/>(S)i dize a Sandin che
                     "Molty site fele!" </l>
                 <l n="5448">A la dona vene e avea serà soto suo mantelo,</l>
                 <l n="5449">ch'el aveva la coreza e la corona e li anele.</l>
@@ -8167,7 +8159,7 @@
                 <l n="5454">Lo mantelo leva, et a Tomasso feze apela,</l>
                 <l n="5455">(5435) e dize, "Guardate, sire, credetu che sia si fantinelo? </l>
                 <l n="5456">Perché non satu, che eio pa<ex rend="italic">r</ex>la sỳ ysnielo? </l>
-                <l n="5457"><milestone n="1R" unit="fol."/> 84V) Ora prendite, dona Ynida, s'el ve
+                <l n="5457"><milestone n="84V" unit="fol."/>Ora prendite, dona Ynida, s'el ve
                     piaze niente;</l>
                 <l n="5458">non fo tal don al tempo d'Issmello,</l>
                 <l n="5459">che più vale le prede e anilia y robine</l>
@@ -8222,7 +8214,7 @@
                 <l n="5495">(5475) Questo avere( questo tesoro, questa coreza( </l>
                 <l n="5496">l'avite y<ex rend="italic">n</ex>vià p<ex rend="italic">er</ex> soa gran
                     zetileza,</l>
-                <l n="5497"><milestone n="1R" unit="fol."/> 85R) che y<ex rend="italic">n</ex>tra
+                <l n="5497"><milestone n="85R" unit="fol."/>che y<ex rend="italic">n</ex>tra
                     vuy sonte delibrà ch'el sia despeso.</l>
                 <l n="5498">Se vuy p<ex rend="italic">er</ex> questo avere el crede farme
                     devisare</l>
@@ -8284,7 +8276,7 @@
                     soferte."</l>
                 <l n="5536">Amantenante el fo presso e tuto retenuto,</l>
                 <l n="5537">avante ch'el fusse manzà ny anchora beuto.</l>
-                <l n="5538"><milestone n="1R" unit="fol."/> 85V) La dona el suo <ex rend="italic"
+                <l n="5538"><milestone n="85V" unit="fol."/>La dona el suo <ex rend="italic"
                         >con</ex>seio domanda, y<ex rend="italic">n</ex> una camera vene</l>
                 <l n="5539">parlamento feze, che a ly anbasadore non è piazuto.</l>
             </lg>
@@ -8340,7 +8332,7 @@
                     >n</ex>sita;</l>
                 <l n="5577">tuty fono prisse, <ex rend="italic">con</ex>ty <ex rend="italic">et</ex>
                     ancora dusse.</l>
-                <l n="5578"><milestone n="1R" unit="fol."/> 86R) Zà era l'imbasadore despoià tuty
+                <l n="5578"><milestone n="86R" unit="fol."/>Zà era l'imbasadore despoià tuty
                     nudy:</l>
                 <l n="5579">nudy se vede <ex rend="italic">et</ex> lacreme com voze sovave
                     dolze.</l>
@@ -8397,7 +8389,7 @@
                 <l n="5616">Non domande, signory, se la pressa fo gra$n*de,</l>
                 <l n="5617">d'omeny <ex rend="italic">et</ex> de femene, <ex rend="italic">et</ex>
                     de vechiarde <ex rend="italic">et</ex> de fante,</l>
-                <l n="5618"><milestone n="1R" unit="fol."/> 86V) li tanbury sona, e lo remore
+                <l n="5618"><milestone n="86V" unit="fol."/> li tanbury sona, e lo remore
                     grande.</l>
                 <l n="5619">Fazea li ambasadory sospiry e lacreme sovante,</l>
                 <l n="5620">(5600) che tuty coreno a furone con despiatossa sembiante,</l>
@@ -8417,7 +8409,7 @@
                 <l n="5629">A questo ponto non fo più te(r)me miso</l>
                 <l n="5630">(5610) quando la <ex rend="italic">con</ex>tesa corando vene per lo
                     palazo,</l>
-                <l n="5631"><milestone n="1R" unit="fol."/> 87R) a la fenestra vene e si mostra li
+                <l n="5631"><milestone n="87R" unit="fol."/>a la fenestra vene e si mostra li
                     ochy e lo viso.</l>
                 <l n="5632">Del remore, gran piatà avè presso;</l>
                 <l n="5633">y<ex rend="italic">n</ex>n-alto cridò, "Ora ve prego, mey amizy,</l>
@@ -8468,7 +8460,7 @@
                 <l n="5669">l'arcevescovo et Y$n*rigo e Morando che no<ex rend="italic">n</ex>
                     dormea,</l>
                 <l n="5670">de tute parte lo sangue l'insia.</l>
-                <l n="5671"><milestone n="1R" unit="fol."/> 87V) (5650) Mé li altry conte, guarda
+                <l n="5671"><milestone n="87V" unit="fol."/>(5650) Mé li altry conte, guarda
                     tochà no<ex rend="italic">n</ex> sono zà.</l>
                 <l n="5672">Berardo e Baldovy alora si comanda</l>
                 <l n="5673">che più non fose tochà, che ben bastar posea.</l>
@@ -8521,7 +8513,7 @@
                 <l n="5708">como li ambasadore se'n vano de sperone,</l>
                 <l n="5709">e sovente se voltan verso la zità antiga,</l>
                 <l n="5710">per guardar se altra zente a lor seguita.</l>
-                <l n="5711">(5690)<milestone n="1R" unit="fol."/> 88R) Per zò dize l'aotore queste
+                <l n="5711">(5690)<milestone n="88R" unit="fol."/>Per zò dize l'aotore queste
                     parole so<ex rend="italic">n</ex> vera:</l>
                 <l n="5712">"D'altro se dota et sia lo premo sentito</l>
                 <l n="5713">che p<ex rend="italic">er</ex> lo male siè lo ben conosuto."</l>
@@ -8577,7 +8569,7 @@
                 <l n="5748">se dolore e pena aveno e costoro sentiva.</l>
                 <l n="5749">Meraveia siè che zascun non è l'anyma y<ex rend="italic">n</ex>sita;</l>
                 <l n="5750">may el può esere che a Dio non piazeva.</l>
-                <l n="5751"><milestone n="1R" unit="fol."/> 88V) (5730) Lo tormento se part e lo
+                <l n="5751"><milestone n="88V" unit="fol."/>(5730) Lo tormento se part e lo
                     tempo se remuda;</l>
                 <l n="5752">lo sole se levà e la soa clarità mandea;</l>
                 <l n="5753">per la chanpagna vene a tuty che y<ex rend="italic">n</ex>zà, chi y<ex
@@ -8588,7 +8580,7 @@
                 <l n="5757">molto dolzemente lo rengrazia e saluda:</l>
                 <l n="5758">"memento de nuy d<ex rend="italic">omi</ex>ne che mistero avemo de vuy,
                     ave,</l>
-                <l n="5759"><milestone n="1R" unit="fol."/> 89R) sechundom magna<ex rend="italic"
+                <l n="5759"><milestone n="89R" unit="fol."/>sechundom magna<ex rend="italic"
                         >m</ex> meserecordian tue."</l>
                 <l n="5760">E quando el salmo e ste gloria è dito,</l>
                 <l n="5761">(5740) bate soa colpa, <ex rend="italic">et</ex> a li chamin se sono
@@ -8640,7 +8632,7 @@
                 <l n="5794">quando andare vuy y<ex rend="italic">n</ex>tendo y<ex rend="italic"
                         >n</ex> crudele paiesse,</l>
                 <l n="5795">non g'andò zamay omo chi fosse vivo;</l>
-                <l n="5796"><milestone n="1R" unit="fol."/> 89V) (5775) e posible siè ben, lo <ex
+                <l n="5796"><milestone n="89V" unit="fol."/>(5775) e posible siè ben, lo <ex
                         rend="italic">con</ex>te lo crede.</l>
                 <l n="5797">Dio ve consenta como vado a bona fede;</l>
                 <l n="5798">più non sazo dire: luy abia de vuy marzede.</l>
@@ -8687,7 +8679,7 @@
                 <head>Laisse 238</head>
                 <l n="5834">Meraviosso duolo en fano la bona zente</l>
                 <l n="5835">per lo vasalo che travaia e∙l dura tante.</l>
-                <l n="5836"><milestone n="1R" unit="fol."/> 90R) (5815) Lo <ex rend="italic"
+                <l n="5836"><milestone n="90R" unit="fol."/>(5815) Lo <ex rend="italic"
                         >con</ex>te se'n vole andare, a Dio l'acomandò,</l>
                 <l n="5837">la quale speranza lo <ex rend="italic">con</ex>ducha a bon finno.</l>
                 <l n="5838">A piè se'n va como homo pedonante,</l>
@@ -8740,7 +8732,7 @@
                 <l n="5873">vene a la nave e possa di dentro entrà,</l>
                 <l n="5874">del pan manzò che altra vianda non avea,</l>
                 <l n="5875">e beve de l'aqua, chos se sadolà.</l>
-                <l n="5876">(5855)<milestone n="1R" unit="fol."/> 90V) Lo bon chavalo dedentro la
+                <l n="5876">(5855)<milestone n="90V" unit="fol."/>Lo bon chavalo dedentro la
                     nave menà,</l>
                 <l n="5877">apresso luy s'acolegà, un pocho se repossà; </l>
                 <l n="5878">la note se dorme, che nie<ex rend="italic">n</ex>te no<ex rend="italic"
@@ -8791,7 +8783,7 @@
                 <l n="5913">suo pan manzò che ponto non s'atrigà.</l>
                 <l n="5914">Possa che de soa tera se depart la zornà,</l>
                 <l n="5915">d'altra vianda non à gustà miga</l>
-                <l n="5916"><milestone n="1R" unit="fol."/> 91R) a fora de le radize d'erbe del
+                <l n="5916"><milestone n="91R" unit="fol."/>a fora de le radize d'erbe del
                     boscho.</l>
                 <l n="5917">(5895) Più santo y<ex rend="italic">n</ex>tra nuy, Dio ben lo sape,</l>
                 <l n="5918">en penedenzia non vite stare tanto homo mortale;</l>
@@ -8846,7 +8838,7 @@
                 <l n="5953">yn pocho d'ora fu l'aira y<ex rend="italic">n</ex> tal zelura,</l>
                 <l n="5954">che lo <ex rend="italic">con</ex>te trema, luy e lo suo cavallo.</l>
                 <l n="5955">Zà de dormire non avè termene ni destro, </l>
-                <l n="5956"><milestone n="1R" unit="fol."/> 91V) et elo feze come lialle e bon
+                <l n="5956"><milestone n="91V" unit="fol."/>et elo feze come lialle e bon
                     pugnadore</l>
                 <l n="5957">(5935) che y<ex rend="italic">n</ex> pazienzia el receve quelo
                     lavore.</l>
@@ -8895,7 +8887,7 @@
                     afare:</l>
                 <l n="5994">niente non fo l'esere del ducha Naimon de Bavera,</l>
                 <l n="5995">quando Charlon l'enviò Âgolante l'aversario.</l>
-                <l n="5996"><milestone n="1R" unit="fol."/> 92R) Ay Dio verasse, gloriossa
+                <l n="5996"><milestone n="92R" unit="fol."/>Ay Dio verasse, gloriossa
                     justizia</l>
                 <l n="5997">(5975) secorite me per si fata mainera,</l>
                 <l n="5998">como festy coluy, quando el fo mesazero,</l>
@@ -8949,7 +8941,7 @@
                 <l n="6033">(6010) per tal vertù feze la tera resonare,</l>
                 <l n="6034">tota la <ex rend="italic">con</ex>trà el n'à fato tentinare.</l>
                 <l n="6035">Alora vene molte bestie a ynsire</l>
-                <l n="6036"><milestone n="1R" unit="fol."/> 92V) fora del bosco, mé no<ex
+                <l n="6036"><milestone n="92V" unit="fol."/>fora del bosco, mé no<ex
                         rend="italic">n</ex> y<ex rend="italic">n</ex>sino </l>
                 <l n="6037">quando ely viteno li altry morty zasere;</l>
                 <l n="6038">(6015) e una liona, che molto fazea cride,</l>
@@ -8995,7 +8987,7 @@
                 <l n="6073">(6050) chi diria contare lo tuto veramente,</l>
                 <l n="6074">mazore d'un bovo sièra certamente.</l>
                 <l n="6075">Mé quando lo conte lo vite morto verame<ex rend="italic">n</ex>te,</l>
-                <l n="6076"><milestone n="1R" unit="fol."/> 93R) Dio padre rengrazia e si lo va
+                <l n="6076"><milestone n="93R" unit="fol."/>Dio padre rengrazia e si lo va
                     benedisando;</l>
                 <l n="6077">una orazion presse a dire santamente:</l>
                 <l n="6078">(6055) "D<ex rend="italic">omi</ex>ne labia" molto lacremosamente</l>
@@ -9047,7 +9039,7 @@
                 <l n="6113">(6090) sopra lor spale àno lor bionde treze, </l>
                 <l n="6114">davante lor pety le ponzete mamele.</l>
                 <l n="6115">Zascuna canta e sona lor viola</l>
-                <l n="6116"><milestone n="1R" unit="fol."/> 93V) tanto dolzemente, che p<ex
+                <l n="6116"><milestone n="93V" unit="fol."/> tanto dolzemente, che p<ex
                         rend="italic">er</ex>my quassy vazilava</l>
                 <l n="6117">el core a queste bestie p<ex rend="italic">er</ex> oldire tanta
                     dolzeza.</l>
@@ -9065,7 +9057,7 @@
                 <l n="6125">el coloro vermeio e lor treze tute bionde. </l>
                 <l n="6126">De la meravia al visso se feze la croze,</l>
                 <l n="6127">e loro se rideno e fazando a luy cigny di oche.</l>
-                <l n="6128"><milestone n="1R" unit="fol."/> 94R) (6105) Lo <ex rend="italic"
+                <l n="6128"><milestone n="94R" unit="fol."/>(6105) Lo <ex rend="italic"
                         >con</ex>te dize: "Che fazite y<ex rend="italic">n</ex> questo bosco?",</l>
                 <l n="6129">dizendo loro como uno sguardo amoroso.</l>
                 <l n="6130">"Ben venite vuy, ch<ex rend="italic">avale</ex>r stranio!</l>
@@ -9119,7 +9111,7 @@
                 <l n="6166">como à tu passà la grande marina?"</l>
                 <l n="6167">Dize lo baron: "Se vuy m'olderite <ex rend="italic">con</ex>tare la
                         gra<ex rend="italic">n</ex> pena</l>
-                <l n="6168">(6145)<milestone n="1R" unit="fol."/> 94V) che homo yo sonto, che
+                <l n="6168">(6145)<milestone n="94V" unit="fol."/>che homo yo sonto, che
                     domando e chero, </l>
                 <l n="6169">pur che fosse zà stà de gra<ex rend="italic">n</ex> lignazo,</l>
                 <l n="6170">a sentire de piatà ve faria lagremare.</l>
@@ -9168,7 +9160,7 @@
                 <l n="6205">de nostro afare el tuo coro s'afranze</l>
                 <l n="6206">tu doverisse sapere chi è nostra guida.</l>
                 <l n="6207">Siè una dona chi sta y<ex rend="italic">n</ex> quela montagna,</l>
-                <l n="6208"><milestone n="1R" unit="fol."/> 95R) (6185) non fo tanto bela Medea né
+                <l n="6208"><milestone n="95R" unit="fol."/>(6185) non fo tanto bela Medea né
                     ancora Elena,</l>
                 <l n="6209">e no<ex rend="italic">n</ex> se trovaria tanto bela p<ex rend="italic"
                         >er</ex> tuta Bertagna.</l>
@@ -9221,7 +9213,7 @@
                 <l n="6246">tanty delety a nostro piasere dominy</l>
                 <l n="6247">che sono (i<ex rend="italic">n</ex>) questo termeny<ex rend="italic"
                         >n</ex>."</l>
-                <l n="6248">(6225)<milestone n="1R" unit="fol."/> 95V) Quando d'Alesandre predeno lo
+                <l n="6248">(6225)<milestone n="95V" unit="fol."/>Quando d'Alesandre predeno lo
                     camin, </l>
                 <l n="6249">Le sono stà tute alor a lor fin.</l>
                 <l n="6250">De lor sono nate donzele e maschy</l>
@@ -9271,7 +9263,7 @@
                 <l n="6285">non trovarò homo de drita nasione.</l>
                 <l n="6286">Apresso è ben .X. messy che a tapin me vado, </l>
                 <l n="6287">non trovay niente afora male bestie no<ex rend="italic">n</ex>n-è,</l>
-                <l n="6288"><milestone n="1R" unit="fol."/> 96R) (6265) e verme che li sono gran
+                <l n="6288"><milestone n="96R" unit="fol."/>(6265) e verme che li sono gran
                     fusonne,</l>
                 <l n="6289">e de grandy afany eio azo soferto abandone.</l>
                 <l n="6290"> Como pò questo esere che quỳ abiate abitasone</l>
@@ -9323,7 +9315,7 @@
                 <l n="6325">festa fano per amore del mesazo.</l>
                 <l n="6326">A l'ensire fora de quelo malvase stanzie</l>
                 <l n="6327">trovò li apresso li broly a lo rivazo,</l>
-                <l n="6328">(6305)<milestone n="1R" unit="fol."/> 96V) e de spezie li foie et
+                <l n="6328">(6305)<milestone n="96V" unit="fol."/>e de spezie li foie et
                     l'erbazo;</l>
                 <l n="6329">molto grande odore li rende al visazo.</l>
                 <l n="6330">Davante luy vite un gra<ex rend="italic">n</ex> castelo et largo,</l>
@@ -9378,7 +9370,7 @@
                 <l n="6366">per oldire zò che li piaze piùe;</l>
                 <l n="6367">tute y<ex rend="italic">n</ex>semele, quando lo <ex rend="italic"
                         >con</ex>te fo venuto,</l>
-                <l n="6368"><milestone n="1R" unit="fol."/> 97R) (6345) tute guardono lo chavalero
+                <l n="6368"><milestone n="97R" unit="fol."/>(6345) tute guardono lo chavalero
                     menbrudo,</l>
                 <l n="6369">pizoly e grande li sono y<ex rend="italic">n</ex>torno corude.</l>
                 <l n="6370">Lo <ex rend="italic">con</ex>te le guardò e moto no<ex rend="italic"
@@ -9389,7 +9381,7 @@
                 <l n="6373">(6350) quando non lỳ vite un solo homo barbuto</l>
                 <l n="6374">e poy li è luy chi è quassy chanuto.</l>
                 <l n="6375">A loro avè dito y<ex rend="italic">n</ex> francese lo bon ducha:</l>
-                <l n="6376"><milestone n="1R" unit="fol."/> 97V) "No<ex rend="italic">n</ex> sazo
+                <l n="6376"><milestone n="97V" unit="fol."/>"No<ex rend="italic">n</ex> sazo
                     donda me sia né donda son venuto.</l>
                 <l n="6377">De my ne pesse lo piatosso Yessu,</l>
                 <l n="6378">(6355) che eio no<ex rend="italic">n</ex> sazo y<ex rend="italic">n</ex>
@@ -9441,7 +9433,7 @@
                     >con</ex>te descendỳ </l>
                 <l n="6414">per la redena lo bon chaval prendỳ,</l>
                 <l n="6415">e y<ex rend="italic">n</ex> la stala amantinente lo metỳ.</l>
-                <l n="6416"><milestone n="1R" unit="fol."/> 98R) Lo conte menò al palazo
+                <l n="6416"><milestone n="98R" unit="fol."/>Lo conte menò al palazo
                     segnorile;</l>
                 <l n="6417">en<ex rend="italic">con</ex>tra luy la porta oprire le feze. </l>
                 <l n="6418">(6395) Doue donzele vestite de zitany<ex rend="italic">n</ex></l>
@@ -9496,7 +9488,7 @@
                         >con</ex>tado;</l>
                 <l n="6454">ela responde: "Da(ti)me la vostra domanda,</l>
                 <l n="6455">che son de Frazese nasuta."</l>
-                <l n="6456"><milestone n="1R" unit="fol."/> 98V) "Eio sonto d'Alvernia, mia dona eio
+                <l n="6456"><milestone n="98V" unit="fol."/>"Eio sonto d'Alvernia, mia dona eio
                     la spossà</l>
                 <l n="6457">ben .VI. any che da ley me partỳ,</l>
                 <l n="6458">(6435) che l'enperio de Roma la lasay,</l>
@@ -9548,7 +9540,7 @@
             <lg type="laisse" n="266">
                 <head>Laisse 266</head>
                 <l n="6495">"Vasalo, fate la vostra volontade! </l>
-                <l n="6496"><milestone n="1R" unit="fol."/> 99R) Sopra tuto ten-te al mio deleto,
+                <l n="6496"><milestone n="99R" unit="fol."/>Sopra tuto ten-te al mio deleto,
                         <ex rend="italic">et</ex> arguesse</l>
                 <l n="6497">de vuy servire senza nula defensione.</l>
                 <l n="6498">(6475) La gran bontà che eio azo y<ex rend="italic">n</ex> vuy
@@ -9604,7 +9596,7 @@
                 <l n="6537">più bela dona nonn-è tra quỳ fina y<ex rend="italic">n</ex>n-O<ex
                         rend="italic">n</ex>garia,</l>
                 <l n="6538">(6515) neancha più richa de tuty y ben rialmente.</l>
-                <l n="6539"><milestone n="1R" unit="fol."/> 99V) Fa' oramay mio volere, e faray
+                <l n="6539"><milestone n="99V" unit="fol."/>Fa' oramay mio volere, e faray
                         gra<ex rend="italic">n</ex> cortesia."</l>
                 <l n="6540">Quando elo olde tal parlare e sente,</l>
                 <l n="6541">guardò lo <ex rend="italic">con</ex>te, lo visso se humilia</l>
@@ -9657,7 +9649,7 @@
                 <l n="6577"> eio azo falito quỳ y<ex rend="italic">n</ex> questo zorno.</l>
                 <l n="6578">(6555) Dio, azy mesericordia del cativo pechadore</l>
                 <l n="6579">ch'el se lasa y<ex rend="italic">n</ex>ganare al pechà traditore!</l>
-                <l n="6580"><milestone n="1R" unit="fol."/> 100R) Hay, carne chativa piena de van
+                <l n="6580"><milestone n="100R" unit="fol."/>Hay, carne chativa piena de van
                     colore,</l>
                 <l n="6581">Com(o) molto te credisse <ex rend="italic">con</ex>dureme al ternale
                     ardore?</l>
@@ -9712,7 +9704,7 @@
                     dolente.</l>
                 <l n="6619">Pianze de paura; ma tanto non fo lente</l>
                 <l n="6620">ch'elo lasase lo celistiale argumente.</l>
-                <l n="6621"><milestone n="1R" unit="fol."/> 100V) En mezo la sala y<ex rend="italic"
+                <l n="6621"><milestone n="100V" unit="fol."/>En mezo la sala y<ex rend="italic"
                         >n</ex>zonechio<ex rend="italic">n</ex> s'estende;</l>
                 <l n="6622">e stende soe man verso oriente,</l>
                 <l n="6623">(6600) un salmo dize cridando altamente:</l>
@@ -9722,7 +9714,7 @@
                 <l n="6627">per mezo la fiama .III. anzoli desende:</l>
                 <l n="6628">(6605) tute fono bianche et chiare lor vestime<ex rend="italic"
                     >n</ex>te,</l>
-                <l n="6629"><milestone n="1R" unit="fol."/> 101R) lo fogo amorzò per loro
+                <l n="6629"><milestone n="101R" unit="fol."/>lo fogo amorzò per loro
                     avenimento,</l>
                 <l n="6630">como se desfà la neve p<ex rend="italic">er</ex> lo sole artendo. </l>
                 <l n="6631">Un libro portò lo primo noblemente,</l>
@@ -9776,7 +9768,7 @@
                 <l n="6667">alora se y<ex rend="italic">n</ex>zenochiò lo liale <ex rend="italic"
                         >crist</ex>ian,</l>
                 <l n="6668">(6645) devotamente tende verso Dio le man:</l>
-                <l n="6669"><milestone n="1R" unit="fol."/> 101V) "Piatosso Padre che y<ex
+                <l n="6669"><milestone n="101V" unit="fol."/>"Piatosso Padre che y<ex
                         rend="italic">n</ex>viaste Zovane</l>
                 <l n="6670">per testemonio y<ex rend="italic">n</ex> lo deleto mondane,</l>
                 <l n="6671">possa li se<ex rend="italic">con</ex>dasse apresso lo primero ano</l>
@@ -9829,7 +9821,7 @@
                 <l n="6706">Al cavalo luy cridò, dizendo, "Andate y<ex rend="italic">n</ex>na<ex
                         rend="italic">n</ex>zo."</l>
                 <l n="6707">P<ex rend="italic">er</ex> la rivera del fiume si chamina;</l>
-                <l n="6708">(6685)<milestone n="1R" unit="fol."/> 102R) per nula né p<ex
+                <l n="6708">(6685)<milestone n="102R" unit="fol."/>per nula né p<ex
                         rend="italic">er</ex> niente el no<ex rend="italic">n</ex> fo ponto
                     agrevà,</l>
                 <l n="6709">da orsy né da bestie nỳ da vermy; nul male no<ex rend="italic">n</ex> ly
@@ -9884,7 +9876,7 @@
                 <l n="6745">e luy lo spenze e ponze avè so chamy<ex rend="italic">n</ex> presso.</l>
                 <l n="6746">Ferma(r)se sa de soe chamy bruno,</l>
                 <l n="6747">prende le soe arme e lo scu dorato.</l>
-                <l n="6748"><milestone n="1R" unit="fol."/> 102V) Lo chavalo pontò, suo chamy
+                <l n="6748"><milestone n="102V" unit="fol."/>Lo chavalo pontò, suo chamy
                     prende;</l>
                 <l n="6749">a una volée li vene li osely cridando,</l>
                 <l n="6750">più de ciquanta y<ex rend="italic">n</ex>sino de Tigresse.</l>
@@ -9938,7 +9930,7 @@
                     foe</l>
                 <l n="6784">in le tere del Prete Zane molty n'avea vedute.</l>
                 <l n="6785">Alora'l atachò la nave a la riva donda el foe,</l>
-                <l n="6786"><milestone n="1R" unit="fol."/> 103R) e montò a chavalo che demorare
+                <l n="6786"><milestone n="103R" unit="fol."/>e montò a chavalo che demorare
                         no<ex rend="italic">n</ex> vole piùe.</l>
                 <l n="6787"> Por devante se mete el suo scudo,</l>
                 <l n="6788">(6765) y<ex rend="italic">n</ex>nazo la piaza s'aresta e no<ex
@@ -9992,7 +9984,7 @@
                 <l n="6822">Li dolory li alentise e posa s'adormenza.</l>
                 <l n="6823">Cosỳ demora tuta la note, fina a l'alba,</l>
                 <l n="6824">fina a lo zorno che la parea lo chiaro.</l>
-                <l n="6825">(6800)<milestone n="1R" unit="fol."/> 103V) Lo <ex rend="italic"
+                <l n="6825">(6800)<milestone n="103V" unit="fol."/>Lo <ex rend="italic"
                         >con</ex>te se svezia e si se trova guarito,</l>
                 <l n="6826">el benedisse Dio e soa madre cosỳ.</l>
             </lg>
@@ -10053,7 +10045,7 @@
                         >n</ex>do el se vite sperduto.</l>
                 <l n="6862">Dio padre rengraziò e rechiama soa grande v<ex rend="italic"
                     >er</ex>tu,</l>
-                <l n="6863"><milestone n="1R" unit="fol."/> 104R) che luy la g<ex rend="italic"
+                <l n="6863"><milestone n="104R" unit="fol."/>che luy la g<ex rend="italic"
                         >ar</ex>de ch'el no<ex rend="italic">n</ex> sia confonduto.</l>
                 <l n="6864">Del retornare no<ex rend="italic">n</ex> s'è ponto movuto,</l>
                 <l n="6865">(6840) e dize, "Andiamo avante al nome de Yh<ex rend="italic"
@@ -10112,7 +10104,7 @@
                         rend="italic">n</ex> pò movre lo pé.</l>
                 <l n="6900">(6875) Lo <ex rend="italic">con</ex>te desese a tera, lo scudo y<ex
                         rend="italic">n</ex> braza,</l>
-                <l n="6901"><milestone n="1R" unit="fol."/> 104V) e mise-se lo davante com lo brando
+                <l n="6901"><milestone n="104V" unit="fol."/>e mise se lo davante com lo brando
                         y<ex rend="italic">n</ex> mano.</l>
                 <l n="6902">La mala bestia avea tanto avantazo,</l>
                 <l n="6903">a lo chavalo <ex rend="italic">con</ex> la coda lo fere;</l>
@@ -10165,7 +10157,7 @@
                 <l n="6938">"Gran folia fezy quando eio y<ex rend="italic">n</ex>tra y<ex
                         rend="italic">n</ex> lo boscazo,</l>
                 <l n="6939">ancha homo mortal no<ex rend="italic">n</ex> feze tal falazo!"</l>
-                <l n="6940"><milestone n="1R" unit="fol."/> 105R) Chomo feze Ugo<ex rend="italic"
+                <l n="6940"><milestone n="105R" unit="fol."/>Chomo feze Ugo<ex rend="italic"
                         >n</ex> per compire lo viazo</l>
                 <l n="6941">per esere lial se el so signore Charlo Martelo</l>
                 <l n="6942">molto honore lasasty p<ex rend="italic">er</ex> andare topinando.</l>
@@ -10220,7 +10212,7 @@
                 <l n="6976">Entro lo mare e∙l monte suo reposo avè pre<ex rend="italic"
                     >n</ex>duto.</l>
                 <l n="6977">Yà quel loco avea bon receto, che li pra sono erbose.</l>
-                <l n="6978"><milestone n="1R" unit="fol."/> 105V) Molty zorny posò p<ex
+                <l n="6978"><milestone n="105V" unit="fol."/>Molty zorny posò p<ex
                         rend="italic">er</ex> lo bon destrero;</l>
                 <l n="6979">y<ex rend="italic">n</ex> qel locho posò, et era apreso un fiume.</l>
                 <l n="6980">(6955) De le radize da le erbe lo <ex rend="italic">con</ex>te
@@ -10241,7 +10233,7 @@
                         sumele<ex rend="italic">n</ex>te</l>
                 <l n="6988">che da l'onbrio y<ex rend="italic">n</ex> suso estatura d'omo
                     tereno,</l>
-                <l n="6989"><milestone n="1R" unit="fol."/> 106R) e dal mezo y<ex rend="italic"
+                <l n="6989"><milestone n="106R" unit="fol."/>e dal mezo y<ex rend="italic"
                         >n</ex> zosa statura de peso veramente.</l>
                 <l n="6990">(6965) Dentro lo maro <ex rend="italic">con</ex>versano, del peso vano
                         ma<ex rend="italic">n</ex>zando,</l>
@@ -10303,7 +10295,7 @@
                 <l n="7027">d'aqua dolze non trova né fonte né pozo.</l>
                 <l n="7028">Molto la sede lo <ex rend="italic">com</ex>bate, vorave aver beuto;</l>
                 <l n="7029">non posea altro fare mé el se sta besognoso.</l>
-                <l n="7030">(7005)<milestone n="1R" unit="fol."/> 106V) Fina a soa via al meio che
+                <l n="7030">(7005)<milestone n="106V" unit="fol."/>Fina a soa via al meio che
                     elo à posuto</l>
                 <l n="7031">sopra la riva a la valé el è apreso venuto</l>
                 <l n="7032">homeny <ex rend="italic">con</ex>trafaty et de natura y<ex rend="italic"
@@ -10318,7 +10310,7 @@
                 <l n="7039">zà averia a lo <ex rend="italic">con</ex>te gran dalmazo renduto,</l>
                 <l n="7040">(7015) quando un tal remore è al pra venuto</l>
                 <l n="7041">che tuta l'aira avea torbeta e mouta.</l>
-                <l n="7042"><milestone n="1R" unit="fol."/> 107R) Per liura forza li vente a la
+                <l n="7042"><milestone n="107R" unit="fol."/> Per liura forza li vente a la
                     montagna li leva susa</l>
                 <l n="7043">sỳ alty che apena sono veduty per virità,</l>
                 <l n="7044">e possa si là sono chazere y<ex rend="italic">n</ex> maro tuty
@@ -10372,7 +10364,7 @@
                 <l n="7079">Y<ex rend="italic">n</ex> molto vite levare e desendre y stizone,</l>
                 <l n="7080">(7055) e sperite aluminare como fosero torze,</l>
                 <l n="7081">e si avè olduto sospiry che de dolor pare chi mora.</l>
-                <l n="7082"><milestone n="1R" unit="fol."/> 107V) Quando Ugo li olde, meravilia siè
+                <l n="7082"><milestone n="107V" unit="fol."/>Quando Ugo li olde, meravilia siè
                     a quel pozo:</l>
                 <l n="7083">"Hay, Dio," dize Ugone, "Signore tuto grazioso,</l>
                 <l n="7084">che ora sonto venuto al locho che tanto azo desirato,</l>
@@ -10427,7 +10419,7 @@
                 <l n="7121">Ora no<ex rend="italic">n</ex> lì poso andar; quỳ eio morirazo,</l>
                 <l n="7122">e se niente m'asalta, eio no<ex rend="italic">n</ex> me defenderazo;</l>
                 <l n="7123">com cativo e traditore e bosador eio me starazo.</l>
-                <l n="7124"><milestone n="1R" unit="fol."/> 108R) E posa dize apreso, "Ay laso
+                <l n="7124"><milestone n="108R" unit="fol."/>E posa dize apreso, "Ay laso
                     chativo, che dito ay?</l>
                 <l n="7125">(7100) Vilità no<ex rend="italic">n</ex> serà y<ex rend="italic">n</ex>
                     my tanto como vivirazo."</l>
@@ -10487,7 +10479,7 @@
                     sono</l>
                 <l n="7163">in lo grande y<ex rend="italic">n</ex>ferno, y<ex rend="italic">n</ex>
                     l'abiso più profonde.</l>
-                <l n="7164"><milestone n="1R" unit="fol."/> 108V) P<ex rend="italic">er</ex> dizà
+                <l n="7164"><milestone n="108V" unit="fol."/>P<ex rend="italic">er</ex> dizà
                         no<ex rend="italic">n</ex> pasa l'aneme dy bricone</l>
                 <l n="7165">che y<ex rend="italic">n</ex>versso Dio el Criatore àno hofeso;</l>
                 <l n="7166">(7140) per altra via vano, com piaze a Dio del trone.</l>
@@ -10502,7 +10494,7 @@
                 <l n="7172">Chy volseno esere <ex rend="italic">con</ex>tra el Criatore,</l>
                 <l n="7173">che vuy avite olduto <ex rend="italic">con</ex>tare <ex rend="italic"
                         >con</ex> lor sono, so esere,</l>
-                <l n="7174"><milestone n="1R" unit="fol."/> 109R) molto averia da dire; e zò me
+                <l n="7174"><milestone n="109R" unit="fol."/>molto averia da dire; e zò me
                     tazerò adoncha.</l>
                 <l n="7175">Dite∙me de vostro esere s'el ve piaza;</l>
                 <l n="7176">(7150) volontera ve <ex rend="italic">con</ex>seiarazo de zò che nuy
@@ -10558,7 +10550,7 @@
                 <l n="7210">e quỳ morinazo yo crezo ch'el me sia destinado</l>
                 <l n="7211">(7185) se da Dio no<ex rend="italic">n</ex> azo altro secorso né
                     aiuto</l>
-                <l n="7212"><milestone n="1R" unit="fol."/> 109V) et luy me secora pur la soa
+                <l n="7212"><milestone n="109V" unit="fol."/>et luy me secora pur la soa
                     bontade</l>
                 <l n="7213">cosỳ como a luy azo tuta mia fede fermata</l>
                 <l n="7214">ancha che sia pechadore del tuto y<ex rend="italic">n</ex> luy me
@@ -10615,7 +10607,7 @@
                         >n</ex> gran pensamento</l>
                 <l n="7249">abasò la testa y<ex rend="italic">n</ex>verso la tera se destende</l>
                 <l n="7250">a relevare la testa el no<ex rend="italic">n</ex> vede più niente</l>
-                <l n="7251">(7225)<milestone n="1R" unit="fol."/> 110R) santa Maria, dize lo <ex
+                <l n="7251">(7225)<milestone n="110R" unit="fol."/>santa Maria, dize lo <ex
                         rend="italic">con</ex>te chi è avenuto del zovene</l>
                 <l n="7252">el no·l vede molto el se va meraviando</l>
                 <l n="7253">alora el se guardò avante gra<ex rend="italic">n</ex> spiandore li
@@ -10664,7 +10656,7 @@
                 <l n="7288">e posa apreso se bate et frapa</l>
                 <l n="7289">pechador se chiama a Dio se recoma<ex rend="italic">n</ex>da</l>
                 <l n="7290">e confortose che l'angelo dito li avea</l>
-                <l n="7291"><milestone n="1R" unit="fol."/> 110V) che quỳ renamer no<ex
+                <l n="7291"><milestone n="110V" unit="fol."/>che quỳ renamer no<ex
                         rend="italic">n</ex> debio niun profeta no<ex rend="italic">n</ex> serà</l>
                 <l n="7292">(7265) el segue soa via pose ch'el comenza</l>
                 <l n="7293">adoncha y<ex rend="italic">n</ex> suo coro aferma del tuto ell'à</l>
@@ -10724,7 +10716,7 @@
                 <l n="7331">como el pasarà quel brazo de maro tanto grande.</l>
                 <l n="7332">(7305) Nave non à, né nulo altro y<ex rend="italic">n</ex>stormento da
                     pasare,</l>
-                <l n="7333"><milestone n="1R" unit="fol."/> 111R) ne ligne da fare nul ra
+                <l n="7333"><milestone n="111R" unit="fol."/>ne ligne da fare nul ra
                     simelmente.</l>
                 <l n="7334">Alora pregò Dio liberamente, e soy santy, </l>
                 <l n="7335">se a luy piaze ch'el ge sia y<ex rend="italic">n</ex>n-altorio</l>
@@ -10789,7 +10781,7 @@
                 <l n="7372">el se'n va libro e francho y man la prende</l>
                 <l n="7373">tre fiade lo zentil <ex rend="italic">con</ex>te si l'avè basata</l>
                 <l n="7374">(7345) en soa man la porta como fose un rame d'olive</l>
-                <l n="7375"><milestone n="1R" unit="fol."/> 111V) cosỳ seguro se sente como el fose
+                <l n="7375"><milestone n="111V" unit="fol."/>cosỳ seguro se sente como el fose
                         y<ex rend="italic">n</ex>n-un castelo</l>
                 <l n="7376">e posa prese a chavalchare tra el monte el mare?</l>
                 <l n="7377">li osely lo seguitano p<ex rend="italic">er</ex> denanzo e p<ex
@@ -10851,7 +10843,7 @@
                         rend="italic">con</ex>trano,</l>
                 <l n="7415">e lo celo e la tera zascun <ex rend="italic">con</ex> più pono.</l>
                 <l n="7416">Oldite che feze lo <ex rend="italic">con</ex>te a quel ponto:</l>
-                <l n="7417"><milestone n="1R" unit="fol."/> 112R) nulle pezore y<ex rend="italic"
+                <l n="7417"><milestone n="112R" unit="fol."/>nulle pezore y<ex rend="italic"
                         >n</ex>presse è de zò no<ex rend="italic">n</ex> apresia</l>
                 <l n="7418">al camy<ex rend="italic">n</ex> se arestò come combatre doveseno;</l>
                 <l n="7419">(7390) cosỳ feze li osely, che zascun le percote.</l>
@@ -10867,7 +10859,7 @@
                 <l n="7424">(7395) arestate vuy un pocho da parte de Quelo chi non a pare.</l>
                 <l n="7425">Non vollio zamay sofrire, yo ve∙l dicho senza falire;</l>
                 <l n="7426">zò staty pary, falsy sperite, da parte de Dio vivo.</l>
-                <l n="7427"><milestone n="1R" unit="fol."/>(112V)Cosỳ como verasemente lo credo de
+                <l n="7427"><milestone n="112V" unit="fol."/>Cosỳ como verasemente lo credo de
                     coro verase</l> -->
 <!-- one of the missing lines, render in italics -->
 <!--
@@ -10935,7 +10927,7 @@
             </lg>
             <lg type="laisse" n="302">
                 <head>Laisse 302</head>
-                <l n="7466"><milestone n="1R" unit="fol."/> 113R) "De mazore tormente,
+                <l n="7466"><milestone n="113R" unit="fol."/>"De mazore tormente,
                     vasalo, vuy ne vederite. </l>
                 <l n="7467">Per esemp(i)o, nuy le metesemo dava<ex rend="italic">n</ex>te, ora
                     sapiate,</l>
@@ -10994,7 +10986,7 @@
                     maledizione </l>
                 <l n="7506">quelo che avite merità yustizia y<ex rend="italic">n</ex> vuy se
                     mostra,</l>
-                <l n="7507"><milestone n="1R" unit="fol."/> 113V) e nuy quỳ belamente remaremo.</l>
+                <l n="7507"><milestone n="113V" unit="fol."/>e nuy quỳ belamente remaremo.</l>
                 <l n="7508">Quando a Dio piaserà, nostra y<ex rend="italic">n</ex>questa a<ex
                         rend="italic">com</ex>piremo."</l>
                 <l n="7509">(7480) Le sperity malvasy se'n vano al centro del profondo,</l>
@@ -11052,7 +11044,7 @@
                         rend="italic">n</ex>demore più.</l>
                 <l n="7548">La montagna pedona al nome de Yh<ex rend="italic">es</ex>ù;</l>
                 <l n="7549">(7520) quando un pocho el e∙l andà et elo avè veduto,</l>
-                <l n="7550"><milestone n="1R" unit="fol."/> 114R) un povro receto y<ex rend="italic"
+                <l n="7550"><milestone n="114R" unit="fol."/>un povro receto y<ex rend="italic"
                         >n</ex>n-una chava zò fo; </l>
                 <l n="7551">in quelo (locho) .III. homeny lì demorava che regolar sono:</l>
                 <l n="7552">l'abito de santo Agosty tuty .III. sono vestity.</l>
@@ -11065,7 +11057,7 @@
                     sono."</l>
                 <l n="7558">Quando color dedentro l'aurino ytendeno,</l>
                 <l n="7559">(7530) et oldeno anomare Dio, anche sỳ zoiosy non fono,</l>
-                <l n="7560"><milestone n="1R" unit="fol."/> 114V) che lonyo<ex rend="italic">n</ex>
+                <l n="7560"><milestone n="114V" unit="fol."/>che lonyo<ex rend="italic">n</ex>
                     tempo che homo vivente lỳ no<ex rend="italic">n</ex> fo.</l>
                 <l n="7561">El suo usolo un pocho li àno hoperto,</l>
                 <l n="7562">amantinente, una crosse preseno ama<ex rend="italic">n</ex>tinente,</l>
@@ -11129,7 +11121,7 @@
                 <l n="7599">(7570) al partire, Dio li animaly va benidisando</l>
                 <l n="7600">et altre che se trova de zò, siate certano,</l>
                 <l n="7601">e possa tornano al regno de gloria como a Dio piaze,</l>
-                <l n="7602"><milestone n="1R" unit="fol."/> 115R) che tuto v'andarò contando l'esere
+                <l n="7602"><milestone n="115R" unit="fol."/>che tuto v'andarò contando l'esere
                     e l'afeto ata<ex rend="italic">n</ex>to.</l>
                 <l n="7603">Asay i avese da dire, p<ex rend="italic">er</ex> zò me me tasirone,</l>
                 <l n="7604">(7575) che tanto ve'n dirò ben veramente,</l>
@@ -11195,7 +11187,7 @@
                 <l n="7643">"Prodomo," zò dize li fra, "y<ex rend="italic">n</ex> quele
                     zente crudele </l>
                 <l n="7644">(7615) sopra nuy vene soa grande yra mortale </l>
-                <l n="7645"><milestone n="1R" unit="fol."/> 115V) chy non è da menzonare cosse ne
+                <l n="7645"><milestone n="115V" unit="fol."/>chy non è da menzonare cosse ne
                     feze ben me taso</l>
                 <l n="7646">p<ex rend="italic">er</ex> amor de Dio y<ex rend="italic">n</ex> pase le
                     portasemo vasale</l>
@@ -11256,7 +11248,7 @@
                 <l n="7688">Dio li <ex rend="italic">con</ex>ducha a ben et cosỳ farà, zò credo.</l>
                 <l n="7689">(7660) Ora v'azo <ex rend="italic">con</ex>tà de mia iesta; yo no li
                     dico p<ex rend="italic">er</ex> vanagloria.</l>
-                <l n="7690"><milestone n="1R" unit="fol."/> 116R) Quisty altry mey fradel sono asay
+                <l n="7690"><milestone n="116R" unit="fol."/>Quisty altry mey fradel sono asay
                     zentily homeny,</l>
                 <l n="7691">d'Alvergna sono naty." Loro li <ex rend="italic">con</ex>tò a luy p<ex
                         rend="italic">er</ex> nome.</l>
@@ -11316,7 +11308,7 @@
                 <l n="7728">che nesun di nostry antesore che sono stà zamay.</l>
                 <l n="7729">(7700) Asay n'è venuty tuty drito a questo passo;</l>
                 <l n="7730">zascun par del guardar siè quase sbagotyto.</l>
-                <l n="7731"><milestone n="1R" unit="fol."/> 116V) Non ve voio più dire, mé eio el
+                <l n="7731"><milestone n="116V" unit="fol."/>Non ve voio più dire, mé eio el
                     credo de cor verase,</l>
                 <l n="7732">che niente del cele no<ex rend="italic">n</ex> ve y<ex rend="italic"
                         >n</ex>gobrerà.</l>
@@ -11374,7 +11366,7 @@
                 <l n="7770">Li osely volano y<ex rend="italic">n</ex>nanzo e si ly mostrano lo
                     sentere,</l>
                 <l n="7771">si male frosche trove né nule bestie fere,</l>
-                <l n="7772"><milestone n="1R" unit="fol."/> 117R) che lor non spaze la via là donda
+                <l n="7772"><milestone n="117R" unit="fol."/> che lor non spaze la via là donda
                     lor dovea andare.</l>
                 <l n="7773">Tosto se mesedono, e lor trovono asay che fare.</l>
                 <l n="7774">(7745) Li altry <ex rend="italic">com</ex>pagny quando lor sentino lo
@@ -11430,7 +11422,7 @@
                 <l n="7811">che vole segnifichar tuto questo? Ora me∙l <ex rend="italic"
                     >con</ex>tate,</l>
                 <l n="7812">che niente no<ex rend="italic">n</ex> fano remore né paso cridato?"</l>
-                <l n="7813"><milestone n="1R" unit="fol."/> 117V) li fraty respondeno, "Dito ve serà
+                <l n="7813"><milestone n="117V" unit="fol."/>li fraty respondeno, "Dito ve serà
                     de grazia:</l>
                 <l n="7814">(7785) questo fano el zorno del verniardỳ santo, zò sapiate,</l>
                 <l n="7815">che la festa debe p<ex rend="italic">er</ex> nuy esere celibrata,</l>
@@ -11440,7 +11432,7 @@
                 <l n="7818">yn arecordanza del deluvio chy fo quỳ arestato</l>
                 <l n="7819">(7790) che vuy vedete quando l'Archa fo aterà</l>
                 <l n="7820">de vedire ch<ex rend="italic">e</ex> nase e morỳ, zò sapiate</l>
-                <l n="7821"><milestone n="1R" unit="fol."/> 118R) e per questa chasone che lybre
+                <l n="7821"><milestone n="118R" unit="fol."/>e per questa chasone che lybre
                     sono e franchy</l>
                 <l n="7822">per luy zascun ano la festa àno <ex rend="italic">con</ex>tenvate. </l>
                 <l n="7823">(7795) E perzò sono quisty animaly aradunati.</l>
@@ -11498,7 +11490,7 @@
                 <l n="7858">Volentera parlaria a luy se a Dio no hofendese zà,</l>
                 <l n="7859">(7830) mé a Dio padre non piaze miga,</l>
                 <l n="7860">per lo milliore lo fano cosỳ como lor sa.</l>
-                <l n="7861"><milestone n="1R" unit="fol."/> 118V) Se a luy aveseno parlà tanto
+                <l n="7861"><milestone n="118V" unit="fol."/>Se a luy aveseno parlà tanto
                     deleto luy averia</l>
                 <l n="7862">che andare no<ex rend="italic">n</ex> sempona; perzò retenu se n'à,</l>
                 <l n="7863">la soa y<ex rend="italic">n</ex>questa <ex rend="italic">com</ex>plirà e
@@ -11563,7 +11555,7 @@
                     notata.</l>
                 <l n="7901">En la soa tascha la mete, e possa torna p<ex rend="italic">er</ex> la
                     via,</l>
-                <l n="7902"><milestone n="1R" unit="fol."/> 119R) ly frate partando vano mostrando
+                <l n="7902"><milestone n="119R" unit="fol."/>ly frate partando vano mostrando
                     tuto lor arnese</l>
                 <l n="7903">pur ch'el aza segureza quando el serà partito;</l>
                 <l n="7904">(7875) apresso li àno mostrà segno d'omelitade;</l>
@@ -11621,7 +11613,7 @@
                         >er</ex> vero.</l>
                 <l n="7940">P<ex rend="italic">er</ex> la quarta parte del mondo a una <ex
                         rend="italic">con</ex>clusione,</l>
-                <l n="7941"><milestone n="1R" unit="fol."/> 119V) cosỳ como lo mare ch'à là et cosỳ
+                <l n="7941"><milestone n="119V" unit="fol."/>cosỳ como lo mare ch'à là et cosỳ
                     cresea.</l>
                 <l n="7942">Cosỳ fa questo fiume, de vero lo sapiamo,</l>
                 <l n="7943">che como la cosa sia de zò dire no<ex rend="italic">n</ex> sapiamo."</l>
@@ -11685,7 +11677,7 @@
                     bravy.</l>
                 <l n="7981">De molte gran frote y vite elo asay,</l>
                 <l n="7982">puro davante lor siè li bro andato;</l>
-                <l n="7983"><milestone n="1R" unit="fol."/> 120R) niun mal reguardo no<ex
+                <l n="7983"><milestone n="120R" unit="fol."/>niun mal reguardo no<ex
                         rend="italic">n</ex> li àno demostrato.</l>
                 <l n="7984">(7955) Oltra pasa Ugo<ex rend="italic">n</ex>, e molty n'avea
                     signaty,</l>
@@ -11747,7 +11739,7 @@
                 <l n="8020">Nuy te∙l diremo ora; te mete bene a oldire.</l>
                 <l n="8021">A Yh<ex rend="italic">es</ex>ù el piaze alquanto de soy sacrete</l>
                 <l n="8022">sapite y<ex rend="italic">n</ex> parte che altramente non serae.</l>
-                <l n="8023"><milestone n="1R" unit="fol."/> 120V) Achonoa doncha che nuy siamo de
+                <l n="8023"><milestone n="120V" unit="fol."/>Achonoa doncha che nuy siamo de
                     quily religione </l>
                 <l n="8024">(7995) chy chadeno y<ex rend="italic">n</ex> l'abisso più profondo</l>
                 <l n="8025">(che y<ex rend="italic">n</ex>ferno molty homeny l'ano apelato).</l>
@@ -11757,7 +11749,7 @@
                 <l n="8029">(8000) Solame<ex rend="italic">n</ex>te a la voze de Dio padre, quando
                     l'avè parlà</l>
                 <l n="8030">tuto el mal fare y<ex rend="italic">n</ex> quel locho se desmostrà. </l>
-                <l n="8031"><milestone n="1R" unit="fol."/> 121R) A<ex rend="italic">n</ex>gely et
+                <l n="8031"><milestone n="121R" unit="fol."/>A<ex rend="italic">n</ex>gely et
                     archangely e tuta la corte celistriale,</l>
                 <l n="8032">tuty de pezor sono feramente en fede mia.</l>
                 <l n="8033">Tanto se defendesemo como avesemo vigoria,</l>
@@ -11814,7 +11806,7 @@
                 <l n="8070">e sy lo male de bon coro che le y<ex rend="italic">n</ex> vostro
                     altore,</l>
                 <l n="8071">che y<ex rend="italic">n</ex> la fin de soa hovre senterite</l>
-                <l n="8072"><milestone n="1R" unit="fol."/> 121V) lo merito atanto de tuto zò che
+                <l n="8072"><milestone n="121V" unit="fol."/>lo merito atanto de tuto zò che
                     averite."</l>
                 <l n="8073">"Eio lo credo tropo ben," responde lo <ex rend="italic">con</ex>te e
                     dize.</l>
@@ -11874,7 +11866,7 @@
                 <l n="8111">che a piatà per luy no<ex rend="italic">n</ex> fose mouto.</l>
                 <l n="8112">Longamente el demora y<ex rend="italic">n</ex> questo afare;</l>
                 <l n="8113">pianze e sospira e quere a Dio chi l'aiute,</l>
-                <l n="8114"><milestone n="1R" unit="fol."/> 122R) che la sua anima no<ex
+                <l n="8114"><milestone n="122R" unit="fol."/>che la sua anima no<ex
                         rend="italic">n</ex> sia y<ex rend="italic">n</ex> tuta perssa</l>
                 <l n="8115">(8085) che del corpo no<ex rend="italic">n</ex> cura miga una
                     latuga.</l>
@@ -11940,7 +11932,7 @@
                 <l n="8154">A una fontana vene lo <ex rend="italic">con</ex>te d'alta iesta,</l>
                 <l n="8155">(8125) de l'aqua beve, e ma<ex rend="italic">n</ex>zò de quelo che melio
                     li piazea.</l>
-                <l n="8156"><milestone n="1R" unit="fol."/> 122V) Apreso s'è acoligato che molto è
+                <l n="8156"><milestone n="122V" unit="fol."/>Apreso s'è acoligato che molto è
                     laso, e ly stae.</l>
                 <l n="8157">Un pocho dormỳ, possa se releva molto presto;</l>
                 <l n="8158">cosỳ lizero, se trova com lion caldo,</l>
@@ -11955,7 +11947,7 @@
                 <l n="8162">e guardò sopra la fonte e vite uno arboro longo</l>
                 <l n="8163">che sopra la fonte era piantato <ex rend="italic">et</ex> dera tuto
                     secho</l>
-                <l n="8164"><milestone n="1R" unit="fol."/> 123R) e.3. radize avea piantato sopra la
+                <l n="8164"><milestone n="123R" unit="fol."/> e .3. radize avea piantato sopra la
                     fonte,</l>
                 <l n="8165">(8135) e tuty y ramy parea sechy. El celo pare ch'i toche;</l>
                 <l n="8166">susa me parea una dona como un puto y<ex rend="italic">n</ex> braze,</l>
@@ -12010,7 +12002,7 @@
                     >n</ex>tenderemo.</l>
                 <l n="8205">(8175) Apresso, una gran parte del l'esere li va <ex rend="italic"
                         >con</ex>tando</l>
-                <l n="8206"><milestone n="1R" unit="fol."/> 123V) asay li dize asay si à
+                <l n="8206"><milestone n="123V" unit="fol."/>asay li dize asay si à
                     devisato</l>
                 <l n="8207">e de li quatro fiume che de la fonte y<ex rend="italic">n</ex>sia</l>
                 <l n="8208">che parte tutta la tera. L'uno a nome Tigresy,</l>
@@ -12069,7 +12061,7 @@
                         rend="italic">er</ex> (da) coste.</l>
                 <l n="8244">La soa croze prende p<ex rend="italic">er</ex> man l'omo liale;</l>
                 <l n="8245">(8215) tre note ave∙lo caminà e tre zorne.</l>
-                <l n="8246"><milestone n="1R" unit="fol."/> 124R) Quando l'avè pasato el vite el
+                <l n="8246"><milestone n="124R" unit="fol."/>Quando l'avè pasato el vite el
                     mare salante</l>
                 <l n="8247">lo <ex rend="italic">con</ex>te cavalca, non fe' miga demoranza. </l>
                 <l n="8248">De zorno y<ex rend="italic">n</ex> zorno à pene et à gran travalia;</l>
@@ -12115,7 +12107,7 @@
                 <l n="8275">(8245) avea cavalchà a la speranza de Dio,</l>
                 <l n="8276">che dy malvasy hosely avea gra<ex rend="italic">n</ex> dotanza.</l>
                 <l n="8277">Quando il crede esere al seguro, un pocho s'areposava,</l>
-                <l n="8278"><milestone n="1R" unit="fol."/> 124V) tanto ch'el sclarỳ el zorno y<ex
+                <l n="8278"><milestone n="124V" unit="fol."/>tanto ch'el sclarỳ el zorno y<ex
                         rend="italic">n</ex> quel locho faze demoranza.</l>
                 <l n="8279">e possa guardò el suo cavalo, se l'avea ponto de male,</l>
                 <l n="8280">(8250) asay el trovò tuto san, e Dio rengrazia e soa posanza;</l>
@@ -12163,7 +12155,7 @@
                 <l n="8308">un pocho de radize d'erbe de la selva</l>
                 <l n="8309">avea manzà lo <ex rend="italic">con</ex>te p<ex rend="italic">er</ex>
                     sostenire soa lene.</l>
-                <l n="8310">(8280)<milestone n="1R" unit="fol."/> 125R) El cavalo lasò pasere, ch'el
+                <l n="8310">(8280)<milestone n="125R" unit="fol."/>El cavalo lasò pasere, ch'el
                         no<ex rend="italic">n</ex>n-à de vena,</l>
                 <l n="8311">e possa s'acolga un pocho, dorme che l'era laso</l>
                 <l n="8312">asegurare no<ex rend="italic">n</ex> se può, ben sapiate p<ex
@@ -12209,7 +12201,7 @@
                 <l n="8341">Molte ne vite y<ex rend="italic">n</ex>sire, <ex rend="italic">et</ex>
                     asay dentro y<ex rend="italic">n</ex>trare;</l>
                 <l n="8342">de zò ch'el vide no<ex rend="italic">n</ex> dobito un dinaro.</l>
-                <l n="8343"><milestone n="1R" unit="fol."/> 125V) De quel locho se parte, non vole
+                <l n="8343"><milestone n="125V" unit="fol."/>De quel locho se parte, non vole
                     più demorare.</l>
                 <l n="8344">Alasa el maro, presse verso a la selva andare,</l>
                 <l n="8345">(8315) posa cavachò vi zorny tuty y<ex rend="italic">n</ex>trege</l>
@@ -12222,7 +12214,7 @@
                     fia la pò guardare,</l>
                 <l n="8351">andando lo <ex rend="italic">con</ex>te sopra un gran pensero.</l>
                 <l n="8352">Un malvase paso li coventa adoncha pasare, </l>
-                <l n="8353"><milestone n="1R" unit="fol."/> 126R) o volia omo per un streto
+                <l n="8353"><milestone n="126R" unit="fol."/>o volia omo per un streto
                     sentero.</l>
                 <l n="8354">Un gra<ex rend="italic">n</ex> s<ex rend="italic">er</ex>pente el trova,
                     no∙l può schiavare,</l>
@@ -12271,7 +12263,7 @@
                 <l n="8383">che andare avante p<ex rend="italic">er</ex> li strany paiesy.</l>
                 <l n="8384">Se yo credese trovare melliore camino</l>
                 <l n="8385">(8355) y<ex rend="italic">n</ex> ge torneria avante che morire quye.</l>
-                <l n="8386"><milestone n="1R" unit="fol."/> 126V) In tal locho soy venuto che eio
+                <l n="8386"><milestone n="126V" unit="fol."/>In tal locho soy venuto che eio
                         no<ex rend="italic">n</ex> tornarò vivo </l>
                 <l n="8387">zamay no<ex rend="italic">n</ex> me vederà parente ny amicho</l>
                 <l n="8388">né mia dona a chy azo mia fé promesso</l>
@@ -12311,7 +12303,7 @@
                 <l n="8415">(8385) e perché vuy fusty fragila e batuto,</l>
                 <l n="8416">ensu la croze y<ex rend="italic">n</ex>chiodà et metuto,</l>
                 <l n="8417">quando de la lanza a vuy fo fato lo pertuso</l>
-                <l n="8418"><milestone n="1R" unit="fol."/> 127R) ch'el sangue ne corsse e passa
+                <l n="8418"><milestone n="127R" unit="fol."/>ch'el sangue ne corsse e passa
                         p<ex rend="italic">er</ex> mezo al busso,</l>
                 <l n="8419">tuty li pecha che may fezino tuti li anulassy,</l>
                 <l n="8420">(8390) perché loro aveno bon p(e)nsery cosye</l>
@@ -12355,7 +12347,7 @@
                 <l n="8449">Ugo<ex rend="italic">n</ex> lo vede, per luy no<ex rend="italic">n</ex>
                     se remuda,</l>
                 <l n="8450">(8420) e possa dize: "Avante, santa avè Maria,</l>
-                <l n="8451"><milestone n="1R" unit="fol."/> 127V) zà homo cosỳ <ex rend="italic"
+                <l n="8451"><milestone n="127V" unit="fol."/>zà homo cosỳ <ex rend="italic"
                         >con</ex>trafato no<ex rend="italic">n</ex> vite y<ex rend="italic">n</ex>
                     mia venuta."</l>
                 <l n="8452">Segna el suo visso e possa dize Ugone:</l>
@@ -12365,7 +12357,7 @@
                     perdudo?</l>
                 <l n="8456">È tu homo verase o fantasima paritue?</l>
                 <l n="8457">E te sconzuro da parte le tre vertude,</l>
-                <l n="8458"><milestone n="1R" unit="fol."/> 128R) zoè el Padre, el Filio, el Sperito
+                <l n="8458"><milestone n="128R" unit="fol."/>zoè el Padre, el Filio, el Sperito
                     santo che y<ex rend="italic">n</ex>n-un sol Dio roma<ex rend="italic"
                     >n</ex>ne,</l>
                 <l n="8459">che nosere no<ex rend="italic">n</ex> me possy y<ex rend="italic">n</ex>
@@ -12413,7 +12405,7 @@
                 <l n="8489">tu moryrisse a dolore. Ma a Yh<ex rend="italic">es</ex>ù no<ex
                         rend="italic">n</ex> piase</l>
                 <l n="8490">(8460) che vuy lo do(i)vite sapere; e perzò me taze:</l>
-                <l n="8491"><milestone n="1R" unit="fol."/> 128V) ora te vene apresso a my, sire,
+                <l n="8491"><milestone n="128V" unit="fol."/>ora te vene apresso a my, sire,
                     se∙l te piaze."</l>
                 <l n="8492">Lo conte li responde: "Zà non me menaray</l>
                 <l n="8493">che molto seristy falso se a tuo modo me passy:</l>
@@ -12451,7 +12443,7 @@
                     niente."</l>
                 <l n="8521">"Non farò," dize Ugo, "per santo Nicholò!</l>
                 <l n="8522">parte∙te de quỳ ora, felon e malvase."</l>
-                <l n="8523"><milestone n="1R" unit="fol."/> 129R) E quelo li responde: "Ora quỳ te
+                <l n="8523"><milestone n="129R" unit="fol."/>E quelo li responde: "Ora quỳ te
                     romaray;</l>
                 <l n="8524">oramay a toa ventura e tuo pericholo te lasy."</l>
             </lg>
@@ -12491,7 +12483,7 @@
                     crederò a ty niente. </l>
                 <l n="8553">Seguramente sapiate niu male no<ex rend="italic">n</ex> faremo,</l>
                 <l n="8554">venite apresso a my et nuy te <ex rend="italic">con</ex>duremo</l>
-                <l n="8555"><milestone n="1R" unit="fol."/> 129V) a salvamento com tuta toa
+                <l n="8555"><milestone n="129V" unit="fol."/>a salvamento com tuta toa
                     guarnisone, </l>
                 <l n="8556">(8525) davante al gran maistro chi sta y<ex rend="italic">n</ex> la
                     fernal persone,</l>
@@ -12533,7 +12525,7 @@
                 <l n="8584">anzé che piatà fosse y<ex rend="italic">n</ex> la verzene obligata</l>
                 <l n="8585">de molto grande tempo sièra mia carne nata.</l>
                 <l n="8586">(8555) Se yo avese de quela aqua tochata,</l>
-                <l n="8587"><milestone n="1R" unit="fol."/> 130R) perché sonto (de) umana zente,
+                <l n="8587"><milestone n="130R" unit="fol."/>perché sonto (de) umana zente,
                     sapite </l>
                 <l n="8588">y <ex rend="italic">n</ex>∙no<ex rend="italic">n</ex> dotasse da tendre
                     a la corona</l>
@@ -12577,7 +12569,7 @@
                 <l n="8617">"Hay, Eneas, se tu avisse creduto,</l>
                 <l n="8618">y<ex rend="italic">n</ex>nanzo e∙l fiolo de Dio che de verze(ne) è
                     nasuto,</l>
-                <l n="8619"><milestone n="1R" unit="fol."/> 130V) yo me rendese a ty per amore de
+                <l n="8619"><milestone n="130V" unit="fol."/>yo me rendese a ty per amore de
                     coluy</l>
                 <l n="8620">che tu avesse merçede de mia salvazione.</l>
                 <l n="8621">(8590) Per secorere ty sonto quỳ venuto</l>
@@ -12616,7 +12608,7 @@
                 <l n="8648">yo me chiamo y<ex rend="italic">n</ex> colpa che mò me repento;</l>
                 <l n="8649">tuto quelo chi è darde, siè pur pensamento</l>
                 <l n="8650">acorto eio sono che a Dio puro (no<ex rend="italic">n</ex>) hofendo.</l>
-                <l n="8651">(8620)<milestone n="1R" unit="fol."/> 131R) Possa se pensa puro
+                <l n="8651">(8620)<milestone n="131R" unit="fol."/>Possa se pensa puro
                     altramente</l>
                 <l n="8652">che elo no<ex rend="italic">n</ex> fose de la troiana zente.</l>
                 <l n="8653">Alora li dise molto sobitanamente:</l>
@@ -12661,7 +12653,7 @@
                 <l n="8681">(8650) sembiante che l'isese senza nave ni galeia</l>
                 <l n="8682">un vechio armito chi à la barba fiorita,</l>
                 <l n="8683">la soue cilie base a una chiara fazia,</l>
-                <l n="8684"><milestone n="1R" unit="fol."/> 131V) à longo li capily, zà petenà no<ex
+                <l n="8684"><milestone n="131V" unit="fol."/>à longo li capily, zà petenà no<ex
                         rend="italic">n</ex> son miga, </l>
                 <l n="8685">la statura longa una cana e melio,</l>
                 <l n="8686">(8655) la cota negra cosỳ com se posea vedere</l>
@@ -12702,7 +12694,7 @@
                 <l n="8713">a querire zò che vole lo gra<ex rend="italic">n</ex> Franzose.</l>
                 <l n="8714">No<ex rend="italic">n</ex> te∙ssmarire, che ben sono de toa leze.</l>
                 <l n="8715">Cavalero fuy et demenay gra<ex rend="italic">n</ex> tornire</l>
-                <l n="8716">(8685)<milestone n="1R" unit="fol."/> 132R) per acresere la cristianità
+                <l n="8716">(8685)<milestone n="132R" unit="fol."/>per acresere la cristianità
                     fede.</l>
                 <l n="8717">Travaiosso fuy, zamay reposso no<ex rend="italic">n</ex>n-avy</l>
                 <l n="8718">tanto como yo vivite, eio fuy de bona fede:</l>
@@ -12741,7 +12733,7 @@
             </lg>
             <lg type="laisse" n="348">
                 <head>Laisse 348</head>
-                <l n="8748"><milestone n="1R" unit="fol."/> 132V) Quando tal parola y<ex
+                <l n="8748"><milestone n="132V" unit="fol."/>Quando tal parola y<ex
                         rend="italic">n</ex>tende lo conte,</l>
                 <l n="8749">el non se pose tenire ch'el no<ex rend="italic">n</ex> se bagnase el
                     viso de lagreme</l>
@@ -12777,7 +12769,7 @@
                 <l n="8777">Et ello responde, "No<ex rend="italic">n</ex> aver nula paura;</l>
                 <l n="8778">tu sey per Dio de my el condutore.</l>
                 <l n="8779">Uno avochato avis tu ancoy desopra</l>
-                <l n="8780"><milestone n="1R" unit="fol."/> 133R) che fo tereno vivo compagno de lo
+                <l n="8780"><milestone n="133R" unit="fol."/>che fo tereno vivo compagno de lo
                         y<ex rend="italic">n</ex>peradore, </l>
                 <l n="8781">(8750) e che apresso Dio fo roman sanatore.</l>
                 <l n="8782">Vergene e martoro vene y<ex rend="italic">n</ex>
@@ -12820,7 +12812,7 @@
                 <l n="8809">"El no<ex rend="italic">n</ex> me poria tochare niuno homo vivente</l>
                 <l n="8810">fina a tanto ch'el virà el zorno del zudigamente</l>
                 <l n="8811">(8780) che carne e anima tornarà y<ex rend="italic">n</ex>gualmente;</l>
-                <l n="8812"><milestone n="1R" unit="fol."/> 133V) alora redopiarà la zoia e∙l
+                <l n="8812"><milestone n="133V" unit="fol."/>alora redopiarà la zoia e∙l
                     tormento. </l>
                 <l n="8813">Al nome de Dio finemo questo parlamento,</l>
                 <l n="8814">andiamo nuy, che tropo siemo demorato.</l>
@@ -12836,7 +12828,7 @@
                 <l n="8821">Cosỳ se'n vano p<ex rend="italic">er</ex> lo dese<ex
                         rend="italic">r</ex>to paiese</l>
                 <l n="8822">lo bon Guielmo, apresso luy Ugo lo zentile</l>
-                <l n="8823"><milestone n="1R" unit="fol."/> 134R) et Enias com lo falso sperito </l>
+                <l n="8823"><milestone n="134R" unit="fol."/>et Enias com lo falso sperito </l>
                 <l n="8824">vano dedreto como li passy pizole.</l>
                 <l n="8825">(8785) Tanto caminò de note et de zorno</l>
                 <l n="8826">che lor arivono desopra el maro a la riva</l>
@@ -12876,7 +12868,7 @@
                         >n</ex>n-abiso:</l>
                 <l n="8854">tanto com vano avante, àno lume a so dileto,</l>
                 <l n="8855">(8815) e dedreto a loro la scurità està remesa.</l>
-                <l n="8856"><milestone n="1R" unit="fol."/> 134V) Quando vite questo, Ugo e Dio el
+                <l n="8856"><milestone n="134V" unit="fol."/>Quando vite questo, Ugo e Dio el
                     benedise; </l>
                 <l n="8857">en∙n una via streta, com dize la scrita,</l>
                 <l n="8858">da l'un lado e da l'altro siè grande aqua p<ex rend="italic"
@@ -12918,7 +12910,7 @@
                 <l n="8886">"Vide tu quel muro?" dize Guielmo li bero.</l>
                 <l n="8887">"Quel siè abiso, donda a nuy coventa pur pasare;</l>
                 <l n="8888">quily che apresso soa morte se lasano quỳ menare</l>
-                <l n="8889"><milestone n="1R" unit="fol."/> 135R) de y<ex rend="italic">n</ex>sire
+                <l n="8889"><milestone n="135R" unit="fol."/>de y<ex rend="italic">n</ex>sire
                     fora non coventa zamay pensare.</l>
                 <l n="8890">(8850) Zoè l'entrà del premenable stare</l>
                 <l n="8891">y<ex rend="italic">n</ex> fogo e y<ex rend="italic">n</ex> fiama, y<ex
@@ -12933,7 +12925,7 @@
                 <l n="8896">Dize lo Troian, "Guardate quela fegura</l>
                 <l n="8897">sopra quela porta de bela fatura.</l>
                 <l n="8898">A guissa d'una polzela avea el visso e vestita,</l>
-                <l n="8899"><milestone n="1R" unit="fol."/> 135V) tene una spada che d'azalo
+                <l n="8899"><milestone n="135V" unit="fol."/>tene una spada che d'azalo
                     resomilia <ex rend="italic">et</ex> pura,</l>
                 <l n="8900">(8860) apresso quela carta aperta de scritura,</l>
                 <l n="8901">zò posite y<ex rend="italic">n</ex>tendre quelo ch'el è p<ex
@@ -12980,7 +12972,7 @@
                         >n</ex> degna;</l>
                 <l n="8929">servente Mano che a morire ly mena."</l>
                 <l n="8930">"Ay, Eneas," zò dize lo <ex rend="italic">con</ex>te Ugone lo magno,</l>
-                <l n="8931"><milestone n="1R" unit="fol."/> 136R) (8890) "quest'altra porta chi è de
+                <l n="8931"><milestone n="136R" unit="fol."/>(8890) "quest'altra porta chi è de
                     menore y<ex rend="italic">n</ex>trada</l>
                 <l n="8932">à quela y<ex rend="italic">n</ex>mazina adorna a la cera grifagna,</l>
                 <l n="8933">né no<ex rend="italic">n</ex>n-à passo ponto che lo pas li retegna;</l>
@@ -13026,7 +13018,7 @@
                 <l n="8962">vedite ly <ex rend="italic">Chr</ex>i<ex rend="italic">st</ex>eane e
                     vederite la Zudeia leze,</l>
                 <l n="8963">vederé quisty che sono de menor leze.</l>
-                <l n="8964"><milestone n="1R" unit="fol."/> 136V) 'Patarin' li apela la <ex
+                <l n="8964"><milestone n="136V" unit="fol."/>'Patarin' li apela la <ex
                         rend="italic">christ</ex>iana leze,</l>
                 <l n="8965">quysty non atendeno se n'a<ex rend="italic">com</ex>pire el suo
                     volere</l>
@@ -13065,7 +13057,7 @@
                 <head>Laisse 357</head>
                 <l n="8995">Adessa y<ex rend="italic">n</ex>trat'è al paiesse criminale </l>
                 <l n="8996">(8955) più che friza ch'è d'archo ponzente</l>
-                <l n="8997"><milestone n="1R" unit="fol."/> 137R) e coreno tuty tre per una scura
+                <l n="8997"><milestone n="137R" unit="fol."/>e coreno tuty tre per una scura
                     strada. </l>
                 <l n="8998">Non podea retenire la ganba ponto ferma</l>
                 <l n="8999">lo <ex rend="italic">con</ex>te d'Alvernia, che avea pezor corazo,</l>
@@ -13107,7 +13099,7 @@
                     honesto,</l>
                 <l n="9028">no<ex rend="italic">n</ex> ma de cride e de pianzere e de tempesta?"</l>
                 <l n="9029">Alora li responde Eneas molto presto:</l>
-                <l n="9030"><milestone n="1R" unit="fol."/> 137V) "Perché lor sono segury che tuto
+                <l n="9030"><milestone n="137V" unit="fol."/>"Perché lor sono segury che tuto
                     so tempo (lì) starano</l>
                 <l n="9031">(8990) non farano may che quỳ nula movesta</l>
                 <l n="9032">fora quel zorno che l'altisima podestà</l>
@@ -13152,7 +13144,7 @@
                 <l n="9061">(9020) El <ex rend="italic">con</ex>dutore sovran no<ex rend="italic"
                         >n</ex> se voleva arestare.</l>
                 <l n="9062">Hugon parlò com piatossa cera:</l>
-                <l n="9063"><milestone n="1R" unit="fol."/> 138R) "Mess<ex rend="italic">er</ex>
+                <l n="9063"><milestone n="138R" unit="fol."/>"Mess<ex rend="italic">er</ex>
                     Guielmo, non me lasar de dreto,</l>
                 <l n="9064">yo vezo quỳ zente de molte mainera;</l>
                 <l n="9065">zascun verso my sì m'à fato trista cera,</l>
@@ -13197,7 +13189,7 @@
             </lg>
             <lg type="laisse" n="362">
                 <head>Laisse 362</head>
-                <l n="9096"><milestone n="1R" unit="fol."/> 138V) (9055) "Per
+                <l n="9096"><milestone n="138V" unit="fol."/>(9055) "Per
                     vanagloria," lo <ex rend="italic">con</ex>te Ugo responde,</l>
                 <l n="9097">sono pertanto costro y<ex rend="italic">n</ex> questo logo profondo?</l>
                 <l n="9098">Questa è gran meravilia, se altro pechà no<ex rend="italic"
@@ -13242,7 +13234,7 @@
                 <l n="9126">(9085) dize Aeneas, "ora siate del tuto el primo,</l>
                 <l n="9127">per questo locho siate nostro capitanio."</l>
                 <l n="9128">"Volentera, sire," dize lo sperito troiano.</l>
-                <l n="9129"><milestone n="1R" unit="fol."/> 139R) Lor pedona tuty per un locho,</l>
+                <l n="9129"><milestone n="139R" unit="fol."/>Lor pedona tuty per un locho,</l>
                 <l n="9130">per un chamy che de sperity era pieno.</l>
                 <l n="9131">(9090) "Tu, che fusse fiolo o parente,</l>
                 <l n="9132">chy sono costoro al viso tirano?</l>
@@ -13281,7 +13273,7 @@
                 <l n="9159">e zà per mazor travalie atende</l>
                 <l n="9160">e quily che lor grata s'ordenono tradimento,</l>
                 <l n="9161">(9125) e a lor dize, "Che fay tanto longamente?</l>
-                <l n="9162"><milestone n="1R" unit="fol."/> 139V) yo t'azo gratà e tu grado no<ex
+                <l n="9162"><milestone n="139V" unit="fol."/>yo t'azo gratà e tu grado no<ex
                         rend="italic">n</ex> me sente.</l>
                 <l n="9163">Zà crede tu fare de my tuto simelmente</l>
                 <l n="9164">como tu fesse de la mondana zente?</l>
@@ -13327,7 +13319,7 @@
             </lg>
             <lg type="laisse" n="366">
                 <head>Laisse 366</head>
-                <l n="9195"><milestone n="1R" unit="fol."/> 140R) Dize lo <ex
+                <l n="9195"><milestone n="140R" unit="fol."/>Dize lo <ex
                         rend="italic">con</ex>te, "Perché, di∙me, Sandin, </l>
                 <l n="9196">(9160) p<ex rend="italic">er</ex>ché m'enviò Carlo y<ex rend="italic"
                         >n</ex> questo malvas chamin?</l>
@@ -13373,7 +13365,7 @@
                 <l n="9226">(9190) Lo <ex rend="italic">con</ex>te luy guarda com'el sta e com(o) el
                     stia,</l>
                 <l n="9227">al departire una preda desendea</l>
-                <l n="9228"><milestone n="1R" unit="fol."/> 140V) donda tremava tuty li danà e ly
+                <l n="9228"><milestone n="140V" unit="fol."/>donda tremava tuty li danà e ly
                     tristy.</l>
                 <l n="9229">Sỳ como zascun p<ex rend="italic">er</ex> forore se smarise</l>
                 <l n="9230">e signase e rechiama Yh<ex rend="italic">es</ex>ù Criste,</l>
@@ -13417,7 +13409,7 @@
                 <l n="9259">Del pasar sono molty bramosse;</l>
                 <l n="9260">per un pizolo no<ex rend="italic">n</ex> y<ex rend="italic">n</ex>trono
                         y<ex rend="italic">n</ex> la rive.</l>
-                <l n="9261">(9225)<milestone n="1R" unit="fol."/> 141R) Zò siè a tuto suo dano, ben
+                <l n="9261">(9225)<milestone n="141R" unit="fol."/>Zò siè a tuto suo dano, ben
                     lo vedo de vero,</l>
                 <l n="9262">mé y<ex rend="italic">n</ex>versso lor vene uno corando <ex
                         rend="italic">et</ex> destesso</l>
@@ -13427,7 +13419,7 @@
                 <l n="9266">(9230) e∙lla lor schera. Zà venite tristy, maledety,</l>
                 <l n="9267">condurò vuy a la y<ex rend="italic">n</ex>fernal masone."</l>
                 <l n="9268">Et Eneas dize alor,"Guardate, amicho,</l>
-                <l n="9269"><milestone n="1R" unit="fol."/> 141V) ora podite vedere li aneme di
+                <l n="9269"><milestone n="141V" unit="fol."/>ora podite vedere li aneme di
                     chativy </l>
                 <l n="9270">che de gra<ex rend="italic">n</ex> pechà sono vestity tuty y dy,</l>
                 <l n="9271">(9235) che y<ex rend="italic">n</ex>comtra a Dio sono stà despersy</l>
@@ -13471,7 +13463,7 @@
                 <l n="9300">como y<ex rend="italic">n</ex> la nave y<ex rend="italic">n</ex>tra ly
                     pecadore:</l>
                 <l n="9301">(9265) cossỳ come pegore che fuzeno p<ex rend="italic">er</ex> paure</l>
-                <l n="9302"><milestone n="1R" unit="fol."/> 142R) dezà e delà pur davante lo rio
+                <l n="9302"><milestone n="142R" unit="fol."/>dezà e delà pur davante lo rio
                     pastore</l>
                 <l n="9303">prendre vole e lasa la milliore,</l>
                 <l n="9304">cossỳ quele anime no<ex rend="italic">n</ex>n-avea niun secorso.</l>
@@ -13514,7 +13506,7 @@
                 <l n="9332">cosỳ se'n va com homo sbaratà.</l>
                 <l n="9333">E sopra la porta fo adoncha arivà</l>
                 <l n="9334">lo sagitario com tuto l'archo atosegado:</l>
-                <l n="9335"><milestone n="1R" unit="fol."/> 142V) "A vuy," crida, "vuy cosỳ non
+                <l n="9335"><milestone n="142V" unit="fol."/>"A vuy," crida, "vuy cosỳ non
                     pasarite."</l>
                 <l n="9336">(9300) Alora lasò andar la sageta y<ex rend="italic">n</ex>penà,</l>
                 <l n="9337">desopra la prossa de la nave fo arivà</l>
@@ -13554,7 +13546,7 @@
                 <l n="9366">(9330) Lo <ex rend="italic">con</ex>te d'Alvergnea guarda lo
                     saitario </l>
                 <l n="9367">laido e soperbio, no<ex rend="italic">n</ex> fina de braire: </l>
-                <l n="9368"><milestone n="1R" unit="fol."/> 143R) paura avea lo vasalo de Franza, </l>
+                <l n="9368"><milestone n="143R" unit="fol."/>paura avea lo vasalo de Franza, </l>
                 <l n="9369">mé santo Guielmo gran <ex rend="italic">con</ex>forto a lui
                     deschiare,</l>
                 <l n="9370">et Eneas la paura a luy <ex rend="italic">con</ex>trar(i)a:</l>
@@ -13593,7 +13585,7 @@
                 <l n="9398">niu ben no<ex rend="italic">n</ex> se trova zà que<ex rend="italic"
                         >n</ex>zà, nè nulo reposo,</l>
                 <l n="9399">en∙n altra guissa yo sono ben dese(d)roso</l>
-                <l n="9400"><milestone n="1R" unit="fol."/> 143V) de veder l'esere di cativy
+                <l n="9400"><milestone n="143V" unit="fol."/>de veder l'esere di cativy
                     dolorossy.</l>
             </lg>
             <lg type="laisse" n="373">
@@ -13636,7 +13628,7 @@
                 <l n="9431">possa tuty y corpo y<ex rend="italic">n</ex>.33. any tuty
                     retornarano</l>
                 <l n="9432">(9395) li corpy dy morty, da.4000. any y<ex rend="italic">n</ex> zà</l>
-                <l n="9433"><milestone n="1R" unit="fol."/> 144R) ressusitarano cosỳ como da prima
+                <l n="9433"><milestone n="144R" unit="fol."/>ressusitarano cosỳ como da prima
                     lor stasia;</l>
                 <l n="9434">l'anima espaurossa el suo vaselo rempirò</l>
                 <l n="9435">e posa andarano donda se sentenziarà.</l>
@@ -13677,7 +13669,7 @@
                 <l n="9464">e de tuto l'esere lo vero li dize e no<ex rend="italic">n</ex>
                     l'asconde.</l>
                 <l n="9465">Mostrando andò a uno a uno a Ugo<ex rend="italic">n</ex> lo biondo:</l>
-                <l n="9466"><milestone n="1R" unit="fol."/> 144V) "Questoro a tal tormeno che zà
+                <l n="9466"><milestone n="144V" unit="fol."/>"Questoro a tal tormeno che zà
                     fono al mondo </l>
                 <l n="9467">(9430) per suo mal fare <ex rend="italic">con</ex>venta questo locho lor
                         se<ex rend="italic">con</ex>da."</l>
@@ -13723,7 +13715,7 @@
                 <l n="9496">como color crida quando àno tal locho atrovato,</l>
                 <l n="9497">(9460) fano suspire et angosiosy guay</l>
                 <l n="9498">che l'aira ascurisse e possa oltra sono andate.</l>
-                <l n="9499"><milestone n="1R" unit="fol."/> 145R) Homene <ex rend="italic">et</ex>
+                <l n="9499"><milestone n="145R" unit="fol."/>Homene <ex rend="italic">et</ex>
                     femene y<ex rend="italic">n</ex> quelo locho sono asay;</l>
                 <l n="9500">dolente se chiama e chativy e mal nasuty.</l>
                 <l n="9501">Al<ex rend="italic"> con</ex>te d'Alvergna y<ex rend="italic">n</ex>
@@ -13768,7 +13760,7 @@
                 <l n="9529">non credeno esere com(o) li romagnente,</l>
                 <l n="9530">me yo penso tuto altramente: </l>
                 <l n="9531">Che vale costoro aver confortamento, </l>
-                <l n="9532">(9495)<milestone n="1R" unit="fol."/> 145V) ché la lor speranza credo
+                <l n="9532">(9495)<milestone n="145V" unit="fol."/>ché la lor speranza credo
                     che sia niente,</l>
                 <l n="9533">com de coluy chy chaza niente no<ex rend="italic">n</ex> prende?"</l>
                 <l n="9534">Y<ex rend="italic">n</ex> quela lagremò Ugo<ex rend="italic">n</ex>
@@ -13810,7 +13802,7 @@
                 <l n="9561">Tanto àno caminà che arivà sono</l>
                 <l n="9562">(9525) a un castelo che no<ex rend="italic">n</ex> fo un tanto belo al
                     mondo.</l>
-                <l n="9563"><milestone n="1R" unit="fol."/> 146R) Sono al chastelo com l'instoria
+                <l n="9563"><milestone n="146R" unit="fol."/>Sono al chastelo com l'instoria
                     despone</l>
                 <l n="9564">de grande fose e de mure che ly sono,</l>
                 <l n="9565">là molte arme per quelo locho parevano.</l>
@@ -13822,7 +13814,7 @@
                 <l n="9570">sopra la stra del capitelo retondo,</l>
                 <l n="9571">vedite là lo maistro Tolomeo dal capo biondo,</l>
                 <l n="9572">(9535) che astroligo fo lo primo del mondo.</l>
-                <l n="9573"><milestone n="1R" unit="fol."/> 146V) Ly nogramante apresso luy sono; </l>
+                <l n="9573"><milestone n="146V" unit="fol."/>Ly nogramante apresso luy sono; </l>
                 <l n="9574">vedite com el li fa studiare e le y<ex rend="italic">n</ex>pro<ex
                         rend="italic">n</ex>tò</l>
                 <l n="9575">de tuty li altre, che scolaro ancora el è.</l>
@@ -13864,7 +13856,7 @@
                 <l n="9603">la letra dize ch'elo avea nome Ferabus:</l>
                 <l n="9604">la menor letra era grande com un scudo.</l>
                 <l n="9605">Lo santo sperito avè dito a le perdute:</l>
-                <l n="9606"><milestone n="1R" unit="fol."/> 147R) "Posa che tu ay acomenzà a
+                <l n="9606"><milestone n="147R" unit="fol."/>"Posa che tu ay acomenzà a
                     movre</l>
                 <l n="9607">(9570) a deschiarire zò che a nuy è <ex rend="italic"
                     >con</ex>fusione,</l>
@@ -13906,7 +13898,7 @@
                 <l n="9636">Y<ex rend="italic">n</ex>clina el capo e pasate seguramente."</l>
                 <l n="9637">(9600) Lo <ex rend="italic">con</ex>te Guielmo p<ex rend="italic"
                         >er</ex> la man lo prende</l>
-                <l n="9638"><milestone n="1R" unit="fol."/> 147V) e la streta porta per dedreto lor
+                <l n="9638"><milestone n="147V" unit="fol."/>e la streta porta per dedreto lor
                     laserà.</l>
                 <l n="9639">Vano avante la terza pasono,</l>
                 <l n="9640">asay trovono dolore e tormente,</l>
@@ -13949,7 +13941,7 @@
                 <l n="9668">l'ovra li mostra. Da più parte lor stranie,</l>
                 <l n="9669">de combatre lor fano com feze ly corpy romane.</l>
                 <l n="9670">Pocho àno de reposo, ben vede tu lor afane."</l>
-                <l n="9671"><milestone n="1R" unit="fol."/> 148R) "Amicho," dize Eneas, "cosỳ è lor
+                <l n="9671"><milestone n="148R" unit="fol."/>"Amicho," dize Eneas, "cosỳ è lor
                     destruzione,</l>
                 <l n="9672">(9635) quando tu seray venuto a la tera sovrana</l>
                 <l n="9673">a ly omeny mondane porite dire de certe</l>
@@ -13994,7 +13986,7 @@
                 <l n="9701">de niente ch'el veda no<ex rend="italic">n</ex> prende paura.</l>
                 <l n="9702">(9665) Cosỳ per lor <ex rend="italic">con</ex>forto el s'asegura,</l>
                 <l n="9703">cosỳ como el fose dentro un castel de mure.</l>
-                <l n="9704"><milestone n="1R" unit="fol."/> 148V) Y<ex rend="italic">n</ex>tra li
+                <l n="9704"><milestone n="148V" unit="fol."/>Y<ex rend="italic">n</ex>tra li
                     altre tormente che vite el <ex rend="italic">con</ex>te puro</l>
                 <l n="9705">una dona y<ex rend="italic">n</ex>contrò chy fuze a gran paura. </l>
                 <l n="9706">Sembiante avea de raina, molto avea la cera scura,</l>
@@ -14013,7 +14005,7 @@
                     siè y<ex rend="italic">n</ex> questa ardura.</l>
                 <l n="9715">Aglentina avè nome, s'el no<ex rend="italic">n</ex> fala la
                     scritura,</l>
-                <l n="9716"><milestone n="1R" unit="fol."/> 149R) dona fo de Guascogna e sy tenea la
+                <l n="9716"><milestone n="149R" unit="fol."/>dona fo de Guascogna e sy tenea la
                     dritura;</l>
                 <l n="9717">(9680) Guielmo de Nanto(i)l avea nomo so sire, che tanto fo duro.</l>
                 <l n="9718">Vedite∙lo là venire sopra quel chaval coredore?</l>
@@ -14064,7 +14056,7 @@
                         rend="italic">n</ex>te acampate,</l>
                 <l n="9748">che y<ex rend="italic">n</ex> lor vita no<ex rend="italic">n</ex> amono
                     Dio de niente,</l>
-                <l n="9749"><milestone n="1R" unit="fol."/> 149V) et cristianità destruzere fuò suo
+                <l n="9749"><milestone n="149V" unit="fol."/>et cristianità destruzere fuò suo
                     pensamento, </l>
                 <l n="9750">ond à zò che vedite ancora mazor tormento.</l>
                 <l n="9751">Avese allor saputo che cossa era cristiana zente!</l>
@@ -14106,7 +14098,7 @@
                 <l n="9778">Ugo<ex rend="italic">n</ex> domandò a Eneas lo latinero:</l>
                 <l n="9779">"Chi è costuy? Ora me lo dỳ, bel fradelo."</l>
                 <l n="9780">Quelo responde, "Te∙l dirò tuto a parte a parte</l>
-                <l n="9781"><milestone n="1R" unit="fol."/> 150R) che y<ex rend="italic">n</ex> suo
+                <l n="9781"><milestone n="150R" unit="fol."/>che y<ex rend="italic">n</ex> suo
                     tempo li dè asay che fare;</l>
                 <l n="9782">(9745) ben lo dezo conosere et avisare.</l>
                 <l n="9783">Costuy davante siè Tebaldo lo gaiardo,</l>
@@ -14145,7 +14137,7 @@
                 <l n="9811">Guiellmo l'encontrò, chy fo suo guidadore.</l>
                 <l n="9812">(9775) La dona dize, "Ora aie tuto zò che requere,</l>
                 <l n="9813">costuy me aidarà del mio grande destorbamento."</l>
-                <l n="9814"><milestone n="1R" unit="fol."/> 150V) Lor vene a luy, per amore le
+                <l n="9814"><milestone n="150V" unit="fol."/>Lor vene a luy, per amore le
                     riquere:</l>
                 <l n="9815">"Ben venga, mio drudo e mio amore e spero, </l>
                 <l n="9816">aidatememe de questo vostro aversario."</l>
@@ -14190,7 +14182,7 @@
                 <l n="9844">Molty tormenty vite che yo no<ex rend="italic">n</ex> posso contare,</l>
                 <l n="9845">che pareno forte solamente a guardare:</l>
                 <l n="9846">mé entra li altre vite Ugo un castelo.</l>
-                <l n="9847">(9810)<milestone n="1R" unit="fol."/> 151R) Asay ben fortuito pare, chi
+                <l n="9847">(9810)<milestone n="151R" unit="fol."/>Asay ben fortuito pare, chi
                     vene bene a guardare,</l>
                 <l n="9848">de <ex rend="italic">con</ex>dure ad arme, che apertene a guerezare.</l>
                 <l n="9849">A un balchon vite un∙n omo chy à el suo viso chiaro,</l>
@@ -14233,7 +14225,7 @@
                     chy sono.</l>
                 <l n="9879">Un lago trovono che gran s<ex rend="italic">er</ex>penty li sono,</l>
                 <l n="9880">che tuty sono de deverse fazone;</l>
-                <l n="9881"><milestone n="1R" unit="fol."/> 151V) l'uno siè pezore de l'altro, com
+                <l n="9881"><milestone n="151V" unit="fol."/>l'uno siè pezore de l'altro, com
                         y<ex rend="italic">n</ex> questo mondo sono, </l>
                 <l n="9882">ora fano entra le sperite gra<ex rend="italic">n</ex> tenzone</l>
                 <l n="9883">(9845) e de fogo e de fiama tute aluminà lor sono.</l>
@@ -14279,7 +14271,7 @@
                 <l n="9912">quando el serà requesto elo li dirà el tuto verame<ex rend="italic"
                         >n</ex>te,</l>
                 <l n="9913">(9875) zò ch'el avea trovà per ovra e per sembiante.</l>
-                <l n="9914"><milestone n="1R" unit="fol."/> 152R) Per questa chasone fo lo <ex
+                <l n="9914"><milestone n="152R" unit="fol."/>Per questa chasone fo lo <ex
                         rend="italic">con</ex>te tropo parlente,</l>
                 <l n="9915">Guielmo ben lo sa, perzò no∙l va reprendando,</l>
                 <l n="9916">mé al più ch'el può lo mete denanzo</l>
@@ -14326,7 +14318,7 @@
                 <l n="9945">et a quily povry habito che romano p<ex rend="italic">er</ex>
                     maistria,</l>
                 <l n="9946">che puro dize vero altruy el fano tuta via.</l>
-                <l n="9947"><milestone n="1R" unit="fol."/> 152V) Li rasory àno desopra e la mele
+                <l n="9947"><milestone n="152V" unit="fol."/>Li rasory àno desopra e la mele
                         y<ex rend="italic">n</ex> bocha portano."</l>
                 <l n="9948">(9910) "Vero," dize Ugo<ex rend="italic">n</ex>, "sono quisty de tal
                     folia;</l>
@@ -14375,7 +14367,7 @@
                 <l n="9978">(9940) depenta fo de prede nigre e bianche</l>
                 <l n="9979">e de molte altre afare senza ponto <ex rend="italic"
                     >con</ex>tenanze.</l>
-                <l n="9980"><milestone n="1R" unit="fol."/> 153R) En∙n altra tera per arte de
+                <l n="9980"><milestone n="153R" unit="fol."/>En∙n altra tera per arte de
                     nogramanzia </l>
                 <l n="9981">en quel locho de sete arte, tute le sienzie,</l>
                 <l n="9982">che Anchisse comenzò y<ex rend="italic">n</ex> soa zoventure. </l>
@@ -14389,7 +14381,7 @@
                 <l n="9990">al fio d'Anchis piase la domandanza:</l>
                 <l n="9991">"Quysty sperite perché sono y<ex rend="italic">n</ex> sente<ex
                         rend="italic">n</ex>zia?</l>
-                <l n="9992"><milestone n="1R" unit="fol."/> 153V) Sono lor danaty y<ex rend="italic"
+                <l n="9992"><milestone n="153V" unit="fol."/>Sono lor danaty y<ex rend="italic"
                         >n</ex> scura abitanzia?</l>
                 <l n="9993">(9955) Color portano de sienza la manza, </l>
                 <l n="9994"> doncha ly fa dano la soa costumanza?</l>
@@ -14441,7 +14433,7 @@
                 <l n="10022">onda le sentenzie ly mostrarà e∙l naturale </l>
                 <l n="10023">(9985) doverà donare a chy sofrỳ la travalia</l>
                 <l n="10024">per tuto sapere de la ternal ombra.</l>
-                <l n="10025"><milestone n="1R" unit="fol."/> 154R) Quelo che y<ex rend="italic"
+                <l n="10025"><milestone n="154R" unit="fol."/>Quelo che y<ex rend="italic"
                         >n</ex> quel locho averà bona note e zorno </l>
                 <l n="10026">chy l'atende rio coro che molto li starà male.</l>
                 <l n="10027">El suo cantare seneficha altretale</l>
@@ -14483,7 +14475,7 @@
                 <l n="10055">che sì fortemente te fa justiziare.</l>
                 <l n="10056">E quelo s'arestò chy fazea laida cera:</l>
                 <l n="10057">"Chi è tu?" diz elo, "chy me domanda e requere?</l>
-                <l n="10058"><milestone n="1R" unit="fol."/> 154V) Perché me vo' tu la mia pena
+                <l n="10058"><milestone n="154V" unit="fol."/> 154V) Perché me vo' tu la mia pena
                     redopiare?</l>
                 <l n="10059">(11020) Lasa∙me andare, no<ex rend="italic">n</ex> te cura de doma<ex
                         rend="italic">n</ex>darme</l>
@@ -14527,7 +14519,7 @@
                 <l n="10089">(11050) no<ex rend="italic">n</ex> sazo più dire de questa
                     destruzione:</l>
                 <l n="10090">chi è tu chy m'ay tanto riquesto, barone?</l>
-                <l n="10091"><milestone n="1R" unit="fol."/> 155R) Tu sey tanto chiaro et bela
+                <l n="10091"><milestone n="155R" unit="fol."/>Tu sey tanto chiaro et bela
                     fazone,</l>
                 <l n="10092">non ay nula pena ancora, vivo te vezemo.</l>
                 <l n="10093">Com sey venuto y<ex rend="italic">n</ex> questo locho perfondo?</l>
@@ -14569,7 +14561,7 @@
                 <l n="10121">"Ay, Eneas," zò dize lo conte Ugone,</l>
                 <l n="10122">"là vezo doue anime che l'una l'altra mena</l>
                 <l n="10123">che me resembla che pene àno sì crude;</l>
-                <l n="10124">(10085)<milestone n="1R" unit="fol."/> 155V) fa che quisty duy otre
+                <l n="10124">(10085)<milestone n="155V" unit="fol."/>fa che quisty duy otre
                     (si) me leza</l>
                 <l n="10125">che per my sonte y<ex rend="italic">n</ex> questo locho conesuto."</l>
                 <l n="10126">E quelo responde, "Y<ex rend="italic">n</ex> verità y<ex rend="italic"
@@ -14614,7 +14606,7 @@
                     reguardare</l>
                 <l n="10155">che a Eneas el no<ex rend="italic">n</ex> requera e domanda:</l>
                 <l n="10156">"Che zente sono queste chi àno pene sì grande?</l>
-                <l n="10157"><milestone n="1R" unit="fol."/> 156 R) De queste pene no<ex
+                <l n="10157"><milestone n="156R" unit="fol."/>De queste pene no<ex
                         rend="italic">n</ex> sa dire la mainera,</l>
                 <l n="10158">tute braino et cridano quando lo lavorero li sorpre<ex rend="italic"
                         >n</ex>de, </l>
@@ -14670,7 +14662,7 @@
                 <head>Laisse 404</head>
                 <l n="10189">(10150) "Ay Luzifero," zò dize el <ex rend="italic"
                     >con</ex>te Ugone, </l>
-                <l n="10190"><milestone n="1R" unit="fol."/> 156V) entendite a my tuto zò che te
+                <l n="10190"><milestone n="156V" unit="fol."/>entendite a my tuto zò che te
                     dirò</l>
                 <l n="10191">che de Charlo Martelo mesazero yo sonto.</l>
                 <l n="10192">Non te saluto, felo e crudele demonio,</l>
@@ -14683,7 +14675,7 @@
                 <l n="10198">e trabuto sia tal como a luy se <ex rend="italic">con</ex>tene,</l>
                 <l n="10199">(10160) cosse che no<ex rend="italic">n</ex> avesse zamay, no<ex
                         rend="italic">n</ex> tenese nul prodomo.</l>
-                <l n="10200"><milestone n="1R" unit="fol."/> 157R) Quỳ y<ex rend="italic">n</ex>
+                <l n="10200"><milestone n="157R" unit="fol."/>Quỳ y<ex rend="italic">n</ex>
                     presente my da sova parte te desfydo.</l>
                 <l n="10201">El dize che te quera tanto che trova t'averemo,</l>
                 <l n="10202">un pian piè de tera no<ex rend="italic">n</ex> te lasarà Carlone.</l>
@@ -14725,7 +14717,7 @@
                 <l n="10230">sopra tuty nuy serà elo el più posente.</l>
                 <l n="10231">Vedite lo trabuto che nuy li mandemo veramente:</l>
                 <l n="10232">una litera com un leto più valemento</l>
-                <l n="10233"><milestone n="1R" unit="fol."/> 157V) che no<ex rend="italic">n</ex>
+                <l n="10233"><milestone n="157V" unit="fol."/>che no<ex rend="italic">n</ex>
                     vale Alemagne e zò che li apende;</l>
                 <l n="10234">(10195) mily oselete li sono d'oro smerante,</l>
                 <l n="10235">che d'ora y<ex rend="italic">n</ex>n-ora vano più sovao cantando</l>
@@ -14773,7 +14765,7 @@
                 <l n="10263">dize al diavlo chi à la pelegrina fazon:</l>
                 <l n="10264">(10225) "Va tosto, e porta lo descho chi è redondo</l>
                 <l n="10265">ond'à la vianda che vuy portasy de soa masone,</l>
-                <l n="10266"><milestone n="1R" unit="fol."/> 158R) el pan, el vin e l'altra
+                <l n="10266"><milestone n="158R" unit="fol."/>el pan, el vin e l'altra
                     vianda</l>
                 <l n="10267">e la charne che tolisse al barone,</l>
                 <l n="10268">niente del suo no<ex rend="italic">n</ex> perdrà del valor d'un boton. </l>
@@ -14788,7 +14780,7 @@
                 <l n="10276">Longo tempo stete ch'el no<ex rend="italic">n</ex> volse agustar tal
                     vianda.</l>
                 <l n="10277">Lo santo responde: "A Dio benedizione!</l>
-                <l n="10278"><milestone n="1R" unit="fol."/> 158V) Compita tu ay toa penedenzia,
+                <l n="10278"><milestone n="158V" unit="fol."/>Compita tu ay toa penedenzia,
                     adoncha</l>
                 <l n="10279">(10240) tu poy manzar a tuta toa salvazione</l>
                 <l n="10280">como quelo chi è y<ex rend="italic">n</ex> cassa tova</l>
@@ -14832,7 +14824,7 @@
                 <l n="10307">"Va tosto," diz elo, "da parte de lo sovra<ex rend="italic">n</ex> Dio, </l>
                 <l n="10308">porta costuy tosto a salvamento,</l>
                 <l n="10309">(10270) como tute queste cosse che lỳ sono aparechiate. </l>
-                <l n="10310"><milestone n="1R" unit="fol."/> 159R) Avante meza note che tu sey y<ex
+                <l n="10310"><milestone n="159R" unit="fol."/>Avante meza note che tu sey y<ex
                         rend="italic">n</ex> soa tera y<ex rend="italic">n</ex>trato</l>
                 <l n="10311">sopra el suo palazo lo mete tuto san e saluo,</l>
                 <l n="10312">fa che niente non senta e ch'el no<ex rend="italic">n</ex> sia
@@ -14848,7 +14840,7 @@
                 <l n="10319">(10280) Da l'altra parte el santo se fo montà </l>
                 <l n="10320">al Paradixo, d'onda l'era desevrato,</l>
                 <l n="10321">et Eneas y<ex rend="italic">n</ex> suo loco fo tornato.</l>
-                <l n="10322"><milestone n="1R" unit="fol."/> 159V) Davante l'alba parisente Ugo se
+                <l n="10322"><milestone n="159V" unit="fol."/>Davante l'alba parisente Ugo se
                     fo svegiato.</l>
             </lg>
             <lg type="laisse" n="408">
@@ -14902,7 +14894,7 @@
                         rend="italic">con</ex>te Ugone </l>
                 <l n="10353">che soa moiere <ex rend="italic">con</ex>forta li barone, </l>
                 <l n="10354">(10315) be la conosse al moto e la rasone.</l>
-                <l n="10355"><milestone n="1R" unit="fol."/> 160R) El dize, "Quỳ no<ex rend="italic"
+                <l n="10355"><milestone n="160R" unit="fol."/>El dize, "Quỳ no<ex rend="italic"
                         >n</ex>n-è tempo da restare."</l>
                 <l n="10356">Guardò∙se avante e volle y<ex rend="italic">n</ex>sire d'Enferno
                     abandon,</l>
@@ -14948,7 +14940,7 @@
                 <l n="10386">s'el è spia del forte re Carlone;</l>
                 <l n="10387">ch'el domanda e ch'el quere, ch'el fa tal fala<ex rend="italic"
                     >n</ex>za,</l>
-                <l n="10388"><milestone n="1R" unit="fol."/> 160V) como l'era venuto e chi l'à meso
+                <l n="10388"><milestone n="160V" unit="fol."/>como l'era venuto e chi l'à meso
                         y<ex rend="italic">n</ex> la tera</l>
                 <l n="10389">(10350) ben a luy aidera se...."</l>
                 <l n="10390">Coloro lo menò senza nula tardanza.</l>
@@ -14998,7 +14990,7 @@
                 <l n="10419">(10380) Alora se recorda d'una piaga ch'el avea y<ex rend="italic"
                         >n</ex> soa p<ex rend="italic">er</ex>sona</l>
                 <l n="10420">desopra la spala destra ch'ello avè a Carcasona.</l>
-                <l n="10421"><milestone n="1R" unit="fol."/> 161R) Alora lo feze desarmare, "Molto
+                <l n="10421"><milestone n="161R" unit="fol."/>Alora lo feze desarmare, "Molto
                     tosto abandonè,</l>
                 <l n="10422">se costuy era quelo de chy abiamo rasonato</l>
                 <l n="10423">tosto lo conosirò. Ora Dio me·l dona</l>
@@ -15042,7 +15034,7 @@
                 <l n="10451">A Dio ne rendo grazia, et a Soa madre ancora,</l>
                 <l n="10452">che a salvamento m'à <ex rend="italic">con</ex>duto et a onore,</l>
                 <l n="10453">zò siè da l'Enferno che yo azo cerchà, signore.</l>
-                <l n="10454">(10415)<milestone n="1R" unit="fol."/> 161V) E pò azo saputo de vuy el
+                <l n="10454">(10415)<milestone n="161V" unit="fol."/>E pò azo saputo de vuy el
                     male e le gra<ex rend="italic">n</ex> fadige,</l>
                 <l n="10455">che grandy afany avite soferte e gra<ex rend="italic">n</ex> brige.</l>
                 <l n="10456">Consolar vuy ora m'ay sopra el miore, </l>
@@ -15088,7 +15080,7 @@
                 <l n="10484">(10445) Lo zorno che vuy ve partisty de questo chasamento</l>
                 <l n="10485">fono p<ex rend="italic">er</ex>dute queste cose se ben me recorda.</l>
                 <l n="10486">Quelo che la portò, no<ex rend="italic">n</ex> so ben la certanza;</l>
-                <l n="10487"><milestone n="1R" unit="fol."/> 162R) mé p<ex rend="italic">er</ex>
+                <l n="10487"><milestone n="162R" unit="fol."/>mé p<ex rend="italic">er</ex>
                     l'aira lo vite andare veramente."</l>
                 <l n="10488">Ugon responde, "A questo oldere no<ex rend="italic">n</ex> atende;</l>
                 <l n="10489">(10450) forse atanto a vuy dicho, no<ex rend="italic">n</ex> andate
@@ -15134,7 +15126,7 @@
                 <l n="10516">Ora tosto," diz elo a la zente che la cità si à <ex rend="italic"
                         >com</ex>batuta, </l>
                 <l n="10517">"queste parole li serano chare venduti."</l>
-                <l n="10518"><milestone n="1R" unit="fol."/> 162V) E molta gente de fora sono y<ex
+                <l n="10518"><milestone n="162V" unit="fol."/>E molta gente de fora sono y<ex
                         rend="italic">n</ex>site;</l>
                 <l n="10519">non pareno ponto azente che foseno p<ex rend="italic">er</ex>dute,</l>
                 <l n="10520">mé ardite e animosy e beny acorte.</l>
@@ -15185,7 +15177,7 @@
                 <l n="10549">El ve manda trabuto che representa suo coro:</l>
                 <l n="10550">un più bel presente non avè may re ne y<ex rend="italic"
                     >m</ex>peradore.</l>
-                <l n="10551">(10510)<milestone n="1R" unit="fol."/> 163R) Mé costuy no<ex
+                <l n="10551">(10510)<milestone n="163R" unit="fol."/>Mé costuy no<ex
                         rend="italic">n</ex> sa niente de zò ch'el pensa desopra;</l>
                 <l n="10552">volite lo vedere, signore y<ex rend="italic">m</ex>peradore?</l>
                 <l n="10553">Soue bene e soy casamenty el ve dona ancora,</l>
@@ -15203,7 +15195,7 @@
                 <l n="10561">(10520) e sova ambasata à fata e possa marzé doma<ex rend="italic"
                         >n</ex>da,</l>
                 <l n="10562">luy e soa tera ly profere y<ex rend="italic">m</ex> presente,</l>
-                <l n="10563"><milestone n="1R" unit="fol."/> 163V) e perzò y<ex rend="italic"
+                <l n="10563"><milestone n="163V" unit="fol."/>e perzò y<ex rend="italic"
                     >n</ex>versso non s'è umiliato,</l>
                 <l n="10564">e dize che zò no<ex rend="italic">n</ex> farà zà may al so vivente.</l>
                 <l n="10565">De zò ch'el dize non crede∙la niente,</l>
@@ -15248,7 +15240,7 @@
                     vivente,</l>
                 <l n="10594">né ancha più richa né di sì bel lavoramento.</l>
                 <l n="10595">Nesun no<ex rend="italic">n</ex> può sapere del suo afaitamento:</l>
-                <l n="10596"><milestone n="1R" unit="fol."/> 164R) d'oro sono tramutate y<ex
+                <l n="10596"><milestone n="164R" unit="fol."/>d'oro sono tramutate y<ex
                         rend="italic">n</ex> prede preciose simelme<ex rend="italic">n</ex>te,</l>
                 <l n="10597">cosỳ pareano a chy la venea a guardare,</l>
                 <l n="10598">(10555) mé a neun non conose nesun punto so sembia<ex rend="italic"
@@ -15296,7 +15288,7 @@
                 <l n="10628">eio te credeva demenare p<ex rend="italic">er</ex> befe,</l>
                 <l n="10629">(10585) et onire tova dona et avere tuta toa roba,</l>
                 <l n="10630">che a Dio no<ex rend="italic">n</ex> piaze tuto zò, ben conosco.</l>
-                <l n="10631"><milestone n="1R" unit="fol."/> 164V) A l'inferno zousà yo me'n vado, a
+                <l n="10631"><milestone n="164R" unit="fol."/>A l'inferno zousà yo me'n vado, a
                     la casa crudele,</l>
                 <l n="10632">e tu romane sano e salvo, questo ben vedo,</l>
                 <l n="10633">et yo sonto danà per li pechady che yo azo.</l>
@@ -15309,7 +15301,7 @@
                 <l n="10638">Allora se'n vano como la letera com forore;</l>
                 <l n="10639">le menistre l'emporta com lo leto apresto loro.</l>
                 <l n="10640">(10595) Alcuno ne fo tristo alcun ne fo zoiosso,</l>
-                <l n="10641"><milestone n="1R" unit="fol."/> 165R) mé Ugo<ex rend="italic">n</ex> li
+                <l n="10641"><milestone n="165R" unit="fol."/>mé Ugo<ex rend="italic">n</ex> li
                     confortò e rason li mostra p<ex rend="italic">er</ex>ché</l>
                 <l n="10642">chi tuto zò dovea e<ex rend="italic">se</ex>re e zò era rason e
                     drito.</l>
@@ -15366,7 +15358,7 @@
                 <l n="10676">(10630) perzò che tratuty no<ex rend="italic">n</ex> può esere
                     adoncha,</l>
                 <l n="10677">et yo parlarazo per la comunanza.</l>
-                <l n="10678"><milestone n="1R" unit="fol."/> 165V) Carlo si à lasà una fia, zò
+                <l n="10678"><milestone n="165V" unit="fol."/>Carlo si à lasà una fia, zò
                     sapiamo;</l>
                 <l n="10679">asay siè bela <ex rend="italic">et</ex> asenata e de gra<ex
                         rend="italic">n</ex> rasona.</l>
@@ -15418,7 +15410,7 @@
                         casame<ex rend="italic">n</ex>to;</l>
                 <l n="10713">lo quarto lo vescovo de Bertagna, no<ex rend="italic">n</ex> so un più
                         vale<ex rend="italic">n</ex>te."</l>
-                <l n="10714"><milestone n="1R" unit="fol."/> 166R) A Dio et al mondo zascun s'avea
+                <l n="10714"><milestone n="166R" unit="fol."/>A Dio et al mondo zascun s'avea
                     lamentà;</l>
                 <l n="10715">quelo domandò quy de l'osto e tosto zurono</l>
                 <l n="10716">(10670) de no<ex rend="italic">n</ex> pasare oltra com el so dir
@@ -15462,7 +15454,7 @@
                         >n</ex>de antigità.</l>
                 <l n="10746">(10700) E ly viande de coloro y<ex rend="italic">n</ex> quel locho fono
                     portà</l>
-                <l n="10747"><milestone n="1R" unit="fol."/> 166V) che avante che lor foseno tratuty
+                <l n="10747"><milestone n="166R" unit="fol."/>che avante che lor foseno tratuty
                     bene asetà.</l>
                 <l n="10748">La tavola li fo pur davante portata,</l>
                 <l n="10749">quela che y<ex rend="italic">n</ex> la chasa y<ex rend="italic"
@@ -15499,7 +15491,7 @@
                 <l n="10776">de molte anime yo vite gra<ex rend="italic">n</ex> crudelità;</l>
                 <l n="10777">(10730) lor pene per my no<ex rend="italic">n</ex> ve serà devisà.</l>
                 <l n="10778">Là trovay Sandin, lo zugolaro del nostro signore,</l>
-                <l n="10779"><milestone n="1R" unit="fol."/> 167R) e da Rugero lo <ex rend="italic"
+                <l n="10779"><milestone n="167R" unit="fol."/>e da Rugero lo <ex rend="italic"
                         >con</ex>te che tanto era asentito.</l>
                 <l n="10780">Y<ex rend="italic">n</ex> gran pena ge fano, p<ex rend="italic">er</ex>
                     vero vuy sapiate.</l>
@@ -15544,7 +15536,7 @@
                 <l n="10809">"Ora ne manzate, e no<ex rend="italic">n</ex> abiate paura,</l>
                 <l n="10810">e posa me derite qual era lo suo sapore."</l>
                 <l n="10811">A quista parola vene li aparichiadore</l>
-                <l n="10812">(10765)<milestone n="1R" unit="fol."/> 167V) che la vianda portano
+                <l n="10812">(10765)<milestone n="167V" unit="fol."/>che la vianda portano
                     comunalmente y<ex rend="italic">n</ex>tra lor;</l>
                 <l n="10813">tanta n'avea, li grande com le menore.</l>
                 <l n="10814">Cosỳ tosto com zaschun avè agustà lo sapore,</l>
@@ -15592,7 +15584,7 @@
                 <l n="10843">Queste cose cosỳ tute romaneno</l>
                 <l n="10844">fina al zorno romase che la corte s'ase<ex rend="italic"
                     >m</ex>biarà.</l>
-                <l n="10845"><milestone n="1R" unit="fol."/> 168R) Da tute parte gra<ex
+                <l n="10845"><milestone n="168R" unit="fol."/>Da tute parte gra<ex
                         rend="italic">n</ex> zente li virano</l>
                 <l n="10846">no<ex rend="italic">n</ex> sazo contare la nome de tuty verame<ex
                         rend="italic">n</ex>te.</l>
@@ -15640,7 +15632,7 @@
                 <l n="10876">Quando el vene a la corte, zà li fo gra<ex rend="italic">n</ex>
                     baronia; </l>
                 <l n="10877">(10830) la più parte demorava soto le tende tirate</l>
-                <l n="10878"><milestone n="1R" unit="fol."/> 168V) per la tera, che fo tuta forte
+                <l n="10878"><milestone n="168V" unit="fol."/>per la tera, che fo tuta forte
                     piena <ex rend="italic">et</ex> apopolata</l>
                 <l n="10879">per la gran zente che lỳ era aricolta.</l>
                 <l n="10880">Li gran barony àno tra lor, se sono <ex rend="italic"
@@ -15684,7 +15676,7 @@
                 <head>Laisse 426</head>
                 <l n="10909">Dize l'apostolo, "Ora y<ex rend="italic">n</ex>tendite a my,
                     signore, </l>
-                <l n="10910"><milestone n="1R" unit="fol."/> 169R) zò era miraclo da Dio, cosỳ com
+                <l n="10910"><milestone n="169R" unit="fol."/>zò era miraclo da Dio, cosỳ com
                     yo credo.</l>
                 <l n="10911">Eio lezerò la letra, nesun no<ex rend="italic">n</ex> la tenga miga a
                     befe;</l>
@@ -15729,7 +15721,7 @@
                 <l n="10940">e de tute le pene e∙l mal grande che a luy vene,</l>
                 <l n="10941">che y<ex rend="italic">n</ex> molte lochy el sofrỳ pene grande,</l>
                 <l n="10942">(10895) e com l'andò a l'Inferno tuto a salvamento,</l>
-                <l n="10943"><milestone n="1R" unit="fol."/> 169V) e zò ch'el vite e chy a luy ne fo
+                <l n="10943"><milestone n="169V" unit="fol."/>e zò ch'el vite e chy a luy ne fo
                     guidadore.</l>
                 <l n="10944">Ora siè tornà san e salvo e vivente,</l>
                 <l n="10945">ben sapiamo l'ovra tuta quanta;</l>
@@ -15773,7 +15765,7 @@
                 <l n="10973">volite, signore, che quel dicha prima suo lavorame<ex rend="italic"
                         >n</ex>to?</l>
                 <l n="10974">Avante che yo diga li lor contenivamento</l>
-                <l n="10975"><milestone n="1R" unit="fol."/> 170R) se vano a pasare per vostro
+                <l n="10975"><milestone n="170R" unit="fol."/>se vano a pasare per vostro
                     lezamento,</l>
                 <l n="10976">che zascun li rende onore e mostre so talente.</l>
                 <l n="10977">Zascun responde, de pizoli <ex rend="italic">et</ex> de grande,</l>
@@ -15816,7 +15808,7 @@
                 <l n="11006">Al baladore el portò vi re et vi conte;</l>
                 <l n="11007">(10950) chantarò te deum laudamus a gra<ex rend="italic">n</ex>
                     zoia.</l>
-                <l n="11008"><milestone n="1R" unit="fol."/> 170V) A l'apostolo la presentò
+                <l n="11008"><milestone n="170V" unit="fol."/>A l'apostolo la presentò
                     alora,</l>
                 <l n="11009">en zenechion se mise a lagremare <ex rend="italic">et</ex> a
                     plurare</l>
@@ -15858,7 +15850,7 @@
                 <l n="11038">(10980) afora che dedentro la tera lor se serono,</l>
                 <l n="11039">che lor no<ex rend="italic">n</ex> sano guerezar zà ponto;</l>
                 <l n="11040">al meio che lor podeano la tera defendeano.</l>
-                <l n="11041"><milestone n="1R" unit="fol."/> 171R) Appresso àno presse. II. mesazere
+                <l n="11041"><milestone n="171R" unit="fol."/>Appresso àno presse. II. mesazere
                     che ben parlarano;</l>
                 <l n="11042">a Guielmo Zapeta mandò, al re del mondo,</l>
                 <l n="11043">(10985) ch'el ne mande secorsso, e luy ne<ex rend="italic"
@@ -15903,7 +15895,7 @@
                 <l n="11072">bandeza serà de tuta mia signoria."</l>
                 <l n="11073">(11015) Le letre se feno, ly cavalary sono y<ex rend="italic"
                     >n</ex>viate; </l>
-                <l n="11074"><milestone n="1R" unit="fol."/> 171V) da tute parte el l'ave
+                <l n="11074"><milestone n="171V" unit="fol."/>da tute parte el l'ave
                     mandato.</l>
                 <l n="11075">A tuty el mandò p<ex rend="italic">er</ex> amore e p<ex rend="italic"
                         >er</ex> amità,</l>
@@ -15956,7 +15948,7 @@
             <lg type="laisse" n="434">
                 <head>Laisse 434</head>
                 <l n="11106">Le mesazere se'n vano e soa via solizitano; </l>
-                <l n="11107"><milestone n="1R" unit="fol."/> 172R) tanto àno caminà, che y<ex
+                <l n="11107"><milestone n="172R" unit="fol."/>tanto àno caminà, che y<ex
                         rend="italic">n</ex>n-Alamagna arivono.</l>
                 <l n="11108">(11050) A molte baron la novella contono;</l>
                 <l n="11109">quando oldeno qusto, y Alemagne s'aparechiano;</l>
@@ -16001,7 +15993,7 @@
                 <l n="11137">noblemente lo receve, com quelo che molto l'amà. </l>
                 <l n="11138">(11080) A lui se rechiama de zò che fato li è stato.</l>
                 <l n="11139">"La mazor parte di baron ch'el à</l>
-                <l n="11140"><milestone n="1R" unit="fol."/> 172V) per nula mainera dizeno che no<ex
+                <l n="11140"><milestone n="172V" unit="fol."/>per nula mainera dizeno che no<ex
                         rend="italic">n</ex> virano; </l>
                 <l n="11141">pocho m'apresia e molto me menaza. </l>
                 <l n="11142">A Dio et a vuy me chiamo de zò che fato m'à."</l>
@@ -16048,7 +16040,7 @@
                 <l n="11170">e cento e ciquanta milia fono bene a chavalo.</l>
                 <l n="11171">Verso Parisse cavalcono, freschy e zoiosse;</l>
                 <l n="11172">de zorno en zorno cavalcono y<ex rend="italic">n</ex>tra loro,</l>
-                <l n="11173">(11115)<milestone n="1R" unit="fol."/> 173R) che a Parise veneno a
+                <l n="11173">(11115)<milestone n="173R" unit="fol."/>che a Parise veneno a
                     prendre lozamento;</l>
                 <l n="11174">Guielmo li feze onore a tute comunamente.</l>
             </lg>
@@ -16103,7 +16095,7 @@
                 <l n="11204">e che Dio no<ex rend="italic">n</ex>n-ama orgolio, e per soperbia
                     devala</l>
                 <l n="11205">e li anzoly malvaze che a l'enferno demora,</l>
-                <l n="11206"><milestone n="1R" unit="fol."/> 173V) donda lor fono più danate <ex
+                <l n="11206"><milestone n="173V" unit="fol."/>donda lor fono più danate <ex
                         rend="italic">et</ex> y<ex rend="italic">n</ex> gra<ex rend="italic">n</ex>
                     pena stano.</l>
                 <l n="11207">Tuty similmente, quisty Almangne fata a nuy si n'à:</l>
@@ -16153,7 +16145,7 @@
                 <l n="11237">ben .X.M. anno perdute de lor zente.</l>
                 <l n="11238"> (11180) Quando la novela l'apostolo y<ex rend="italic"
                     >n</ex>tende,</l>
-                <l n="11239"><milestone n="1R" unit="fol."/> 174R) al remore vene com parte de lor
+                <l n="11239"><milestone n="174R" unit="fol."/> al remore vene com parte de lor
                     zente.</l>
                 <l n="11240">En la presa se raza onda la fo più forte;</l>
                 <l n="11241">lo signore trovò che chazò la lor zente.</l>
@@ -16201,7 +16193,7 @@
                 <l n="11271">Tanto fo grande lo besogno che molto m'astrezea,</l>
                 <l n="11272">s'el me∙l fe' fare repentito, ne sonto de vero.</l>
                 <l n="11273">Ora sia la cosa com la posa esere andata,</l>
-                <l n="11274">(11215)<milestone n="1R" unit="fol."/> 174V) che quelo che eio azo
+                <l n="11274">(11215)<milestone n="174V" unit="fol."/>che quelo che eio azo
                     promeso, p<ex rend="italic">er</ex> my serà <ex rend="italic">con</ex>s<ex
                         rend="italic">er</ex>và." </l>
                 <l n="11275">A questo mo(to) dal re, avè presso cobiato;</l>
@@ -16248,7 +16240,7 @@
                     >n</ex>to,</l>
                 <l n="11306">e l'altro fo lo re de Lombardia zentile;</l>
                 <l n="11307">zascun fo pro <ex rend="italic">et</ex> animoso e valente.</l>
-                <l n="11308"><milestone n="1R" unit="fol."/> 175R) Zò era una schera a tute a un
+                <l n="11308"><milestone n="175R" unit="fol."/>Zò era una schera a tute a un
                     tenevano,</l>
                 <l n="11309">(11250) belamente cavalcono tuta fia a un tempo,</l>
                 <l n="11310">tanto che a sarazine zonseno <ex rend="italic">et</ex> ille a lor
@@ -16262,7 +16254,7 @@
                 <l n="11315">De gra<ex rend="italic">n</ex> colpy trambe le parte se donavane,</l>
                 <l n="11316">del ben ferire zà zascun no<ex rend="italic">n</ex> se y<ex
                         rend="italic">n</ex> fenze.</l>
-                <l n="11317"><milestone n="1R" unit="fol."/> 175V) Y<ex rend="italic">n</ex> quel
+                <l n="11317"><milestone n="175V" unit="fol."/>Y<ex rend="italic">n</ex> quel
                     locho non è amize ne ben voli(e)nte;</l>
                 <l n="11318">se l'un fa ben et l'altro simelmente.</l>
                 <l n="11319">(11260) Ugo<ex rend="italic">n</ex> lo pro tuto l'afare el sostene,</l>
@@ -16304,7 +16296,7 @@
                 <l n="11349">(11290) Dio si ama ly nostry e bene apare quel zorno,</l>
                 <l n="11350">che tuta fiada li fa tera manchare </l>
                 <l n="11351">e per nula afan che lor poseno durare,</l>
-                <l n="11352"><milestone n="1R" unit="fol."/> 176R) ancora no<ex rend="italic">n</ex>
+                <l n="11352"><milestone n="176R" unit="fol."/>ancora no<ex rend="italic">n</ex>
                     le vite homo del campo remudare.</l>
                 <l n="11353">tanto à fato li nostre che Dio li vole aidare,</l>
                 <l n="11354">(11295) che saraziny no<ex rend="italic">n</ex> porano più miga
@@ -16347,7 +16339,7 @@
                 <l n="11383">che l'omo no<ex rend="italic">n</ex> sapea ben alezere lo miore.</l>
                 <l n="11384">(11325) Zascun atende de <ex rend="italic">con</ex>quistare onore</l>
                 <l n="11385">e de vendichare soa onta e sova yra.</l>
-                <l n="11386"><milestone n="1R" unit="fol."/> 176V) (Rajna179 right) La nostra zente
+                <l n="11386"><milestone n="176V" unit="fol."/>(Rajna179 right) La nostra zente
                     lì fano tropo ben quel zorno,</l>
                 <l n="11387">che desopra pagana zente avanzono tutora.</l>
             </lg>
@@ -16391,7 +16383,7 @@
                 <l n="11417">senza li arzere e tuta la pedonaia.</l>
                 <l n="11418">In lo stormo fereno com sparavero sor covaia,</l>
                 <l n="11419">(11360) che luy le caza ferando e forte le smaia,</l>
-                <l n="11420"><milestone n="1R" unit="fol."/> 177R) e molte colpe dona y<ex
+                <l n="11420"><milestone n="177R" unit="fol."/>e molte colpe dona y<ex
                         rend="italic">n</ex> quel zorno.</l>
                 <l n="11421">Molto ben fere Franzose y<ex rend="italic">n</ex> quelo y<ex
                         rend="italic">n</ex>trare,</l>
@@ -16442,7 +16434,7 @@
                 <l n="11453">Ora lasemo di Franzose che la caza mantene;</l>
                 <l n="11454">(11395) olcidre e prendre tuty quily che lor trovano.</l>
                 <l n="11455">Quando Alemagne tuto l'afare sapeno,</l>
-                <l n="11456"><milestone n="1R" unit="fol."/> 177V) che li pagany erano sconfity
+                <l n="11456"><milestone n="177V" unit="fol."/>che li pagany erano sconfity
                     tute,</l>
                 <l n="11457">lor posa ascosamente vano delosame<ex rend="italic">n</ex>te y<ex
                         rend="italic">n</ex> lozame<ex rend="italic">n</ex>to.</l>
@@ -16488,7 +16480,7 @@
                         >n</ex>de.</l>
                 <l n="11488">El conte Ugo<ex rend="italic">n</ex> e l'altra bona zente</l>
                 <l n="11489">(11430) lor àno fato conseio, zò che far doveano,</l>
-                <l n="11490"><milestone n="1R" unit="fol."/> 178R) "De queste che sono morte e dy
+                <l n="11490"><milestone n="178R" unit="fol."/>"De queste che sono morte e dy
                     preson che avemo,"</l>
                 <l n="11491">Ugo<ex rend="italic">n</ex> parlò; soa voze mise del tuto y<ex
                         rend="italic">n</ex> cridare:</l>
@@ -16545,7 +16537,7 @@
                 <l n="11522">fina a try zorne, y<ex rend="italic">n</ex> gra<ex rend="italic">n</ex>
                     reposso staremo.</l>
                 <l n="11523">Al quarto zorno una novela olderemo,</l>
-                <l n="11524">(11465)<milestone n="1R" unit="fol."/> 178V) che una parte di Alemagne
+                <l n="11524">(11465)<milestone n="178V" unit="fol."/>che una parte di Alemagne
                     andono</l>
                 <l n="11525">a l'apostolo per la promesa che fata li avea,</l>
                 <l n="11526">che de l'omperio la corona li dia.</l>
@@ -16594,7 +16586,7 @@
                 <l n="11556">doncha nel s<ex rend="italic">er</ex>visio, mé de Dio lo verasse
                     Criatore:</l>
                 <l n="11557">me lo <ex rend="italic">con</ex>sente et a tute lo popolo ancora."</l>
-                <l n="11558"><milestone n="1R" unit="fol."/> 179R) A una voze parlò li grande e ly
+                <l n="11558"><milestone n="179R" unit="fol."/>A una voze parlò li grande e ly
                     menore,</l>
                 <l n="11559">(11500) che signore dibe esere da ora y<ex rend="italic">n</ex>nanzo de
                     loro.</l>
@@ -16606,7 +16598,7 @@
                 <l n="11564">(11505) mé lor no<ex rend="italic">n</ex>n-ano né fede né nula bon
                     amore</l>
                 <l n="11565">quando senza desfidare fano guera a lor signore.</l>
-                <l n="11566"><milestone n="1R" unit="fol."/> 179V) Traditore sono lizere <ex
+                <l n="11566"><milestone n="179V" unit="fol."/>Traditore sono lizere <ex
                         rend="italic">et</ex> ancora bosadre,</l>
                 <l n="11567">come porite acquistare né fede né nula onore,</l>
                 <l n="11568">quando servy sono et no<ex rend="italic">n</ex>n-ano y<ex rend="italic"
@@ -16654,7 +16646,7 @@
                 <l n="11598">zò che y'azo a fare de zò che promeso àno,</l>
                 <l n="11599">(11540) possa lo miore partỳ nuy alezeremo.</l>
                 <l n="11600">Guardate el mio honore e la degnità che abiamo, </l>
-                <l n="11601"><milestone n="1R" unit="fol."/> 180R) che zà p<ex rend="italic"
+                <l n="11601"><milestone n="180R" unit="fol."/>che zà p<ex rend="italic"
                     >er</ex>jurà no<ex rend="italic">n</ex> vorà esere punto.</l>
                 <l n="11602">No<ex rend="italic">n</ex> può esere altro che nuy stracorso
                     abiamo;</l>
@@ -16703,7 +16695,7 @@
                 <l n="11634">(11575) Ancora poy vivre se al to coro piaze ancora;</l>
                 <l n="11635">mé sapiate che li sezoly che y<ex rend="italic">m</ex>pire volliate</l>
                 <l n="11636">pocha fede ly vostre governadore siano.</l>
-                <l n="11637"><milestone n="1R" unit="fol."/> 180V) Altruy doveriano corezere et lor
+                <l n="11637"><milestone n="180V" unit="fol."/>Altruy doveriano corezere et lor
                     pechà fano;</l>
                 <l n="11638">sovente moveno tenzon de zò che far no<ex rend="italic">n</ex>
                     debeno.</l>
@@ -16754,7 +16746,7 @@
                 <l n="11669">(11610) E color la voleno avere, a chi promesa el aie;</l>
                 <l n="11670">e nuy, che tute le pene grande abiano sostenute,</l>
                 <l n="11671">e ly pagany tuty li abiamo morte e prise, onda trovà sono.</l>
-                <l n="11672"><milestone n="1R" unit="fol."/> 181R) De tute zò no<ex rend="italic"
+                <l n="11672"><milestone n="181R" unit="fol."/>De tute zò no<ex rend="italic"
                         >n</ex> me lagno; me avite my robe furate;</l>
                 <l n="11673">zò è questo un segno de movere tenzo<ex rend="italic">n</ex> gra<ex
                         rend="italic">n</ex>de.</l>
@@ -16806,7 +16798,7 @@
                 <l n="11705">asay tosto serà trovà quily che fazano questo lavoro.</l>
                 <l n="11706">Da parte di Franzose quatro re et .XV. conte,</l>
                 <l n="11707">de ducha e de prenzipe, d'altre signore.</l>
-                <l n="11708"><milestone n="1R" unit="fol."/> 181V) Cento <ex rend="italic">et</ex> l
+                <l n="11708"><milestone n="181V" unit="fol."/>Cento <ex rend="italic">et</ex> l
                     per nomero de tuta la zente miliore; </l>
                 <l n="11709">(11650) lo nome non sapio <ex rend="italic">con</ex>tar del tute, ne
                     dire p<ex rend="italic">er</ex> vero.</l>
@@ -16851,7 +16843,7 @@
                 <l n="11740">A pianzere e a lagremare l'un l'altro se va basando.</l>
                 <l n="11741">Apreso de questo fano y<ex rend="italic">n</ex>tra lor tuto so
                         avisame<ex rend="italic">n</ex>to:</l>
-                <l n="11742"><milestone n="1R" unit="fol."/> 182R) zascun prende lo suo scudo a chi
+                <l n="11742"><milestone n="182R" unit="fol."/> zascun prende lo suo scudo a chi
                     è più valente: </l>
                 <l n="11743">re com re, ducha <ex rend="italic">con</ex> ducha similemente,</l>
                 <l n="11744">(11685) prinzipi e prinzipy, amira<ex rend="italic">n</ex>te <ex
@@ -16865,7 +16857,7 @@
                     campo.</l>
                 <l n="11749">(11690) Molto se ne quereno lor brando d'azalo,</l>
                 <l n="11750">tairse scudy e sberge che fono bone e dopie.</l>
-                <l n="11751"><milestone n="1R" unit="fol."/> 182V) Tanto como el par, el prendeava a
+                <l n="11751"><milestone n="182V" unit="fol."/>Tanto como el par, el prendeava a
                     tera veramente;</l>
                 <l n="11752">entrate no<ex rend="italic">n</ex> fono molto, mé y<ex rend="italic"
                         >n</ex>tra tute fereno.</l>
@@ -16918,7 +16910,7 @@
                     pò avantare,</l>
                 <l n="11786">che nesuna arma non àno che li posa aidare,</l>
                 <l n="11787">e·molte loche, lor corpo se vano a i<ex rend="italic">m</ex>piagare. </l>
-                <l n="11788">(Rajna 186 right)<milestone n="1R" unit="fol."/> 183R) Le piage son
+                <l n="11788">(Rajna 186 right)<milestone n="183R" unit="fol."/>Le piage son
                     grande, lo sangue prese ansire forte;</l>
                 <l n="11789">(11730) le budele del corpo tramby duy se fano volare.</l>
                 <l n="11790">Adoncha si s'è l'un da l'altro (de)partito</l>
@@ -16961,7 +16953,7 @@
                 <l n="11820">Et loro lo receveno, a Dio benedizione;</l>
                 <l n="11821">zascun posa se meraviò de tal lizione.</l>
                 <l n="11822">La corte era bandita senza demorasone,</l>
-                <l n="11823"><milestone n="1R" unit="fol."/> 183V) zascun retorna verso de soy
+                <l n="11823"><milestone n="183V" unit="fol."/>zascun retorna verso de soy
                     paiesse.</l>
                 <l n="11824">(11765) Altre ne fono alegre altre ne fo dolente;</l>
                 <l n="11825">doncha non vite tal perzeda ay homo vive<ex rend="italic">n</ex>te.</l>

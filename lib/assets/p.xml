@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <?xml-model href="huon-schema-12192017.rnc" type="application/relax-ng-compact-syntax"?>
-=======
-<<<<<<< HEAD
-<?xml-model href="huon-schema-12192017.rnc" type="application/relax-ng-compact-syntax"?>
-=======
-<?xml-model href="huon-schema-10222017.rnc" type="application/relax-ng-compact-syntax"?>
->>>>>>> 0043285aff2dd9b2c554509ddf8cdfda3d2106c1
->>>>>>> 0cd37a4ce6358c378ad0ff897ca3530949cde5b7
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
