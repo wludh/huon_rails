@@ -87,8 +87,18 @@
                 <note xml:id="p134" type="ling" resp="#SPM"><hi>l'è</hi>, example of unstressed
                     subject pronoun; cf. Rohlfs §446</note>
                 <!-- Provide more information for n=9 -->
+<<<<<<< HEAD
                 <note xml:id="p136" type="ling" resp="#SPM">cf. Morgan, <title rend="italic">La Geste
                         francor</title>, p. 948: "<quote>docler : Not listed in any Italian or Old
+=======
+<<<<<<< HEAD
+                <note xml:id="p136" type="ling" resp="#SPM">cf. Morgan, <title rend="italic">La Geste
+                        francor</title>, p. 948: "<quote>docler : Not listed in any Italian or Old
+=======
+                <note xml:id="p136" type="ling" resp="#SPM">cf. Morgan, <hi rend="italic">La Geste
+                        francor</hi>, p. 948: "<quote>docler : Not listed in any Italian or Old
+>>>>>>> 0043285aff2dd9b2c554509ddf8cdfda3d2106c1
+>>>>>>> 0cd37a4ce6358c378ad0ff897ca3530949cde5b7
                         French dictionary. It is always opposed to low places, leading to believe it
                         means either “tower”, “hill”, or some other type of raised spot. [...]
                         Since, furthermore, the form appears six times in this manuscript (plus one
