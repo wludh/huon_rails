@@ -21,8 +21,9 @@
   </teiHeader>
   <text>
     <body>
-      <p>This customized schema is used to validate the transcriptions of the 
-        four Franco-Italian manuscripts of <hi>Huon d'Auvergne</hi>.</p>
+      <p>This customized schema is used to validate the digital transcriptions of the 
+        four Franco-Italian manuscripts of <hi>Huon d'Auvergne</hi> and the accompanying 
+        English translation of the Berlin witness, all of which are marked up in TEI.</p>
       
       <schemaSpec ident="oddex1" start="TEI">
         
@@ -65,10 +66,17 @@
         </elementSpec>
         
 <!-- MSDESCRIPTION -->
-        <moduleRef key="msdescription" include=""/>
+        <moduleRef key="msdescription" include="accMat acquisition additions 
+          altIdentifier binding bindingDesc catchwords collation colophon 
+          condition custEvent custodialHist decoDesc decoNote depth dimensions 
+          explicit finalRubric foliation handDesc height heraldry incipit 
+          layout layoutDesc locus material msContents msDesc msFrag msIdentifier 
+          msName origDate origPlace origin physDesc provenance repository 
+          rubric scriptDesc stamp support supportDesc surrogates watermark width"/>
         
 <!-- NAMESDATES -->
-        <moduleRef key="namesdates" include=""/>
+        <moduleRef key="namesdates" include="country geo geogFeat geogName persName
+          persona place placeName settlement"/>
         
 <!-- TEI -->
         <moduleRef key="tei"
@@ -79,7 +87,8 @@
           punctuation quotation revisionDesc schemaRef"/>
         
 <!-- TEXTCRIT -->
-        <moduleRef key="textcrit" include=""/>
+        <moduleRef key="textcrit" include="app lacunaEnd lacunaStart listWit
+          rdg rdgGrp wit witDetail witEnd witStart witness"/>
         
 <!-- TEXTSTRUCTURE -->
         <moduleRef key="textstructure"
@@ -89,10 +98,81 @@
           opener postscript salute signed text titlePage titlePart trailer"/>
         
 <!-- TRANSCR -->
-        <moduleRef key="transcr" include=""/>
+        <moduleRef key="transcr" include="addSpan damage damageSpan delSpan ex
+          handNotes handShift redo surplus"/>
         
 <!-- VERSE -->
-        <moduleRef key="verse" include=""/>
+        <moduleRef key="verse" include="caesura rhyme"/>
+        
+<!-- ATTRIBUTE CUSTOMIZATION -->
+        
+<!-- template
+        <elementSpec ident="">
+          <attList>
+            <attDef ident="">
+              <defaultVal></defaultVal>
+              <valList>
+                <valItem ident=""></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+-->
+        
+<!-- CORE ATTRIBUTES -->
+        
+<!-- gap -->
+        <elementSpec ident="gap">
+          <gloss>Gap details</gloss>
+          <desc>Identifies missing folios in manuscript witnesses.</desc>
+          <attList>
+            <attDef ident="reason" mode="change">
+              <defaultVal>missing-folio</defaultVal>
+            </attDef>
+            <attDef ident="quantity" usage="req" mode="add">
+              <!-- numerical value -->
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+<!-- head -->
+        <elementSpec ident="head">
+          <attList>
+            <attDef ident="type" mode="change"></attDef>
+            <!-- how to eliminate all attributes? -->
+          </attList>
+        </elementSpec>      
+        
+<!-- l -->
+        <elementSpec ident="l">
+          <attList>
+            <attDef ident="n"></attDef>
+          </attList>
+        </elementSpec>
+
+<!-- lg -->
+        <elementSpec ident="lg" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <defaultVal>laisse</defaultVal>
+            </attDef>
+            <attDef ident="n" mode="change"></attDef>
+            <!-- 1.3.1.1.1 there is no requirement to record a value for either the xml:id or the n attribute -->
+          </attList>
+        </elementSpec>
+        
+<!-- note -->
+        <elementSpec ident="note" module="core" mode="change">
+          <attList>
+            <attDef ident="xml:id" mode="change">
+              <valList type="open" mode="change">
+                <valItem ident=""></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <classSpec type="" ident=""></classSpec>
       </schemaSpec>
     </body>
   </text>
