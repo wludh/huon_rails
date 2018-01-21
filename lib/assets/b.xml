@@ -171,7 +171,6 @@
    </teiHeader>
   <text>
       <body>
-
          <lg type="laisse" n="1">
             <head>Laisse 1</head>
             <l n="1"><milestone n="1Ra" unit="fol."/> Al tamps de may quand furent li prael</l>
@@ -2627,7 +2626,7 @@
             <l n="1746"><milestone n="13Ra" unit="fol."/>De cil qi sunt de la nostre fois </l>
            <l n="1747">La novelle ert qi pris su<ex rend="italic">n</ex>t ja <num rend="smallcaps">.IIII.</num>or rois;  </l>
            <l n="1748">Le penon de l'empire voit trainé dava<ex rend="italic">n</ex>t sois, <note xml:id="b1748"/> </l>
-            <l n="1749">Si mai<ex rend="italic">n</ex>t de lor ... gravois.<note xml:id="b1749"/> </l> 
+            <l n="1749">S mai<ex rend="italic">n</ex>t de lor soit bien o voir gravois.<note xml:id="b1749"/> </l> 
             <l n="1750">Qua<ex rend="italic">n</ex>t ce vit Hue, si crie ad aute vois:  </l>
             <l n="1751">"Laisseç celle ensangne d'or en ava<ex rend="italic">n</ex>t a mois,  </l>
             <l n="1752">Que ja po<ex rend="italic">r</ex> mo<ex rend="italic">r</ex>t mes no<ex
@@ -3900,7 +3899,7 @@
             <l n="2816">"Oïl, voir, biaus sir, se eusons <num rend="smallcaps">.i.</num> pou ma<ex rend="italic">n</ex>giee,</l>
             <l n="2817">Ja sont il <num rend="smallcaps">.iiii.</num> jors q<ex rend="italic">ue</ex> riens no<ex rend="italic">n</ex> ay gustee."</l>
             <l n="2818"><milestone n="20Rb" unit="fol."/>Alor le dist li quue<ex rend="italic">n</ex>s, "Ci n’ait g<ex rend="italic">ra</ex>nt dignitee, <note xml:id="b2818"/></l>
-            <l n="2819">Forsqe d'erbe sauvage si ni a a plantee.</l>
+            <l n="2819">Fors qe d'erbe sauvage si ni a a plantee.</l>
             <l n="2820">Preneç en vos, ma dame, en s<ex rend="italic">ain</ex>c<ex rend="italic">t</ex>e cha<ex rend="italic">r</ex>itee;</l>
             <l n="2821">Mangieç en, vos pri, mie (ne) vos dotee, <note xml:id="b2821"/></l>
             <l n="2822">Bon profit ve fera, no<ex rend="italic">n</ex> pasera la jornee."</l>
@@ -5325,8 +5324,7 @@
             <l n="4103">"Fa de nos, sire, cum hom feit de soe drue;</l>
             <l n="4104">Nos sons a toy, nuls est qui s'en remue."</l>
           </lg>
-          <!-- LZM stopped here 14 Jan  2018
-          <lg type="laisse" n="151">
+           <lg type="laisse" n="151">
              <head>Laisse 151</head>
             <l n="4105">Donque dit Hue, "A Diex benecion!</l>
             <l n="4106">Deponeç vos armes, descendeç de guascon.</l>
@@ -5341,8 +5339,8 @@
             <l n="4115">Entreç en l'eve, l'un l'autre si tenron;</l>
             <l n="4116">Da ma part et da Diex, agiés benecion.</l>
             <l n="4117">Por trois fois vos baigneç, pois iseç d<ex rend="italic">e</ex> randon;</l>
-            <l n="4118">Les aut<ex rend="italic">re</ex> face ensi cil che ci non son,</l>
-            <l n="4119">De jors en jors tant com i<ex rend="italic">n</ex> naseron."</l>
+            <l n="4118">Les aut<ex rend="italic">re</ex> face ensi cil che ci non son."</l>
+             <l n="4119">De jors en jors tant comi<ex rend="italic">n</ex>naseron <note xml:id="b4119"/></l>
             <l n="4120">Il segne l'eve le bon vasal Huon;</l>
             <l n="4121">En nom de T<ex rend="italic">ri</ex>niteç, chascun si bagnon,</l>
             <l n="4122">Pues istrent dehors <ex rend="italic">et</ex> revesti furon.</l>
@@ -5362,7 +5360,7 @@
             <l n="4133">Il ama justisse e bon co<ex rend="italic">n</ex>soil creoit.</l>
             <l n="4134">E pues li dona Uge une bon co<ex rend="italic">m</ex>pagnoit</l>
             <l n="4135">Par dot de l'autre giant que nuls ne·l mesp<ex rend="italic">re</ex>ndoit,</l>
-            <l n="4136">Ni p<ex rend="italic">er</ex> nulle oqeison sop<ex rend="italic">er</ex>cler ne·l pooit.</l>
+            <l n="4136">Ni p<ex rend="italic">ar</ex> nulle oqeison sop<ex rend="italic">er</ex>cler ne·l pooit.</l>
             <l n="4137">Ce fu tot droitema<ex rend="italic">n</ex>t l'engrés dou lionoit:</l>
             <l n="4138">As bons estoit il plain, as cruaus felonoit.</l>
             <l n="4139">Tretot l'en doterent ceus qi plus l'en gardoit;</l>
@@ -5374,12 +5372,10 @@
             <l n="4142">Le jantis quue<ex rend="italic">n</ex>s d'Av<ex rend="italic">er</ex>gne la beste beneïst,</l>
             <l n="4143">S'il i a feit ensaigne ce qe fere devist.</l>
             <l n="4144">E celuy l'entant bien; dou cef enclin le fist,</l>
-            <l n="4145">Com el en deust dire, "Ferai qua<ex rend="italic">n</ex>t qe te plist;</l>
+            <l n="4145">Com el en deüst dire, "Ferai qua<ex rend="italic">n</ex>t qe te plist;</l>
             <l n="4146">Sor toy sera el peior, qe a topin te mist.</l>
             <l n="4147">No sas la o tu vas, ni avenir te poïst;</l>
-            <l n="4148">Toe venture ert fable, pe(r) ce hom le p<ex rend="italic">er</ex>cevist."</l> -->
-            <!--Note Ms: pece -->
-<!--
+            <l n="4148">Toe venture ert fable, pe(r) ce hom le p<ex rend="italic">er</ex>cevist."<note xml:id="b4148"/></l> 
             <l n="4149"><milestone n="29Rb" unit="fol."/>A mangier p<ex rend="italic">ri</ex>st le quue<ex rend="italic">n</ex>s, qe li segne entist;</l>
             <l n="4150">Bien soit qui il dist voir, mes le quue<ex rend="italic">r</ex> l'atendrist;</l>
             <l n="4151">Un g<ex rend="italic">ra</ex>nt amor enci a Sanson fist,</l>
@@ -5392,7 +5388,7 @@
             <l n="4155">Bien conosoit le quue<ex rend="italic">n</ex>s tretote le partis,</l>
             <l n="4156">Mes g<ex rend="italic">ra</ex>nt amor tot ce afer le fis</l>
             <l n="4157">En la dotance de p<ex rend="italic">er</ex>dre qi a conquis</l>
-            <l n="4158">Par petit oq<ex rend="italic">u</ex>ison, se a furor se movis;</l>
+            <l n="4158">Par petit oq<ex rend="italic">ue</ex>ison, se a furor se movis;</l>
             <l n="4159">Il em poroit bien mal nastre asis,</l>
             <l n="4160">Don pois ni orarent Yh<ex rend="italic">es</ex>u nil crucifis.</l>
             <l n="4161">Avant veut aler en ave<ex rend="italic">n</ex>ture d'estre ocis,</l>
@@ -5419,7 +5415,7 @@
             <l n="4182">Cum toy remandray, jusq<ex rend="italic">ue</ex> un moy <ex rend="italic">et</ex> dimis.</l>
             <l n="4183">Pois entraray en ma queste; mai<ex rend="italic">n</ex>t jor sui ge pensis;</l>
             <l n="4184">Tu remandras a honor, je p<ex rend="italic">ar</ex>tiray a topis;</l>
-            <l n="4185">P<ex rend="italic">er</ex> moy dois tu proier le Roy dou pareïs</l>
+            <l n="4185">P<ex rend="italic">or</ex> moy dois tu proier le Roy dou pareïs</l>
             <l n="4186"><milestone n="29Va" unit="fol."/>Qu'il moy dont acomplir ce qu'ay juré <ex rend="italic">et</ex> plevis</l>
             <l n="4187">A le maigne roy, ce ert Ka<ex rend="italic">r</ex>lle de Paris."</l>
             <l n="4188">Celuy s'ert encliné, <ex rend="italic">et</ex> il l'a beneïs;</l>
@@ -5437,26 +5433,24 @@
             <l n="4197">Par ceste joie oblie l'autre doloire.</l>
             <l n="4198">Tot a bien fere chascuns ait lor voloire,</l>
             <l n="4199">Uge mant fois le semont cu<ex rend="italic">m</ex> prevoire.</l>
-            <l n="4200">Sova<ex rend="italic">n</ex>t lor prie, sova<ex rend="italic">n</ex>t li dit p<ex rend="italic">er</ex> voire</l>
+            <l n="4200">Sova<ex rend="italic">n</ex>t lor prie, sova<ex rend="italic">n</ex>t li dit p<ex rend="italic">pr</ex> voire</l>
             <l n="4201">Que come frere s'amast, l'en fa memoire.</l>
             <l n="4202">"La loy li dit, scrit ert en nostre istoire,</l>
             <l n="4203">Qua<ex rend="italic">r</ex> <q rend="bold" xml:lang="la">bonum e<ex rend="italic">st</ex></q> et no<ex rend="italic">n</ex> ert da mescroire;</l>
-            <l n="4204"><q rend="bold" xml:lang="la">Fratres i<ex rend="italic">n</ex> unu<ex rend="italic">m</ex></q> avoir lor habitoire.</l> -->
-            <!--Note See Dante's Monarchia, Book 1, Psalm 133, vv. 1-2.-->
-<!--
+            <l n="4204"><q rend="bold" xml:lang="la">Fratres i<ex rend="italic">n</ex> unu<ex rend="italic">m</ex></q> avoir lor habitoire.<note xml:id="b4204"/></l>
             <l n="4205">D'un autre riens toy voil ap<ex rend="italic">er</ex>cevoire:</l>
             <l n="4206">Non fer altruy ce qui no<ex rend="italic">n</ex> vois avoire.</l>
             <l n="4207">Le prove<ex rend="italic">r</ex>s dit dou sage doctovoire:</l>
             <l n="4208"><q rend="bold" xml:lang="la">Quod s<ex rend="italic">i</ex> q<ex rend="italic">ui</ex>d nolit fieri</q> ni recevoire</l>
             <l n="4209"><q rend="bold" xml:lang="la">Non inferat ulli</q>. Pues t'ame Diex de gloi<ex rend="italic">r</ex>e,</l>
-            <l n="4210">Ta arme en ert sauvé en la fin dou laboire,</l>
+            <l n="4210">Ta arme en ert sauve en la fin dou laboire,</l>
             <l n="4211">Quant isirais dou siegle vanegloire."</l>
             <l n="4212">Cil l'en mercie, disant, "Tot ce bien spoire,</l>
             <l n="4213">De ce oit bien le cors <ex rend="italic">et</ex> le voloire."</l>
             <l n="4214">Le quue<ex rend="italic">n</ex>s le signa tot, prist a beneoire,</l>
             <l n="4215">Disant a tot, "Diex v'en dont le pooire."</l>
           </lg>
-          <lg type="laisse" n="156">
+           <lg type="laisse" n="156">
              <head>Laisse 156</head>
             <l n="4216">Ensi remist la jant a celle foy,</l>
             <l n="4217">Tot a bien fer le quuer done e n'otroy.</l>
@@ -5474,7 +5468,7 @@
             <l n="4229">Por remanir ad aisse et en repoy</l>
             <l n="4230">Aseç en trove, mes tot tient a bufoy;</l>
             <l n="4231">Sor luy chaïst la paine <ex rend="italic">et</ex> le enoy,</l>
-            <l n="4232">Traitre il fust qua<ex rend="italic">n</ex>t p<ex rend="italic">er</ex>jurast soe foy,</l>
+            <l n="4232">Traitre il fust qua<ex rend="italic">n</ex>t p<ex rend="italic">ar</ex>jurast soe foy,</l>
             <l n="4233">Qar il doit fere selonch le son pooy.</l>
           </lg>
           <lg type="laisse" n="157">
@@ -5498,15 +5492,13 @@
             <l n="4250"><q rend="bold" xml:lang="la">Clamavi D<ex rend="italic">omi</ex>ne</q> e Toy regration</l>
             <l n="4251">De tot la paine qe recevé avon."</l>
             <l n="4252">Tant oit he<ex rend="italic">r</ex>ré qu'il vint al cef d'un mon</l>
-            <l n="4253">Sor une rive qui ert d'eve p<ex rend="italic">ro</ex>fon;</l>
-            <l n="4254">D'un chalandre isuç trove un valeton.</l> -->
-            <!--Note Turin: "con più marinary chi mena una grosa nava" appears at this point.-->
-<!--
+            <l n="4253">Sor une rive qui ert d'eve p<ex rend="italic">ar</ex>fon;</l>
+            <l n="4254">D'un chalandre isuç trove un valeton.<note xml:id="b4254"/></l>
             <l n="4255">Reponser veut, qar plusor jor ci son</l>
             <l n="4256">Qu'il n'oit de repois, par qui il fu en fricon</l>
             <l n="4257">De le g<ex rend="italic">ra</ex>nt homicide que en Capadoce son.</l>
             <l n="4258">Non savoit bien la conse, com elle e<ex rend="italic">st</ex> adon,</l>
-            <l n="4259">Qui q<ex rend="italic">ui</ex> sont venceor ni qui p<ex rend="italic">er</ex>duç avron.</l>
+            <l n="4259">Qui q<ex rend="italic">ue</ex> sont venceor ni qui p<ex rend="italic">er</ex>duç avron.</l>
             <l n="4260"><milestone n="30Ra" unit="fol."/>Mes en la cité he<ex rend="italic">r</ex>rent droitema<ex rend="italic">n</ex>t a cil pon</l>
             <l n="4261">Cum la soe merchandie, cu<ex rend="italic">m</ex> hom tot jors von.</l>
             <l n="4262">Alore qe bataille fere si devon</l>
@@ -5535,7 +5527,7 @@
             <l n="4282">"Avés," ce dit le cons, "tot le batiçamant?</l>
             <l n="4283">Creeç vos le testament novel e·l Moïsant?"</l>
             <l n="4284">"Oïl, de voir, tot le somes creant,</l>
-            <l n="4285">E savons bien p<ex rend="italic">er</ex> voire q'il nos le va mostra<ex rend="italic">n</ex>t."</l>
+            <l n="4285">E savons bien p<ex rend="italic">or</ex> voire q'il nos le va mostra<ex rend="italic">n</ex>t."</l>
             <l n="4286">Ugon s'estoit signé qua<ex rend="italic">n</ex>t il oÿ et entant</l>
             <l n="4287">Que non cuidoit trover ci <ex rend="italic">cristi</ex>aine giant.</l>
             <l n="4288">"Or me dites," fit il, "<ex rend="italic">et</ex> non aieç spavant."</l>
@@ -5543,16 +5535,14 @@
           </lg>
           <lg type="laisse" n="159">
              <head>Laisse 159</head>
-            <l n="4290">"Seignor," ce dit Huon, "de queil te<ex rend="italic">re</ex>rre estes nés?</l> -->
-            <!--Note te[re]rre: This is unusual, perhaps the adding of an unnecessary abbreviation mark when the full word is already present.-->
-<!--
+            <l n="4290">"Seignor," ce dit Huon, "de queil te<ex rend="italic">re</ex>rre estes nés? <note xml:id="b4290"/></l> 
             <l n="4291">Qui est sire sor tot, coma<ex rend="italic">n</ex>t ert il noMes?</l>
             <l n="4292">Non cuidoie en tiel leu cristian avoi<ex rend="italic">r</ex> t<ex rend="italic">r</ex>(o)vés,</l>
             <l n="4293">Fors une novel regne qi or e<ex rend="italic">r</ex>t batiçés.</l>
             <l n="4294">Ce estoit Capadoce, qi ert en ci deprés.</l>
             <l n="4295">Je non say ancor s'avra observés</l>
             <l n="4296">La foy qe comanda Deu per, po<ex rend="italic">r</ex> la soe lés.</l>
-            <l n="4297"><milestone n="30Rb" unit="fol."/>Mes p<ex rend="italic">er</ex> voir sai ge qi su<ex rend="italic">n</ex>t tuit <ex rend="italic">cristi</ex>anés,</l>
+            <l n="4297"><milestone n="30Rb" unit="fol."/>Mes p<ex rend="italic">or</ex> voir sai ge qi su<ex rend="italic">n</ex>t tuit <ex rend="italic">cristi</ex>anés,</l>
             <l n="4298">Bon segnor a; soy <ex rend="italic">et</ex> lor foy l'ont jurés;</l>
             <l n="4299">Deu per li consert da quy vient tot bontés."</l>
             <l n="4300">Quant li merchaant ont la parolle escoutés,</l>
@@ -5565,7 +5555,7 @@
             <l n="4307">Non pas mon sire qui ot tant poestés:</l>
             <l n="4308">Ce estoit P<ex rend="italic">re</ex>ste Jan, ensi vient apellés.</l>
             <l n="4309">Son regne apellé Te<ex rend="italic">r</ex>re de Ve<ex rend="italic">r</ex>ités.</l>
-            <l n="4310">Mé ge en cuit tot ce qe dit avés,</l>
+            <l n="4310">Me ge en cuit tot ce qe dit avés,</l>
             <l n="4311">Sauve v<ex rend="italic">est</ex>re honor, soit me<ex rend="italic">n</ex>çoigne provés</l>
             <l n="4312">Qui ot ce fait, qui ot tant deponés.</l>
             <l n="4313">Ambdoes le part si erent desfiés</l>
@@ -5585,7 +5575,7 @@
             <l n="4324">"Puis ch'estes <ex rend="italic">cristi</ex>ans <ex rend="italic">et</ex> ge ausi en son, </l>
             <l n="4325">En charté vos domant, por Deu e por son non,</l>
             <l n="4326">Qui d'ore mes ici moy levés en vos dormon.</l>
-            <l n="4327">Venir voil en toe te<ex rend="italic">r</ex>re, no<ex rend="italic">n</ex> p<ex rend="italic">er</ex> male oq<ex rend="italic">u</ex>ison,</l>
+            <l n="4327">Venir voil en toe te<ex rend="italic">r</ex>re, no<ex rend="italic">n</ex> p<ex rend="italic">or</ex> male oq<ex rend="italic">ue</ex>ison,</l>
             <l n="4328">Onques mes no<ex rend="italic">n</ex> li fuy, g<ex rend="italic">ra</ex>nt desir en avon.</l>
             <l n="4329">Mout l'ay oÿ nomer en maintes region</l>
             <l n="4330">Qui mout g<ex rend="italic">ra</ex>nt justisse iluech si mantint hon.</l>
@@ -5596,10 +5586,10 @@
             <l n="4335">Se ce ert voir, qui en maint leu si dison,</l>
             <l n="4336">Adonq<ex rend="italic">ue</ex> est guarniç de tot le sainct del mon.</l>
             <l n="4337">En la grace devine a droit estre devon,</l>
-            <l n="4338">Dapués qu'i·l ben e·l mal tretotes conoison, </l>
-            <l n="4339">Mes ni deusent pecher p<ex rend="italic">er</ex> nulle oqueison."</l>
+            <l n="4338">Dapués qu'il ben el mal tretotes conoison, </l>
+            <l n="4339">Mes ni deüsent pecher p<ex rend="italic">ar</ex> nulle oqueison."</l>
           </lg>
-          <lg type="laisse" n="161">
+           <lg type="laisse" n="161">
              <head>Laisse 161</head>
             <l n="4340">A celle parolle respont li m<ex rend="italic">er</ex>chaant,</l>
             <l n="4341">"Seis bon <ex rend="italic">cristi</ex>ans <ex rend="italic">et</ex> la lor loy atant;</l>
@@ -5609,7 +5599,7 @@
             <l n="4345">Tel est lor foy de estre repentant,</l>
             <l n="4346">E de garder soy d'amer Dieu o<ex rend="italic">n</ex>ipotant,</l>
             <l n="4347">Et amender s'il poit celuy desrogemant.</l>
-            <l n="4348">Mes celui qe en le mal jors va p<ex rend="italic">er</ex>sevrant,</l>
+            <l n="4348">Mes celui qe en le mal jors va p<ex rend="italic">or</ex>sevrant,</l>
             <l n="4349">Non veut il soy conoistre; ainç vait altrui gaba<ex rend="italic">n</ex>t,</l>
             <l n="4350">E s'il poent, sovent lo va mant foy traçant;</l>
             <l n="4351">En nostre te<ex rend="italic">r</ex>re non dure longemant,</l>
@@ -5621,9 +5611,7 @@
             <l n="4357">Si vois venir, sainçe g<ex rend="italic">ra</ex>nt pagama<ex rend="italic">n</ex>t</l>
             <l n="4358">Volontier te portons, por le men escia<ex rend="italic">n</ex>t.</l>
             <l n="4359">Nostre te<ex rend="italic">r</ex>re ert large et oit g<ex rend="italic">ra</ex>nt tinima<ex rend="italic">n</ex>t;</l>
-            <l n="4360">Stroite ert la voie qui no la tient a tant."</l> -->
-            <!-- Cf. Matthew 7.14, "For the gate is narrow and the way is hard, that leads to life, and those who find it are few." Vulgate: "Quam angusta porta, et arcta via est, que ducit ad vitam: et pauci sunt qui inveniunt eam!" -->
-<!--
+             <l n="4360">Stroite ert la voie qui no la tient a tant."<note xml:id="b4360"/></l>
             <l n="4361">Et il respont, "Venir voil erremant</l>
             <l n="4362">La o demore vos sir le P<ex rend="italic">re</ex>ste Jant;</l>
             <l n="4363">O luy voil parller de mes mesfet auqua<ex rend="italic">n</ex>t;</l>
@@ -5676,19 +5664,17 @@
           </lg>
           <lg type="laisse" n="164">
              <head>Laisse 164</head>
-            <l n="4404">"Ai Diex," dit Hue, "g<ex rend="italic">ra</ex>nt richece ci a!</l>
+            <l n="4404">"Ai, Diex," dit Hue, "g<ex rend="italic">ra</ex>nt richece ci a!</l>
             <l n="4405">Tot deust estre riche qi en cestuy reg(n)<ex rend="italic">e</ex> sta:</l>
             <l n="4406">Avoir non i a de mens qui co<ex rend="italic">m</ex>parer voudra,</l>
-            <l n="4407">Aseç devons nos croire qu'el aroman iça;</l> -->
-            <!--Note This is a complicated passage, with non-standard forms: aroman in particular poses a riddle. -->
-<!--
+            <l n="4407">Aseç devons nos croire qu'el aroman iça;<note xml:id="b4407"/></l>
             <l n="4408"><milestone n="31Ra" unit="fol."/>Se ce font p<ex rend="italic">er</ex> vanegloire il g<ex rend="italic">ra</ex>nt pechieç il fa."</l>
             <l n="4409">"Non fa," dist le stormant, "ne·l mescreeç vos ja;</l>
             <l n="4410">Tot sont il me<ex rend="italic">r</ex>cheant qui vont deça <ex rend="italic">et</ex> dela,</l>
             <l n="4411">Por petit de gaagne, aseç tost li vendra.</l>
             <l n="4412">Tot le cités deça mout bon m<ex rend="italic">er</ex>chié en a;</l>
             <l n="4413">Non ament caristie ni mençoigne no<ex rend="italic">n</ex> i a.</l>
-            <l n="4414">Alons avant, car bon vant desor ha;</l>
+            <l n="4414">Alons avant, car bon vant des or ha;</l>
             <l n="4415">Vereç de greignor te<ex rend="italic">r</ex>re q<ex rend="italic">ue</ex> n'est ceste deça.</l>
             <l n="4416">Sont au regne mon sire q<ex rend="italic">ue</ex> hom vos mostre<ex rend="italic">r</ex>a."</l>
             <l n="4417">Ugon soy signe, e puis si chamina;</l>
@@ -5728,7 +5714,7 @@
             <l n="4448">E recoilir dedanç moy li Signor."</l>
             <l n="4449">Et il respont, "Mout volu<ex rend="italic">n</ex>tier," desor.</l>
           </lg>
-          <lg type="laisse" n="166">
+           <lg type="laisse" n="166">
              <head>Laisse 166</head>
             <l n="4450">L'ofice comença e la confesion;</l>
             <l n="4451">Tot les entendi ausi bien cu<ex rend="italic">m</ex> fer devon.</l>
@@ -5787,9 +5773,9 @@
           <lg type="laisse" n="168">
              <head>Laisse 168</head>
             <l n="4500">Quant Preste Jan entandi la novelle</l>
-            <l n="4501">De ce qu'il oit, en oit g<ex rend="italic">ra</ex>nt me<ex rend="italic">r</ex>veille;</l>
+            <l n="4501">De ce qu'il oït, en oit g<ex rend="italic">ra</ex>nt me<ex rend="italic">r</ex>veille;</l>
             <l n="4502">A son esciant, non oÿ mes la pareille.</l>
-            <l n="4503">De ce qu'il oit, seigne front e maselle,</l>
+            <l n="4503">De ce qu'il oït, seigne front e maselle,<note xml:id="b4503"/></l>
             <l n="4504">E pues oit dit, "Ay, s<ex rend="italic">ain</ex>c<ex rend="italic">t</ex>e Marie belle,</l>
             <l n="4505">C'est meravels, n'en say de maor d'elle.</l>
             <l n="4506">Com puis trover ce, si Diex ni t'en co<ex rend="italic">n</ex>seille?</l>
@@ -5827,7 +5813,7 @@
             <l n="4535">La g<ex rend="italic">ra</ex>nt richece que voy en ces regnan,</l>
             <l n="4536">Part n'ay veue, greignor no<ex rend="italic">n</ex> vi vorman."</l>
             <l n="4537">"Tot ce moy plest," respondi Preste Jan.</l>
-            <l n="4538">Lor si signa et puis istrent aman;</l>
+            <l n="4538">Lor si signa et puis istrent aman;<note xml:id="b4538"/></l>
             <l n="4539">Hors de la glisse trove une place gran.</l>
             <l n="4540">Vit li baron qui se vont desduisan,</l>
             <l n="4541">Mes li plusor gardoient l'auferan,</l>
@@ -5840,7 +5826,7 @@
             <l n="4545">Veeç cestuy que aveq<ex rend="italic">ue</ex> moy ci ha?</l>
             <l n="4546">Honoreç luy cu<ex rend="italic">m</ex> fetes moy i gia;</l>
             <l n="4547">Hom est des foy et tot le vertuç ha</l>
-            <l n="4548">Que a biens p<ex rend="italic">er</ex>tient et castité observa."</l>
+            <l n="4548">Que a biens p<ex rend="italic">ar</ex>tient et castité observa."</l>
             <l n="4549">Ceus l'entendre<ex rend="italic">n</ex>t, chascun agenoilla</l>
             <l n="4550">Davant a Huon e mout les honora.</l>
             <l n="4551">Distrent, "Biaus sir, bon hore venis za;</l>
@@ -5868,7 +5854,7 @@
             <l n="4573">Que son chival bien ostalaisent la,</l>
             <l n="4574">Qar por tans si veut partir et sevrera.</l>
           </lg>
-          <lg type="laisse" n="171">
+           <lg type="laisse" n="171">
              <head>Laisse 171</head>
             <l n="4575">Preste Jans al quue<ex rend="italic">n</ex>s tot bellema<ex rend="italic">n</ex>t respons:</l>
             <l n="4576">"Non doteç pas, car bon ostel avro<ex rend="italic">n</ex>s."</l>
@@ -5877,9 +5863,9 @@
             <l n="4579">"De Uge le pros de ce que feit avons,</l>
             <l n="4580">P<ex rend="italic">er</ex> son vasalage <num rend="smallcaps">.iiii.</num>(or) roiames avons,</l>
             <l n="4581">Que a cristienteç tretot torné i sons.</l>
-            <l n="4582">Altruy a feit, signor, il he<ex rend="italic">r</ex>re p<ex rend="italic">er</ex> li mons</l>
+            <l n="4582">Altruy a feit, signor, il he<ex rend="italic">r</ex>re p<ex rend="italic">or</ex> li mons</l>
             <l n="4583">Por mante<ex rend="italic">n</ex>ir la foy de son sire K<ex rend="italic">ar</ex>llons.</l>
-            <l n="4584">En l'enfer veut aler, ou il ert plus p<ex rend="italic">ro</ex>fons,</l>
+            <l n="4584">En l'enfer veut aler, ou il ert plus p<ex rend="italic">ar</ex>fons,</l>
             <l n="4585">Por parller au diable q<ex rend="italic">ue</ex> laënç major sons,</l>
             <l n="4586">Pur cherre li trehu, si cum da luy entendo<ex rend="italic">n</ex>s.</l>
             <l n="4587">Ces çonse ert i<ex rend="italic">m</ex>posible, de foy bien le savo<ex rend="italic">n</ex>s</l>
@@ -5894,9 +5880,7 @@
           <lg type="laisse" n="172">
              <head>Laisse 172</head>
             <l n="4595">Quant oit ce dit, li baron li respont:</l>
-            <l n="4596">"Ce non poit estre, ma fei faillist adont,</l> -->
-            <!--Note MS reads adonet; the "e" cross-stroke is very light but present. Since the scribe is in general very careful expunctuating errors and otherwise correcting, this seems to be a true error and we here emend. -->
-<!--
+            <l n="4596">"Ce non poit estre, ma fei faillist adont,<note xml:id="b4596"/></l>
             <l n="4597">Ze non feroige par tretot l'or del mont."</l>
             <l n="4598">Et il atant le paroil leise a pont;</l>
             <l n="4599">Celor le mostre por le desir qu'il ont</l>
@@ -5911,34 +5895,34 @@
              <head>Laisse 173</head>
             <l n="4606">Bien s'ap<ex rend="italic">er</ex>ceurent li baron del contor</l>
             <l n="4607">Qui de rien che le mostre no<ex rend="italic">n</ex> prisse <num rend="smallcaps">.i. </num> petit flor.</l>
-            <l n="4608">Celor l'en dist <ex rend="italic">et</ex> querent p<ex rend="italic">er</ex> amor,</l>
+            <l n="4608">Celor l'en dist <ex rend="italic">et</ex> querent p<ex rend="italic">or</ex> amor,</l>
             <l n="4609">Que il romaigne; si sera lo meillor.</l>
-            <l n="4610">De .vii. roiames estoit cestuy signor,</l>
+            <l n="4610">De <num rend="smallcaps">.vii.</num> roiames estoit cestuy signor,</l>
             <l n="4611">Aseç gi ot p<ex rend="italic">ri</ex>nceps, duch <ex rend="italic">et</ex> contor—</l>
-            <l n="4612">.vii. rois li servent, et de nuit <ex rend="italic">et</ex> de jor,</l>
-            <l n="4613">Jusq<ex rend="italic">u'</ex> a un mois por s'il oit le volor;</l>
+            <l n="4612"><num rend="smallcaps">.vii.</num> rois li servent, et de nuit <ex rend="italic">et</ex> de jor,</l>
+            <l n="4613">Jusq<ex rend="italic">ue</ex> a un mois por s'il oit le volor;</l>
             <l n="4614">Oit <num rend="smallcaps">.vii.c.</num> mille jusq<ex rend="italic">ue</ex>mant en la Sor.</l>
             <l n="4615">Zascun ert a son mestier quant ert en ceste cor:</l>
             <l n="4616">De prelat et de vesqe, de p<ex rend="italic">re</ex>voire ancor,</l>
-            <l n="4617">De l'autre ch<ex rend="italic">ivale</ex>r qe p<ex rend="italic">er</ex> le mont ancor</l>
+            <l n="4617">De l'autre ch<ex rend="italic">ivale</ex>r qe p<ex rend="italic">or</ex> le mont ancor</l>
             <l n="4618">A droit a esciant enci remaint la flor.</l>
-            <l n="4619">Le un n'ait hayne a l'autre, ainç s'aime p<ex rend="italic">er</ex> amor;</l>
+            <l n="4619">Le un n'ait hayne a l'autre, ainç s'aime p<ex rend="italic">or</ex> amor;</l>
             <l n="4620">Tote jor soy servent cu<ex rend="italic">m</ex> frere a seror.</l>
             <l n="4621">"Romaneç vos enci, vos sereç g<ex rend="italic">ra</ex>nt signor,</l>
             <l n="4622">Compaignon tu serais au g<ex rend="italic">ra</ex>nt emp<ex rend="italic">er</ex>eor."</l>
             <l n="4623">Cil l'en mercie a larmes et a plor;</l>
             <l n="4624">Mout si humblie li ber envers li lor.</l>
             <l n="4625">"Ce non poit estre," ce dit li bon contor,</l>
-            <l n="4626">"Que jusq<ex rend="italic">ue</ex> ci no<ex rend="italic">n</ex> fuy Mes boiseor;</l>
-            <l n="4627">Ma foy ni falseray si Mes poray nul jor."</l>
+            <l n="4626">"Que jusq<ex rend="italic">ue</ex> ci no<ex rend="italic">n</ex> fuy mes boiseor;</l>
+            <l n="4627">Ma foy ni falseray si mes poray nul jor."</l>
           </lg>
           <lg type="laisse" n="174">
              <head>Laisse 174</head>
             <l n="4628">De ce qe dit li cons, g<ex rend="italic">ra</ex>nt pieteç l'en prant;</l>
             <l n="4629">Par nulle mainere rete<ex rend="italic">n</ex>ir ne·l porant.</l>
-            <l n="4630"><milestone n="32Va" unit="fol."/>Aseç l'em promist, Mes a ce rien n'atant;</l>
+            <l n="4630"><milestone n="32Va" unit="fol."/>Aseç l'em promist, mes a ce rien n'atant;</l>
             <l n="4631">Son dit ert pur de fer desevremant.</l>
-            <l n="4632"><num rend="smallcaps">.Viii.</num> jor li tenrent outre li son talant;</l>
+            <l n="4632"><num rend="smallcaps">.viii.</num> jor li tenrent outre li son talant;</l>
             <l n="4633">Quant vit Preste Jan qu'il no<ex rend="italic">n</ex> fera niant,</l>
             <l n="4634">Il otroie son voil et forme<ex rend="italic">n</ex>t vait plorant.</l>
             <l n="4635">Done luy beneïçon, a son nef Tadeus li rant:</l>
@@ -5947,7 +5931,7 @@
             <l n="4638">De soe partie si an suy mout dolant;</l>
             <l n="4639">Je no<ex rend="italic">n</ex> puis plus; a Diex <ex rend="italic">et</ex> a vos li rant."</l>
             <l n="4640">Por ce qu'i·l vit aler a topinant,</l>
-            <l n="4641">Promis les a jusq<ex rend="italic">ue</ex> .vii. ans atant,</l>
+            <l n="4641">Promis les a jusq<ex rend="italic">ue</ex> <num rend="smallcaps">.vii.</num> ans atant,</l>
             <l n="4642">De jor en jor mille messe çantant</l>
             <l n="4643">Que Deu le dont aco<ex rend="italic">m</ex>plir son talant,</l>
             <l n="4644">E qe en sa te<ex rend="italic">r</ex>re tort san, sauf e vivant.</l>
@@ -5958,8 +5942,7 @@
             <l n="4649">Nul bon consoil ja prandre ni saviant.</l>
             <l n="4650">Por le meillor va une nef ap<ex rend="italic">re</ex>stant,</l>
             <l n="4651">Pain bescuit, anone ensemant</l>
-            <l n="4652">L'ont asié. Distrent ce<ex rend="italic">r</ex>tainema<ex rend="italic">n</ex>t</l> -->
-            <!--Note Asié comes aasier (TL), "to reassure."
+            <l n="4652">L'ont asié. Distrent ce<ex rend="italic">r</ex>tainema<ex rend="italic">n</ex>t</l>
             <l n="4653">Que p<ex rend="italic">er</ex> un ans no li faudra niant.</l>
             <l n="4654">Et autre çonse qe l'en fust a talant,</l>
             <l n="4655">Tot le livrast s'il fust son plaquima<ex rend="italic">n</ex>t;</l>
@@ -5967,7 +5950,7 @@
             <l n="4657">Ainç, veut aler soul a tapinimant</l>
             <l n="4658">Fin ceste ovre. Jusq<ex rend="italic">ue</ex> demain atant</l>
             <l n="4659">Que une messe canter se fist davant.</l>
-            <l n="4660">Il l'oit oié <ex rend="italic">et</ex> mout devotema<ex rend="italic">n</ex>t</l>
+            <l n="4660">Il l'oit oïé <ex rend="italic">et</ex> mout devotema<ex rend="italic">n</ex>t</l>
             <l n="4661">Sova<ex rend="italic">n</ex>t il proie Deu per o<ex rend="italic">n</ex>ipotant,</l>
             <l n="4662">Qui l'en gardast de mal engombrema<ex rend="italic">n</ex>t,</l>
             <l n="4663">E qui li dont co<ex rend="italic">m</ex>plir ce dont fu desirant;</l>
@@ -5996,8 +5979,8 @@
             <l n="4683">Se elle desdit ce qe avo<ex rend="italic">n</ex>s mentaü,</l>
             <l n="4684">De gue<ex rend="italic">r</ex>rier li no<ex rend="italic">n</ex> sereç sorprendu."</l>
           </lg>
-          <lg type="laisse" n="176">
-             <head>Laisse 176</head>
+            <lg type="laisse" n="176">
+            <head>Laisse 176</head>
             <l n="4685">"Or li mandeç, sire, sanç restason,</l>
             <l n="4686">Se elle non vient mantina<ex rend="italic">n</ex>t al p<ex rend="italic">ar</ex>don,</l>
             <l n="4687">De gue<ex rend="italic">r</ex>rier li avreç bone oqueison:</l>
@@ -6005,23 +5988,22 @@
             <l n="4689">De riches dones li mandés a fuison,</l>
             <l n="4690">Si li mandés en çambre <ex rend="italic">et</ex> en maison</l>
             <l n="4691">Ert cu<ex rend="italic">n</ex> la royne a la clere façon.</l>
-            <l n="4692">Mais avant q<ex rend="italic">ue</ex> ce faicés demostreison,</l>
+              <l n="4692">Mais avant q<ex rend="italic">ue</ex> ce faicés demostreison,<note xml:id="b4692"/></l>
             <l n="4693">La queison deveç mostrer a mai<ex rend="italic">n</ex>t d<ex rend="italic">e</ex> vos baron</l>
-            <l n="4694">Que non soieç repris por si faite oq<ex rend="italic">u</ex>ison.</l>
+            <l n="4694">Que non soieç repris por si faite oq<ex rend="italic">ue</ex>ison.</l>
             <l n="4695">Un provers dit 'Mal muet home te<ex rend="italic">n</ex>çon</l>
             <l n="4696">Que non soit amener a fin que començo<ex rend="italic">n</ex>.'</l>
-            <l n="4697">Ja a seignor Mes non defaut queison."</l>
+            <l n="4697">Ja a seignor mes non defaut queison."</l>
           </lg>
           <lg type="laisse" n="177">
              <head>Laisse 177</head>
             <l n="4698">Le rois si part dau consoil atant;</l>
             <l n="4699">Son afer preste, no<ex rend="italic">n</ex> vait plus delaiant.</l>
-            <l n="4700">.V. mesage preste mout avinant,</l>
+            <l n="4700"><num rend="smallcaps">.v.</num> mesage preste mout avinant,</l>
             <l n="4701">Rice hom sont, et de g<ex rend="italic">ra</ex>nt tinimant,</l>
             <l n="4702">En tot les autres, Rugier quue<ex rend="italic">n</ex>s de Nant,</l>
             <l n="4703">E li jugler Saudin li seduant.</l>
-            <l n="4704"><milestone n="33Ra" unit="fol."/>L'arcives<ex rend="angle">que</ex> de Maance, che soit le <ex rend="italic">con</ex>vena<ex rend="italic">n</ex>t,</l> -->
-            <!--Note The previous line, at the end of folio 32V, ends with the catchwords "A Ynide" which do not then begin the next folio or signature. There is a space in the MS after "arcives" that seems to be scraped; something is visible around the edges. With ultraviolet, one can almost see "q" and "e", and maybe something above the line too, qe with u above the line? Or just a bit of chalk solution or whatever they used.Thus we give this as an emendation.
+            <l n="4704"><milestone n="33Ra" unit="fol."/>L'arcives<ex rend="angle">que</ex> de Maance, che soit le <ex rend="italic">con</ex>vena<ex rend="italic">n</ex>t,<note xml:id="b4704"/></l>
             <l n="4705">E Morant d'Autefoie, qi est lor parant,</l>
             <l n="4706">E Gui de Barcelune, e le cons Gallerant,</l>
             <l n="4707">Le duc Tholomeu, cortois et avenant,</l>
@@ -6033,13 +6015,13 @@
           </lg>
           <lg type="laisse" n="178">
              <head>Laisse 178</head>
-            <l n="4713">"Segnors," ce dit le rois, "p<ex rend="italic">er</ex> vos ai trametus,</l>
+            <l n="4713">"Segnors," ce dit le rois, "p<ex rend="italic">or</ex> vos ai trametus,</l>
             <l n="4714">Si vos dirai porcoi; or m'aiés entendus.</l>
             <l n="4715">Doe çonses est au mont chi avrais menteüs:</l>
             <l n="4716">Honors et desenors, char non poit l'on plus;</l>
             <l n="4717">La porcois vos dirai, e pois avrons finus.</l>
             <l n="4718">Le quue<ex rend="italic">n</ex>s Hue d'Auv<ex rend="italic">er</ex>ne, q<ex rend="italic">ua</ex>nt da nos stoit pa<ex rend="italic">r</ex>tus,</l>
-            <l n="4719">Moi proioit che sa dame p<ex rend="italic">er</ex> moy fust ma<ex rend="italic">n</ex>tenus.</l>
+            <l n="4719">Moi proioit che sa dame p<ex rend="italic">or</ex> moy fust ma<ex rend="italic">n</ex>tenus.</l>
             <l n="4720">N'en voil estre blasMes por hon chi soit viscus;</l>
             <l n="4721">D'envoier por la dame q<ex rend="italic">ua</ex>nt il v'oit plaüs,</l>
             <l n="4722">Çe crois c'honors le quue<ex rend="italic">n</ex>s et moi seroit eüs.</l>
@@ -6047,7 +6029,7 @@
             <l n="4724">Molt sova<ex rend="italic">n</ex>t foi en pert, cil chi l'oi<ex rend="italic">n</ex>t creüs.</l>
             <l n="4725">Sove<ex rend="italic">n</ex>s soy cançe dame, selonch che ai leüs,</l>
             <l n="4726">Com fait la foille l'aubre quant le vent fert desus.</l>
-            <l n="4727">Mais p<ex rend="italic">er</ex> moi n'armaroit, se je avrai poüs,</l>
+            <l n="4727">Mais p<ex rend="italic">or</ex> moi n'armaroit, se je avrai poüs,</l>
             <l n="4728">Che face conse ch'al coe<ex rend="italic">n</ex>s ne moi soit mal tenus.</l>
             <l n="4729">Vois alirés por li q<ex rend="italic">ua</ex>nt il v'oit plasus,</l>
             <l n="4730">E da part la roine le portés <num rend="smallcaps">.c.</num> salus."</l>
@@ -6062,9 +6044,7 @@
             <l n="4736">L'arcivesch de Maance lor fist sembla<ex rend="italic">n</ex>t d<ex rend="italic">e</ex> plor,</l>
             <l n="4737">Dians, "Ai, Deu de gloire, verais Crietor,</l>
             <l n="4738">Mais ne croi ch'au mo<ex rend="italic">n</ex>d fust plus natu<ex rend="italic">r</ex>el signor,</l>
-            <l n="4739">Plus saç ne plus cortois ne pl<ex rend="italic">us</ex> plai<ex rend="angle">n</ex>s de douçor,</l> -->
-            <!--Note MS: plais-->
-<!--
+            <l n="4739">Plus saç ne plus cortois ne pl<ex rend="italic">us</ex> plai<ex rend="angle">n</ex>s de douçor,<note xml:id="b4739"/></l>
             <l n="4740">Qua<ex rend="italic">n</ex>t si s'encline a te<ex rend="italic">r</ex>ren servior,</l>
             <l n="4741">A chascune crieture pur che le motre amor.</l>
             <l n="4742">Avés vos entendus le notre emp<ex rend="italic">er</ex>eor,</l>
@@ -6076,7 +6056,7 @@
             <l n="4748">E ceus responderent, "A le vetre volor."</l>
             <l n="4749">Al rois oit encliné, pois est departi or.</l>
           </lg>
-          <lg type="laisse" n="180">
+           <lg type="laisse" n="180">
              <head>Laisse 180</head>
             <l n="4750">Dau rois pristrent conçé caschu<ex rend="italic">n</ex>s cu<ex rend="italic">m</ex> revera<ex rend="italic">n</ex>se,</l>
             <l n="4751">Fors Ruçer et Saudi<ex rend="italic">n</ex>s, et le sir de Maanse,</l>
@@ -6084,7 +6064,7 @@
             <l n="4753">Et Aumeri le traitre, che savoit la creanse.</l>
             <l n="4754">"Segnors," ce dit le rois, "vos savés ma enta<ex rend="italic">n</ex>se;</l>
             <l n="4755">Amors moy smaille, che me tint en balanse;</l>
-            <l n="4756">Se p<ex rend="italic">er</ex> vos n'ai secors, ni l'est plus atenda<ex rend="italic">n</ex>se</l>
+            <l n="4756">Se p<ex rend="italic">or</ex> vos n'ai secors, ni l'est plus atenda<ex rend="italic">n</ex>se</l>
             <l n="4757">Fors de la mort orible, sans autre peneta<ex rend="italic">n</ex>se.</l>
             <l n="4758">Hay Ynide, belle plus jeullie qe ranse!</l>
             <l n="4759">Le vetre amors moy strint en si faite destra<ex rend="italic">n</ex>se,</l>
@@ -6099,7 +6079,8 @@
             <l n="4768">Si feit l'on por amors; tiel e<ex rend="italic">st</ex> sa costumanse,</l>
             <l n="4769">Che sova<ex rend="italic">n</ex>s çonse noire i part v<ex rend="italic">er</ex>moille e blanse.</l>
           </lg>
-          <lg type="laisse" n="181">
+        <!--lzm stopped here 20 Jan 2018  
+        <lg type="laisse" n="181">
              <head>Laisse 181</head>
             <l n="4770">I barons lors sospire, q<ex rend="italic">ua</ex>nt dou rois voit la doie,</l>
             <l n="4771">Dians, "Ai, dosse sire, car ne vos doteroie,</l>
