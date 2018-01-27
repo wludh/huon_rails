@@ -1158,6 +1158,12 @@ span.translation_missing {
 	margin-right: 3%;
 }
 
+#cite {
+	float: right;
+	color: #5f0000;
+	margin-right: 3%;
+}
+
 /* Reading Panel Style and Formatting */
 
 .line-heading {
