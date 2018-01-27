@@ -1152,6 +1152,12 @@ span.translation_missing {
 	text-decoration: none;
 }
 
+#version {
+	float: right;
+	color: #5f0000;
+	margin-right: 3%;
+}
+
 /* Reading Panel Style and Formatting */
 
 .line-heading {

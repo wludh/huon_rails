@@ -4,6 +4,10 @@
                     <%= @city %>, <%= @repository %> <%= @shelflisting %>
             </div>
 
+            <div id="version">
+              <%= link_to 'Edition Version 1.0', versioning_path() %>
+            </div>
+
             <div id="reader-nav-links">
                 <%= t(page_entries_info(@line_groups))%>
                     </a>
@@ -63,3 +67,12 @@
             </div>
     </div>
 </div>
+
+<script type="text/javascript">
+
+var m = "This page was last updated: " + document.lastModified;
+var p = m.length-8;
+
+document.body.appendChild(document.createElement("center")).innerText = "Version 1.0. Last modified: " + document.lastModified
+
+</script>

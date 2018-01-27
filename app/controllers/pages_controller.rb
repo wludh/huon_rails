@@ -56,7 +56,7 @@ class PagesController < ApplicationController
             # get name(s) of encoder(s)
             @encoder = doc.search('name[resp="encoder"]').first.text
 
-            # get manuscript collocation 
+            # get manuscript collocation
             @city = doc.search('settlement').first.text
             @repository = doc.search('repository').first.text
             @shelflisting = doc.search('idno').first.text
@@ -90,8 +90,8 @@ class PagesController < ApplicationController
 
             @copyright = doc.search('availability').first.text
 
-            return @title, @introduction, @origin, @provenance, @acquisition, 
-            @date, @city, @repository, @shelflisting, @incipit, @explicit, @copyright, 
+            return @title, @introduction, @origin, @provenance, @acquisition,
+            @date, @city, @repository, @shelflisting, @incipit, @explicit, @copyright,
             @editor, @encoder
 
 
@@ -115,7 +115,7 @@ class PagesController < ApplicationController
             # get name(s) of encoder(s)
             @encoder = doc.search('name[resp="encoder"]').first.text
 
-            # get manuscript collocation 
+            # get manuscript collocation
             @city = doc.search('settlement').first.text
             @repository = doc.search('repository').first.text
             @shelflisting = doc.search('idno').first.text
@@ -444,7 +444,7 @@ class PagesController < ApplicationController
     end
 
 # Praxis and Guidelines
-    
+
 	def intro_praxis
 		render template: "pages/intro_praxis"
 	end
@@ -458,17 +458,16 @@ class PagesController < ApplicationController
 	end
 
 	def p_praxis
-        parse_html('p-praxis.html')
-        render template: "pages/p_praxis"
-    end
+      render template: "pages/p_praxis"
+  end
 
-    def br_praxis
-        render template: "pages/br_praxis"
-    end
+  def br_praxis
+      render template: "pages/br_praxis"
+  end
 
-    def encod_praxis
-        render template: "pages/encod_praxis"
-    end
+  def encod_praxis
+      render template: "pages/encod_praxis"
+  end
 
 # Edition Pages
 
@@ -508,9 +507,9 @@ class PagesController < ApplicationController
     end
 
 # Bibliography Page
-    
+
     def biblio_temp
-        render template: "pages/biblio_temp" 
+        render template: "pages/biblio_temp"
     end
 
     #def bibliography
