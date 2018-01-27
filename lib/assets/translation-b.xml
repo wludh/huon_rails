@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-12192017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -22,9 +22,11 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition n="1.0">
-                    <title>Version 1.0, enriched with text structure tags</title>
-                    <date when="2017">August 31</date>
+                <edition n="1.0.0">
+                    <title rend="italic" type="digital">Version 1.0.0, enriched with text structure
+                        tags, abbreviation expansions, basic decoration identification, and a notes
+                        and commentaries apparatus.</title>
+                    <date when="2017">31 August 2017</date>
                 </edition>
                 <respStmt>
                     <name resp="editor">Shira Schwam-Baird</name>
@@ -70,7 +72,7 @@
                         <idno>Hamilton 337 (78 D 8)</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title xml:lang="en">Hugh of Auvergne, a Franco-Italian Romance-Epic</title>
+                        <title type="text" xml:lang="en">Hugh of Auvergne, a Franco-Italian Romance-Epic</title>
                         <origPlace cert="low">unknown</origPlace>
                         <origDate cert="high" evidence="scribal">1341</origDate>
                         <note>Translation prepared by Shira Schwam-Baird</note>
@@ -83,7 +85,7 @@
                         <msItem>
                             <locus from="1r" to="84v">ff. 1r-84v</locus>
                             <author xml:id="scribe">Anonymous</author>
-                            <title xml:lang="fi">Huon d'Auvergne</title>
+                            <title type="text" xml:lang="fi">Huon d'Auvergne</title>
                             <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
                             <explicit/>
                         </msItem>
@@ -363,7 +365,7 @@
                 <l n="173">In order to begin the tournament, led everyone [to the field] </l>
                 <l n="174">Under a banner decorated with a raging lion</l>
                 <l n="175">As well as spots of red on a field of gold.</l>
-                <!-- NOTE Gutty gueles, William H. Whitmore, <em>The Elements of Heraldry</em> (Rutland VT: Tuttle, 1968), p. 97. -->
+                <!-- NOTE Gutty gueles, William H. Whitmore, <hi rend="italic">The Elements of Heraldry</hi> (Rutland VT: Tuttle, 1968), p. 97. -->
                 <l n="176">Berart addressed his men, saying, "I pray you, </l>
                 <l n="177">At the start of the tournament charge,</l>
                 <l n="178">O knights, call out the name 'Auvergne!'"</l>
@@ -405,7 +407,7 @@
                 <l n="208">"If this vassal lives for a long time,</l>
                 <l n="209">And if Huon desires it, I shall be overthrown as king,</l>
                 <l n="210">Because there are not two such ones within the bounds of the world.</l>
-                <!--NOTE The expression "les bornes d'Artus" refers to the eastern limits of the known world. See <em>Roman d'Alexandre</em>, Book 1, line 128. -->
+                <!--NOTE The expression "les bornes d'Artus" refers to the eastern limits of the known world. See <hi rend="italic">Roman d'Alexandre</hi>, Book 1, line 128. -->
                 <l n="211">But by my head, I will not have any tree in my kingdom</l>
                 <l n="212">So large, so leafy, so full,</l>
                 <l n="213">Without cutting all its branches."</l>
@@ -1137,7 +1139,7 @@
                 <l n="830">I am seeking something impossible, I know it well.</l>
                 <l n="831">Still, I shall try to the best of my ability to do it as long as I have
                     the leisure;</l>
-                    <!--NOTE "Leisure" here expresses time available to Huon before he dies. See OED 2b, <em>sub voce</em>, consulted 08/01/2014. -->
+                    <!--NOTE "Leisure" here expresses time available to Huon before he dies. See OED 2b, <hi rend="italic">sub voce</hi>, consulted 08/01/2014. -->
                 <l n="832">If it pleases God I will not be a liar.</l>
                 <l n="833">I commend my wife to your keeping, and all my heritage;</l>
                 <l n="834">I don't ask for more than a month of time to prepare,</l>
@@ -1450,7 +1452,7 @@
                 <!--BOLD You absolutely mustn't believe a wife -->
                 <l n="1094">Frequently a woman hates the one whom her husband has loved."</l>
                 <!--BOLD Frequently a woman hates -->
-                <!--NOTE <em>Distich of Cato</em> -->
+                <!--NOTE <hi rend="italic">Distich of Cato</hi> -->
                 <l n="1095">Anger overtook him; he lashed out with a kick</l>
                 <l n="1096">That knocked her down hard onto the floor</l>
                 <l n="1097">So that he made her belly burst in her body.</l>
@@ -1789,7 +1791,7 @@
                     dallied;</l>
                 <l n="1377">He traveled for a long time through hills and mountains,</l>
                 <l n="1378">Until he arrived in Sicily, but did not stay long,</l>
-                <!--NOTE Could this possibly be a reference to or confusion with Cilicia, a pagan land? See Moisan, <em>Répertoire des noms propres</em>, Tome II Volume 3 (Droz: 1986), p. 872. On the other hand, Huon's next stop is Calabria, so Sicily is more likely the translation. -->
+                <!--NOTE Could this possibly be a reference to or confusion with Cilicia, a pagan land? See Moisan, <hi rend="italic">Répertoire des noms propres</hi>, Tome II Volume 3 (Droz: 1986), p. 872. On the other hand, Huon's next stop is Calabria, so Sicily is more likely the translation. -->
                 <l n="1379">Concerning his quest, he could find no one</l>
                 <l n="1380">Who would tell him the truth; on the contrary, they took him for a
                     madman!</l>
@@ -2071,7 +2073,7 @@
                 <l n="1609">With a truly grateful heart he thanked God yet again,</l>
                 <l n="1610">And was doing it as always with weeping and tears.</l>
                 <l n="1611">Then he made the sign of the cross in the name of God the Creator.</l>
-                <!--NOTE <em>Seigner son vis</em> will always be translated as "to make the sign of the cross" or "to cross himself." -->
+                <!--NOTE <hi rend="italic">Seigner son vis</hi> will always be translated as "to make the sign of the cross" or "to cross himself." -->
                 <l n="1612">He entered Athens feeling both buoyant and joyful,</l>
                 <l n="1613">Bringing Samson with him and many others from the crew.</l>
                 <l n="1614">The others he left to watch the horses</l>
@@ -2477,7 +2479,7 @@
                 <l n="1948">I'll advise you and tell you in good faith.</l>
                 <l n="1949">If not, I want to leave right away;</l>
                 <l n="1950">I have too much to do, God surely knows the worst.</l>
-                <!--NOTE Translation is based on understanding <em>sorpoy</em> as "sordoy." The latter appears in <em>Guerra d'Attila</em> (II, 1272), another Franco-Italian text. -->
+                <!--NOTE Translation is based on understanding <hi rend="italic">sorpoy</hi> as "sordoy." The latter appears in <hi rend="italic">Guerra d'Attila</hi> (II, 1272), another Franco-Italian text. -->
                 <l n="1951">I have been on a quest now for several months;</l>
                 <l n="1952">Nor will I accomplish my task before at least three years have
                     passed</l>
@@ -2674,7 +2676,7 @@
                     thing to be entrusted with</l>
                 <l n="2116">If Hell were somewhere on this earth,</l>
                 <l n="2117">But it is a supernatural thing, you know well;</l>
-                <!--NOTE <em>Spirital</em> here seems to indicate "not of this earth," contrasted with the <em>terre</em> of the previous line; that is, Hell is not to be found on earth. -->
+                <!--NOTE <hi rend="italic">Spirital</hi> here seems to indicate "not of this earth," contrasted with the <hi rend="italic">terre</hi> of the previous line; that is, Hell is not to be found on earth. -->
                 <l n="2118">Charles Martel [is] out of his mind, I think,</l>
                 <l n="2119">Or truly he put his faith in very bad advice!</l>
                 <l n="2120">He should be keeping this [knight] with him,</l>
@@ -2994,11 +2996,11 @@
                 <l n="2391">The count left them in order to climb the mountain,</l>
                 <l n="2392">He took no food with him on which he might live,</l>
                 <l n="2393">Only his good faith and the cross that he wore.</l>
-                <!--NOTE The word <em>loge</em> seems to imply that Huon literally lodged the cross on his body. -->
+                <!--NOTE The word <hi rend="italic">loge</hi> seems to imply that Huon literally lodged the cross on his body. -->
                 <l n="2394">Thus it was that Huon ate nothing for six days;</l>
                 <l n="2395">The vassal held to the good and did holy works;</l>
                 <l n="2396">For this reason, God gave him strength and a bold nature.</l>
-                <!--NOTE Turin 2422: <em>p[er]zò Dio li dona forza</em> e natura francha"-->
+                <!--NOTE Turin 2422: <hi rend="italic">p[er]zò Dio li dona forza</hi> e natura francha"-->
                 <l n="2397">It was fitting that He made suffering and a difficult path for him;</l>
                 <l n="2398">This [life] is a purgatory for the soul that suffers</l>
                 <l n="2399">Such that man may bear it [only] through faith. </l>
@@ -3206,7 +3208,7 @@
                 <l n="2566">When opening its maw that was spewing out fire.</l>
                 <l n="2567">[Huon] thrust his sword into its throat right up to the hilt;</l>
                 <l n="2568">He touched its heart and at once he straightened up.</l>
-                <!--NOTE <em>Entoche</em> could also mean "poison." -->
+                <!--NOTE <hi rend="italic">Entoche</hi> could also mean "poison." -->
                 <l n="2569">When it felt death, it let out a tremendous roar</l>
                 <l n="2570">So that the whole mountain reverberated with it.</l>
                 <l n="2571">([The serpent] then became quiet and fell backwards.)</l>
@@ -3283,7 +3285,7 @@
                 <l n="2631">I see clearly that I have been betrayed, I know it with absolute
                     certainty,</l>
                 <l n="2632">Because those who were supposed to serve me are deceitful,</l>
-                <!--NOTE Literally: [...] have deceit; Turin 2614: <em>De</em> cossa che me dovesse s[er]<em>vire a piaquimento</em>. Turin understands <em>plaquement</em> as coming from "piacere" which would give an alternate translation: "By those who were supposed to serve me at [my] pleasure." -->
+                <!--NOTE Literally: [...] have deceit; Turin 2614: <hi rend="italic">De</hi> cossa che me dovesse s[er]<hi rend="italic">vire a piaquimento</hi>. Turin understands <hi rend="italic">plaquement</hi> as coming from "piacere" which would give an alternate translation: "By those who were supposed to serve me at [my] pleasure." -->
                 <l n="2633"><milestone n="19Ra" unit="fol."/>For they have gone away, [and] I remain
                     here right now</l>
                 <l n="2634">In this wild location; here is an evil dwelling place;</l>
@@ -3592,7 +3594,7 @@
                 <l n="2888">"I won't turn back. As long as we can go forward, let's go."</l>
                 <l n="2889">He crossed himself, saying, "Ladies, wait a moment,</l>
                 <l n="2890">Climb on this hillock, have no fear;</l>
-                <!--NOTE <em>Marois</em> in Tobler-Lommatzsch is <em>Gestade/ Moor</em>="high moor" or "strand." We are translating as "hillock" since it seems to be a small high point that they can walk on between the sea and the cliffs. -->
+                <!--NOTE <hi rend="italic">Marois</hi> in Tobler-Lommatzsch is <hi rend="italic">Gestade/ Moor</hi>="high moor" or "strand." We are translating as "hillock" since it seems to be a small high point that they can walk on between the sea and the cliffs. -->
                 <l n="2891">If need presses you, with a call and a yell,</l>
                 <l n="2892"><milestone n="20Vb" unit="fol."/>I will surely come to your aid, if God
                     allows me to.</l>
@@ -3668,7 +3670,7 @@
                 <head>Laisse 111</head>
                 <l n="2948">Now the serpent was dead and Huon examined it;</l>
                 <l n="2949">It was three large measures long, as he estimated,</l>
-                <!--NOTE This measure, <em>toisse</em>, equals about six feet. -->
+                <!--NOTE This measure, <hi rend="italic">toisse</hi>, equals about six feet. -->
                 <l n="2950">And in the width of the body there was more than one part.</l>
                 <!--NOTE Not clear what this "part" is that Huon refers to.-->
                 <l n="2951">"Oh, God," said Count Huon, "what a marvel this is!</l>
@@ -3677,7 +3679,7 @@
                 <l n="2954">If this place is wild no one should be surprised( </l>
                 <l n="2955">Since I came here, and it has been a while now,</l>
                 <l n="2956">I couldn't measure it with my eyes, it was such a huge devil;</l>
-                <!--NOTE The translation is based on understanding the verb <em>çausi</em> as coming from <em>jaugier</em>, "to gauge" or "to measure." See Tobler-Lommatzsch, col. 1598.-->
+                <!--NOTE The translation is based on understanding the verb <hi rend="italic">çausi</hi> as coming from <hi rend="italic">jaugier</hi>, "to gauge" or "to measure." See Tobler-Lommatzsch, col. 1598.-->
                 <l n="2957">If one can find something worse than this, that would really take the
                     cake!</l>
                     <!--NOTE Literally: [...] that buys everything-->
@@ -3698,7 +3700,7 @@
                 <l n="2968">He will [always] be a wild animal, my heart will not trust in him.</l>
                 <l n="2969">One thing I wish tell you: he will not leave here.</l>
                 <l n="2970">If I go away before he expires,</l>
-                <!--NOTE The verb in the future here, <em>verai</em>, comes from <em>venire</em>.-->
+                <!--NOTE The verb in the future here, <hi rend="italic">verai</hi>, comes from <hi rend="italic">venire</hi>.-->
                 <l n="2971">Either he'll die like this or he'll walk away.</l>
                 <l n="2972">If I leave him like this all alone, he will be badly defended.</l>
                 <l n="2973">Around here there are all kinds of vermin (see how he has been laid
@@ -3801,8 +3803,8 @@
                 <l n="3054">The lion lay down beside him, showing his wound to Huon,</l>
                 <l n="3055">As if he were saying to him, "Give me a cure."</l>
                 <l n="3056">Thereupon the count remembered</l>
-                <l n="3057">That he was supposed to have a container of excellent ointment,</l>
-                <l n="3058">And also the worthy man had brought along a good antidote.</l>
+                <l n="3057">That he was supposed to have a container of excellent ointment</l>
+                <l n="3058">[That was] also a good antidote; so the worthy man seized it.</l>
                 <l n="3059">He applied it there where the beast needed it most;</l>
                 <l n="3060">The venom flowed out and he washed the flesh right away,</l>
                 <l n="3061">Then anointed him abundantly with the ointment</l>
@@ -3983,13 +3985,13 @@
                 <l n="3213">He crossed himself and commended himself to God.</l>
                 <l n="3214">Then he climbed the slope as best he could,</l>
                 <l n="3215">From each rock jutting out to the next he made footholds;</l>
-                <!--NOTE The word <em>çap</em> seems to indicate a rock jutting out, not a peak. There is a possibility that it could be related to rocks used for children's games in modern Italian "ciappa."-->
+                <!--NOTE The word <hi rend="italic">çap</hi> seems to indicate a rock jutting out, not a peak. There is a possibility that it could be related to rocks used for children's games in modern Italian "ciappa."-->
                 <l n="3216">He dug up so much earth with his halberd,</l>
                 <l n="3217">That his group set off with him.</l>
                 <l n="3218">They climbed so far that they came up to the cave;</l>
                 <l n="3219">In front of the cave there was a level meadow.</l>
                 <l n="3220">There, spread out on the ground, was a serpent,</l>
-                <!--NOTE The word <em>sol</em> here could indicate that the serpent is spread out sunning itself.-->
+                <!--NOTE The word <hi rend="italic">sol</hi> here could indicate that the serpent is spread out sunning itself.-->
                 <l n="3221">As huge and horrible as he had ever seen.</l>
                 <l n="3222">"Oh, God," said Huon, "my body will have no rest;</l>
                 <l n="3223">As I think to rest, more evil befalls me."</l>
@@ -4063,7 +4065,7 @@
                 <l n="3282">By night and by day he had suffered many great afflictions,</l>
                 <l n="3283">He had been condemned to a stone block.</l>
                 <l n="3284">By [the intonation of] his voice, [he seemed to be] giving a sermon,</l>
-                <!--NOTE See Turin: 3244 <em>A la vose ch'el fase</em>a, pare ch'el dica sermone. The Berlin manuscript appears to be missing a verb which occurs in the Turin manuscript, without which the translation doesn't make sense.-->
+                <!--NOTE See Turin: 3244 <hi rend="italic">A la vose ch'el fase</hi>a, pare ch'el dica sermone. The Berlin manuscript appears to be missing a verb which occurs in the Turin manuscript, without which the translation doesn't make sense.-->
                 <l n="3285">It sounded like he was reading and reciting prayers,</l>
                 <l n="3286">But no one could understand what he said.</l>
                 <l n="3287">When Huon heard him, he immediately stopped,</l>
@@ -5771,7 +5773,8 @@
                 <l n="4743"><milestone n="33Rb" unit="fol."/>How he is mindful of our senator[,
                     Count Huon]?</l>
                 <l n="4744">In order to honor his lady, he makes us ambassadors.</l>
-                <l n="4745">Everyone must serve Tholome well, great and small.</l>
+                <l n="4745">Everyone must serve Tholomé well, great and small.</l>
+                <!--NOTE If <hi rend="italic">Tholomé</hi> were emended to "tal ome" an alternative translation would be: Everyone must serve such a man well, great and small-->
                 <l n="4746">Now let us go get the lady, in the name of the Creator;</l>
                 <l n="4747">Let everyone be ready at matins close to dawn."</l>
                 <l n="4748">And they replied, "As you wish."</l>
@@ -6409,10 +6412,13 @@
                 <l n="5283">And you me in your kindness.</l>
                 <l n="5284">You must believe, as honest truth,</l>
                 <l n="5285">That I would want to advise you in good faith:</l>
-                <l n="5286">The king of France who has sent us here</l>
-                <l n="5287">Is pleased to wish that you be honored, </l>
-                <l n="5288">And where can greater honor be found </l>
+                <l n="5286">The king of France, who has sent us here,</l>
+                <l n="5287">Is truly desirous that you be honored; </l>
+                <l n="5288">Where can greater honor be found </l>
                 <l n="5289">Than by obeying the king and doing his will?</l>
+                <!--NOTE An alternative translation is possible if the transcription is punctuated differently.
+Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/ E ou se puet gregno[r] hono[r]s avoir trovés/ Cu[m] le rois obeir e fer sa volontés?
+	The king of France, why has he sent us here,/ Truly desirous that you be honored?/ And where can greater honor be found/ Than by obeying the king and doing his will? -->
                 <l n="5290">And your sister was therefore absolutely wrong, </l>
                 <l n="5291">Seeing that she wanted to disobey the emperor,</l>
                 <l n="5292">And anyone who believes her is definitely committing a great folly.</l>
@@ -7171,7 +7177,7 @@
                 <l n="5934">Then the heralds, who had raised the hue and cry</l>
                 <l n="5935">In Ynide's name, [cried out] that everyone was to quiet down,</l>
                 <l n="5936">And they did so; there was no further delay.</l>
-                <!--NOTE The translation is based on <em>detriç</em> coming from "detrier"; if it comes from "destroit" (distressed), an alternative translation would be: [...] they caused the ambassadors no more distress-->
+                <!--NOTE The translation is based on <hi rend="italic">detriç</hi> coming from "detrier"; if it comes from "destroit" (distressed), an alternative translation would be: [...] they caused the ambassadors no more distress-->
                 <l n="5937">Then Ynide spoke, once she could be heard;</l>
                 <l n="5938">She said: "Ah, worthy folk, noble people, subjects!</l>
                 <l n="5939">I truly know well that you love me faithfully!</l>
@@ -7352,7 +7358,7 @@
                 <l n="6086">-If that's [even] possible-until I carry out </l>
                 <l n="6087">My mission in the great place of darkness,</l>
                 <l n="6088">Or I will die, so that no one speaks ill of me.</l>
-                <!--NOTE T 5823: <em>anze che</em> nesun de my mal ne diga -->
+                <!--NOTE T 5823: <hi rend="italic">anze che</hi> nesun de my mal ne diga -->
                 <l n="6089">I thank you for the great courtesy</l>
                 <l n="6090">Of having provisioned this ship</l>
                 <l n="6091">With hardtack and grain for the horse;</l>
@@ -7368,7 +7374,7 @@
                 <l n="6098">"Loyal man, brother, you have truly upset me,</l>
                 <!--NOTE Literally: [...] you have truly seized my heart -->
                 <l n="6099">When I hear of your going to a cruel country</l>
-                <!--NOTE T 5794: <em>quando andare</em> vuy y[n]tendo y[n] crudele paiesse -->
+                <!--NOTE T 5794: <hi rend="italic">quando andare</hi> vuy y[n]tendo y[n] crudele paiesse -->
                 <l n="6100">Where no man who has ever been alive has gone. </l>
                 <l n="6101">It is quite impossible, so it is written;</l>
                 <!--NOTE Literally: [...] the story writes it -->
@@ -7601,7 +7607,7 @@
                 <l n="6299">He saw no habitation of wood or stone,</l>
                 <l n="6300">Nothing but the woods and the thick forest.</l>
                 <l n="6301">Then he really wished he had believed his friend [Tadeus]:</l>
-                <!--T 5992: Alora vorave avere creduto <em>a Tadeus lo fero</em> -->
+                <!--T 5992: Alora vorave avere creduto <hi rend="italic">a Tadeus lo fero</hi> -->
                 <l n="6302">"Oh, God," he said, "what a fix I'm in!</l>
                 <l n="6303">The situation of Duke Naimon of Baveria was nothing</l>
                 <l n="6304">When he went to [his] adversary Agolant.</l>
@@ -7703,7 +7709,7 @@
                 <l n="6386">Chanting a prayer most devoutly:</l>
                 <l n="6387">"Lord, You open my lips," [he said] with much weeping,</l>
                 <!--BOLD Lord, You open my lips -->
-                <!--NOTE This is adapted from Ps. 51.7: <em>Domine labia mea aperies; et os meum annunciabit laudem Tuam</em> (Lord, you open my lips; and my mouth proclaims Your praise). -->
+                <!--NOTE This is adapted from Ps. 51.7: <hi rend="italic">Domine labia mea aperies; et os meum annunciabit laudem Tuam</hi> (Lord, you open my lips; and my mouth proclaims Your praise). -->
                 <l n="6388">"And my mouth very often,</l>
                 <!--BOLD And my mouth -->
                 <l n="6389">Will proclaim the glory of Your coming."</l>
@@ -7731,7 +7737,7 @@
                 <l n="6406">That they counted as nothing.</l>
                 <l n="6407">Those who attack [Huon] indeed get from him a bad reward;</l>
                 <l n="6408">Once he feels his good sword [in his hand],</l>
-                <!--NOTE This line is problematic. Either the prefix of the verb or the noun at the end of the line is wrong. T 6099: <em>quando ch</em>'el [con]sente a soa speranza bona -->
+                <!--NOTE This line is problematic. Either the prefix of the verb or the noun at the end of the line is wrong. T 6099: <hi rend="italic">quando ch</hi>'el [con]sente a soa speranza bona -->
                 <l n="6409">He puts them to death, he sentences them with such a judgment.</l>
                 <l n="6410">One Wednesday, about the hour of nones,</l>
                 <l n="6411">As Odinel recounts, he came across something</l>
@@ -7761,7 +7767,7 @@
                 <head>Laisse 250</head>
                 <l n="6430">The count led his ship toward the three;</l>
                 <l n="6431">When he was close to them, his horse stopped.</l>
-                <!--NOTE The term <em>orquenois</em> means a certain type of horse from the Orkneys. Cf. TL 1300. -->
+                <!--NOTE The term <hi rend="italic">orquenois</hi> means a certain type of horse from the Orkneys. Cf. TL 1300. -->
                 <l n="6432">He saw them dressed in the French fashion;</l>
                 <l n="6433">They had gray-blue eyes, and their complexions were clear and fresh,</l>
                 <l n="6434">[And] vermillion in color, and their tresses completely blond;</l>
@@ -7880,7 +7886,7 @@
                 <l n="6530">At that time when Alexander set his troops in motion</l>
                 <l n="6531">In order to possess the entire world,</l>
                 <l n="6532">And he came here to see these trees</l>
-                <!--NOTE Part of the Alexander legend: according to the <em>Roman d'Alexandre</em>, the trees of the sun and moon could prophesy the future and told him that he would die. See the <em>Roman</em>, Branch III, sections 207-216 (pp. 529-539 in <em>Alexandre de Paris. Le Roman d'Alexandre</em>, trans. And ed. by Laurence Harf-Lancner, based on the E.C. Armstrong et al. text, Paris: Livre de poche, 1994). -->
+                <!--NOTE Part of the Alexander legend: according to the <hi rend="italic">Roman d'Alexandre</hi>, the trees of the sun and moon could prophesy the future and told him that he would die. See the <hi rend="italic">Roman</hi>, Branch III, sections 207-216 (pp. 529-539 in <hi rend="italic">Alexandre de Paris. Le Roman d'Alexandre</hi>, trans. And ed. by Laurence Harf-Lancner, based on the E.C. Armstrong et al. text, Paris: Livre de poche, 1994). -->
                 <l n="6533">So that they tell the truth concerning his fate,</l>
                 <l n="6534">Through force and through necessity, the peers of France</l>
                 <l n="6535">Came to send him tribute and great riches.</l>
@@ -7903,7 +7909,7 @@
                 <l n="6551">You could never get enough;</l>
                 <!--NOTE Literally: You couldn't satisfy your mind -->
                 <l n="6552">We never have trouble, except for priests.</l>
-                <!--NOTE If <em>prevoire</em> means "prepare, show foresight, plan well" a possible alternate translation would be: We never have trouble only providing that we take care -->
+                <!--NOTE If <hi rend="italic">prevoire</hi> means "prepare, show foresight, plan well" a possible alternate translation would be: We never have trouble only providing that we take care -->
             </lg>
             <lg type="laisse" n="255">
                 <head>Laisse 255</head>
@@ -7940,14 +7946,14 @@
                 <l n="6578">But I will certainly come to your dwelling,</l>
                 <l n="6579">In order to see your lady [and] speak to your barons;</l>
                 <l n="6580">None of her magic or any lesson</l>
-                <!--NOTE Cf. T 6269 which has <em>carne</em> (flesh).  Could this be a play on words between "charme" and "carne"? -->
+                <!--NOTE Cf. T 6269 which has <hi rend="italic">carne</hi> (flesh).  Could this be a play on words between "charme" and "carne"? -->
                 <l n="6581">Can make me change my intention.</l>
                 <l n="6582">This thing that I'm asking about,</l>
                 <l n="6583">I know [it's] impossible, and I know it well,</l>
                 <l n="6584">If it doesn't please the Lord of Heaven.</l>
                 <l n="6585">Scripture speaks of it, we know that well.</l>
                 <l n="6586"><milestone n="46Va" unit="fol."/>They can truly reveal to me shadows that don't exist,</l>
-                <!--NOTE There seems to be a problem here in the manuscript. Cf. T 6275: ben me posite mostrare ombre chy no[n] <em>sono</em>-->
+                <!--NOTE There seems to be a problem here in the manuscript. Cf. T 6275: ben me posite mostrare ombre chy no[n] <hi rend="italic">sono</hi>-->
                 <l n="6587">However I clearly must be there in person</l>
                 <l n="6588">And relate my message to [the Devil] for Charles.</l>
                 <l n="6589">I know well this cannot be; you speak in vain.</l>
@@ -8184,7 +8190,7 @@
                 <l n="6783">Saying to the vassal, "And you, what do you have in mind [to do]?"</l>
                 <l n="6784">And he replied, with a troubled look,</l>
                 <l n="6785">"To find this place of the damned."</l>
-                <!--NOTE Literally: To find this place that has the bound [ones]; Cf. T 6474: De trovare quelo locho onda sono tuty <em>li danate</em>-->
+                <!--NOTE Literally: To find this place that has the bound [ones]; Cf. T 6474: De trovare quelo locho onda sono tuty <hi rend="italic">li danate</hi>-->
             </lg>
             <lg type="laisse" n="265">
                 <head>Laisse 265</head>
@@ -8340,7 +8346,7 @@
                 <l n="6911">Since the son of Philip had been taken from them</l>
                 <l n="6912">When he drank the poison</l>
                 <l n="6913">As [they were] when they found the count completely dazed and bruised.</l>
-                <!--NOTE <em>esperdu</em> implies that they see both the physical and mental results of his self-punishment. -->
+                <!--NOTE <hi rend="italic">esperdu</hi> implies that they see both the physical and mental results of his self-punishment. -->
                 <l n="6914">Now they understood clearly, indeed they perceived,</l>
                 <l n="6915">That he had fought off the sin;</l>
                 <l n="6916">Through abstinence he had defeated the plot.</l>
@@ -8372,14 +8378,14 @@
                 <l n="6937">He recited a psalm, calling out loudly,</l>
                 <l n="6938">"Release Your servant now, Almighty,</l>
                 <!--BOLD Release Your servant now-->
-                <!--NOTE Opening line of Simeon's canticle in St. Luke's Gospel (2:29-32): "Now thou dost dismiss thy servant, O Lord" etc. (<em>Catholic Encyclopedia</em>).-->
+                <!--NOTE Opening line of Simeon's canticle in St. Luke's Gospel (2:29-32): "Now thou dost dismiss thy servant, O Lord" etc. (<hi rend="italic">Catholic Encyclopedia</hi>).-->
                 <l n="6939">Today in complete peace."</l>
                 <l n="6940">Before he had recited it all to the end,</l>
                 <l n="6941">Three angels descended amidst the flames.</l>
                 <l n="6942">They were all white and their vestments were bright;</l>
                 <l n="6943">The fire was extinguished by their arrival,</l>
                 <l n="6944">Just as happens to the night from the burning sun.</l>
-                <!--NOTE Perhaps <em>noit</em> is confused with <em>noif</em> (snow). See T 6630: <em>como se desfà la neve p[er] lo sole artendo</em> -->
+                <!--NOTE Perhaps <hi rend="italic">noit</hi> is confused with <hi rend="italic">noif</hi> (snow). See T 6630: <hi rend="italic">como se desfà la neve p[er] lo sole artendo</hi> -->
                 <l n="6945">The first one, looking important, carried a book;</l>
                 <!--NOTE Literally: The first one nobly carried a book -->
                 <l n="6946">He opened it and held it out before the count</l>
@@ -8417,7 +8423,7 @@
                 <l n="6972">The count of Auvergne, sleeping that night,</l>
                 <l n="6973">Rested until the next day.</l>
                 <l n="6974">When he awoke he felt his armor</l>
-                <!--NOTE The <em>clavan</em> (TL) is a piece of armor made of mail or overlapping plates to protect the neck, shoulders and back. -->
+                <!--NOTE The <hi rend="italic">clavan</hi> (TL) is a piece of armor made of mail or overlapping plates to protect the neck, shoulders and back. -->
                 <l n="6975">And himself and his gambeson all wet</l>
                 <l n="6976">From the dew that had fallen overnight.</l>
                 <l n="6977">He looked all around himself, he saw nothing of the main hall,</l>
@@ -8446,7 +8452,7 @@
                 <l n="6996">Then he said to him, "Go where you please!"</l>
                 <l n="6997">The good war horse took off quickly;</l>
                 <l n="6998">He passed through the forest, which was quite extensive;</l>
-                <!--NOTE Translation based on understanding <em>las</em> as deriving from Latin LATUS; cf. OF “lé, lés” -->
+                <!--NOTE Translation based on understanding <hi rend="italic">las</hi> as deriving from Latin LATUS; cf. OF “lé, lés” -->
                 <l n="6999">He passed by boulders and valleys and hills;</l>
                 <l n="7000">As far as the riverbank of the Euphrates' companion</l>
                 <l n="7001">He came, where the Tigris rushes.</l>
@@ -8498,9 +8504,9 @@
                 <l n="7038">The bird came flying toward the horse;</l>
                 <l n="7039">The count saw it, he was indeed deathly afraid.</l>
                 <l n="7040">Immediately he leaped on to the saddle without delay,</l>
-                <!--NOTE The word <em>arçon</em> means "saddle-bow" but like "montare in arcione" in modern Italian, here the combination with <em>monter</em> means "get into the saddle." The movement expressed by the adverbs leads one to translate <em>monta</em> here by "leaped." -->
+                <!--NOTE The word <hi rend="italic">arçon</hi> means "saddle-bow" but like "montare in arcione" in modern Italian, here the combination with <hi rend="italic">monter</hi> means "get into the saddle." The movement expressed by the adverbs leads one to translate <hi rend="italic">monta</hi> here by "leaped." -->
                 <l n="7041">Drew his sword, quickly positioned to help.</l>
-                <!--NOTE Alternate translation: [...] quickly positioned himself between them. Cf T 6725 <em>la spea trasse</em>, e tosto se fichà entra lor, if we understand <em>en al</em> = "entre eux."-->
+                <!--NOTE Alternate translation: [...] quickly positioned himself between them. Cf T 6725 <hi rend="italic">la spea trasse</hi>, e tosto se fichà entra lor, if we understand <hi rend="italic">en al</hi> = "entre eux."-->
                 <l n="7042">The fierce bird swooped down from above,</l>
                 <l n="7043">Its feet reaching out and its beak likewise.</l>
                 <l n="7044">If it were to touch the nobly-born baron with its wings,</l>
@@ -8603,7 +8609,7 @@
                 <l n="7126">Owing to the great stench that polluted the moor, </l>
                 <l n="7127">His stomach turned and great suffering overpowered him.</l>
                 <l n="7128">He rolled over, he was hardly conscious;</l>
-                <!--NOTE Literally: [...]  he hardly felt himself. If the transcription of <em>de sis</em> is <em>desis</em>, then the translation might be: he hardly felt [himself] dismount-->
+                <!--NOTE Literally: [...]  he hardly felt himself. If the transcription of <hi rend="italic">de sis</hi> is <hi rend="italic">desis</hi>, then the translation might be: he hardly felt [himself] dismount-->
                 <l n="7129">[After] vomiting four times, he sat up;</l>
                 <l n="7130">Then he remained still like a man gone foolish.</l>
                 <l n="7131">He felt very little, he was feeling so faint,</l>
@@ -8614,7 +8620,7 @@
                 <l n="7136">He called himself a miserable sinner,</l>
                 <l n="7137">More than any other man ever born.</l>
                 <l n="7138">He recited many a psalm, then he confessed his guilt.</l>
-                <!--NOTE Cf. Turin 6821: <em>Molty salmy di</em>ze e possa se rende y[n] soa colpa.-->
+                <!--NOTE Cf. Turin 6821: <hi rend="italic">Molty salmy di</hi>ze e possa se rende y[n] soa colpa.-->
                 <l n="7139">The suffering eased and he fell asleep;</l>
                 <l n="7140">Afterward as well he remained thus all night long</l>
                 <l n="7141"><milestone n="50Rb" unit="fol."/>Until dawn when the daylight appeared.</l>
@@ -8654,7 +8660,7 @@
                 <l n="7168">In a short time [the land] swallowed the river,</l>
                 <l n="7169">The channel emptied; it didn't appear</l>
                 <l n="7170">That the fish had ever left that place where they were,</l>
-                <!--NOTE These two lines have been reordered to make sense in English. The verb <em>part</em> could be translated as “leave,” in which case the lines would read: The channel emptied; the fish that were there / Didn’t leave; for never did they go out from there-->
+                <!--NOTE These two lines have been reordered to make sense in English. The verb <hi rend="italic">part</hi> could be translated as “leave,” in which case the lines would read: The channel emptied; the fish that were there / Didn’t leave; for never did they go out from there-->
                 <l n="7171">But the count didn't remain there very long.</l>
                 <l n="7172">On the other side he saw the water gushing up again; </l>
                 <l n="7173">It issued forth with such abundance [that] if the count hadn't
@@ -9714,7 +9720,7 @@
                 <l n="8086">Or any bad thing that he might encounter.</l>
                 <l n="8087">Start on the road; we might tarry too long."</l>
                 <l n="8088">And so he did without delaying any longer.</l>
-                <l n="8089">The birds flew in front, thus they showed them the path.</l>-->
+                <l n="8089">The birds flew in front, thus they showed them the path.</l>
                 <!--NOTE Difficult to know if one or two griffons accompany them as the forms keep shifting from singular to plural, and frequently there is no verb/subject agreement on number. However since lines 8078 and 8102 imply that both griffons accompanied them, the translation is based on two griffons. -->
                 <l n="8090">If they came across a danger, or any ferocious beast,</l>
                 <l n="8091">That didn't clear off from the road they had to travel,</l>
@@ -9746,7 +9752,7 @@
                 <l n="8112">And he, [going] from one group to another, made the sign of the cross
                     over them all.</l>
                 <l n="8113">Those [whom he had blessed] split off, [and] sang in their [animal]
-                    language;</l>-->
+                    language;</l>
                     <!--NOTE The narrator seems to be describing a scene where, as Huon blesses each group, it splits off and goes off "singing" to graze elsewhere. Could this be evocative of St. Francis? -->
                 <l n="8114">They went to graze there where they found it best;</l>
                 <l n="8115">[Huon] had a lot of animals there to bless that day.</l>
@@ -9777,7 +9783,7 @@
                 <l n="8138">[Do this] in remembrance of the Flood that was thus ended,</l>
                 <l n="8139"><milestone n="57Ra" unit="fol."/>For Friday was when the Ark landed;</l>
                 <l n="8140">Know this, He was born and died on a Friday,</l>
-                <l n="8141">And for this occasion the virtuous man is remembered.</l>-->
+                <l n="8141">And for this occasion the virtuous man is remembered.</l>
                 <!--NOTE Reference to Noah, the only virtuous man in the flood story. -->
             <!--<l n="8142">Every year the holy day has been celebrated by him,</l>
                 <l n="8143">And for this reason these animals have assembled here.</l>
@@ -11820,7 +11826,7 @@
                 <l n="9913">Absolutely nothing that you see will harm you.</l>
                 <l n="9914"><milestone n="69Ra" unit="fol."/>If you look carefully and see beyond that bridge,</l>
                 <l n="9915">On the seat of the round capital,</l>
-                <l n="9916">You see there the fair-headed master Tholomeus,</l>
+                <l n="9916">You see there the fair-headed master Ptolemy,</l>
                 <l n="9917">Who in astrology was the best in the world.</l>
                 <l n="9918">The magicians are with him.</l>
                 <l n="9919">See how they set about studying!</l>
@@ -11969,7 +11975,7 @@
                 <l n="10041">Then he blessed Jesus of majesty.</l>
                 <l n="10042">He took hold of Huon, then he told him:</l>
                 <l n="10043">"Let it be; you have seen enough."</l>-->
-                <!--NOTE See numerous spots in <em>Inferno</em>, in particular the Mastro Adamo flyting in canto 30, lines 130-132, for instances of the traveler in hell enjoying residents' combativeness. -->
+                <!--NOTE See numerous spots in <hi rend="italic">Inferno</hi>, in particular the Mastro Adamo flyting in canto 30, lines 130-132, for instances of the traveler in hell enjoying residents' combativeness. -->
             </lg>
             <lg type="laisse" n="385">
                 <head>Laisse 385</head>
@@ -12029,7 +12035,7 @@
                 <l n="10091">He asked Aeneas, "What people are these then?"</l>
                 <l n="10092">And [Aeneas] replied, "They are King Agollant,</l>-->
                 <l n="10093">Uliens the brave and Helmont the valiant,</l>
-                <!--NOTE  These are Saracen kings from the chanson de geste <em>Aspremont</em>.-->
+                <!--NOTE  These are Saracen kings from the chanson de geste <hi rend="italic">Aspremont</hi>.-->
             <!--<l n="10094">That combative group who were on the field of Aspremont,</l>
                 <l n="10095">Because during their lives they loved neither God nor saints</l>
                 <l n="10096">And thought to destroy Christianity,</l>
@@ -12159,7 +12165,7 @@
                 <l n="10204">Devils are attacking him from every side.</l>
                 <l n="10205">They want to burn this man in a great fire:</l>
                 <l n="10206">He is Girart of Fraite, the warrior;</l>-->
-                <!--NOTE [From Wikipedia] "... in <em>Aspramonte</em> by Andrea da Barberino, based on the French chanson <em>Aspremont</em>, where he is called Girart de Frete or de Fraite and he leads an army of infidels against Charlemagne." a.k.a. Girart de Roussillon	[this note needs to be rewritten by knowledgeable scholar]-->
+                <!--NOTE [From Wikipedia] "... in <hi rend="italic">Aspramonte</hi> by Andrea da Barberino, based on the French chanson <hi rend="italic">Aspremont</hi>, where he is called Girart de Frete or de Fraite and he leads an army of infidels against Charlemagne." a.k.a. Girart de Roussillon	[this note needs to be rewritten by knowledgeable scholar]-->
             <!--<l n="10207">Every day he thinks he's fighting Saracens,</l>
                 <l n="10208">Every day he thinks he's winning.</l>
                 <l n="10209">Many times he did evil toward Charles, the emperor:</l>
@@ -12190,12 +12196,12 @@
                 <l n="10231">Right into an oven burning up with live coal.</l>
                 <l n="10232">But once he had seen the two noblemen,</l>
                 <l n="10233">He cried out loud, "You escaped from this,</l>-->
-                <!--NOTE We are assuming that <em>camperon</em> comes from the verb <em>campare</em>. -->
+                <!--NOTE We are assuming that <hi rend="italic">camperon</hi> comes from the verb <hi rend="italic">campare</hi>. -->
             <!--<l n="10234">You who became a hermit, as holy men do,</l>
                 <l n="10235">You don't want to see me; you turn your face aside,</l>
                 <l n="10236">Never would I value you the worth of a button for this.</l>
                 <l n="10237">If you are now a great lord in the kingdom of Aquillon,</l>-->
-                <!--NOTE <em>Aquillon</em> is usually defined as "the North wind" or "the North," but here it seems to be a reference to Heaven since William is depicted wearing a halo. -->
+                <!--NOTE <hi rend="italic">Aquillon</hi> is usually defined as "the North wind" or "the North," but here it seems to be a reference to Heaven since William is depicted wearing a halo. -->
             <!--<l n="10238">I have more power within this deep place</l>
                 <l n="10239">Than you could ever have in the heavenly house.</l>
                 <l n="10240">Although you have descended from my nation,</l>
@@ -13280,8 +13286,8 @@
                 <l n="11179">Had returned [to be] among his people;</l>
                 <l n="11180">There was no one who was indolent about serving him;</l>
                 <l n="11181">Rather they rendered their service with full value.</l>
-                <l n="11182">The count led his life now in a holy way;</l>
-                <!--NOTE Literally: The count led his holy life now -->
+                <l n="11182">The count led his life now in a holy way;</l> -->
+                <!-- NOTE Literally: The count led his holy life now -->
                 <l n="11183">He rendered gratitude and thanks to God constantly,</l>
                 <l n="11184">Because He had allowed him to see so many things before him.</l>
                 <l n="11185">He prostrated himself in order to contemplate Jesus,</l>
@@ -14506,7 +14512,7 @@
                 <l n="12222">Did the writing and all the storytelling as well;</l>
                 <l n="12223">[May he be] one whom God receives when he will come to his end,</l>
                 <l n="12224">In His holy kingdom, where the cherubim sing.</l>
-                <l n="12225">Amen. Amen. Amen.</l> -->
+                <l n="12225">Amen. Amen. Amen.</l>
             </lg>
         </body>
     </text>
