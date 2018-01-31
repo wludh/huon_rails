@@ -3000,7 +3000,7 @@
                 <l n="2394">Thus it was that Huon ate nothing for six days;</l>
                 <l n="2395">The vassal held to the good and did holy works;</l>
                 <l n="2396">For this reason, God gave him strength and a bold nature.</l>
-                <!--NOTE Turin 2422: <hi rend="italic">p[er]zò Dio li dona forza</hi> e natura francha"-->
+                <!--NOTE See MS T 2422: <hi rend="italic">p[er]zò Dio li dona forza</hi> e natura francha"-->
                 <l n="2397">It was fitting that He made suffering and a difficult path for him;</l>
                 <l n="2398">This [life] is a purgatory for the soul that suffers</l>
                 <l n="2399">Such that man may bear it [only] through faith. </l>
@@ -3285,7 +3285,7 @@
                 <l n="2631">I see clearly that I have been betrayed, I know it with absolute
                     certainty,</l>
                 <l n="2632">Because those who were supposed to serve me are deceitful,</l>
-                <!--NOTE Literally: [...] have deceit; Turin 2614: <hi rend="italic">De</hi> cossa che me dovesse s[er]<hi rend="italic">vire a piaquimento</hi>. Turin understands <hi rend="italic">plaquement</hi> as coming from "piacere" which would give an alternate translation: "By those who were supposed to serve me at [my] pleasure." -->
+                <!--NOTE Literally: [...] have deceit; MS T 2614: <hi rend="italic">De c</hi>ossa che me dovesse s[er]<hi rend="italic">vire a piaquimento</hi>. Turin understands <hi rend="italic">plaquement</hi> as coming from "piacere" which would give an alternate translation: "By those who were supposed to serve me at [my] pleasure." -->
                 <l n="2633"><milestone n="19Ra" unit="fol."/>For they have gone away, [and] I remain
                     here right now</l>
                 <l n="2634">In this wild location; here is an evil dwelling place;</l>
@@ -4065,7 +4065,7 @@
                 <l n="3282">By night and by day he had suffered many great afflictions,</l>
                 <l n="3283">He had been condemned to a stone block.</l>
                 <l n="3284">By [the intonation of] his voice, [he seemed to be] giving a sermon,</l>
-                <!--NOTE See Turin: 3244 <hi rend="italic">A la vose ch'el fase</hi>a, pare ch'el dica sermone. The Berlin manuscript appears to be missing a verb which occurs in the Turin manuscript, without which the translation doesn't make sense.-->
+                <!--NOTE See MS T: 3244 <hi rend="italic">A la vose ch'el fase</hi>a, pare ch'el dica sermone. The Berlin manuscript appears to be missing a verb which occurs in the Turin manuscript, without which the translation doesn't make sense.-->
                 <l n="3285">It sounded like he was reading and reciting prayers,</l>
                 <l n="3286">But no one could understand what he said.</l>
                 <l n="3287">When Huon heard him, he immediately stopped,</l>
@@ -4134,6 +4134,7 @@
                 <l n="3335">This lion has signaled me many times;</l>
                 <l n="3336"><milestone n="23Vb" unit="fol."/>But I have no idea how to explain
                     it.</l>
+                    <!--NOTE The verb <hi rend="italic">asenere</hi> seems to come from "assennare."-->
                 <l n="3337">He won't come to me because he would [have to] come enter here;</l>
                 <l n="3338">I believed that he stayed outside to stand guard.</l>
                 <l n="3339">Many times I have heard it said that beasts have such an ability:</l>
@@ -4153,6 +4154,7 @@
                 <l n="3352">And if he doesn't want to do it,</l>
                 <l n="3353">I'll make him do it, if I can find a way.</l>
                 <l n="3354">Come to me, don't be afraid at all.</l>
+                <!--NOTE Here Huon addresses the figure aloud.-->
                 <l n="3355">If it's dark, I'll make it light enough</l>
                 <l n="3356">So that from all sides you'll be able to see."</l>
                 <l n="3357">Then the count placed his hand in his bag,</l>
@@ -4188,6 +4190,7 @@
                 <l n="3383">I am called by name Quilides the demon;</l>
                 <l n="3384">A worthy man, who knew much of sorcery,</l>
                 <l n="3385">Enclosed me here within a large stone;</l>
+                <!--NOTE The word <hi rend="italic">xais</hi> is translated 'stone' since line 3283 states that the devil/hermit condemned to a stone (<hi rend="italic">perons</hi>). See MS T 3344: <hi rend="italic">intro in gran saso me serà quy un prodomo</hi>. See <hi rend="italic">Alexandre de Paris. Le Roman d'Alexandre</hi>. Trans. Laurence Harf-Lancner. Ed. E. C. Armstrong. Paris : Lettres gothiques (Le Livre de poche), 1976. Laisse 160, lines 2808-2819.-->
                 <l n="3386">I suffer every day in this way from a great burning.</l>
                 <l n="3387">I know you well and what you intend to do,</l>
                 <l n="3388">What you are seeking, we know it very well:</l>
@@ -8620,7 +8623,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="7136">He called himself a miserable sinner,</l>
                 <l n="7137">More than any other man ever born.</l>
                 <l n="7138">He recited many a psalm, then he confessed his guilt.</l>
-                <!--NOTE Cf. Turin 6821: <hi rend="italic">Molty salmy di</hi>ze e possa se rende y[n] soa colpa.-->
+                <!--NOTE See MS T 6821: <hi rend="italic">Molty salmy di</hi>ze e possa se rende y[n] soa colpa.-->
                 <l n="7139">The suffering eased and he fell asleep;</l>
                 <l n="7140">Afterward as well he remained thus all night long</l>
                 <l n="7141"><milestone n="50Rb" unit="fol."/>Until dawn when the daylight appeared.</l>
@@ -8670,10 +8673,11 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="7176">The river turned back where it came from;</l>
                 <l n="7177">The count remained bewildered and completely speechless.</l>
                 <l n="7178"><milestone n="50Va" unit="fol."/>He had no advice at a time when he was so lost;</l>
-                <l n="7179">He called out to God, and to His great power,</l>
-                <l n="7180">That He help him in this situation so that he not be thwarted;</l>
-                <l n="7181">As for retracing his steps, he wasn't pleased to set out [that way].</l>
-                <l n="7182">"Let's go forward, in the name of Jesus;</l>
+                <l n="7179">He called out to God and to His great power,</l>
+                <l n="7180">That He help him in this situation so that he not be thwarted</l>
+                <l n="7181">[So that] no obstacle be stirred up to returning [home].</l>
+                <!--NOTE See MS T 6864.-->
+                <l n="7182">"Let's go forward in the name of Jesus;</l>
                 <l n="7183">Let this great, sharp-peaked mountain be conquered.</l>
                 <l n="7184">Let's see further on what is on that peak up there."</l>
             </lg>
@@ -8686,15 +8690,15 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="7189">Behind he saw the sea striking the coast.</l>
                 <l n="7190">He saw nothing other than water and great [stretches of] land.</l>
                 <l n="7191">In several places there were steep precipices;</l>
-                <l n="7192">From there he saw clearly that he could do nothing.</l>
+                <l n="7192">He saw clearly that he could do nothing in that direction.</l>
                 <l n="7193">The count descended and came to his boat;</l>
                 <l n="7194">He remained there, I don't really know how many days.</l>
                 <l n="7195">Then the count decided he wanted</l>
                 <l n="7196">To abandon the ship down on the running river, </l>
                 <l n="7197">And to seek whatever flatlands [there were]:</l>
-                <l n="7198">Either he would die there, or he would accomplish his desire.</l>
+                <l n="7198">Either he would die there or he would accomplish his desire.</l>
                 <l n="7199">As soon as he thought this, he carried it out immediately;</l>
-                <l n="7200">Both of them ate first to their fill.</l>
+                <l n="7200">First both of them ate to their fill.</l>
                 <l n="7201">He mounted the horse and commended himself to God;</l>
                 <l n="7202">He left the river; he rode along the mountain.</l>
             </lg>
@@ -8711,39 +8715,41 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="7211">Then the count looked, he gazed in front of him;</l>
                 <l n="7212">He saw a serpent with an open maw</l>
                 <l n="7213">That was coming toward him, and he was very tired.</l>
-                <l n="7214">The count wanted to avoid it that day,</l>
+                <l n="7214">The count wished he could have avoided it that day,</l>
                 <l n="7215"><milestone n="50Vb" unit="fol."/>But the horse was quite frightened,</l>
                 <l n="7216">Such that he couldn't move his feet forward or backward.</l>
                 <l n="7217">The count dismounted to the ground, he gripped his shield;</l>
                 <l n="7218">He placed himself in front [of the horse] and brandished his sword.</l>
-                <l n="7219">The evil beast had advanced a lot,</l>
-                <l n="7220">He gathered up the horse with his tail curled,</l>
+                <l n="7219">The evil beast had advanced a lot:</l>
+                <l n="7220">It picked up the horse with with its curled tail,</l>
                 <l n="7221">It would have cruelly hurt him</l>
                 <l n="7222">[But] Huon advanced, he gave it such blows</l>
                 <l n="7223">That with great force he thoroughly stunned it.</l>
-                <l n="7224">Then many times it returned,</l>
-                <l n="7225">Until [Huon] struck it down to the ground.</l>
-                <l n="7226">It had clearly occurred that it had not injured the horse</l>
-                <l n="7227">From the fear [the horse] felt, he was absolutely quaking.</l>
-                <l n="7228">For a long time he didn't stir from the spot,</l>
+                <l n="7224">Then many times he redoubled [the blows]</l>
+                <l n="7225">Until he struck it down to the ground.</l>
+                <l n="7226">It was lucky that the horse wasn't injured</l>
+                <!--NOTE See MS T 6909.-->
+                <l n="7227">By the fear that had completely transformed him.</l>
+                <l n="7228">For a long time he didn't stir from the spot</l>
                 <l n="7229">Until Huon had calmed him many times.</l>
                 <l n="7230">For a long time he stroked his flanks and his sides.</l>
                 <l n="7231">[Huon] reined him in gently like a well-trained nobleman.</l>
                 <l n="7232">The horse recovered, then looked at the serpent,</l>
-                <l n="7233">Then he backed away when he saw himself saved from death.</l>
-                <l n="7234">Three times he trembled, then he curled his tail;</l>
-                <l n="7235">He began to neigh as he quieted down.</l>
-                <l n="7236">Huon understood it, he felt much relieved,</l>
+                <l n="7233">Then he backed away when he saw it cast down dead.</l>
+                <l n="7234">Three times he trembled, then he thrashed his tail;</l>
+                <l n="7235">He began to neigh as he calmed down.</l>
+                <l n="7236">Huon understood him, he felt much relieved,</l>
                 <l n="7237">Therefore he thanked God many times.</l>
                 <l n="7238">After this, [Huon] led him to safety;</l>
                 <l n="7239">Then he mounted, he left the serpent behind;</l>
                 <l n="7240">Next he made haste to continue down his road.</l>
                 <l n="7241">He rode so much, covering a lot of ground,</l>
+                <!--NOTE See DiStefano (Vol. 1, p. 914): "Faire journee / sa journee / bonne journee".-->
                 <l n="7242">That he had advanced for nine days already</l>
-                <l n="7243">Without finding any rest</l>
-                <l n="7244">Until he entered into a valley.</l>
-                <l n="7245">Because of the vermin that lived there, he couldn't seek out</l>
-                <l n="7246">What plants and trees were growing[there] a little.</l>
+                <l n="7243">Without finding any rest.</l>
+                <l n="7244">Before he entered a valley,</l>
+                <l n="7245">He couldn't seek out, because of the vermin that lived there,</l>
+                <l n="7246">What plants and trees were growing [there] a little.</l>
             </lg>
             <lg type="laisse" n="284">
                 <head>Laisse 284</head>
@@ -12347,7 +12353,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10359">Let's go on; we'll seek other paths;</l>
                 <l n="10360">Let these exist in pain, as it pleases Jesus."</l>
                 <l n="10361">At this word they departed right away;</l>-->
-                <!--NOTE  Turin: A questo moto se n'andono atanto-->
+                <!--NOTE See MS T 10013: A questo moto se n'andono atanto-->
             <!--<l n="10362">They passed the sixth gate near a palace.</l>
                 <l n="10363">A kind of people who were all shorn</l>
                 <l n="10364">Singing around Pythagoras.</l>
