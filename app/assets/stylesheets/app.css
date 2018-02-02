@@ -1268,7 +1268,7 @@ sic {
     width: 0;
     position: absolute;
     z-index: 1;
-    top: 6.5%;
+    top: 6%;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -1316,6 +1316,10 @@ sic {
 
 ul#legend {
 	list-style-type: none;
+}
+
+.legend ul > li {
+	float: left;
 }
 
 .note-contents {
