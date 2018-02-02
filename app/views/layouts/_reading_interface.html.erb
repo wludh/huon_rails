@@ -1,19 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div id="main">
+
 <div id="reader-nav">
+
+<!-- Manuscript Identification -->
 
             <div id="reader-nav-title">
                     <%= @city %>, <%= @repository %> <%= @shelflisting %>
             </div>
 
+<!-- Versioning and Citation Links -->
 
-              <div class="dropdown">
-                Edition Legend
-              </div>
+            <div id="version">
+              <%= link_to 'Edition Version 1.0', versioning_path() %> <br/>
+              <%= link_to 'Cite our work', cite_path() %>
+            </div>
 
-              <div id="version">
-                <%= link_to 'Edition Version 1.0', versioning_path() %> <br/>
-                <%= link_to 'Cite our work', cite_path() %>
-              </div>
+<!-- TEI Reader Navigation -->
 
+<!-- Laisse Navigation -->
 
             <div id="reader-nav-links">
                 <%= t(page_entries_info(@line_groups))%>
@@ -33,21 +46,52 @@
                     <input type="checkbox" name="rajnaCheckbox" id="rajnaCheckbox" style="display: inline;">
                   </form>
                 <% end %>
+
+<!-- Scrival View Button -->
+
                 <form id="diplo-form">
                 |
                 <label for="diploCheckbox" id="diplo-label"> Scribal</label>
                 <input type="checkbox" name="diploCheckbox" id="diploCheckbox" style="display: inline;"> | </form>
 
-                 <div id="image-reveal">MS Image</div>|
+<!-- Manuscript View Button -->
+
+                <div id="image-reveal">MS Image</div>|
+
+<!-- TEI View Button -->
+
                 <div id="tei-reveal"> TEI Embed</div>
                     <div id="tei-link-mobile">| <%= link_to('TEI', 'https://raw.githubusercontent.com/wludh/huon_rails/master/lib/assets/' + @current_page_short + '.xml') %></div>
-                    <div id="all-note-reveal">| All Notes</div>
+
+<!-- Notes View Button -->
+                <div id="all-note-reveal">| All Notes</div>
                 <hr id="reader-hr">
+          </div>
+
+<!-- Edition and Translation Legend -->
+
+          <div id="main">
+            <span style="font-size:20px;cursor:pointer;color:#5f0000" onclick="openNav()">&#9776; Legend</span>
+          </div>
+
+          <div id="mySidenav" class="legend">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div id="legend-elements">
+              <head>Legend</head>
+              <ul id="legend">
+                <li>italics - abbreviation expansions</li>
+                <li>bold - Latin citations</li>
+                <li>OF - Old French</li>
+                <li>OI - Old Italian</li>
+                <li>FI - Franco-Italian</li>
+              </ul>
             </div>
 
-        <div id="clear"></div>
+          </div>
 
 </div>
+
+
     <div id="side-panel" class="hidden">
     <%= image_tag('closePanel.png', class: 'closePanel', id: 'note-close', alt: 'X') %>
         <div id="note-header" class="hidden">Notes</div>
@@ -75,6 +119,43 @@
     </div>
 </div>
 
+
+<!-- Date Stamp -->
+            <div id="date-stamp">
+
+              <script type="text/javascript">
+
+              var m = "This page was last updated: " + document.lastModified;
+              var p = m.length-8;
+
+              document.body.appendChild(document.createElement("center")).innerText = "Version 1.0. Last modified: " + document.lastModified
+
+              </script>
+
+            </div>
+
+</div>
+
+<!-- Javascript for Legend -->
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<!--
+<%= render 'layouts/legend' %>
+-->
+
+<!--
 <div class="date-stamp">
 
 <script type="text/javascript">
@@ -86,4 +167,4 @@ document.body.appendChild(document.createElement("center")).innerText = "Version
 
 </script>
 
-</div>
+</div> -->

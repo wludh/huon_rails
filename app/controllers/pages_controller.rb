@@ -193,6 +193,7 @@ class PagesController < ApplicationController
         doc = File.open("./lib/assets/#{tei_file}"){
             |f| Nokogiri::XML(f)
         }
+
         return doc.css('respStmt'), doc.css('note')
     end
 
@@ -204,7 +205,7 @@ class PagesController < ApplicationController
             'br.xml' => 'notes-br.xml',
             't.xml' => 'notes-t.xml',
             'b.xml' => 'notes-b.xml',
-			'translation-b.xml' => 'notes-translation-b.xml',
+			      'translation-b.xml' => 'notes-translation-b.xml',
         }
 
         # get the author and note nodes from the notes file
