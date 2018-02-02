@@ -1322,9 +1322,11 @@ ul#legend {
 	float: left;
 }
 
+/* USE WHEN COLLAPSIBLE SIDEBAR IS SET UP
 .note-contents {
     color: whitesmoke;
 }
+*/
 
 /* wraps around TEI and MS image */
 
