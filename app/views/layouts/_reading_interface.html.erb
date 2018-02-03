@@ -92,32 +92,32 @@
 </div>
 
 
-    <div id="side-panel" class="hidden">
-    <%= image_tag('closePanel.png', class: 'closePanel', id: 'note-close', alt: 'X') %>
-        <div id="note-header" class="hidden">Notes</div>
-        <!-- <div id="image-header" class="hidden">Manuscript Image</div> -->
-            <div class="note-contents hidden">
-                <%= @current_notes %>
-            </div>
-            <div id="ms-image-container" class="hidden">
-                <%= image_tag('rajna_1.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
-            </div>
-            <div id="tei-embed-container" class="hidden">
-                <div id="tei-embed-header"></div>
-                <div id="tei-embed" class="hidden">
-                    <pre><%= @simple_tei %></pre>
-                <div id="tei-embed-header"></div>
-                <div id="tei-secret-file-name" style="display: none !important;"><%= @current_page_short%></div>
+          <div id="side-panel" class="hidden">
+          <%= image_tag('closePanel.png', class: 'closePanel', id: 'note-close', alt: 'X') %>
+              <div id="note-header" class="hidden">Notes</div>
+              <!-- <div id="image-header" class="hidden">Manuscript Image</div> -->
+                  <div class="note-contents hidden">
+                      <%= @current_notes %>
+                  </div>
+                  <div id="ms-image-container" class="hidden">
+                      <%= image_tag('rajna_1.jpg', id: 'ms-image', class: 'hidden', alt: 'Manuscript image') %>
+                  </div>
+                  <div id="tei-embed-container" class="hidden">
+                      <div id="tei-embed-header"></div>
+                      <div id="tei-embed" class="hidden">
+                          <pre><%= @simple_tei %></pre>
+                      <div id="tei-embed-header"></div>
+                      <div id="tei-secret-file-name" style="display: none !important;"><%= @current_page_short%></div>
+                      </div>
+                  </div>
+          </div>
+            <div id="reader-center-div">
+                    <div id="TEI_reader">
+                        <div id="tei_wrapper">
+                            <%= parse_line_groups(@line_groups)%>
+                        </div>
                 </div>
             </div>
-    </div>
-<div id="reader-center-div">
-        <div id="TEI_reader">
-            <div id="tei_wrapper">
-                <%= parse_line_groups(@line_groups)%>
-            </div>
-    </div>
-</div>
 
 
 <!-- Date Stamp -->
@@ -151,9 +151,10 @@ function closeNav() {
 }
 </script>
 
-<!--
-<%= render 'layouts/legend' %>
--->
+</body>
+
+</html>
+
 
 <!--
 <div class="date-stamp">

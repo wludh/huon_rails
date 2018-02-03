@@ -69,7 +69,7 @@
                         <name type="country">USA</name>
                     </address>
                 <availability status="free">
-                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities,
+                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities, 
                         offers freely on a non-commercial basis the text of each edition and the accompanying
                         English translation . The appropriate editor or translator must be cited when
                         referencing the texts. The images are not available for
@@ -108,9 +108,9 @@
                             Padova) is a paper codex dated on palaegraphical grounds to between
                             the second half of the fourteenth and the first half of the fifteenth
                             centuries. Unlike B and T, the scribe does not include a completion
-                            date. Linguistic evidence locates the codex generally in the Veneto.
+                            date. Linguistic evidence locates the codex generally in the Veneto. 
                             <p>Manuscript P represents a highly characteristic iteration of the Huon d'Auvergne romance epic; not only does it conserve narrative segments not present in the B-T branch, but it also presents intriguing alternative character sketches of central figures such as Ynide, Huon's wife, and Giborg, the wife of Guillaume d'Orange.</p>
-                            <p>In coming versions of the Huon Digital Archive Project, and in collaboration with the Seminario Vescovile of Padua, the digital edition of MS P will feature high-resolution digital scans to allow the reader to interrogate palaeographical and codicological features of the manuscript. Reading the text within the manuscript context will also allow for greater interpretative precision.</p>
+                            <p>In coming versions of the Huon Digital Archive Project, and in collaboration with the Seminario Vescovile of Padua, the digital edition of MS P will feature high-resolution digital scans to allow the reader to interrogate palaeographical and codicological features of the manuscript. Reading the text within the manuscript context will also allow for greater interpretative precision.</p> 
                             <p>As with MS T, the Italian philologist Pio Rajna transcribed the contents of P in a research notebook. In collaboration with the Marucelliana library in Florence, we will add scans of Rajna's notebook to the Huon archive, all of which will include interactive annotation features.</p></note>
                         <note>
                             <p>The manuscript entered early into the collection of the Seminario
@@ -263,7 +263,7 @@
                 <l n="41">Tuto li·ssia fato amantinant</l>
                 <l n="42">Chomo faressi a mi in prexant.”</l>
                 <l n="43">Disse la duchexa, “Je·n ay ben quel talant.”</l>
-                <l n="44">Lo duc <choice>
+                <l n="44">Lo duc Sanguy<choice>
                         <sic>Sanguy</sic>
                         <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
                     </choice><note xml:id="p44"/> non demorà niant:</l>
@@ -861,7 +861,7 @@
                 <l n="467">Dio sa ben la cossa como l’ave aler.</l>
                 <l n="468">Ma p<ex rend="italic">er</ex> quel Dio che·sse lasa pener,</l>
                 <l n="469">Questo non penssie me unde tu m'ay a caxoner,</l>
-                <!-- "I've never imagined this"; reflexive form of penssier, "to wonder"; see T-L,
+                <!-- "I've never imagined this"; reflexive form of penssier, "to wonder"; see T-L, 
 page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; enter into dictionary. -->
                 <l n="470">Ma vostra muier è falsa e si va incegner;</l>
                 <l n="471">E se Dio me dòna lunga vita a durer,</l>
@@ -886,7 +886,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="487">E quilli li feno amantinente aparier.</l>
                 <!-- Note quilli, vowel harmonization -->
                 <l n="488">Ugo mança, po presse so corer;</l>
-                <!-- Tense of these two verbs?; Vallecalle le parfait fort sigmatique de prendre
+                <!-- Tense of these two verbs?; Vallecalle le parfait fort sigmatique de prendre 
 (< latin vulgaire *prēsit ) -->
                 <l n="489">Desende del pallaço, si vene al -sso destrier.</l>
                 <l n="490">Lo fren li mete, si l’ave inseler</l>
@@ -1658,9 +1658,9 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     >avalie</ex>r plu valant</l>
                 <l n="1063">E vene al re tuto li va contant;</l>
                 <l n="1064">E' andè alla porta o'·llo re l’atant</l>
-                <!-- This line’s meaning is ambiguous; the grammatical subject of andè is Carlo,
-                    but it should be Huon. A possible solution would be to make the first word,
-                    E, a subject pronoun E’, and to make this line the beginning of a new
+                <!-- This line’s meaning is ambiguous; the grammatical subject of andè is Carlo, 
+                    but it should be Huon. A possible solution would be to make the first word, 
+                    E, a subject pronoun E’, and to make this line the beginning of a new 
                     clause.  -->
                 <l n="1065">E cun -llui era San<ex rend="italic">guin</ex> l’avenant.</l>
                 <l n="1066">Quando Ugo vete lo re, no demorà niant;</l>
@@ -1699,7 +1699,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                             >a</add>ça</corr>
                     </choice><note xml:id="p1095"/> molto duramant,</l>
                 <l n="1096">Ma de quello io no curie niant;</l>
-                <!-- For curie and tornie, Vallecalle suggests curié and tornié.
+                <!-- For curie and tornie, Vallecalle suggests curié and tornié. 
                     Check with other preterite forms for the first person.  -->
                 <l n="1097">Da·llie me partì molto de maltalent,</l>
                 <l n="1098">A mia camera tornie sença demorament.</l>
@@ -1827,7 +1827,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1181">E disse infra·ssi, “Io no·sso che far si ni non.”</l>
                 <l n="1182">Ela disse lo vero, ella porave aver guarixon,</l>
                 <l n="1183">E se altramente disse che veritade è non,</l>
-                <!-- This must be an imperfect subjunctive with the following
+                <!-- This must be an imperfect subjunctive with the following 
                     conditional for a period ippotetico construction -->
                 <l n="1184">Çudegada serà a fuogo e a carbon.</l>
                 <l n="1185">Non -ssa que dir, o·ssi ni non;</l>
@@ -2902,7 +2902,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1987">El reguardà a·llo meço del mon,</l>
                 <l n="1988">Inssir devete gran fuogo e carbon:</l>
                 <l n="1989">Queli che è là dentro nua à perdon.</l>
-                <!-- Extra a ? Check Pope, lenition of occlusive; T-L nul – no one,
+                <!-- Extra a ? Check Pope, lenition of occlusive; T-L nul – no one, 
                     anyone (as substantive); nus à / nul à, palatized lost, nessuna (l. 3534). -->
                 <l n="1990">A prossumar vol a quela habitasson,</l>
                 <l n="1991">Ma ello non può miga, lo nobel baron,</l>
@@ -3217,7 +3217,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <corr cert="medium" resp="#SPM">andè</corr>
                     </choice><note xml:id="p2205"/> a dona Nida a conter e a parler</l>
                 <l n="2206">E a çelladamente si·lli prexon:</l>
-                <!-- Vallecalle équivalent de l’adverbe ancien français « celeement »
+                <!-- Vallecalle équivalent de l’adverbe ancien français « celeement » 
                     (“en secret”), précédé de « a ». Also, prexon comes from pregare.  -->
                 <l n="2207">"Madona," diss'elo, "anch'io sia çubler,</l>
                 <l n="2208">De Carlo Martelo io·sson messaçer</l>
@@ -3421,7 +3421,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2352"><hi rend="blue-initial">C</hi>arlo Martello no<ex rend="italic">n</ex>
                     fè çà demorie,</l>
                 <l n="2353">Un mexe e plui à·lla çitade asidie</l>
-                <!-- LZM "raised dot here correct" ...because replacing a in alla ?
+                <!-- LZM "raised dot here correct" ...because replacing a in alla ? 
                     But wouldn't asidie take a direct object? à asidie lla çitade? ≠alla çitade ? -->
                 <l n="2354">Ch'el no li podeva intrar pan ni vin ni blie,</l>
                 <l n="2355">Quando el vete che della dama non à nule sperie,</l>
@@ -3676,10 +3676,10 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2540">Como per lo so signor, l'inperador de Françe</l>
                 <l n="2541">--Carlo à nome si tien el mondo in balançe</l>
                 <l n="2542">Tanto à in -ssi orogoio e possançe--:</l>
-                <!-- Vallecalle - si l’on met entre parenthèses la précision sur le nom de Charles,
-                    il faudrait intégrer aussi dans la parenthèse la fin du vers et le vers suivant
-                    qui indiquent sa puissance. La construction de la phrase est interrompue par
-                    cette longue coupure et par le passage au style direct, et l’interrogative
+                <!-- Vallecalle - si l’on met entre parenthèses la précision sur le nom de Charles, 
+                    il faudrait intégrer aussi dans la parenthèse la fin du vers et le vers suivant 
+                    qui indiquent sa puissance. La construction de la phrase est interrompue par 
+                    cette longue coupure et par le passage au style direct, et l’interrogative 
                     indirecte « como per lo signor » reste en suspens. -->
                 <l n="2543">"Al inferno me manda o' è gran pietançe,</l>
                 <l n="2544">P<ex rend="italic">er</ex> querir trabuto a quel che fè partançe</l>
@@ -3797,7 +3797,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2616">P<ex rend="italic">er</ex> mi ovré la vostra pregiere</l>
                 <l n="2617">E a quel Dio che n'à<note xml:id="p2617"/> in balie,</l>
                 <l n="2618">Ché questo viaço no tegna i<ex rend="italic">n</ex>tra quidie,</l>
-                <!-- Meaning of these lines obscure ; Gdfry OF cuidié, “pensée”; note quidie,
+                <!-- Meaning of these lines obscure ; Gdfry OF cuidié, “pensée”; note quidie, 
                     vowel harmonization -->
                 <l n="2619">Quando io vo cercando lo regno diabloie.</l>
                 <l n="2620">Se plui vivesse che non fè Isachie,</l>
@@ -4102,7 +4102,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2826">Una liona che molto se fa timir.</l>
                 <l n="2827">Chaçando lì andava p<ex rend="italic">er</ex> so fioli norir;</l>
                 <l n="2828">Vete lo cavalo si començò înglotir.</l>
-                <!-- LZM començo a inglotir; vowel united with i (can it be two different vowels?
+                <!-- LZM començo a inglotir; vowel united with i (can it be two different vowels? 
                     phonetic term for this?) -->
                 <l n="2829">Lo cunte la guardà, no à talento de rir,</l>
                 <l n="2830">Ben vete del tuto, de·llà no<ex rend="italic">n</ex> pò partir.</l>

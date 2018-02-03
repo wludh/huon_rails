@@ -922,7 +922,7 @@
 
         <!-- num -->
         <elementSpec ident="num" module="core" mode="change">
-          <desc>The <gi>num</gi> element wraps roman numerals.</desc>
+          <desc>The <gi>num</gi> element wraps roman numerals. As per Conseils...</desc>
           <attList>
             <attDef ident="ana" mode="delete"/>
             <attDef ident="atLeast" mode="delete"/>
