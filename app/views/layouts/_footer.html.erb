@@ -1,76 +1,51 @@
-<div class="row">
+<!DOCTYPE html>
+<html class="biblio" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-		<%= link_to( image_tag('logo_wludh.png', :id => "logo_wludh"), "https://digitalhumanities.wlu.edu/") %>
+<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Huon d'Auvergne Bibliography"/>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		<title>Huon Digital Archive Footer</title>
+</head>
 
-		<%= link_to( image_tag('logo_loyola.svg', :id => "logo_loyola"), "https://www.loyola.edu/") %>
+<body>
 
-		<%= link_to( image_tag('logo_unf.svg', :id => "logo_unf"), "https://www.unf.edu/") %>
+<!-- Logo Links -->
+			<div class="row">
 
-		<%= link_to( image_tag('logo_neh.png', :id => "logo_neh"), "https://www.neh.gov/") %>
+					<%= link_to( image_tag('logo_wludh.png', :id => "logo_wludh"), "https://digitalhumanities.wlu.edu/") %>
 
-</div>
+					<%= link_to( image_tag('logo_loyola.svg', :id => "logo_loyola"), "https://www.loyola.edu/") %>
 
-<div class="row">
+					<%= link_to( image_tag('logo_unf.svg', :id => "logo_unf"), "https://www.unf.edu/") %>
 
-		<%= link_to( image_tag('logo_marucelliana.png', :id => "logo_marucelliana"), "http://www.maru.firenze.sbn.it/") %>
+					<%= link_to( image_tag('logo_neh.png', :id => "logo_neh"), "https://www.neh.gov/") %>
 
-		<%= link_to( image_tag('logo_archiginnasio.png', :id => "logo_archiginnasio"), "http://www.archiginnasio.it") %>
+			</div>
 
-		<%= link_to( image_tag('logo_tei.png', :id => "logo_tei"), "http://www.tei-c.org/index.xml") %>
+<!-- Logo Links -->
+			<div class="row">
 
-</div>
+					<%= link_to( image_tag('logo_marucelliana.png', :id => "logo_marucelliana"), "http://www.maru.firenze.sbn.it/") %>
 
-<!-- <div class="container">
+					<%= link_to( image_tag('logo_archiginnasio.png', :id => "logo_archiginnasio"), "http://www.archiginnasio.it") %>
 
-	<div class="row">
-		<div class="col-4">
+					<%= link_to( image_tag('logo_tei.png', :id => "logo_tei"), "http://www.tei-c.org/index.xml") %>
 
-			<%= link_to( image_tag('logo_wludh.png', :id => "logo_wludh"), "https://digitalhumanities.wlu.edu/") %>
+			</div>
 
-			<br>
+<!-- Date Stamp -->
+			<div class="date-stamp">
 
-			<%= link_to( image_tag('logo_neh.png', :id => "logo_neh"), "https://www.neh.gov/") %>
+					<script type="text/javascript">
 
-		</div>
+					var m = "This page was last updated: " + document.lastModified;
+					var p = m.length-8;
 
-		<div class="col-4">
+					document.body.appendChild(document.createElement("center")).innerText = "Version 1.0. Last modified: " + document.lastModified
 
-			<%= link_to( image_tag('logo_loyola.svg', :id => "logo_loyola"), "https://www.loyola.edu/") %>
+					</script>
 
-			<br>
+			</div>
 
-			<%= link_to( image_tag('logo_unf.svg', :id => "logo_unf"), "https://www.unf.edu/") %>
-
-		</div>
-
-		<div class="col-4">
-
-			<%= link_to( image_tag('logo_marucelliana.png', :id => "logo_marucelliana"), "http://www.maru.firenze.sbn.it/") %>
-
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-12">
-
-			<%= link_to( image_tag('logo_archiginnasio.png', :id => "logo_archiginnasio"), "http://www.archiginnasio.it") %>
-
-		</div>
-	</div>
-
--->
-
-<div class="date-stamp">
-
-<script type="text/javascript">
-
-var m = "This page was last updated: " + document.lastModified;
-var p = m.length-8;
-
-document.body.appendChild(document.createElement("center")).innerText = "Version 1.0. Last modified: " + document.lastModified
-
-</script>
-
-</div>
-
-</div>
+</body>

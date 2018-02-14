@@ -446,29 +446,29 @@ class PagesController < ApplicationController
 
 # Praxis and Guidelines
 
-	def intro_praxis
-		render template: "pages/intro_praxis"
-	end
+  	def intro_praxis
+  		render template: "pages/intro_praxis"
+  	end
 
-	def b_praxis
-		render template: "pages/b_praxis"
-	end
+  	def b_praxis
+  		render template: "pages/b_praxis"
+  	end
 
-	def t_praxis
-		render template: "pages/t_praxis"
-	end
+  	def t_praxis
+  		render template: "pages/t_praxis"
+  	end
 
-	def p_praxis
-      render template: "pages/p_praxis"
-  end
+  	def p_praxis
+        render template: "pages/p_praxis"
+    end
 
-  def br_praxis
-      render template: "pages/br_praxis"
-  end
+    def br_praxis
+        render template: "pages/br_praxis"
+    end
 
-  def encod_praxis
-      render template: "pages/encod_praxis"
-  end
+    def encod_praxis
+        render template: "pages/encod_praxis"
+    end
 
 # Edition Pages
 
