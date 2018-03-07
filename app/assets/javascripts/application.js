@@ -15,6 +15,8 @@
 //= require turbolinks
 //= require_tree ./sitewide
 //= require_tree ./foundation
+//= require mirador
+//= require mirador-custom
 
 
 var headers = ["H1","H2","H3","H4","H5","H6"];

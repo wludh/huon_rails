@@ -72,3 +72,4 @@ group :development do
 end
 
 gem 'travis'
+gem 'mirador_rails'
