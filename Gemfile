@@ -72,3 +72,6 @@ group :development do
 end
 
 gem 'travis'
+
+  #Ruby gem to ntegrate Mirador into Rails
+gem 'mirador_rails'

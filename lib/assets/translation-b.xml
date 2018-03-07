@@ -4236,7 +4236,9 @@
                 <l n="3424">As to what you say that God can really accomplish,</l>
                 <l n="3425">You speak indeed truly, for He has judged you,</l>
                 <l n="3426">In Him there is never anything but honor.</l>
+                <!--NOTE The word <hi rend="italic">insigne</hi> means "honneur" in Godefroy.-->
                 <l n="3427">But as to your saying that [the king] has conceived a hatred for me,</l>
+                <!--NOTE Here Huon seems to be referring to Charles, his lord.-->
                 <l n="3428">And that often he causes me suffering and harm,</l>
                 <l n="3429">Certainly you are not wrong; but this was to test</l>
                 <l n="3430">Whether or not I am constant in carrying out these valiant deeds,</l>
@@ -4305,6 +4307,7 @@
                 <l n="3485">When the people saw the lion come trotting quickly along,</l>
                 <l n="3486">No one stopped in front of them:</l>
                 <l n="3487">They took flight, they emptied the field.</l>
+                <!--NOTE We believe the second <hi rend="italic">le</hi> is a personal pronoun subject form third person plural.-->
                 <l n="3488">No one was left there, neither old man nor young boy,</l>
                 <l n="3489">Only a young woman with blond hair,</l>
                 <l n="3490">Who was bound to a large stake.</l>
@@ -4353,6 +4356,7 @@
                 <l n="3528">"Then come with me," said Huon the courtly man,</l>
                 <l n="3529">"And have no fear of the one beside me.</l>
                 <l n="3530">If right is on your side, I'll surely be able to prove it</l>
+                <!--NOTE Literally: If you are right [...]-->
                 <l n="3531">Against the best prince that may be of your faith."</l>
                 <l n="3532">Then he untied her, next he took her by the hand;</l>
                 <l n="3533">She came before the other ladies along the gravel path.</l>
@@ -4393,12 +4397,15 @@
                 <head>Laisse 131</head>
                 <l n="3562">Huon said, "Good lord, hear this;</l>
                 <l n="3563">If right is on your side, the victory will be yours,</l>
+                <!--NOTE Literally: If you are right, right will be with you-->
                 <l n="3564">And if you love justice, then justice will prevail,</l>
                 <l n="3565">Because it will never fail thus out of fear.</l>
                 <l n="3566">I am therefore here for that. Now tell me what will be."</l>
+                <!--NOTE If the punctuation is the following: <hi rend="italic">Je suy enci. Por li, or dites que sera</hi>, then the translation would read: "Thus I am here. As for her, tell me now what will be." Cf. MS T 3523.-->
                 <l n="3567">The lord listened to his words and then replied,</l>
                 <l n="3568">"If I didn't fear that beast that I see there now,</l>
                 <l n="3569">I would do something else that cannot be said now.</l>
+                <!--NOTE Cf. MS T 3522-23.-->
                 <l n="3570">But know for sure, and don't ever fail to believe,</l>
                 <l n="3571">That I intend to uphold justice as it has been established;</l>
                 <l n="3572">It's a great marvel that you oppose me concerning this matter." </l>
@@ -4424,6 +4431,7 @@
                 <l n="3589">Don't be afraid of anything but me.</l>
                 <l n="3590">But have them give me a good horse,</l>
                 <l n="3591">So that all is done fairly,</l>
+                <!--NOTE Literally: so that by lack I not have the wrong-->
                 <l n="3592">And so that you'll have praise and a good reputation."</l>
                 <l n="3593">And thus he had it done forthwith, without delay,</l>
                 <l n="3594"><milestone n="25Va" unit="fol."/>And [Huon] took up a lance with a long
@@ -8765,7 +8773,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="7256">Never had mortal man committed greater folly</l>
                 <l n="7257">Than Huon had done to carry out his journey.</l>
                 <l n="7258">In order to remain loyal to Charles his lord,</l>
-                <l n="7259">He had left many honors going wandering,</l>
+                <l n="7259">He had left behind many honors by going wandering,</l>
                 <l n="7260">Without either the desire or the heart to turn back.</l>
                 <l n="7261">He wanted to press forward every day, come honor or harm.</l>
                 <l n="7262">He came out of an evil valley [and] entered into a more savage
@@ -8802,8 +8810,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
             </lg>
             <lg type="laisse" n="286">
                 <head>Laisse 286</head>
-                <l n="7283">Many of the vermine on the strands</l>
-                <l n="7284">That had descended from the mountain were crushed;</l>
+                <l n="7283">The stones that fell down from the mountain</l>
+                <l n="7284">Crushed most of the vermin;</l>
                 <l n="7285">The others still alive retreated.</l>
                 <l n="7286">When the count saw this, he departed from there</l>
                 <l n="7287">And got away from the mountain as quickly as he could,</l>
@@ -8814,8 +8822,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="7292">Then he found the slope of a tall, pointed hillock;</l>
                 <l n="7293">So the count climbed it, he came to the other side;</l>
                 <l n="7294">There was nothing at all to be seen but the sea and the mountain.</l>
-                <l n="7295">He set up camp between the sea and the mountain;</l>
-                <l n="7296">In that place there was a good crag, for the field [below] was
+                <l n="7295">He made camp between the sea and the mountain;</l>
+                <l n="7296">In that place he had good shelter, for the field was
                     grassy.</l>
                 <l n="7297">He settled there for several days for the sake of the horse with the
                     flowing mane,</l>
@@ -8827,63 +8835,61 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <head>Laisse 287</head>
                 <l n="7301">The count left that place when the desire to do so came to
                     him,</l>
-                <l n="7302">Once he had been somewhat restored from his great hurt.</l>
+                <l n="7302">Once he had been somewhat restored from his great fatigue.</l>
                 <l n="7303">He continued riding between the sea and the mountain,</l>
                 <l n="7304">Many an adventure occurred as the author has been recounting;</l>
                 <l n="7305">I won't tell a fair number of them, but I will tell a few.</l>
-                <l n="7306">He came upon a race of men [and] women together,</l>
-                <l n="7307">Who had the shape of a human from the navel up,</l>
-                <l n="7308">And from the hip on down, they looked like fish.</l>
-                <l n="7309">They couldn't speak at all and they were all naked;</l>
-                <l n="7310">The eyes that they had looked like burning brands in their
-                    foreheads,</l>
+                <l n="7306">He came upon a race of men [and] women together</l>
+                <l n="7307">Who had the shape of a human from the navel up</l>
+                <l n="7308">And from the hips on down, they looked like fish.</l>
+                <l n="7309">They couldn't speak at all and they went about completely naked;</l>
+                <l n="7310">The eyes that they had in their foreheads looked like burning brands,</l>
                 <l n="7311">As a result they were marked with a hostile look;</l>
-                <l n="7312">They call them "Locifal," as many people say;</l>
-                <l n="7313">They were fully fifteen feet in length and height.</l>
+                <l n="7312">They call them the Ocifal, as many people say;</l>
+                <l n="7313">They were a good fifteen feet tall fully grown and large.</l>
                 <l n="7314">When they forged ahead speedily on land,</l>
                 <l n="7315">They seemed to hold out for more than a day.</l>
-                <l n="7316">So many of them were together, it wasn't a matter of concern [to Huon]
-                    to estimate [how many],</l>
-                <l n="7317">Unless they lingered a little on land.</l>
+                <l n="7316">So many of them were together, one didn't bother to estimate,</l>
+                <l n="7317">But if they lingered a little on land,</l>
                 <l n="7318">As far as I know, it might have gone badly for the count,</l>
                 <l n="7319">But their natural instinct was to return to the great sea;</l>
-                <l n="7320">As they turned toward it, they let out such a noise</l>
+                <l n="7320">At the turn that they made, they let out such a noise</l>
                 <l n="7321">That the mountain and the water all resounded.</l>
-                <l n="7322">The sea and the air were stirred up by the wind they caused,</l>
+                <l n="7322">The sea and the air were stirred up by the wind they caused</l>
                 <l n="7323">Along with a really huge storm; it went one for more than five days</l>
                 <l n="7324">Such that no ship or boat could budge in that country;</l>
                 <l n="7325">The count saw this and was very troubled by it.</l>
                 <l n="7326"><milestone n="51Va" unit="fol."/>Never at all did he fail to pray to God;</l>
-                <l n="7327">He crossed himself constantly the further he went:</l>
-                <l n="7328">When he was climbing a hill, when he was descending.</l>
-                <l n="7329">Many times he stopped to rest in the best place [he could find],</l>
+                <l n="7327">He crossed himself constantly the further he went.</l>
+                <l n="7328">When he was climbing a hill, when he was descending,</l>
+                <l n="7329">Many times he stopped to rest in the best places,</l>
                 <l n="7330">But he got very little rest, know [that] for certain.</l>
                 <l n="7331">When thirst and hunger became really troublesome,</l>
                 <l n="7332">He satisfied himself a bit with the roots of plants,</l>
                 <l n="7333">And while he was sleeping, the horse would go grazing.</l>
                 <l n="7334">But he didn't feel very safe, know truthfully,</l>
                 <l n="7335">For disturbances appeared there day and night.</l>
-                <l n="7336">To one who would recount the doings hour by hour</l>
-                <l n="7337">It would be a great annoyance.</l>
-                <l n="7338">For this reason I'll say no more about that, but I will speak about some
+                <l n="7336">One who would recount the doings hour by hour</l>
+                <l n="7337">Would find it a great annoyance.</l>
+                <l n="7338">For this reason I'll say no more about that, but will speak about some
                     important events. </l>
             </lg>
             <lg type="laisse" n="288">
                 <head>Laisse 288</head>
                 <l n="7339">Never was the count cowardly about pressing forward;</l>
                 <l n="7340">He climbed up for an hour, he descended for an hour</l>
-                <l n="7341">Toward the sea which surrounded the mountain.</l>
+                <l n="7341">Toward the sea that surrounded the mountain.</l>
                 <l n="7342">It took great effort to climb up and come back down;</l>
-                <l n="7343">They went on in this way for more than three days,</l>
-                <l n="7344">The heat of the sun bothered him even more,</l>
-                <l n="7345">Nor did he find fresh water, neither in a cave nor in a well;</l>
+                <l n="7343">They went on in this way for more than three days.</l>
+                <l n="7344">The heat of the sun bothered him ever more,</l>
+                <l n="7345">He didn't find fresh water either in a cave nor in a well;</l>
                 <l n="7346">Much did he desire it, he would have liked to have drunk [some].</l>
-                <l n="7347">He could do nothing else; he began to move at an angle.</l>
-                <l n="7348">He arrived at the end of his road as best he could;</l>
-                <l n="7349">On the shore in the valley he next saw</l>
-                <l n="7350">Deformed men [who were yet] created by nature,</l>
-                <l n="7351">Who were split down the middle of their bodies to the navel,</l>
-                <l n="7352">And each one had two heads, two chests, and two mouths.</l>
+                <l n="7347">He could do nothing else; he had put himself on the wrong road.</l>
+                <l n="7348">He finished his descent as best he could</l>
+                <l n="7349">At the shore. Next, in the valley he next saw</l>
+                <l n="7350">Deformed men and outside of human nature</l>
+                <l n="7351">Who were split down the middle of their bodies to the navel;</l>
+                <l n="7352">And each one had two heads, two chests and two mouths.</l>
                 <l n="7353">The count marveled at them when he saw them;</l>
                 <l n="7354">He saw such kinds of people that he hadn't known of.</l>
                 <l n="7355">They were all barefoot and appeared completely naked;</l>

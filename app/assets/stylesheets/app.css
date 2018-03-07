@@ -534,11 +534,15 @@ img#logo_tei {
 	color:#cccccc !important;
 }
 
-/* About Pages */
+/* About, Versioning, and Citation Pages */
 
 p.indent {
     padding-left: 4em;
     text-indent: -2em;
+}
+
+praxis.h2 > dt, dl {
+	color: black;
 }
 
 /* Praxis Pages */
