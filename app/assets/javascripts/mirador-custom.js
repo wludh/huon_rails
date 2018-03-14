@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" type="text/css" href="build/mirador/css/mirador-combined.css">
-    <title>Mirador Viewer</title>
-    <style type="text/css">
-     #viewer {
-       width: 50%;
-       height: 100%;
-       position: fixed;
-     }
-    </style>
-  </head>
-  <body>
-    <h1>IIIF VIEWER</h1>
-    <div id="viewer"></div>
-
-    <script src="build/mirador/mirador.js"></script>
-    <script type="text/javascript">
-
-     $(function() {
+$(function() {
        // Called without "let" or "var"
        // so we can play with it in the browser
        myMiradorInstance = Mirador({
@@ -91,9 +69,3 @@
          },
       });
      });
-    </script>
-    <!-- This enables live reloading of assets for improved developer experience. -->
-    <!-- Remove if copying this page as a basis for another project. -->
-    <script src="//localhost:35729/livereload.js"></script>
-  </body>
-</html>
