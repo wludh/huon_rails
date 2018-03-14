@@ -13,10 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree ./sitewide
-//= require_tree ./foundation
 //= require mirador
 //= require mirador-custom
+//= require_tree ./sitewide
+//= require_tree ./foundation
+
 
 
 var headers = ["H1","H2","H3","H4","H5","H6"];
