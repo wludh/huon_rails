@@ -6690,8 +6690,7 @@
         <l n="4702">En tot les autres, Rugier quue<ex rend="italic">n</ex>s de Nant,</l>
         <l n="4703">E li jugler Saudin li seduant.</l>
         <l n="4704"><milestone n="33Ra" unit="fol."/>L'arcives<ex rend="angle">que</ex> de Maance,
-          che soit le <ex rend="italic">con</ex>vena<ex rend="italic">n</ex>t,<note xml:id="b4704"
-          /></l>
+          che soit le <ex rend="italic">con</ex>vena<ex rend="italic">n</ex>t,<note xml:id="b4704"/></l>
         <l n="4705">E Morant d'Autefoie, qi est lor parant,</l>
         <l n="4706">E Gui de Barcelune, e le cons Gallerant,</l>
         <l n="4707">Le duc Tholomeu, cortois et avenant,</l>
@@ -6702,14 +6701,16 @@
             rend="italic">n</ex>t;</l>
         <l n="4712">Per vois ai trametus, si vos dirai coma<ex rend="italic">n</ex>t."</l>
       </lg>
+<!--
       <lg type="laisse" n="A">
-      <head>Laisse  A</head>
+      <head>Laisse  A</head>  -->
         <!-- laisse  present in T-->
-      </lg>
+<!--      </lg>
       <lg type="laisse" n="B"<>
-      <head>Laisse  B</head>
+      <head>Laisse  B</head>  -->
         <!-- laisse  present in T-->
-      </lg>
+<!--      </lg>
+-->
         <lg type="laisse" n="178">
         <head>Laisse 178</head>
         <l n="4713">"Segnors," ce dit le rois, "p<ex rend="italic">or</ex> vos ai trametus,</l>
