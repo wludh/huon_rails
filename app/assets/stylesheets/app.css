@@ -1001,20 +1001,39 @@ header {
 /* MS Introduction Page */
 
 
-.ms-toc {
-	padding-left: 2em;
+/* MS Introduction Page */
+
+.ms-toc ol > li {
+	color: lightgray;
+  float: left;
+  padding-right: 25%;
+	display: block;
+	list-style-type: lower-roman;
+	width: 100%;
+}
+
+.ms-toc ol li::before {
+	content: counter(item) ". ";
+	counter-increment: item;
+	color: #5f0000;
+	padding-right: 6%;
+}
+
+.ms-toc ol {
+	counter-reset: item;
 	font-variant: small-caps;
+	font-size: 1.5em;
+	padding-left: 3.5em;
+	line-height: 2.5em;
+}
+
+.I ol {
+	list-style-type: lower-roman;
 }
 
 .row-intro-image {
 	border: black;
 	border-width: 1px;
-}
-
-li.ms-toc {
-	color: lightgray;
-    float: left;
-    padding-right: 25%;
 }
 
 p.ms-intro-h1 {
@@ -1026,16 +1045,16 @@ p.ms-intro-h1 {
 }
 
 p.ms-intro-h2 {
-		color: #5f0000;
-		font-weight: bolder;
-		margin-bottom: 0em;
+	color: #5f0000;
+	font-weight: bolder;
+	margin-bottom: 0em;
 }
 
 
 p.ms-intro-h3 {
-		color: #5f0000;
-		font-weight: bolder;
-		font-size: .75em;
+	color: #5f0000;
+	font-weight: bolder;
+	font-size: .75em;
 }
 
 p.ms-intro {
@@ -1043,29 +1062,21 @@ p.ms-intro {
 }
 
 p.ms-resp {
-		margin-bottom: 0em;
+	margin-bottom: 0em;
 }
 
 p.copyright {
-		font-style: italic;
-		font-size: .75em;
-		padding: 2.5em 0em 2.5em 0em;
+	font-style: italic;
+	font-size: .75em;
+	padding: 2.5em 0em 2.5em 0em;
 }
 
 p.ms-toc {
-		color: #5f0000;
-		font-weight: bolder;
-		font-size: 1.75em;
-		padding-left: 2.5em;
-		padding-top: 1em;
-}
-
-ol.ms-toc {
-		font-variant: small-caps;
-		font-size: 1.5em;
-		list-style-type: lower-roman;
-		padding-left: 3.5em;
-		line-height: 2.5em;
+	color: #5f0000;
+	font-weight: bolder;
+	font-size: 1.75em;
+	padding-left: 2.5em;
+	padding-top: 1em;
 }
 
 /* TEI Reading Environment */
