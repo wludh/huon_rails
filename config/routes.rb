@@ -79,5 +79,4 @@ match 'cite', to: 'pages#cite', via: [:get], as: :cite
 # match 'bibliography', to: 'pages#bibliography', via: [:get], as: :bibliography
 match 'biblio_temp', to: 'pages#biblio_temp', via: [:get], as: :biblio_temp
 
-mount MiradorRails::Engine, at: MiradorRails::Engine.locales_mount_path
 end

@@ -75,8 +75,6 @@ GEM
     faraday_middleware (0.12.2)
       faraday (>= 0.7.4, < 1.0)
     ffi (1.9.18)
-    font-awesome-rails (4.7.0.3)
-      railties (>= 3.2, < 5.2)
     gh (0.15.1)
       addressable (~> 2.4.0)
       backports
@@ -105,28 +103,18 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
-    material_icons (2.2.1)
-      railties (>= 3.2)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_mime (0.1.4)
     mini_portile2 (2.3.0)
     minitest (5.10.3)
-    mirador_rails (0.7.0)
-      font-awesome-rails
-      jquery-rails
-      material_icons
-      openseadragon
-      tinymce-rails
     multi_json (1.12.2)
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    openseadragon (0.4.0)
-      rails (> 3.2.0)
     pg (0.21.0)
     puma (3.10.0)
     pusher-client (0.6.2)
@@ -226,8 +214,6 @@ GEM
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
-    tinymce-rails (4.7.6)
-      railties (>= 3.1.1)
     travis (1.8.8)
       backports
       faraday (~> 0.9)
@@ -267,7 +253,6 @@ DEPENDENCIES
   i18n
   jbuilder (~> 2.0)
   jquery-rails
-  mirador_rails
   nokogiri
   pg
   puma
@@ -292,4 +277,4 @@ RUBY VERSION
    ruby 2.2.3p173
 
 BUNDLED WITH
-   1.16.0
+   1.14.3

@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-6">
             <p class="ms-resp">Edition prepared by <%= @editor %></p>
-            <p class="ms-resp">TEI encoding by <%= @encoder %><br /> and Leslie Zarker Morgan</p>
+            <p class="ms-resp">TEI encoding by <%= @encoder %> and Leslie Zarker Morgan</p>
         </div>
         <div class="col-6">
         </div>
@@ -83,34 +83,15 @@
             <div class="ms-toc">
             <p class="ms-toc">Table of Contents</p>
             <hr>
-            <ol class="ms-toc" type="I">
-                <li>Introduction</li>
-                <li>
-                  <% if @current_page_short == 'b' %>
-                  <%= link_to 'Editorial Criteria', b_praxis_path() %>
-                  <% elsif @current_page_short == 't' %>
-                  <%= link_to 'Editorial Criteria', t_praxis_path() %>
-                  <% elsif @current_page_short == 'p' %>
-                  <%= link_to 'Editorial Criteria', p_praxis_path() %>
-                  <% elsif @current_page_short == 'br' %>
-                  <%= link_to 'Editorial Criteria', br_praxis_path() %>
-                  <% end %>
-                </li>
-                <li>Encoding Criteria</li>
-                <li><%= link_to('Digital Edition', url_for(params.merge(:edition => true))) %></li>
-                <li>Digital Facsimile</li>
-                <li>Concordance</li>
-                <li>Codicology</li>
-                <li>Glossary</li>
+            <ol class="ms-toc">
+                <li class="ms-toc">Introduction</li>
+                <li class="ms-toc">Editorial Criteria</li>
+                <li class="ms-toc"><%= link_to('Encoding Criteria', url_for(params.merge(:t_praxis => true))) %></li>
+                <li class="ms-toc"><%= link_to('Digital Edition', url_for(params.merge(:edition => true))) %></li>
+                <li class="ms-toc">Digital Facsimile</li>
+                <li class="ms-toc">Concordance</li>
+                <li class="ms-toc">Codicology</li>
+                <li class="ms-toc">Glossary</li>
             </ol>
             </div>
-        </div>
-
-<script type="text/javascript">
-
-var m = "This page was last updated: " + document.lastModified;
-var p = m.length-8;
-
-document.body.appendChild(document.createElement("center")).innerText = "Version 1.0. Last modified: " + document.lastModified
-
-</script>
+            </div>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema-12192017.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -35,10 +35,8 @@
             </titleStmt>
             <editionStmt>
                 <edition n="1.0.0">
-                    <title rend="italic" type="digital">Version 1.0.0, enriched with text structure
-                        tags, abbreviation expansions, basic decoration identification, and a notes
-                        and commentaries apparatus.</title>
-                    <date when="2017">31 August 2017</date>
+                    <title>Version 0.1, enriched with text structure tags</title>
+                    <date when="2015">June 2015</date>
                 </edition>
                 <respStmt>
                     <name>Stephen P. McCormick</name>
@@ -75,7 +73,7 @@
                         <idno>B. 3489</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title type="manuscript" xml:lang="FI">Huon d'Auvergne, Biblioteca comunale dell'Archiginnasio
+                        <title xml:lang="FI">Huon d'Auvergne, Biblioteca comunale dell'Archiginnasio
                             di Bologna, manuscript B. 3489</title>
                         <!-- Research language code for Franco-Italian -->
                         <origPlace cert="low">Unknown</origPlace>
@@ -99,7 +97,7 @@
                         <msItem>
                             <locus from="1r" to="117v">ff. 1r-117v</locus>
                             <!-- check foliation with Leslie -->
-                            <title type="text" xml:lang="FI">Huon d'Auvergne</title>
+                            <title xml:lang="FI">Huon d'Auvergne</title>
                             <incipit>E perçò era Ugo d'Alvernia sevrie</incipit>
                             <explicit>E Dio n...</explicit>
                         </msItem>

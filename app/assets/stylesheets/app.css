@@ -315,9 +315,6 @@ header {
 
 /* Top bar */
 
-div.site-nav-bar {
-	position:relative;
-}
 
 ul.nav {
     list-style-type: none;
@@ -534,27 +531,14 @@ img#logo_tei {
 	color:#cccccc !important;
 }
 
-/* About, Versioning, and Citation Pages */
+/* About Pages */
 
 p.indent {
     padding-left: 4em;
     text-indent: -2em;
 }
 
-praxis.h2 > dt, dl {
-	color: black;
-}
-
 /* Praxis Pages */
-
-/* Praxis Pages Accordion Structure */
-
-
-
-
-
-
-/* Praxis Pages Formatting */
 
 div.abbr-examples {
 	margin-left: 20%;
@@ -1016,37 +1000,21 @@ header {
 
 /* MS Introduction Page */
 
-.ms-toc ol > li {
-	color: lightgray;
-  float: left;
-  padding-right: 25%;
-	display: block;
-	list-style-type: lower-roman;
-	width: 100%;
-}
 
-.ms-toc ol li::before {
-	content: counter(item) ". ";
-	counter-increment: item;
-	color: #5f0000;
-	padding-right: 6%;
-}
-
-.ms-toc ol {
-	counter-reset: item;
+.ms-toc {
+	padding-left: 2em;
 	font-variant: small-caps;
-	font-size: 1.5em;
-	padding-left: 3.5em;
-	line-height: 2.5em;
-}
-
-.I ol {
-	list-style-type: lower-roman;
 }
 
 .row-intro-image {
 	border: black;
 	border-width: 1px;
+}
+
+li.ms-toc {
+	color: lightgray;
+    float: left;
+    padding-right: 25%;
 }
 
 p.ms-intro-h1 {
@@ -1058,16 +1026,16 @@ p.ms-intro-h1 {
 }
 
 p.ms-intro-h2 {
-	color: #5f0000;
-	font-weight: bolder;
-	margin-bottom: 0em;
+		color: #5f0000;
+		font-weight: bolder;
+		margin-bottom: 0em;
 }
 
 
 p.ms-intro-h3 {
-	color: #5f0000;
-	font-weight: bolder;
-	font-size: .75em;
+		color: #5f0000;
+		font-weight: bolder;
+		font-size: .75em;
 }
 
 p.ms-intro {
@@ -1075,21 +1043,29 @@ p.ms-intro {
 }
 
 p.ms-resp {
-	margin-bottom: 0em;
+		margin-bottom: 0em;
 }
 
 p.copyright {
-	font-style: italic;
-	font-size: .75em;
-	padding: 2.5em 0em 2.5em 0em;
+		font-style: italic;
+		font-size: .75em;
+		padding: 2.5em 0em 2.5em 0em;
 }
 
 p.ms-toc {
-	color: #5f0000;
-	font-weight: bolder;
-	font-size: 1.75em;
-	padding-left: 2.5em;
-	padding-top: 1em;
+		color: #5f0000;
+		font-weight: bolder;
+		font-size: 1.75em;
+		padding-left: 2.5em;
+		padding-top: 1em;
+}
+
+ol.ms-toc {
+		font-variant: small-caps;
+		font-size: 1.5em;
+		list-style-type: lower-roman;
+		padding-left: 3.5em;
+		line-height: 2.5em;
 }
 
 /* TEI Reading Environment */
@@ -1125,7 +1101,7 @@ p.ms-toc {
 }
 
 span.translation_missing {
-	color: #5f0000;
+	color: #a10d09;
 }
 
 #selected_laisse {
@@ -1161,10 +1137,6 @@ span.translation_missing {
 	text-decoration: none;
 }
 
-#date-stamp {
-	float: right;
-}
-
 #diploCheckbox {
 	display: block;
 }
@@ -1180,24 +1152,12 @@ span.translation_missing {
 	text-decoration: none;
 }
 
-#version {
-	float: right;
-	color: #5f0000;
-	margin-right: 3%;
-}
-
-#cite {
-	float: right;
-	color: #5f0000;
-	margin-right: 3%;
-}
-
 /* Reading Panel Style and Formatting */
 
 .line-heading {
 	margin: 0 0 1em 0;
 	font-size: 20pt;
-	color: #5f0000;
+	color: #a10d09;
 }
 
 .linenumber {
@@ -1226,19 +1186,6 @@ num {
 	font-size: 11pt;
 }
 
-.Rajna {
-	color: red;
-}
-
-q {
-	font-weight: bold;
-}
-
-q:before,
-q:after {
- content: "";
-}
-
 seg {
 	font-style: italic;
 }
@@ -1248,107 +1195,10 @@ sic {
 	color: red;
 }
 
-
-/* Edition and Translation Legend */
-
-/* OPTION 1
-.container {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  margin: 0 auto;
+.Rajna {
+	color: red;
 }
 
-#legend-button, #close {
-  cursor: pointer;
-  display: block;
-  width: 100px;
-  margin: 0 10%;
-  padding: 10px 0;
-  background: #2d2d2a;
-  color: #fff;
-  border: 0;
-  text-align:center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-#legend-container {
-  display: none;
-  background: #2d2d2a;
-  color: #fff;
-  width: 200%;
-  min-height: 50px;
-  text-align: left;
-  padding: 15px;
-} */
-
-
-.legend {
-    height: 100%;
-    width: 0;
-    position: absolute;
-    z-index: 1;
-    top: 6%;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.legend a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.legend a:hover {
-    color: #f1f1f1;
-}
-
-.legend .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-#legend-elements {
-	margin: 5%;
-	font: inherit;
-	color: whitesmoke;
-	list-style-type: none;
-}
-
-ul#legend {
-	list-style-type: none;
-}
-
-.legend ul > li {
-	float: left;
-}
-
-
-/* USE WHEN COLLAPSIBLE SIDEBAR IS SET UP
-.note-contents {
-    color: whitesmoke;
-}
-*/
 
 /* wraps around TEI and MS image */
 
