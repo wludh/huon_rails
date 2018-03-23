@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-12192017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -42,8 +42,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="1.0.0">
-                    <title>Version 0.1, enriched with text structure tags</title>
-                    <date when="2015">June 2015</date>
+                    <title rend="italic" type="digital">Version 1.0.0, enriched with text structure
+                        tags, abbreviation expansions, basic decoration identification, and a notes
+                        and commentaries apparatus.</title>
+                    <date when="2017">31 August 2017</date>
                 </edition>
                 <respStmt>
                     <name>Stephen P. McCormick</name>
@@ -95,7 +97,7 @@
                         <idno>MS 32</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title xml:lang="FI">Huon d'Auvergne, Biblioteca del Seminario Vescovile di
+                        <title type="manuscript" xml:lang="FI">Huon d'Auvergne, Biblioteca del Seminario Vescovile di
                             Padova, Manuscript 32</title>
                         <origPlace cert="low">Padua</origPlace>
                         <origDate cert="medium" evidence="internal">second half of fourteenth
@@ -123,7 +125,7 @@
                             <locus from="1r" to="117v">ff. 1r-117v</locus>
                             <author xml:id="scribe">Anonymous</author>
                             <!-- check foliation with Leslie -->
-                            <title xml:lang="FI">Huon d'Auvergne</title>
+                            <title type="text" xml:lang="FI">Huon d'Auvergne</title>
                             <incipit>E perçò era Ugo d'Alvernia sevrie</incipit>
                             <explicit>E Dio n...</explicit>
                         </msItem>
@@ -872,7 +874,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="478">A la fenestra non vuol plu demorer;</l>
                 <l n="479">Vene <choice>
                         <sic>alla fene salla</sic>
-                        <corr cert="high" resp="#scribe">alla <del>fene </del>salla</corr>
+                        <corr cert="high" resp="#scribe">alla <del rend="superscript-cross">fene </del>salla</corr>
                     </choice>,<note xml:id="p479"/> si apela Gualtier,</l>
                 <l n="480">“Sier,” diss’ello, “io me ne voio ander.</l>
                 <l n="481">Fé me qua le mie arme porter!”</l>
@@ -1035,7 +1037,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="596">E si ve farò pentir, fel traitor malvé!"</l>
                 <l n="597"><choice>
                         <sic>Responde al</sic>
-                        <corr cert="high" resp="#scribe">Responde <del>al </del></corr>
+                        <corr cert="high" resp="#scribe">Responde <del rend="strike">al</del></corr>
                     </choice><note xml:id="p597"/>Antolin, "De tuto çò che vuy parlé,</l>
                 <!-- del - rend strike? -->
                 <l n="598">Io no darave una pome poré,</l>
@@ -1693,7 +1695,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1094">Quando ella me intende, plena fo de maltalant</l>
                 <l n="1095">E si me <choice>
                         <sic>meiniçà</sic>
-                        <corr cert="high" resp="#scribe">me<del>i</del>n<add place="above"
+                        <corr cert="high" resp="#scribe">me<del rend="scribble">i</del>n<add place="above"
                             >a</add>ça</corr>
                     </choice><note xml:id="p1095"/> molto duramant,</l>
                 <l n="1096">Ma de quello io no curie niant;</l>
@@ -1724,7 +1726,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1115">Che fa so marido e Carllo so per,</l>
                 <l n="1116">Ela crede ch'i <choice>
                         <sic>maena</sic>
-                        <corr cert="high" resp="#scribe">m<del>a</del>ena</corr>
+                        <corr cert="high" resp="#scribe">m<del rend="strike">a</del>ena</corr>
                     </choice><note xml:id="p1116"/> U<ex rend="italic">go</ex> p<ex rend="italic"
                         >er</ex> prexonier;</l>
                 <l n="1117">S'ell ave çoia, no me domender.</l>
@@ -2760,7 +2762,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="1897">A Dio v'acomando li piçoli e li gran."</l>
                 <l n="1898">Alora fè aparear lo·sso <choice>
                         <sic>codestrier</sic>
-                        <corr cert="medium" resp="#SPM"><del xml:id="strike">co</del>destrier</corr>
+                        <corr cert="medium" resp="#SPM"><del rend="strike">co</del>destrier</corr>
                     </choice><note xml:id="p1898"/> coran;</l>
                 <!-- Should del go in sic or corr to render as a struck through 'co' in the scribal edition interface? Check all del tags. -->
                 <l n="1899">El non andè miga a muodo de vilan:</l>
@@ -3975,7 +3977,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     </choice><note xml:id="p2753"/> inversso Dio pecador,</l>
                 <!-- del? -->
                 <l n="2754">E pregà lui a lagreme e a plor:</l>
-                <l n="2755">"<q xml:lang="la">Misserere nobis</q>, J<ex rend="italic">ex</ex>hu mio
+                <l n="2755">"<q rend="bold" xml:lang="la">Misserere nobis</q>, J<ex rend="italic">ex</ex>hu mio
                     redentor,</l>
                 <l n="2756">P<ex rend="italic">er</ex> la pietade che vui avesse, mio signor,</l>
                 <l n="2757">De Maria Madalena che fo de colui seror,</l>
@@ -4149,10 +4151,10 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2858"><q rend="italic" xml:lang="la">Domine labia</q>, molto
                     graciossame(n)t,</l>
                 <l n="2859">
-                    <q xml:lang="la">Aperies tu, bel sier, os meun molto sove<ex rend="noitalic"
+                    <q rend="bold" xml:lang="la">Aperies tu, bel sier, os meun molto sove<ex rend="noitalic"
                             >n</ex>t</q>
                 </l>
-                <l n="2860"><q xml:lang="la">Anuncierà la gloria de ti verassement</q>.<note
+                <l n="2860"><q rend="bold" xml:lang="la">Anuncierà la gloria de ti verassement</q>.<note
                         xml:id="p2860"/></l>
                 <!-- Correct for tagging citation over several lines? -->
                 <l n="2861">De·ssi medieximo si gra<ex rend="italic">n</ex> pietade en prent,</l>
@@ -6122,7 +6124,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="4243">E bateno le palme e plura senpiterne?</l>
                 <l n="4244">Et è me avixo che soto i suoi <choice>
                         <sic>drpi</sic>
-                        <corr cert="medium" resp="#scribe">dr<add>a</add>pi</corr>
+                        <corr cert="medium" resp="#scribe">dr<add place="above">a</add>pi</corr>
                     </choice><note xml:id="p4244"/> se cerne</l>
                 <!-- small cross over - 'above'? -->
                 <l n="4245">Sangue marça p<ex rend="italic">er</ex> flamosse pusterne?</l>

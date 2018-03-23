@@ -300,9 +300,9 @@
                 <!-- link to reference in introduction. -->
                 <note xml:id="p1222" type="edit" resp="#SPM">MS <hi rend="#italic"
                     >liamant</hi>.</note>
-                <note n="68" xml:id="p1228" type="edit" resp="#SPM">MS <hi rend="#italic"
+                <note xml:id="p1228" type="edit" resp="#SPM">MS <hi rend="#italic"
                         >lolodi</hi>.</note>
-                <note n="69" xml:id="p1266" type="edit" resp="#SPM">This line repeats.</note>
+                <note xml:id="p1266" type="edit" resp="#SPM">This line repeats.</note>
                 <!-- Find way to insert the extra line for the diplomatic edition; .css should display the line in a different color. -->
                 <note xml:id="p1274" type="edit" resp="#SPM">MS <hi rend="#italic">chavlcha</hi>;
                     scribal correction with <hi rend="#italic">a</hi> written above the <hi
