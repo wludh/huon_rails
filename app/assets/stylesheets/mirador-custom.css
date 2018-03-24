@@ -1,0 +1,19 @@
+.mirador-container .mirador-main-menu-bar {
+   background-color: red;
+   border-bottom: 1px solid #555;
+   color: #fff;
+   height: 33px;
+   width: 100%;
+   /* padding: 4px; */
+   font-size: 14px;
+   top: 0;
+}
+
+.mirador-container .mirador-main-menu a {
+    color: whitesmoke;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variant: small-caps;
+    text-decoration: none;
+    opacity: 0.6;
+}
