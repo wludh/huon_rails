@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="huon-schema-10222017.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -38,7 +38,7 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1">
-                    <title>Version 0.1, enriched with text structure tags</title>
+                    <title type="edition">Version 0.1, enriched with text structure tags</title>
                     <date when="2015">June 2015</date>
                 </edition>
                 <respStmt>
@@ -76,7 +76,7 @@
                         <idno>N III 19</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title xml:lang="fi">Huon d'Auvergne, Turin, Biblioteca nazionale, N III
+                        <title type="manuscript" xml:lang="fi">Huon d'Auvergne, Turin, Biblioteca nazionale, N III
                             19</title>
                         <origPlace cert="low">Turin</origPlace>
                         <origDate cert="medium" evidence="internal">1441 included in final
@@ -118,7 +118,7 @@
                             <locus from="1r" to="117v">ff. 1r-183v</locus>
                             <author xml:id="scribe">Anonymous</author>
                             <!-- check foliation with Leslie -->
-                            <title xml:lang="FI">Huon d'Auvergne</title>
+                            <title type="text" xml:lang="FI">Huon d'Auvergne</title>
                             <incipit>Al tempo de mazo quando el fiorise le prade</incipit>
                             <explicit/>
                         </msItem>
@@ -313,7 +313,7 @@
                 <l n="74"><milestone n="2R" unit="fol."/><seg>En Pentacosta apresso
                         l'Asensione</seg></l>
                 <l n="75"><seg>e' n'à bandita la corte, tute ne verano,</seg></l>
-                <l n="76"><seg>che debe durare quatro mese al delongo</seg>. <note xml:id="t76"/></l>
+                <l n="76"><seg>che debe durare quatro mese al delongo</seg>.<note xml:id="t76"/></l>
                 <l n="77"><seg>E perzò voleano lo'mperio Carlone</seg></l>
                 <l n="78"><seg>che le done vegnano com lor <ex rend="italic"
                     >com</ex>pagnone</seg></l>
@@ -1977,7 +1977,7 @@
                         demora</seg>.</l>
                 <l n="1134"><anchor resp="Rajna" n="1130"/><seg>El vene al suo chavalo, per desopra el monta</seg>;</l>
                 <l n="1135"><seg>ensito se n'è de la tera, altro cobia no<ex rend="italic">n</ex>
-                        prendia</seg>,<note xml:id="t1135"/> </l>
+                    prendia</seg>,<note xml:id="t1135.1"/><note xml:id="t1135.2"/></l>
                 <l n="1136"><seg>tuto y<ex rend="italic">n</ex>verso Ongaria suo</seg> chamin
                         p<seg>rendea</seg>.</l>
                 <l n="1137"><seg>Quando el vene a la</seg> matina Ynida se sv<seg>egia</seg>,</l>
@@ -8273,7 +8273,12 @@
                         rend="italic">n</ex>senble tirono."</l>
                 <l n="5007">E più non stete, e zeva avale sopra la sala p<ex rend="italic"
                     >re</ex>rirà.</l>
+            </lg>-->
+            <lg type="laisse" n="201">
+                <head>Laisse 201</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="201">
                 <head>Laisse 201</head>
                 <l n="5008">La grande dolore Ynida alora se taze Uzero:</l>
@@ -8308,7 +8313,12 @@
                     poe."</l>
                 <l n="5033">"Vero," dize l'arcevescovo, "ch'el no<ex rend="italic">n</ex> se de'
                     guastare."</l>
+            </lg>-->
+            <lg type="laisse" n="202">
+                <head>Laisse 202</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="202">
                 <head>Laisse 202</head>
                 <l n="5034">Molto fu fino l'arceveschovo, <ex rend="italic">et</ex> avea
@@ -8350,7 +8360,12 @@
                 <l n="5060">"Sere," dize Ynida, "bona è la predichanza.</l>
                 <l n="5061"><anchor resp="Rajna" n="5040"/>Se lo coro dedentro li fesse arecordanza </l>
                 <l n="5062">da voler∙sse pentire siè granda la deferenzia."</l>
+            </lg>-->
+            <lg type="laisse" n="203">
+                <head>Laisse 203</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="203">
                 <head>Laisse 203</head>
                 <l n="5063">A questo moto parlò Sandin,</l>
@@ -8382,7 +8397,12 @@
                     latino. </l>
                 <l n="5085">Avante morta voio, <ex rend="italic">et</ex> ardere apresso un pino,</l>
                 <l n="5086"><anchor resp="Rajna" n="5065"/>che eio may venisse a luy; questa siè mia fine." </l>
+            </lg>-->
+            <lg type="laisse" n="204">
+                <head>Laisse 204</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="204">
                 <head>Laisse 204</head>
                 <l n="5087">"Dona," dize Sandino, "avite vuy pensero: </l>
@@ -8417,7 +8437,12 @@
                 <l n="5111">che crede done fare grande folità."</l>
                 <l n="5112">"Sery," dize Tomaso, "p<ex rend="italic">er</ex> my non romarà</l>
                 <l n="5113">de fare tuto al mio signore tuto zò che li piazerà."</l>
+            </lg>-->
+            <lg type="laisse" n="205">
+                <head>Laisse 205</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="205">
                 <head>Laisse 205</head>
                 <l n="5114">Sandin fo savio et y<ex rend="italic">n</ex>zigno pien; </l>
@@ -8447,7 +8472,12 @@
                 <l n="5133">li anbasadore chi àno portà grandi afane</l>
                 <l n="5134">a dormire sono andà al palazo mazore;</l>
                 <l n="5135">(5115) retornà sono a Ynida soy fradely et parente. </l>
+            </lg>-->
+            <lg type="laisse" n="206">
+                <head>Laisse 206</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="206">
                 <head>Laisse 206</head>
                 <l n="5136">Ynida domandò Berardo, "È ben s<ex rend="italic">er</ex>v
@@ -8479,7 +8509,12 @@
                 <l n="5157">veramente pendere con se fa a li ladrone,</l>
                 <l n="5158">che del mio signore fase ne pensase tradimente."</l>
                 <l n="5159">Alora prende una preda e si fere sì forte.</l>
+            </lg>-->
+            <lg type="laisse" n="207">
+                <head>Laisse 207</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="207">
                 <head>Laisse 207</head>
                 <l n="5160">(5140) La gentil dona una preda avè prenduta,</l>
@@ -8510,7 +8545,12 @@
                 <l n="5181">che may fese cossa ch'al re fose piasuta</l>
                 <l n="5182"> azo che el mio signore non fosse biasemà."</l>
                 <l n="5183">Alora Tebia olde soa dona riquere.</l>
+            </lg>-->
+            <lg type="laisse" n="208">
+                <head>Laisse 208</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="208">
                 <head>Laisse 208</head>
                 <l n="5184">"Madona," dize Tobia, como umele sembia<ex rend="italic"
@@ -8538,7 +8578,12 @@
                 <l n="5202">un vechiardo omo che ley crede che la va ferando;</l>
                 <l n="5203">La barba avea longa, che sopra li pé li spande.</l>
                 <l n="5204">Ynida apela, dolze <ex rend="italic">et</ex> de sovavemente.</l>
+            </lg>-->
+            <lg type="laisse" n="209">
+                <head>Laisse 209</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="209">
                 <head>Laisse 209</head>
                 <l n="5205">(5185) Lo cavalero con bassa lochela</l>
@@ -8564,7 +8609,12 @@
                 <l n="5221">a quelo te donay chi è andà a l'inquesta.</l>
                 <l n="5222">Afora .14. any, non n'avive y<ex rend="italic">n</ex> quela."</l>
                 <l n="5223">Ynida, quando l'intende, tuto lo coro li salta.</l>
+            </lg>-->
+            <lg type="laisse" n="210">
+                <head>Laisse 210</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="210">
                 <head>Laisse 210</head>
                 <l n="5224">(5205) Quando Ynida l'intende, tuto li ochy si rasa de
@@ -8594,7 +8644,12 @@
                     palido colore,</l>
                 <l n="5245">Tute s$om*oia, como scrise l'aotore.</l>
                 <l n="5246">Zà era sopra la sala montà li ambasadore.</l>
+            </lg>-->
+            <lg type="laisse" n="211">
+                <head>Laisse 211</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="211">
                 <head>Laisse 211</head>
                 <l n="5247"><milestone n="81V" unit="fol."/>Lo zorno fo chiaro et
@@ -8633,7 +8688,12 @@
                 <l n="5272">Et a questo re topin, dona memoria sana,</l>
                 <l n="5273">ch'el se penta del desire ch'el mena.</l>
                 <l n="5274">(5255) Levately dal core le sorte con defeto!" </l>
+            </lg>-->
+            <lg type="laisse" n="212">
+                <head>Laisse 212</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="212">
                 <head>Laisse 212</head>
                 <l n="5275"> Plura Ynida, e de profondo coro sospira, </l>
@@ -8668,7 +8728,12 @@
                 <l n="5298">e l'arceveschovo Baldovino como un senbiate de ridre,</l>
                 <l n="5299">e Terisse e Berardo (Dio li possa maledire,</l>
                 <l n="5300">che più àno tormento che niun di altry, al ver dire).</l>
+            </lg>-->
+            <lg type="laisse" n="213">
+                <head>Laisse 213</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="213">
                 <head>Laisse 213</head>
                 <l n="5301">Ruzere et Ulliem y<ex rend="italic">n</ex>semble sono tirà, </l>
@@ -8705,7 +8770,12 @@
                 <l n="5329">Gran pezo vezo mio volere desbratado</l>
                 <l n="5330">(5310) né zà altramente y<ex rend="italic">n</ex> my non trovarite." </l>
                 <l n="5331">"Dona," dize Sandin, "zò vene da folità."</l>
+            </lg>-->
+            <lg type="laisse" n="214">
+                <head>Laisse 214</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="214">
                 <head>Laisse 214</head>
                 <l n="5332">"Signory," zò dize Sandin, "s'el è de vostro piasere </l>
@@ -8737,7 +8807,12 @@
                 <l n="5354">che oramay dovite suo amore agradire,</l>
                 <l n="5355">(5335) et y<ex rend="italic">n</ex> vostra grazia lo dovite recollire, </l>
                 <l n="5356">siche vostra bontà non lo lasse così morire."</l>
+            </lg>-->
+            <lg type="laisse" n="215">
+                <head>Laisse 215</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="215">
                 <head>Laisse 215</head>
                 <l n="5357">Plura Sandin, e pianze de soy ochy, </l>
@@ -8771,7 +8846,12 @@
                 <l n="5379">"Dona," dize Sandin, "lo vero ve diroie.</l>
                 <l n="5380">(5360) Atendite a my un poco, s'el ve piaze." </l>
                 <l n="5381">A soy <ex rend="italic">com</ex>pagny el se'n vene tuto drito.</l>
+            </lg>-->
+            <lg type="laisse" n="216">
+                <head>Laisse 216</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="216">
                 <head>Laisse 216</head>
                 <l n="5382">(A) soy <ex rend="italic">com</ex>pagny siè Sandin retornato; </l>
@@ -8797,7 +8877,12 @@
                 <l n="5398">la dona avere tradita <ex rend="italic">et</ex> de y<ex rend="italic"
                         >n</ex>ganata.</l>
                 <l n="5399">Dio ly sconfonda p<ex rend="italic">er</ex> soa gran bontade!</l>
+            </lg>-->
+            <lg type="laisse" n="217">
+                <head>Laisse 217</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="217">
                 <head>Laisse 217</head>
                 <l n="5400">(5380) (A)vante ch'el avesse manzà ne beuto, </l>
@@ -8829,7 +8914,12 @@
                 <l n="5423">Tuto questo avere, y<ex rend="italic">n</ex> vuy l'à tuto trametuto,</l>
                 <l n="5424">che y<ex rend="italic">n</ex>tra vy sia despensà e partito.</l>
                 <l n="5425">(5405) E de l'altro n'averite quando a vuy sera piazuto."</l>
+            </lg>-->
+            <lg type="laisse" n="218">
+                <head>Laisse 218</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="218">
                 <head>Laisse 218</head>
                 <l n="5426">Sandin se taze com piatosso visazo, </l>
@@ -8856,7 +8946,12 @@
                 <l n="5444">dormite vuy, o andate vuy a <ex rend="italic">con</ex>templare?"</l>
                 <l n="5445">(5425) Alora responde Berardo, che elo non tardò ponto:</l>
                 <l n="5446">"Sandin," dize elo, "li avite più che mostrate."</l>
+            </lg>-->
+            <lg type="laisse" n="219">
+                <head>Laisse 219</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="219">
                 <head>Laisse 219</head>
                 <l n="5447"><milestone n="84R" unit="fol."/>(S)i dize a Sandin che
@@ -8878,7 +8973,12 @@
                 <l n="5460">(5440) che non feze de Troia Ylion e ly bon castele." </l>
                 <l n="5461">Innanzo che parlasse vechiardo ne garzonzela,</l>
                 <l n="5462">zascun y<ex rend="italic">n</ex>clina soto suo capelo.</l>
+            </lg>-->
+            <lg type="laisse" n="220">
+                <head>Laisse 220</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="220">
                 <head>Laisse 220</head>
                 <l n="5463">(Y)nida dize, "Sandy<ex rend="italic">n</ex>, molto volotera
@@ -8910,7 +9010,12 @@
                 <l n="5485">(5465) Trateve avante, franchy barony, y<ex rend="italic">n</ex>tendite
                     zà,</l>
                 <l n="5486">de questo traditore pien de gran crudelità!"</l>
+            </lg>-->
+            <lg type="laisse" n="221">
+                <head>Laisse 221</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="221">
                 <head>Laisse 221</head>
                 <l n="5487">La dona pianze, de gran dolore se prende; </l>
@@ -8943,7 +9048,12 @@
                 <l n="5505">(5485) vedantemente tra tuty soto soy pedy le messe,</l>
                 <l n="5506">dizendo alta voze, "Ay, Madona, genetrize de Dio,</l>
                 <l n="5507">aiutateme, Madre de Dio, quỳ da questo pecadore!"</l>
+            </lg>-->
+            <lg type="laisse" n="222">
+                <head>Laisse 222</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="222">
                 <head>Laisse 222</head>
                 <l n="5508">Atanto Berardo vene la dona ad y<ex rend="italic"
@@ -8964,7 +9074,12 @@
                     atenire,</l>
                 <l n="5519">E dize, "Tal se crede cantare chi à talente de vendre."</l>
                 <l n="5520">(5500) "Vero," dize Sandin, "e brusaly tuty li menbre."</l>
+            </lg>-->
+            <lg type="laisse" n="223">
+                <head>Laisse 223</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="223">
                 <head>Laisse 223</head>
                 <l n="5521">"Ay, traditore," dize Ynida, "coverto maliziose, </l>
@@ -8991,7 +9106,12 @@
                 <l n="5538"><milestone n="85V" unit="fol."/>La dona el suo <ex rend="italic"
                         >con</ex>seio domanda, y<ex rend="italic">n</ex> una camera vene</l>
                 <l n="5539">parlamento feze, che a ly anbasadore non è piazuto.</l>
+            </lg>-->
+            <lg type="laisse" n="224">
+                <head>Laisse 224</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="224">
                 <head>Laisse 224</head>
                 <l n="5540">(A)presso Ynida Berando e ly altry entrano; </l>
@@ -9012,7 +9132,12 @@
                 <l n="5553">'demite noby a chy vuy demetera'.</l>
                 <l n="5554">Chi n'à piatà d'altruy, Dio de luy non averà.</l>
                 <l n="5555">(5535) Se stare podite yntra el vostro paiesse, se oservarà."</l>
+            </lg>-->
+            <lg type="laisse" n="225">
+                <head>Laisse 225</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="225">
                 <head>Laisse 225</head>
                 <l n="5556">"Signore," dize la dona, "entendite p<ex rend="italic"
@@ -9032,7 +9157,12 @@
                 <l n="5569">cridando "A la morte, a la morte tuty y traditore!</l>
                 <l n="5570">(5550) Non ve porà scampare el vostro grande y<ex rend="italic"
                     >m</ex>peradore!" </l>
+            </lg>-->
+            <lg type="laisse" n="226">
+                <head>Laisse 226</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="226">
                 <head>Laisse 226</head>
                 <l n="5571">Grande era lo remore, e le cride e le vosse; </l>
@@ -9059,7 +9189,12 @@
                 <l n="5587">perché siemo a morte et sconfonduto:</l>
                 <l n="5588">vostro volere non avite ancora <ex rend="italic">com</ex>plito;</l>
                 <l n="5589">Anze serà la guera a lo re piazuto."</l>
+            </lg>-->
+            <lg type="laisse" n="227">
+                <head>Laisse 227</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="227">
                 <head>Laisse 227</head>
                 <l n="5590">(5570) Molto plura li anbasadore, e molto se lagna, </l>
@@ -9082,7 +9217,12 @@
                 <l n="5605">(5585) e quando l'ave cos fato, no<ex rend="italic">n</ex> sono più
                     sofrente.</l>
                 <l n="5606">Da ora li mete sopra la larga champagna,</l>
+            </lg>-->
+            <lg type="laisse" n="228">
+                <head>Laisse 228</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="228">
                 <head>Laisse 228</head>
                 <l n="5607">Gridando dize la dona, "Disé adeso azo mi talento; </l>
@@ -9109,7 +9249,12 @@
                 <l n="5622">che voleano la nostra dona y<ex rend="italic">n</ex>ganare p<ex
                         rend="italic">er</ex> tradimento!"</l>
                 <l n="5623">zà a Dio non piaze ley abiate longamente.</l>
+            </lg>-->
+            <lg type="laisse" n="229">
+                <head>Laisse 229</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="229">
                 <head>Laisse 229</head>
                 <l n="5624">Grande siè l'enoio, <ex rend="italic">et</ex> redopia le
@@ -9135,9 +9280,14 @@
                     coperte; </l>
                 <l n="5641">(5620) entra loro àno li ambasadore recolte. </l>
                 <l n="5642">De gran dolore è dolente; al coro de loro li presse. </l>
-            </lg>
+            </lg>-->
             <lg type="laisse" n="230">
-                <head>Laisse 239</head>
+                <head>Laisse 230</head>
+                <l n="1">Forthcoming</l>
+            </lg>
+            <!--
+            <lg type="laisse" n="230">
+                <head>Laisse 230</head>
                 <l n="5643">Le .7. ambasadore feramente sono smarity; </l>
                 <l n="5644">del gran dolore sospirano e chiamase dolenty.</l>
                 <l n="5645">Atanto che vuy Berardo et Baldovin l'ardỳ,</l>
@@ -9158,7 +9308,12 @@
                 <l n="5658">Ora lasate fare la justizia, che eio ve'n prego."</l>
                 <l n="5659">Tuty cridano, "Madona, al vostro piazere!"</l>
                 <l n="5660"> Alora <ex rend="italic">con</ex>sente e taze lo remore e la zente.</l>
+            </lg>-->
+            <lg type="laisse" n="231">
+                <head>Laisse 231</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="231">
                 <head>Laisse 231</head>
                 <l n="5661">(5640)Amantinente vene, a quatro familie parla, </l>
@@ -9186,7 +9341,12 @@
                 <l n="5680">e perdonate a my de zò che fato v'azo."</l>
                 <l n="5681">(5660) "Sire," dize l'arcevescovo, "sempro vuy amarazo."</l>
                 <l n="5682">"Siamo nuy deliberate," zò respondea."</l>
+            </lg>-->
+            <lg type="laisse" n="232">
+                <head>Laisse 232</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="232">
                 <head>Laisse 232</head>
                 <l n="5683">"Non credo zamay più zoia aver <ex rend="italic"
@@ -9217,7 +9377,12 @@
                 <l n="5704">atanto che lo <ex rend="italic">con</ex>te tornava de l'ambasaria;</l>
                 <l n="5705">e Dio lo <ex rend="italic">con</ex>duga, chi à lo mondo y<ex
                         rend="italic">n</ex> balia!</l>
+            </lg>-->
+            <lg type="laisse" n="233">
+                <head>Laisse 233</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="233">
                 <head>Laisse 233</head>
                 <l n="5706">(5685) De la novela e de la dona y<ex rend="italic">n</ex>s </l>
@@ -9242,7 +9407,12 @@
                 <l n="5722">Da manzar n'àno niente, mé de l'aqua beve.</l>
                 <l n="5723">Non domanda, signory, p<ex rend="italic">er</ex> Dio ve'n prego,</l>
                 <l n="5724">se li dolory e soue piage sente quando sono arferdate! </l>
+            </lg>-->
+            <lg type="laisse" n="234">
+                <head>Laisse 234</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="234">
                 <head>Laisse 234</head>
                 <l n="5725">Molto gran piante lor fano, le piage male li fano; </l>
@@ -9264,7 +9434,12 @@
                 <l n="5736">(5715) zamay non vederemo lo magno y<ex rend="italic">n</ex>peradore." </l>
                 <l n="5737">Possa se miseno y<ex rend="italic">n</ex> lo chamy<ex rend="italic"
                         >n</ex>, caminando se strenze.</l>
+            </lg>-->
+            <lg type="laisse" n="235">
+                <head>Laisse 235</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="235">
                 <head>Laisse 235</head>
                 <l n="5738">La note se comenza p<ex rend="italic">er</ex> desopra l'erba
@@ -9298,7 +9473,12 @@
                 <l n="5761">(5740) bate soa colpa, <ex rend="italic">et</ex> a li chamin se sono
                     metute; </l>
                 <l n="5762">rengrazia et plura zò che li è avenuto.</l>
+            </lg>-->
+            <lg type="laisse" n="236">
+                <head>Laisse 236</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="236">
                 <head>Laisse 236</head>
                 <l n="5763">A la doman, quando la mesa fo dita, </l>
@@ -9332,7 +9512,12 @@
                 <l n="5786">(5765) de pam bescoto e per lo chavalo de la biava,</l>
                 <l n="5787">per unn-ano e più ora sonto guarnito,</l>
                 <l n="5788">Dio ve renda p<ex rend="italic">er</ex> my bon merito."</l>
+            </lg>-->
+            <lg type="laisse" n="237">
+                <head>Laisse 237</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="237">
                 <head>Laisse 237</head>
                 <l n="5789">Entorno lo <ex rend="italic">con</ex>te fu grande lo pianto </l>
@@ -9386,7 +9571,12 @@
                 <l n="5831">(5810) e p<ex rend="italic">er</ex> lo fren lo mena lo marchesse</l>
                 <l n="5832">apresso a la riva de l'aqua de Tigressy.</l>
                 <l n="5833">Per luy plura li grandy e ly pizoly.</l>
+            </lg>-->
+            <lg type="laisse" n="238">
+                <head>Laisse 238</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="238">
                 <head>Laisse 238</head>
                 <l n="5834">Meraviosso duolo en fano la bona zente</l>
@@ -9436,7 +9626,12 @@
                     non lasarà atanto,</l>
                 <l n="5870">se Dio li consente, tanto como el serà vivente:</l>
                 <l n="5871">(5850) "Che a myo podere non faza donda eio son travaliante."</l>
+            </lg>-->
+            <lg type="laisse" n="239">
+                <head>Laisse 239</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="239">
                 <head>Laisse 239</head>
                 <l n="5872">Lo <ex rend="italic">con</ex>te se driza che soa orazion
@@ -9472,7 +9667,12 @@
                 <l n="5895">che <num rend="smallcaps">.x.</num> gran lige avanzà.</l>
                 <l n="5896">(5875) Quando fo stracho, lo baron s'arestà,</l>
                 <l n="5897">un palo fichà e la nave atachà.</l>
+            </lg>-->
+            <lg type="laisse" n="240">
+                <head>Laisse 240</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="240">
                 <head>Laisse 240</head>
                 <l n="5898">Lo <ex rend="italic">con</ex>te d'Alvernia al corazo liale </l>
@@ -9504,7 +9704,12 @@
                 <l n="5920">come costuy, p<ex rend="italic">er</ex> Dio lo celestiale,</l>
                 <l n="5921">per atrovare lo diavlo y<ex rend="italic">n</ex>fernale,</l>
                 <l n="5922">(5900) che possa lo trovà, Dio li lage atrovare.</l>
+            </lg>-->
+            <lg type="laisse" n="241">
+                <head>Laisse 241</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="241">
                 <head>Laisse 241</head>
                 <l n="5923">Quando lo <ex rend="italic">con</ex>te avè beuto e manzato, </l>
@@ -9534,7 +9739,12 @@
                     >n</ex>nanzo."</l>
                 <l n="5943">Coss se'n vano, andono de rondone</l>
                 <l n="5944">tuto lo zorno tanto ch'el fo ascurato.</l>
+            </lg>-->
+            <lg type="laisse" n="242">
+                <head>Laisse 242</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="242">
                 <head>Laisse 242</head>
                 <l n="5945">Quando vene la note p<ex rend="italic">er</ex> l'ayra
@@ -9573,7 +9783,12 @@
                 <l n="5973">Se Dio non pense, y<ex rend="italic">n</ex> lo .Re. sopriore,</l>
                 <l n="5974">apresso queste pene n'avrà de pezore.</l>
                 <l n="5975">Quando li tormente de la puzente note </l>
+            </lg>-->
+            <lg type="laisse" n="243">
+                <head>Laisse 243</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="243">
                 <head>Laisse 243</head>
                 <l n="5976">fu trapasà, et aparete l'alba chiara,</l>
@@ -9607,7 +9822,12 @@
                 <l n="6000">overo zamay non tornarò y<ex rend="italic">n</ex>dreto,</l>
                 <l n="6001">se compirò lo desiro a lo magno y<ex rend="italic">m</ex>peradore."</l>
                 <l n="6002">(5980) La croze se feze per sopra lo visazo.</l>
+            </lg>-->
+            <lg type="laisse" n="244">
+                <head>Laisse 244</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="244">
                 <head>Laisse 244</head>
                 <l n="6003">Lo <ex rend="italic">con</ex>te desende dal grande pozo
@@ -9628,7 +9848,12 @@
                 <l n="6016">Lo bon destrero de pezore rognisse;</l>
                 <l n="6017">(5995) s'el fosse lasato, molto tosto se'n fuzesse.</l>
                 <l n="6018">Ugon cridò, possa davante luy se misse.</l>
+            </lg>-->
+            <lg type="laisse" n="245">
+                <head>Laisse 245</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="245">
                 <head>Laisse 245</head>
                 <l n="6019">Com gran furore se mosse li lionpardy,</l>
@@ -9645,7 +9870,12 @@
                 <l n="6028">(6005) tuty li piè li taiò da una parte.</l>
                 <l n="6029">Possa li requere, l'altro se departe</l>
                 <l n="6030">quelo chi è morto, mé da l'altro se guarda.</l>
+            </lg>-->
+            <lg type="laisse" n="246">
+                <head>Laisse 246</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="246">
                 <head>Laisse 246</head>
                 <l n="6031">Quando lo secondo vite l'altro chi era morto,</l>
@@ -9674,7 +9904,12 @@
                 <l n="6052">Morta l'abate, possa vene a benedire</l>
                 <l n="6053">(6030) lo nome de Jh<ex rend="italic">es</ex>us che ly aveva a <ex
                         rend="italic">con</ex>sentire.</l>
+            </lg>-->
+            <lg type="laisse" n="247">
+                <head>Laisse 247</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="247">
                 <head>Laisse 247</head>
                 <l n="6054">Oldite, signory, se la umana zente</l>
@@ -9714,7 +9949,12 @@
                 <l n="6087">Sovente se guarda dedré e denanze,</l>
                 <l n="6088">(6065) purpresso crede esere, molto fu y<ex rend="italic">n</ex> grande
                     atento.</l>
+            </lg>-->
+            <lg type="laisse" n="248">
+                <head>Laisse 248</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="248">
                 <head>Laisse 248</head>
                 <l n="6089">E cosỳ se'n va, al camin se abandona, </l>
@@ -9742,7 +9982,12 @@
                 <l n="6108">(6085) chantare le damisele che per luy s'araduna,</l>
                 <l n="6109">lo gran dolore li pre<ex rend="italic">n</ex>de, quando 'l olde lor s<ex
                         rend="italic">er</ex>mone.</l>
+            </lg>-->
+            <lg type="laisse" n="249">
+                <head>Laisse 249</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="249">
                 <head>Laisse 249</head>
                 <l n="6110">De gran beleza era zascuna de loro, </l>
@@ -9758,7 +10003,12 @@
                 <l n="6118">(6095) Lo conte cridò: "Ay, Raina di anzoly,</l>
                 <l n="6119">eio vezo meravia sopra tute le meravie."</l>
                 <l n="6120">E possa dizia: "Che site vuy, damisele?"</l>
+            </lg>-->
+            <lg type="laisse" n="250">
+                <head>Laisse 250</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="250">
                 <head>Laisse 250</head>
                 <l n="6121"><ex rend="italic">B</ex> Lo <ex rend="italic">con</ex>te mena
@@ -9779,7 +10029,12 @@
                     nocesità</l>
                 <l n="6134">amate nuy! E sỳ farite como cortesse; </l>
                 <l n="6135">se(re)mo e serite cossỳ como ve diremo."</l>
+            </lg>-->
+            <lg type="laisse" n="251">
+                <head>Laisse 251</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="251">
                 <head>Laisse 251</head>
                 <l n="6136">Saluta lor tute prima lo <ex rend="italic">con</ex>te,</l>
@@ -9802,7 +10057,12 @@
                 <l n="6150">non sapio donda eio vada, molto sono yn orore;</l>
                 <l n="6151">a veder vuy, al coro m'è venuto tenereza,</l>
                 <l n="6152">che vuy m'arecordate del mio paiexe tuta ora."</l>
+            </lg>-->
+            <lg type="laisse" n="252">
+                <head>Laisse 252</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="252">
                 <head>Laisse 252</head>
                 <l n="6153">(6130) Quando 'l avè cosỳ dito lo valente cavalero, </l>
@@ -9859,7 +10119,12 @@
                 <l n="6197">asay molto fate pene et tormento,</l>
                 <l n="6198">(6175) per lor non può un pocho aver reposso.</l>
                 <l n="6199">Avite altro reposso? No<ex rend="italic">n</ex> me∙l dovite celare."</l>
+            </lg>-->
+            <lg type="laisse" n="253">
+                <head>Laisse 253</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="253">
                 <head>Laisse 253</head>
                 <l n="6200">Lo <ex rend="italic">con</ex>te avè dito: "Dite a my, bele
@@ -9881,7 +10146,12 @@
                 <l n="6212">che non è tuty li maistri de Toleta nỳ de Spagna.</l>
                 <l n="6213">(6190) De le meravie ch'el tuo coro y<ex rend="italic">m</ex>magina,</l>
                 <l n="6214">eio te∙l dirò p<ex rend="italic">er</ex> vero, senza menzogna."</l>
+            </lg>-->
+            <lg type="laisse" n="254">
+                <head>Laisse 254</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="254">
                 <head>Laisse 254</head>
                 <l n="6215">"Anchora te dicho, vasalo, quando tu voly sapere,</l>
@@ -9915,7 +10185,12 @@
                 <l n="6239">Se tu lì vene, vederay la chiareza,</l>
                 <l n="6240">non te poray saziare toa memoria.</l>
                 <l n="6241">Non avemo mesazo, sapiate p<ex rend="italic">er</ex> vere."</l>
+            </lg>-->
+            <lg type="laisse" n="255">
+                <head>Laisse 255</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="255">
                 <head>Laisse 255</head>
                 <l n="6242">"Ancora se tu digny, vasalo, de venire</l>
@@ -9939,7 +10214,12 @@
                 <l n="6257">la tera averay e la dona a to domin,</l>
                 <l n="6258">(6235) e posa saperay del tuto lo tuo chamin,</l>
                 <l n="6259"> como y<ex rend="italic">n</ex>traray al perdu karubin."</l>
+            </lg>-->
+            <lg type="laisse" n="256">
+                <head>Laisse 256</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="256">
                 <head>Laisse 256</head>
                 <l n="6260">"Non piaza a Dio," responde lo <ex rend="italic">con</ex>te
@@ -9990,7 +10270,12 @@
                 <l n="6298">(6275) Lo <ex rend="italic">con</ex>te zurò p<ex rend="italic">er</ex>
                     santo Petro primero:</l>
                 <l n="6299">"Con vuy virazo, el sia ben o no."</l>
+            </lg>-->
+            <lg type="laisse" n="257">
+                <head>Laisse 257</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="257">
                 <head>Laisse 257</head>
                 <l n="6300">Lo zentil conte senza nula male y<ex rend="italic"
@@ -10012,7 +10297,12 @@
                 <l n="6314">de condure l'omo a malvase sentenzia.</l>
                 <l n="6315">Ora li donò Dio forteza e temperanza;</l>
                 <l n="6316">mestero li averoe, zoè senza falanza.</l>
+            </lg>-->
+            <lg type="laisse" n="258">
+                <head>Laisse 258</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="258">
                 <head>Laisse 258</head>
                 <l n="6317">Apresso le donzele che pareno del franco lignazo </l>
@@ -10035,7 +10325,12 @@
                 <l n="6332">più abelisse al conte y<ex rend="italic">n</ex> suo corazo,</l>
                 <l n="6333">(6310) che no<ex rend="italic">n</ex> feze a Didon la cità de
                     Cartazine.</l>
+            </lg>-->
+            <lg type="laisse" n="259">
+                <head>Laisse 259</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="259">
                 <head>Laisse 259</head>
                 <l n="6334">Molto fu belo lo chastelo p<ex rend="italic">er</ex>
@@ -10065,7 +10360,12 @@
                     >n</ex>clinò molto sovento,</l>
                 <l n="6355">e mostrono ben che molto se sono meraviade</l>
                 <l n="6356">de la venuta del chavalero arante.</l>
+            </lg>-->
+            <lg type="laisse" n="260">
+                <head>Laisse 260</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="260">
                 <head>Laisse 260</head>
                 <l n="6357">Quando duy grandy osty àno al campo <ex rend="italic"
@@ -10098,7 +10398,12 @@
                 <l n="6377">De my ne pesse lo piatosso Yessu,</l>
                 <l n="6378">(6355) che eio no<ex rend="italic">n</ex> sazo y<ex rend="italic">n</ex>
                     che me sia y<ex rend="italic">m</ex>batù."</l>
+            </lg>-->
+            <lg type="laisse" n="261">
+                <head>Laisse 261</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="261">
                 <head>Laisse 261</head>
                 <l n="6379">Per me la rua del gran chastelo pieno</l>
@@ -10138,7 +10443,12 @@
                 <l n="6410">de gran sienzia p<ex rend="italic">er</ex> un prodomo aidare."</l>
                 <l n="6411">"Signory," dize Ugo, "ell'è molto grande mistero,</l>
                 <l n="6412">più omo desconsolato no<ex rend="italic">n</ex> naque may de madre."</l>
+            </lg>-->
+            <lg type="laisse" n="262">
+                <head>Laisse 262</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="262">
                 <head>Laisse 262</head>
                 <l n="6413">(6390) Uno de coloro là donda è lo <ex rend="italic"
@@ -10159,7 +10469,12 @@
                 <l n="6425">che sopra la croze cridò: 'Helly, Helly!'</l>
                 <l n="6426">oze y<ex rend="italic">n</ex> questo zorno, abiate de my marzede,</l>
                 <l n="6427">che eio no<ex rend="italic">n</ex> sia vergognà quỳ!"</l>
+            </lg>-->
+            <lg type="laisse" n="263">
+                <head>Laisse 263</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="263">
                 <head>Laisse 263</head>
                 <l n="6428">(6405) Lo <ex rend="italic">con</ex>te menò sopra la sala
@@ -10180,7 +10495,12 @@
                 <l n="6439">mé soe beleze fono più luntane.</l>
                 <l n="6440">Più bela parea che una aygua<ex rend="italic">n</ex>na;</l>
                 <l n="6441">mé soa beleza pare che sia falsa e vana.</l>
+            </lg>-->
+            <lg type="laisse" n="264">
+                <head>Laisse 264</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="264">
                 <head>Laisse 264</head>
                 <l n="6442">Quando lo <ex rend="italic">con</ex>te fo y<ex rend="italic"
@@ -10223,7 +10543,12 @@
                     >n</ex>sato?"</l>
                 <l n="6473">(6450) Et elo responde cun chiaro sguardo:</l>
                 <l n="6474">"De trovare quelo locho onda sono tuty li danate."</l>
+            </lg>-->
+            <lg type="laisse" n="265">
+                <head>Laisse 265</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="265">
                 <head>Laisse 265</head>
                 <l n="6475">E la dona dize: "Vasalo, e tu vay a l'inferno a querire?" </l>
@@ -10248,7 +10573,12 @@
                 <l n="6492">per vuy non faza tuto a vostro comando. </l>
                 <l n="6493">(6470) Vedite me quỳ p<ex rend="italic">er</ex> fare lo sagramento,</l>
                 <l n="6494">se lo posso fare da ora y<ex rend="italic">n</ex>nanzo."</l>
+            </lg>-->
+            <lg type="laisse" n="266">
+                <head>Laisse 266</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="266">
                 <head>Laisse 266</head>
                 <l n="6495">"Vasalo, fate la vostra volontade! </l>
@@ -10277,7 +10607,12 @@
                 <l n="6512">de obedire vuy serò eio proveduto.</l>
                 <l n="6513">(6490) Ynn-altra guissa viroie e serite s<ex rend="italic">er</ex>vita, </l>
                 <l n="6514">non serà chastità per my romputa."</l>
+            </lg>-->
+            <lg type="laisse" n="267">
+                <head>Laisse 267</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="267">
                 <head>Laisse 267</head>
                 <l n="6515">Quando la dona olde la parola e y<ex rend="italic"
@@ -10317,7 +10652,12 @@
                     pliga;</l>
                 <l n="6544">com più ella guarda, più lo coro li atendrise</l>
                 <l n="6545">sì duramente, che elo no<ex rend="italic">n</ex> sa ch'el dicha.</l>
+            </lg>-->
+            <lg type="laisse" n="268">
+                <head>Laisse 268</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="268">
                 <head>Laisse 268</head>
                 <l n="6546">En sue stante la raina se levà, </l>
@@ -10348,7 +10688,12 @@
                 <l n="6568">(6545) el zentil <ex rend="italic">con</ex>te che Yh<ex rend="italic"
                         >es</ex>u tanto amà</l>
                 <l n="6569">con de sỳ medesimo feramente se omilià.</l>
+            </lg>-->
+            <lg type="laisse" n="269">
+                <head>Laisse 269</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="269">
                 <head>Laisse 269</head>
                 <l n="6570">Zà la note cazà lo zorno,</l>
@@ -10374,7 +10719,12 @@
                 <l n="6587">Tanto se bate de la preda forte,</l>
                 <l n="6588">(6565) che luy perdè lo teren valore,</l>
                 <l n="6589">che per pocho ch'el no<ex rend="italic">n</ex> spasemò de dolore.</l>
+            </lg>-->
+            <lg type="laisse" n="270">
+                <head>Laisse 270</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="270">
                 <head>Laisse 270</head>
                 <l n="6590">Feramente s'è fustà <ex rend="italic">et</ex> debatuto, </l>
@@ -10407,7 +10757,12 @@
                 <l n="6614">Solo y<ex rend="italic">n</ex> la sala lo <ex rend="italic">con</ex>te
                     siè remanuto,</l>
                 <l n="6615">da quatro parte li era apresso lo fogo.</l>
+            </lg>-->
+            <lg type="laisse" n="271">
+                <head>Laisse 271</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="271">
                 <head>Laisse 271</head>
                 <l n="6616">Davante a le porte che y<ex rend="italic">n</ex> la sala fono </l>
@@ -10451,7 +10806,12 @@
                 <l n="6646">ch'el se fo adormenzà desopra el tereno,</l>
                 <l n="6647">ch'el no<ex rend="italic">n</ex>n-avea dotanza nỳ paura tanto nỳ qua<ex
                         rend="italic">n</ex>to.</l>
+            </lg>-->
+            <lg type="laisse" n="272">
+                <head>Laisse 272</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="272">
                 <head>Laisse 272</head>
                 <l n="6648">(6625) Zoè bely asempie al pechadore mondan</l>
@@ -10492,7 +10852,12 @@
                 <l n="6676">Quando 'l avè cossỳ dito, signo·sse <ex rend="italic">con</ex> soa
                     mane,</l>
                 <l n="6677">possa montò sopra lo destrero altane.</l>
+            </lg>-->
+            <lg type="laisse" n="273">
+                <head>Laisse 273</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="273">
                 <head>Laisse 273</head>
                 <l n="6678">(6655) "Chavalo," dize Ugo<ex rend="italic">n</ex>, "che y<ex
@@ -10516,7 +10881,12 @@
                 <l n="6693">(6670) dizendo, "prima tu manzaray,</l>
                 <l n="6694">e dè ly bevre del fiume claro <ex rend="italic">com</ex> l'alde,</l>
                 <l n="6695">e possa de vena caregò el suo mantelo.</l>
+            </lg>-->
+            <lg type="laisse" n="274">
+                <head>Laisse 274</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="274">
                 <head>Laisse 274</head>
                 <l n="6696">Quando lo chavalo avè beuto $e* manzato,</l>
@@ -10552,7 +10922,12 @@
                 <l n="6719">P<ex rend="italic">er</ex> lo fiume vene, verso luy se drizano;</l>
                 <l n="6720">un si gran crido de soa gola avea zitado</l>
                 <l n="6721">che lo destrero fo tuto y<ex rend="italic">n</ex>stronito.</l>
+            </lg>-->
+            <lg type="laisse" n="275">
+                <head>Laisse 275</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="275">
                 <head>Laisse 275</head>
                 <l n="6722">Volando vene li osely verso lo cavalo; </l>
@@ -10572,7 +10947,12 @@
                 <l n="6734">e po' lo butò desopra lo terene.</l>
                 <l n="6735">E Dio secore lo <ex rend="italic">con</ex>te, lo Padre spertuale,</l>
                 <l n="6736">che a pocho de termene li virà gra<ex rend="italic">n</ex> batalia.</l>
+            </lg>-->
+            <lg type="laisse" n="276">
+                <head>Laisse 276</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="276">
                 <head>Laisse 276</head>
                 <l n="6737">Li grande osely lo <ex rend="italic">con</ex>te averaveno
@@ -10604,7 +10984,12 @@
                 <l n="6759">quando le più brusche molty ne fo morte.</l>
                 <l n="6760">Li osely si fono <ex rend="italic">con</ex> li ale el becho cossie</l>
                 <l n="6761">se Dio rechiama no<ex rend="italic">n</ex> de' esere represso.</l>
+            </lg>-->
+            <lg type="laisse" n="277">
+                <head>Laisse 277</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="277">
                 <head>Laisse 277</head>
                 <l n="6762">Lo <ex rend="italic">con</ex>te misse man al brando
@@ -10633,7 +11018,12 @@
                 <l n="6780">Dio guarde lo <ex rend="italic">con</ex>te e lo destrero animosso,</l>
                 <l n="6781">che molto esta mal bailỳ s'el pora y<ex rend="italic">n</ex>sera da
                     loro.</l>
+            </lg>-->
+            <lg type="laisse" n="278">
+                <head>Laisse 278</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="278">
                 <head>Laisse 278</head>
                 <l n="6782">Lo <ex rend="italic">con</ex>te d'Alvernia si s'è ben
@@ -10671,7 +11061,12 @@
                     prende,</l>
                 <l n="6807">e possa dize y<ex rend="italic">n</ex>fra sy medsmo, "Ora sonte del tuto
                         ve<ex rend="italic">n</ex>to."</l>
+            </lg>-->
+            <lg type="laisse" n="279">
+                <head>Laisse 279</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="279">
                 <head>Laisse 279</head>
                 <l n="6808">(6785)Lo <ex rend="italic">con</ex>te d'Alvernia fo sopra la
@@ -10699,7 +11094,12 @@
                 <l n="6825">(6800)<milestone n="103V" unit="fol."/>Lo <ex rend="italic"
                         >con</ex>te se svezia e si se trova guarito,</l>
                 <l n="6826">el benedisse Dio e soa madre cosỳ.</l>
+            </lg>-->
+            <lg type="laisse" n="280">
+                <head>Laisse 280</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="280">
                 <head>Laisse 280</head>
                 <l n="6827">A la doman quando el fuo zorno,</l>
@@ -10728,7 +11128,12 @@
                 <l n="6844">apresso a una montagna; ely se sono arestade.</l>
                 <l n="6845">(6820) Da quelo locho y<ex rend="italic">n</ex>nanzo no<ex rend="italic"
                         >n</ex> pò andar la nave.</l>
+            </lg>-->
+            <lg type="laisse" n="281">
+                <head>Laisse 281</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="281">
                 <head>Laisse 281</head>
                 <l n="6846">Lo <ex rend="italic">con</ex>te s'arestò quando no<ex
@@ -10765,7 +11170,12 @@
                 <l n="6866">eio volio pasare questo gra<ex rend="italic">n</ex> mo<ex rend="italic"
                         >n</ex>te aguzo.</l>
                 <l n="6867">Andemo avante che sera y<ex rend="italic">n</ex> quel pozo là susa."</l>
+            </lg>-->
+            <lg type="laisse" n="282">
+                <head>Laisse 282</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="282">
                 <head>Laisse 282</head>
                 <l n="6868">Hugo<ex rend="italic">n</ex> pedona desopra lo tere<ex
@@ -10793,7 +11203,12 @@
                 <l n="6884">Montò a chavalo et a Dio s'arecomanda;</l>
                 <l n="6885">(6860) dal fiume se parte e lo monte va costeza<ex rend="italic"
                     >n</ex>do. </l>
+            </lg>-->
+            <lg type="laisse" n="283">
+                <head>Laisse 283</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="283">
                 <head>Laisse 283</head>
                 <l n="6886">Mese s'è lo <ex rend="italic">con</ex>te andare p<ex
@@ -10853,7 +11268,12 @@
                 <l n="6928">che d'erbe <ex rend="italic">et</ex> d'arbore era un pocho piante.</l>
                 <l n="6929">Reposare no<ex rend="italic">n</ex> pò p<ex rend="italic">er</ex> v<ex
                         rend="italic">er</ex>my ch'el trova.</l>
+            </lg>-->
+            <lg type="laisse" n="284">
+                <head>Laisse 284</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="284">
                 <head>Laisse 284</head>
                 <l n="6930">(6905) Posa ch'el <ex rend="italic">con</ex>te se partỳ dal
@@ -10883,7 +11303,12 @@
                 <l n="6949">Niuna bestia ny homo no<ex rend="italic">n</ex> sente;</l>
                 <l n="6950">(6925) no<ex rend="italic">n</ex> li fo solame<ex rend="italic"
                     >n</ex>(te) oselo volante.</l>
+            </lg>-->
+            <lg type="laisse" n="285">
+                <head>Laisse 285</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="285">
                 <head>Laisse 285</head>
                 <l n="6951">Lo zentil <ex rend="italic">con</ex>te no<ex rend="italic"
@@ -10904,7 +11329,12 @@
                         rend="italic">n</ex> teren altano</l>
                 <l n="6964">dy v<ex rend="italic">er</ex>emy dal pian molty n'amazò y<ex
                         rend="italic">n</ex> frota.</l>
+            </lg>-->
+            <lg type="laisse" n="286">
+                <head>Laisse 286</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="286">
                 <head>Laisse 286</head>
                 <l n="6965">(6940) De le prede chy fono da quel monte desenduty</l>
@@ -10931,7 +11361,12 @@
                     prende;</l>
                 <l n="6981">cosỳ se sadola lo zenty <ex rend="italic">con</ex>te, al nome de Yh<ex
                         rend="italic">es</ex>u.</l>
+            </lg>-->
+            <lg type="laisse" n="287">
+                <head>Laisse 287</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="287">
                 <head>Laisse 287</head>
                 <l n="6982">De quel locho se parte quando li vene p<ex rend="italic"
@@ -10992,7 +11427,12 @@
                 <l n="7018">che d'ora y<ex rend="italic">n</ex>n-ora lo fato v'andarò contando.</l>
                 <l n="7019">Acontare seria un fastudio molto gra<ex rend="italic">n</ex>de,</l>
                 <l n="7020">(6995) purzò me tazo e diroy dy gran faty alquanto.</l>
+            </lg>-->
+            <lg type="laisse" n="288">
+                <head>Laisse 288</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="288">
                 <head>Laisse 288</head>
                 <l n="7021">Zà de l'andare y<ex rend="italic">n</ex>nanzo al <ex
@@ -11051,7 +11491,12 @@
                 <l n="7062">pianza dy soy hochy e si se chiama mal acostumato.</l>
                 <l n="7063">"Se no<ex rend="italic">n</ex> me repento melio como azo veduto,</l>
                 <l n="7064">en pezor tormento seray ancora ora metuto."</l>
+            </lg>-->
+            <lg type="laisse" n="289">
+                <head>Laisse 289</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="289">
                 <head>Laisse 289</head>
                 <l n="7065">(7040) Quando li venty fono cesà el gra<ex rend="italic"
@@ -11102,7 +11547,12 @@
                 <l n="7102">el non vole tornare y<ex rend="italic">n</ex>dré p<ex rend="italic"
                         >er</ex> nesuna casone.</l>
                 <l n="7103">Com più el guarda y<ex rend="italic">n</ex> cele più se meravia.</l>
+            </lg>-->
+            <lg type="laisse" n="290">
+                <head>Laisse 290</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="290">
                 <head>Laisse 290</head>
                 <l n="7104">"Hay, Dio," dize lo <ex rend="italic">con</ex>te, "ay laso
@@ -11137,7 +11587,12 @@
                     my tanto como vivirazo."</l>
                 <l n="7126">A quel moto p<ex rend="italic">er</ex> la bocha se bate,</l>
                 <l n="7127">e chiamase tristo e pechadore pur asay.</l>
+            </lg>-->
+            <lg type="laisse" n="291">
+                <head>Laisse 291</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="291">
                 <head>Laisse 291</head>
                 <l n="7128">Pianze di soy ochy lo <ex rend="italic">con</ex>te al cor
@@ -11170,7 +11625,12 @@
                 <l n="7150">l'uno responde a l'altro, nula tenzon lor no<ex rend="italic">n</ex>
                     fano;</l>
                 <l n="7151">(7125) l'uno hobedise l'altro l'uno thase, e l'altro parla.</l>
+            </lg>-->
+            <lg type="laisse" n="292">
+                <head>Laisse 292</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="292">
                 <head>Laisse 292</head>
                 <l n="7152">"Hay, zovene homo, tu sey de bela fazone, </l>
@@ -11213,7 +11673,12 @@
                     saperemo."</l>
                 <l n="7177">"Grande merzede," dize lo <ex rend="italic">con</ex>te, "et nuy ve lo
                     diremo."</l>
+            </lg>-->
+            <lg type="laisse" n="293">
+                <head>Laisse 293</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="293">
                 <head>Laisse 293</head>
                 <l n="7178">Quando lo <ex rend="italic">con</ex>te d'Alvernia avè la
@@ -11268,7 +11733,12 @@
                 <l n="7214">ancha che sia pechadore del tuto y<ex rend="italic">n</ex> luy me
                         racoma<ex rend="italic">n</ex>do</l>
                 <l n="7215">e cosỳ me guarde como eio vado a bone fede</l>
+            </lg>-->
+            <lg type="laisse" n="294">
+                <head>Laisse 294</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="294">
                 <head>Laisse 294</head>
                 <l n="7216">(7190) "Zoveneto," responde amantinente, </l>
@@ -11336,7 +11806,12 @@
                 <l n="7262">perzò credo avere fortuna molte grande</l>
                 <l n="7263">pechadore el se chiama como più el è posente</l>
                 <l n="7264">el pianze de soy hochy e molto parea dolente</l>
+            </lg>-->
+            <lg type="laisse" n="295">
+                <head>Laisse 295</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="295">
                 <head>Laisse 295</head>
                 <l n="7265">Lo <ex rend="italic">con</ex>te Ugo<ex rend="italic">n</ex>
@@ -11398,7 +11873,12 @@
                 <l n="7311">che pocha posanza lo s<ex rend="italic">er</ex>pente avea </l>
                 <l n="7312">(7285) l'altro <ex rend="italic">com</ex>bate me per vero pocho
                     guadagna</l>
+            </lg>-->
+            <lg type="laisse" n="296">
+                <head>Laisse 296</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="296">
                 <head>Laisse 296</head>
                 <l n="7313">Quando Ugo<ex rend="italic">n</ex> vite la bataia tanto
@@ -11441,7 +11921,12 @@
                         rend="italic">n</ex>n-altorio,</l>
                 <l n="7340">gra<ex rend="italic">n</ex> miraclo che feze p<ex rend="italic">er</ex>
                     luy Dio honipotente.</l>
+            </lg>-->
+            <lg type="laisse" n="297">
+                <head>Laisse 297</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="297">
                 <head>Laisse 297</head>
                 <l n="7341">Ynanzo che lo <ex rend="italic">con</ex>te fenise el suo
@@ -11501,7 +11986,12 @@
                 <l n="7378">ora ve contarazo la gran ventura e fera</l>
                 <l n="7379">(7350) chi avene al <ex rend="italic">con</ex>te chi se mese y<ex
                         rend="italic">n</ex> tal afare</l>
+            </lg>-->
+            <lg type="laisse" n="298">
+                <head>Laisse 298</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="298">
                 <head>Laisse 298</head>
                 <l n="7380">Ora chavalcha lo <ex rend="italic">con</ex>te meraviosamente; </l>
@@ -11559,7 +12049,12 @@
                         >n</ex>presse è de zò no<ex rend="italic">n</ex> apresia</l>
                 <l n="7418">al camy<ex rend="italic">n</ex> se arestò come combatre doveseno;</l>
                 <l n="7419">(7390) cosỳ feze li osely, che zascun le percote.</l>
+            </lg>-->
+            <lg type="laisse" n="299">
+                <head>Laisse 299</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="299">
                 <head>Laisse 299</head>
                 <l n="7420">Lo scudo lo <ex rend="italic">con</ex>te Ugo<ex rend="italic"
@@ -11578,7 +12073,12 @@
                 <l n="7428"> Cosỳ sofrite a obedirme tuto zò che a my piaze </l>
                 <l n="7429">(7400) ny ponto y<ex rend="italic">n</ex>pazo per vuy zà nula no<ex
                         rend="italic">n</ex>n-aze."</l>
+            </lg>-->
+            <lg type="laisse" n="300">
+                <head>Laisse 300</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="300">
                 <head>Laisse 300</head>
                 <l n="7430">Lo <ex rend="italic">con</ex>te li avè s<ex rend="italic"
@@ -11599,7 +12099,12 @@
                 <l n="7440">"Altro no<ex rend="italic">n</ex> pò esere," lo <ex rend="italic"
                         >con</ex>te dize, "de presente,</l>
                 <l n="7441">cosỳ coventa esere y<ex rend="italic">n</ex> dano de tuty vuy."</l>
+            </lg>-->
+            <lg type="laisse" n="301">
+                <head>Laisse 301</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="301">
                 <head>Laisse 301</head>
                 <l n="7442">"Ora me dite," dize lo <ex rend="italic">con</ex>te, "a ponto
@@ -11636,7 +12141,12 @@
                 <l n="7464">(7235) p<ex rend="italic">er</ex> zò ch'el fo crudele, da luy fo
                     biasemato.</l>
                 <l n="7465">Lo guerdedon ch'el n'a apertamente vedere el podite."</l>
+            </lg>-->
+            <lg type="laisse" n="302">
+                <head>Laisse 302</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="302">
                 <head>Laisse 302</head>
                 <l n="7466"><milestone n="113R" unit="fol."/>"De mazore tormente,
@@ -11691,7 +12201,12 @@
                 <l n="7503">se quỳ nuy ne trovate, eio ve dicho p<ex rend="italic">er</ex>
                     virità,</l>
                 <l n="7504">(7475) che nuy e vuy seremo tosto del tutto arivate.</l>
+            </lg>-->
+            <lg type="laisse" n="303">
+                <head>Laisse 303</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="303">
                 <head>Laisse 303</head>
                 <l n="7505">"Andate," zò dize lo <ex rend="italic">con</ex>te, "a Dio
@@ -11729,7 +12244,12 @@
                 <l n="7529">(7500) apreso a un altra montagna che lor aprosimano.</l>
                 <l n="7530">Homeny l'apela "l'archa da Nove," questa sièra.</l>
                 <l n="7531">Molte meravie y<ex rend="italic">n</ex>torno vedea et venea.</l>
+            </lg>-->
+            <lg type="laisse" n="304">
+                <head>Laisse 304</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="304">
                 <head>Laisse 304</head>
                 <l n="7532"> Apresso la montagna fo lo <ex rend="italic">con</ex>te
@@ -11779,7 +12299,12 @@
                 <l n="7565">Ora vené avante, en bonora es tu nasuto."</l>
                 <l n="7566">E lo <ex rend="italic">con</ex>te responde cosỳ, "Sonto como vuy avite
                     dito."</l>
+            </lg>-->
+            <lg type="laisse" n="305">
+                <head>Laisse 305</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="305">
                 <head>Laisse 305</head>
                 <l n="7567">Dize lo <ex rend="italic">con</ex>te d'Alvergno, "Siate
@@ -11859,7 +12384,12 @@
                         >n</ex>de;</l>
                 <l n="7618">ora ve dirazo del nostro esere, como siamo quỳ romasy,</l>
                 <l n="7619">(7590) e chy fo mia iesta e como me vano apelando."</l>
+            </lg>-->
+            <lg type="laisse" n="306">
+                <head>Laisse 306</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="306">
                 <head>Laisse 306</head>
                 <l n="7620">"Mia gesta siè etrata, e nuy, de Nerbona; </l>
@@ -11893,7 +12423,12 @@
                         >n</ex> quel locho da nemisy, </l>
                 <l n="7642">e my e quisty mey <ex rend="italic">com</ex>pagny che vuy vedite
                     quỳ."</l>
+            </lg>-->
+            <lg type="laisse" n="307">
+                <head>Laisse 307</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="307">
                 <head>Laisse 307</head>
                 <l n="7643">"Prodomo," zò dize li fra, "y<ex rend="italic">n</ex> quele
@@ -11918,7 +12453,12 @@
                 <l n="7657">La for(z)a la galeia brusò afora che nuy quy romanesemo;</l>
                 <l n="7658">nuy quỳ romaneseno, che molto fosemo zoiosy</l>
                 <l n="7659">(7630) quando foseno delibrà da questo felo marinaro.</l>
+            </lg>-->
+            <lg type="laisse" n="308">
+                <head>Laisse 308</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="308">
                 <head>Laisse 308</head>
                 <l n="7660">Yo tazo; devisato cosỳ, scham(p)asemo, bello amigo. </l>
@@ -11936,7 +12476,12 @@
                 <l n="7671">che y<ex rend="italic">n</ex> questo regno debe far miraclo asae.</l>
                 <l n="7672">Ancora no<ex rend="italic">n</ex>n-è ello nato, né apresso né al
                     nasimento."</l>
+            </lg>-->
+            <lg type="laisse" n="309">
+                <head>Laisse 309</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="309">
                 <head>Laisse 309</head>
                 <l n="7673">"È quỳ, bel fradelo, l'avenime<ex rend="italic">n</ex>to nuy
@@ -11980,7 +12525,12 @@
                 <l n="7702">de molte altry faty possa apreso dizea. </l>
                 <l n="7703">Hugo li <ex rend="italic">con</ex>te parte de zò ch'el avea al mondo</l>
                 <l n="7704">(7675) e zò ch'el va aquerire li dezea tuta la veritade.</l>
+            </lg>-->
+            <lg type="laisse" n="310">
+                <head>Laisse 310</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="310">
                 <head>Laisse 310</head>
                 <l n="7705">"Gran cossa è quela," li fra li respo<ex rend="italic"
@@ -12012,7 +12562,12 @@
                 <l n="7724"> (7695) Lo fra dize, "Dio à fato maraclo, questo ben sapiemo."</l>
                 <l n="7725">"E tuto cosỳ lo credo," lo <ex rend="italic">con</ex>te Ugo
                     responde.</l>
+            </lg>-->
+            <lg type="laisse" n="311">
+                <head>Laisse 311</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="311">
                 <head>Laisse 311</head>
                 <l n="7726">"Per Dio," zò dize li fra, "gran meravia me fazo,</l>
@@ -12035,7 +12590,12 @@
                 <l n="7741">Coloro lo guardò e dizeno, "P<ex rend="italic">er</ex> Dio chi fo
                     crozefizo,</l>
                 <l n="7742">non fo tal homo zamay de nostro lignazo."</l>
+            </lg>-->
+            <lg type="laisse" n="312">
+                <head>Laisse 312</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="312">
                 <head>Laisse 312</head>
                 <l n="7743">Hugo<ex rend="italic">n</ex> li <ex rend="italic">con</ex>tò
@@ -12054,7 +12614,12 @@
                 <l n="7753">la via siè longa a montare, nuy el sapiamo;</l>
                 <l n="7754">(7725) ben seremo lasy quando seremo lasù onda là sta</l>
                 <l n="7755">l'Archa da Nove, che tuto el mondo rasona." </l>
+            </lg>-->
+            <lg type="laisse" n="313">
+                <head>Laisse 313</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="313">
                 <head>Laisse 313</head>
                 <l n="7756">Dizendo ly fra, "El monte siè grevo d'andare</l>
@@ -12097,7 +12662,12 @@
                 <l n="7783">e ly grifon el pozo lor preseno (zosò) a devalare</l>
                 <l n="7784">(7755) per guardare la <ex rend="italic">con</ex>trà onda pastura el bon
                     destrero.</l>
+            </lg>-->
+            <lg type="laisse" n="314">
+                <head>Laisse 314</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="314">
                 <head>Laisse 314</head>
                 <l n="7785">Quando Ugo<ex rend="italic">n</ex> fo sopra la montagna
@@ -12164,7 +12734,12 @@
                 <l n="7834">(7805) se longa è la vostra y<ex rend="italic">n</ex>questa lor ve∙l
                     dirà la veritade</l>
                 <l n="7835">per altra maynera da lor no<ex rend="italic">n</ex> saperite. </l>
+            </lg>-->
+            <lg type="laisse" n="315">
+                <head>Laisse 315</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="315">
                 <head>Laisse 315</head>
                 <l n="7836">Dize el <ex rend="italic">con</ex>te a ly <num rend="smallcaps">.iii. </num> frate, "Y<ex
@@ -12184,7 +12759,12 @@
                 <l n="7846">e possa desso tuty davante a l'archa se'n vano.</l>
                 <l n="7847"> Suo hofizio fazea como sono achostumate,</l>
                 <l n="7848">e lor cantono desopra; più e più s'enforzano.</l>
+            </lg>-->
+            <lg type="laisse" n="316">
+                <head>Laisse 316</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="316">
                 <head>Laisse 316</head>
                 <l n="7849">(7820) Li chanty più adoncha se forza </l>
@@ -12207,7 +12787,12 @@
                 <l n="7862">che andare no<ex rend="italic">n</ex> sempona; perzò retenu se n'à,</l>
                 <l n="7863">la soa y<ex rend="italic">n</ex>questa <ex rend="italic">com</ex>plirà e
                         no<ex rend="italic">n</ex> lasaria mà.</l>
+            </lg>-->
+            <lg type="laisse" n="317">
+                <head>Laisse 317</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="317">
                 <head>Laisse 317</head>
                 <l n="7864">(7835) Quando li santy padre àno un pocho Ugo guardato, </l>
@@ -12273,7 +12858,12 @@
                 <l n="7904">(7875) apresso li àno mostrà segno d'omelitade;</l>
                 <l n="7905">volontera romaria <ex rend="italic">con</ex> lor s'el ge fose
                     destinato.</l>
+            </lg>-->
+            <lg type="laisse" n="318">
+                <head>Laisse 318</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="318">
                 <head>Laisse 318</head>
                 <l n="7906">Grande fo la festa, e grande fo l'obligazione </l>
@@ -12329,7 +12919,12 @@
                     cresea.</l>
                 <l n="7942">Cosỳ fa questo fiume, de vero lo sapiamo,</l>
                 <l n="7943">che como la cosa sia de zò dire no<ex rend="italic">n</ex> sapiamo."</l>
+            </lg>-->
+            <lg type="laisse" n="319">
+                <head>Laisse 319</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="319">
                 <head>Laisse 319</head>
                 <l n="7944">(7915) "Qui sono," dize li fraty, "de Dio el sacrete.</l>
@@ -12355,7 +12950,12 @@
                     montà.</l>
                 <l n="7960">A Dio acomanda li fraty e posa suo chamy pre<ex rend="italic"
                     >n</ex>dea.</l>
+            </lg>-->
+            <lg type="laisse" n="320">
+                <head>Laisse 320</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="320">
                 <head>Laisse 320</head>
                 <l n="7961">Ora se'n vene lo <ex rend="italic">con</ex>te, che no<ex
@@ -12399,7 +12999,12 @@
                 <l n="7988">nesun y<ex rend="italic">n</ex>pazo da quisty non avè trovato,</l>
                 <l n="7989">(7960) che Dio no<ex rend="italic">n</ex> ly <ex rend="italic"
                     >con</ex>sente chi sta y<ex rend="italic">n</ex> so altorio.</l>
+            </lg>-->
+            <lg type="laisse" n="321">
+                <head>Laisse 321</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="321">
                 <head>Laisse 321</head>
                 <l n="7990">Tanto chavalcò li bero esane,</l>
@@ -12438,7 +13043,12 @@
                 <l n="8013">che seneficha questo, che sono tanty hosele</l>
                 <l n="8014">(7985) chy chantono, che chanta e dize tanty bely s<ex rend="italic"
                         >er</ex>mone.</l>
+            </lg>-->
+            <lg type="laisse" n="322">
+                <head>Laisse 322</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="322">
                 <head>Laisse 322</head>
                 <l n="8015">Quando li bero avè sua horazione <ex rend="italic"
@@ -12470,7 +13080,12 @@
                 <l n="8035">Altry remesy y<ex rend="italic">n</ex>∙ n aira e altry y<ex
                         rend="italic">n</ex> tera, e chy più alto, più baso,</l>
                 <l n="8036"> e altry y<ex rend="italic">n</ex>n-abisso e travaia la lor vita."</l>
+            </lg>-->
+            <lg type="laisse" n="323">
+                <head>Laisse 323</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="323">
                 <head>Laisse 323</head>
                 <l n="8037">"Vasal," dize lo diavlo, "nuy che quỳ siamo</l>
@@ -12498,7 +13113,12 @@
                 <l n="8055">Dementro che quỳ siamo, nuy abiamo reposso;</l>
                 <l n="8056">reforzemo le nostre vosse a ben dire zò che posiamo,</l>
                 <l n="8057">tuto al loldo de Dio padre; zò volio che vuy sapiate."</l>
+            </lg>-->
+            <lg type="laisse" n="324">
+                <head>Laisse 324</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="324">
                 <head>Laisse 324</head>
                 <l n="8058">"Per fede," dize lo <ex rend="italic">con</ex>te, "bela
@@ -12557,7 +13177,12 @@
                 <l n="8097">se tu no<ex rend="italic">n</ex> sey neto e puro de toy pechà
                     mondane.</l>
                 <l n="8098">E se tu lo fay, charo l'avray <ex rend="italic">com</ex>prato."</l>
+            </lg>-->
+            <lg type="laisse" n="325">
+                <head>Laisse 325</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="325">
                 <head>Laisse 325</head>
                 <l n="8099">Quando Ugo avè la parola y<ex rend="italic">n</ex>tessa, </l>
@@ -12624,7 +13249,12 @@
                 <l n="8142">al suo Criatore a chy el l'avea prometuta.</l>
                 <l n="8143">Tuty cosỳ sono naty de la zente mala acostumata;</l>
                 <l n="8144">"Tera de promesione" s'apelava e cosỳ dizea.</l>
+            </lg>-->
+            <lg type="laisse" n="326">
+                <head>Laisse 326</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="326">
                 <head>Laisse 326</head>
                 <l n="8145">(8115) Li ber Ugo<ex rend="italic">n</ex> cavalcha, che paso
@@ -12651,7 +13281,12 @@
                 <l n="8159">mé de bon dire loldando la gloria maistà</l>
                 <l n="8160">(8130) no<ex rend="italic">n</ex> fina miga ello, tanto como l'usanza
                     avea.</l>
+            </lg>-->
+            <lg type="laisse" n="327">
+                <head>Laisse 327</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="327">
                 <head>Laisse 327</head>
                 <l n="8161">Hugo<ex rend="italic">n</ex> se leva yn astante e posa se
@@ -12687,7 +13322,12 @@
                 <l n="8182">e a salvamento tuo coro y<ex rend="italic">n</ex>dreto se'n tornarà.</l>
                 <l n="8183">Avante molty miracoly vederay</l>
                 <l n="8184">apena me nul tempo veduto non à."</l>
+            </lg>-->
+            <lg type="laisse" n="328">
+                <head>Laisse 328</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="328">
                 <head>Laisse 328</head>
                 <l n="8185">(8155) Quando olde zò Ugon, el se umelia; </l>
@@ -12719,7 +13359,12 @@
                 <l n="8207">e de li quatro fiume che de la fonte y<ex rend="italic">n</ex>sia</l>
                 <l n="8208">che parte tutta la tera. L'uno a nome Tigresy,</l>
                 <l n="8209">l'altro à nome Aufrates, l'altro Zordan, l'altro à nome Fision.</l>
+            </lg>-->
+            <lg type="laisse" n="329">
+                <head>Laisse 329</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="329">
                 <head>Laisse 329</head>
                 <l n="8210">(8180) "Hay, Dio," dize Ugo, "quỳ è bon demorare. </l>
@@ -12760,7 +13405,12 @@
                 <l n="8236">Gran tesoro valia chi∙l volese <ex rend="italic">con</ex>tare."</l>
                 <l n="8237">Lo <ex rend="italic">con</ex>te li prende e possa li prese a basare,</l>
                 <l n="8238">e posa y<ex rend="italic">n</ex> soa tascha le va metando.</l>
+            </lg>-->
+            <lg type="laisse" n="330">
+                <head>Laisse 330</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="330">
                 <head>Laisse 330</head>
                 <l n="8239">Da lor se parte lo <ex rend="italic">con</ex>te, e montò a
@@ -12785,7 +13435,12 @@
                 <l n="8252">e che molte animaly vede y<ex rend="italic">n</ex>sire del maro</l>
                 <l n="8253">che sovente fiade li fano gra<ex rend="italic">n</ex> travalia,</l>
                 <l n="8254"> e paura fano molte fiade a ly hosele.</l>
+            </lg>-->
+            <lg type="laisse" n="331">
+                <head>Laisse 331</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="331">
                 <head>Laisse 331</head>
                 <l n="8255">(8225) Per zascuna hora li osely lo defende, </l>
@@ -12812,7 +13467,12 @@
                 <l n="8272">che più de cento piage per li osely sosteny</l>
                 <l n="8273">per defendre lor corpo et del <ex rend="italic">con</ex>te
                     segnorile.</l>
+            </lg>-->
+            <lg type="laisse" n="332">
+                <head>Laisse 332</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="332">
                 <head>Laisse 332</head>
                 <l n="8274">Gran party de la note lo mesazer de Franzia </l>
@@ -12838,7 +13498,12 @@
                 <l n="8291">Duy grifon per luy no<ex rend="italic">n</ex> fano defesa,</l>
                 <l n="8292">che a lor medesmy non pono fare la guarda</l>
                 <l n="8293">per lo charego premero donda lor fono agrevate.</l>
+            </lg>-->
+            <lg type="laisse" n="333">
+                <head>Laisse 333</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="333">
                 <head>Laisse 333</head>
                 <l n="8294">Ly doy grifon sosteneno l'asaltare </l>
@@ -12858,7 +13523,12 @@
                 <l n="8304">p<ex rend="italic">er</ex> refreseare lo destrero. A pedonare s'è
                     meso,</l>
                 <l n="8305">(8275) per mé la rivera mena el destrero de presio.</l>
+            </lg>-->
+            <lg type="laisse" n="334">
+                <head>Laisse 334</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="334">
                 <head>Laisse 334</head>
                 <l n="8306">Cosỳ se'n vene Ugo<ex rend="italic">n</ex> che suo destrero
@@ -12877,7 +13547,12 @@
                 <l n="8315">(8285) a piè se'n va lo <ex rend="italic">con</ex>te, el suo caval mena. </l>
                 <l n="8316">Tanto è caminà ch'el no<ex rend="italic">n</ex> può andar apena</l>
                 <l n="8317">sparagnar el vole el zentil <ex rend="italic">con</ex>te sovrain.</l>
+            </lg>-->
+            <lg type="laisse" n="335">
+                <head>Laisse 335</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="335">
                 <head>Laisse 335</head>
                 <l n="8318">Va lo <ex rend="italic">con</ex>te Ugo<ex rend="italic"
@@ -12950,7 +13625,12 @@
                 <l n="8368">quando el vede cosỳ ch'el no∙l pò amazare,</l>
                 <l n="8369">la spa y<ex rend="italic">n</ex> la gola li va a cazare.</l>
                 <l n="8370">(8340) El corò ly parte e sy lo feze del tuto aterare.</l>
+            </lg>-->
+            <lg type="laisse" n="336">
+                <head>Laisse 336</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="336">
                 <head>Laisse 336</head>
                 <l n="8371"> Ora siè lo <ex rend="italic">con</ex>te del bon cavalo y<ex
@@ -12996,7 +13676,12 @@
                 <l n="8401">e pianze suo falime<ex rend="italic">n</ex>to e soa bocha se bate,</l>
                 <l n="8402">e chiamase y<ex rend="italic">n</ex> colpa, a Dio padre y<ex
                         rend="italic">n</ex> rende marzede.</l>
+            </lg>-->
+            <lg type="laisse" n="337">
+                <head>Laisse 337</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="337">
                 <head>Laisse 337</head>
                 <l n="8403">En zonechion se mete e guarda y<ex rend="italic">n</ex> suso, </l>
@@ -13037,7 +13722,12 @@
                 <l n="8435">(8405) de mey pechaty a ty me chiamo <ex rend="italic"
                     >con</ex>fuso."</l>
                 <l n="8436">Allora se leva, de pianzere tuto vento.</l>
+            </lg>-->
+            <lg type="laisse" n="338">
+                <head>Laisse 338</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="338">
                 <head>Laisse 338</head>
                 <l n="8437">De suo pregare se leva lo <ex rend="italic">con</ex>te
@@ -13081,7 +13771,12 @@
                 <l n="8464">fosemo deschazaty dal regno de gloria."</l>
                 <l n="8465">(8435) Lo <ex rend="italic">con</ex>te, quando l'entende, dotanza
                     avea.</l>
+            </lg>-->
+            <lg type="laisse" n="339">
+                <head>Laisse 339</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="339">
                 <head>Laisse 339</head>
                 <l n="8466">Dota∙se lo <ex rend="italic">con</ex>te e quelo li dize,
@@ -13103,7 +13798,12 @@
                 <l n="8479">Alora responde lo <ex rend="italic">con</ex>te, "Zà a Dio no∙l sente</l>
                 <l n="8480">(8450) che tal <ex rend="italic">com</ex>pagnia abia y<ex rend="italic"
                         >n</ex> queste besogne."</l>
+            </lg>-->
+            <lg type="laisse" n="340">
+                <head>Laisse 340</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="340">
                 <head>Laisse 340</head>
                 <l n="8481">Dize el falsso angelo, "De my doncha che faray? </l>
@@ -13158,7 +13858,12 @@
                 <l n="8523"><milestone n="129R" unit="fol."/>E quelo li responde: "Ora quỳ te
                     romaray;</l>
                 <l n="8524">oramay a toa ventura e tuo pericholo te lasy."</l>
+            </lg>-->
+            <lg type="laisse" n="341">
+                <head>Laisse 341</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="341">
                 <head>Laisse 341</head>
                 <l n="8525">(8495) Apresso queste parole responde lo barone: </l>
@@ -13217,7 +13922,12 @@
                 <l n="8570">che cosỳ sono destinaty da l'alto Dio de gloria,</l>
                 <l n="8571">(8540) e medessmo Aristotele lo vederay e soa <ex rend="italic"
                     >com</ex>pagnia.</l>
+            </lg>-->
+            <lg type="laisse" n="342">
+                <head>Laisse 342</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="342">
                 <head>Laisse 342</head>
                 <l n="8572">Lo <ex rend="italic">con</ex>te d'Alvergnia guardò l'ombra
@@ -13270,7 +13980,12 @@
                 <l n="8610">fuy filio d'Anchisy, e per nome m'apelo Aneas,</l>
                 <l n="8611">(8580) per quelo amore sonto y<ex rend="italic">n</ex> questo ardore
                         y<ex rend="italic">n</ex> la fornase."</l>
+            </lg>-->
+            <lg type="laisse" n="343">
+                <head>Laisse 343</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="343">
                 <head>Laisse 343</head>
                 <l n="8612">"Meravilia azo olduto," lo conte responde.</l>
@@ -13296,7 +14011,12 @@
                     piaze, costuie </l>
                 <l n="8629">no<ex rend="italic">n</ex>n-avrà posanza sopra ty niente;</l>
                 <l n="8630">sopra my pechadore, che al batesimo no<ex rend="italic">n</ex> fuy."</l>
+            </lg>-->
+            <lg type="laisse" n="344">
+                <head>Laisse 344</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="344">
                 <head>Laisse 344</head>
                 <l n="8631">(8600) Como donzela chi sta y<ex rend="italic">n</ex> grando
@@ -13333,7 +14053,12 @@
                 <l n="8659">E quelo responde, "De zò sonto yo dolente</l>
                 <l n="8660">se tu ay dobio de mi a to talente</l>
                 <l n="8661">(8630) Dio te ne done de my uno più sofiçente."</l>
+            </lg>-->
+            <lg type="laisse" n="345">
+                <head>Laisse 345</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="345">
                 <head>Laisse 345</head>
                 <l n="8662">Ora siè lo <ex rend="italic">con</ex>te sopresso de dotanza, </l>
@@ -13354,7 +14079,12 @@
                 <l n="8674">De ty me pesa che te vezo y<ex rend="italic">n</ex> balanza.</l>
                 <l n="8675">Pechà festy quando tu partisy de Franzia</l>
                 <l n="8676">(8645) che fay altruy dollore de toa meschiaza."</l>
+            </lg>-->
+            <lg type="laisse" n="346">
+                <head>Laisse 346</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="346">
                 <head>Laisse 346</head>
                 <l n="8677">De queste parole lo <ex rend="italic">con</ex>te Ugone li
@@ -13397,7 +14127,12 @@
                 <l n="8708">crede esere desperso quando lo santo li crida,</l>
                 <l n="8709">"Non dotar ponto! No<ex rend="italic">n</ex> poy esere y<ex
                         rend="italic">n</ex>ganato."</l>
+            </lg>-->
+            <lg type="laisse" n="347">
+                <head>Laisse 347</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="347">
                 <head>Laisse 347</head>
                 <l n="8710">Dize lo santo sperito, "Non dotar ponto</l>
@@ -13442,7 +14177,12 @@
                 <l n="8745">e starà quel diavlo dedentro (y<ex rend="italic">n</ex>) quele prede</l>
                 <l n="8746">(8915) e lo pilastro fu zà a sostenire quel re</l>
                 <l n="8747">che Charlomaino me∙l comandoe."</l>
+            </lg>-->
+            <lg type="laisse" n="348">
+                <head>Laisse 348</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="348">
                 <head>Laisse 348</head>
                 <l n="8748"><milestone n="132V" unit="fol."/>Quando tal parola y<ex
@@ -13495,7 +14235,12 @@
                 <l n="8789">e li anime sante che de ty preseno gra<ex rend="italic">n</ex>
                     piatà;</l>
                 <l n="8790">complire oramay l'ovra del to lavoro."</l>
+            </lg>-->
+            <lg type="laisse" n="349">
+                <head>Laisse 349</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="349">
                 <head>Laisse 349</head>
                 <l n="8791">(8760) Tuto ensemele com pizolo fante</l>
@@ -13534,7 +14279,12 @@
                 <l n="8818">che tu sey neto como fussy al batesimo al presente."</l>
                 <l n="8819">Alora se driza lo santo, li va signando,</l>
                 <l n="8820">alora chamina e lo santo sperito va davante.</l>
+            </lg>-->
+            <lg type="laisse" n="350">
+                <head>Laisse 350</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="350">
                 <head>Laisse 350</head>
                 <l n="8821">Cosỳ se'n vano p<ex rend="italic">er</ex> lo dese<ex
@@ -13596,7 +14346,12 @@
                 <l n="8866">che a Dio no<ex rend="italic">n</ex> piaze, lo re del paradiso;</l>
                 <l n="8867">segury nuy siamo al regno maledeto</l>
                 <l n="8868">pien de dolore e de travalie e de cride."</l>
+            </lg>-->
+            <lg type="laisse" n="351">
+                <head>Laisse 351</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="351">
                 <head>Laisse 351</head>
                 <l n="8869">Com queste parole che vuy y<ex rend="italic">n</ex>stesso
@@ -13628,7 +14383,12 @@
                 <l n="8891">y<ex rend="italic">n</ex> fogo e y<ex rend="italic">n</ex> fiama, y<ex
                         rend="italic">n</ex> dolore e y<ex rend="italic">n</ex> pianzere,</l>
                 <l n="8892">quelo che men∙n à tropo al suo volere."</l>
+            </lg>-->
+            <lg type="laisse" n="352">
+                <head>Laisse 352</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="352">
                 <head>Laisse 352</head>
                 <l n="8893">Lo <ex rend="italic">con</ex>te s'arestà a la parola scura, </l>
@@ -13646,7 +14406,12 @@
                 <l n="8903">e che da questo se guarde la umana natura</l>
                 <l n="8904">da presso soa morte d'entrare y<ex rend="italic">n</ex> queste ardure, </l>
                 <l n="8905">che may no<ex rend="italic">n</ex>n-ense chy pasa la pentura."</l>
+            </lg>-->
+            <lg type="laisse" n="353">
+                <head>Laisse 353</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="353">
                 <head>Laisse 353</head>
                 <l n="8906">(8865) E dize Ugo<ex rend="italic">n</ex>, "Vene questo a
@@ -13668,7 +14433,12 @@
                 <l n="8919">e quily che seguirano quela fede</l>
                 <l n="8920">zà li vederay y<ex rend="italic">n</ex>trare ben cento e tre,</l>
                 <l n="8921">(8880) che may non avrano forza de fare altruie.</l>
+            </lg>-->
+            <lg type="laisse" n="354">
+                <head>Laisse 354</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="354">
                 <head>Laisse 354</head>
                 <l n="8922">Dize lo <ex rend="italic">con</ex>te Ugo, "Più avante m'e<ex
@@ -13691,7 +14461,12 @@
                 <l n="8934">ensire porano quily che dedentro se lagna.</l>
                 <l n="8935">Gran tempo resembla che trabuchà siè lor travaià,</l>
                 <l n="8936">(8895) non sapio com el è; Eneas, ora a my l'ensegna." </l>
+            </lg>-->
+            <lg type="laisse" n="355">
+                <head>Laisse 355</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="355">
                 <head>Laisse 355</head>
                 <l n="8937">"Amicho," dize elo, "la porta che tu vedy là, </l>
@@ -13720,7 +14495,12 @@
                 <l n="8957">mé y<ex rend="italic">n</ex> la gloria soprana ancora y<ex rend="italic"
                         >n</ex>trarà;</l>
                 <l n="8958">de le tre parlemo e d∙i altry lasarà."</l>
+            </lg>-->
+            <lg type="laisse" n="356">
+                <head>Laisse 356</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="356">
                 <head>Laisse 356</head>
                 <l n="8959">"De queste tre porte, che davante dito yo t'azo, </l>
@@ -13764,7 +14544,12 @@
                 <l n="8992">Alor se feze lo segno de santa crosse</l>
                 <l n="8993">e possa Guielmo lo presse p<ex rend="italic">er</ex> li pany;</l>
                 <l n="8994">entrat'è dedentro al dolore destreto.</l>
+            </lg>-->
+            <lg type="laisse" n="357">
+                <head>Laisse 357</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="357">
                 <head>Laisse 357</head>
                 <l n="8995">Adessa y<ex rend="italic">n</ex>trat'è al paiesse criminale </l>
@@ -13796,7 +14581,12 @@
                 <l n="9018">soa conscienzia li mise y<ex rend="italic">n</ex> perigolo talle</l>
                 <l n="9019">como tu ay veduto et y<ex rend="italic">n</ex>tende tal batre, </l>
                 <l n="9020">zà no<ex rend="italic">n</ex> posano la note né∙l zorno."</l>
+            </lg>-->
+            <lg type="laisse" n="358">
+                <head>Laisse 358</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="358">
                 <head>Laisse 358</head>
                 <l n="9021">(8980) En le grande cride lo <ex rend="italic">con</ex>te Ugo
@@ -13821,7 +14611,12 @@
                 <l n="9036">(8995) e redopiarà alor el dolo e lor molesta,</l>
                 <l n="9037">esere voraveno perzò anchora a nasere.</l>
                 <l n="9038">Andemo y<ex rend="italic">n</ex>nanzo, altre cosse vederemo.</l>
+            </lg>-->
+            <lg type="laisse" n="359">
+                <head>Laisse 359</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="359">
                 <head>Laisse 359</head>
                 <l n="9039">En∙n altra y<ex rend="italic">n</ex>questa se messe lo <ex
@@ -13844,7 +14639,12 @@
                 <l n="9052">a recordarly le soue dolie, a respondre né sỳ né no. </l>
                 <l n="9053">Andamo y<ex rend="italic">n</ex>nanzo, che asay più ne trovaremo</l>
                 <l n="9054">penossa zenze com cride e com tenzone."</l>
+            </lg>-->
+            <lg type="laisse" n="360">
+                <head>Laisse 360</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="360">
                 <head>Laisse 360</head>
                 <l n="9055">Quando passà àno la prima tera</l>
@@ -13879,7 +14679,12 @@
                 <l n="9080">Dize lo sperito, "Costoro sono quily che seguene la bandera</l>
                 <l n="9081">(9040) de gran luxuria, per sotimity, p<ex rend="italic">er</ex> deve<ex
                         rend="italic">r</ex>se mainera."</l>
+            </lg>-->
+            <lg type="laisse" n="361">
+                <head>Laisse 361</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="361">
                 <head>Laisse 361</head>
                 <l n="9082">Hugon sospira e dize, "O alta paterna,</l>
@@ -13898,7 +14703,12 @@
                 <l n="9094">che fa zascun y<ex rend="italic">n</ex>trare y<ex rend="italic">n</ex>
                     tal luzerna</l>
                 <l n="9095">che vanagloria se chiama, per verità."</l>
+            </lg>-->
+            <lg type="laisse" n="362">
+                <head>Laisse 362</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="362">
                 <head>Laisse 362</head>
                 <l n="9096"><milestone n="138V" unit="fol."/>(9055) "Per
@@ -13924,7 +14734,12 @@
                 <l n="9111">(9070) che de tal pene zamay no<ex rend="italic">n</ex> y<ex
                         rend="italic">n</ex>sirano</l>
                 <l n="9112">fora a quel zorno che lor pena redopiarano."</l>
+            </lg>-->
+            <lg type="laisse" n="363">
+                <head>Laisse 363</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="363">
                 <head>Laisse 363</head>
                 <l n="9113">"Ancora te dicho, amicho, più avante</l>
@@ -13964,7 +14779,12 @@
                 <l n="9141">(9105) de la lor pena podite vedere lo certane</l>
                 <l n="9142">a qual ben torna tuto zò che lor àno lavorato,</l>
                 <l n="9143">si sono parente de zò che lor vano lavorando.</l>
+            </lg>-->
+            <lg type="laisse" n="364">
+                <head>Laisse 364</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="364">
                 <head>Laisse 364</head>
                 <l n="9144">Li zugadory chi zugono no<ex rend="italic">n</ex> fono</l>
@@ -13998,7 +14818,12 @@
                 <l n="9171">(9135) Così fazea al fradelo altretal covinente, </l>
                 <l n="9172">color sono fradely p<ex rend="italic">er</ex>menable e dolente</l>
                 <l n="9173">che per aver lor anima tradino.</l>
+            </lg>-->
+            <lg type="laisse" n="365">
+                <head>Laisse 365</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="365">
                 <head>Laisse 365</head>
                 <l n="9174">"Ylly àno gra<ex rend="italic">n</ex> travalia," dize lo
@@ -14028,7 +14853,12 @@
                 <l n="9193">Per quello pechà sonto y<ex rend="italic">n</ex> questo locho
                     salvazo."</l>
                 <l n="9194">Ugo<ex rend="italic">n</ex> responde, "Tu fessy gran falanza".</l>
+            </lg>-->
+            <lg type="laisse" n="366">
+                <head>Laisse 366</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="366">
                 <head>Laisse 366</head>
                 <l n="9195"><milestone n="140R" unit="fol."/>Dize lo <ex
@@ -14064,7 +14894,12 @@
                 <l n="9218">che a my perdone toa yra e∙l tuo venino,</l>
                 <l n="9219">tuto zò che l'omo no<ex rend="italic">n</ex> vale un∙n agoino,</l>
                 <l n="9220">che lo doveva domandare avante la mia fine.</l>
+            </lg>-->
+            <lg type="laisse" n="367">
+                <head>Laisse 367</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="367">
                 <head>Laisse 367</head>
                 <l n="9221">(9185) Lo <ex rend="italic">con</ex>te d'Alvergna a luy parlò
@@ -14086,7 +14921,12 @@
                 <l n="9232">Biastemano lor padre e quily che lor batezono,</l>
                 <l n="9233">bistemano la morte che a lo sorpresse,</l>
                 <l n="9234">"Zoiossy seresemo se zamay no<ex rend="italic">n</ex> fosemo nate."</l>
+            </lg>-->
+            <lg type="laisse" n="368">
+                <head>Laisse 368</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="368">
                 <head>Laisse 368</head>
                 <l n="9235">Lo bon sperito chi fo fiolo de Aimerigo </l>
@@ -14138,7 +14978,12 @@
                 <l n="9272">e no<ex rend="italic">n</ex> poseno sofrire lo tempo mendicho.</l>
                 <l n="9273">Se comtenta foseno de lor despeto,</l>
                 <l n="9274">apresso li martory foseno y<ex rend="italic">n</ex> celo cossỳ.</l>
+            </lg>-->
+            <lg type="laisse" n="369">
+                <head>Laisse 369</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="369">
                 <head>Laisse 369</head>
                 <l n="9275">Hugo<ex rend="italic">n</ex> domandò Eneas e dize, "E costoro </l>
@@ -14186,7 +15031,12 @@
                         rend="italic">n</ex>n-ardore,</l>
                 <l n="9308">zò sono la zente che molto sono pechadore</l>
                 <l n="9309">de gran pechaty sono e àno cometu orore.</l>
+            </lg>-->
+            <lg type="laisse" n="370">
+                <head>Laisse 370</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="370">
                 <head>Laisse 370</head>
                 <l n="9310">Quando de la nave sono y<ex rend="italic">n</ex>site e fora
@@ -14252,7 +15102,12 @@
                 <l n="9363">Y<ex rend="italic">n</ex>drè se guarda, tanto fo spaventà,</l>
                 <l n="9364">tute le magine de Dio l'avè biastemate,</l>
                 <l n="9365">zetando el va fiame per bocha e p<ex rend="italic">er</ex> nasso.</l>
+            </lg>-->
+            <lg type="laisse" n="371">
+                <head>Laisse 371</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="371">
                 <head>Laisse 371</head>
                 <l n="9366">(9330) Lo <ex rend="italic">con</ex>te d'Alvergnea guarda lo
@@ -14274,7 +15129,12 @@
                 <l n="9379">zò che domandate a my me <ex rend="italic">con</ex>venta fare,</l>
                 <l n="9380">portarò vuy oltra lo fiume che no<ex rend="italic">n</ex>n-è chiaro;</l>
                 <l n="9381">(9345) el è∙l vostro chamin, ben sazo el vostro afare."</l>
+            </lg>-->
+            <lg type="laisse" n="372">
+                <head>Laisse 372</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="372">
                 <head>Laisse 372</head>
                 <l n="9382">Lo santo celestriale et Eneas lo pro </l>
@@ -14299,7 +15159,12 @@
                 <l n="9399">en∙n altra guissa yo sono ben dese(d)roso</l>
                 <l n="9400"><milestone n="143V" unit="fol."/>de veder l'esere di cativy
                     dolorossy.</l>
+            </lg>-->
+            <lg type="laisse" n="373">
+                <head>Laisse 373</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="373">
                 <head>Laisse 373</head>
                 <l n="9401">Lo bon Guielmo, quando y<ex rend="italic">n</ex>tesso l'avea, </l>
@@ -14320,7 +15185,12 @@
                 <l n="9416">com quelo pasa tuty li dolor e strete.</l>
                 <l n="9417">(8380) Ançe che arivase Charon onda el dovea,</l>
                 <l n="9418">lo vin portò donda che vasal stete.</l>
+            </lg>-->
+            <lg type="laisse" n="374">
+                <head>Laisse 374</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="374">
                 <head>Laisse 374</head>
                 <l n="9419">"Bevite del vin," dize quelo chi l'à portado. </l>
@@ -14371,7 +15241,12 @@
                 <l n="9457">(9420) Mé per più cortesia zò che acomenzare</l>
                 <l n="9458"> lo conte li dize de quanto che cerchà elo sia,</l>
                 <l n="9459">cosỳ como l'istoria devisa e mostra.</l>
+            </lg>-->
+            <lg type="laisse" n="375">
+                <head>Laisse 375</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="375">
                 <head>Laisse 375</head>
                 <l n="9460">Guielmo chamina et Ugo<ex rend="italic">n</ex> lo segonda </l>
@@ -14410,7 +15285,12 @@
                 <l n="9483">Amicho," dize elo, "tu sey desopra la sponda</l>
                 <l n="9484">del grande abisso donda tute pene abonda."</l>
                 <l n="9485">A valé lo mena onda li danà afonda.</l>
+            </lg>-->
+            <lg type="laisse" n="376">
+                <head>Laisse 376</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="376">
                 <head>Laisse 376</head>
                 <l n="9486">Ora sonte y<ex rend="italic">n</ex>trà a la prima schala </l>
@@ -14441,7 +15321,12 @@
                     a querire piatade, </l>
                 <l n="9507">(9470) et yo medesmo azo pianto a reguardale."</l>
                 <l n="9508">Et elo responte, "Ben te serà <ex rend="italic">con</ex>tato."</l>
+            </lg>-->
+            <lg type="laisse" n="377">
+                <head>Laisse 377</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="377">
                 <head>Laisse 377</head>
                 <l n="9509">"Questo asembiame<ex rend="italic">n</ex>to che tu vedy y<ex
@@ -14480,7 +15365,12 @@
                 <l n="9535">Lo santo à dito, "Fenemo questo parlamento</l>
                 <l n="9536">a coluy romagna chy lavora acultame<ex rend="italic">n</ex>te</l>
                 <l n="9537">(9500) la achy parola ay no<ex rend="italic">n</ex> faly niente."</l>
+            </lg>-->
+            <lg type="laisse" n="378">
+                <head>Laisse 378</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="378">
                 <head>Laisse 378</head>
                 <l n="9538">Cosỳ se'n vano per mezo la tenembre, </l>
@@ -15155,7 +16045,11 @@
                         >n</ex> vale;</l>
                 <l n="10031">possa oltrapasono, pocho ly fano stallo.</l>
             </lg>
-<!--
+            <lg type="laisse" n="397">
+                <head>Laisse 397</head>
+                <l n="1">Forthcoming</l>
+            </lg>
+            <!--
             <lg type="laisse" n="397">
                 <head>Laisse 397</head>
                 <l n="10032">Apresso queste ovre che vuy oldite <ex rend="italic"
@@ -15216,7 +16110,12 @@
                 <l n="10078">Lasso che yo sonto perzò y<ex rend="italic">n</ex> questo afare,</l>
                 <l n="10079"><anchor resp="Rajna" n="10040"/>che doncha maie no<ex rend="italic">n</ex> lo volsy confesare, </l>
                 <l n="10080">danato yo sono y<ex rend="italic">n</ex> la pena più fera."</l>
+            </lg>-->          
+            <lg type="laisse" n="398">
+                <head>Laisse 398</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="398">
                 <head>Laisse 398</head>
                 <l n="10081">"Anchora entanto," dize Ruzero lo felone,</l>
@@ -15261,7 +16160,12 @@
                 <l n="10112">ly dragy li engiotise e∙l carbon li brusa;</l>
                 <l n="10113">Hugo<ex rend="italic">n</ex> pasò avante luy e soy compagnone, </l>
                 <l n="10114">(10075) d'altre gra<ex rend="italic">n</ex> pene asay atrovà n'ano.</l>
+            </lg>-->          
+            <lg type="laisse" n="399">
+                <head>Laisse 399</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="399">
                 <head>Laisse 399</head>
                 <l n="10115">Hugo<ex rend="italic">n</ex> reguardò per mezo la valé
@@ -15289,7 +16193,12 @@
                 <l n="10134">(10095) olzire le vole, mé lo pensero li è falito.</l>
                 <l n="10135">Perzò n'à dolo e le pene li sono cresute,</l>
                 <l n="10136">perzoch'el n'à sova volontà acompita."</l>
+            </lg>-->          
+            <lg type="laisse" n="400">
+                <head>Laisse 400</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="400">
                 <head>Laisse 400</head>
                 <l n="10137">"Ora guardate, fradelo, lo fiolo del re Filipon, </l>
@@ -15311,7 +16220,12 @@
                     vendeta;</l>
                 <l n="10151"> de zorno y<ex rend="italic">n</ex> zorno tal pene recollie."</l>
                 <l n="10152">A queste parole pasò oltra Ugone.</l>
+            </lg>-->          
+            <lg type="laisse" n="401">
+                <head>Laisse 401</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="401">
                 <head>Laisse 401</head>
                 <l n="10153">Hugo<ex rend="italic">n</ex> se'n va per la scura strada</l>
@@ -15331,7 +16245,12 @@
                 <l n="10164">(10125) quelo altro siè Gaino che tu vedy la carne fendre</l>
                 <l n="10165">che y<ex rend="italic">n</ex> Ronzeval tradỳ soy <ex rend="italic"
                         >com</ex>pagny e fe∙ly prendre."</l>
+            </lg>-->          
+            <lg type="laisse" n="402">
+                <head>Laisse 402</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="402">
                 <head>Laisse 402</head>
                 <l n="10166"><ex rend="italic"></ex> "Amicho Ugo<ex rend="italic">n</ex>,
@@ -15349,7 +16268,12 @@
                 <l n="10174">(10135) tra tuty costoro yo t'azo dito com verasse certa<ex
                         rend="italic">n</ex>za</l>
                 <l n="10175">che de l'Inferno àno la più credele stanzia.</l>
+            </lg>-->          
+            <lg type="laisse" n="403">
+                <head>Laisse 403</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="403">
                 <head>Laisse 403</head>
                 <l n="10176">Eneas dize al mesazo de Carlone: </l>
@@ -15370,7 +16294,12 @@
                 <l n="10187">El mio mesazo voio fornire da parte de lo y<ex rend="italic"
                     >m</ex>peradore</l>
                 <l n="10188">chy m'à tramesso a querire el gran trebuto."</l>
+            </lg>-->          
+            <lg type="laisse" n="404">
+                <head>Laisse 404</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="404">
                 <head>Laisse 404</head>
                 <l n="10189">(10150) "Ay Luzifero," zò dize el <ex rend="italic"
@@ -15411,7 +16340,12 @@
                 <l n="10216">e quelo che portare lo debe a salvamento</l>
                 <l n="10217">ch'el no<ex rend="italic">n</ex> può perire y<ex rend="italic">n</ex>
                     sỳ pesimo locho."</l>
+            </lg>-->          
+            <lg type="laisse" n="405">
+                <head>Laisse 405</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="405">
                 <head>Laisse 405</head>
                 <l n="10218">Quando lo daulo la parola y<ex rend="italic">n</ex>tende</l>
@@ -15455,7 +16389,12 @@
                 <l n="10249">(10210) Mete∙lo y<ex rend="italic">n</ex> la valisse apresso quelo che
                     tu li ma<ex rend="italic">n</ex>de."</l>
                 <l n="10250">Et cossỳ ello feze, posa lasono el parlamento.</l>
+            </lg>-->          
+            <lg type="laisse" n="406">
+                <head>Laisse 406</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="406">
                 <head>Laisse 406</head>
                 <l n="10251">Quando el <ex rend="italic">con</ex>te Ugo avè receuto el
@@ -15506,7 +16445,12 @@
                 <l n="10286">sopra lo descho, che zà suo fo al mondo: </l>
                 <l n="10287">ben la conosse, è tuta soa medesma doncha</l>
                 <l n="10288">meraclo ello n'à, no<ex rend="italic">n</ex> fa demostrasone.</l>
+            </lg>-->          
+            <lg type="laisse" n="407">
+                <head>Laisse 407</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="407">
                 <head>Laisse 407</head>
                 <l n="10289">(10250) Lo conte s'aseta, quando l'avè le ma<ex
@@ -15555,7 +16499,12 @@
                 <l n="10321">et Eneas y<ex rend="italic">n</ex> suo loco fo tornato.</l>
                 <l n="10322"><milestone n="159V" unit="fol."/>Davante l'alba parisente Ugo se
                     fo svegiato.</l>
+            </lg>-->          
+            <lg type="laisse" n="408">
+                <head>Laisse 408</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="408">
                 <head>Laisse 408</head>
                 <l n="10323"><ex rend="italic">A</ex>say lizero se trova, soa pina no<ex
@@ -15600,7 +16549,12 @@
                 <l n="10350">" E state seuramente, no<ex rend="italic">n</ex> ve dotate zà,</l>
                 <l n="10351">che Charlo Martelo sopra nuy poder no<ex rend="italic"
                     >n</ex>n-avrà."</l>
+            </lg>-->          
+            <lg type="laisse" n="409">
+                <head>Laisse 409</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="409">
                 <head>Laisse 409</head>
                 <l n="10352">Quando la parola y<ex rend="italic">n</ex>tende el <ex
@@ -15657,7 +16611,12 @@
                         y<ex rend="italic">n</ex> la tera</l>
                 <l n="10389">(10350) ben a luy aidera se...."</l>
                 <l n="10390">Coloro lo menò senza nula tardanza.</l>
+            </lg>-->          
+            <lg type="laisse" n="410">
+                <head>Laisse 410</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="410">
                 <head>Laisse 410</head>
                 <l n="10391">Desopra lo palazo color lo menà;</l>
@@ -15690,7 +16649,12 @@
                 <l n="10412">né ponto a la parola el no<ex rend="italic">n</ex> demostra;</l>
                 <l n="10413">el no<ex rend="italic">n</ex> pare ch'el sapia parlare; ancora moto
                         no<ex rend="italic">n</ex> dize.</l>
+            </lg>-->          
+            <lg type="laisse" n="411">
+                <head>Laisse 411</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="411">
                 <head>Laisse 411</head>
                 <l n="10414">(10375) Per bele parole la dona ly rasona; </l>
@@ -15718,7 +16682,12 @@
                 <l n="10431">costuy era mio signore Ugo, che Dio el n'à donato."</l>
                 <l n="10432"> Alora la∙l corse a basare sova fazia et soa p<ex rend="italic"
                     >er</ex>sona.</l>
+            </lg>-->          
+            <lg type="laisse" n="412">
+                <head>Laisse 412</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="412">
                 <head>Laisse 412</head>
                 <l n="10433">Quando dona Ynida conose so signore, </l>
@@ -15772,7 +16741,12 @@
                     aprosimate a loro!</l>
                 <l n="10471">Cosse sono speritabele, che elly no<ex rend="italic">n</ex> mostrano
                     tal tenor."</l>
+            </lg>-->          
+            <lg type="laisse" n="413">
+                <head>Laisse 413</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="413">
                 <head>Laisse 413</head>
                 <l n="10472">Lo conte parlò a lor zente altame<ex rend="italic">n</ex>te: </l>
@@ -15822,7 +16796,12 @@
                 <l n="10505">(10465) e le guarde de le porte a quily de l'osto el feze a sapere.</l>
                 <l n="10506">Tosto fo la novela portà a Carlo y<ex rend="italic">m</ex>
                     presente.</l>
+            </lg>-->          
+            <lg type="laisse" n="414">
+                <head>Laisse 414</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="414">
                 <head>Laisse 414</head>
                 <l n="10507"><ex rend="italic">P</ex>er l'osto fo la novela spanduta </l>
@@ -15846,7 +16825,12 @@
                 <l n="10521">(10480) Tuty fono armaty mé a piè sono venute;</l>
                 <l n="10522">un ramo de oliva y<ex rend="italic">n</ex> la man tenevano,</l>
                 <l n="10523">che paxe ben seneficha, zò era veritade.</l>
+            </lg>-->          
+            <lg type="laisse" n="415">
+                <head>Laisse 415</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="415">
                 <head>Laisse 415</head>
                 <l n="10524">Versso l'osto se'n vene da Ugo lo <ex rend="italic"
@@ -15899,7 +16883,12 @@
                 <l n="10556">(10515) che yo sonto vostro vasalo, e vuy site mio signore. </l>
                 <l n="10557">My comandate et yo e∙l farò a tute ore</l>
                 <l n="10558">se doncha may yo n'averò potere."</l>
+            </lg>-->          
+            <lg type="laisse" n="416">
+                <head>Laisse 416</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="416">
                 <head>Laisse 416</head>
                 <l n="10559">Quando l'emperadore soa parola y<ex rend="italic"
@@ -15959,7 +16948,12 @@
                 <l n="10598">(10555) mé a neun non conose nesun punto so sembia<ex rend="italic"
                         >n</ex>te;</l>
                 <l n="10599">li oiselety a chantare se deletano.</l>
+            </lg>-->          
+            <lg type="laisse" n="417">
+                <head>Laisse 417</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="417">
                 <head>Laisse 417</head>
                 <l n="10600">Lo <ex rend="italic">con</ex>te Ugon si parlò a Charlo
@@ -16018,7 +17012,12 @@
                     confortò e rason li mostra p<ex rend="italic">er</ex>ché</l>
                 <l n="10642">chi tuto zò dovea e<ex rend="italic">se</ex>re e zò era rason e
                     drito.</l>
+            </lg>-->          
+            <lg type="laisse" n="418">
+                <head>Laisse 418</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="418">
                 <head>Laisse 418</head>
                 <l n="10643">Hugo<ex rend="italic">n</ex> parle davante a la baronie, </l>
@@ -16055,7 +17054,12 @@
                     comenza la tenzone.</l>
                 <l n="10668">Quando Ugo lo vasalo el coro si omilia,</l>
                 <l n="10669">bona rason a tuty avè∙lo elo mostrà.</l>
+            </lg>-->          
+            <lg type="laisse" n="419">
+                <head>Laisse 419</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="419">
                 <head>Laisse 419</head>
                 <l n="10670">"Oldite signore," zò dize lo <ex rend="italic">con</ex>te
@@ -16112,7 +17116,12 @@
                     prendemo.</l>
                 <l n="10707">Tuto sia fato ora y<ex rend="italic">n</ex>drito e de razone,</l>
                 <l n="10708">al nome de Criste che queste ovre faremo."</l>
+            </lg>-->          
+            <lg type="laisse" n="420">
+                <head>Laisse 420</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="420">
                 <head>Laisse 420</head>
                 <l n="10709">"Per lo comun conseio, .<num rend="smallcaps">IIII</num>o. homeny alezeremo:</l>
@@ -16141,7 +17150,12 @@
                 <l n="10726">(10680) o cosse che siano de reprension molte grande.</l>
                 <l n="10727">De l'osto oramay devemo dire certanamente,</l>
                 <l n="10728">como serà departỳ de la lasedio de presente.</l>
+            </lg>-->          
+            <lg type="laisse" n="421">
+                <head>Laisse 421</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="421">
                 <head>Laisse 421</head>
                 <l n="10729"><ex rend="italic">A</ex>preso questo, signore, che vuy
@@ -16241,7 +17255,12 @@
                     carità.</l>
                 <l n="10806">Non dotate ponto che cose sono santefichate,</l>
                 <l n="10807">(10760) possa porite aconosere chel era soa bontà."</l>
+            </lg>-->          
+            <lg type="laisse" n="422">
+                <head>Laisse 422</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="422">
                 <head>Laisse 422</head>
                 <l n="10808"><ex rend="italic">L</ex>o gentil <ex rend="italic"
@@ -16271,7 +17290,12 @@
                 <l n="10826">De la vituuaria che li era aparechià quel zorno,</l>
                 <l n="10827">(10780) Dio rengraziò, <ex rend="italic">et</ex> tuto <ex rend="italic"
                         >con</ex>nose da loro.</l>
+            </lg>-->          
+            <lg type="laisse" n="423">
+                <head>Laisse 423</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="423">
                 <head>Laisse 423</head>
                 <l n="10828">Ora esta e romaso lo <ex rend="italic">con</ex>te apreso soa
@@ -16315,7 +17339,12 @@
                 <l n="10855">perzò lo nome de loro no<ex rend="italic">n</ex> dicho niente.</l>
                 <l n="10856">L'instoria dirazo asay tosto et brevemente;</l>
                 <l n="10857">(10810) ora fate paxe, signore, et olderite belamente.</l>
+            </lg>-->          
+            <lg type="laisse" n="424">
+                <head>Laisse 424</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="424">
                 <head>Laisse 424</head>
                 <l n="10858">Signory, state y<ex rend="italic">n</ex> paxe, che Dio ve
@@ -16357,7 +17386,12 @@
                 <l n="10884">zascun li va, possa li fo asentito,</l>
                 <l n="10885">che l'apostolo lỳ avea la donzela menata: </l>
                 <l n="10886">zà stasea sopra un baladore asetada. </l>
+            </lg>-->          
+            <lg type="laisse" n="425">
+                <head>Laisse 425</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="425">
                 <head>Laisse 425</head>
                 <l n="10887">(10840) Quando la polzela fo al baladore menada,</l>
@@ -16384,7 +17418,12 @@
                 <l n="10906"> De lor n'ano tenuty tenzo asay:</l>
                 <l n="10907">(10860) altry lolda Dio, altry dize tuta fiada,</l>
                 <l n="10908">"Nuy siamo ora çerte che siame y<ex rend="italic">n</ex>cantate."</l>
+            </lg>-->          
+            <lg type="laisse" n="426">
+                <head>Laisse 426</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="426">
                 <head>Laisse 426</head>
                 <l n="10909">Dize l'apostolo, "Ora y<ex rend="italic">n</ex>tendite a my,
@@ -16414,7 +17453,12 @@
                 <l n="10926">l'uno a drito a l'altro se ly mostrò el dito.</l>
                 <l n="10927">(10880) Perzò ponto lo <ex rend="italic">con</ex>te no<ex rend="italic"
                         >n</ex> presse argoio.</l>
+            </lg>-->          
+            <lg type="laisse" n="427">
+                <head>Laisse 427</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="427">
                 <head>Laisse 427</head>
                 <l n="10928">De le altre letre a vuy contarò a tempo,</l>
@@ -16444,7 +17488,12 @@
                 <l n="10949">com altra fiada yo lo vite sano, </l>
                 <l n="10950">più l'amaria cha fradelo ny parente."</l>
                 <l n="10951">A questo moto la letra avè fato fenimento.</l>
+            </lg>-->          
+            <lg type="laisse" n="428">
+                <head>Laisse 428</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="428">
                 <head>Laisse 428</head>
                 <l n="10952">(10905) Quando la novela fo per tuta spanta </l>
@@ -16464,7 +17513,12 @@
                 <l n="10963">"ad altre afare mia volontà siè mouda.</l>
                 <l n="10964">Atendite a zò ch'era per vuy alezuto."</l>
                 <l n="10965">Et ello se tase e tuty tasevano e mute.</l>
+            </lg>-->          
+            <lg type="laisse" n="429">
+                <head>Laisse 429</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="429">
                 <head>Laisse 429</head>
                 <l n="10966"> L'apostolo parlò al popolo e lor fono tasenta. </l>
@@ -16511,7 +17565,12 @@
                 <l n="10999">Pizolo homo el fo mé ardito e gaiardo e valente,</l>
                 <l n="11000">molto perfetamente fu amà da tuta soa zente,</l>
                 <l n="11001">sopra costuy pare che sorta sia zitada.</l>
+            </lg>-->          
+            <lg type="laisse" n="430">
+                <head>Laisse 430</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="430">
                 <head>Laisse 430</head>
                 <l n="11002">(10945) Dise l'apostolo, "E vuy avite signore. </l>
@@ -16538,7 +17597,12 @@
                 <l n="11018">la fia de Carlo Martelo chi avè nome Bellisor;</l>
                 <l n="11019">Tuty li baro zurono de tenire luy p<ex rend="italic">er</ex>
                     signore.</l>
+            </lg>-->          
+            <lg type="laisse" n="431">
+                <head>Laisse 431</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="431">
                 <head>Laisse 431</head>
                 <l n="11020">La corte sta sbandita e la gente se'n vano, </l>
@@ -16569,7 +17633,12 @@
                 <l n="11043">(10985) ch'el ne mande secorsso, e luy ne<ex rend="italic"
                     >n</ex>n-atende (zà) ponto,</l>
                 <l n="11044">sapiando che "Roma zà tenire no<ex rend="italic">n</ex> poremo."</l>
+            </lg>-->          
+            <lg type="laisse" n="432">
+                <head>Laisse 432</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="432">
                 <head>Laisse 432</head>
                 <l n="11045">I mesary se'n vano e no<ex rend="italic">n</ex> tardono
@@ -16621,7 +17690,12 @@
                 <l n="11080">Contra luy àno orgoio, e dize ly vilania,</l>
                 <l n="11081">né suo signore zà ponto no·l tene miga,</l>
                 <l n="11082">e no<ex rend="italic">n</ex> l'obedirano zamay a le lor vite.</l>
+            </lg>-->          
+            <lg type="laisse" n="433">
+                <head>Laisse 433</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="433">
                 <head>Laisse 433</head>
                 <l n="11083">(11025) Quando lo re Guielmo la parola oldea, </l>
@@ -16657,7 +17731,12 @@
                 <l n="11104">e tute y tempy en mia vita la mantirò</l>
                 <l n="11105">contra tuty quily che <ex rend="italic">con</ex>trariare la
                     vorano."</l>
+            </lg>-->          
+            <lg type="laisse" n="434">
+                <head>Laisse 434</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="434">
                 <head>Laisse 434</head>
                 <l n="11106">Le mesazere se'n vano e soa via solizitano; </l>
@@ -16696,7 +17775,12 @@
                         rend="italic">n</ex> fano.</l>
                 <l n="11133">(11075) Mé dovemo <ex rend="italic">con</ex>tare de la franzosa
                     zente.</l>
+            </lg>-->          
+            <lg type="laisse" n="435">
+                <head>Laisse 435</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="435">
                 <head>Laisse 435</head>
                 <l n="11134">Hugon vene a la corte <ex rend="italic">con</ex> tuta la
@@ -16730,7 +17814,12 @@
                 <l n="11157">zà per vuy niun mal sembiante no<ex rend="italic">n</ex> se mostre zà, </l>
                 <l n="11158">(11100) e lo y<ex rend="italic">m</ex>peradore l'i<ex rend="italic"
                         >n</ex>promese che tuto questo el farà."</l>
+            </lg>-->          
+            <lg type="laisse" n="436">
+                <head>Laisse 436</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="436">
                 <head>Laisse 436</head>
                 <l n="11159">Hugo<ex rend="italic">n</ex> se parte, ch'el no<ex
@@ -16744,7 +17833,12 @@
                 <l n="11165">"s'el vostro signore vuy lo lasate, ch'aze abaso."</l>
                 <l n="11166">Tanto li dize lo <ex rend="italic">con</ex>te de parole verase </l>
                 <l n="11167">che zascun promise de fare zò che a luy piase.</l>
+            </lg>-->          
+            <lg type="laisse" n="437">
+                <head>Laisse 437</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="437">
                 <head>Laisse 437</head>
                 <l n="11168">(11110) Le zente fono asembià per Ugo<ex rend="italic"
@@ -16756,7 +17850,12 @@
                 <l n="11173">(11115)<milestone n="173R" unit="fol."/>che a Parise veneno a
                     prendre lozamento;</l>
                 <l n="11174">Guielmo li feze onore a tute comunamente.</l>
+            </lg>-->          
+            <lg type="laisse" n="438">
+                <head>Laisse 438</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="438">
                 <head>Laisse 438</head>
                 <l n="11175">L'osto stete tre zornà y<ex rend="italic">n</ex>teramente. </l>
@@ -16788,7 +17887,12 @@
                 <l n="11194">sovente de lor <ex rend="italic">et</ex> molte fiade s'e<ex
                         rend="italic">n</ex> gabano.</l>
                 <l n="11195">Avere no<ex rend="italic">n</ex> pò de casamento, lo re zò sapiate;</l>
+            </lg>-->          
+            <lg type="laisse" n="439">
+                <head>Laisse 439</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="439">
                 <head>Laisse 439</head>
                 <l n="11196">Quando Guelmo vite che altro no<ex rend="italic">n</ex>
@@ -16832,7 +17936,12 @@
                     domandano lor zà,</l>
                 <l n="11219">cossa era desconosente, no<ex rend="italic">n</ex> credo che a Dio
                     piaserà."</l>
+            </lg>-->          
+            <lg type="laisse" n="440">
+                <head>Laisse 440</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="440">
                 <head>Laisse 440</head>
                 <l n="11220">A questa parola ly Franzose se lasano </l>
@@ -16874,7 +17983,12 @@
                 <l n="11248">(11190) e quelo afare remase; zascun andò alozare.</l>
                 <l n="11249">P<ex rend="italic">er</ex> la mità de la tera l'apostolo la partie</l>
                 <l n="11250">l'aqua del Tevre y<ex rend="italic">n</ex> doe parte la partie.</l>
+            </lg>-->          
+            <lg type="laisse" n="441">
+                <head>Laisse 441</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="441">
                 <head>Laisse 441</head>
                 <l n="11251">Da una parte del Tevre, Franzose alozava; </l>
@@ -16930,7 +18044,12 @@
                     aidito.</l>
                 <l n="11288">Lo re Guielmo se ride e dize, "Al nome de Dio."</l>
                 <l n="11289">(11230) De zò ch'el dovea fare soa zente avè domandato.</l>
+            </lg>-->          
+            <lg type="laisse" n="442">
+                <head>Laisse 442</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="442">
                 <head>Laisse 442</head>
                 <l n="11290">E quela note dedentro Roma franzose alozono, </l>
@@ -16983,7 +18102,12 @@
                 <l n="11329">(11270) Quily che a la guarda stano e romaseno</l>
                 <l n="11330">tute le fa renculare la franzosa zente.</l>
                 <l n="11331">Un altra schera adoncha tosto se'n vene.</l>
+            </lg>-->          
+            <lg type="laisse" n="443">
+                <head>Laisse 443</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="443">
                 <head>Laisse 443</head>
                 <l n="11332">Quando vano Franzose ly nostry soperchiare </l>
@@ -17022,7 +18146,12 @@
                 <l n="11359">(11300) "Fioly de putana, como site vuy y<ex rend="italic">n</ex>
                     fuga,</l>
                 <l n="11360">quando vuy fuzite per sì pocho afare?"</l>
+            </lg>-->          
+            <lg type="laisse" n="444">
+                <head>Laisse 444</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="444">
                 <head>Laisse 444</head>
                 <l n="11361">O el conose enscontro el signore di sarazine </l>
@@ -17055,7 +18184,12 @@
                 <l n="11386"><milestone n="176V" unit="fol."/>(Rajna179 right) La nostra zente
                     lì fano tropo ben quel zorno,</l>
                 <l n="11387">che desopra pagana zente avanzono tutora.</l>
+            </lg>-->          
+            <lg type="laisse" n="445">
+                <head>Laisse 445</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="445">
                 <head>Laisse 445</head>
                 <l n="11388">La terza schera de pagana zente </l>
@@ -17086,7 +18220,12 @@
                 <l n="11411">Non à cura che nesun romagna, anze àno chavalchà;</l>
                 <l n="11412">se quele schere porano miga romanire,</l>
                 <l n="11413">pocho li andarà; da possa lỳ romaneno.</l>
+            </lg>-->          
+            <lg type="laisse" n="446">
+                <head>Laisse 446</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="446">
                 <head>Laisse 446</head>
                 <l n="11414">(11355) Lo re Guielmo entra y<ex rend="italic">n</ex>
@@ -17111,7 +18250,12 @@
                     >n</ex>, che ben taia.</l>
                 <l n="11430">Ly Turche no<ex rend="italic">n</ex> pono più avere defessa;</l>
                 <l n="11431">in fuga sono mise a chy caze né chy è descavalcato.</l>
+            </lg>-->          
+            <lg type="laisse" n="447">
+                <head>Laisse 447</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="447">
                 <head>Laisse 447</head>
                 <l n="11432">Saraziny sono sconfite, no<ex rend="italic">n</ex> porite
@@ -17141,7 +18285,12 @@
                 <l n="11451">olzidando e prendando quily che se pono atrovare,</l>
                 <l n="11452">de i Alemagne el me coventa un pocho <ex rend="italic"
                     >con</ex>tare.</l>
+            </lg>-->          
+            <lg type="laisse" n="448">
+                <head>Laisse 448</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="448">
                 <head>Laisse 448</head>
                 <l n="11453">Ora lasemo di Franzose che la caza mantene;</l>
@@ -17208,7 +18357,12 @@
                 <l n="11497">se ne porite vuy donare a pizoly <ex rend="italic">et</ex> a gra<ex
                         rend="italic">n</ex>de."</l>
                 <l n="11498">Zascun di altre loldò questo parlamento.</l>
+            </lg>-->          
+            <lg type="laisse" n="449">
+                <head>Laisse 449</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="449">
                 <head>Laisse 449</head>
                 <l n="11499">(11440) Lo re reparò <ex rend="italic">et</ex> a soa zente
@@ -17240,7 +18394,12 @@
                     onor."</l>
                 <l n="11517">Et cosỳ feze senza nesun altro demoro,</l>
                 <l n="11518">posa lor sepelỳ y<ex rend="italic">n</ex> molte giesie mazore.</l>
+            </lg>-->          
+            <lg type="laisse" n="450">
+                <head>Laisse 450</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="450">
                 <head>Laisse 450</head>
                 <l n="11519">(11460) Possa a lor lozamente comuname<ex rend="italic"
@@ -17276,7 +18435,12 @@
                         rend="italic">con</ex>sieare po<ex rend="italic">n</ex>to,</l>
                 <l n="11542">né mitadore no<ex rend="italic">n</ex> vole esere p<ex rend="italic"
                         >er</ex> nula cason del mo<ex rend="italic">n</ex>do.</l>
+            </lg>-->          
+            <lg type="laisse" n="451">
+                <head>Laisse 451</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="451">
                 <head>Laisse 451</head>
                 <l n="11543">L'apostolo steva perzò y<ex rend="italic">n</ex> grande
@@ -17321,7 +18485,12 @@
                 <l n="11570">E l'apostolo cridò, "Guardate non fate forore.</l>
                 <l n="11571">Quely che comenzano tenzo, ne corano (a rem)ore fare</l>
                 <l n="11572">fora de mia grazia el serà tute hore."</l>
+            </lg>-->          
+            <lg type="laisse" n="452">
+                <head>Laisse 452</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="452">
                 <head>Laisse 452</head>
                 <l n="11573">Apresso queste hovre l'apostolo parlà:</l>
@@ -17352,7 +18521,12 @@
                 <l n="11594">(11535) per my loldo ne biaseme nula no<ex rend="italic">n</ex>
                     serà,</l>
                 <l n="11595">che medesmame<ex rend="italic">n</ex>te l'ovra si∙l manefestarà.</l>
+            </lg>-->          
+            <lg type="laisse" n="453">
+                <head>Laisse 453</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="453">
                 <l n="11596">"Se rason serà," l'apostolo responde, </l>
                 <l n="11597">"A tute vuy <num rend="smallcaps">.viii.</num>, <ex rend="italic">con</ex>seie domandemo,</l>
@@ -17388,7 +18562,12 @@
                 <l n="11619">(11560) ch'el grande dalmazo torne a la zente del mondo,</l>
                 <l n="11620">e<ex rend="italic">n</ex> dolore et y<ex rend="italic">n</ex> pianto
                     tuta <ex rend="italic">crist</ex>ianetà vedemo."</l>
+            </lg>-->          
+            <lg type="laisse" n="454">
+                <head>Laisse 454</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="454">
                 <l n="11621">Laisse 454 Possa lo <ex rend="italic">con</ex>te en zonichiò se mete, </l>
                 <l n="11622">a lagremare et a plurare Dio pur rechiama,</l>
@@ -17426,7 +18605,12 @@
                 <l n="11648">Se y<ex rend="italic">n</ex>tra vuy questo fate, bona hovra v'averỳ el
                     drito;</l>
                 <l n="11649">(11590) tal cossa podite fare che a Dio molto piazerà."</l>
+            </lg>-->          
+            <lg type="laisse" n="455">
+                <head>Laisse 455</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="455">
                 <l n="11650">Hugo<ex rend="italic">n</ex> olde la parola de l'agnello,
                     ben l'entendò, </l>
@@ -17467,7 +18651,12 @@
                     partire altramente,</l>
                 <l n="11675">de ii gran mal, lo me<ex rend="italic">n</ex> reio nuy pre<ex
                         rend="italic">n</ex>demo atanto."</l>
+            </lg>-->          
+            <lg type="laisse" n="456">
+                <head>Laisse 456</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="456">
                 <l n="11676">"Adoncha fate zò che yo dirazo, signore; </l>
                 <l n="11677">possa che altro no<ex rend="italic">n</ex> pò esere, ora prendamo lo
@@ -17520,7 +18709,12 @@
                 <l n="11712">Li re ve <ex rend="italic">con</ex>tarò, li altre me tazerò tutora;</l>
                 <l n="11713">lo re d'Engeltera e de Navara anchora,</l>
                 <l n="11714">(11655) e quelo de Bertagna e quelo d'Irlanda ancora.</l>
+            </lg>-->          
+            <lg type="laisse" n="457">
+                <head>Laisse 457</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="457">
                 <l n="11715">D'altra parte asay ge fo de noble zente, </l>
                 <l n="11716">lo re de Boieme e d'Ongaria simelmente,</l>
@@ -17561,7 +18755,12 @@
                 <l n="11743">re com re, ducha <ex rend="italic">con</ex> ducha similemente,</l>
                 <l n="11744">(11685) prinzipi e prinzipy, amira<ex rend="italic">n</ex>te <ex
                         rend="italic">con</ex> amirante.</l>
+            </lg>-->          
+            <lg type="laisse" n="458">
+                <head>Laisse 458</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="458">
                 <l n="11745">Zascun se trase a ferire similemente, </l>
                 <l n="11746">per no<ex rend="italic">n</ex> avere may nula represione.</l>
@@ -17618,78 +18817,83 @@
                 <l n="11781">sy che un de nuy romarà vivo solo."</l>
                 <l n="11782">A quela fiada feramente lo <ex rend="italic">con</ex>te lo requere</l>
                 <l n="11783">l'uno verso l'altro senza menazare. </l>
-                <l n="11784">(11725) Longamente dura quela gra<ex rend="italic">n</ex> baia,</l>
+                <l n="11784"><anchor resp="Rajna" n="11725"/> Longamente dura quela gra<ex rend="italic">n</ex> baia,</l>
                 <l n="11785">mé y<ex rend="italic">n</ex> la fin nesun no<ex rend="italic">n</ex> se
                     pò avantare,</l>
                 <l n="11786">che nesuna arma non àno che li posa aidare,</l>
                 <l n="11787">e·molte loche, lor corpo se vano a i<ex rend="italic">m</ex>piagare. </l>
                 <l n="11788">(Rajna 186 right)<milestone n="183R" unit="fol."/>Le piage son
                     grande, lo sangue prese ansire forte;</l>
-                <l n="11789">(11730) le budele del corpo tramby duy se fano volare.</l>
+                <l n="11789"><anchor resp="Rajna" n="11730"/> le budele del corpo tramby duy se fano volare.</l>
                 <l n="11790">Adoncha si s'è l'un da l'altro (de)partito</l>
                 <l n="11791">y<ex rend="italic">n</ex> piana tera andare se coventa asetare.</l>
                 <l n="11792">E chiamase y<ex rend="italic">n</ex> colpa a Dio, preseno a pregare</l>
                 <l n="11793">che abia marzé de l'anima, che più no<ex rend="italic">n</ex> pò
                     stare.</l>
-                <l n="11794">(11735) A quel moto se leva, molto grand è el pianto.</l>
+                <l n="11794"><anchor resp="Rajna" n="11735"/> A quel moto se leva, molto grand è el pianto.</l>
                 <l n="11795">L'apostolo sta como mato; li savy domanda,</l>
                 <l n="11796">e altre baron coreno tuty a guardare</l>
                 <l n="11797">ly duy campion che lor vedeno a tera stare,</l>
                 <l n="11798">come lor vano apreso a Ugo<ex rend="italic">n</ex> a rasonare.</l>
-                <l n="11799">(11740) Oldite, signore, como l'enstoria vene a narare:</l>
+                <l n="11799"><anchor resp="Rajna" n="11740"/> Oldite, signore, como l'enstoria vene a narare:</l>
                 <l n="11800">I lo vedono morto e de questo mondo pasare.</l>
+            </lg>-->          
+            <lg type="laisse" n="459">
+                <head>Laisse 459</head>
+                <l n="1">Forthcoming</l>
             </lg>
+            <!--
             <lg type="laisse" n="459">
                 <l n="11801">Oldite, signore, com l'enstoria tuta devisa:</l>
                 <l n="11802">trambe duy li baron la morte justizia.</l>
                 <l n="11803">Nesun non avè avantazo de quela y<ex rend="italic">m</ex>presa; </l>
-                <l n="11804">(11745) zacun zase a la tera desteso.</l>
+                <l n="11804"><anchor resp="Rajna" n="11745"/> zacun zase a la tera desteso.</l>
                 <l n="11805">En l'altro mondo Dio li faza marzede</l>
                 <l n="11806">azo che li baron porano vedere la certa<ex rend="italic">n</ex>za </l>
                 <l n="11807">de zò che sentenziare posano la justizia.</l>
                 <l n="11808">Lor guardono li ferite che sopra lo campo zasea;</l>
-                <l n="11809">(11750) tute le trovono morte e lo viso palito e bisso,</l>
+                <l n="11809"><anchor resp="Rajna" n="11750"/>(11750) tute le trovono morte e lo viso palito e bisso,</l>
                 <l n="11810">fora lo <ex rend="italic">com</ex>pagno d'Ugo<ex rend="italic">n</ex>
                     che ancora no<ex rend="italic">n</ex> era fenito.</l>
                 <l n="11811">Pocho avea de vivo, che la morte el <ex rend="italic">com</ex>bate;</l>
                 <l n="11812">adrito soa sienzia, com può dar sentenzia,</l>
                 <l n="11813">posa che Ugo<ex rend="italic">n</ex> no<ex rend="italic">n</ex> sente
                     né parla: niente no<ex rend="italic">n</ex> dize.</l>
-                <l n="11814">(11755) Esta del tuto quelo del zudegare la certisia,</l>
+                <l n="11814"><anchor resp="Rajna" n="11755"/> Esta del tuto quelo del zudegare la certisia,</l>
                 <l n="11815">como andase adoncha del vero la cossa.</l>
                 <l n="11816">Desopra Alemagne donò la corona,</l>
                 <l n="11817">mé Franzose romaseno anpossa franche.</l>
-            </lg>
+            </lg>-->
             <lg type="laisse" n="460">
-                <l n="11818">De quiste che son morte, Dio li faza perdone; </l>
-                <l n="11819">(11760) de l'omperio, Alemagne ne fo fato lo done.</l>
-                <l n="11820">Et loro lo receveno, a Dio benedizione;</l>
-                <l n="11821">zascun posa se meraviò de tal lizione.</l>
-                <l n="11822">La corte era bandita senza demorasone,</l>
-                <l n="11823"><milestone n="183V" unit="fol."/>zascun retorna verso de soy
-                    paiesse.</l>
-                <l n="11824">(11765) Altre ne fono alegre altre ne fo dolente;</l>
-                <l n="11825">doncha non vite tal perzeda ay homo vive<ex rend="italic">n</ex>te.</l>
-                <l n="11826">De tuta <ex rend="italic">crist</ex>ianetà le miore homene li
-                    morino;</l>
-                <l n="11827">fina a <num rend="smallcaps">.iiii.c.</num> any recoverate non serano.</l>
-                <l n="11828">De quily che pianzeno et che alegry ne fo,</l>
-                <l n="11829">(11770) sopra tute li altre, Franzose se lamentarano.</l>
-                <l n="11830">Da Roma se partino, e portono el corpo d'Ugon,</l>
-                <l n="11831">e sy lo feno seterare com molte grande procesion,</l>
-                <l n="11832">pur dedentro Alvergna a la soa maistra mason,</l>
-                <l n="11833">et Ynida ne morite per lo dolore del baron.</l>
-                <l n="11834">(11775) Per dedentro un molimento apreso del so <ex rend="italic"
-                        >com</ex>pagnon </l>
-                <l n="11835">l'anno elly metuta la zente del baron,</l>
-                <l n="11836">dizendo ch'el era santo cosỳ com dito v'abiamo,</l>
-                <l n="11837">e molte grande miracoly ello à fato demostranza.</l>
-                <l n="11838">Cosỳ fenỳ lo Roma sanator liale <ex rend="italic">con</ex>te Ugone:</l>
-                <l n="11839">(11780) vuy che l'avite olduto, Dio ve faza perdone,</l>
+                <l n="11818"><seg>De quiste</seg> che son morte, Dio li faza perdone; <note xml:id="t11818"/></l>
+                <l n="11819"><anchor resp="Rajna" n="11760"/><seg>de l'ompe</seg>rio, âlimagne ne fo fato lo done,</l>
+                <l n="11820"><seg>et loro lo re</seg>ceveno, a Dio benedizione;<note xml:id="t11820"/></l>
+                <l n="11821"><seg>zascun posa se</seg> meraviò de tal lizione.</l>
+                <l n="11822"><seg>La corte era ba</seg>ndita senza demorasone,</l>
+                <l n="11823"><milestone n="183V" unit="fol."/><seg>zascun retorna verso de soy
+                    paiesse.</seg></l>
+                <l n="11824"><anchor resp="Rajna" n="11765"/> <seg>Altre ne fono alegre altre ne fo dolente;</seg></l>
+                <l n="11825"><seg>doncha non vite tal perzeda  zamay homo vive<ex rend="italic">n</ex>te.</seg></l>
+                <l n="11826"><seg>De tuta <ex rend="italic">crist</ex>ianetà le miore homene li
+                    morino;</seg></l>
+                <l n="11827"><seg>fina a <num rend="smallcaps">.iiii.</num><hi rend="super">c.</hi> a</seg>ny recoverate non serano.</l>
+                <l n="11828"><seg>De quily che</seg> pianzeno et che ale<seg>gry ne fo,</seg></l>
+                <l n="11829"><anchor resp="Rajna" n="11770"/><seg>sopr</seg>a tute li altre, Franzose se lamen<seg>tarano.</seg></l>
+                <l n="11830"><seg>Da</seg> Roma se partino, e portono el corpo d'<seg>Ugon,</seg></l>
+                <l n="11831">e sy lo feno seterare com molte grande p<seg>rocesion,</seg><note xml:id="t11831"/></l>
+                <l n="11832">pur dedentro Alvergna a la soa maistra <seg>mason,</seg><note xml:id="t11832"/></l>
+                <l n="11833">et Ynida ne morite per lo dolore del bar<seg>on.</seg></l>
+                <l n="11834"><anchor resp="Rajna" n="11775"/> Per dedentro un molimento apreso del s<seg>o <ex rend="italic">
+                       com</ex>pagnon</seg></l>
+                <l n="11835">l'ànno elly metuta la zente del baron,</l>
+                <l n="11836">dizendo ch'el era santo cosỳ com dito v'ab<seg>iamo,</seg><note xml:id="t11836"/></l>
+                <l n="11837">e molte grande miracoly ello à fato de m<seg>ostranza.</seg></l>
+                <l n="11838">Cosỳ fenỳ lo roma' sanator liale <ex rend="italic">con</ex>te Ugon<seg>e:</seg><note xml:id="t11838"/></l>
+                <l n="11839"><anchor resp="Rajna" n="11780"/>vuy che l'avite olduto, Dio ve faza perdo<seg>ne,</seg><note xml:id="t11839"/></l>
                 <l n="11840">et my ch<ex rend="italic">e</ex> l'azo quỳ scrita, no<ex rend="italic"
-                        >n</ex> me faza danazione.</l>
-                <l n="11841">Ternus amen de .1441. die.6. de Feb<ex rend="italic">rar</ex>.</l>
-            </lg> -->
+                        >n</ex> me faza dana<seg>zione.</seg></l>
+                <l n="11841">Ternus amen de .1441. die.6. de Fe<seg>b<ex rend="italic">rar</ex>.</seg><note xml:id="t11841"/></l>
+            </lg>
         </body>
     </text>
 </TEI>
