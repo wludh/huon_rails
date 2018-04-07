@@ -5754,6 +5754,16 @@
                 <l n="4729">You'll go to her as soon as it pleases you,</l>
                 <l n="4730">And bring her a hundred greetings from the queen."</l>
             </lg>
+             <lg type="laisse" n="A">
+                <head>Laisse  A</head>
+                <l n="1">Laisse not present here but in T</l>
+                <!-- laisse  in T-->
+            </lg>
+            <lg type="laisse" n="B">
+                <head>Laisse  B</head>
+                <l n="1">Laisse not present here but in T</l>
+                <!-- laisse  in T-->
+            </lg>
             <lg type="laisse" n="179">
                 <head>Laisse 179</head>
                 <l n="4731">"[My] lords," said the king, "I have told you the best [thing to be
