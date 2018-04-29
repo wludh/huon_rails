@@ -5328,7 +5328,7 @@
         <l n="3656">Ceus oïrent la parolle si l'obeï totor;</l>
         <l n="3657">Tost firent ce qu'il dist, ne ni metre<ex rend="italic">n</ex>t longo<ex
             rend="italic">r</ex>;</l>
-        <l n="3658">La dame fu disp<ex rend="italic">er</ex>sé, avech li son segnor.</l>
+        <l n="3658">La dame fu disp<ex rend="italic">ar</ex>sé, avech li son segnor.</l>
         <l n="3659">Sor la place reune li g<ex rend="italic">ra</ex>nt <ex rend="italic">et</ex> li
           menor,</l>
         <l n="3660">De la beste sauvage en avre<ex rend="italic">n</ex>t mai<ex rend="italic"
@@ -6702,12 +6702,12 @@
         <l n="4712">Per vois ai trametus, si vos dirai coma<ex rend="italic">n</ex>t."</l>
       </lg>
       <lg type="laisse" n="A">
-      <head>Laisse  A</head>
+        <head>Laisse  A</head>
         <l n="1">Laisse not present here but in T</l>
         <!-- laisse  in T-->
       </lg>
       <lg type="laisse" n="B">
-      <head>Laisse  B</head>
+        <head>Laisse  B</head>
         <l n="1">Laisse not present here but in T</l>
         <!-- laisse  in T-->
       </lg>
@@ -6735,7 +6735,7 @@
         <l n="4729">Vois alirés por li q<ex rend="italic">ua</ex>nt il v'oit plasus,</l>
         <l n="4730">E da part la roine le portés <num rend="smallcaps">.c.</num> salus."</l>
       </lg>
-      <lg type="laisse" n="179">
+       <lg type="laisse" n="179">
         <head>Laisse 179</head>
         <l n="4731">"Segnors," ce dist le rois, "dit vos ai le meillor, </l>
         <l n="4732">Che Ynide vegne ensi avech ma uxor.</l>
@@ -10044,7 +10044,7 @@
             <l n="7426">En g<ex rend="italic">ra</ex>nt chativité ma vie finiray,</l>
             <l n="7427">Forfais mo<ex rend="italic">n</ex> Creator, bien le voy <ex rend="italic">et</ex> bien li say</l>
             <l n="7428">Qua<ex rend="italic">n</ex>t voy quera<ex rend="italic">n</ex>t ice q<ex rend="italic">ue</ex> anch no<ex rend="italic">n</ex> fi jamay.</l>
-            <l n="7429">P<ex rend="italic">er</ex> maintes beus exa<ex rend="italic">m</ex>ple Il demostreç me l'ay,</l>
+            <l n="7429">P<ex rend="italic">er</ex> maintes beus exa<ex rend="italic">m</ex>ple il demostreç me l'ay,</l>
             <l n="7430">De maintes g<ex rend="italic">ra</ex>nt p<ex rend="italic">er</ex>il, <ex rend="italic">et</ex> il scampeç si m'ay,</l>
             <l n="7431">Ni corocer n'i voil; mo<ex rend="italic">n</ex> cruaus, cor me·l fay.</l>
             <l n="7432">Ja moy le dist le pape <ex rend="italic">et</ex> P<ex rend="italic">re</ex>ste Jan, ge say,</l>
@@ -10062,11 +10062,6 @@
             <l n="7444">A celuy mot por la boce si day,</l>
             <l n="7445">Clame soy trist, <ex rend="italic">et</ex> pecheor asay.</l>
           </lg> 
-           <lg type="laisse" n="291">
-        <head>Laisse 291</head>
-        <l n="6">Forthcoming</l>
-           </lg>
-          <!--
           <lg type="laisse" n="291">
            <head>Laisse 291</head>
             <l n="7446">Plore des oil li quue<ex rend="italic">n</ex>s au cors ve<ex rend="italic">r</ex>ais;</l>
@@ -10090,51 +10085,41 @@
             <l n="7464">Salue<ex rend="italic">r</ex> le veut, mes cil p<ex rend="italic">ri</ex>me<ex rend="italic">r</ex> le fais.</l>
             <l n="7465">P<ex rend="italic">ri</ex>me<ex rend="italic">r</ex> l'oit salué; le quuens le me<ex rend="italic">r</ex>ciais, </l>
             <l n="7466">A man a ma<ex rend="italic">n</ex> a p<ex rend="italic">ri</ex>s, puis asistre<ex rend="italic">n</ex>t a ais.</l>
-            <l n="7467">De mout çonse rasone, <ex rend="italic">et</ex> d<ex rend="italic">e</ex> mout bel plais;</l>
+            <l n="7467">De mout çonse rasone, <ex rend="italic">et</ex> d<ex rend="italic">e</ex> mout bel plais; <note xml:id="b7467"/></l>
             <l n="7468">Le u<ex rend="italic">n</ex> repo<ex rend="italic">n</ex>t a l'aut<ex rend="italic">re</ex>, n<ex rend="italic">u</ex>lle teço<ex rend="italic">n</ex> il i ais,</l>
-            <l n="7469">Le un obeist l'aut<ex rend="italic">re</ex>; l'un parlle, l'aut<ex rend="italic">re</ex> tais.</l>
-          </lg>-->
-           <lg type="laisse" n="292">
-        <head>Laisse 292</head>
-        <l n="7">Forthcoming</l>
+            <l n="7469">Le un obeïst l'aut<ex rend="italic">re</ex>; l'un parlle, l'aut<ex rend="italic">re</ex> tais.</l>
            </lg>
-          <!--
-          <lg type="laisse" n="292">
+           <lg type="laisse" n="292">
            <head>Laisse 292</head>
             <l n="7470">"Ahi, joene," dit Hue, "tu is d<ex rend="italic">e</ex> belle façon;</l>
             <l n="7471">Pros <ex rend="italic">et</ex> sage te voy, <ex rend="italic">et</ex> conois bie<ex rend="italic">n</ex> rason.</l>
             <l n="7472">En bon leu repaireç; dites moy, te semo<ex rend="italic">n</ex>,</l>
             <l n="7473">Que moy dieç le voir, si rie<ex rend="italic">n</ex>s il e<ex rend="italic">n</ex> seit hon</l>
             <l n="7474"><milestone n="52Va" unit="fol."/>De cil mauvese leu q<ex rend="italic">ue</ex> ci dava<ex rend="italic">n</ex>t nos son.</l>
-            <l n="7475">Est il apelleç enfer ou a il aut<ex rend="italic">re</ex> non?</l>
+            <l n="7475">Est il apelleç enfer ou a il aut<ex rend="italic">re</ex> non? <note xml:id="b7475"/></l>
             <l n="7476">Il est mal repaireç <ex rend="italic">et</ex> nuls bien le veon."</l>
             <l n="7477">"Vos dites voir," fit il, "tot l'estre vos diron;</l>
             <l n="7478">La montagne q<ex rend="italic">ue</ex> vois arda<ex rend="italic">n</ex>t come stiçon,</l>
-            <l n="7479">Ce est un rame d'enfer, no<ex rend="italic">n</ex> pas le plus p<ex rend="italic">ro</ex>fon;</l>
+            <l n="7479">Ce est un rame d'enfer, no<ex rend="italic">n</ex> pas le plus p<ex rend="italic">ar</ex>fon;</l>
             <l n="7480">Aseç de tiel sembla<ex rend="italic">n</ex>ce par le siegle en son.</l>
             <l n="7481">En le g<ex rend="italic">ra</ex>nt enfer, en l'abisme plus felon,</l>
             <l n="7482">Par deça non passent l'a<ex rend="italic">r</ex>me d<ex rend="italic">e</ex> les bricon</l>
             <l n="7483">Que env<ex rend="italic">er</ex>s dou C<ex rend="italic">ri</ex>ator feit ont g<ex rend="italic">ra</ex>nt mesp<ex rend="italic">ri</ex>son;</l>
-            <l n="7484">Par aut<ex rend="italic">re</ex> voie vo<ex rend="italic">n</ex>t, cu<ex rend="italic">m</ex> plais a Diex d<ex rend="italic">e</ex>l tron.</l>
-            <l n="7485">Si Diex no<ex rend="italic">n</ex> fist miracle pa<ex rend="italic">r</ex> mostre algon</l>
+            <l n="7484">Par aut<ex rend="italic">re</ex> voie vo<ex rend="italic">n</ex>t, cu<ex rend="italic">m</ex> plais a Diex d<ex rend="italic">e</ex>l tron,</l>
+            <l n="7485">Si Diex no<ex rend="italic">n</ex> fist miracle pa<ex rend="italic">r</ex> mostre algon.</l>
             <l n="7486">Cestuy lou q<ex rend="italic">ue</ex> enci voy, plusor aut<ex rend="italic">re</ex> q<ex rend="italic">ue</ex> son</l>
-            <l n="7487">Sont feit por torme<ex rend="italic">n</ex>ter pa<ex rend="italic">r</ex>t d'espirit q<ex rend="italic">ue</ex> cheiro<ex rend="italic">n</ex>.</l>
-            <l n="7488">Une pa<ex rend="italic">r</ex>t ala a l'abisme, aseç to<ex rend="italic">r</ex>m<ex rend="italic">en</ex>t i avon,</l>
-            <l n="7489">L'aut<ex rend="italic">re</ex> remist en t<ex rend="italic">er</ex>re, l'aut<ex rend="italic">re</ex> en haïr se ston.</l>
+            <l n="7487">Sont feit por torme<ex rend="italic">n</ex>ter pa<ex rend="italic">r</ex>t d'espirit q<ex rend="italic">ue</ex> cheiro<ex rend="italic">n</ex>:</l>
+            <l n="7488">Une pa<ex rend="italic">r</ex>t ala a l'abisme, aseç to<ex rend="italic">r</ex>m<ex rend="italic">en</ex>t i avon;</l>
+            <l n="7489">L'aut<ex rend="italic">re</ex> remist en t<ex rend="italic">er</ex>re, l'aut<ex rend="italic">re</ex> en hair se ston.</l>
             <l n="7490">Qui or vousist co<ex rend="italic">n</ex>te<ex rend="italic">r</ex> tot, cu<ex rend="italic">m</ex> fuy i son,</l>
-            <l n="7491">Mout il aüst a dire, po<ex rend="italic">r</ex> ce me taiseron;</l>
-            <l n="7492">Dou q<ex rend="italic">ue</ex>re plus q<ex rend="italic">ue</ex> a vos ap<ex rend="italic">re</ex>non</l>
-            <l n="7493"> Fors qe asoil, veç li bien e·l mal q<ex rend="italic">ue</ex> i on.</l>
+            <l n="7491">Mout il aüst a dire, po<ex rend="italic">r</ex> ce me taiseron</l>
+            <l n="7492">Dou q<ex rend="italic">ue</ex>re plus q<ex rend="italic">ue</ex> a vos ap<ex rend="italic">re</ex>non.:<note xml:id="b7492"/></l>
+            <l n="7493"> Fors qe a soil veç li bien el mal q<ex rend="italic">ue</ex> i on.</l>
             <l n="7494">Dites moy de vos estre, s'il vos e<ex rend="italic">n</ex> plaist, p<ex rend="italic">ro</ex>do<ex rend="italic">n</ex>;</l>
             <l n="7495">Volonte<ex rend="italic">r</ex> vos co<ex rend="italic">n</ex>scile<ex rend="italic">r</ex>ay d<ex rend="italic">e</ex> ce q<ex rend="italic">ue</ex> nos savron."</l>
             <l n="7496">"G<ex rend="italic">ra</ex>nt m<ex rend="italic">er</ex>ci," feit li quue<ex rend="italic">n</ex>s, "e nos vos le diron."</l>
-          </lg>-->
-           <lg type="laisse" n="293">
-        <head>Laisse 293</head>
-        <l n="8">Forthcoming</l>
-           </lg>
-          <!--
-          <lg type="laisse" n="293">
+          </lg>
+         <lg type="laisse" n="293">
            <head>Laisse 293</head>
             <l n="7497">Quant li quue<ex rend="italic">n</ex>s d'Auv<ex rend="italic">er</ex>gne ot la pa<ex rend="italic">r</ex>olle oïe,</l>
             <l n="7498">Mout si conforta, e son dolor oblie;</l>
@@ -10142,16 +10127,16 @@
             <l n="7500">Ensi est il mes bie<ex rend="italic">n</ex>; no sa q<ex rend="italic">ue</ex> sie,</l>
             <l n="7501">Home mo<ex rend="italic">n</ex>dan cuide avoi<ex rend="italic">r</ex> t<ex rend="italic">r</ex>(o)vie.</l>
             <l n="7502">Mais de voi<ex rend="italic">r</ex>, conoiseç q<ex rend="italic">ue</ex> ce no<ex rend="italic">n</ex> e<ex rend="italic">r</ex>t il mie;</l>
-            <l n="7503">Anch'estoit més de Deu q<ex rend="italic">ue</ex> ensi l'a e<ex rend="italic">n</ex>v(o)gie</l>
+            <l n="7503">Anch estoit més de Deu q<ex rend="italic">ue</ex> ensi l'a e<ex rend="italic">n</ex>v(o)gie</l>
             <l n="7504">Por luy <ex rend="italic">con</ex>forter, dricer l'en bone vie.</l>
             <l n="7505">S'il le conoisist, sacés por veritie,</l>
             <l n="7506">Enve<ex rend="italic">r</ex>s de luy il fust pl<ex rend="italic">us</ex> adolcie;</l>
             <l n="7507">Mes cu<ex rend="italic">m</ex> home mondan le croit il tote fie.</l>
-            <l n="7508">Non p<ex rend="italic">er</ex> itant, aseç l'ont il honorie,</l>
-            <l n="7509">Mes a son greç da luy no<ex rend="italic">n</ex> fust sevrie.</l>
+            <l n="7508">Non p<ex rend="italic">or</ex> itant, aseç l'ont il honorie,</l>
+            <l n="7509">Mes a son greç da luy no<ex rend="italic">n</ex> fust sevrie;</l>
             <l n="7510">En g<ex rend="italic">ra</ex>nt repois avis li e<ex rend="italic">r</ex>t q<ex rend="italic">ue</ex> tot jo<ex rend="italic">r</ex> sie.</l>
             <l n="7511"><milestone n="52Vb" unit="fol."/>Son dangiere le quue<ex rend="italic">n</ex>s no<ex rend="italic">n</ex> prise u<ex rend="italic">n</ex>e fie;</l>
-            <l n="7512">E mai<ex rend="italic">n</ex>tes parolle le mist il satisfie.</l>
+           <l n="7512">E mai<ex rend="italic">n</ex>tes parolle le mist; i·l satisfie.</l>
             <l n="7513">Nostranema<ex rend="italic">n</ex>t l'en dist, come a hom me<ex rend="italic">n</ex>die,</l>
             <l n="7514">Mes en le aut<ex rend="italic">re</ex> çonse, forme<ex rend="italic">n</ex>t le req<ex rend="italic">ue</ex>rie,</l>
             <l n="7515">Que de tote soe queste l'en die la ve<ex rend="italic">r</ex>itie.</l>
@@ -10174,13 +10159,8 @@
             <l n="7532">Cum en luy ay ge tot ma sp<ex rend="italic">er</ex>ance gitie.</l>
             <l n="7533">Anch che sie pechere, del tot a luy me plie;</l>
             <l n="7534">Ensi moy gart, cu<ex rend="italic">m</ex> vo a bone fie."</l>
-          </lg>-->
+          </lg>
            <lg type="laisse" n="294">
-        <head>Laisse 294</head>
-        <l n="9">Forthcoming</l>
-           </lg>
-          <!--
-          <lg type="laisse" n="294">
            <head>Laisse 294</head>
             <l n="7535">Le jove<ex rend="italic">n</ex>cel respondi, "Ma<ex rend="italic">n</ex>tene<ex rend="italic">n</ex>t,</l>
             <l n="7536">Se ensi fenis cum ci ert co<ex rend="italic">n</ex>tent,</l>
@@ -10190,18 +10170,18 @@
             <l n="7540">De jor en jor en pechieç il se sent.</l>
             <l n="7541">Mout stove<ex rend="italic">n</ex>t estre de bone escient,</l>
             <l n="7542">Que da pechieç tot foy si gardoient.</l>
-            <l n="7543">Mes selonch le pooir q<ex rend="italic">ue</ex> chascu<ex rend="italic">n</ex>s atent</l>
+            <l n="7543">Mes selonch le pooir q<ex rend="italic">ue</ex> chascu<ex rend="italic">n</ex> s'atent</l>
             <l n="7544">Doit fer de bien tant cum il poent:</l>
             <l n="7545">A la fin se co<ex rend="italic">n</ex>quist le bon ovrement.</l>
-            <l n="7546">Si Diex en amés, Diex e<ex rend="italic">r</ex>t o toy de p<ex rend="italic">re</ex>sent;</l>
+            <l n="7546">Si Diex enamés, Diex e<ex rend="italic">r</ex>t o toy de p<ex rend="italic">re</ex>sent;</l>
             <l n="7547">S'altre ovreras, il para ensement.</l>
             <l n="7548"><milestone n="53Ra" unit="fol."/>Non par itant vos di ge voireme<ex rend="italic">n</ex>t,</l>
             <l n="7549">Que, a mon cuider, me par vais maleme<ex rend="italic">n</ex>t,</l>
             <l n="7550">E ton segnor que vais si reme<ex rend="italic">m</ex>brent</l>
             <l n="7551">Fist g<ex rend="italic">ra</ex>nt folie de cestuy encargement.</l>
             <l n="7552">A droit reison, selonch le mien scient,</l>
-            <l n="7553">N'ert deceu, si de ce no<ex rend="italic">n</ex> repent,</l>
-            <l n="7554">Par qui l'afair si g<ex rend="italic">ra</ex>nt cu<ex rend="italic">m</ex> ge vo porpe<ex rend="italic">n</ex>sent;</l>
+            <l n="7553">N'ert deceü, si de ce no<ex rend="italic">n</ex> repent,</l>
+             <l n="7554">Par qui l'afair si g<ex rend="italic">ra</ex>nt cu<ex rend="italic">m</ex> ge vo porpe<ex rend="italic">n</ex>sent;<note xml:id="b7554"/></l>
             <l n="7555">Del tot <ex rend="italic">con</ex>seiller non te say voirement.</l>
             <l n="7556">Fa che ages bon voloir en Diex o<ex rend="italic">n</ex>ipote<ex rend="italic">n</ex>t;</l>
             <l n="7557">Plus q<ex rend="italic">ue</ex> non cuides, Diex ame son s<ex rend="italic">er</ex>ve<ex rend="italic">n</ex>t.</l>
@@ -10225,14 +10205,14 @@
             <l n="7575">Qu'il ert esté més de Deu om<ex rend="italic">n</ex>ipotent.</l>
             <l n="7576">Lor bat soe coupe, parmi le piç se rent;</l>
             <l n="7577">Çaitif soi clame, dolant, malagurent,</l>
-            <l n="7578">Qua<ex rend="italic">n</ex>t n'oit eu por luy tant escient</l>
-            <l n="7579">Qui l'avist coneü ava<ex rend="italic">n</ex>t son p<ex rend="italic">ar</ex>time<ex rend="italic">n</ex>t;</l>
-            <l n="7580">Plus honoreç l'aüst de rien dou sigle vive<ex rend="italic">n</ex>t.</l>
+            <l n="7578">Qua<ex rend="italic">n</ex>t n'oit eü por luy tant escient</l>
+            <l n="7579">Qu'i l'avist coneü ava<ex rend="italic">n</ex>t son p<ex rend="italic">ar</ex>time<ex rend="italic">n</ex>t;</l>
+            <l n="7580">Plus honoreç l'aüst de rien dou sigle vive<ex rend="italic">n</ex>t</l>
             <l n="7581">E de maint aut<ex rend="italic">re</ex> riens l'aüst provent;</l>
             <l n="7582">Por ce cuida avoir ovré mot malame<ex rend="italic">n</ex>t.</l>
             <l n="7583">Pechaor si clame cu<ex rend="italic">m</ex> il mes plus poent; </l>
             <l n="7584">Plore des oil <ex rend="italic">et</ex> mout par fu dolent.</l>
-          </lg>-->
+          </lg>
            <lg type="laisse" n="295">
         <head>Laisse 295</head>
         <l n="10">Forthcoming</l>
