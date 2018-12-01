@@ -417,12 +417,12 @@
                 <l n="214">On that day the highest honor and prize</l>
                 <l n="215">Was won by the bold and valiant Berart,</l>
                 <l n="216">As on the following day and similarly on the third.</l>
-                <l n="217">But on the fourth day, the king was hoping that</l>
-                <l n="218">All the honor that Berart had won</l>
-                <l n="219">Would be struck down and completely wiped out.</l>
-                <l n="220">Armed with armor emblazoned with the fleur de lys</l>
-                <l n="221">He entered the battle, together with the marquis</l>
-                <l n="222">(That is, Huon, who has no hate for it)</l>
+                <l n="217">But on the fourth day, the king, hoping</l>
+                <l n="218">That the honor that Berart had won</l>
+                <l n="219">Would be struck down and completely wiped out,</l>
+                <l n="220">Armed with armor emblazoned with the fleur de lys,</l>
+                <l n="221">Entered the battle, together with the marquis</l>
+                <l n="222">--That is, Huon, who has no hate for it--</l>
                 <l n="223">Along with a hundred of the others whom he had chosen.</l>
                 <l n="224">The king struck hard at Count Baudoin,</l>
                 <l n="225">So that he knocked him off his good Moorish steed,</l>
@@ -2768,10 +2768,11 @@
                 <l n="2202">Bowed his head, and prayed:</l>
                 <l n="2203">"Ah, Lord God, Father, in your holy name,</l>
                 <l n="2204">[You] who made Heaven and earth and sea through division,</l>
-                <l n="2205">[Who made] the beasts and flying birds, fresh water and fish,</l>
+                <l n="2205">The beasts and flying birds, fresh water and fish,</l>
                 <l n="2206">And made Adam out of earth and mud</l>
                 <l n="2207">And gave him his earthly home to keep,</l>
                 <l n="2208">And to him, together with his wife whom you fashioned from his side,</l>
+                <!--NOTE Literally: [...] whom you drew from his side-->
                 <l n="2209">You gave authority over all except for one fruit,</l>
                 <l n="2210">And you commanded them not to touch it,</l>
                 <l n="2211">Because it was the fruit of mortal downfall.</l>
@@ -6358,7 +6359,7 @@
                 <head>Laisse 201</head>
                 <l n="5190">Ynide was in great sorrow, so Hugo fell silent.</l>
                 <l n="5191">The noble count Gautier of Clervant spoke up:</l>
-                <l n="5192">"Lady," he said, "you musn't be angry,</l>
+                <l n="5192">"Lady," he said, "you musn't get angry,</l>
                 <l n="5193">Rather you must be completely comforted,</l>
                 <l n="5194">For through tumult and through weighty matters,</l>
                 <l n="5195">And through pain and through trouble</l>
@@ -11249,100 +11250,109 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="9286">Is Purgatory; [those in Purgatory] have some great pain,</l>
                 <!--NOTE Cf. T 8956: <hi rend="italic">ly siè lo b</hi>orgatorio, e gran pene lor n'à; alternative translation: [...] it has a great bridge-->
                 <l n="9287">But will enter the sovereign glory one of these days.</l>
-                <l n="9288">We'll speak of the three; beyond that, I say, we'll let it drop."</l>
+                <l n="9288">We'll speak of the three; beyond that, we'll let [it] drop."</l>
                             </lg>
             <lg type="laisse" n="356">
                 <head>Laisse 356</head>
-                <l n="9289">Of these three gates before which I guide,</l>
+                <l n="9289">Of these three gates before which I have you,</l>
                 <l n="9290">Friend Huon, enter through the one that pleases you;</l>
-                <l n="9291">There you are going to see the torment of infidels</l>
-                <l n="9292">Either Christians, or [those following] the Jewish law,</l>
-                <l n="9293">Or see that one who is not of minor importance:</l>
+                <l n="9291">Either you want to see the torment of pagans</l>
+                <l n="9292">Or Christians, or [those following] the Jewish law,</l>
+                <l n="9293">Or see those who aren't of minor importance:</l>
                 <l n="9294">The Christian faith calls them heretics— </l>
+                <!--NOTE Patarenes were heretics in the Milan area in the eleventh century, the name comes from the dialect word for rags. They supported the movements against simony and nicolaitism. However, the name came to mean heretics in general, and sometimes Cathars, followers of a type of Manichaeism.-->
                 <l n="9295">Those who strive only to accomplish their desires,</l>
-                <l n="9296">Not to [do] any good work, unless it be for themselves.</l>
-                <l n="9297">It is the worst of the other [gates] that you see,</l>
-                <l n="9298">But it retracts the three roads to the devout shade."</l>
-                <l n="9299">Huon replied, "Everything in good faith,</l>
-                <l n="9300">My guide, my lord, my escort;</l>
+                <l n="9296">Not any good work, unless it be for themselves;</l>
+                <l n="9297">It is the worst of all those that you see.</l>
+                <l n="9298">But the three roads lead to error."</l>
+                <l n="9299">Huon replied in good faith:</l>
+                <l n="9300">"My guide, my lord, my escort,</l>
                 <l n="9301">I wish to enter," said Huon, "on this occasion</l>
-                <l n="9302">Where I might be able to find the one I know,</l>
-                <l n="9303">Who is within the Infernal Kingdom."</l>
+                <l n="9302">Where I might be able to find some whom I know,</l>
+                <l n="9303">Who are within the infernal kingdom."</l>
                 <l n="9304">The spirit said, "There are quite a few Greeks</l>
-                <l n="9305">And Alemans, Germans and French,</l>
-                <l n="9306">And Auvergnats, Gascons and Navarrois</l>
-                <l n="9307">And there have been quite a few from other strange lands."</l>
-                <l n="9308">The saintly spirit said, "Now I am going forward,</l>
+                <l n="9305">And Alemans, Teutons and French,</l>
+                <!--NOTE The Alamanni were a Germanic tribe that once occupied the location of modern Alsace and part of Switzerland. They were conquered by Clovis around 496 CE. The Teutons were a Germanic people identified in classical writings as living in what is now Scandinavia. They fought alongside other Germanic tribes against the expanding Roman republic and were defeated in the late second century BCE.-->
+                <l n="9306">And Auvergnats, Gascons and Navarrois,</l>
+                <l n="9307">And there have been quite a few from other foreign lands."</l>
+                <l n="9308">The saintly spirit said, "Now I'm going forward</l>
                 <l n="9309">In the name of God and of the Holy Cross:</l>
                 <l n="9310">As the sun makes the snow disappear,</l>
-                <l n="9311">So that it takes on neither its cold nor its blowing,</l>
+                <l n="9311">Because it values neither its cold nor its blowing,</l>
                 <l n="9312">In the very same way I shall make silent </l>
                 <l n="9313">All those within in the accursed kingdom."</l>
-                <l n="9314">The count of Auvergne said, "All this employs me,</l>
-                <l n="9315">To come with you, noble courtly spirit,</l>
-                <l n="9316">For in the life in which I am still being led,</l>
-                <l n="9317">You performed marvels with the good Viennese sword,</l>
-                <l n="9318">And while still alive you threw down on the gravel</l>
-                <l n="9319">That devil that was damaging your armor.</l>
-                <l n="9320">At present you are here in the north,</l>
-                <l n="9321">I must no longer fear the lost spirits;</l>
-                <l n="9322"><milestone n="65Ra" unit="fol."/>Lead me as you wish wherever you go."</l>
-                <l n="9323">Then he made the sign of the Holy Cross;</l>
-                <l n="9324">Next he took hold of William by the armor;</l>
-                <l n="9325">They entered within the dolorous prison.</l>
+                <l n="9314">The count of Auvergne said, "All this pleases me,</l>
+                <l n="9315">Coming with you, noble courtly spirit,</l>
+                <l n="9316">For in life--which I'm still in for the moment--</l>
+                <l n="9317">You performed marvels with your good Viennese sword,</l>
+                <l n="9318">And while still alive you threw down into a ravine</l>
+                <!--NOTE See Viscardi, pp. 1212-1213, for a translation of this passage.-->
+                <l n="9319">That devil that was damaging your construction.</l>
+                <!--NOTE See lines 9051-9061.-->
+                <l n="9320">At present you are here in the whirlwind</l>
+                <l n="9321">Of lost spirits; I don't have to be afraid anymore;</l>
+                <l n="9322"><milestone n="65Ra" unit="fol."/>Lead me as you wish wherever you want."</l>
+                <l n="9323">Then he crossed himself;</l>
+                <l n="9324">Next he took hold of William by his armor;</l>
+                <!--NOTE It seems Huon can touch William's armor but not the spirit himself.-->
+                <l n="9325">They entered the doleful prison.</l>
                             </lg>
             <lg type="laisse" n="357">
                 <head>Laisse 357</head>
                 <l n="9326">Thereupon they entered into the wicked country;</l>
-                <l n="9327">Faster than a bolt flies from a battle crossbow</l>
+                <l n="9327">Faster than an arrow flies from a handheld bow</l>
                 <l n="9328">They ran, the three of them, through a dark land.</l>
-                <l n="9329">His leg couldn't stay in one place;</l>
+                <l n="9329">[Huon] could hardly keep his balance;</l>
+                <!--NOTE Literally: His leg couldn't stand firm-->
                 <l n="9330">The count of Auvergne, who had fear in his heart,</l>
                 <l n="9331">Held on to Saint William from behind by the shoulders.</l>
-                <l n="9332">Once he was in the dolorous valley,</l>
-                <l n="9333">There were cries, sadness and noise there.</l>
-                <l n="9334">Had there been ten thousand catapults there</l>
-                <l n="9335">And all functioning and [doing so] all together</l>
-                <l n="9336">And as many crossbowmen and battle crossbows</l>
+                <l n="9332">Once he was in the doleful valley,</l>
+                <l n="9333">There were cries, pain and noise there.</l>
+                <l n="9334">Had there been ten thousand mangonels gathered</l>
+                <l n="9335">That were all prepared and all together</l>
+                <l n="9336">And as many crossbows and handheld bows</l>
                 <l n="9337">And ten thousand blacksmiths hammering with their hammers,</l>
-                <l n="9338">It would be just like hearing this;</l>
-                <l n="9339">[Also] like the surge of a little channel [of water],</l>
-                <l n="9340">Toward the sea when [it is] most swollen, I am not lying.</l>
-                <l n="9341">In that place there were cries and mortal torments,</l>
-                <l n="9342">Sharp sighs and the lamentation of affliction,</l>
-                <l n="9343">Auguries of death and of cruel blasphemers,</l>
-                <l n="9344">[As in the time] when one gave birth to the Heavenly King.</l>
+                <l n="9338">Hearing that would be exactly the same</l>
+                <l n="9339">As the flow of a little water channel</l>
+                <l n="9340">Toward the sea when it swells the most, without a doubt.</l>
+                <!--NOTE This long multiline comparison is stating that all that noise on earth would be as soft a sound as a little stream compared to the noise Huon is actually hearing.-->
+                <l n="9341">In that place there were cries and mortal grieving,</l>
+                <l n="9342">Sharp sighs and the laments of affliction,</l>
+                <l n="9343">Wishes for death and harsh accusations,</l>
+                <l n="9344">Since the Heavenly King caused them to be born.</l>
+                <!--NOTE Cf. <hi rend="italic">Inferno</hi> 3.103-105.-->
                 <l n="9345">Aeneas said, "Loyal man,</l>
-                <l n="9346">You are in an area of copper and of metal;</l>
+                <l n="9346">You are in an area of copper and metal;</l>
                 <l n="9347">These are the people who did neither good nor evil.</l>
-                <l n="9348">Their lives were like those of beasts,</l>
-                <l n="9349">Their conscience puts them in such misfortune,</l>
-                <l n="9350">As you have seen, it gets to such a din;</l>
-                <l n="9351">They never lay it down by night or by day.</l>
-                <l n="9352">Now look here; he who moves without hope suffers."</l>
+                <l n="9348">Their lives were like those of beasts;</l>
+                <!--NOTE Literally: [...] a bestial work-->
+                <l n="9349">Their conscience put them in this misfortune</l>
+                <l n="9350">As you have seen; it gets to such a din,</l>
+                <l n="9351">They never rest by night or by day.</l>
+                <l n="9352">Now may he who dies beware; he suffers without hope."</l>
                             </lg>
             <lg type="laisse" n="358">
                 <head>Laisse 358</head>
                 <l n="9353">Upon [hearing] the great wailing, Count Huon stopped,</l>
-                <l n="9354">He asked a question of the grieving Trojan:</l>
-                <l n="9355">"Gentle spirit, what people do you say these are,</l>
+                <l n="9354">He immediately asked a question of the Trojan:</l>
+                <l n="9355">"Noble spirit, what people do you say these are,</l>
                 <l n="9356">Who, with great wailing, make my head ring?"</l>
                 <l n="9357">"I say," he answered, "that they live like animals.</l>
-                <l n="9358">Now let the situation of their affair be told to you;</l>
-                <l n="9359"><milestone n="65Rb" unit="fol."/>The authority must be the same."</l>
-                <l n="9360">"Do they have any other pain," said the honest count,</l>
+                <l n="9358">Now I've told you about the nature of their situation;</l>
+                <l n="9359"><milestone n="65Rb" unit="fol."/>The force [of their punishment] must be equivalent."</l>
+                <l n="9360">"Don't they have any other pain," so said the honest count,</l>
                 <l n="9361">"Than the wailing, the weeping and the torment</l>
-                <l n="9362">That the catapult causes them, and the crossbowmen?"</l>
+                <l n="9362">That the mangonels and the crossbows cause them?"</l>
                 <l n="9363">"Because they are sure that for their entire existence</l>
                 <l n="9364">They will never leave here,</l>
                 <l n="9365">Except for that day when [His] Most High Majesty</l>
                 <l n="9366">Will conduct the painful inquiry about them,</l>
                 <l n="9367">When they will be placed at [His] left,</l>
                 <l n="9368">Then they will return with their mortal vestment,</l>
-                <l n="9369">And their sorrow and their torment will be doubled,</l>
-                <l n="9370">So that they'll wish to be born again!</l>
-                <!--NOTE What is implied is that they will wish they could start over and lead the kind of lives that would not have brought them this punishment in Hell.-->
-                <l n="9371">Let us go forward and we'll see other situations."</l>
+                <l n="9369">And their sorrow and their torment will be doubled.</l>
+                <l n="9370">For this reason they'll wish that they were yet to be born!</l>
+                <!--NOTE What is implied is that they'll wish they hadn't been born.-->
+                <l n="9371">Let's go forward and we'll see other situations."</l>
             </lg>
             <lg type="laisse" n="359">
                 <head>Laisse 359</head>
