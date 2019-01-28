@@ -15,6 +15,21 @@
                 <publisher>Washington and Lee University</publisher>
                 <pubPlace>Lexington, Virginia</pubPlace>
             </publicationStmt>
+            <notesStmt>
+                <note>Brief notes of editorial or codicological nature are contained in a separate
+                    .html file</note>
+                <note type="ling">Notes on linguistic phenomena.</note>
+                <note type="edit">Notes indicating editorial or scribal intervention</note>
+                <note type="interp">Note on interpretation or on literary and historical
+                    context.</note>
+                <note type="codic">Notes on the codicological and material state of the
+                    manuscript.</note>
+                <note type="refer">Notes that reference other primary sources.</note>
+                <note type="biblio">Notes that reference secondary sources.</note>
+                <note type="trans">Notes on previous scholars' transcriptions</note>
+                <note type="lex">Notes on words or expressions</note>
+                <note type="lit">Notes on literal translations where we differ substantially from original</note>
+            </notesStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <!-- xml:id ??? See Cummings 52 -->
