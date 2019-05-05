@@ -9,10 +9,10 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-01-27T17:35:53Z. .
-# TEI Edition: Version 3.2.0. Last updated on
-#	10th July 2017, revision 0fcf651
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
+# Schema generated from ODD source 2019-05-05T21:08:15Z. .
+# TEI Edition: Version 3.5.0. Last updated on
+#	29th January 2019, revision 3c0c64ec4
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
 #
 
 #
@@ -27,7 +27,11 @@ tei_macro.paraContent =
 tei_macro.limitedContent =
   (text | tei_model.limitedPhrase | tei_model.inter)*
 tei_macro.phraseSeq =
-  (text | tei_model.gLike | tei_model.phrase | tei_model.global)*
+  (text
+   | tei_model.gLike
+   | tei_model.qLike
+   | tei_model.phrase
+   | tei_model.global)*
 tei_macro.phraseSeq.limited =
   (text | tei_model.limitedPhrase | tei_model.global)*
 tei_macro.specialPara =
@@ -48,6 +52,12 @@ tei_att.ascribed.attribute.who =
   
   ## indicates the person, or group of people, to whom the element content is ascribed.
   attribute who {
+    list { xsd:anyURI+ }
+  }?
+tei_att.ascribed.directed.attribute.toWhom =
+  
+  ## indicates the person, or group of people, to whom a speech act or action is directed.
+  attribute toWhom {
     list { xsd:anyURI+ }
   }?
 tei_att.canonical.attributes =
@@ -114,7 +124,7 @@ tei_att.dimensions.attributes =
 tei_att.dimensions.attribute.unit =
   
   ## names the unit used for the measurement
-  ## Suggested values include: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches) ; 4] lines; 5] chars(characters) 
+  ## Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inches) ; 4] lines; 5] chars (characters) 
   attribute unit {
     
     ## (centimetres) 
@@ -172,7 +182,7 @@ tei_att.dimensions.attribute.scope =
 tei_att.written.attributes = tei_att.written.attribute.hand
 tei_att.written.attribute.hand =
   
-  ## points to a handNote element describing the hand considered responsible for the textual content of the element concerned.
+  ## points to a handNote element describing the hand considered responsible for the content of the element concerned.
   attribute hand { xsd:anyURI }?
 tei_att.damaged.attributes =
   tei_att.dimensions.attributes,
@@ -517,7 +527,6 @@ tei_att.global.responsibility.attribute.resp =
     list { xsd:anyURI+ }
   }?
 tei_att.editLike.attributes =
-  tei_att.dimensions.attributes,
   tei_att.editLike.attribute.evidence,
   tei_att.editLike.attribute.instant
 tei_att.editLike.attribute.evidence =
@@ -714,6 +723,13 @@ tei_att.naming.attribute.nymRef =
   ## (reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.
   attribute nymRef {
     list { xsd:anyURI+ }
+  }?
+tei_att.notated.attributes = tei_att.notated.attribute.notation
+tei_att.notated.attribute.notation =
+  
+  ## names the notation used for the content of the element.
+  attribute notation {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
 tei_att.placement.attributes = tei_att.placement.attribute.place
 tei_att.placement.attribute.place =
@@ -1130,7 +1146,7 @@ tei_model.listLike_sequence = tei_listWit
 tei_model.listLike_sequenceOptional = tei_listWit?
 tei_model.listLike_sequenceOptionalRepeatable = tei_listWit*
 tei_model.listLike_sequenceRepeatable = tei_listWit+
-tei_model.noteLike = tei_note | tei_witDetail
+tei_model.noteLike = tei_note
 tei_model.lLike = tei_l
 tei_model.lLike_alternation = tei_l
 tei_model.lLike_sequence = tei_l
@@ -1152,7 +1168,12 @@ tei_model.stageLike_sequenceRepeatable = notAllowed
 tei_model.entryPart = notAllowed
 tei_model.eventLike = notAllowed
 tei_model.global.edit =
-  tei_gap | tei_app | tei_addSpan | tei_damageSpan | tei_delSpan
+  tei_gap
+  | tei_app
+  | tei_witDetail
+  | tei_addSpan
+  | tei_damageSpan
+  | tei_delSpan
 tei_model.divPart = tei_model.lLike | tei_model.pLike | tei_lg
 tei_model.persStateLike = tei_persName | tei_persona
 tei_model.personPart =
@@ -1395,7 +1416,8 @@ tei_p =
   element p {
     tei_macro.paraContent
     >> sch:pattern [
-         id = "huon-schema-p-abstractModel-p-constraint-report-4"
+         id =
+           "huon-schema-p-abstractModel-structure-p-constraint-report-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1404,9 +1426,9 @@ tei_p =
            "               "
            sch:report [
              test =
-               "not(ancestor::floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
+               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
              "\x{a}" ~
-             "        Abstract model violation: Paragraphs may not contain other paragraphs or ab elements.\x{a}" ~
+             "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
              "      "
            ]
            "\x{a}" ~
@@ -1417,7 +1439,7 @@ tei_p =
        ]
     >> sch:pattern [
          id =
-           "huon-schema-p-abstractModel-structure-l-constraint-report-5"
+           "huon-schema-p-abstractModel-structure-l-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1448,14 +1470,17 @@ tei_hi =
     attribute rend {
       list {
         (
-         ## Describes black initials at laisse beginnings in Huon manuscirpts.
+         ## Describes and renders black initials at laisse beginnings in Huon manuscirpts.
          "black-initial"
          | 
-           ## Describes blue initials at laisse beginnings in Huon manuscirpts.
+           ## Describes and renders blue initials at laisse beginnings in Huon manuscripts.
            " blue-initial"
          | 
            ## Renders in bold Latin citations occuring within the text body.
            " bold"
+         | 
+           ## Describes and renders gold initials at laisse beginnings in Huon manuscripts
+           " gold-initial"
          | 
            ## Renders in italic words, phrases, and titles that occur in metadeta, notes, and documentation.
            " italic"
@@ -1463,16 +1488,16 @@ tei_hi =
            ## Renders non italic words or phrases that occur within a textual context that is italicized.
            " noitalic"
          | 
-           ## Describes red initials at laisse beginnings in Huon manuscirpts.
+           ## Describes and renders red initials at laisse beginnings in Huon manuscirpts.
            " red-initial"
          | 
-           ## Describes scribal error protocal in which words or phrases are struck through.
+           ## Describes and renders scribal error protocal in which words or phrases are struck through.
            " strike"
          | 
            ## Renders characters in superscript, most often occuring in roman numerals within the text.
            " super"
          | 
-           ## Describes scribal error protocal in which words or phrases are corrected in red.
+           ## Describes and renders scribal error protocal in which words or phrases are corrected in red.
            " red-corr")+
       }
     },
@@ -1483,6 +1508,7 @@ tei_q =
   ## (quoted) The q element wraps around citations embedded within the text. These citations are always Latin within the context of the epic, but may be English, French, German, Italian, or Franco-Italian within the body of a note element. [3.3.3. Quotation]
   element q {
     tei_macro.specialPara,
+    tei_att.ascribed.directed.attribute.toWhom,
     
     ## (language) indicates the language of the element content using a tag generated according to BCP 47.
     attribute xml:lang {
@@ -1585,56 +1611,7 @@ tei_corr =
 tei_choice =
   
   ## The choice element wraps around the corr and sic elements and permits the interface to offer either a diplomatic or an edited reading of the manuscript. [3.4. Simple Editorial Changes]
-  element choice { (tei_model.choicePart | tei_choice)* }
-  
-tei_gap =
-  
-  ## indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.4.3. Additions, Deletions, and Omissions]
-  element gap {
-    (tei_model.descLike | tei_model.certLike)*,
-    tei_att.global.attributes,
-    tei_att.timed.attributes,
-    tei_att.editLike.attributes,
-    
-    ## gives the reason for omission
-    ## Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 5] inaudible; 6] irrelevant; 7] sampling
-    attribute reason {
-      list {
-        (
-         ##
-         "cancelled"
-         | 
-           ##
-           "deleted"
-         | 
-           ## for features omitted from transcription due to editorial policy
-           "editorial"
-         | 
-           ##
-           "illegible"
-         | 
-           ##
-           "inaudible"
-         | 
-           ##
-           "irrelevant"
-         | 
-           ##
-           "sampling"
-         | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
-      }
-    }?,
-    
-    ## in the case of text omitted from the transcription because of deliberate deletion by an identifiable hand, indicates the hand which made the deletion.
-    attribute hand { xsd:anyURI }?,
-    
-    ## in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
-    ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
-    attribute agent {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-    }?,
-    empty
-  }
+  element choice { (tei_model.choicePart | tei_choice)+ }
 tei_add =
   
   ## (addition) Describes scribal emmendations added to the base text. These occur in one of five locations: above line, inline, below line, left margin, and right margin. [3.4.3. Additions, Deletions, and Omissions]
@@ -1693,16 +1670,30 @@ tei_unclear =
     tei_macro.paraContent,
     tei_att.global.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     
     ## indicates why the material is hard to transcribe.
+    ## Suggested values include: 1] illegible; 2] inaudible; 3] faded; 4] background_noise; 5] eccentric_ductus
     attribute reason {
       list {
-        xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+        (
+         ##
+         "illegible"
+         | 
+           ##
+           "inaudible"
+         | 
+           ##
+           "faded"
+         | 
+           ##
+           "background_noise"
+         | 
+           ##
+           "eccentric_ductus"
+         | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
       }
     }?,
-    
-    ## Where the difficulty in transcription arises from action (partial deletion, etc.) assignable to an identifiable hand, signifies the hand responsible for the action.
-    attribute hand { xsd:anyURI }?,
     
     ## Where the difficulty in transcription arises from damage, categorizes the cause of the damage, if it can be identified.
     ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
@@ -1773,7 +1764,7 @@ tei_postCode =
   element postCode { text, tei_att.global.attributes, empty }
 tei_num =
   
-  ## (number) The num element wraps roman numerals. [3.5.3. Numbers and
+  ## (number) The num element wraps roman numerals. As per Conseils... [3.5.3. Numbers and
   ## Measures]
   element num {
     tei_macro.phraseSeq,
@@ -1791,12 +1782,14 @@ tei_num =
   }
 tei_date =
   
-  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
+  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.7. Dates and Times]
   element date {
     (text | tei_model.gLike | tei_model.phrase | tei_model.global)*,
     tei_att.global.attributes,
+    tei_att.canonical.attributes,
     tei_att.datable.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     tei_att.typed.attributes,
     empty
   }
@@ -1808,6 +1801,7 @@ tei_time =
     tei_att.global.attributes,
     tei_att.datable.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     tei_att.typed.attributes,
     empty
   }
@@ -1929,6 +1923,7 @@ tei_gb =
     tei_att.typed.attributes,
     tei_att.spanning.attributes,
     tei_att.breaking.attributes,
+    tei_att.edition.attributes,
     empty
   }
 tei_cb =
@@ -2014,7 +2009,10 @@ tei_publisher =
   
   ## provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
   element publisher {
-    tei_macro.phraseSeq, tei_att.global.attributes, empty
+    tei_macro.phraseSeq,
+    tei_att.global.attributes,
+    tei_att.canonical.attributes,
+    empty
   }
 tei_pubPlace =
   
@@ -2056,7 +2054,7 @@ tei_l =
       | tei_model.global)*)
     >> sch:pattern [
          id =
-           "huon-schema-l-abstractModel-structure-l-constraint-report-6"
+           "huon-schema-l-abstractModel-structure-l-constraint-report-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2118,7 +2116,7 @@ tei_lg =
        ]
     >> sch:pattern [
          id =
-           "huon-schema-lg-abstractModel-structure-l-constraint-report-7"
+           "huon-schema-lg-abstractModel-structure-l-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2166,8 +2164,7 @@ tei_teiCorpus =
     tei_att.global.attributes,
     tei_att.typed.attributes,
     
-    ## The version of the TEI scheme
-    [ a:defaultValue = "5.0" ]
+    ## specifies the version number of the TEI Guidelines against which this document is valid.
     attribute version {
       xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
     }?,
@@ -2227,7 +2224,7 @@ tei_span =
   element span {
     tei_macro.phraseSeq.limited
     >> sch:pattern [
-         id = "huon-schema-span-targetfrom-constraint-report-8"
+         id = "huon-schema-span-targetfrom-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2249,7 +2246,7 @@ tei_span =
          "         "
        ]
     >> sch:pattern [
-         id = "huon-schema-span-targetto-constraint-report-9"
+         id = "huon-schema-span-targetto-constraint-report-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2271,7 +2268,7 @@ tei_span =
          "         "
        ]
     >> sch:pattern [
-         id = "huon-schema-span-tonotfrom-constraint-report-10"
+         id = "huon-schema-span-tonotfrom-constraint-report-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2292,7 +2289,7 @@ tei_span =
          "         "
        ]
     >> sch:pattern [
-         id = "huon-schema-span-tofrom-constraint-report-11"
+         id = "huon-schema-span-tofrom-constraint-report-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2518,7 +2515,7 @@ tei_idno =
         ## English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.
         "ESTC"
       | 
-        ## union catalog number in WorldCat representing a resource held by one or more of the member libraries in the global cooperative Online Computer Library Center.
+        ## OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.
         "OCLC"
       | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
@@ -2533,7 +2530,6 @@ tei_availability =
     tei_att.declarable.attributes,
     
     ## supplies a code identifying the current availability of the text.
-    [ a:defaultValue = "unknown" ]
     attribute status {
       
       ## the text is freely available.
@@ -2622,7 +2618,6 @@ tei_correction =
     tei_att.declarable.attributes,
     
     ## indicates the degree of correction applied to the text.
-    [ a:defaultValue = "unknown" ]
     attribute status {
       
       ## the text has been thoroughly checked and proofread.
@@ -2716,7 +2711,7 @@ tei_geoDecl =
     tei_att.declarable.attributes,
     
     ## supplies a commonly used code name for the datum employed.
-    ## Suggested values include: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Grid Reference System) ; 3] OSGB36(ordnance survey great britain) ; 4] ED50(European Datum coordinate system) 
+    ## Suggested values include: 1] WGS84 (World Geodetic System) ; 2] MGRS (Military Grid Reference System) ; 3] OSGB36 (ordnance survey great britain) ; 4] ED50 (European Datum coordinate system) 
     [ a:defaultValue = "WGS84" ]
     attribute datum {
       
@@ -2887,12 +2882,13 @@ tei_anchor =
 tei_seg =
   
   ## (arbitrary segment) The seg element wraps around text that has been reconstructed from the Pio Rajna Turin transcription, replacing text that was destroyed in the margins of T during the 1904 fire at the Biblioteca Nazionale di Torino. The seg element does not include any legal attributes. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
-  element seg { tei_macro.paraContent }
+  element seg {
+    tei_macro.paraContent, tei_att.notated.attributes, empty
+  }
 tei_att.msExcerpt.attributes = tei_att.msExcerpt.attribute.defective
 tei_att.msExcerpt.attribute.defective =
   
   ## indicates whether the passage being quoted is defective, i.e. incomplete through loss or damage.
-  [ a:defaultValue = "false" ]
   attribute defective {
     xsd:boolean
     | (
@@ -2926,7 +2922,7 @@ tei_msDesc =
   }
 tei_catchwords =
   
-  ## describes the system used to ensure correct ordering of the quires making up a codex or incunable, typically by means of annotations at the foot of the page. [10.3.7. Catchwords, Signatures, Secundo Folio]
+  ## describes the system used to ensure correct ordering of the quires or similar making up a codex, incunable, or other object typically by means of annotations at the foot of the page. [10.3.7. Catchwords, Signatures, Secundo Folio]
   element catchwords {
     tei_macro.phraseSeq
     >> sch:pattern [
@@ -2939,11 +2935,10 @@ tei_catchwords =
            "\x{a}" ~
            "               "
            sch:assert [
-             role = "nonfatal"
-             test = "ancestor::tei:msDesc"
-             "WARNING: deprecated use of element — The "
+             test = "ancestor::tei:msDesc or ancestor::tei:egXML"
+             "The "
              sch:name [ ]
-             " element will not be allowed outside of msDesc as of 2018-10-01."
+             " element should not be used outside of msDesc."
            ]
            "\x{a}" ~
            "            "
@@ -2960,7 +2955,7 @@ tei_dimensions =
   element dimensions {
     ((tei_model.dimLike)*)
     >> sch:pattern [
-         id = "huon-schema-dimensions-duplicateDim-constraint-report-12"
+         id = "huon-schema-dimensions-duplicateDim-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2982,7 +2977,7 @@ tei_dimensions =
          "         "
        ]
     >> sch:pattern [
-         id = "huon-schema-dimensions-duplicateDim-constraint-report-13"
+         id = "huon-schema-dimensions-duplicateDim-constraint-report-14"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3004,7 +2999,7 @@ tei_dimensions =
          "         "
        ]
     >> sch:pattern [
-         id = "huon-schema-dimensions-duplicateDim-constraint-report-14"
+         id = "huon-schema-dimensions-duplicateDim-constraint-report-15"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3070,7 +3065,7 @@ tei_heraldry =
   }
 tei_locus =
   
-  ## defines a location within a manuscript or manuscript part, usually as a (possibly discontinuous) sequence of folio references. [10.3.5. References to Locations within a Manuscript]
+  ## defines a location within a manuscript, manuscript part, or other object typically as a (possibly discontinuous) sequence of folio references. [10.3.5. References to Locations within a Manuscript]
   element locus {
     (text | tei_model.gLike | tei_hi | tei_locus)*,
     tei_att.global.attributes,
@@ -3102,18 +3097,19 @@ tei_material =
   }
 tei_origDate =
   
-  ## (origin date) contains any form of date, used to identify the date of origin for a manuscript or manuscript part. [10.3.1. Origination]
+  ## (origin date) contains any form of date, used to identify the date of origin for a manuscript, manuscript part, or other object. [10.3.1. Origination]
   element origDate {
     (text | tei_model.gLike | tei_model.phrase | tei_model.global)*,
     tei_att.global.attributes,
     tei_att.datable.attributes,
+    tei_att.dimensions.attributes,
     tei_att.editLike.attributes,
     tei_att.typed.attributes,
     empty
   }
 tei_origPlace =
   
-  ## (origin place) contains any form of place name, used to identify the place of origin for a manuscript or manuscript part. [10.3.1. Origination]
+  ## (origin place) contains any form of place name, used to identify the place of origin for a manuscript, manuscript part, or other object. [10.3.1. Origination]
   element origPlace {
     tei_macro.phraseSeq,
     tei_att.global.attributes,
@@ -3141,18 +3137,18 @@ tei_watermark =
   }
 tei_msIdentifier =
   
-  ## (manuscript identifier) contains the information required to identify the manuscript being described. [10.4. The Manuscript Identifier]
+  ## (manuscript identifier) contains the information required to identify the manuscript or similar object being described. [10.4. The Manuscript Identifier]
   element msIdentifier {
     ((tei_placeName?,
       tei_country?,
       tei_settlement?,
       tei_geogName?,
       tei_repository?,
-      tei_idno?),
+      tei_idno*),
      (tei_msName | tei_altIdentifier)*)
     >> sch:pattern [
          id =
-           "huon-schema-msIdentifier-msId_minimal-constraint-report-15"
+           "huon-schema-msIdentifier-msId_minimal-constraint-report-16"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3161,8 +3157,8 @@ tei_msIdentifier =
            "               "
            sch:report [
              test =
-               "not(parent::tei:msPart) and       (local-name(*[1])='idno' or       local-name(*[1])='altIdentifier' or       normalize-space(.)='')"
-             "An msIdentifier must contain either a repository or location of some type, or a manuscript name"
+               "not(parent::tei:msPart) and (local-name(*[1])='idno' or local-name(*[1])='altIdentifier' or normalize-space(.)='')"
+             "An msIdentifier must contain either a repository or location."
            ]
            "\x{a}" ~
            "            "
@@ -3175,7 +3171,7 @@ tei_msIdentifier =
   }
 tei_repository =
   
-  ## contains the name of a repository within which manuscripts are stored, possibly forming part of an institution. [10.4. The Manuscript Identifier]
+  ## contains the name of a repository within which manuscripts or other objects are stored, possibly forming part of an institution. [10.4. The Manuscript Identifier]
   element repository {
     tei_macro.xtext,
     tei_att.global.attributes,
@@ -3184,7 +3180,7 @@ tei_repository =
   }
 tei_altIdentifier =
   
-  ## (alternative identifier) contains an alternative or former structured identifier used for a manuscript, such as a former catalogue number. [10.4. The Manuscript Identifier]
+  ## (alternative identifier) contains an alternative or former structured identifier used for a manuscript or other object, such as a former catalogue number. [10.4. The Manuscript Identifier]
   element altIdentifier {
     (tei_placeName?,
      tei_country?,
@@ -3199,7 +3195,7 @@ tei_altIdentifier =
   }
 tei_msName =
   
-  ## (alternative name) contains any form of unstructured alternative name used for a manuscript, such as an ocellus nominum, or nickname. [10.4. The Manuscript Identifier]
+  ## (alternative name) contains any form of unstructured alternative name used for a manuscript or other object, such as an ocellus nominum, or nickname. [10.4. The Manuscript Identifier]
   element msName {
     (text | tei_model.gLike | tei_name)*,
     tei_att.global.attributes,
@@ -3208,7 +3204,7 @@ tei_msName =
   }
 tei_colophon =
   
-  ## contains the colophon of a manuscript item: that is, a statement providing information regarding the date, place, agency, or reason for production of the manuscript. [10.6.1. The msItem and msItemStruct Elements]
+  ## contains the colophon of an item: that is, a statement providing information regarding the date, place, agency, or reason for production of the manuscript or other object. [10.6.1. The msItem and msItemStruct Elements]
   element colophon {
     tei_macro.phraseSeq,
     tei_att.global.attributes,
@@ -3217,7 +3213,7 @@ tei_colophon =
   }
 tei_explicit =
   
-  ## contains the explicit of a manuscript item, that is, the closing words of the text proper, exclusive of any rubric or colophon which might follow it. [10.6.1. The msItem and msItemStruct Elements]
+  ## contains the explicit of a item, that is, the closing words of the text proper, exclusive of any rubric or colophon which might follow it. [10.6.1. The msItem and msItemStruct Elements]
   element explicit {
     tei_macro.phraseSeq,
     tei_att.global.attributes,
@@ -3237,7 +3233,7 @@ tei_finalRubric =
   }
 tei_incipit =
   
-  ## contains the incipit of a manuscript item, that is the opening words of the text proper, exclusive of any rubric which might precede it, of sufficient length to identify the work uniquely; such incipits were, in former times, frequently used a means of reference to a work, in place of a title. [10.6.1. The msItem and msItemStruct Elements]
+  ## contains the incipit of a manuscript or similar object item, that is the opening words of the text proper, exclusive of any rubric which might precede it, of sufficient length to identify the work uniquely; such incipits were, in former times, frequently used a means of reference to a work, in place of a title. [10.6.1. The msItem and msItemStruct Elements]
   element incipit {
     tei_macro.phraseSeq,
     tei_att.global.attributes,
@@ -3247,7 +3243,7 @@ tei_incipit =
   }
 tei_msContents =
   
-  ## (manuscript contents) describes the intellectual content of a manuscript or manuscript part, either as a series of paragraphs or as a series of structured manuscript items. [10.6. Intellectual Content]
+  ## (manuscript contents) describes the intellectual content of a manuscript, manuscript part, or other object either as a series of paragraphs or as a series of structured manuscript items. [10.6. Intellectual Content]
   element msContents {
     (tei_model.pLike+
      | (tei_textLang?, tei_titlePage?, (tei_msItem)*)),
@@ -3258,7 +3254,7 @@ tei_msContents =
   }
 tei_msItem =
   
-  ## (manuscript item) describes an individual work or item within the intellectual content of a manuscript or manuscript part. [10.6.1. The msItem and msItemStruct Elements]
+  ## (manuscript item) describes an individual work or item within the intellectual content of a manuscript, manuscript part, or other object. [10.6.1. The msItem and msItemStruct Elements]
   element msItem {
     ((tei_locus)*,
      (tei_model.pLike+
@@ -3272,7 +3268,7 @@ tei_msItem =
   }
 tei_rubric =
   
-  ## contains the text of any rubric or heading attached to a particular manuscript item, that is, a string of words through which a manuscript signals the beginning of a text division, often with an assertion as to its author and title, which is in some way set off from the text itself, usually in red ink, or by use of different size or type of script, or some other such visual device. [10.6.1. The msItem and msItemStruct Elements]
+  ## contains the text of any rubric or heading attached to a particular manuscript item, that is, a string of words through which a manuscript or other object signals the beginning of a text division, often with an assertion as to its author and title, which is in some way set off from the text itself, typically in red ink, or by use of different size or type of script, or some other such visual device. [10.6.1. The msItem and msItemStruct Elements]
   element rubric {
     tei_macro.phraseSeq,
     tei_att.global.attributes,
@@ -3282,7 +3278,7 @@ tei_rubric =
   }
 tei_physDesc =
   
-  ## (physical description) contains a full physical description of a manuscript or manuscript part, optionally subdivided using more specialized elements from the model.physDescPart class. [10.7. Physical Description]
+  ## (physical description) contains a full physical description of a manuscript, manuscript part, or other object optionally subdivided using more specialized elements from the model.physDescPart class. [10.7. Physical Description]
   element physDesc {
     (tei_model.pLike*,
      tei_objectDesc?,
@@ -3310,7 +3306,7 @@ tei_objectDesc =
   }
 tei_supportDesc =
   
-  ## (support description) groups elements describing the physical support for the written part of a manuscript. [10.7.1. Object Description]
+  ## (support description) groups elements describing the physical support for the written part of a manuscript or other object. [10.7.1. Object Description]
   element supportDesc {
     (tei_model.pLike+
      | (tei_support?,
@@ -3321,7 +3317,7 @@ tei_supportDesc =
     tei_att.global.attributes,
     
     ## a short project-defined name for the material composing the majority of the support
-    ## Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed
+    ## Suggested values include: 1] paper; 2] parch (parchment) ; 3] mixed
     attribute material {
       
       ##
@@ -3338,43 +3334,48 @@ tei_supportDesc =
   }
 tei_support =
   
-  ## contains a description of the materials etc. which make up the physical support for the written part of a manuscript. [10.7.1. Object Description]
+  ## contains a description of the materials etc. which make up the physical support for the written part of a manuscript or other object. [10.7.1. Object Description]
   element support {
     tei_macro.specialPara, tei_att.global.attributes, empty
   }
 tei_collation =
   
-  ## contains a description of how the leaves or bifolia are physically arranged. [10.7.1. Object Description]
+  ## contains a description of how the leaves, bifolia, or similar objects are physically arranged. [10.7.1. Object Description]
   element collation {
     tei_macro.specialPara, tei_att.global.attributes, empty
   }
 tei_foliation =
   
-  ## describes the numbering system or systems used to count the leaves or pages in a codex. [10.7.1.4. Foliation]
+  ## describes the numbering system or systems used to count the leaves or pages in a codex or similar object. [10.7.1.4. Foliation]
   element foliation {
     tei_macro.specialPara, tei_att.global.attributes, empty
   }
 tei_condition =
   
-  ## contains a description of the physical condition of the manuscript. [10.7.1.5. Condition]
+  ## contains a description of the physical condition of the manuscript or object. [10.7.1.5. Condition]
   element condition {
     tei_macro.specialPara, tei_att.global.attributes, empty
   }
 tei_layoutDesc =
   
-  ## (layout description) collects the set of layout descriptions applicable to a manuscript. [10.7.2. Writing, Decoration, and Other Notations]
+  ## (layout description) collects the set of layout descriptions applicable to a manuscript or other object. [10.7.2. Writing, Decoration, and Other Notations]
   element layoutDesc {
     (tei_model.pLike+ | tei_layout+), tei_att.global.attributes, empty
   }
 tei_layout =
   
-  ## describes how text is laid out on the page, including information about any ruling, pricking, or other evidence of page-preparation techniques. [10.7.2. Writing, Decoration, and Other Notations]
+  ## describes how text is laid out on the page or surface of the object, including information about any ruling, pricking, or other evidence of page-preparation techniques. [10.7.2. Writing, Decoration, and Other Notations]
   element layout {
     tei_macro.specialPara,
     tei_att.global.attributes,
     
     ## specifies the number of columns per page
     attribute columns {
+      list { xsd:nonNegativeInteger, xsd:nonNegativeInteger? }
+    }?,
+    
+    ## (textual streams) indicates the number of streams per page, each of which contains an independent textual stream
+    attribute streams {
       list { xsd:nonNegativeInteger, xsd:nonNegativeInteger? }
     }?,
     
@@ -3391,7 +3392,7 @@ tei_layout =
   }
 tei_handDesc =
   
-  ## (description of hands) contains a description of all the different kinds of writing used in a manuscript. [10.7.2. Writing, Decoration, and Other Notations]
+  ## (description of hands) contains a description of all the different hands used in a manuscript or other object. [10.7.2. Writing, Decoration, and Other Notations]
   element handDesc {
     (tei_model.pLike+ | tei_handNote+),
     tei_att.global.attributes,
@@ -3402,19 +3403,19 @@ tei_handDesc =
   }
 tei_scriptDesc =
   
-  ## contains a description of the scripts used in a manuscript or similar source. [10.7.2.1. Writing]
+  ## contains a description of the scripts used in a manuscript or other object. [10.7.2.1. Writing]
   element scriptDesc {
     (tei_model.pLike+ | empty), tei_att.global.attributes, empty
   }
 tei_decoDesc =
   
-  ## (decoration description) contains a description of the decoration of a manuscript, either as a sequence of paragraphs, or as a sequence of topically organized decoNote elements. [10.7.3. Bindings, Seals, and Additional Material]
+  ## (decoration description) contains a description of the decoration of a manuscript or other object, either as in paragraphs, or as one or more decoNote elements. [10.7.3. Bindings, Seals, and Additional Material]
   element decoDesc {
     (tei_model.pLike+ | tei_decoNote+), tei_att.global.attributes, empty
   }
 tei_decoNote =
   
-  ## (note on decoration) contains a note describing either a decorative component of a manuscript, or a fairly homogenous class of such components. [10.7.3. Bindings, Seals, and Additional Material]
+  ## (note on decoration) contains a note describing either a decorative component of a manuscript or other object, or a fairly homogenous class of such components. [10.7.3. Bindings, Seals, and Additional Material]
   element decoNote {
     tei_macro.specialPara,
     tei_att.global.attributes,
@@ -3423,13 +3424,13 @@ tei_decoNote =
   }
 tei_additions =
   
-  ## contains a description of any significant additions found within a manuscript, such as marginalia or other annotations. [10.7.2. Writing, Decoration, and Other Notations]
+  ## contains a description of any significant additions found within a manuscript or other object, such as marginalia or other annotations. [10.7.2. Writing, Decoration, and Other Notations]
   element additions {
     tei_macro.specialPara, tei_att.global.attributes, empty
   }
 tei_bindingDesc =
   
-  ## (binding description) describes the present and former bindings of a manuscript, either as a series of paragraphs or as a series of distinct binding elements, one for each binding of the manuscript. [10.7.3.1. Binding Descriptions]
+  ## (binding description) describes the present and former bindings of a manuscript or other object, either as a series of paragraphs or as a series of distinct binding elements, one for each binding of the manuscript. [10.7.3.1. Binding Descriptions]
   element bindingDesc {
     ((tei_model.pLike | tei_decoNote | tei_condition)+ | tei_binding+),
     tei_att.global.attributes,
@@ -3437,7 +3438,7 @@ tei_bindingDesc =
   }
 tei_binding =
   
-  ## contains a description of one binding, i.e. type of covering, boards, etc. applied to a manuscript. [10.7.3.1. Binding Descriptions]
+  ## contains a description of one binding, i.e. type of covering, boards, etc. applied to a manuscript or other object. [10.7.3.1. Binding Descriptions]
   element binding {
     (tei_model.pLike | tei_condition | tei_decoNote)+,
     tei_att.global.attributes,
@@ -3457,7 +3458,7 @@ tei_binding =
   }
 tei_accMat =
   
-  ## (accompanying material) contains details of any significant additional material which may be closely associated with the manuscript being described, such as non-contemporaneous documents or fragments bound in with the manuscript at some earlier historical period. [10.7.3.3. Accompanying Material]
+  ## (accompanying material) contains details of any significant additional material which may be closely associated with the manuscript or object being described, such as non-contemporaneous documents or fragments bound in with it at some earlier historical period. [10.7.3.3. Accompanying Material]
   element accMat {
     tei_macro.specialPara,
     tei_att.global.attributes,
@@ -3466,7 +3467,7 @@ tei_accMat =
   }
 tei_history =
   
-  ## groups elements describing the full history of a manuscript or manuscript part. [10.8. History]
+  ## groups elements describing the full history of a manuscript, manuscript part, or other object. [10.8. History]
   element history {
     (tei_model.pLike+
      | (tei_origin?, tei_provenance*, tei_acquisition?)),
@@ -3475,7 +3476,7 @@ tei_history =
   }
 tei_origin =
   
-  ## contains any descriptive or other information concerning the origin of a manuscript or manuscript part. [10.8. History]
+  ## contains any descriptive or other information concerning the origin of a manuscript, manuscript part, or other object. [10.8. History]
   element origin {
     tei_macro.specialPara,
     tei_att.global.attributes,
@@ -3485,7 +3486,7 @@ tei_origin =
   }
 tei_provenance =
   
-  ## contains any descriptive or other information concerning a single identifiable episode during the history of a manuscript or manuscript part, after its creation but before its acquisition. [10.8. History]
+  ## contains any descriptive or other information concerning a single identifiable episode during the history of a manuscript, manuscript part, or other object after its creation but before its acquisition. [10.8. History]
   element provenance {
     tei_macro.specialPara,
     tei_att.global.attributes,
@@ -3495,7 +3496,7 @@ tei_provenance =
   }
 tei_acquisition =
   
-  ## contains any descriptive or other information concerning the process by which a manuscript or manuscript part entered the holding institution. [10.8. History]
+  ## contains any descriptive or other information concerning the process by which a manuscript or manuscript part or other object entered the holding institution. [10.8. History]
   element acquisition {
     tei_macro.specialPara,
     tei_att.global.attributes,
@@ -3504,7 +3505,7 @@ tei_acquisition =
   }
 tei_custEvent =
   
-  ## (custodial event) describes a single event during the custodial history of a manuscript. [10.9.1.2. Availability and Custodial History]
+  ## (custodial event) describes a single event during the custodial history of a manuscript or other object. [10.9.1.2. Availability and Custodial History]
   element custEvent {
     tei_macro.specialPara,
     tei_att.global.attributes,
@@ -3761,6 +3762,7 @@ tei_geogFeat =
     tei_att.global.attributes,
     tei_att.naming.attributes,
     tei_att.typed.attributes,
+    tei_att.dimensions.attributes,
     empty
   }
 tei_geo =
@@ -3866,7 +3868,11 @@ tei_app =
   
   ## (apparatus entry) contains one entry in a critical apparatus, with an optional lemma and usually one or more readings or notes on the relevant passage. [12.1.1. The Apparatus Entry]
   element app {
-    (tei_model.rdgLike | tei_model.noteLike | tei_wit | tei_rdgGrp)*,
+    (tei_model.rdgLike
+     | tei_model.noteLike
+     | tei_witDetail
+     | tei_wit
+     | tei_rdgGrp)*,
     tei_att.global.attributes,
     
     ## classifies the variation contained in this element according to some convenient typology.
@@ -3910,8 +3916,9 @@ tei_rdgGrp =
   ## (reading group) within a textual variation, groups two or more readings perceived to have a genetic relationship or other affinity. [12.1. The Apparatus Entry, Readings, and Witnesses]
   element rdgGrp {
     (((tei_rdgGrp, tei_wit?)
-      | (tei_wit?, (tei_model.rdgLike, tei_wit?))*
-      | tei_model.noteLike*)+)
+      | (tei_wit??, (tei_model.rdgLike, tei_wit?))*
+      | tei_model.noteLike*
+      | tei_witDetail*)+)
     >> sch:pattern [
          id = "huon-schema-rdgGrp-only1lem-constraint-assert-7"
          "\x{a}" ~
@@ -3938,7 +3945,11 @@ tei_witDetail =
   
   ## (witness detail) gives further information about a particular witness, or witnesses, to a particular reading. [12.1. The Apparatus Entry, Readings, and Witnesses]
   element witDetail {
-    tei_macro.phraseSeq,
+    (text
+     | tei_model.gLike
+     | tei_model.phrase
+     | tei_model.global
+     | tei_bibl)*,
     tei_att.global.attributes,
     tei_att.placement.attributes,
     tei_att.pointing.attributes,
@@ -4021,7 +4032,7 @@ tei_TEI =
     tei_att.global.attributes,
     tei_att.typed.attributes,
     
-    ## specifies the major version number of the TEI Guidelines against which this document is valid.
+    ## specifies the version number of the TEI Guidelines against which this document is valid.
     attribute version {
       xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
     }?,
@@ -4102,7 +4113,7 @@ tei_div =
       (tei_model.divBottom, tei_model.global*)*)?)
     >> sch:pattern [
          id =
-           "huon-schema-div-abstractModel-structure-l-constraint-report-16"
+           "huon-schema-div-abstractModel-structure-l-constraint-report-17"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4123,7 +4134,7 @@ tei_div =
        ]
     >> sch:pattern [
          id =
-           "huon-schema-div-abstractModel-structure-p-constraint-report-17"
+           "huon-schema-div-abstractModel-structure-p-constraint-report-18"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4400,7 +4411,7 @@ tei_titlePart =
     tei_att.global.attributes,
     
     ## specifies the role of this subdivision of the title.
-    ## Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
+    ## Suggested values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) 
     [ a:defaultValue = "main" ]
     attribute type {
       
@@ -4581,6 +4592,7 @@ tei_addSpan =
     tei_att.placement.attributes,
     tei_att.typed.attributes,
     tei_att.spanning.attributes,
+    tei_att.dimensions.attributes,
     empty
   }
 tei_damage =
@@ -4690,6 +4702,7 @@ tei_delSpan =
     tei_att.transcriptional.attributes,
     tei_att.typed.attributes,
     tei_att.spanning.attributes,
+    tei_att.dimensions.attributes,
     empty
   }
 tei_ex =
@@ -4730,6 +4743,7 @@ tei_surplus =
     tei_macro.paraContent,
     tei_att.global.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     
     ## one or more words indicating why this text is believed to be superfluous, e.g. repeated, interpolated etc.
     attribute reason {
@@ -4747,6 +4761,7 @@ tei_redo =
     tei_att.global.attributes,
     tei_att.spanning.attributes,
     tei_att.transcriptional.attributes,
+    tei_att.dimensions.attributes,
     
     ## points to one or more elements representing the interventions which are being reasserted.
     attribute target {

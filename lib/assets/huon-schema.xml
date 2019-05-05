@@ -541,13 +541,16 @@
             <attDef ident="rend" usage="req" mode="change">
               <valList type="closed" mode="replace">
                 <valItem ident="black-initial">
-                  <desc>Describes black initials at laisse beginnings in Huon manuscirpts.</desc>
+                  <desc>Describes and renders black initials at laisse beginnings in Huon manuscirpts.</desc>
                 </valItem>
                 <valItem ident=" blue-initial">
-                  <desc>Describes blue initials at laisse beginnings in Huon manuscirpts.</desc>
+                  <desc>Describes and renders blue initials at laisse beginnings in Huon manuscripts.</desc>
                 </valItem>
                 <valItem ident=" bold">
                   <desc>Renders in bold Latin citations occuring within the text body.</desc>
+                </valItem>
+                <valItem ident=" gold-initial">
+                    <desc>Describes and renders gold initials at laisse beginnings in Huon manuscripts</desc>
                 </valItem>
                 <valItem ident=" italic">
                   <desc>Renders in italic words, phrases, and titles that occur in metadeta, notes,
@@ -558,10 +561,10 @@
                     is italicized.</desc>
                 </valItem>
                 <valItem ident=" red-initial">
-                  <desc>Describes red initials at laisse beginnings in Huon manuscirpts.</desc>
+                  <desc>Describes and renders red initials at laisse beginnings in Huon manuscirpts.</desc>
                 </valItem>
                 <valItem ident=" strike">
-                  <desc>Describes scribal error protocal in which words or phrases are struck
+                  <desc>Describes and renders scribal error protocal in which words or phrases are struck
                     through.</desc>
                 </valItem>
                 <valItem ident=" super">
@@ -569,7 +572,7 @@
                     within the text.</desc>
                 </valItem>
                 <valItem ident=" red-corr">
-                  <desc>Describes scribal error protocal in which words or phrases are corrected in
+                  <desc>Describes and renders scribal error protocal in which words or phrases are corrected in
                     red.</desc>
                 </valItem>
               </valList>
